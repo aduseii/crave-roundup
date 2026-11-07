@@ -1107,31 +1107,42 @@ def http_post_json(url: str, body: dict, headers: dict, timeout: int = 60) -> di
     return r.json()
 
 
-def gemini_model(cfg: dict) -> str | None:
+def gemini_models(cfg: dict) -> list[str]:
+    """Flash models to try, best first. If one is busy, the next one is used."""
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        return None
-    if "model" in _GEMINI:
-        return _GEMINI["model"]
-    pick = cfg.get("captions", {}).get("model") or ""
-    if not pick:
-        names: list[str] = []
-        try:
-            data = http_get(f"{GEMINI}/models", params={"pageSize": 200},
-                            headers={"x-goog-api-key": key}).json()
-            names = [m["name"].split("/", 1)[-1] for m in data.get("models", [])
-                     if "generateContent" in m.get("supportedGenerationMethods", [])]
-        except Exception as e:
-            log(f"  Gemini model list failed: {type(e).__name__}{': ' + str(e) if isinstance(e, FetchError) else ''}")
-        if "gemini-flash-latest" in names:
-            pick = "gemini-flash-latest"
-        else:
-            skip = ("lite", "image", "tts", "live", "audio", "exp", "preview", "embedding", "8b")
-            flash = sorted(n for n in names if "flash" in n and not any(x in n for x in skip))
-            pick = flash[-1] if flash else "gemini-flash-latest"
-    _GEMINI["model"] = pick
-    log(f"  Gemini model: {pick}")
-    return pick
+        return []
+    if "models" in _GEMINI:
+        return [m for m in _GEMINI["models"] if m not in _GEMINI.setdefault("busy", set())]
+    pinned = cfg.get("captions", {}).get("model") or ""
+    names: list[str] = []
+    try:
+        data = http_get(f"{GEMINI}/models", params={"pageSize": 200}, headers={"x-goog-api-key": key}).json()
+        names = [m["name"].split("/", 1)[-1] for m in data.get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", [])]
+    except Exception as e:
+        log(f"  Gemini model list failed: {type(e).__name__}")
+    skip = ("image", "tts", "live", "audio", "exp", "embedding", "8b", "thinking", "robotics", "computer")
+    flash = [n for n in names if "flash" in n and not any(x in n for x in skip)]
+
+    def version(n):
+        m = re.search(r"(\d+(?:\.\d+)?)", n)
+        return float(m.group(1)) if m else 0.0
+    full = sorted([n for n in flash if "lite" not in n and "latest" not in n and "preview" not in n], key=version, reverse=True)
+    previews = sorted([n for n in flash if "lite" not in n and "preview" in n], key=version, reverse=True)
+    lites = sorted([n for n in flash if "lite" in n and "latest" not in n and "preview" not in n], key=version, reverse=True)
+    order = ([pinned] if pinned else []) + [n for n in ("gemini-flash-latest",) if n in names] + full[:2] \
+        + previews[:1] + [n for n in ("gemini-flash-lite-latest",) if n in names] + lites[:1]
+    if not order:
+        order = ["gemini-flash-latest"]
+    seen, models = set(), []
+    for n in order:
+        if n not in seen:
+            seen.add(n)
+            models.append(n)
+    _GEMINI["models"] = models
+    log(f"  Gemini models to try: {', '.join(models)}")
+    return models
 
 
 def article_text(url: str) -> str:
@@ -1165,8 +1176,8 @@ def draft_caption(c: dict, cfg: dict) -> str | None:
     """A Gemini draft in the house style, built only from the article itself."""
     if c["key"] in DRAFTS:
         return DRAFTS[c["key"]]["text"]
-    model = gemini_model(cfg)
-    if not model or c["kind"] != "article":
+    models = gemini_models(cfg)
+    if not models or c["kind"] != "article":
         return None
     key = os.environ["GEMINI_API_KEY"]
     rules_path = CONFIG_DIR / "caption_rules.md"
@@ -1192,24 +1203,28 @@ def draft_caption(c: dict, cfg: dict) -> str | None:
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.3, "maxOutputTokens": 2048},
     }
-    for attempt in range(2):
-        try:
-            data = http_post_json(f"{GEMINI}/models/{model}:generateContent", body,
-                                  {"x-goog-api-key": key, "Content-Type": "application/json"})
-            parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
-            out = tidy_caption("".join(part.get("text", "") for part in parts if not part.get("thought")))
-            if not out:
-                return None
-            DRAFTS[c["key"]] = {"text": out, "model": model, "at": iso(now_utc()),
-                                "from_article": bool(text)}
-            return out
-        except Exception as e:
-            msg = str(e) if isinstance(e, FetchError) else type(e).__name__  # FetchError holds only "HTTP nnn"
-            if "429" in msg and attempt == 0:
-                time.sleep(20)
-                continue
-            log(f"  Gemini draft failed: {redact(msg)}")
-            return None
+    for model in models:
+        for attempt in range(2):
+            try:
+                data = http_post_json(f"{GEMINI}/models/{model}:generateContent", body,
+                                      {"x-goog-api-key": key, "Content-Type": "application/json"})
+                parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
+                out = tidy_caption("".join(part.get("text", "") for part in parts if not part.get("thought")))
+                if not out:
+                    break  # empty answer: try the next model
+                DRAFTS[c["key"]] = {"text": out, "model": model, "at": iso(now_utc()),
+                                    "from_article": bool(text)}
+                return out
+            except Exception as e:
+                msg = str(e) if isinstance(e, FetchError) else type(e).__name__  # FetchError holds only "HTTP nnn"
+                busy = any(code in msg for code in ("429", "500", "503", "504"))
+                if busy and attempt == 0:
+                    time.sleep(8)
+                    continue
+                log(f"  Gemini {model} failed: {redact(msg)}")
+                if busy or "404" in msg:
+                    _GEMINI.setdefault("busy", set()).add(model)  # skip it for the rest of this run
+                break
     return None
 
 
@@ -1220,6 +1235,9 @@ def draft_many(clusters: list[dict], cfg: dict, limit: int = 12) -> int:
     for c in clusters[:limit]:
         if c["key"] in DRAFTS or c["kind"] != "article":
             continue
+        if not gemini_models(cfg):
+            log("  every Gemini model is busy right now; drafts will be tried again next run")
+            break
         if draft_caption(c, cfg):
             made += 1
             time.sleep(float(cfg.get("captions", {}).get("pause_seconds", 5)))
