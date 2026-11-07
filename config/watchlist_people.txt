@@ -1,0 +1,137 @@
+# People to watch (actors, comedians, creators), full names, one per line.
+# Stories that mention any of these are kept. Lines starting with # are ignored.
+
+Quinta Brunson
+Janelle James
+Tyler James Williams
+Sheryl Lee Ralph
+Lisa Ann Walter
+Chris Perfetti
+Chuck Lorre
+Leanne Morgan
+Melissa McCarthy
+Billy Gardell
+Jim Parsons
+Kaley Cuoco
+Johnny Galecki
+Mayim Bialik
+Iain Armitage
+Montana Jordan
+Jon Cryer
+Charlie Sheen
+Ashton Kutcher
+Mila Kunis
+Topher Grace
+Reba McEntire
+Tim Allen
+Cedric the Entertainer
+Tichina Arnold
+Ray Romano
+Kevin James
+Jennifer Aniston
+Courteney Cox
+Lisa Kudrow
+Matt LeBlanc
+David Schwimmer
+Jerry Seinfeld
+Julia Louis-Dreyfus
+Larry David
+Jason Alexander
+Steve Carell
+Jenna Fischer
+Angela Kinsey
+Rainn Wilson
+John Krasinski
+Mindy Kaling
+B.J. Novak
+Ed Helms
+Michael Schur
+Amy Poehler
+Nick Offerman
+Aubrey Plaza
+Adam Scott
+Tina Fey
+Andy Samberg
+Terry Crews
+Stephanie Beatriz
+Zooey Deschanel
+Jake Johnson
+Max Greenfield
+Lamorne Morris
+Sofia Vergara
+Ty Burrell
+Julie Bowen
+Jesse Tyler Ferguson
+Eric Stonestreet
+Ariel Winter
+Sarah Hyland
+Steven Levitan
+Kelsey Grammer
+Ted Danson
+Kristen Bell
+Neil Patrick Harris
+Josh Radnor
+Jason Segel
+Alyson Hannigan
+Cobie Smulders
+Hilary Duff
+Danny DeVito
+Charlie Day
+Kaitlin Olson
+Rob McElhenney
+Glenn Howerton
+Frankie Muniz
+Bryan Cranston
+Wendi McLendon-Covey
+Tracee Ellis Ross
+Anthony Anderson
+Kenan Thompson
+Issa Rae
+Jean Smart
+Hannah Einbinder
+Martin Short
+Steve Martin
+Jason Sudeikis
+Hannah Waddingham
+Brett Goldstein
+Kristen Wiig
+Maya Rudolph
+Ayo Edebiri
+Jeremy Allen White
+Sean Hayes
+Debra Messing
+Eric McCormack
+Megan Mullally
+Will Smith
+Tatyana Ali
+Alfonso Ribeiro
+Jaleel White
+Raven-Symoné
+Kel Mitchell
+Kenan Thompson
+Tisha Campbell
+Martin Lawrence
+Queen Latifah
+Bob Saget
+John Stamos
+Candace Cameron Bure
+Fran Drescher
+Ellen DeGeneres
+Patricia Heaton
+Tony Danza
+Dan Levy
+Eugene Levy
+Catherine O'Hara
+Annie Murphy
+Kumail Nanjiani
+Jenna Ortega
+Bowen Yang
+Sarah Sherman
+Seth Meyers
+Jimmy Fallon
+Jimmy Kimmel
+Stephen Colbert
+Nate Bargatze
+Sebastian Maniscalco
+Kevin Hart
+Bill Burr

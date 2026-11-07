@@ -1,0 +1,76 @@
+name: Roundup
+
+on:
+  schedule:
+    - cron: "47 6 * * *"     # morning roundup, ready around 7am GMT
+    - cron: "47 17 * * *"    # evening roundup, ready around 6pm GMT
+    - cron: "13,43 * * * *"  # breaking check every 30 minutes
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Which run"
+        required: true
+        default: morning
+        type: choice
+        options: [morning, evening, breaking]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: roundup
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Pick the mode
+        id: mode
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then MODE="$INPUT_MODE"
+          elif [ "$SCHEDULE" = "47 6 * * *" ]; then MODE=morning
+          elif [ "$SCHEDULE" = "47 17 * * *" ]; then MODE=evening
+          else MODE=breaking
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          echo "Mode: $MODE"
+
+      - name: Run the roundup
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python roundup.py "${{ steps.mode.outputs.mode }}"
+
+      - name: Save pages and data
+        env:
+          MODE: ${{ steps.mode.outputs.mode }}
+        run: |
+          git config user.name "roundup-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data docs
+          if git diff --cached --quiet; then
+            echo "Nothing new to save"
+            exit 0
+          fi
+          git commit -m "$MODE roundup $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep 5
+          done
+          exit 1

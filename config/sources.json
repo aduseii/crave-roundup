@@ -1,0 +1,54 @@
+{
+  "user_agent": "SitcomCraveRoundup/1.0 (+https://github.com/aduseii/crave-roundup)",
+  "feeds": [
+    {"name": "Deadline", "url": "https://deadline.com/feed/"},
+    {"name": "Variety", "url": "https://variety.com/v/tv/feed/"},
+    {"name": "The Hollywood Reporter", "url": "https://www.hollywoodreporter.com/c/tv/feed/"},
+    {"name": "TVLine", "url": "https://tvline.com/feed/"},
+    {"name": "TV Insider", "url": "https://www.tvinsider.com/feed/"},
+    {"name": "TheWrap", "url": "https://www.thewrap.com/feed/"},
+    {"name": "Vulture", "url": "https://www.vulture.com/rss/index.xml"},
+    {"name": "Decider", "url": "https://decider.com/feed/"},
+    {"name": "Collider", "url": "https://collider.com/feed/"},
+    {"name": "IndieWire", "url": "https://www.indiewire.com/feed/"},
+    {"name": "E! News", "url": "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml"},
+    {"name": "People", "url": "https://people.com/feed/"},
+    {"name": "Entertainment Weekly", "url": "https://ew.com/feed/"},
+    {"name": "Just Jared", "url": "https://www.justjared.com/feed/"}
+  ],
+  "google_news": {
+    "base": "https://news.google.com/rss/search",
+    "params": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
+    "window": "1d",
+    "queries": [
+      "sitcom",
+      "\"comedy series\"",
+      "sitcom trailer OR \"comedy series\" trailer",
+      "\"sitcom star\" OR \"sitcom actor\" OR \"sitcom actress\"",
+      "late-night show guests"
+    ],
+    "breaking_queries": [
+      "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+      "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")"
+    ],
+    "watchlist_batch": 6,
+    "pause_seconds": 1.0
+  },
+  "youtube": [
+    {"name": "The Tonight Show Starring Jimmy Fallon", "channel_id": "UC8-Th83bH_thdKZDJCrn88g", "kind": "talk"},
+    {"name": "Jimmy Kimmel Live", "channel_id": "UCa6vGFO9ty8v5KZJXQxdhaw", "kind": "talk"},
+    {"name": "Late Night with Seth Meyers", "channel_id": "UCVTyTA7-g9nopHeHbeuvpRA", "kind": "talk"},
+    {"name": "The Late Show with Stephen Colbert", "channel_id": "UCMtFAi84ehTSYSE9XoHefig", "kind": "talk"},
+    {"name": "Saturday Night Live", "channel_id": "UCqFzWxSCi39LnW1JKFR3efg", "kind": "talk"},
+    {"name": "The Daily Show", "channel_id": "UCwWhs_6x42TyRM4Wstoq8HA", "kind": "talk"},
+    {"name": "First We Feast (Hot Ones)", "channel_id": "UCPD_bxCRGpmmeQcbe2kpPaA", "kind": "talk"},
+    {"name": "Comedy Central", "channel_id": "UCUsN5ZwHx2kILm84-jPDeXw", "kind": "talk"},
+    {"name": "Netflix", "channel_id": "UCWOA1ZGywLbqmigxE4Qlvuw", "kind": "streamer"},
+    {"name": "Prime Video", "channel_id": "UCQJWtTnAHhEG5w4uN0udnUQ", "kind": "streamer"},
+    {"name": "Hulu", "channel_id": "UCE5mQnNl8Q4H2qcv4ikaXeA", "kind": "streamer"},
+    {"name": "Apple TV", "channel_id": "UC1Myj674wRVXB9I4c6Hm5zA", "kind": "streamer"},
+    {"name": "HBO Max", "channel_id": "UCx-KWLTKlB83hDI6UKECtJQ", "kind": "streamer"},
+    {"name": "Variety", "channel_id": "UCgRQHK8Ttr1j9xCEpCAlgbQ", "kind": "outlet"},
+    {"name": "Entertainment Tonight", "channel_id": "UCdtXPiqI2cLorKaPrfpKc4g", "kind": "outlet"}
+  ]
+}
