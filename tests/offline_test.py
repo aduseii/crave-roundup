@@ -4,8 +4,10 @@ and people), so the pipeline can be checked without internet access.
 
     python tests/offline_test.py [output_dir]
 """
+import html as htmllib
 import json
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -108,6 +110,7 @@ class Resp:
     def __init__(self, body):
         self._body = body
         self.content = body.encode() if isinstance(body, str) else json.dumps(body).encode()
+        self.text = self.content.decode()
 
     def json(self):
         return self._body if not isinstance(self._body, str) else json.loads(self._body)
@@ -128,6 +131,17 @@ def fake_get(url, *, params=None, headers=None, timeout=25):
         if params.get("channel_id") == "UC8-Th83bH_thdKZDJCrn88g":
             return Resp(YT)
         raise roundup.FetchError("HTTP 404")
+    if url == "https://deadline.example/maple-renewed":
+        return Resp("<html><body><nav><p>Menu menu menu menu menu menu menu menu menu menu</p></nav><article>"
+                    "<p>NBC has renewed the workplace comedy Maple Street for a fourth season, the network said Friday.</p>"
+                    "<p>The series, created by Dana Fictional, averaged 6 million viewers in its third season.</p>"
+                    "</article></body></html>")
+    if "generativelanguage" in url and url.endswith("/models"):
+        assert (headers or {}).get("x-goog-api-key") == "gem-key-456" and "key" not in params
+        return Resp({"models": [
+            {"name": "models/gemini-2.5-flash", "supportedGenerationMethods": ["generateContent"]},
+            {"name": "models/gemini-flash-latest", "supportedGenerationMethods": ["generateContent"]},
+            {"name": "models/gemini-flash-lite-latest", "supportedGenerationMethods": ["generateContent"]}]})
     if "wikidata" in url:
         q = params["query"]
         if "P569/psv:P569" in q:
@@ -149,6 +163,20 @@ def fake_get(url, *, params=None, headers=None, timeout=25):
 
 
 ALERTS = []
+GEMINI_CALLS = []
+
+
+def fake_post_json(url, body, headers, timeout=60):
+    assert headers.get("x-goog-api-key") == "gem-key-456" and "key=" not in url
+    prompt = body["contents"][0]["parts"][0]["text"]
+    GEMINI_CALLS.append((url, prompt, body["systemInstruction"]["parts"][0]["text"]))
+    headline = re.search(r"Headline: (.*)", prompt).group(1)
+    return {"candidates": [{"content": {"parts": [
+        {"text": f"DRAFT for {headline} \u2014 returning soon. https://x.com/some/link (via Deadline)"}]}}]}
+
+
+roundup.http_post_json = fake_post_json
+os.environ["GEMINI_API_KEY"] = "gem-key-456"
 roundup.http_get = fake_get
 roundup.send_telegram = lambda text, cfg=None: ALERTS.append(text) or True
 roundup.time.sleep = lambda s: None
@@ -212,6 +240,25 @@ check([a for a in ALERTS if a.startswith("BREAKING")] == [], "first run does not
 check(any(a.startswith("Morning roundup is ready") and "aduseii.github.io/crave-roundup/" in a for a in ALERTS),
       "morning roundup notice sent to Telegram")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
+caps = [htmllib.unescape(c) for c in re.findall(r'data-cap="([^"]*)"', idx)]
+check("Happy birthday to the beautiful Test Person, who turns 45 today!\nBorn 1981. 'Old Show' (2005), 'Maple Street' (2019)" in caps,
+      "birthday caption in the exact house format")
+check("Remembering the talented Old Actor, who passed away 21 years ago today. \U0001F54A\uFE0F\nMar 2, 1930 - Nov 7, 2005\nKnown for: 'Classic Sitcom'." in caps,
+      "remembrance caption in the exact house format")
+check("'Classic Sitcom' premiered 30 years ago today! 1996, NBC." in caps, "premiere anniversary caption")
+otd = idx[idx.index('id="sec-anniversaries"'):]
+check(otd.index("<h3>Birthdays</h3>") < otd.index("<h3>Death anniversaries</h3>"), "birthdays come first in On this day")
+drafts = [c for c in caps if c.startswith("DRAFT for")]
+check(len(drafts) >= 5, f"Gemini drafts shown for the posting schedule ({len(drafts)})")
+check(all("\u2014" not in d and "http" not in d for d in drafts), "drafts have no em dash and no links")
+maple = [cl for cl in GEMINI_CALLS if "Maple Street\u2019 Renewed" in cl[1]]
+check(maple and "averaged 6 million viewers" in maple[0][1] and "Menu menu" not in maple[0][1],
+      "Gemini gets the article text (not the menus)")
+check(maple and "Use only facts stated in the article" in maple[0][2], "Gemini gets the house rules")
+check("flash-latest" in GEMINI_CALLS[0][0] and "lite" not in GEMINI_CALLS[0][0], "picks the Flash model, not Lite")
+check("gem-key-456" not in idx and "gem-key-456" not in (OUT / "data" / "state.json").read_text(),
+      "Gemini key never written to pages or data")
+n_calls = len(GEMINI_CALLS)
 check('src="../app.js"' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
       "edition page points at app.js correctly")
 
@@ -220,6 +267,8 @@ run("breaking", "2026-11-07T13:13:00Z")
 BRK = lambda: [a for a in ALERTS if a.startswith("BREAKING")]
 check(len(BRK()) == 1 and "Pat Example" in BRK()[0] and "In memoriam" in BRK()[0],
       "breaking check sends one alert for the new story")
+check("Draft caption (check before posting):\nDRAFT for Sitcom Actor Pat Example Dies At 81" in BRK()[0],
+      "breaking alert includes the draft caption")
 check("aduseii.github.io/crave-roundup/breaking.html" in (BRK()[0] if BRK() else ""),
       "alert links to the breaking page")
 brk = (OUT / "docs" / "breaking.html").read_text()
@@ -228,7 +277,9 @@ check("Pat Example" in brk and "Maple Street" in brk, "breaking page lists both 
 run("breaking", "2026-11-07T13:43:00Z")
 check(len(BRK()) == 1, "the same story is not alerted twice")
 
+calls_before_evening = len(GEMINI_CALLS)
 run("evening", "2026-11-07T17:50:00Z")
+check(len(GEMINI_CALLS) == calls_before_evening, "drafts are reused, not written twice")
 eve = (OUT / "docs" / "index.html").read_text()
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")

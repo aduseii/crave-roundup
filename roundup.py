@@ -561,6 +561,8 @@ def prune(state: dict, now: dt.datetime) -> None:
     state["alerted"] = {k: v for k, v in state.get("alerted", {}).items()
                         if (parse_iso(v) or now) >= cutoff}
     state["editions"] = state.get("editions", [])[-120:]
+    state["drafts"] = {k: v for k, v in state.get("drafts", {}).items()
+                       if (parse_iso(v.get("at")) or now) >= cutoff}
 
 
 def item_time(it: dict) -> dt.datetime:
@@ -1033,7 +1035,187 @@ def alert_text(c: dict) -> str:
     url = site_url()
     if url:
         lines.append(f"Roundup: {url}/breaking.html")
+    draft = DRAFTS.get(c["key"], {}).get("text")
+    if draft:
+        lines += ["", "Draft caption (check before posting):", draft]
     return "\n".join(lines)
+
+
+# --------------------------------------------------------------------------
+# Captions: exact templates for On this day, Gemini drafts for news
+# --------------------------------------------------------------------------
+
+NETWORK_SHORT = {
+    "American Broadcasting Company": "ABC", "National Broadcasting Company": "NBC",
+    "Columbia Broadcasting System": "CBS", "CBS Broadcasting": "CBS", "Fox Broadcasting Company": "FOX",
+    "Fox": "FOX", "Home Box Office": "HBO", "British Broadcasting Corporation": "BBC",
+    "United Paramount Network": "UPN", "Black Entertainment Television": "BET",
+}
+
+
+def short_network(nets: str) -> str:
+    return ", ".join(NETWORK_SHORT.get(n.strip(), n.strip()) for n in nets.split(",") if n.strip())
+
+
+def adjective(gender: str) -> str:
+    return "the beautiful" if gender in ("female", "trans woman") else "the talented"
+
+
+def plural_years(n: int) -> str:
+    return f"{n} year{'s' if n != 1 else ''}"
+
+
+def birthday_caption(b: dict) -> str:
+    shows = ", ".join(b["shows"][:2])
+    return (f"Happy birthday to {adjective(b['gender'])} {b['name']}, who turns {b['years']} today!\n"
+            f"Born {b['date'].year}." + (f" {shows}" if shows else ""))
+
+
+def death_caption(d: dict) -> str:
+    names = [s.rsplit(" (", 1)[0] for s in d["shows"][:2]]
+    dates = (f"{short_date(d['born'])} - " if d.get("born") else "") + short_date(d["date"])
+    lines = [f"Remembering {adjective(d['gender'])} {d['name']}, who passed away "
+             f"{plural_years(d['years'])} ago today. 🕊️", dates]
+    if names:
+        lines.append(f"Known for: {', '.join(names)}.")
+    return "\n".join(lines)
+
+
+def show_anniv_caption(s: dict, verb: str) -> str:
+    net = short_network(s["networks"])
+    return f"'{s['name']}' {verb} {plural_years(s['years'])} ago today! {s['date'].year}" + (f", {net}." if net else ".")
+
+
+DRAFTS: dict = {}   # cluster key -> {"text", "model", "at"}; loaded from state each run
+GEMINI = "https://generativelanguage.googleapis.com/v1beta"
+_GEMINI: dict = {}
+
+
+def http_post_json(url: str, body: dict, headers: dict, timeout: int = 60) -> dict:
+    r = SESSION.post(url, json=body, headers=headers, timeout=timeout)
+    if r.status_code >= 400:
+        raise FetchError(f"HTTP {r.status_code}")
+    return r.json()
+
+
+def gemini_model(cfg: dict) -> str | None:
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return None
+    if "model" in _GEMINI:
+        return _GEMINI["model"]
+    pick = cfg.get("captions", {}).get("model") or ""
+    if not pick:
+        names: list[str] = []
+        try:
+            data = http_get(f"{GEMINI}/models", params={"pageSize": 200},
+                            headers={"x-goog-api-key": key}).json()
+            names = [m["name"].split("/", 1)[-1] for m in data.get("models", [])
+                     if "generateContent" in m.get("supportedGenerationMethods", [])]
+        except Exception as e:
+            log(f"  Gemini model list failed: {redact(str(e))[:100]}")
+        if "gemini-flash-latest" in names:
+            pick = "gemini-flash-latest"
+        else:
+            skip = ("lite", "image", "tts", "live", "audio", "exp", "preview", "embedding", "8b")
+            flash = sorted(n for n in names if "flash" in n and not any(x in n for x in skip))
+            pick = flash[-1] if flash else "gemini-flash-latest"
+    _GEMINI["model"] = pick
+    log(f"  Gemini model: {pick}")
+    return pick
+
+
+def article_text(url: str) -> str:
+    """Readable paragraphs of the article, so the draft can stick to what it says."""
+    if not url or "news.google." in url:
+        return ""
+    try:
+        page_html = http_get(url, headers={"Accept": "text/html"}, timeout=20).text
+    except Exception:
+        return ""
+    m = re.search(r"<article\b.*?</article>", page_html, re.S | re.I)
+    scope = m.group(0) if m else page_html
+    scope = re.sub(r"<(script|style|figure|aside|nav|footer)\b.*?</\1>", " ", scope, flags=re.S | re.I)
+    paras = [clean_html(p) for p in re.findall(r"<p\b[^>]*>(.*?)</p>", scope, re.S | re.I)]
+    text = "\n".join(p for p in paras if len(p) > 40)
+    return text[:7000]
+
+
+def tidy_caption(text: str) -> str:
+    text = text.strip().strip("`").strip()
+    if len(text) > 1 and text[0] == text[-1] == '"':
+        text = text[1:-1].strip()
+    text = re.sub(r"https?://\S+", "", text)                 # captions carry no links
+    text = text.replace(" — ", ", ").replace("—", ", ").replace(" – ", ", ")
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"[ \t]+\n", "\n", text)
+    return text.strip()[:700]
+
+
+def draft_caption(c: dict, cfg: dict) -> str | None:
+    """A Gemini draft in the house style, built only from the article itself."""
+    if c["key"] in DRAFTS:
+        return DRAFTS[c["key"]]["text"]
+    model = gemini_model(cfg)
+    if not model or c["kind"] != "article":
+        return None
+    key = os.environ["GEMINI_API_KEY"]
+    rules_path = CONFIG_DIR / "caption_rules.md"
+    if not rules_path.exists():
+        rules_path = Path(__file__).resolve().parent / "config" / "caption_rules.md"
+    rules = rules_path.read_text(encoding="utf-8") if rules_path.exists() else ""
+    p = c["primary"]
+    direct = [(o, u) for o, u in c["sources"] if "news.google." not in u]
+    outlet, link = direct[0] if direct else c["sources"][0]
+    text = article_text(link)
+    pub = parse_iso(p.get("published"))
+    prompt = "\n".join([
+        "Write the caption for this story.",
+        f"Headline: {p['title']}",
+        f"Outlet: {outlet}",
+        f"Published: {us_date(pub.date()) if pub else 'recently'}",
+        f"Summary: {c['summary'] or '(none)'}",
+        "Article text:",
+        text or "(not available: use only the headline and summary)",
+    ])
+    body = {
+        "systemInstruction": {"parts": [{"text": rules}]},
+        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+        "generationConfig": {"temperature": 0.3, "maxOutputTokens": 2048},
+    }
+    for attempt in range(2):
+        try:
+            data = http_post_json(f"{GEMINI}/models/{model}:generateContent", body,
+                                  {"x-goog-api-key": key, "Content-Type": "application/json"})
+            parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
+            out = tidy_caption("".join(part.get("text", "") for part in parts if not part.get("thought")))
+            if not out:
+                return None
+            DRAFTS[c["key"]] = {"text": out, "model": model, "at": iso(now_utc()),
+                                "from_article": bool(text)}
+            return out
+        except Exception as e:
+            msg = redact(str(e))
+            if "429" in msg and attempt == 0:
+                time.sleep(20)
+                continue
+            log(f"  Gemini draft failed: {msg[:120]}")
+            return None
+    return None
+
+
+def draft_many(clusters: list[dict], cfg: dict, limit: int = 12) -> int:
+    if not os.environ.get("GEMINI_API_KEY"):
+        return 0
+    made = 0
+    for c in clusters[:limit]:
+        if c["key"] in DRAFTS or c["kind"] != "article":
+            continue
+        if draft_caption(c, cfg):
+            made += 1
+            time.sleep(float(cfg.get("captions", {}).get("pause_seconds", 5)))
+    log(f"  {made} new caption drafts")
+    return made
 
 
 # --------------------------------------------------------------------------
@@ -1133,6 +1315,18 @@ input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visi
 details.more,details.other{margin:var(--s2) 0}
 details.more > summary,details.other > summary{cursor:pointer;font-weight:600;font-size:var(--t2);padding:var(--s3) 0;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
 details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
+.cap{margin:var(--s3) var(--s7) 0 0;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);cursor:auto}
+.cap-h{font-size:var(--t1);color:var(--slate);margin-bottom:var(--s1)}
+.cap-t{margin:0 0 var(--s3);font-size:var(--t2);white-space:pre-line;-webkit-user-select:text;user-select:text}
+.capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
+.today .cap{margin-right:0}
+details.capd{margin-top:var(--s2)}
+details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
+details.capd > summary::-webkit-details-marker{display:none}
+details.capd > summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 0 3px var(--s1)}
+details.capd[open] > summary::after{transform:rotate(-135deg);margin:3px 0 0 var(--s1)}
+details.capd .cap{margin-top:var(--s1)}
 .item.posted{opacity:.45}
 body.hideposted .item.posted{display:none}
 
@@ -1309,8 +1503,24 @@ def links_html(sources: list[tuple[str, str]], show: int = 3) -> str:
             + ", ".join(rest) + "</details>")
 
 
+def caption_html(text: str, note: str) -> str:
+    return (f'<div class="cap" data-cap="{E(text)}"><div class="cap-h">{E(note)}</div>'
+            f'<p class="cap-t">{E(text)}</p>'
+            f'<button type="button" class="capcopy">Copy caption</button></div>')
+
+
+def draft_block(key: str) -> str:
+    d = DRAFTS.get(key)
+    if not d:
+        return ""
+    note = ("Draft caption by Gemini. Check it against the source before posting."
+            if d.get("from_article", True) else
+            "Draft caption by Gemini from the headline only (the article couldn't be read). Check it carefully.")
+    return f'<details class="capd"><summary>Draft caption</summary>{caption_html(d["text"], note)}</details>'
+
+
 def item_html(key: str, packet: str, title: str, *, label: str = "", when: str = "",
-              meta: str = "", summary: str = "", anchor: bool = True) -> str:
+              meta: str = "", summary: str = "", anchor: bool = True, caption: str = "") -> str:
     idattr = f' id="s-{E(key)}"' if anchor else ""
     k = kicker(label)
     out = [f'<div class="item"{idattr} data-id="{E(key)}" data-packet="{E(packet)}">']
@@ -1325,6 +1535,8 @@ def item_html(key: str, packet: str, title: str, *, label: str = "", when: str =
         out.append(f'<div class="sum">{E(summary)}</div>')
     if meta:
         out.append(f'<div class="meta">{meta}</div>')
+    if caption:
+        out.append(caption)
     out.append("</div>")
     return "\n".join(out)
 
@@ -1332,7 +1544,7 @@ def item_html(key: str, packet: str, title: str, *, label: str = "", when: str =
 def cluster_html(c: dict, now: dt.datetime, when: str | None = None) -> str:
     return item_html(c["key"], story_packet(c), c["primary"]["title"], label=chip_for(c),
                      when=when if when is not None else ago(c["time"], now),
-                     meta=links_html(c["sources"]), summary=c["summary"])
+                     meta=links_html(c["sources"]), summary=c["summary"], caption=draft_block(c["key"]))
 
 
 def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
@@ -1360,21 +1572,25 @@ def anniv_html(ann: dict, today: dt.date) -> str:
     block("Birthdays", ann.get("birthdays", []), lambda b: item_html(
         f"bday-{b['qid']}-{today.year}", birthday_packet(b),
         f"{b['name']}, turns {b['years']} today", label="Birthday", when=f"born {b['date'].year}",
-        meta=links(b), summary=", ".join(b["shows"])))
+        meta=links(b), summary=", ".join(b["shows"]),
+        caption=caption_html(birthday_caption(b), "Caption in your birthday format")))
     block("Death anniversaries", ann.get("deaths", []), lambda d: item_html(
         f"death-{d['qid']}-{today.year}", death_packet(d),
         f"{d['name']}, passed away {d['years']} years ago today", label="Remembering",
         when=str(d["date"].year), meta=links(d),
         summary=(f"{short_date(d['born'])} - " if d.get("born") else "") + short_date(d["date"])
-        + ". " + ", ".join(d["shows"])))
+        + ". " + ", ".join(d["shows"]),
+        caption=caption_html(death_caption(d), "Caption in your remembrance format")))
     block("Premieres", ann.get("premieres", []), lambda s: item_html(
         f"prem-{s['qid']}-{today.year}", show_anniv_packet(s, "premiered"),
         f"'{s['name']}' premiered {s['years']} years ago today", label="Anniversary",
-        when=str(s["date"].year), meta=links(s), summary=s["networks"]))
+        when=str(s["date"].year), meta=links(s), summary=s["networks"],
+        caption=caption_html(show_anniv_caption(s, "premiered"), "Caption in your anniversary format")))
     block("Finales", ann.get("finales", []), lambda s: item_html(
         f"fin-{s['qid']}-{today.year}", show_anniv_packet(s, "ended"),
         f"'{s['name']}' ended {s['years']} years ago today", label="Finale",
-        when=str(s["date"].year), meta=links(s), summary=s["networks"]))
+        when=str(s["date"].year), meta=links(s), summary=s["networks"],
+        caption=caption_html(show_anniv_caption(s, "ended"), "Caption in your anniversary format")))
     return "\n".join(parts)
 
 
@@ -1425,7 +1641,7 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
             f'<div class="time" aria-label="Post around {clock(slot)} GMT">{h}<small>{":%02d" % slot.minute if slot.minute else ""}{ampm}</small></div>'
             f'<div><label><span class="t">{E(c["primary"]["title"])}</span>'
             f'<input type="checkbox" class="pick" aria-label="Pick this story"></label>'
-            f'<div class="meta">{meta}</div></div></div>')
+            f'<div class="meta">{meta}</div>{draft_block(c["key"])}</div></div>')
     return (h2("Today's posting schedule", "sec-today", None)
             + '\n<p class="muted" style="margin:8px 0 0">The ten biggest stories, one an hour. Times are GMT.</p>'
             + '\n<div class="today">\n' + "\n".join(rows)
@@ -1492,7 +1708,7 @@ def write_archive(state: dict) -> None:
                                                desc="Every morning and evening Sitcom Crave roundup."))
 
 
-def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) -> str:
+def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, cfg: dict | None = None) -> str:
     name = f"{now.date().isoformat()}-{mode}"
     # re-running today's edition rebuilds it from the same starting point
     earlier = [e for e in state.get("editions", []) if e["name"] != name]
@@ -1516,6 +1732,9 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
     ranked = [c for c in sorted(clusters, key=lambda c: -c["score"]) if c["kind"] == "article"][:10]
 
     today = now.date()
+    if cfg is not None and os.environ.get("GEMINI_API_KEY"):
+        log("Caption drafts")
+        draft_many(ranked + by_section["breaking"], cfg)
     log("Extras")
     ann = anniversaries(today, health) if mode == "morning" else {}
     ups = upcoming(today, health)
@@ -1599,15 +1818,19 @@ def run(mode: str) -> int:
     wl = Watchlist(load_lines(CONFIG_DIR / "watchlist_shows.txt"),
                    load_lines(CONFIG_DIR / "watchlist_people.txt"))
     first_run = not STATE_FILE.exists()
+    _SECRETS.append(os.environ.get("GEMINI_API_KEY", ""))
     if os.environ.get("TELEGRAM_BOT_TOKEN"):
         telegram_chat(cfg)
     state = load_state()
+    global DRAFTS
+    DRAFTS = state.setdefault("drafts", {})
     refilter(state, wl, cfg)
     log(f"{mode} run at {iso(now)}")
 
     raw, health = collect(mode, cfg, wl)
     added = merge(state, raw, wl, now)
     prune(state, now)
+    DRAFTS = state["drafts"]  # prune made a fresh dict; keep writing into the one that gets saved
     log(f"{len(raw)} stories fetched, {added} new comedy stories, {len(state['items'])} remembered")
 
     # breaking: alert once per story, keep the breaking page current
@@ -1618,6 +1841,7 @@ def run(mode: str) -> int:
     if first_run:
         log("First run: noting current breaking stories without alerting")
     else:
+        draft_many(fresh[:MAX_ALERTS], cfg, limit=MAX_ALERTS)
         for c in fresh[:MAX_ALERTS]:
             if send_telegram(alert_text(c), cfg):
                 sent += 1
@@ -1641,7 +1865,7 @@ def run(mode: str) -> int:
             log("Nothing new and breaking; leaving files untouched")
         return 0
 
-    name = build_edition(mode, state, health, now)
+    name = build_edition(mode, state, health, now, cfg)
     notice = state.get("_notice")
     if notice:
         send_telegram(notice, cfg)

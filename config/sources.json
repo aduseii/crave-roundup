@@ -250,5 +250,10 @@
   "telegram": {
     "username": "whofring",
     "note": "Alerts go to this Telegram account once it has tapped Start in the bot."
+  },
+  "captions": {
+    "model": "",
+    "pause_seconds": 5,
+    "note": "Leave model empty to use the newest free Gemini Flash. Rules are in config/caption_rules.md."
   }
 }

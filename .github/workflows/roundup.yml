@@ -58,6 +58,7 @@ jobs:
           S_TELEGRAM: ${{ secrets.TELEGRAM != '' }}
           S_TELEGRAMBOT: ${{ secrets.TELEGRAMBOT != '' }}
           S_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY != '' }}
+          S_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY != '' }}
           V_TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN != '' }}
           V_TMDB_API_KEY: ${{ vars.TMDB_API_KEY != '' }}
         run: env | grep -E '^(S|V)_' | sort
@@ -67,6 +68,7 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAMBOT || secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.GEMINI }}
         run: python roundup.py "${{ steps.mode.outputs.mode }}"
 
       - name: Save pages and data

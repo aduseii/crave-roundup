@@ -36,7 +36,14 @@ Posted marks and the header line are saved in your browser, so they're per devic
    - Open your new bot and tap **Start**. Bots can't message you until you do.
    - Add one secret with the token. It's named `TELEGRAMBOT` in this repo (`TELEGRAM_BOT_TOKEN` also works).
    - The next run finds your chat from that Start message (it looks for the Telegram username in `config/sources.json` → `telegram`), remembers it in `data/telegram.json`, and sends a "connected" message. You then get every breaking alert plus a short note when each morning and evening roundup is ready.
-4. **First run:** **Actions → Roundup → Run workflow**, pick `morning`.
+4. **Caption drafts (optional, free):** get a Gemini API key at aistudio.google.com (Get API key, no card needed) and add it as the secret `GEMINI_API_KEY`. Each roundup then drafts captions for the posting schedule and breaking stories, written only from the article itself and following `config/caption_rules.md`. Drafts show under each story (tap "Draft caption") and in Telegram breaking alerts. Always check them against the source. On the free tier, Google may use what's sent to improve its products.
+5. **First run:** **Actions → Roundup → Run workflow**, pick `morning`.
+
+## Captions
+
+- **On this day** posts (birthdays, death anniversaries, premieres, finales) get a ready caption in your exact formats, filled in from Wikidata. No AI involved.
+- **News** gets a Gemini draft if the key is set (see setup). Edit `config/caption_rules.md` to change the rules it follows.
+- **Grok** still gets only the plain story (headline and links) when you use Copy, Open Grok or Share.
 
 ## Changing what it watches
 
