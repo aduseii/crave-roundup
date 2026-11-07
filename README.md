@@ -31,9 +31,9 @@ Posted marks and the header line are saved in your browser, so they're per devic
 
 ## Changing what it watches
 
-- `config/watchlist_shows.txt`: shows. Add `*` after one-word titles that are normal words (`Ghosts*`) so they only count in quotes.
+- `config/watchlist_shows.txt`: shows. Add `*` after titles that are also everyday words or phrases (`Ghosts*`, `Full House*`, `Jury Duty*`) so they only count when the headline puts them in quotes.
 - `config/watchlist_people.txt`: actors, comedians, creators.
-- `config/sources.json`: news feeds, Google News searches, YouTube channels.
+- `config/sources.json`: news feeds, Google News searches, YouTube channels, and `allowed_outlets`, the outlets Google News results are kept from (add one there if a good site is missing).
 
 Edit them right on GitHub (pencil icon). The next run uses the changes. The **Sources** box at the bottom of each roundup shows which sources worked.
 

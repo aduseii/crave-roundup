@@ -235,10 +235,12 @@ class Watchlist:
             name = line[:-1].strip() if quoted else line.strip()
             esc = re.escape(fold(name))
             if quoted:
-                pat = re.compile(r"['\"]" + esc + r"['\"]")
+                pat = re.compile(r"['\"]" + esc + r"[!?.]?['\"]")
             else:
                 flags = re.I if len(name.split()) >= 2 else 0
                 pat = re.compile(r"(?<![\w])" + esc + r"(?![\w])", flags)
+            if not quoted or len(name.split()) >= 2:
+                # one-word titles like Ghosts* are too vague to search for
                 self.search_shows.append(name)
             self.shows.append((name, pat))
         self.people = [
@@ -275,7 +277,7 @@ STREAM_LEAVING_RE = re.compile(
 
 TAG_RULES: list[tuple[str, re.Pattern]] = [
     ("Death", re.compile(
-        r"\b(?:dies|died|dead at \d+|has died|passes away|passed away|obituary|"
+        r"\b(?:dies|died|dead at \d+|has died|passes away|passed away|obituary|cause of death|"
         r"dead,? (?:at|aged) \d+)\b", re.I)),
     ("Cancel/End", re.compile(
         r"\b(?:cancel(?:s|ed|led|ing|lation)|axed|axes|scrapped|not (?:be )?renewed|"
@@ -328,6 +330,12 @@ def annotate(item: dict, wl: Watchlist) -> dict:
     item["people"] = people
     item["sitcom"] = sitcom
     item["relevant"] = bool(shows or people or sitcom or comedy_tv or item.get("query_relevant"))
+    # "strong": the headline itself names a watched show/person or says sitcom/comedy TV.
+    # Only strong stories can be breaking news.
+    t_shows, t_people = wl.match(item["title"])
+    t = fold(item["title"])
+    item["strong"] = bool(t_shows or t_people or SITCOM_RE.search(t)
+                          or (COMEDY_RE.search(t) and TV_RE.search(t)))
     item["tags"] = tag_title(item["title"])
     return item
 
@@ -376,6 +384,17 @@ def fetch_rss(name: str, url: str, params: dict | None = None) -> tuple[list[dic
     return items, feed.feed.get("title", "")
 
 
+def outlet_allowed(outlet: str, allowed: list[str]) -> bool:
+    if not allowed:
+        return True
+    o = fold(outlet or "").lower().strip()
+    for a in allowed:
+        a = fold(a).lower().strip()
+        if o == a or o.startswith(a + " ") or o == "www." + a:
+            return True
+    return False
+
+
 def fetch_gnews(cfg: dict, query: str, topical: bool = False) -> list[dict]:
     window = cfg.get("window", "1d")
     params = dict(cfg.get("params", {}))
@@ -391,6 +410,8 @@ def fetch_gnews(cfg: dict, query: str, topical: bool = False) -> list[dict]:
         outlet = src.get("title") if hasattr(src, "get") else None
         if outlet and title.endswith(" - " + outlet):
             title = title[: -(len(outlet) + 3)].strip()
+        if not outlet_allowed(outlet or "", cfg.get("allowed_outlets", [])):
+            continue
         items.append({
             "id": sha(link),
             "title": title,
@@ -513,6 +534,21 @@ def merge(state: dict, raw: list[dict], wl: Watchlist, now: dt.datetime) -> int:
     return added
 
 
+def refilter(state: dict, wl: Watchlist, cfg: dict) -> None:
+    """Re-check stored stories with the current watchlist and outlet list,
+    so edits to the config apply straight away."""
+    allowed = cfg.get("google_news", {}).get("allowed_outlets", [])
+    kept = {}
+    for k, it in state["items"].items():
+        if it.get("source_type") == "gnews" and not outlet_allowed(it.get("outlet", ""), allowed):
+            continue
+        annotate(it, wl)
+        if it["kind"] == "article" and not it["relevant"]:
+            continue
+        kept[k] = it
+    state["items"] = kept
+
+
 def prune(state: dict, now: dt.datetime) -> None:
     cutoff = now - dt.timedelta(days=KEEP_DAYS)
     state["items"] = {k: v for k, v in state["items"].items()
@@ -540,9 +576,24 @@ these those new star stars says season series show shows tv his her their about 
 will has have had more than just what who why how when first one two out up""".split())
 
 
+def stem(w: str) -> str:
+    for suf in ("ing", "ed", "es", "al", "s"):
+        if len(w) > len(suf) + 3 and w.endswith(suf):
+            return w[: -len(suf)]
+    return w
+
+
 def tokens(title: str) -> set[str]:
     words = re.findall(r"[a-z0-9]+", fold(title).lower())
-    return {w for w in words if len(w) > 2 and w not in STOP}
+    return {stem(w) for w in words if len(w) > 2 and w not in STOP}
+
+
+def same_event(it: dict, c: dict) -> bool:
+    """Different headlines about the same renewal/death/etc. of the same show or person."""
+    tags = set(it.get("tags", [])) & c["tags"] & set(BREAKING_TAGS)
+    if not tags or not it.get("strong"):
+        return False
+    return bool(set(it["shows"]) & c["shows"]) or bool(set(it["people"]) & c["people"])
 
 
 def jaccard(a: set, b: set) -> float:
@@ -561,6 +612,8 @@ def build_clusters(items: list[dict]) -> list[dict]:
                     continue
                 s = jaccard(tk, c["tokens"])
                 shared = set(it["shows"]) & c["shows"]
+                if same_event(it, c):
+                    s = max(s, 0.99)
                 if s >= (0.34 if shared else 0.5) and s > best_score:
                     best, best_score = c, s
         if best:
@@ -589,7 +642,9 @@ def finish_cluster(c: dict) -> None:
     c["time"] = min(item_time(m) for m in c["members"])
     c["first_seen"] = min(parse_iso(m["first_seen"]) for m in c["members"])
     # videos (talk-show clips, trailers) are never treated as breaking news
-    c["breaking"] = [] if c["kind"] == "video" else [t for t in BREAKING_TAGS if t in c["tags"]]
+    c["strong"] = any(m.get("strong") for m in c["members"])
+    c["breaking"] = ([] if c["kind"] == "video" or not c["strong"]
+                     else [t for t in BREAKING_TAGS if t in c["tags"]])
     c["sitcom"] = any(m.get("sitcom") for m in c["members"])
     c["relevant"] = any(m.get("relevant") for m in c["members"])
     if c["kind"] == "video":
@@ -1154,7 +1209,7 @@ def write_assets() -> None:
 def breaking_clusters(state: dict, now: dt.datetime) -> list[dict]:
     cutoff = now - dt.timedelta(hours=BREAKING_PAGE_HOURS)
     items = [it for it in state["items"].values()
-             if it["kind"] == "article" and it.get("relevant")
+             if it["kind"] == "article" and it.get("relevant") and it.get("strong")
              and any(t in BREAKING_TAGS for t in it.get("tags", []))
              and (parse_iso(it["first_seen"]) or now) >= cutoff and is_fresh(it, now)]
     clusters = [c for c in build_clusters(items) if c["breaking"]]
@@ -1187,7 +1242,10 @@ def write_archive(state: dict) -> None:
 
 
 def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) -> str:
-    prev = parse_iso(state["editions"][-1]["time"]) if state.get("editions") else None
+    name = f"{now.date().isoformat()}-{mode}"
+    # re-running today's edition rebuilds it from the same starting point
+    earlier = [e for e in state.get("editions", []) if e["name"] != name]
+    prev = parse_iso(earlier[-1]["time"]) if earlier else None
     start = prev or now - dt.timedelta(hours=24)
     def in_window(it):
         seen = parse_iso(it["first_seen"]) or now
@@ -1252,7 +1310,6 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
     body.append("<h2>Sources</h2>")
     body.append(health_html(health))
 
-    name = f"{today.isoformat()}-{mode}"
     html_edition = page(f"{title}: Sitcom Crave Roundup", "\n".join(b for b in body if b), depth=1)
     write_text(DOCS_DIR / "editions" / f"{name}.html", html_edition)
     write_text(DOCS_DIR / "index.html",
@@ -1276,6 +1333,7 @@ def run(mode: str) -> int:
                    load_lines(CONFIG_DIR / "watchlist_people.txt"))
     first_run = not STATE_FILE.exists()
     state = load_state()
+    refilter(state, wl, cfg)
     log(f"{mode} run at {iso(now)}")
 
     raw, health = collect(mode, cfg, wl)

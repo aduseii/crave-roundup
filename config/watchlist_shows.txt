@@ -7,52 +7,52 @@ Abbott Elementary
 Ghosts*
 Young Sheldon
 Georgie & Mandy's First Marriage
-Big Bang Theory
+Big Bang Theory*
 Two and a Half Men
 Mike & Molly
-Leanne
+Leanne*
 The Kominsky Method
 Bob Hearts Abishola
 Mom*
-The Neighborhood
+The Neighborhood*
 Poppa's House
 Happy's Place
-Shifting Gears
-Night Court
+Shifting Gears*
+Night Court*
 The Conners
 Roseanne
 St. Denis Medical
 Brooklyn Nine-Nine
-The Office
-Parks and Recreation
+The Office*
+Parks and Recreation*
 Parks and Rec
-Modern Family
-New Girl
+Modern Family*
+New Girl*
 Friends*
 Seinfeld
-Curb Your Enthusiasm
-It's Always Sunny
-Always Sunny
+Curb Your Enthusiasm*
+It's Always Sunny*
+Always Sunny*
 Community*
 How I Met Your Mother
 How I Met Your Father
 Frasier
 Cheers*
-The Goldbergs
+The Goldbergs*
 Schooled*
 That '70s Show
 That '90s Show
 Malcolm in the Middle
-The Good Place
+The Good Place*
 Superstore*
-Grace Under Fire
-Moesha
+Grace Under Fire*
+Moesha*
 Suddenly Susan
-A Different World
+A Different World*
 The Cosby Show
 Fresh Prince
-Family Matters
-Full House
+Family Matters*
+Full House*
 Fuller House
 Everybody Loves Raymond
 The King of Queens
@@ -62,9 +62,9 @@ Black-ish
 Grown-ish
 Mixed-ish
 Girlfriends*
-The Parkers
+The Parkers*
 Martin*
-Living Single
+Living Single*
 Sister, Sister
 Kenan & Kel
 That's So Raven
@@ -73,13 +73,13 @@ iCarly
 Hannah Montana
 Wizards of Waverly Place
 Wizards Beyond Waverly Place
-Arrested Development
+Arrested Development*
 30 Rock
 Scrubs*
 Will & Grace
-Mad About You
-Home Improvement
-Last Man Standing
+Mad About You*
+Home Improvement*
+Last Man Standing*
 Reba*
 The Middle*
 Workaholics
@@ -91,9 +91,9 @@ Silicon Valley*
 Barry*
 Insecure*
 Atlanta*
-Fresh Off the Boat
+Fresh Off the Boat*
 The Mindy Project
-Never Have I Ever
+Never Have I Ever*
 Kim's Convenience
 Letterkenny
 Shoresy
@@ -103,11 +103,11 @@ Ted Lasso
 Shrinking*
 Nobody Wants This
 The Bear*
-Jury Duty
-English Teacher
-Mid-Century Modern
+Jury Duty*
+English Teacher*
+Mid-Century Modern*
 The Four Seasons*
-Running Point
+Running Point*
 The Studio*
 Platonic*
 Girls5eva
@@ -118,18 +118,18 @@ Bewitched*
 I Love Lucy
 The Golden Girls
 Golden Girls
-Saved by the Bell
+Saved by the Bell*
 Boy Meets World
 Girl Meets World
 Sabrina the Teenage Witch
-Step by Step
-Perfect Strangers
+Step by Step*
+Perfect Strangers*
 Diff'rent Strokes
 The Jeffersons
 Good Times*
 Sanford and Son
 Murphy Brown
-Designing Women
+Designing Women*
 Cybill*
 Ellen*
 The Nanny*
@@ -141,7 +141,7 @@ Coach*
 Wings*
 Taxi*
 M*A*S*H
-Happy Days
+Happy Days*
 Laverne & Shirley
 The Simpsons
 Family Guy
@@ -149,10 +149,15 @@ Bob's Burgers
 King of the Hill
 South Park
 Futurama
-American Dad
+American Dad*
 Saturday Night Live
 SNL
-The IT Crowd
+Jimmy Kimmel Live
+The Tonight Show
+Late Night with Seth Meyers
+The Late Show*
+The Daily Show
+The IT Crowd*
 Peep Show
 Gavin & Stacey
 Derry Girls
