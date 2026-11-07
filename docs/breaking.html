@@ -67,14 +67,14 @@ body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
 .side{display:none}
 @media (min-width:1000px){
 .jumpbar{display:none}
-.layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
+body.has-side .layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
 .side{display:block}
 .sidenav{position:sticky;top:var(--s5);display:flex;flex-direction:column;padding-top:var(--s6)}
 .sidenav a{padding:var(--s2) 0 var(--s2) var(--s4);border-left:4px solid var(--rule);color:var(--slate);font-size:var(--t2)}
 .sidenav a:hover{color:var(--ink)}
 .sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
-.layout main{margin:0;padding-left:0;padding-right:0}
-.mast{max-width:896px}
+body.has-side .layout main{margin:0;padding-left:0;padding-right:0}
+body.has-side .mast{max-width:896px}
 }
 
 .intro{padding:var(--s5) 0 var(--s2)}
@@ -192,7 +192,7 @@ window.ROUNDUP_CAPTION_RULES = "# Sitcom Crave caption rules (used for Gemini dr
 
 <main>
 <div class="intro"><h1>Breaking</h1>
-<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 2:29pm GMT. Checks run every 30 minutes.</p></div>
+<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 2:44pm GMT. Checks run every 30 minutes.</p></div>
 
 <details id="maker" class="maker"><summary>Caption maker</summary>
 <p class="muted">Paste a link to any story, or the story's text, and Gemini writes the caption in your style.</p>
