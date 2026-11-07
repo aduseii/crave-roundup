@@ -80,7 +80,7 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 17,
+  "count": 15,
   "resolved": ""
  },
  {
@@ -94,7 +94,7 @@
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 18,
+  "count": 17,
   "resolved": ""
  },
  {
@@ -108,7 +108,7 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
@@ -122,28 +122,28 @@
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 9,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
   "ok": true,
-  "count": 11,
+  "count": 12,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
-  "count": 7,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -248,7 +248,7 @@
   "type": "search",
   "name": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -346,14 +346,14 @@
   "type": "search",
   "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -409,14 +409,14 @@
   "type": "search",
   "name": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
   "ok": true,
-  "count": 14,
+  "count": 15,
   "resolved": ""
  },
  {
@@ -430,7 +430,7 @@
   "type": "search",
   "name": "\"Sebastian Maniscalco\" OR \"Kevin Hart\" OR \"Bill Burr\"",
   "ok": true,
-  "count": 2,
+  "count": 3,
   "resolved": ""
  },
  {
