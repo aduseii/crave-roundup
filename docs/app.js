@@ -185,11 +185,23 @@
 
     // tap anywhere on a card to pick it (links, "more" and the checkbox itself work as usual)
     document.addEventListener("click", function (e) {
-      if (e.target.closest("a, summary, details, input, label, button, textarea")) return;
+      if (e.target.closest("a, summary, details, input, label, button, textarea, .cap")) return;
       var item = e.target.closest(".item[data-id]");
       if (!item) return;
       var box = item.querySelector(".pick");
       if (box) box.click();
+    });
+
+    // copy a ready caption (template or Gemini draft)
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest && e.target.closest(".capcopy");
+      if (!btn) return;
+      var box = btn.closest(".cap");
+      copyText(box.dataset.cap).then(function (ok) {
+        btn.textContent = ok ? "Copied" : "Copy blocked";
+        btn.classList.toggle("done", ok);
+        setTimeout(function () { btn.textContent = "Copy caption"; btn.classList.remove("done"); }, 2000);
+      });
     });
 
     // unmark one posted story: it shows when "Show posted" is ticked; Shift+click its checkbox

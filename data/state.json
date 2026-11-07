@@ -64,11 +64,12 @@
 "fbac496bfba9": "2026-11-07T10:20:14+00:00",
 "fe9a41b11fcc": "2026-11-07T10:20:14+00:00"
 },
+"drafts": {},
 "editions": [
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:56:39+00:00"
+"time": "2026-11-07T12:07:41+00:00"
 }
 ],
 "items": {
@@ -602,6 +603,27 @@
 "summary": "Join Variety to get access to members-only perks: https://www.youtube.com/channel/UCgRQHK8Ttr1j9xCEpCAlgbQ/join Subscribe to Variety on YouTube: https://www.youtube.com/@variety?sub_confirmation=1 Subscribe to Variety Events on YouTube:...",
 "tags": [],
 "title": "'Smallville' stars Tom Welling and Michael Rosenbaum reunite for the show's 25th anniversary"
+},
+"0b67ab33022d": {
+"first_seen": "2026-11-07T12:07:41+00:00",
+"id": "0b67ab33022d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3ZTZsTU9GRzJXczVXRHNKeUxCUEJQREYtR3REZ1NJLW1SbXJ5dmxPUEJiMG1qN0lCaUY2U1lrRmI2al8tUzE5M21zRGRraXFTdmc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-07T05:27:44+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "‘Criminal’ TV Show Trailer: Charlie Hunnam & Luke Evans Lead New Prime Video Series Based on Graphic Novel!"
 },
 "0bac6fdfb101": {
 "channel_kind": "talk",
@@ -7409,7 +7431,7 @@
 "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBISzg1X2JnZFh4YWtfZXJEV3FyNThlMWxFdjFfNDA1LURqUUlMSzVEd1VXU2dxRUduZGdjVFBUYm9DME90czJrTjlzV1RtZnYwa1NpVVZn?oc=5",
 "outlet": "ScreenRant",
 "people": [],
-"published": "2026-11-06T14:43:14+00:00",
+"published": "2026-11-06T14:38:10+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,

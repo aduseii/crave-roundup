@@ -80,7 +80,7 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 19,
+  "count": 20,
   "resolved": ""
  },
  {
@@ -94,7 +94,7 @@
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 19,
+  "count": 20,
   "resolved": ""
  },
  {
@@ -129,7 +129,7 @@
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
@@ -143,7 +143,7 @@
   "type": "search",
   "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -157,7 +157,7 @@
   "type": "search",
   "name": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -199,7 +199,7 @@
   "type": "search",
   "name": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -220,14 +220,14 @@
   "type": "search",
   "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
   "ok": true,
-  "count": 28,
+  "count": 29,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
   "ok": true,
-  "count": 1,
+  "count": 0,
   "resolved": ""
  },
  {
@@ -248,7 +248,7 @@
   "type": "search",
   "name": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
   "ok": true,
-  "count": 5,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -269,7 +269,7 @@
   "type": "search",
   "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
-  "count": 18,
+  "count": 16,
   "resolved": ""
  },
  {
@@ -283,7 +283,7 @@
   "type": "search",
   "name": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
   "ok": true,
-  "count": 5,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -318,7 +318,7 @@
   "type": "search",
   "name": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -346,7 +346,7 @@
   "type": "search",
   "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -374,28 +374,28 @@
   "type": "search",
   "name": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
   "ok": true,
-  "count": 6,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -430,7 +430,7 @@
   "type": "search",
   "name": "\"Sebastian Maniscalco\" OR \"Kevin Hart\" OR \"Bill Burr\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {

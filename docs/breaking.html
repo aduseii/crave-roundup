@@ -119,6 +119,18 @@ input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visi
 details.more,details.other{margin:var(--s2) 0}
 details.more > summary,details.other > summary{cursor:pointer;font-weight:600;font-size:var(--t2);padding:var(--s3) 0;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
 details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
+.cap{margin:var(--s3) var(--s7) 0 0;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);cursor:auto}
+.cap-h{font-size:var(--t1);color:var(--slate);margin-bottom:var(--s1)}
+.cap-t{margin:0 0 var(--s3);font-size:var(--t2);white-space:pre-line;-webkit-user-select:text;user-select:text}
+.capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
+.today .cap{margin-right:0}
+details.capd{margin-top:var(--s2)}
+details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
+details.capd > summary::-webkit-details-marker{display:none}
+details.capd > summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 0 3px var(--s1)}
+details.capd[open] > summary::after{transform:rotate(-135deg);margin:3px 0 0 var(--s1)}
+details.capd .cap{margin-top:var(--s1)}
 .item.posted{opacity:.45}
 body.hideposted .item.posted{display:none}
 
@@ -159,7 +171,7 @@ td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 
 
 <main>
 <div class="intro"><h1>Breaking</h1>
-<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 11:56am GMT. Checks run every 30 minutes.</p></div>
+<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 12:07pm GMT. Checks run every 30 minutes.</p></div>
 <h2 id="sec-breaking">Last 48 hours<span class="count">4</span></h2>
 <div class="item" id="s-b92902159881" data-id="b92902159881" data-packet="Cause of Death Revealed for ‘Ellen’ Producer Matthew Wright
 https://www.justjared.com/2026/11/07/cause-of-death-revealed-for-ellen-producer-matthew-wright/
