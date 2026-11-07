@@ -50,10 +50,21 @@ jobs:
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
           echo "Mode: $MODE"
 
+      - name: Check which secrets are set (yes/no only, never the values)
+        env:
+          S_TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}
+          S_TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN != '' }}
+          S_BOT_TOKEN: ${{ secrets.BOT_TOKEN != '' }}
+          S_TELEGRAM: ${{ secrets.TELEGRAM != '' }}
+          S_TMDB_API_KEY: ${{ secrets.TMDB_API_KEY != '' }}
+          V_TELEGRAM_BOT_TOKEN: ${{ vars.TELEGRAM_BOT_TOKEN != '' }}
+          V_TMDB_API_KEY: ${{ vars.TMDB_API_KEY != '' }}
+        run: env | grep -E '^(S|V)_' | sort
+
       - name: Run the roundup
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || secrets.TELEGRAM_TOKEN || secrets.BOT_TOKEN || secrets.TELEGRAM }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python roundup.py "${{ steps.mode.outputs.mode }}"
 
