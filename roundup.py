@@ -1093,9 +1093,9 @@ main,.mast,.jump{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-ar
 main{padding-bottom:calc(48px + env(safe-area-inset-bottom))}
 body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
 
-.mast{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:calc(14px + env(safe-area-inset-top));padding-bottom:6px}
-.brand{font-stretch:68%;font-weight:900;font-size:26px;line-height:1;letter-spacing:-.01em;text-decoration:none}
-.brand span{font-weight:400;color:var(--slate)}
+.mast{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:calc(14px + env(safe-area-inset-top));padding-bottom:6px}
+.brand{display:inline-flex;align-items:center;gap:10px;font-stretch:68%;font-weight:900;font-size:26px;line-height:1;letter-spacing:-.01em;text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:9px;display:block}
 .tabs{display:flex;gap:16px;font-size:15px}
 .tabs a{text-decoration:none;color:var(--slate);padding:6px 0}
 .tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
@@ -1238,7 +1238,8 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
         f'<a href="{pre}{href}"{on if key == active else ""}>{label}</a>'
         for key, label, href in (("latest", "Latest", "index.html"), ("breaking", "Breaking", "breaking.html"),
                                  ("archive", "Archive", "archive.html")))
-    mast = (f'<div class="mast"><a class="brand" href="{pre}index.html">Sitcom Crave <span>Roundup</span></a>'
+    mast = (f'<div class="mast"><a class="brand" href="{pre}index.html">'
+            f'<img src="{pre}logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a>'
             f'<nav class="tabs">{tabs}</nav></div>')
     bar = ""
     if jump:
@@ -1258,7 +1259,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
 <link rel="preload" href="{pre}fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="apple-touch-icon" href="{pre}icon-180.png">
-<link rel="icon" type="image/png" href="{pre}icon-180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{pre}favicon-32.png">
 <title>{E(title)}</title>
 <style>{css}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};</script>
@@ -1423,7 +1424,8 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
 def write_assets() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "app.js", DOCS_DIR / "app.js")
-    shutil.copyfile(ASSETS_DIR / "icon-180.png", DOCS_DIR / "icon-180.png")
+    for name in ("icon-180.png", "logo-96.png", "favicon-32.png", "logo-512.png"):
+        shutil.copyfile(ASSETS_DIR / name, DOCS_DIR / name)
     (DOCS_DIR / "fonts").mkdir(exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "fonts" / "archivo.woff2", DOCS_DIR / "fonts" / "archivo.woff2")
     shutil.copyfile(ASSETS_DIR / "fonts" / "OFL-Archivo.txt", DOCS_DIR / "fonts" / "OFL-Archivo.txt")
