@@ -52,6 +52,20 @@ MORNING_TRADE = [
     ("Dana Fictional Opens Up About &#8216;Maple Street&#8217; Early Days", "https://deadline.example/dana-interview",
      "Sat, 07 Nov 2026 04:00:00 GMT", "In a new interview, the star recalls the pilot."),
 ]
+REHASH = [
+    ("10 Sitcom Episodes You Totally Missed, Ranked", "https://deadline.example/listicle",
+     "Sat, 07 Nov 2026 05:30:00 GMT", "A look back at classic sitcom episodes."),
+    ("Why Dana Fictional Left &#8216;Maple Street&#8217; After Season 2", "https://deadline.example/why-left",
+     "Sat, 07 Nov 2026 05:40:00 GMT", "The comedian explains her exit from the sitcom."),
+]
+EVENING_EXTRA = [
+    ("NBC Gives &#8216;Maple Street&#8217; A Fourth Season Pickup, Renewal Confirmed", "https://deadline.example/maple-again",
+     "Sat, 07 Nov 2026 15:00:00 GMT", "The comedy series returns."),
+]
+STALE_BREAKING = [
+    ("Sitcom Writer Lee Sample Dies At 70", "https://deadline.example/lee-sample",
+     "Sat, 07 Nov 2026 03:00:00 GMT", "The sitcom writer passed away."),
+]
 BREAKING_EXTRA = [
     ("Sitcom Actor Pat Example Dies At 81", "https://deadline.example/pat-example",
      "Sat, 07 Nov 2026 12:50:00 GMT", "The actor was known for sitcoms in the 1980s."),
@@ -116,7 +130,7 @@ class Resp:
         return self._body if not isinstance(self._body, str) else json.loads(self._body)
 
 
-PHASE = {"trade": MORNING_TRADE}
+PHASE = {"trade": MORNING_TRADE + REHASH}
 CALLS = []
 
 
@@ -220,6 +234,7 @@ check("Ghosts\u2019 Sets Holiday" in idx, "quoted 'Ghosts' matched")
 check("Box Office" not in idx, "unquoted 'Ghosts' headline dropped")
 check("Steel City" not in idx, "drama story dropped")
 check("Old Story" not in idx, "old story dropped")
+check("You Totally Missed" not in idx and "Why Dana Fictional Left" not in idx, "rehashed old news (ranked lists, why-X-left) dropped")
 check(in_section("Streaming", "Back Lot"), "leaving-Netflix story is in Streaming")
 check("chip c-exit" not in idx, "leaving Netflix is not tagged as an exit")
 check(in_section("Trailers", "Night Shift Diner"), "trailer is in Trailers")
@@ -262,7 +277,7 @@ n_calls = len(GEMINI_CALLS)
 check('src="../app.js"' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
       "edition page points at app.js correctly")
 
-PHASE["trade"] = MORNING_TRADE + BREAKING_EXTRA
+PHASE["trade"] = MORNING_TRADE + REHASH + BREAKING_EXTRA + STALE_BREAKING
 run("breaking", "2026-11-07T13:13:00Z")
 BRK = lambda: [a for a in ALERTS if a.startswith("BREAKING")]
 check(len(BRK()) == 1 and "Pat Example" in BRK()[0] and "In memoriam" in BRK()[0],
@@ -272,17 +287,21 @@ check("Draft caption (check before posting):\nDRAFT for Sitcom Actor Pat Example
 check("aduseii.github.io/crave-roundup/breaking.html" in (BRK()[0] if BRK() else ""),
       "alert links to the breaking page")
 brk = (OUT / "docs" / "breaking.html").read_text()
+check(not any("Lee Sample" in a for a in ALERTS), "a 10-hour-old death doesn't send an alert")
+check("Lee Sample" in brk, "...but it is still listed on the breaking page")
 check("Pat Example" in brk and "Maple Street" in brk, "breaking page lists both breaking stories")
 
 run("breaking", "2026-11-07T13:43:00Z")
 check(len(BRK()) == 1, "the same story is not alerted twice")
 
 calls_before_evening = len(GEMINI_CALLS)
+PHASE["trade"] = MORNING_TRADE + REHASH + BREAKING_EXTRA + STALE_BREAKING + EVENING_EXTRA
 run("evening", "2026-11-07T17:50:00Z")
 check(len(GEMINI_CALLS) == calls_before_evening, "drafts are reused, not written twice")
 eve = (OUT / "docs" / "index.html").read_text()
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")
+check("Fourth Season Pickup" not in eve, "another outlet's version of a story already shown is left out")
 check("sec-anniversaries" not in eve, "anniversaries only in the morning")
 arc = (OUT / "docs" / "archive.html").read_text()
 check("2026-11-07-morning.html" in arc and "2026-11-07-evening.html" in arc, "archive lists both editions")

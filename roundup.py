@@ -42,8 +42,10 @@ STATE_FILE = DATA_DIR / "state.json"
 
 UTC = dt.timezone.utc
 KEEP_DAYS = 7          # how long seen stories are remembered
-FRESH_HOURS = 36       # stories older than this are never shown as new
-BREAKING_PAGE_HOURS = 48
+FRESH_HOURS = 12       # default: stories older than this are never shown (config: freshness.max_age_hours)
+BREAKING_ALERT_HOURS = 6   # default: only stories this new trigger a Telegram alert
+REPEAT_HOURS = 48      # a story shown in a roundup isn't shown again within this time
+BREAKING_PAGE_HOURS = 24
 SECTION_CAP = 40       # stories shown per section before "More"
 MAX_ALERTS = 5         # Telegram alerts per run; the rest go in one summary message
 
@@ -240,6 +242,20 @@ def http_get(url: str, *, params: dict | None = None, headers: dict | None = Non
 # Matching and tagging
 # --------------------------------------------------------------------------
 
+def load_not_news() -> list[re.Pattern]:
+    pats = []
+    for line in load_lines(CONFIG_DIR / "not_news.txt") or load_lines(
+            Path(__file__).resolve().parent / "config" / "not_news.txt"):
+        try:
+            pats.append(re.compile(line, re.I))
+        except re.error:
+            log(f"  not_news.txt: skipped a pattern that isn't valid: {line}")
+    return pats
+
+
+NOT_NEWS: list[re.Pattern] = []
+
+
 class Watchlist:
     def __init__(self, shows: list[str], people: list[str]):
         self.shows: list[tuple[str, re.Pattern]] = []
@@ -351,6 +367,9 @@ def annotate(item: dict, wl: Watchlist) -> dict:
     item["strong"] = bool(t_shows or t_people or SITCOM_RE.search(t)
                           or (COMEDY_RE.search(t) and TV_RE.search(t)))
     item["tags"] = tag_title(item["title"])
+    item["rehash"] = item["kind"] == "article" and any(p.search(fold(item["title"])) for p in NOT_NEWS)
+    if item["rehash"]:
+        item["relevant"] = False
     return item
 
 
@@ -578,9 +597,10 @@ def item_time(it: dict) -> dt.datetime:
     return parse_iso(it.get("published")) or parse_iso(it.get("first_seen")) or dt.datetime.min.replace(tzinfo=UTC)
 
 
-def is_fresh(it: dict, now: dt.datetime) -> bool:
+def is_fresh(it: dict, now: dt.datetime, hours: float | None = None) -> bool:
+    """Only stories with a known publish time inside the window count as news."""
     pub = parse_iso(it.get("published"))
-    return pub is None or pub >= now - dt.timedelta(hours=FRESH_HOURS)
+    return pub is not None and now - dt.timedelta(hours=hours or FRESH_HOURS) <= pub <= now + dt.timedelta(hours=1)
 
 
 # --------------------------------------------------------------------------
@@ -681,6 +701,22 @@ def finish_cluster(c: dict) -> None:
         c["section"] = "interviews"
     else:
         c["section"] = "news"
+
+
+def already_shown(c: dict, shown: list[dict]) -> bool:
+    """Is this the same story as one an earlier roundup already listed?"""
+    if c["kind"] != "article":
+        return False
+    ids = {m["id"] for m in c["members"]}
+    for e in shown:
+        if ids & set(e.get("ids", [])):
+            return True
+        if jaccard(c["tokens"], set(e.get("tokens", []))) >= 0.5:
+            return True
+        same_tag = set(c["breaking"]) & set(e.get("tags", []))
+        if same_tag and (c["shows"] & set(e.get("shows", [])) or c["people"] & set(e.get("people", []))):
+            return True
+    return False
 
 
 def score(c: dict, now: dt.datetime) -> float:
@@ -1169,6 +1205,7 @@ def tidy_caption(text: str) -> str:
     text = text.replace(" — ", ", ").replace("—", ", ").replace(" – ", ", ")
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"[ \t]+\n", "\n", text)
+    text = re.sub(r"\s*\n\s*\n\s*(\(via [^)]*\))\s*$", r" \1", text)  # keep the credit on the last line
     return text.strip()[:700]
 
 
@@ -1696,7 +1733,7 @@ def breaking_clusters(state: dict, now: dt.datetime) -> list[dict]:
     items = [it for it in state["items"].values()
              if it["kind"] == "article" and it.get("relevant") and it.get("strong")
              and any(t in BREAKING_TAGS for t in it.get("tags", []))
-             and (parse_iso(it["first_seen"]) or now) >= cutoff and is_fresh(it, now)]
+             and (parse_iso(it["first_seen"]) or now) >= cutoff and is_fresh(it, now, BREAKING_PAGE_HOURS)]
     clusters = [c for c in build_clusters(items) if c["breaking"]]
     clusters.sort(key=lambda c: c["first_seen"], reverse=True)
     return clusters
@@ -1740,7 +1777,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     # re-running today's edition rebuilds it from the same starting point
     earlier = [e for e in state.get("editions", []) if e["name"] != name]
     prev = parse_iso(earlier[-1]["time"]) if earlier else None
-    start = prev or now - dt.timedelta(hours=24)
+    start = prev or now - dt.timedelta(hours=FRESH_HOURS)
     def in_window(it):
         seen = parse_iso(it["first_seen"]) or now
         # stories already seen by the previous edition (same timestamp) are not repeated
@@ -1750,6 +1787,13 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     other_videos = [it for it in items if it["kind"] == "video" and not it.get("relevant")]
 
     clusters = build_clusters(relevant_items)
+    shown_before = [e for e in state.get("shown", []) if e.get("edition") != name
+                    and (parse_iso(e.get("at")) or now) >= now - dt.timedelta(hours=REPEAT_HOURS)]
+    before = len(clusters)
+    clusters = [c for c in clusters if not already_shown(c, shown_before)]
+    if before != len(clusters):
+        n_rep = before - len(clusters)
+        log(f"  left out {n_rep} {'story' if n_rep == 1 else 'stories'} already in an earlier roundup")
     for c in clusters:
         c["score"] = score(c, now)
     by_section: dict[str, list[dict]] = {k: [] for k, _ in SECTIONS}
@@ -1770,7 +1814,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     if prev:
         since = f"since {clock(start)} GMT" + (" yesterday" if start.date() < today else "")
     else:
-        since = "from the last 24 hours"
+        since = f"from the last {FRESH_HOURS:g} hours"
     nxt = "The evening roundup lands around 6pm." if mode == "morning" else "The morning roundup lands around 7am."
     body = [f'<div class="intro"><h1>{E(mode.title())} roundup</h1>'
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
@@ -1829,6 +1873,12 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
                             + (f"\n\n{url}/" if url else ""))
     state["editions"] = [e for e in state.get("editions", []) if e["name"] != name]
     state["editions"].append({"name": name, "edition": mode, "time": iso(now)})
+    keep = [e for e in state.get("shown", []) if e.get("edition") != name
+            and (parse_iso(e.get("at")) or now) >= now - dt.timedelta(hours=REPEAT_HOURS)]
+    keep += [{"edition": name, "at": iso(now), "tokens": sorted(c["tokens"]), "shows": sorted(c["shows"]),
+              "people": sorted(c["people"]), "tags": sorted(c["tags"]), "ids": [m["id"] for m in c["members"]]}
+             for c in clusters if c["kind"] == "article"]
+    state["shown"] = keep
     return name
 
 
@@ -1853,6 +1903,12 @@ def run(mode: str) -> int:
                    load_lines(CONFIG_DIR / "watchlist_people.txt"))
     first_run = not STATE_FILE.exists()
     _SECRETS.append(os.environ.get("GEMINI_API_KEY", ""))
+    global FRESH_HOURS, BREAKING_ALERT_HOURS, REPEAT_HOURS, NOT_NEWS
+    fr = cfg.get("freshness", {})
+    FRESH_HOURS = float(fr.get("max_age_hours", FRESH_HOURS))
+    BREAKING_ALERT_HOURS = float(fr.get("breaking_alert_max_age_hours", BREAKING_ALERT_HOURS))
+    REPEAT_HOURS = float(fr.get("repeat_memory_hours", REPEAT_HOURS))
+    NOT_NEWS = load_not_news()
     if os.environ.get("TELEGRAM_BOT_TOKEN"):
         telegram_chat(cfg)
     state = load_state()
@@ -1870,7 +1926,9 @@ def run(mode: str) -> int:
     # breaking: alert once per story, keep the breaking page current
     clusters = breaking_clusters(state, now)
     alerted = state.setdefault("alerted", {})
-    fresh = [c for c in clusters if not any(m["id"] in alerted for m in c["members"])]
+    alert_cutoff = now - dt.timedelta(hours=BREAKING_ALERT_HOURS)
+    fresh = [c for c in clusters if not any(m["id"] in alerted for m in c["members"])
+             and c["time"] >= alert_cutoff]  # older stories still show on the page, but don't buzz your phone
     sent = 0
     if first_run:
         log("First run: noting current breaking stories without alerting")

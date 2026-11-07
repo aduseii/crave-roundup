@@ -255,5 +255,11 @@
     "model": "",
     "pause_seconds": 5,
     "note": "Leave model empty to use the newest free Gemini Flash. Rules are in config/caption_rules.md."
+  },
+  "freshness": {
+    "max_age_hours": 12,
+    "breaking_alert_max_age_hours": 6,
+    "repeat_memory_hours": 48,
+    "note": "Stories older than max_age_hours are never shown. Alerts only for stories newer than breaking_alert_max_age_hours. A story shown in one roundup isn't shown again within repeat_memory_hours."
   }
 }

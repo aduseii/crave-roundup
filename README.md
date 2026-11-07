@@ -45,6 +45,13 @@ Posted marks and the header line are saved in your browser, so they're per devic
 - **News** gets a Gemini draft if the key is set (see setup). Edit `config/caption_rules.md` to change the rules it follows.
 - **Grok** still gets only the plain story (headline and links) when you use Copy, Open Grok or Share.
 
+## Only fresh news
+
+- A story shows up only if it was published in the last 12 hours, and it's never repeated in a later roundup (even when another outlet covers it again).
+- Breaking alerts on Telegram fire only for stories less than 6 hours old. Slightly older breaking stories still appear on the Breaking page.
+- Rehashed "old news" (ranked lists, "you totally missed", "before they were famous", "why X left", "everything we know"...) is filtered out. The patterns are in `config/not_news.txt`; delete a line if it drops stories you want.
+- The hours are in `config/sources.json` → `freshness`.
+
 ## Changing what it watches
 
 - `config/watchlist_shows.txt`: shows. Add `*` after titles that are also everyday words or phrases (`Ghosts*`, `Full House*`, `Jury Duty*`) so they only count when the headline puts them in quotes.

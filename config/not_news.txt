@@ -1,0 +1,30 @@
+# Headlines matching any of these patterns are treated as rehashed "old news"
+# (ranked lists, throwbacks, explainers of things that already happened) and left out.
+# One pattern per line, not case-sensitive. Lines starting with # are ignored.
+# Delete a line if it drops stories you want.
+
+\branked\b
+\branking (every|all|the)\b
+\b(best|worst|greatest|funniest|most underrated|most overrated|most iconic)\b.{0,40}\b(episodes?|sitcoms?|shows?|characters?|moments?|scenes?|couples?|seasons?|roles?|movies?|finales?)\b
+^\d+\s+(\S+\s+){0,4}(sitcoms?|shows?|series|episodes?|things|reasons|times|moments|characters|actors|actresses|stars|facts|secrets|details|references|movies|roles|quotes|cameos|mistakes|scenes)\b
+\byou (totally |probably |may have |might have |never )?(missed|forgot|didn'?t know|never knew|never noticed)\b
+\bbefore (they|she|he) (was|were) famous\b
+\bthen and now\b
+\bwhere are they now\b
+\bwhat happened to\b
+\blooking back\b
+\bthrowback\b
+\bremember when\b
+\bforgotten\b
+\bdon'?t hold up\b
+\baged (badly|poorly|well)\b
+\buntold truth\b
+\bthe real reason\b
+\bthe truth about\b
+^why .{0,80}\b(left|quit|was fired|got fired|exited|ended|was cancell?ed|walked away)\b
+\bexplained\b
+\beverything (we|you) (know|need to know)\b
+\bwhen (will|does|is) .{0,60}\b(return|come back|premiere|release)\b
+\bhere'?s (why|how|what|when)\b
+\bfan theor(y|ies)\b
+\bbehind[- ]the[- ]scenes (secrets|facts|details)\b
