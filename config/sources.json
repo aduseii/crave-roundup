@@ -257,9 +257,9 @@
     "note": "Leave model empty to use the newest free Gemini Flash. Rules are in config/caption_rules.md."
   },
   "freshness": {
-    "max_age_hours": 12,
+    "max_age_hours": 720,
     "breaking_alert_max_age_hours": 6,
-    "repeat_memory_hours": 48,
-    "note": "Stories older than max_age_hours are never shown. Alerts only for stories newer than breaking_alert_max_age_hours. A story shown in one roundup isn't shown again within repeat_memory_hours."
+    "repeat_memory_hours": 720,
+    "note": "Stories published more than max_age_hours ago (720 = 30 days) are never shown. A story shown in one roundup isn't shown again within repeat_memory_hours. Telegram alerts only for stories newer than breaking_alert_max_age_hours."
   }
 }

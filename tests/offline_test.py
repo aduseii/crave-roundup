@@ -46,7 +46,7 @@ MORNING_TRADE = [
     ("Drama &#8216;Steel City&#8217; Gets Premiere Date", "https://deadline.example/steel-city",
      "Fri, 06 Nov 2026 20:00:00 GMT", "The crime drama returns in March."),
     ("&#8216;Maple Street&#8217; Old Story", "https://deadline.example/old",
-     "Sun, 01 Nov 2026 20:00:00 GMT", "An older sitcom story."),
+     "Tue, 01 Sep 2026 20:00:00 GMT", "An older sitcom story."),
     ("Comedy Series &#8216;Night Shift Diner&#8217; Trailer Released", "https://deadline.example/diner-trailer",
      "Sat, 07 Nov 2026 03:00:00 GMT", "Watch the first trailer for the series."),
     ("Dana Fictional Opens Up About &#8216;Maple Street&#8217; Early Days", "https://deadline.example/dana-interview",
@@ -233,7 +233,7 @@ check(in_section("News", "Harbor Lights"), "casting story is in News")
 check("Ghosts\u2019 Sets Holiday" in idx, "quoted 'Ghosts' matched")
 check("Box Office" not in idx, "unquoted 'Ghosts' headline dropped")
 check("Steel City" not in idx, "drama story dropped")
-check("Old Story" not in idx, "old story dropped")
+check("Old Story" not in idx, "story older than 30 days dropped")
 check("You Totally Missed" not in idx and "Why Dana Fictional Left" not in idx, "rehashed old news (ranked lists, why-X-left) dropped")
 check(in_section("Streaming", "Back Lot"), "leaving-Netflix story is in Streaming")
 check("chip c-exit" not in idx, "leaving Netflix is not tagged as an exit")
@@ -297,7 +297,8 @@ check(len(BRK()) == 1, "the same story is not alerted twice")
 calls_before_evening = len(GEMINI_CALLS)
 PHASE["trade"] = MORNING_TRADE + REHASH + BREAKING_EXTRA + STALE_BREAKING + EVENING_EXTRA
 run("evening", "2026-11-07T17:50:00Z")
-check(len(GEMINI_CALLS) == calls_before_evening, "drafts are reused, not written twice")
+heads = [re.search(r"Headline: (.*)", c[1]).group(1) for c in GEMINI_CALLS]
+check(len(heads) == len(set(heads)), "drafts are reused: no story is drafted twice")
 eve = (OUT / "docs" / "index.html").read_text()
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")

@@ -42,9 +42,9 @@ STATE_FILE = DATA_DIR / "state.json"
 
 UTC = dt.timezone.utc
 KEEP_DAYS = 7          # how long seen stories are remembered
-FRESH_HOURS = 12       # default: stories older than this are never shown (config: freshness.max_age_hours)
+FRESH_HOURS = 720      # default: stories published more than 30 days ago are never shown (config: freshness.max_age_hours)
 BREAKING_ALERT_HOURS = 6   # default: only stories this new trigger a Telegram alert
-REPEAT_HOURS = 48      # a story shown in a roundup isn't shown again within this time
+REPEAT_HOURS = 720     # a story shown in a roundup isn't shown again for 30 days
 BREAKING_PAGE_HOURS = 24
 SECTION_CAP = 40       # stories shown per section before "More"
 MAX_ALERTS = 5         # Telegram alerts per run; the rest go in one summary message
@@ -1777,7 +1777,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     # re-running today's edition rebuilds it from the same starting point
     earlier = [e for e in state.get("editions", []) if e["name"] != name]
     prev = parse_iso(earlier[-1]["time"]) if earlier else None
-    start = prev or now - dt.timedelta(hours=FRESH_HOURS)
+    start = prev or now - dt.timedelta(hours=24)
     def in_window(it):
         seen = parse_iso(it["first_seen"]) or now
         # stories already seen by the previous edition (same timestamp) are not repeated
@@ -1814,7 +1814,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     if prev:
         since = f"since {clock(start)} GMT" + (" yesterday" if start.date() < today else "")
     else:
-        since = f"from the last {FRESH_HOURS:g} hours"
+        since = "from the last 24 hours"
     nxt = "The evening roundup lands around 6pm." if mode == "morning" else "The morning roundup lands around 7am."
     body = [f'<div class="intro"><h1>{E(mode.title())} roundup</h1>'
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
