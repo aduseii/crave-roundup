@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:02:56+00:00"
+"time": "2026-11-07T11:14:33+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\"",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -269,7 +269,7 @@
 "people": [
 "Hilary Duff"
 ],
-"published": "2026-11-07T09:25:54+00:00",
+"published": "2026-11-07T10:55:54+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "relevant": true,
@@ -685,6 +685,27 @@
 "tags": [],
 "title": "The 5 Funniest Sitcoms of the Last 10 Years, Ranked"
 },
+"0d04c59d0c2a": {
+"first_seen": "2026-11-07T11:14:33+00:00",
+"id": "0d04c59d0c2a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTRzQ1JaTnhSNi1ZUnVBb1R4V3VMTWxnaFFuY080N2V1MmcwNGZSNTkzblc0djB1UGgxbWhLZGV1RGF0d3ZoT0NrVWRseEZSc3h6V1VIcG5XbFh0REJLWmJvRkJqM2MybVp5QlVkejRKcU5RWEJTOUFDSmQ0Vy14RHZMNm5Pbk1VaXNOZlM1eTVQVVUyZUpjYzBMRGtfcjY0?oc=5",
+"outlet": "People.com",
+"people": [
+"Steve Carell"
+],
+"published": "2026-11-07T11:00:00+00:00",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Steve Carell Takes the Mic at a Rooster FYC Event in L.A., Plus Dakota Johnson, Maluma, Nicky Hilton and More"
+},
 "0d077bb212a2": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -879,6 +900,27 @@
 "summary": "Meanwhile... The government is loosening rules on home distilling, Louis Cato & The Great Big Joy Machine are living dangerously when it comes to music licensing, and fans of pharmaceuticals are snapping up old promotional items online.",
 "tags": [],
 "title": "Meanwhile... Make Your Own Booze | Paying For \"Peanuts\" | Vintage Pharma Swag"
+},
+"1029b70a7816": {
+"first_seen": "2026-11-07T11:14:33+00:00",
+"id": "1029b70a7816",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEQ4SlBkQURwb3E1LVN4dnJlQTU3T1JRMm5RZDJoQjZiOWRnTGVjMjVPM2FIUmtSdUxOX1V4MV9LTFlKOW9GYXFUMUkwaXZ0MU1fdHVIMVZtamVCX0FDcEdEMUgyTnNoUXEwMDExRWktRzJaQ2RxNzVpM3owbE1BcVc5ejMzZw?oc=5",
+"outlet": "Yahoo News Canada",
+"people": [],
+"published": "2026-11-06T18:00:41+00:00",
+"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Letterkenny"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Letterkenny’s Dylan Playfair enters bear country in I Kill the Bear"
 },
 "1045a610f646": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3715,7 +3757,7 @@
 "outlet": "TheWrap",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -4105,7 +4147,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -5548,7 +5590,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T03:30:46+00:00",
+"published": "2026-11-07T09:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -8540,6 +8582,29 @@
 "summary": "",
 "tags": [],
 "title": "Why Holland Taylor Left Two And A Half Men"
+},
+"e8bbeda6c282": {
+"first_seen": "2026-11-07T11:14:33+00:00",
+"id": "e8bbeda6c282",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeUlFS25QVHYyWjFlbnRJV3VZaFdrM05INm41cERna2FIdXlYMXFYM2ZmS2xyT2RSOTlzS0NRVWVmUTFQd0ROZ0tLaFhlQnE4NzhJdDB4eGp1N0xBVFc4WW56TmVrWnhHX0JibnBDOXA1cEhHcjU2UVFpd25OSDFSQXdJemFBUDgtTnlYYjVxeS1QaEJ1YmQ3a3JfbmFGaEhWemZFb0dwYnBmSUIwRFFzVTh6MjF4amNJbEx6M1dpWQ?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Ellen DeGeneres"
+],
+"published": "2026-11-07T00:32:00+00:00",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "‘Ellen DeGeneres Show’ producer Matt Wright’s cause of death revealed"
 },
 "e95e3686d338": {
 "channel_kind": "talk",
