@@ -1389,8 +1389,9 @@ details.capd > summary::-webkit-details-marker{display:none}
 details.capd > summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 0 3px var(--s1)}
 details.capd[open] > summary::after{transform:rotate(-135deg);margin:3px 0 0 var(--s1)}
 details.capd .cap{margin-top:var(--s1)}
-.item.posted{opacity:.45}
-body.hideposted .item.posted{display:none}
+.item.posted .t{color:var(--slate)}
+.posted-badge{display:inline-flex;align-items:center;gap:var(--s2);margin:0 var(--s2) 0 0;padding:0 var(--s2);min-height:24px;border:0;border-radius:var(--r);background:#14804a;color:#fff;font:inherit;font-size:var(--t1);font-weight:700;cursor:pointer;vertical-align:baseline}
+.posted-badge::before{content:"";width:9px;height:5px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-2px)}
 
 #settings{margin:var(--s8) 0 0;border-top:2px solid var(--ink);padding-top:var(--s1)}
 #settings > summary{cursor:pointer;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0;list-style:none}
@@ -1436,10 +1437,9 @@ TRAY = """
 
 SETTINGS = """
 <details id="settings"><summary>Settings</summary>
-<label><input type="checkbox" id="showposted"> Show stories I already posted</label>
 <div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
 <textarea id="header" rows="3"></textarea>
-<p class="muted">Tap a story to pick it. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
+<p class="muted">Tap a story to pick it. Stories you mark as posted get a green Posted badge; tap the badge to undo. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
 """
 
@@ -1531,7 +1531,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 {og_image}<meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};</script>
-</head><body class="hideposted">
+</head><body>
 {mast}
 {bar}
 <div class="layout">
@@ -1707,7 +1707,7 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
     return (h2("Today's posting schedule", "sec-today", None)
             + '\n<p class="muted" style="margin:8px 0 0">The ten biggest stories, one an hour. Times are GMT.</p>'
             + '\n<div class="today">\n' + "\n".join(rows)
-            + '\n</div>\n<p class="muted" id="droppedline"></p>')
+            + '\n</div>')
 
 
 # --------------------------------------------------------------------------

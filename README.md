@@ -13,7 +13,7 @@ Instagram, X and captions are handled by the Grok bot, not this site.
 1. Tick the stories you want (in the **Post today** list or any section).
 2. **Copy** copies just the stories (each headline with its source links, or the plain facts for birthdays and anniversaries, separated by a blank line). Nothing is reworded or added; your Grok setup does the writing. Paste it into your Grok chat or project.
    **Open in Grok** opens grok.com with the packet already typed in (and copies it too, as a backup).
-3. After posting, tick them again and press **Mark selected as posted**. They're hidden from then on (tick **Show posted** to see them; Shift+click a posted story's box to unmark it).
+3. After posting, tick them again and press **Posted**. They stay on the page with a green **Posted** badge; tap the badge to undo.
 4. Under **Settings** you can add an optional line to put above the stories. It's empty by default.
 
 Posted marks and the header line are saved in your browser, so they're per device.
