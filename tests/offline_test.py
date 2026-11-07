@@ -204,10 +204,10 @@ check("&#x27;Classic Sitcom&#x27; premiered 30 years ago today" in idx, "premier
 check("Returning Comedy" in idx and "Season 3 premiere" in idx, "TMDB season premiere listed")
 check("Mid Season" not in idx, "mid-season episode is not called a premiere")
 check("New Comedy" in idx, "TMDB new series listed")
-check("Post today (ranked, times GMT)" in idx and "~8:00am" in idx, "post-today list with GMT times")
+check("Today&#x27;s posting schedule" in idx and ">8<small>am</small>" in idx, "posting schedule with GMT times")
 check("test-key-123" not in idx and "test-key-123" not in (OUT / "data" / "state.json").read_text(),
       "TMDB key never written to pages or data")
-check("FAILED" in idx and "Source health" in idx, "failed sources shown in source health")
+check("FAILED" in idx and "sources worked" in idx, "failed sources shown in the sources list")
 check(ALERTS == [], "first run does not send alerts")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
 check('src="../app.js"' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
@@ -228,7 +228,7 @@ run("evening", "2026-11-07T17:50:00Z")
 eve = (OUT / "docs" / "index.html").read_text()
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")
-check("Anniversaries" not in eve, "anniversaries only in the morning")
+check("sec-anniversaries" not in eve, "anniversaries only in the morning")
 arc = (OUT / "docs" / "archive.html").read_text()
 check("2026-11-07-morning.html" in arc and "2026-11-07-evening.html" in arc, "archive lists both editions")
 
