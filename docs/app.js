@@ -423,6 +423,12 @@
     });
     var go = $("maker-go");
     if (go) go.addEventListener("click", writeFromMaker);
+    var mIn = $("maker-in");
+    if (mIn) mIn.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) { e.preventDefault(); writeFromMaker(); }
+    });
+    var mClear = $("maker-clear");
+    if (mClear) mClear.addEventListener("click", function () { mIn.value = ""; $("maker-out").innerHTML = ""; mIn.focus(); });
 
     var keyIn = $("gemkey"), save = $("gemkey-save"), clear = $("gemkey-clear"), state = $("gemkey-state");
     function showState() {

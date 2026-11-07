@@ -84,6 +84,11 @@ h2,.item{scroll-margin-top:96px}
 .mast{padding-top:var(--s2);padding-bottom:var(--s1);gap:var(--s2)}
 .tabs{gap:var(--s3)}
 }
+@media (max-width:480px){
+.brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}  /* logo only: keeps the four tabs on one row */
+.mast{flex-wrap:nowrap}
+.tabs{gap:var(--s3);font-size:var(--t2)}
+}
 
 .intro{padding:var(--s5) 0 var(--s2)}
 .intro h1{font-stretch:var(--narrow);font-weight:900;font-size:var(--t6);line-height:1;margin:0;letter-spacing:-.015em}
@@ -144,11 +149,13 @@ details.more > summary::-webkit-details-marker,details.other > summary::-webkit-
 .writer-out .cap{margin-right:0}
 .writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
 .writer-out .note a{color:var(--ink)}
-.maker{margin:var(--s5) 0 0;padding:var(--s1) var(--s4) var(--s3);border:1px solid var(--rule);border-radius:var(--r)}
-.maker > summary{cursor:pointer;list-style:none;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0}
-.maker > summary::-webkit-details-marker{display:none}
-.maker p{margin:0 0 var(--s2)}
-.maker textarea{margin:0 0 var(--s2)}
+.maker{margin:var(--s5) 0 0}
+.maker-label{display:block;font-weight:700;font-size:var(--t2);margin-bottom:var(--s1)}
+.maker textarea{margin:0 0 var(--s3);min-height:144px}
+.maker-actions{display:flex;align-items:center;gap:var(--s4)}
+.writecap.primary{background:var(--crave);border-color:var(--crave);color:#081823;min-height:48px;padding:0 var(--s5)}
+.maker .writer-out .cap{margin-top:var(--s5)}
+.maker .writer-out .cap-t{font-size:var(--t3)}
 .keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
 .keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
 .linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
@@ -194,12 +201,12 @@ td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 
 <script>window.ROUNDUP_DEFAULT_HEADER = "";
 window.ROUNDUP_CAPTION_RULES = "# Sitcom Crave caption rules (used for Gemini drafts)\n\nEdit this file to change how draft captions are written.\n\nYou write X (Twitter) captions for Sitcom Crave, a sitcom and comedy TV news account.\n\nStyle\n- Match PopCrave/PopBase: short, punchy, headline-first, 1 to 3 sentences. Lead with the news fact. No fluff.\n- Never use the em dash.\n- No emojis, except \ud83d\udd4a\ufe0f at the end of a post about someone who passed away.\n- Captions never contain links or URLs.\n- End with the source credit in plain text, e.g. \"(via Variety)\" or \"(via Deadline)\".\n- Say \"Twitter\", not \"X\".\n- Show titles in single quotes, e.g. 'Abbott Elementary'.\n- Episodes as \"S7 E6\", e.g. \"'Seinfeld' S7 E6: 'The Soup Nazi'\".\n- Say \"passed away\", never \"died\".\n- US audience: US dates, ET/PT times, \"today/tomorrow\" relative to US time.\n- Describe a person by the show they are known for, e.g. \"'Abbott Elementary' star Janelle James\". Janelle James is always \"Comedian and 'Abbott Elementary' star Janelle James\".\n- Describe a show plainly when needed: \"a show starring [lead] about [premise]\".\n- Don't copy the outlet's sentences. Reword the narration; only direct quotes stay word for word.\n\nQuote posts (when the story is mostly what someone said)\n- Put the quote first and the attribution at the end, e.g. \"... Chuck Lorre says\".\n- Quote the person the story is about, not the interviewer.\n- Open with a complete sentence from the quote; drop fragments and never add words.\n- For magazine interviews, don't write \"in an interview with [outlet]\"; the credit goes in \"(via Outlet)\".\n\nAccuracy (most important)\n- Use only facts stated in the article text given to you. If something is not in the article, leave it out.\n- Copy quotes exactly as written in the article, or don't quote at all.\n- Keep credits exactly as the article states them (created by is not produced by).\n- If the article text is missing, write only what the headline and summary say.\n- Reply with the caption text only. No notes, no options, no hashtags.\n";</script>
 </head><body>
-<header class="top"><div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html" class="on">Archive</a></nav></div></header>
+<header class="top"><div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="captions.html">Captions</a><a href="archive.html" class="on">Archive</a></nav></div></header>
 <div class="layout">
 
 <main>
 <div class="intro"><h1>Archive</h1><p>Every morning and evening roundup, newest first.</p></div>
-<a class="arch" href="editions/2026-11-07-morning.html"><b>Morning</b><span>Saturday, November 7, 2026</span><span>2:50pm</span></a>
+<a class="arch" href="editions/2026-11-07-morning.html"><b>Morning</b><span>Saturday, November 7, 2026</span><span>2:55pm</span></a>
 
 <details id="settings"><summary>Settings</summary>
 <div class="muted" style="margin-top:8px">Gemini key for writing captions on this device. It's saved only on this phone or computer, never on the site:</div>

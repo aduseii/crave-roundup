@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Roundup">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" href="favicon.ico?v=3" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png?v=3">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=3">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png?v=3">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png?v=3">
+<link rel="manifest" href="site.webmanifest?v=3">
+<title>Caption maker: Sitcom Crave Roundup</title>
+<meta name="description" content="Write a Sitcom Crave caption from any link or story text.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sitcom Crave Roundup">
+<meta property="og:title" content="Caption maker: Sitcom Crave Roundup">
+<meta property="og:description" content="Write a Sitcom Crave caption from any link or story text.">
+<meta property="og:image" content="https://aduseii.github.io/crave-roundup/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sitcom Crave">
+<meta name="twitter:image" content="https://aduseii.github.io/crave-roundup/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+@font-face{font-family:"Archivo";src:url("fonts/archivo.woff2") format("woff2-variations"),url("fonts/archivo.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
+:root{
+--paper:#fff;--ink:#081823;--slate:#566573;--rule:#dfe4e8;--crave:#ff751f;--crave-ink:#c2410c;--pink:#d6336c;--pick:#fff2e8;--bar:#081823;
+--s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:40px;--s8:48px;
+--t1:13px;--t2:15px;--t3:17px;--t4:21px;--t5:28px;--t6:40px;
+--r:6px;--narrow:68%;--col:680px}
+@media (prefers-color-scheme:dark){:root{--paper:#081823;--ink:#eef2f5;--slate:#93a3b1;--rule:#1d3040;--crave-ink:#ff8f4d;--pink:#ff7aa8;--pick:#1b2630;--bar:#13222d}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:var(--t3);line-height:1.5}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:2px}
+main,.mast{max-width:var(--col);margin:0 auto;padding-left:max(var(--s4),env(safe-area-inset-left));padding-right:max(var(--s4),env(safe-area-inset-right))}
+main{padding-bottom:calc(var(--s8) + env(safe-area-inset-bottom))}
+body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
+
+header.top{position:sticky;top:0;z-index:8;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.mast{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);flex-wrap:wrap;padding-top:var(--s3);padding-bottom:var(--s2)}
+.brand{display:inline-flex;align-items:center;gap:var(--s3);font-stretch:var(--narrow);font-weight:900;font-size:var(--t5);line-height:1;letter-spacing:-.01em;text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:var(--r);display:block}
+.tabs{display:flex;gap:var(--s4);font-size:var(--t2)}
+.tabs a{text-decoration:none;color:var(--slate);padding:var(--s2) 0}
+.tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
+
+.jumpbar{border-top:1px solid var(--rule)}
+.jb{position:relative;max-width:var(--col);margin:0 auto;padding:0 max(var(--s4),env(safe-area-inset-right)) 0 max(var(--s4),env(safe-area-inset-left))}
+#secbtn{display:flex;align-items:center;gap:var(--s2);width:100%;background:none;border:0;padding:var(--s3) 0;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
+#secbtn::before{content:"";width:4px;height:24px;background:var(--crave)}
+#cursec{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);line-height:1}
+#secbtn svg{color:var(--slate);transition:transform .15s ease-out}
+#secbtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.secmenu{position:absolute;top:100%;left:max(var(--s2),env(safe-area-inset-left));right:max(var(--s2),env(safe-area-inset-right));background:var(--paper);border:1px solid var(--rule);border-radius:var(--r);box-shadow:0 12px 32px rgba(8,24,35,.2);padding:var(--s2) 0;max-height:70vh;overflow:auto}
+.secmenu[hidden]{display:none}
+.secmenu a,.sidenav a{display:flex;justify-content:space-between;gap:var(--s3);text-decoration:none;font-weight:600}
+.secmenu a{padding:var(--s3) var(--s4);font-size:var(--t3)}
+.secmenu a span,.sidenav a span{color:var(--slate);font-weight:400}
+.secmenu a.on{background:var(--pick);box-shadow:inset 4px 0 0 var(--crave)}
+.side{display:none}
+@media (min-width:1000px){
+.jumpbar{display:none}
+body.has-side .layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
+.side{display:block}
+.sidenav{position:sticky;top:96px;display:flex;flex-direction:column;padding-top:var(--s6)}
+.sidenav a{padding:var(--s2) 0 var(--s2) var(--s4);border-left:4px solid var(--rule);color:var(--slate);font-size:var(--t2)}
+.sidenav a:hover{color:var(--ink)}
+.sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
+body.has-side .layout main{margin:0;padding-left:0;padding-right:0}
+body.has-side .mast{max-width:896px}
+h2,.item{scroll-margin-top:96px}
+}
+@media (max-width:640px){
+.brand{font-size:var(--t4);gap:var(--s2)}
+.brand img{width:36px;height:36px}
+.mast{padding-top:var(--s2);padding-bottom:var(--s1);gap:var(--s2)}
+.tabs{gap:var(--s3)}
+}
+@media (max-width:480px){
+.brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}  /* logo only: keeps the four tabs on one row */
+.mast{flex-wrap:nowrap}
+.tabs{gap:var(--s3);font-size:var(--t2)}
+}
+
+.intro{padding:var(--s5) 0 var(--s2)}
+.intro h1{font-stretch:var(--narrow);font-weight:900;font-size:var(--t6);line-height:1;margin:0;letter-spacing:-.015em}
+.intro p{margin:var(--s2) 0 0;color:var(--slate);font-size:var(--t2);max-width:34em}
+
+h2{font-stretch:var(--narrow);font-weight:800;font-size:var(--t5);line-height:1.1;margin:var(--s7) 0 var(--s1);padding-bottom:var(--s2);border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:var(--s3);scroll-margin-top:136px}
+h2 .count{font-stretch:100%;font-weight:400;font-size:var(--t2);color:var(--slate)}
+h3{font-size:var(--t2);font-weight:700;margin:var(--s5) 0 0;color:var(--slate)}
+.muted{color:var(--slate);font-size:var(--t2)}
+.empty{color:var(--slate);font-size:var(--t2);margin:var(--s3) 0}
+
+.item{position:relative;padding:var(--s4) 0;border-bottom:1px solid var(--rule);scroll-margin-top:136px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.item.sel{background:var(--pick);box-shadow:calc(-1 * var(--s4)) 0 0 var(--pick),var(--s4) 0 0 var(--pick)}
+.item.sel::before{content:"";position:absolute;left:calc(-1 * var(--s4));top:0;bottom:0;width:4px;background:var(--crave)}
+.item .kick{font-size:var(--t1);margin-bottom:var(--s1)}
+.item .when{color:var(--slate);white-space:nowrap;margin-right:var(--s3)}
+.item label{display:flex;gap:var(--s4);align-items:flex-start;cursor:pointer}
+.item .t{font-weight:700;font-size:var(--t3);line-height:1.3;flex:1}
+.item .sum{color:var(--slate);font-size:var(--t2);line-height:1.5;margin:var(--s1) var(--s7) 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.item .meta{font-size:var(--t1);color:var(--slate);margin:var(--s2) var(--s7) 0 0}
+.item .meta a{color:var(--ink)}
+.item .meta details{display:inline}
+.item .meta summary{display:inline;cursor:pointer;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
+.item .meta summary::-webkit-details-marker{display:none}
+input.pick{-webkit-appearance:none;appearance:none;flex:0 0 24px;width:24px;height:24px;margin:0;border:2px solid var(--ink);border-radius:var(--r);background:transparent;cursor:pointer;opacity:.55}
+input.pick:checked{opacity:1;border-color:var(--crave);background:var(--crave) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='square'/%3E%3C/svg%3E") center/16px no-repeat}
+input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--crave);outline-offset:2px}
+
+.tag{font-weight:700;color:var(--slate)}
+.k-renewed{color:#14804a}.k-cancelled{color:#c8231a}.k-memoriam{color:var(--ink)}
+.k-exit{color:var(--crave-ink)}.k-arrest{color:#b4234f}.k-revival,.k-trailer{color:#6c3fc4}
+.k-casting{color:#1d5fd1}.k-streaming{color:#3b4a9c}.k-interview,.k-clip{color:#0b7285}
+.k-upcoming,.k-premiere{color:#1d5fd1}.k-birthday{color:var(--pink)}.k-anniv{color:var(--crave-ink)}
+@media (prefers-color-scheme:dark){.k-renewed{color:#4cc38a}.k-cancelled{color:#ff6b61}.k-arrest{color:#ff7aa0}.k-revival,.k-trailer{color:#b197fc}.k-casting,.k-upcoming,.k-premiere{color:#74a7ff}.k-streaming{color:#a5b4fc}.k-interview,.k-clip{color:#5fd4e8}}
+
+.today .item{display:grid;grid-template-columns:56px 1fr;column-gap:var(--s3);padding:var(--s3) 0}
+.today .time{font-stretch:62%;font-weight:900;font-size:var(--t5);line-height:1;color:var(--crave-ink);letter-spacing:-.01em}
+.today .time small{font-size:var(--t2);font-weight:700}
+.today .item .meta{margin-top:var(--s1)}
+
+details.more,details.other{margin:var(--s2) 0}
+details.more > summary,details.other > summary{cursor:pointer;font-weight:600;font-size:var(--t2);padding:var(--s3) 0;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
+details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
+.cap{margin:var(--s3) var(--s7) 0 0;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);cursor:auto}
+.cap-h{font-size:var(--t1);color:var(--slate);margin-bottom:var(--s1)}
+.cap-t{margin:0 0 var(--s3);font-size:var(--t2);white-space:pre-line;-webkit-user-select:text;user-select:text}
+.capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
+.today .cap{margin-right:0}
+.writer{margin-top:var(--s2)}
+.writecap{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.writer .writecap{min-height:32px;padding:0 var(--s3);font-size:var(--t1);border-color:var(--rule);color:var(--crave-ink)}
+.writecap[disabled]{opacity:.7;cursor:progress}
+.writecap.busy::after{content:"";width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.writecap.busy::after{animation:none}}
+.writer-out:empty{display:none}
+.writer-out .cap{margin-right:0}
+.writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
+.writer-out .note a{color:var(--ink)}
+.maker{margin:var(--s5) 0 0}
+.maker-label{display:block;font-weight:700;font-size:var(--t2);margin-bottom:var(--s1)}
+.maker textarea{margin:0 0 var(--s3);min-height:144px}
+.maker-actions{display:flex;align-items:center;gap:var(--s4)}
+.writecap.primary{background:var(--crave);border-color:var(--crave);color:#081823;min-height:48px;padding:0 var(--s5)}
+.maker .writer-out .cap{margin-top:var(--s5)}
+.maker .writer-out .cap-t{font-size:var(--t3)}
+.keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
+.keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
+.linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
+details.capd{margin-top:var(--s2)}
+details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
+details.capd > summary::-webkit-details-marker{display:none}
+details.capd > summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 0 3px var(--s1)}
+details.capd[open] > summary::after{transform:rotate(-135deg);margin:3px 0 0 var(--s1)}
+details.capd .cap{margin-top:var(--s1)}
+.item.posted .t{color:var(--slate)}
+.posted-badge{display:inline-flex;align-items:center;gap:var(--s2);margin:0 var(--s2) 0 0;padding:0 var(--s2);min-height:24px;border:0;border-radius:var(--r);background:#14804a;color:#fff;font:inherit;font-size:var(--t1);font-weight:700;cursor:pointer;vertical-align:baseline}
+.posted-badge::before{content:"";width:9px;height:5px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-2px)}
+
+#settings{margin:var(--s8) 0 0;border-top:2px solid var(--ink);padding-top:var(--s1)}
+#settings > summary{cursor:pointer;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0;list-style:none}
+#settings > summary::-webkit-details-marker{display:none}
+#settings label{display:flex;gap:var(--s3);align-items:center;padding:var(--s2) 0;font-size:var(--t2)}
+#settings input[type=checkbox]{width:24px;height:24px;margin:0;accent-color:var(--crave)}
+textarea{width:100%;font:inherit;font-size:16px;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink);margin-top:var(--s2)}
+
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bar);color:#fff;border-top:4px solid var(--crave);padding:var(--s3) max(var(--s4),env(safe-area-inset-right)) calc(var(--s3) + env(safe-area-inset-bottom)) max(var(--s4),env(safe-area-inset-left));transform:translateY(120%);transition:transform .18s ease-out}
+body.has-sel #tray{transform:none}
+@media (prefers-reduced-motion:reduce){#tray,#secbtn svg{transition:none}}
+#tray .in{max-width:var(--col);margin:0 auto}
+#tray .info{display:flex;align-items:baseline;gap:var(--s3);margin-bottom:var(--s2);min-height:24px}
+#tray .info b{font-stretch:var(--narrow);font-weight:900;font-size:var(--t4);white-space:nowrap}
+#status{color:#ffd2b5;font-size:var(--t1);flex:1;line-height:1.3}
+#tray .linkbtn{background:none;border:0;color:#c9d3dc;font:inherit;font-size:var(--t2);text-decoration:underline;text-underline-offset:3px;padding:var(--s1) 0}
+#tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:var(--s2)}
+#tray .btns button{min-height:48px;font:inherit;font-size:var(--t2);font-weight:700;border-radius:var(--r);border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;padding:var(--s1) var(--s2);-webkit-tap-highlight-color:transparent}
+#tray .btns button.primary{background:var(--crave);border-color:var(--crave);color:#081823}
+#tray .btns button[hidden]{display:none}
+
+.health{margin-top:var(--s3)}
+.health > summary{cursor:pointer;padding:var(--s2) 0;color:var(--slate);font-size:var(--t2)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:var(--s3)}
+table{border-collapse:collapse;font-size:var(--t1)}
+td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 0;text-align:left;vertical-align:top}
+.arch{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s1) var(--s4);align-items:baseline;padding:var(--s3) 0;border-bottom:1px solid var(--rule);text-decoration:none}
+.arch b{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4)}
+.arch span{color:var(--slate);font-size:var(--t2)}
+</style>
+<script>window.ROUNDUP_DEFAULT_HEADER = "";
+window.ROUNDUP_CAPTION_RULES = "# Sitcom Crave caption rules (used for Gemini drafts)\n\nEdit this file to change how draft captions are written.\n\nYou write X (Twitter) captions for Sitcom Crave, a sitcom and comedy TV news account.\n\nStyle\n- Match PopCrave/PopBase: short, punchy, headline-first, 1 to 3 sentences. Lead with the news fact. No fluff.\n- Never use the em dash.\n- No emojis, except \ud83d\udd4a\ufe0f at the end of a post about someone who passed away.\n- Captions never contain links or URLs.\n- End with the source credit in plain text, e.g. \"(via Variety)\" or \"(via Deadline)\".\n- Say \"Twitter\", not \"X\".\n- Show titles in single quotes, e.g. 'Abbott Elementary'.\n- Episodes as \"S7 E6\", e.g. \"'Seinfeld' S7 E6: 'The Soup Nazi'\".\n- Say \"passed away\", never \"died\".\n- US audience: US dates, ET/PT times, \"today/tomorrow\" relative to US time.\n- Describe a person by the show they are known for, e.g. \"'Abbott Elementary' star Janelle James\". Janelle James is always \"Comedian and 'Abbott Elementary' star Janelle James\".\n- Describe a show plainly when needed: \"a show starring [lead] about [premise]\".\n- Don't copy the outlet's sentences. Reword the narration; only direct quotes stay word for word.\n\nQuote posts (when the story is mostly what someone said)\n- Put the quote first and the attribution at the end, e.g. \"... Chuck Lorre says\".\n- Quote the person the story is about, not the interviewer.\n- Open with a complete sentence from the quote; drop fragments and never add words.\n- For magazine interviews, don't write \"in an interview with [outlet]\"; the credit goes in \"(via Outlet)\".\n\nAccuracy (most important)\n- Use only facts stated in the article text given to you. If something is not in the article, leave it out.\n- Copy quotes exactly as written in the article, or don't quote at all.\n- Keep credits exactly as the article states them (created by is not produced by).\n- If the article text is missing, write only what the headline and summary say.\n- Reply with the caption text only. No notes, no options, no hashtags.\n";</script>
+</head><body>
+<header class="top"><div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="captions.html" class="on">Captions</a><a href="archive.html">Archive</a></nav></div></header>
+<div class="layout">
+
+<main>
+<div class="intro"><h1>Caption maker</h1><p>Paste a link to any story, or the story's text, and Gemini writes the caption in your style, following your caption rules. It uses the Gemini key saved in Settings at the bottom of this page.</p></div>
+
+<div id="maker" class="maker">
+<label for="maker-in" class="maker-label">Link or story text</label>
+<textarea id="maker-in" rows="6" placeholder="Paste a link to any story, or paste the story's text"></textarea>
+<div class="maker-actions"><button type="button" id="maker-go" class="writecap primary">Write caption</button>
+<button type="button" id="maker-clear" class="linkish">Clear</button></div>
+<div id="maker-out" class="writer-out"></div>
+</div>
+
+
+<details id="settings"><summary>Settings</summary>
+<div class="muted" style="margin-top:8px">Gemini key for writing captions on this device. It's saved only on this phone or computer, never on the site:</div>
+<div class="keyrow"><input id="gemkey" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Paste your Gemini API key">
+<button type="button" id="gemkey-save" class="writecap">Save</button><button type="button" id="gemkey-clear" class="linkish">Remove</button></div>
+<div class="muted" id="gemkey-state"></div>
+<div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
+<textarea id="header" rows="3"></textarea>
+<p class="muted">Tap a story to pick it. Stories you mark as posted get a green Posted badge; tap the badge to undo. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
+</details>
+
+</main>
+</div>
+
+<div id="tray" aria-live="polite"><div class="in">
+<div class="info"><b><span id="count">0</span> picked</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
+<div class="btns">
+<button id="copy" class="primary">Copy</button>
+<button id="open">Open Grok</button>
+<button id="share" hidden>Share</button>
+<button id="markposted">Posted</button>
+</div>
+</div></div>
+
+<script src="app.js"></script>
+</body></html>
