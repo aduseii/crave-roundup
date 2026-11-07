@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:55:17+00:00"
+"time": "2026-11-07T10:59:24+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\"",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -219,6 +219,27 @@
 "summary": "",
 "tags": [],
 "title": "Hilary Duff’s Rich-Mom Sweater Style Makes Even Leggings Look Expensive"
+},
+"061e2243b0e4": {
+"first_seen": "2026-11-07T10:59:24+00:00",
+"id": "061e2243b0e4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWFk3dG1XMHJYOFBRdGdSYjZLUVlYV25VdTV3NkdrdTJ3N05HNmMtTGwybVZXYmdaNkw3Rm1nNFE0WUZ3aWpaN0MwR210LWhvU3VqUWlpd21Cel9OZ29GZ1R1WlJ0RnhubzNIVTlnT0JYQ3VpOGFNNEVUazN3UF9QZXE5REY5SlJnc1RoRjhsQmdyajVoZmhzTk5WVk85M0o3S3BjU2xKTEU?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-06T18:27:22+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Yes, Nobody Wants This season 4 is happening, and Joanne and Noah's secret will come out"
 },
 "0625c3e4cac4": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -1143,6 +1164,29 @@
 "summary": "\"The Late Show\" signs off with two powerful musical performances back-to-back, beginning with the quartet of Stephen Colbert, Louis Cato, Jon Batiste and Elvis Costello performing Costello's 1977 tune, \"Jump Up.\" As that song ends, the...",
 "tags": [],
 "title": "\"Jump Up / Hello Goodbye\" Paul McCartney, Elvis Costello, Jon Batiste, Louis Cato & Stephen Colbert"
+},
+"15621954cfd2": {
+"first_seen": "2026-11-07T10:59:24+00:00",
+"id": "15621954cfd2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zUFE5NWJWckJMbkd2WkhUSThhYWtVOWxBSXY3eXA2TzlnalpXTEhwemRXejZ3MGtVcDM3Sno4eUdBaG0tZWMxZUlIVC1mNF9lTEtRN1gyOEZlNUREM2MwNlZB?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T23:15:00+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "Nobody Wants This Renewed for Season 4 at Netflix"
 },
 "16663fc1a75a": {
 "channel_kind": "talk",
@@ -4061,7 +4105,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -4539,6 +4583,27 @@
 "Interview"
 ],
 "title": "Gabourey Sidibe Confronts Raven-Symoné About Their Past Tension on Her Podcast"
+},
+"7755aebd1d97": {
+"first_seen": "2026-11-07T10:59:24+00:00",
+"id": "7755aebd1d97",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40OTBoMzRWZVZrMHMycVEwVC1NLThreFA3dV9jOFZWaktBYlh3YzYyc0d4cWM4eTI5WFV2akZfd1JuV3dRU2FWcVEwbmdaTE1NWS1OUUVnQ0JOa0RpdTNSb1ZUWHFpZ0daTkE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T15:57:47+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "‘Melania, The Series’ Trailer Brings the Trumps Back to Prime Video"
 },
 "780b50bda43a": {
 "channel_kind": "outlet",

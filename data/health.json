@@ -108,7 +108,7 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 9,
+  "count": 10,
   "resolved": ""
  },
  {
@@ -122,7 +122,7 @@
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -157,7 +157,7 @@
   "type": "search",
   "name": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -220,7 +220,7 @@
   "type": "search",
   "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
   "ok": true,
-  "count": 28,
+  "count": 30,
   "resolved": ""
  },
  {
@@ -262,14 +262,14 @@
   "type": "search",
   "name": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
-  "count": 16,
+  "count": 17,
   "resolved": ""
  },
  {
@@ -290,7 +290,7 @@
   "type": "search",
   "name": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -339,7 +339,7 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -353,7 +353,7 @@
   "type": "search",
   "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -374,7 +374,7 @@
   "type": "search",
   "name": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -395,7 +395,7 @@
   "type": "search",
   "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -565,8 +565,7 @@
  {
   "type": "tmdb",
   "name": "upcoming premieres",
-  "ok": false,
-  "count": 0,
-  "error": "TMDB_API_KEY secret not set, skipped"
+  "ok": true,
+  "count": 17
  }
 ]
