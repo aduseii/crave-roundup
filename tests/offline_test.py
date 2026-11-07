@@ -255,6 +255,9 @@ check([a for a in ALERTS if a.startswith("BREAKING")] == [], "first run does not
 check(any(a.startswith("Morning roundup is ready") and "aduseii.github.io/crave-roundup/" in a for a in ALERTS),
       "morning roundup notice sent to Telegram")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
+cap_page = (OUT / "docs" / "captions.html").read_text()
+check('id="maker-in"' in cap_page and 'class="on">Captions' in cap_page, "caption maker has its own Captions tab")
+check('id="maker"' not in idx and 'href="captions.html"' in idx, "roundup page links to it instead of carrying it")
 caps = [htmllib.unescape(c) for c in re.findall(r'data-cap="([^"]*)"', idx)]
 check("Happy birthday to the beautiful Test Person, who turns 45 today!" in caps,
       "birthday caption is just the one line")

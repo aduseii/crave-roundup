@@ -1342,6 +1342,11 @@ h2,.item{scroll-margin-top:96px}
 .mast{padding-top:var(--s2);padding-bottom:var(--s1);gap:var(--s2)}
 .tabs{gap:var(--s3)}
 }
+@media (max-width:480px){
+.brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}  /* logo only: keeps the four tabs on one row */
+.mast{flex-wrap:nowrap}
+.tabs{gap:var(--s3);font-size:var(--t2)}
+}
 
 .intro{padding:var(--s5) 0 var(--s2)}
 .intro h1{font-stretch:var(--narrow);font-weight:900;font-size:var(--t6);line-height:1;margin:0;letter-spacing:-.015em}
@@ -1402,11 +1407,13 @@ details.more > summary::-webkit-details-marker,details.other > summary::-webkit-
 .writer-out .cap{margin-right:0}
 .writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
 .writer-out .note a{color:var(--ink)}
-.maker{margin:var(--s5) 0 0;padding:var(--s1) var(--s4) var(--s3);border:1px solid var(--rule);border-radius:var(--r)}
-.maker > summary{cursor:pointer;list-style:none;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0}
-.maker > summary::-webkit-details-marker{display:none}
-.maker p{margin:0 0 var(--s2)}
-.maker textarea{margin:0 0 var(--s2)}
+.maker{margin:var(--s5) 0 0}
+.maker-label{display:block;font-weight:700;font-size:var(--t2);margin-bottom:var(--s1)}
+.maker textarea{margin:0 0 var(--s3);min-height:144px}
+.maker-actions{display:flex;align-items:center;gap:var(--s4)}
+.writecap.primary{background:var(--crave);border-color:var(--crave);color:#081823;min-height:48px;padding:0 var(--s5)}
+.maker .writer-out .cap{margin-top:var(--s5)}
+.maker .writer-out .cap-t{font-size:var(--t3)}
 .keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
 .keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
 .linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
@@ -1475,12 +1482,13 @@ SETTINGS = """
 """
 
 MAKER = """
-<details id="maker" class="maker"><summary>Caption maker</summary>
-<p class="muted">Paste a link to any story, or the story's text, and Gemini writes the caption in your style.</p>
-<textarea id="maker-in" rows="3" placeholder="Paste a link or the story text"></textarea>
-<button type="button" id="maker-go" class="writecap">Write caption</button>
+<div id="maker" class="maker">
+<label for="maker-in" class="maker-label">Link or story text</label>
+<textarea id="maker-in" rows="6" placeholder="Paste a link to any story, or paste the story's text"></textarea>
+<div class="maker-actions"><button type="button" id="maker-go" class="writecap primary">Write caption</button>
+<button type="button" id="maker-clear" class="linkish">Clear</button></div>
 <div id="maker-out" class="writer-out"></div>
-</details>
+</div>
 """
 
 WRITER = '<div class="writer"><button type="button" class="writecap">Write caption</button><div class="writer-out"></div></div>'
@@ -1542,7 +1550,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
     tabs = "".join(
         f'<a href="{pre}{href}"{on if key == active else ""}>{label}</a>'
         for key, label, href in (("latest", "Latest", "index.html"), ("breaking", "Breaking", "breaking.html"),
-                                 ("archive", "Archive", "archive.html")))
+                                 ("captions", "Captions", "captions.html"), ("archive", "Archive", "archive.html")))
     mast = (f'<div class="mast"><a class="brand" href="{pre}index.html">'
             f'<img src="{pre}logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a>'
             f'<nav class="tabs">{tabs}</nav></div>')
@@ -1801,7 +1809,6 @@ def write_breaking_page(clusters: list[dict], now: dt.datetime) -> None:
     body = ['<div class="intro"><h1>Breaking</h1>',
             f"<p>Deaths, renewals, cancellations, exits and revivals, newest first. "
             f"Last checked {clock(now)} GMT. Checks run every 30 minutes.</p></div>",
-            MAKER,
             h2(f"Last {BREAKING_PAGE_HOURS} hours", "sec-breaking", len(clusters))]
     if clusters:
         for c in clusters:
@@ -1814,6 +1821,15 @@ def write_breaking_page(clusters: list[dict], now: dt.datetime) -> None:
                page("Breaking: Sitcom Crave Roundup", "\n".join(body), active="breaking",
                     desc="Breaking comedy TV news: deaths, renewals, cancellations, exits and revivals "
                          f"from the last {BREAKING_PAGE_HOURS} hours."))
+
+
+def write_captions_page() -> None:
+    body = ('<div class="intro"><h1>Caption maker</h1>'
+            "<p>Paste a link to any story, or the story's text, and Gemini writes the caption in your style, "
+            "following your caption rules. It uses the Gemini key saved in Settings at the bottom of this page.</p></div>\n"
+            + MAKER)
+    write_text(DOCS_DIR / "captions.html", page("Caption maker: Sitcom Crave Roundup", body, active="captions",
+                                                desc="Write a Sitcom Crave caption from any link or story text."))
 
 
 def write_archive(state: dict) -> None:
@@ -1878,7 +1894,6 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     body = [f'<div class="intro"><h1>{E(mode.title())} roundup</h1>'
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
             f"{nxt}</p></div>",
-            MAKER,
             post_today_html(ranked, now)]
     jump = [("sec-today", "Schedule", None)] if ranked else []
 
@@ -2007,6 +2022,7 @@ def run(mode: str) -> int:
     log(f"{len(fresh)} new breaking stories, {sent} Telegram alerts sent")
 
     write_assets()
+    write_captions_page()
     if fresh or mode != "breaking" or not (DOCS_DIR / "breaking.html").exists():
         write_breaking_page(clusters, now)
 
