@@ -4,115 +4,131 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Roundup">
-<meta name="theme-color" content="#081823">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" type="image/png" href="icon-180.png">
 <title>Breaking: Sitcom Crave Roundup</title>
 <style>
-:root{--navy:#081823;--navy2:#13222d;--accent:#ff751f;--pink:#ff5fa8;--bg:#f3f4f6;--card:#fff;--fg:#14181c;--muted:#6b7280;--line:#e5e7eb;--link:#1f5fbf;--sel:#fff4ec;--sum:#3b4148;--btn:#eef0f3;--shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08)}
-@media (prefers-color-scheme:dark){:root{--bg:#0b1117;--card:#151d25;--fg:#e9edf1;--muted:#8d98a5;--line:#243040;--link:#8ab4ff;--sel:#2a1f17;--sum:#c3cbd4;--btn:#1e2833;--shadow:none}}
+@font-face{font-family:"Archivo";src:url("fonts/archivo.woff2") format("woff2-variations"),url("fonts/archivo.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
+:root{--paper:#fff;--ink:#081823;--slate:#566573;--rule:#dfe4e8;--crave:#ff751f;--crave-ink:#c2410c;--pink:#d6336c;--pick:#fff2e8;--bar:#081823}
+@media (prefers-color-scheme:dark){:root{--paper:#081823;--ink:#eef2f5;--slate:#93a3b1;--rule:#1d3040;--crave-ink:#ff8f4d;--pink:#ff7aa8;--pick:#1b2630;--bar:#13222d}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.45;color:var(--fg);background:var(--bg)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.5}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:2px}
+main,.mast,.jump{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+main{padding-bottom:calc(48px + env(safe-area-inset-bottom))}
 body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
-a{color:var(--link);text-decoration:none}
-main{max-width:760px;margin:0 auto;padding:0 max(12px,env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
-header.top{position:sticky;top:0;z-index:5}
-.bar{background:var(--navy);color:#fff;padding:calc(8px + env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) 0 max(14px,env(safe-area-inset-left))}
-.bar .in{max-width:760px;margin:0 auto}
-.brand{display:inline-flex;align-items:baseline;gap:7px;color:#fff;font-weight:900;letter-spacing:.04em;font-size:17px;padding:2px 0 6px}
-.brand .b2{color:var(--accent)}
-.tabs{display:flex;gap:4px}
-.tabs a{color:#c9d3dc;font-weight:700;font-size:15px;padding:9px 12px 10px;border-bottom:3px solid transparent}
-.tabs a.on{color:#fff;border-bottom-color:var(--accent)}
-.jumpwrap{background:var(--bg);border-bottom:1px solid var(--line)}
-nav.jump{max-width:760px;margin:0 auto;display:flex;gap:7px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:9px max(12px,env(safe-area-inset-right)) 9px max(12px,env(safe-area-inset-left))}
+
+.mast{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:calc(14px + env(safe-area-inset-top));padding-bottom:6px}
+.brand{font-stretch:68%;font-weight:900;font-size:26px;line-height:1;letter-spacing:-.01em;text-decoration:none}
+.brand span{font-weight:400;color:var(--slate)}
+.tabs{display:flex;gap:16px;font-size:15px}
+.tabs a{text-decoration:none;color:var(--slate);padding:6px 0}
+.tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
+.jumpbar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+nav.jump{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;font-size:15px}
 nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{flex:0 0 auto;font-size:14px;font-weight:600;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--fg);border:1px solid var(--line)}
-nav.jump a .n{color:var(--muted);font-weight:600;margin-left:4px}
-.intro{padding:16px 2px 4px}
-.intro h1{font-size:24px;line-height:1.2;font-weight:800;margin:0}
-.intro p{margin:4px 0 0;color:var(--muted);font-size:14px}
-h2{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:26px 2px 10px;scroll-margin-top:120px}
-h2 .count{background:var(--btn);color:var(--muted);border-radius:999px;padding:1px 8px;font-size:12px;letter-spacing:0}
-h3{font-size:14px;font-weight:700;color:var(--muted);margin:18px 2px 8px}
-.muted{color:var(--muted);font-size:14px}
-.item{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:12px 14px 12px;margin:0 0 10px;scroll-margin-top:120px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:border-color .15s,background .15s}
-.item.sel{border-color:var(--accent);background:var(--sel);box-shadow:0 0 0 1px var(--accent)}
-.item .top{display:flex;align-items:center;gap:8px;margin-bottom:6px;min-height:22px}
-.item .when{color:var(--muted);font-size:13px;margin-left:auto;white-space:nowrap}
-.item label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
-.item .t{font-weight:700;font-size:16.5px;line-height:1.3}
-.item .sum{color:var(--sum);font-size:14.5px;margin:6px 36px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.item .meta{color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6}
+nav.jump a{flex:0 0 auto;text-decoration:none;padding:10px 0;font-weight:600}
+nav.jump a span{color:var(--slate);font-weight:400;margin-left:3px}
+
+.intro{padding:22px 0 6px}
+.intro h1{font-stretch:68%;font-weight:900;font-size:40px;line-height:1;margin:0;letter-spacing:-.015em}
+.intro p{margin:8px 0 0;color:var(--slate);font-size:15px;max-width:34em}
+
+h2{font-stretch:68%;font-weight:800;font-size:26px;line-height:1.1;margin:40px 0 4px;padding-bottom:8px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:10px;scroll-margin-top:60px}
+h2 .count{font-stretch:100%;font-weight:400;font-size:15px;color:var(--slate)}
+h3{font-size:15px;font-weight:700;margin:26px 0 0;color:var(--slate)}
+.muted{color:var(--slate);font-size:14px}
+.empty{color:var(--slate);font-size:15px;margin:12px 0}
+
+.item{position:relative;padding:14px 0 15px;border-bottom:1px solid var(--rule);scroll-margin-top:60px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.item.sel{background:var(--pick);box-shadow:-16px 0 0 var(--pick),16px 0 0 var(--pick)}
+.item.sel::before{content:"";position:absolute;left:-16px;top:0;bottom:0;width:4px;background:var(--crave)}
+.item .kick{display:flex;align-items:baseline;gap:10px;font-size:13.5px;margin-bottom:3px;min-height:1px}
+.item .when{color:var(--slate);white-space:nowrap;margin-right:10px}
+.item label{display:flex;gap:14px;align-items:flex-start;cursor:pointer}
+.item .t{font-weight:700;font-size:17.5px;line-height:1.3;flex:1}
+.item .sum{color:var(--slate);font-size:15px;line-height:1.5;margin:5px 40px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.item .meta{font-size:13.5px;color:var(--slate);margin-top:7px;margin-right:40px}
+.item .meta a{color:var(--ink)}
 .item .meta details{display:inline}
-.item .meta summary{display:inline;color:var(--link);cursor:pointer;list-style:none}
+.item .meta summary{display:inline;cursor:pointer;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
 .item .meta summary::-webkit-details-marker{display:none}
-input.pick{-webkit-appearance:none;appearance:none;order:2;margin:0 0 0 auto;flex:0 0 26px;width:26px;height:26px;border:2px solid #c3c9d1;border-radius:50%;background:var(--card);cursor:pointer}
-input.pick:checked{background:var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat;border-color:var(--accent)}
-.chip{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:6px;color:#fff;background:#5b6573;white-space:nowrap}
-.c-death,.c-remember{background:#2b2f36}
-.c-renewal{background:#15803d}
-.c-cancel{background:#c62828}
-.c-exit{background:#d9480f}
-.c-arrest{background:#a61e4d}
-.c-revival,.c-trailer{background:#7c3aed}
-.c-casting{background:#1d4ed8}
-.c-news{background:var(--navy2)}
-.c-streaming{background:#4338ca}
-.c-interview,.c-clip{background:#0f766e}
-.c-upcoming,.c-premiere{background:#0369a1}
-.c-birthday{background:var(--pink)}
-.c-anniv{background:#b45309}
-.item.rank .num{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:8px;background:var(--navy);color:#fff;font-weight:800;font-size:14px}
-.item.rank .slot{font-weight:700;color:var(--accent);font-size:13px;margin-left:auto}
-.item.posted{opacity:.5}
-body.hideposted .item.posted{display:none}
-.empty{color:var(--muted);font-size:14px;padding:4px 2px}
-details.more > summary,details.other > summary{cursor:pointer;color:var(--link);font-weight:600;font-size:14px;padding:6px 2px;list-style:none}
+input.pick{-webkit-appearance:none;appearance:none;flex:0 0 24px;width:24px;height:24px;margin:1px 0 0;border:2px solid var(--ink);border-radius:4px;background:transparent;cursor:pointer;opacity:.55}
+input.pick:checked{opacity:1;border-color:var(--crave);background:var(--crave) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='square'/%3E%3C/svg%3E") center/17px no-repeat}
+input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--crave);outline-offset:2px}
+
+.tag{font-weight:700;color:var(--slate)}
+.k-renewed{color:#14804a}.k-cancelled{color:#c8231a}.k-memoriam{color:var(--ink)}
+.k-exit{color:var(--crave-ink)}.k-arrest{color:#b4234f}.k-revival,.k-trailer{color:#6c3fc4}
+.k-casting{color:#1d5fd1}.k-streaming{color:#3b4a9c}.k-interview,.k-clip{color:#0b7285}
+.k-upcoming,.k-premiere{color:#1d5fd1}.k-birthday{color:var(--pink)}.k-anniv{color:var(--crave-ink)}
+@media (prefers-color-scheme:dark){.k-renewed{color:#4cc38a}.k-cancelled{color:#ff6b61}.k-arrest{color:#ff7aa0}.k-revival,.k-trailer{color:#b197fc}.k-casting,.k-upcoming,.k-premiere{color:#74a7ff}.k-streaming{color:#a5b4fc}.k-interview,.k-clip{color:#5fd4e8}}
+
+.today .item{display:grid;grid-template-columns:58px 1fr;column-gap:12px;padding:12px 0 13px}
+.today .time{font-stretch:62%;font-weight:900;font-size:30px;line-height:1;color:var(--crave-ink);letter-spacing:-.01em;padding-top:2px}
+.today .time small{font-size:15px;font-weight:700;margin-left:1px}
+.today .item .t{font-size:17px}
+.today .item .meta{margin-top:5px}
+
+details.more,details.other{margin:6px 0}
+details.more > summary,details.other > summary{cursor:pointer;font-weight:600;font-size:15px;padding:12px 0;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
 details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
-#settings{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px;margin:26px 0 10px}
-#settings > summary{cursor:pointer;font-weight:700;padding:10px 0;color:var(--muted)}
+.item.posted{opacity:.45}
+body.hideposted .item.posted{display:none}
+
+#settings{margin:44px 0 0;border-top:2px solid var(--ink);padding-top:4px}
+#settings > summary{cursor:pointer;font-stretch:68%;font-weight:800;font-size:22px;padding:8px 0;list-style:none}
+#settings > summary::-webkit-details-marker{display:none}
 #settings label{display:flex;gap:10px;align-items:center;padding:8px 0;font-size:15px}
-#settings input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent)}
-textarea{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
-#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.14);border-radius:18px 18px 0 0;padding:10px max(14px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));transform:translateY(115%);transition:transform .22s ease}
+#settings input[type=checkbox]{width:22px;height:22px;accent-color:var(--crave)}
+textarea{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid var(--rule);border-radius:4px;background:var(--paper);color:var(--ink);margin-top:6px}
+
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bar);color:#fff;border-top:3px solid var(--crave);padding:10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));transform:translateY(120%);transition:transform .18s ease-out}
 body.has-sel #tray{transform:none}
-#tray .in{max-width:760px;margin:0 auto}
-#tray .info{display:flex;align-items:center;gap:10px;font-size:15px;margin-bottom:9px;min-height:22px}
-#tray .info b{white-space:nowrap}
-#status{color:#15803d;font-size:13.5px;flex:1;line-height:1.3}
-#tray .linkbtn{background:none;border:0;color:var(--link);font-size:15px;font-weight:600;padding:4px}
+@media (prefers-reduced-motion:reduce){#tray{transition:none}}
+#tray .in{max-width:680px;margin:0 auto}
+#tray .info{display:flex;align-items:baseline;gap:12px;margin-bottom:9px;min-height:22px}
+#tray .info b{font-stretch:68%;font-weight:900;font-size:20px;white-space:nowrap}
+#status{color:#ffd2b5;font-size:13.5px;flex:1;line-height:1.3}
+#tray .linkbtn{background:none;border:0;color:#c9d3dc;font:inherit;font-size:15px;text-decoration:underline;text-underline-offset:3px;padding:4px 0}
 #tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:8px}
-#tray .btns button{min-height:48px;font-size:15px;font-weight:700;border-radius:12px;border:0;background:var(--btn);color:var(--fg);padding:4px 6px;-webkit-tap-highlight-color:transparent}
-#tray .btns button.primary{background:var(--accent);color:#fff}
+#tray .btns button{min-height:46px;font:inherit;font-size:15.5px;font-weight:700;border-radius:4px;border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;padding:4px 6px;-webkit-tap-highlight-color:transparent}
+#tray .btns button.primary{background:var(--crave);border-color:var(--crave);color:#081823}
 #tray .btns button[hidden]{display:none}
-.health{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px}
-.health > summary{cursor:pointer;padding:10px 0;font-weight:600;color:var(--muted);font-size:14px}
+
+.health{margin-top:10px}
+.health > summary{cursor:pointer;padding:8px 0;color:var(--slate);font-size:14.5px}
 .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:10px}
 table{border-collapse:collapse;font-size:12.5px}
-td,th{border-bottom:1px solid var(--line);padding:5px 8px 5px 0;text-align:left;vertical-align:top}
-a.card{display:block;color:var(--fg)}
+td,th{border-bottom:1px solid var(--rule);padding:5px 10px 5px 0;text-align:left;vertical-align:top}
+.arch{display:grid;grid-template-columns:auto 1fr auto;gap:4px 14px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--rule);text-decoration:none}
+.arch b{font-stretch:68%;font-weight:800;font-size:20px}
+.arch span{color:var(--slate);font-size:14px}
 </style>
 <script>window.ROUNDUP_DEFAULT_HEADER = "Data processing and Captioner: caption these for X in my style. Post only the finished pieces.";</script>
 </head><body class="hideposted">
-<header class="top"><div class="bar"><div class="in"><a class="brand" href="index.html"><span>SITCOM CRAVE</span><span class="b2">ROUNDUP</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html" class="on">Breaking</a><a href="archive.html">Archive</a></nav></div></div></header>
+<div class="mast"><a class="brand" href="index.html">Sitcom Crave <span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html" class="on">Breaking</a><a href="archive.html">Archive</a></nav></div>
+
 <main>
 <div class="intro"><h1>Breaking</h1>
-<p>Last 48 hours · checked 10:43am GMT, Nov 7, 2026 · updates about every 30 minutes</p></div>
-<h2 id="sec-breaking"><span>Breaking stories</span><span class="count">4</span></h2>
+<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 10:51am GMT. Checks run every 30 minutes.</p></div>
+<h2 id="sec-breaking">Last 48 hours<span class="count">4</span></h2>
 <div class="item" id="s-b92902159881" data-id="b92902159881" data-packet="Type: Breaking (Death)
 Headline: Cause of Death Revealed for ‘Ellen’ Producer Matthew Wright
 Details: Matthew Wright‘s cause of death has been confirmed after The Ellen DeGeneres Show executive producer passed away on October 30...
 Shows: &#x27;Ellen&#x27;
 People: Ellen DeGeneres
 Sources: [Just Jared](https://www.justjared.com/2026/11/07/cause-of-death-revealed-for-ellen-producer-matthew-wright/) · [The Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/ellen-degeneres-show-producer-matthew-wright-cause-of-death-1236749895/) · [Deadline](https://deadline.com/2026/11/ellen-degeneres-show-ep-matthew-wright-cause-death-1237216153/) · [AOL.com](https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVQtSVVXWEsxdnpJbjRtTDNMb1NTckQ5MmFOdGxCRktzNnZLaGZ5aklrOFQ2UkZ4c09RLVA0c1J3TmpDdWZ3WEJHam53aFJLY0MzeXRpSFQ4eTlqTDFPemtISGIwckt1bEloaUZaMXJjaDhWN1NCUEp6bjN3Zk1KaHVEbmQ?oc=5) · [IMDb](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hWTNWMjBzTWtVb1R3M2liWmlVN2IzV3NnZ3czNHpPY1ZleEhnUEhqdTdnWWlHSnUyR09xZzJZalhHMnNoM2FpR3pSaFZENFFMR2lMZ3J1cnZDZTZUaDlhOHAzdzZ1WEk?oc=5) · [primetimer.com](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2p4dzRtUnQ3YWpWRlQ1U3VOVUtOYjRoZDhVU09CNDQ4VzlObVF2ellxdVlGbXhhMG5LcVoxa3BSNktUM01LTDhhMDdyak5QOGlHQXhobXkzRVN5R3RGc0dCcWM3VEY4VDJBSnlXTXctcU1uRWJBaFdTeXJwMVVCaEpHOVB2WnZlQ1Y5b2Nla1hpN1ZGV2ZqTG5WNENaaWFWZlJMWXc1YWFabEVuZ09RajMtbmQtSktBLUV4bm5kRS1SNHRab0pObVlmanBHdzNoc2N1ZjJuUzNzbFRFT211UQ?oc=5) · [Us Weekly](https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVdLYnpqdmotVDFyaGZvRkcyUnJiY2F0SlZEcGREMjFVVVlhLWRMbEkyUXBQdWlRdGRxcURVY294TW9tcXp1WHpnUHl2TUpXWkFadXN4WjB6RWIwR3laUWh2ZmJRZ3BWc29FUjFJOUxBbDlDemJUbVhGRG02TW42bi1zeDRBbmhzalZEU1hkakxYNVdpZUxmUXhOUzE5dDBDVVVZbQ?oc=5) · [TMZ](https://news.google.com/rss/articles/CBMibkFVX3lxTE9lQzlhTzBRUkloX1UtMzlGdmx6b3dMdmoyUUVSTWsyWG5RNmx6cHlrV0p3em1uODBVUTRzYkZKU2I2a3hOUEpLRlVtOHVnV1o5bG1ocWNHWmRVeGlnSmhpSU5IdzNUMDNkTHdFajRn?oc=5) · [Page Six](https://news.google.com/rss/articles/CBMisAFBVV95cUxQbW5BRDR3UzEzMWU3OWJCU29VT2lOX2VxdlBhZmg2YXJPX1NJeTJ3cHhRMUtyT3F5U18xdGZkM21sLXFrVG9iWnJWdnRxTW1jNjBhNE14Z2tOZ3I4MkU5MFJpWU5KaGN2R3B2TUlNU0V3Y041dFZnb2lTUDBTbjFNdnZqYjl3aVRPeThGTnlMNTQ5amFqNTJ6MDc4czUwZ2JZa21LYzZ3dmZMb2E5d2tPMQ?oc=5) · [Yahoo News UK](https://news.google.com/rss/articles/CBMihAFBVV95cUxONUdvRlhPMXA1aU1LWHQ1cEJ4T3RzaHJOTl9uVnBLV1hWRkoxeUpYTVNkZHdwc0t2RURZY1Y0RFBYOXhSZFIwa09IZ2ZBTDg1TzFwbFhvRmxjN2o0VXp1S1lCVWRHaTJlLWFmNEhQdmJ4aEI4UE10R0NTWjRkTl9KLUc0cXI?oc=5) · [People.com](https://news.google.com/rss/articles/CBMinAFBVV95cUxOMFl0WFZMaXRjUG1rVUVzdzBvVUR3WmhnRTRScGdFWDVOS1ZoMGhzOWpwbFhfRHZIMFR5dnpTUHJ3ZV9GUjNnajZGNGVLdVUxeGItTGQtRmhDQkVUT09aZk5obE83Y3lTbjhSVVNoWmYybmtZLWdiQVJKOW42QjEwVEFIY2Z3UzE1TVB5NTJwM0VzQ1k1VXVOekZmVGI?oc=5)">
-<div class="top"><span class="chip c-death">Death</span><span class="when">Seen 10:20am</span></div>
+<div class="kick"><span class="tag k-memoriam">In memoriam</span></div>
 <label><span class="t">Cause of Death Revealed for ‘Ellen’ Producer Matthew Wright</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Matthew Wright‘s cause of death has been confirmed after The Ellen DeGeneres Show executive producer passed away on October 30...</div>
-<div class="meta"><a href="https://www.justjared.com/2026/11/07/cause-of-death-revealed-for-ellen-producer-matthew-wright/" target="_blank" rel="noopener">Just Jared</a> · <a href="https://www.hollywoodreporter.com/tv/tv-news/ellen-degeneres-show-producer-matthew-wright-cause-of-death-1236749895/" target="_blank" rel="noopener">The Hollywood Reporter</a> · <a href="https://deadline.com/2026/11/ellen-degeneres-show-ep-matthew-wright-cause-death-1237216153/" target="_blank" rel="noopener">Deadline</a> <details><summary>+8 more</summary> · <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVQtSVVXWEsxdnpJbjRtTDNMb1NTckQ5MmFOdGxCRktzNnZLaGZ5aklrOFQ2UkZ4c09RLVA0c1J3TmpDdWZ3WEJHam53aFJLY0MzeXRpSFQ4eTlqTDFPemtISGIwckt1bEloaUZaMXJjaDhWN1NCUEp6bjN3Zk1KaHVEbmQ?oc=5" target="_blank" rel="noopener">AOL.com</a> · <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hWTNWMjBzTWtVb1R3M2liWmlVN2IzV3NnZ3czNHpPY1ZleEhnUEhqdTdnWWlHSnUyR09xZzJZalhHMnNoM2FpR3pSaFZENFFMR2lMZ3J1cnZDZTZUaDlhOHAzdzZ1WEk?oc=5" target="_blank" rel="noopener">IMDb</a> · <a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2p4dzRtUnQ3YWpWRlQ1U3VOVUtOYjRoZDhVU09CNDQ4VzlObVF2ellxdVlGbXhhMG5LcVoxa3BSNktUM01LTDhhMDdyak5QOGlHQXhobXkzRVN5R3RGc0dCcWM3VEY4VDJBSnlXTXctcU1uRWJBaFdTeXJwMVVCaEpHOVB2WnZlQ1Y5b2Nla1hpN1ZGV2ZqTG5WNENaaWFWZlJMWXc1YWFabEVuZ09RajMtbmQtSktBLUV4bm5kRS1SNHRab0pObVlmanBHdzNoc2N1ZjJuUzNzbFRFT211UQ?oc=5" target="_blank" rel="noopener">primetimer.com</a> · <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVdLYnpqdmotVDFyaGZvRkcyUnJiY2F0SlZEcGREMjFVVVlhLWRMbEkyUXBQdWlRdGRxcURVY294TW9tcXp1WHpnUHl2TUpXWkFadXN4WjB6RWIwR3laUWh2ZmJRZ3BWc29FUjFJOUxBbDlDemJUbVhGRG02TW42bi1zeDRBbmhzalZEU1hkakxYNVdpZUxmUXhOUzE5dDBDVVVZbQ?oc=5" target="_blank" rel="noopener">Us Weekly</a> · <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9lQzlhTzBRUkloX1UtMzlGdmx6b3dMdmoyUUVSTWsyWG5RNmx6cHlrV0p3em1uODBVUTRzYkZKU2I2a3hOUEpLRlVtOHVnV1o5bG1ocWNHWmRVeGlnSmhpSU5IdzNUMDNkTHdFajRn?oc=5" target="_blank" rel="noopener">TMZ</a> · <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQbW5BRDR3UzEzMWU3OWJCU29VT2lOX2VxdlBhZmg2YXJPX1NJeTJ3cHhRMUtyT3F5U18xdGZkM21sLXFrVG9iWnJWdnRxTW1jNjBhNE14Z2tOZ3I4MkU5MFJpWU5KaGN2R3B2TUlNU0V3Y041dFZnb2lTUDBTbjFNdnZqYjl3aVRPeThGTnlMNTQ5amFqNTJ6MDc4czUwZ2JZa21LYzZ3dmZMb2E5d2tPMQ?oc=5" target="_blank" rel="noopener">Page Six</a> · <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxONUdvRlhPMXA1aU1LWHQ1cEJ4T3RzaHJOTl9uVnBLV1hWRkoxeUpYTVNkZHdwc0t2RURZY1Y0RFBYOXhSZFIwa09IZ2ZBTDg1TzFwbFhvRmxjN2o0VXp1S1lCVWRHaTJlLWFmNEhQdmJ4aEI4UE10R0NTWjRkTl9KLUc0cXI?oc=5" target="_blank" rel="noopener">Yahoo News UK</a> · <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOMFl0WFZMaXRjUG1rVUVzdzBvVUR3WmhnRTRScGdFWDVOS1ZoMGhzOWpwbFhfRHZIMFR5dnpTUHJ3ZV9GUjNnajZGNGVLdVUxeGItTGQtRmhDQkVUT09aZk5obE83Y3lTbjhSVVNoWmYybmtZLWdiQVJKOW42QjEwVEFIY2Z3UzE1TVB5NTJwM0VzQ1k1VXVOekZmVGI?oc=5" target="_blank" rel="noopener">People.com</a></details></div>
+<div class="meta"><span class="when">seen 10:20am</span><a href="https://www.justjared.com/2026/11/07/cause-of-death-revealed-for-ellen-producer-matthew-wright/" target="_blank" rel="noopener">Just Jared</a>, <a href="https://www.hollywoodreporter.com/tv/tv-news/ellen-degeneres-show-producer-matthew-wright-cause-of-death-1236749895/" target="_blank" rel="noopener">The Hollywood Reporter</a>, <a href="https://deadline.com/2026/11/ellen-degeneres-show-ep-matthew-wright-cause-death-1237216153/" target="_blank" rel="noopener">Deadline</a> <details><summary>and 8 more</summary>, <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVQtSVVXWEsxdnpJbjRtTDNMb1NTckQ5MmFOdGxCRktzNnZLaGZ5aklrOFQ2UkZ4c09RLVA0c1J3TmpDdWZ3WEJHam53aFJLY0MzeXRpSFQ4eTlqTDFPemtISGIwckt1bEloaUZaMXJjaDhWN1NCUEp6bjN3Zk1KaHVEbmQ?oc=5" target="_blank" rel="noopener">AOL.com</a>, <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hWTNWMjBzTWtVb1R3M2liWmlVN2IzV3NnZ3czNHpPY1ZleEhnUEhqdTdnWWlHSnUyR09xZzJZalhHMnNoM2FpR3pSaFZENFFMR2lMZ3J1cnZDZTZUaDlhOHAzdzZ1WEk?oc=5" target="_blank" rel="noopener">IMDb</a>, <a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQS2p4dzRtUnQ3YWpWRlQ1U3VOVUtOYjRoZDhVU09CNDQ4VzlObVF2ellxdVlGbXhhMG5LcVoxa3BSNktUM01LTDhhMDdyak5QOGlHQXhobXkzRVN5R3RGc0dCcWM3VEY4VDJBSnlXTXctcU1uRWJBaFdTeXJwMVVCaEpHOVB2WnZlQ1Y5b2Nla1hpN1ZGV2ZqTG5WNENaaWFWZlJMWXc1YWFabEVuZ09RajMtbmQtSktBLUV4bm5kRS1SNHRab0pObVlmanBHdzNoc2N1ZjJuUzNzbFRFT211UQ?oc=5" target="_blank" rel="noopener">primetimer.com</a>, <a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVdLYnpqdmotVDFyaGZvRkcyUnJiY2F0SlZEcGREMjFVVVlhLWRMbEkyUXBQdWlRdGRxcURVY294TW9tcXp1WHpnUHl2TUpXWkFadXN4WjB6RWIwR3laUWh2ZmJRZ3BWc29FUjFJOUxBbDlDemJUbVhGRG02TW42bi1zeDRBbmhzalZEU1hkakxYNVdpZUxmUXhOUzE5dDBDVVVZbQ?oc=5" target="_blank" rel="noopener">Us Weekly</a>, <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9lQzlhTzBRUkloX1UtMzlGdmx6b3dMdmoyUUVSTWsyWG5RNmx6cHlrV0p3em1uODBVUTRzYkZKU2I2a3hOUEpLRlVtOHVnV1o5bG1ocWNHWmRVeGlnSmhpSU5IdzNUMDNkTHdFajRn?oc=5" target="_blank" rel="noopener">TMZ</a>, <a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxQbW5BRDR3UzEzMWU3OWJCU29VT2lOX2VxdlBhZmg2YXJPX1NJeTJ3cHhRMUtyT3F5U18xdGZkM21sLXFrVG9iWnJWdnRxTW1jNjBhNE14Z2tOZ3I4MkU5MFJpWU5KaGN2R3B2TUlNU0V3Y041dFZnb2lTUDBTbjFNdnZqYjl3aVRPeThGTnlMNTQ5amFqNTJ6MDc4czUwZ2JZa21LYzZ3dmZMb2E5d2tPMQ?oc=5" target="_blank" rel="noopener">Page Six</a>, <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxONUdvRlhPMXA1aU1LWHQ1cEJ4T3RzaHJOTl9uVnBLV1hWRkoxeUpYTVNkZHdwc0t2RURZY1Y0RFBYOXhSZFIwa09IZ2ZBTDg1TzFwbFhvRmxjN2o0VXp1S1lCVWRHaTJlLWFmNEhQdmJ4aEI4UE10R0NTWjRkTl9KLUc0cXI?oc=5" target="_blank" rel="noopener">Yahoo News UK</a>, <a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOMFl0WFZMaXRjUG1rVUVzdzBvVUR3WmhnRTRScGdFWDVOS1ZoMGhzOWpwbFhfRHZIMFR5dnpTUHJ3ZV9GUjNnajZGNGVLdVUxeGItTGQtRmhDQkVUT09aZk5obE83Y3lTbjhSVVNoWmYybmtZLWdiQVJKOW42QjEwVEFIY2Z3UzE1TVB5NTJwM0VzQ1k1VXVOekZmVGI?oc=5" target="_blank" rel="noopener">People.com</a></details></div>
 </div>
 <div class="item" id="s-aa9ff585b0c4" data-id="aa9ff585b0c4" data-packet="Type: Breaking (Renewal)
 Headline: ‘Nobody Wants This’ Renewed for Season 4 at Netflix
@@ -120,38 +136,38 @@ Details: The Kristen Bell and Adam Brody-led rom-com will return after deliverin
 Shows: &#x27;Nobody Wants This&#x27;
 People: Kristen Bell
 Sources: [The Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-renewed-season-4-netflix-1236749442/) · [ELLE](https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEJjZFJrRXlqZlFzTHZHenpKcEtBbkY0NmVENVZaQlJEYnd6ZmFaTnB4MTBoVlZhWWVEZlFGdVdNS3BVS3hqcXVNeUpzUm9IS29JWVJoR241U3ItcFhhRnZRbDRqak9hMkFzTkFJRkFxbm4wLXhOWkplLXBsZTdMTGpxMUhDMy1ySjZka0dQOG8wSWlsUHRsbThQMDhPTUJs?oc=5) · [Comic Book Resources](https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWZkUmJnUENSLXYzV0kwN183eTNvTWhFald2QmhzbHQ3OUc4TmFzTmwyOTVZSkpUV1JBWTRWWGtOeFVvZmNrY3lMeGJLYzdkZXVnRm9qZGtMajA0UVJaczBNRm5MRWg4SmttUGFWWG55Z0xBVTA2aGVSX3VYMU82WHZvZm9lTHMxMmV1SA?oc=5) · [AOL.com](https://news.google.com/rss/articles/CBMifkFVX3lxTE1sa1dHOG9oaHZWZUJVMURxb09xOEo4S3lna3c3LTRIcVFFd2FxR1dXSlhhYXc4UW5NeXp3a0xtYVo5ZURBMzhKUmF3QzVkZGFtUU1ZLTYwY01SVkVXbS00cTBLYktVZVE3Smxaa0FPUWpWQ2EybnNjS2Q2LWhRZw?oc=5) · [Entertainment Weekly](https://news.google.com/rss/articles/CBMib0FVX3lxTFBZMXYyQW9hS0I0RnlvZDhMMGNZaHo4bUxITlI0cm5wQXpuLXdSeTFpODUtTkdUdWdvRlFEY3FxNkd3Q19vd2ppUmFKTnZaNFNKY1FaSnd5SjN3ak9kVU9WX2RyenpIcVBGYjdMS1VxZw?oc=5) · [Yahoo](https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0ViX0JsWURvNHliQjlIOXBEcjUwWlVOT3N4M0xkemRsQWFiNzd3eEJVRjRzRHluaUJZZEY1SXJ2UkxERnAteFBKOUExMFVKZzVkSXZ3dVVETTZ6NlpEbGhZSl93cDVYVVMwSVA0RTl2TXBQdFJXZmcxOGZsVEhvMFVrWGFFT3NhcXJZcFpwN1hJWFBfVDlhSEE5RTZXUmJnQTh6YnhDSGpNR20yVHc?oc=5) · [What&#x27;s on Netflix](https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFBPTk9tVUxqaXh6TEw0SDcxR3NQSm9vT3N6QThQU3l5OE1TLVpDX3luT2RWbGRmalNHMzJNOEZXM1lGUm81R0d5b0FVdEwteU5CMXU4Tmdha3kyMzF0V3VsQzFWdXM2VmxHdFpQY2pwYUhMV1V5S1J6d0Zia3VKTlBta0RablFPRUgxOVVzRG9Wbm5nY2h4aUljQXg0Rnp1UGZUOG1TYVpnVnM4VHd3QlZn?oc=5) · [IMDb](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yc09NQl9VdzAtLW9ZanIzSjNUWnJuMmp6QUEwZWw2NHVzSTVtZXFxSmd4RWM1Y29wYVQtY1FmbGxocWRHQ28xUGU4dE1JM2FGVXYzQmlhS1JfRWctbFB0UXU0S1Zwa0U?oc=5) · [Just Jared](https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSG1YX1YxYl81Vm9RNzhDRXRKNlFWbG9nRVd2QXQxUjJKclFsWjFBNnRrNnFWN1g4dEM3QmJCZk54cFFoRGFwRkVVdGhDZ3J3aXhOeFJyQWVHclNNQTZWTmQyblQ2UzRSMlo5Nlh3b2hPamFQS2ZhVEZGX0tnX1RUeTZRU004dXhwODNr?oc=5) · [Deadline](https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnk5ZHBKaTB6cmdjMEk4dHdZc1hOOW1zZjZxUk9kTl9sazhmbl9aWGg2QUxEZTE2SHVxZUI3TVZ2eDJjTVpDdFQxbVhScG5EM3duRzIxRGU4TnlZV1MzeE4ydHdHeHk2OFZPc0Q2Sl9Vem5Ta1ZwTHpFc0xOMGJVanh0dTNSS2xsM3Vz?oc=5) · [Variety](https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTNrNEtuS2hJYzVPLV9wTEdwb2xnVEhVckhTdnBIZDRVanJJUWUxUmxERzBNeFpubUtBWXN0ZzZBc2lRa3lKMzAxTDNGc3lVclBZa2VkQmVIQ3g5SnpyOWhfUm50bVlTUG44LW5MbDVUVXR6Wmg1V19rX1RhSzdGZUgzY1FFdG5VYVNMU0o5SGQ?oc=5) · [TheWrap](https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjhFZ2Yxbkhhdk5oaVR6UlBxRld0WDRrQTMtd3EyNy1HTmhZamZwcGtIMFhWaXVNQTdiUHcxZ3FqblhScXdwTDRud0c2NkU3NFJIMDBQZ2NLc2JHMnotVFN3V08wR09KMlE5YlZiYnRHdks2RTFBLXdLX2R4clcwV1F1bnZvUTUwbnpPaFFQeFdsNlRlMzdTeg?oc=5) · [TVLine](https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTlNhY1lCYnhtaTN1WlNKWXFNWnA2NzhEd21fdVpibjR0b0I1eEZWRUdoUWVOQ09ydjBzMFVJT0ZpSlE4cFVwcHhadk1TRUdsUFNGZnhqOXJzaW5uTFd2RmtjVlhjLURDeUplWjI0SmtmcGI4UVRmUUo2QktXbzA?oc=5) · [Yahoo News Canada](https://news.google.com/rss/articles/CBMiekFVX3lxTE56a1RQdHpELWE2RHFac3ZVSnhrWTJ6c0c0bm1tbXR6eUF5dDQ4dWFVclZjMHBfLXpUbmFXaFV6SXBxa3Y0TnRmOWJreFl0YnBEQ0N0RTVDcHpFSy1RT1ZTb3NOVjdIM00xV0hyMVVEc2g5ZTFsWnMwUk1n?oc=5)">
-<div class="top"><span class="chip c-renewal">Renewal</span><span class="when">Seen 10:20am</span></div>
+<div class="kick"><span class="tag k-renewed">Renewed</span></div>
 <label><span class="t">‘Nobody Wants This’ Renewed for Season 4 at Netflix</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">The Kristen Bell and Adam Brody-led rom-com will return after delivering Netflix&#x27;s biggest opening week for a returning comedy series this year.</div>
-<div class="meta"><a href="https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-renewed-season-4-netflix-1236749442/" target="_blank" rel="noopener">The Hollywood Reporter</a> · <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEJjZFJrRXlqZlFzTHZHenpKcEtBbkY0NmVENVZaQlJEYnd6ZmFaTnB4MTBoVlZhWWVEZlFGdVdNS3BVS3hqcXVNeUpzUm9IS29JWVJoR241U3ItcFhhRnZRbDRqak9hMkFzTkFJRkFxbm4wLXhOWkplLXBsZTdMTGpxMUhDMy1ySjZka0dQOG8wSWlsUHRsbThQMDhPTUJs?oc=5" target="_blank" rel="noopener">ELLE</a> · <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWZkUmJnUENSLXYzV0kwN183eTNvTWhFald2QmhzbHQ3OUc4TmFzTmwyOTVZSkpUV1JBWTRWWGtOeFVvZmNrY3lMeGJLYzdkZXVnRm9qZGtMajA0UVJaczBNRm5MRWg4SmttUGFWWG55Z0xBVTA2aGVSX3VYMU82WHZvZm9lTHMxMmV1SA?oc=5" target="_blank" rel="noopener">Comic Book Resources</a> <details><summary>+11 more</summary> · <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1sa1dHOG9oaHZWZUJVMURxb09xOEo4S3lna3c3LTRIcVFFd2FxR1dXSlhhYXc4UW5NeXp3a0xtYVo5ZURBMzhKUmF3QzVkZGFtUU1ZLTYwY01SVkVXbS00cTBLYktVZVE3Smxaa0FPUWpWQ2EybnNjS2Q2LWhRZw?oc=5" target="_blank" rel="noopener">AOL.com</a> · <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBZMXYyQW9hS0I0RnlvZDhMMGNZaHo4bUxITlI0cm5wQXpuLXdSeTFpODUtTkdUdWdvRlFEY3FxNkd3Q19vd2ppUmFKTnZaNFNKY1FaSnd5SjN3ak9kVU9WX2RyenpIcVBGYjdMS1VxZw?oc=5" target="_blank" rel="noopener">Entertainment Weekly</a> · <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0ViX0JsWURvNHliQjlIOXBEcjUwWlVOT3N4M0xkemRsQWFiNzd3eEJVRjRzRHluaUJZZEY1SXJ2UkxERnAteFBKOUExMFVKZzVkSXZ3dVVETTZ6NlpEbGhZSl93cDVYVVMwSVA0RTl2TXBQdFJXZmcxOGZsVEhvMFVrWGFFT3NhcXJZcFpwN1hJWFBfVDlhSEE5RTZXUmJnQTh6YnhDSGpNR20yVHc?oc=5" target="_blank" rel="noopener">Yahoo</a> · <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFBPTk9tVUxqaXh6TEw0SDcxR3NQSm9vT3N6QThQU3l5OE1TLVpDX3luT2RWbGRmalNHMzJNOEZXM1lGUm81R0d5b0FVdEwteU5CMXU4Tmdha3kyMzF0V3VsQzFWdXM2VmxHdFpQY2pwYUhMV1V5S1J6d0Zia3VKTlBta0RablFPRUgxOVVzRG9Wbm5nY2h4aUljQXg0Rnp1UGZUOG1TYVpnVnM4VHd3QlZn?oc=5" target="_blank" rel="noopener">What&#x27;s on Netflix</a> · <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yc09NQl9VdzAtLW9ZanIzSjNUWnJuMmp6QUEwZWw2NHVzSTVtZXFxSmd4RWM1Y29wYVQtY1FmbGxocWRHQ28xUGU4dE1JM2FGVXYzQmlhS1JfRWctbFB0UXU0S1Zwa0U?oc=5" target="_blank" rel="noopener">IMDb</a> · <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSG1YX1YxYl81Vm9RNzhDRXRKNlFWbG9nRVd2QXQxUjJKclFsWjFBNnRrNnFWN1g4dEM3QmJCZk54cFFoRGFwRkVVdGhDZ3J3aXhOeFJyQWVHclNNQTZWTmQyblQ2UzRSMlo5Nlh3b2hPamFQS2ZhVEZGX0tnX1RUeTZRU004dXhwODNr?oc=5" target="_blank" rel="noopener">Just Jared</a> · <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnk5ZHBKaTB6cmdjMEk4dHdZc1hOOW1zZjZxUk9kTl9sazhmbl9aWGg2QUxEZTE2SHVxZUI3TVZ2eDJjTVpDdFQxbVhScG5EM3duRzIxRGU4TnlZV1MzeE4ydHdHeHk2OFZPc0Q2Sl9Vem5Ta1ZwTHpFc0xOMGJVanh0dTNSS2xsM3Vz?oc=5" target="_blank" rel="noopener">Deadline</a> · <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTNrNEtuS2hJYzVPLV9wTEdwb2xnVEhVckhTdnBIZDRVanJJUWUxUmxERzBNeFpubUtBWXN0ZzZBc2lRa3lKMzAxTDNGc3lVclBZa2VkQmVIQ3g5SnpyOWhfUm50bVlTUG44LW5MbDVUVXR6Wmg1V19rX1RhSzdGZUgzY1FFdG5VYVNMU0o5SGQ?oc=5" target="_blank" rel="noopener">Variety</a> · <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjhFZ2Yxbkhhdk5oaVR6UlBxRld0WDRrQTMtd3EyNy1HTmhZamZwcGtIMFhWaXVNQTdiUHcxZ3FqblhScXdwTDRud0c2NkU3NFJIMDBQZ2NLc2JHMnotVFN3V08wR09KMlE5YlZiYnRHdks2RTFBLXdLX2R4clcwV1F1bnZvUTUwbnpPaFFQeFdsNlRlMzdTeg?oc=5" target="_blank" rel="noopener">TheWrap</a> · <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTlNhY1lCYnhtaTN1WlNKWXFNWnA2NzhEd21fdVpibjR0b0I1eEZWRUdoUWVOQ09ydjBzMFVJT0ZpSlE4cFVwcHhadk1TRUdsUFNGZnhqOXJzaW5uTFd2RmtjVlhjLURDeUplWjI0SmtmcGI4UVRmUUo2QktXbzA?oc=5" target="_blank" rel="noopener">TVLine</a> · <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE56a1RQdHpELWE2RHFac3ZVSnhrWTJ6c0c0bm1tbXR6eUF5dDQ4dWFVclZjMHBfLXpUbmFXaFV6SXBxa3Y0TnRmOWJreFl0YnBEQ0N0RTVDcHpFSy1RT1ZTb3NOVjdIM00xV0hyMVVEc2g5ZTFsWnMwUk1n?oc=5" target="_blank" rel="noopener">Yahoo News Canada</a></details></div>
+<div class="meta"><span class="when">seen 10:20am</span><a href="https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-renewed-season-4-netflix-1236749442/" target="_blank" rel="noopener">The Hollywood Reporter</a>, <a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEJjZFJrRXlqZlFzTHZHenpKcEtBbkY0NmVENVZaQlJEYnd6ZmFaTnB4MTBoVlZhWWVEZlFGdVdNS3BVS3hqcXVNeUpzUm9IS29JWVJoR241U3ItcFhhRnZRbDRqak9hMkFzTkFJRkFxbm4wLXhOWkplLXBsZTdMTGpxMUhDMy1ySjZka0dQOG8wSWlsUHRsbThQMDhPTUJs?oc=5" target="_blank" rel="noopener">ELLE</a>, <a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNcWZkUmJnUENSLXYzV0kwN183eTNvTWhFald2QmhzbHQ3OUc4TmFzTmwyOTVZSkpUV1JBWTRWWGtOeFVvZmNrY3lMeGJLYzdkZXVnRm9qZGtMajA0UVJaczBNRm5MRWg4SmttUGFWWG55Z0xBVTA2aGVSX3VYMU82WHZvZm9lTHMxMmV1SA?oc=5" target="_blank" rel="noopener">Comic Book Resources</a> <details><summary>and 11 more</summary>, <a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1sa1dHOG9oaHZWZUJVMURxb09xOEo4S3lna3c3LTRIcVFFd2FxR1dXSlhhYXc4UW5NeXp3a0xtYVo5ZURBMzhKUmF3QzVkZGFtUU1ZLTYwY01SVkVXbS00cTBLYktVZVE3Smxaa0FPUWpWQ2EybnNjS2Q2LWhRZw?oc=5" target="_blank" rel="noopener">AOL.com</a>, <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBZMXYyQW9hS0I0RnlvZDhMMGNZaHo4bUxITlI0cm5wQXpuLXdSeTFpODUtTkdUdWdvRlFEY3FxNkd3Q19vd2ppUmFKTnZaNFNKY1FaSnd5SjN3ak9kVU9WX2RyenpIcVBGYjdMS1VxZw?oc=5" target="_blank" rel="noopener">Entertainment Weekly</a>, <a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQY0ViX0JsWURvNHliQjlIOXBEcjUwWlVOT3N4M0xkemRsQWFiNzd3eEJVRjRzRHluaUJZZEY1SXJ2UkxERnAteFBKOUExMFVKZzVkSXZ3dVVETTZ6NlpEbGhZSl93cDVYVVMwSVA0RTl2TXBQdFJXZmcxOGZsVEhvMFVrWGFFT3NhcXJZcFpwN1hJWFBfVDlhSEE5RTZXUmJnQTh6YnhDSGpNR20yVHc?oc=5" target="_blank" rel="noopener">Yahoo</a>, <a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFBPTk9tVUxqaXh6TEw0SDcxR3NQSm9vT3N6QThQU3l5OE1TLVpDX3luT2RWbGRmalNHMzJNOEZXM1lGUm81R0d5b0FVdEwteU5CMXU4Tmdha3kyMzF0V3VsQzFWdXM2VmxHdFpQY2pwYUhMV1V5S1J6d0Zia3VKTlBta0RablFPRUgxOVVzRG9Wbm5nY2h4aUljQXg0Rnp1UGZUOG1TYVpnVnM4VHd3QlZn?oc=5" target="_blank" rel="noopener">What&#x27;s on Netflix</a>, <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yc09NQl9VdzAtLW9ZanIzSjNUWnJuMmp6QUEwZWw2NHVzSTVtZXFxSmd4RWM1Y29wYVQtY1FmbGxocWRHQ28xUGU4dE1JM2FGVXYzQmlhS1JfRWctbFB0UXU0S1Zwa0U?oc=5" target="_blank" rel="noopener">IMDb</a>, <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSG1YX1YxYl81Vm9RNzhDRXRKNlFWbG9nRVd2QXQxUjJKclFsWjFBNnRrNnFWN1g4dEM3QmJCZk54cFFoRGFwRkVVdGhDZ3J3aXhOeFJyQWVHclNNQTZWTmQyblQ2UzRSMlo5Nlh3b2hPamFQS2ZhVEZGX0tnX1RUeTZRU004dXhwODNr?oc=5" target="_blank" rel="noopener">Just Jared</a>, <a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYnk5ZHBKaTB6cmdjMEk4dHdZc1hOOW1zZjZxUk9kTl9sazhmbl9aWGg2QUxEZTE2SHVxZUI3TVZ2eDJjTVpDdFQxbVhScG5EM3duRzIxRGU4TnlZV1MzeE4ydHdHeHk2OFZPc0Q2Sl9Vem5Ta1ZwTHpFc0xOMGJVanh0dTNSS2xsM3Vz?oc=5" target="_blank" rel="noopener">Deadline</a>, <a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNaTNrNEtuS2hJYzVPLV9wTEdwb2xnVEhVckhTdnBIZDRVanJJUWUxUmxERzBNeFpubUtBWXN0ZzZBc2lRa3lKMzAxTDNGc3lVclBZa2VkQmVIQ3g5SnpyOWhfUm50bVlTUG44LW5MbDVUVXR6Wmg1V19rX1RhSzdGZUgzY1FFdG5VYVNMU0o5SGQ?oc=5" target="_blank" rel="noopener">Variety</a>, <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjhFZ2Yxbkhhdk5oaVR6UlBxRld0WDRrQTMtd3EyNy1HTmhZamZwcGtIMFhWaXVNQTdiUHcxZ3FqblhScXdwTDRud0c2NkU3NFJIMDBQZ2NLc2JHMnotVFN3V08wR09KMlE5YlZiYnRHdks2RTFBLXdLX2R4clcwV1F1bnZvUTUwbnpPaFFQeFdsNlRlMzdTeg?oc=5" target="_blank" rel="noopener">TheWrap</a>, <a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1oTlNhY1lCYnhtaTN1WlNKWXFNWnA2NzhEd21fdVpibjR0b0I1eEZWRUdoUWVOQ09ydjBzMFVJT0ZpSlE4cFVwcHhadk1TRUdsUFNGZnhqOXJzaW5uTFd2RmtjVlhjLURDeUplWjI0SmtmcGI4UVRmUUo2QktXbzA?oc=5" target="_blank" rel="noopener">TVLine</a>, <a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE56a1RQdHpELWE2RHFac3ZVSnhrWTJ6c0c0bm1tbXR6eUF5dDQ4dWFVclZjMHBfLXpUbmFXaFV6SXBxa3Y0TnRmOWJreFl0YnBEQ0N0RTVDcHpFSy1RT1ZTb3NOVjdIM00xV0hyMVVEc2g5ZTFsWnMwUk1n?oc=5" target="_blank" rel="noopener">Yahoo News Canada</a></details></div>
 </div>
 <div class="item" id="s-005accbf7a1e" data-id="005accbf7a1e" data-packet="Type: Breaking (Cancel/End)
 Headline: Netflix To Stream Canceled Starz Comedy Series ‘Run the World’
 Sources: [IMDb](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TRUxvVFEyUU4yZDhWeVMwY0dBdnpvNTEyQVdmZ2RHS01vRUlmaFpTVld5TlVkNnh1bFFqbmRkWW9DRlIxb3VITlBmdThyZjE4ZnJIT0J0c2tFQXJGZjV4ZklpVHM?oc=5)">
-<div class="top"><span class="chip c-cancel">Cancelled/Ending</span><span class="when">Seen 10:20am</span></div>
+<div class="kick"><span class="tag k-cancelled">Cancelled</span></div>
 <label><span class="t">Netflix To Stream Canceled Starz Comedy Series ‘Run the World’</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TRUxvVFEyUU4yZDhWeVMwY0dBdnpvNTEyQVdmZ2RHS01vRUlmaFpTVld5TlVkNnh1bFFqbmRkWW9DRlIxb3VITlBmdThyZjE4ZnJIT0J0c2tFQXJGZjV4ZklpVHM?oc=5" target="_blank" rel="noopener">IMDb</a></div>
+<div class="meta"><span class="when">seen 10:20am</span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TRUxvVFEyUU4yZDhWeVMwY0dBdnpvNTEyQVdmZ2RHS01vRUlmaFpTVld5TlVkNnh1bFFqbmRkWW9DRlIxb3VITlBmdThyZjE4ZnJIT0J0c2tFQXJGZjV4ZklpVHM?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
 <div class="item" id="s-5342300002eb" data-id="5342300002eb" data-packet="Type: Breaking (Death)
 Headline: Patrick Stewart, &#x27;American Dad!&#x27; &#x27;Prince Of Egypt&#x27; VA, Dies At 86
 Shows: &#x27;American Dad&#x27;
 Sources: [Cartoon Brew](https://news.google.com/rss/articles/CBMiekFVX3lxTE1yeElnUW5tYXlobUhsS08yZHhzeXZOb2NHWXNhOGlWS2s2eVZUa1ZmWGhjV3hDOWl2V0t1MUN3S21MZlk1SDlFeERLbEpLdGJmUm9RWmdnZi1ObXRPSWx6NDAySG51U1ZPVDZFb2ZLX1pUUlNBSnBTZm93?oc=5)">
-<div class="top"><span class="chip c-death">Death</span><span class="when">Seen 10:20am</span></div>
+<div class="kick"><span class="tag k-memoriam">In memoriam</span></div>
 <label><span class="t">Patrick Stewart, &#x27;American Dad!&#x27; &#x27;Prince Of Egypt&#x27; VA, Dies At 86</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1yeElnUW5tYXlobUhsS08yZHhzeXZOb2NHWXNhOGlWS2s2eVZUa1ZmWGhjV3hDOWl2V0t1MUN3S21MZlk1SDlFeERLbEpLdGJmUm9RWmdnZi1ObXRPSWx6NDAySG51U1ZPVDZFb2ZLX1pUUlNBSnBTZm93?oc=5" target="_blank" rel="noopener">Cartoon Brew</a></div>
+<div class="meta"><span class="when">seen 10:20am</span><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1yeElnUW5tYXlobUhsS08yZHhzeXZOb2NHWXNhOGlWS2s2eVZUa1ZmWGhjV3hDOWl2V0t1MUN3S21MZlk1SDlFeERLbEpLdGJmUm9RWmdnZi1ObXRPSWx6NDAySG51U1ZPVDZFb2ZLX1pUUlNBSnBTZm93?oc=5" target="_blank" rel="noopener">Cartoon Brew</a></div>
 </div>
 
 <details id="settings"><summary>Settings</summary>
 <label><input type="checkbox" id="showposted"> Show stories I already posted</label>
-<div class="muted" style="margin-top:6px">Grok header line (top of every packet, saved on this device)</div>
+<div class="muted" style="margin-top:8px">First line of every packet sent to Grok (saved on this device):</div>
 <textarea id="header" rows="3"></textarea>
-<p class="muted">Tap any story to pick it. Share opens the iPhone share sheet so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
+<p class="muted">Tap a story to pick it. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
 
 </main>
 
 <div id="tray" aria-live="polite"><div class="in">
-<div class="info"><b><span id="count">0</span> selected</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
+<div class="info"><b><span id="count">0</span> picked</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
 <div class="btns">
 <button id="copy" class="primary">Copy</button>
 <button id="open">Open Grok</button>

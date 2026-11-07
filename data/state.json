@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:43:30+00:00"
+"time": "2026-11-07T10:51:32+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\"",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -489,7 +489,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -1563,7 +1563,7 @@
 "Kristen Bell"
 ],
 "published": "2026-11-06T17:49:31+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -2748,7 +2748,7 @@
 "people": [
 "Courteney Cox"
 ],
-"published": "2026-11-07T08:54:42+00:00",
+"published": "2026-11-06T17:35:58+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
 "relevant": true,
@@ -3629,7 +3629,7 @@
 "outlet": "TheWrap",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -5441,7 +5441,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T03:30:46+00:00",
+"published": "2026-11-07T09:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -8237,8 +8237,8 @@
 "outlet": "HELLO!",
 "people": [],
 "published": "2026-11-06T12:53:51+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
+"query": "sitcom",
+"query_relevant": true,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -9102,6 +9102,25 @@
 "Upcoming"
 ],
 "title": "Tim Allen’s ‘Shifting Gears’ Officially Confirms 2027 Return Date"
+},
+"fb615178f254": {
+"first_seen": "2026-11-07T10:51:32+00:00",
+"id": "fb615178f254",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2VYODFjRlBwR2c4YmRxbHJtUUw5VS1DOVhhQ2dWZzZvbW5qeTdad1M1YVB6dlB6MFRjb1JiZFIyYjduWjRwY2FaeDBlNEFheGNic2x0S0NpZ1hjSGlCbmJRaUU2M3dUM09xeEdkXzRmUHBObVZ2NEZHc1NOMURyLUFLY0piX1ozeWRDd1U1NEhlbW5HVno0aldmLUFzcWJmYzc5NF9iVk13OGFXV2fSAbMBQVVfeXFMUE5Zb3pKZHUwcDQyeGY4NzBjZURWWnZxRG1iNTd1eFJGSy1ldlVfaGY5TVdvVXZYVGJpSGhscHVBU19ZbDRtQl9WSE9lZVFRMmIybnJCcDJTcnNyWlh2X1hoOV94bjFEU1BwSE9Pc0dPUzJhRWNCWGV5Q3BYT256Q05WSTlqSFphVmlqUnk1LWFDcjFKdEIyaUotQ2NlNVBEaXlaX0VfLXZhUThjeHlRYVVJcVU?oc=5",
+"outlet": "ABC News - Breaking News, Latest News and Videos",
+"people": [],
+"published": "2026-11-06T19:42:32+00:00",
+"query": "late-night show guests",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Trump suggests FCC reexamine licenses amid fallout over preemption of Jimmy Kimmel"
 },
 "fbac496bfba9": {
 "first_seen": "2026-11-07T10:20:14+00:00",
