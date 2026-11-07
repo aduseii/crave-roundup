@@ -43,13 +43,6 @@
  },
  {
   "type": "feed",
-  "name": "Vulture",
-  "ok": false,
-  "count": 0,
-  "error": "FetchError: HTTP 404"
- },
- {
-  "type": "feed",
   "name": "Decider",
   "ok": true,
   "count": 10,
@@ -78,20 +71,6 @@
  },
  {
   "type": "feed",
-  "name": "People",
-  "ok": false,
-  "count": 0,
-  "error": "FetchError: HTTP 403"
- },
- {
-  "type": "feed",
-  "name": "Entertainment Weekly",
-  "ok": false,
-  "count": 0,
-  "error": "FetchError: HTTP 403"
- },
- {
-  "type": "feed",
   "name": "Just Jared",
   "ok": true,
   "count": 25,
@@ -101,350 +80,357 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 52,
+  "count": 20,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\"",
   "ok": true,
-  "count": 29,
+  "count": 10,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 27,
+  "count": 18,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"sitcom star\" OR \"sitcom actor\" OR \"sitcom actress\"",
   "ok": true,
-  "count": 1,
+  "count": 0,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 24,
+  "count": 8,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 25,
+  "count": 8,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 8,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 15,
+  "count": 10,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Leanne\" OR \"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\"",
-  "ok": true,
-  "count": 24,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Shifting Gears\" OR \"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\"",
-  "ok": true,
-  "count": 17,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"The Office\" OR \"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\"",
-  "ok": true,
-  "count": 40,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Curb Your Enthusiasm\" OR \"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\"",
+  "name": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
   "ok": true,
   "count": 11,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"The Goldbergs\" OR \"That '70s Show\" OR \"That '90s Show\" OR \"Malcolm in the Middle\" OR \"The Good Place\" OR \"Grace Under Fire\"",
-  "ok": true,
-  "count": 8,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Moesha\" OR \"Suddenly Susan\" OR \"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\"",
-  "ok": true,
-  "count": 26,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Full House\" OR \"Fuller House\" OR \"Everybody Loves Raymond\" OR \"The King of Queens\" OR \"Everybody Hates Chris\" OR \"Everybody Still Hates Chris\"",
-  "ok": true,
-  "count": 24,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Black-ish\" OR \"Grown-ish\" OR \"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\"",
-  "ok": true,
-  "count": 8,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Kenan & Kel\" OR \"That's So Raven\" OR \"Raven's Home\" OR \"iCarly\" OR \"Hannah Montana\" OR \"Wizards of Waverly Place\"",
-  "ok": true,
-  "count": 9,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Wizards Beyond Waverly Place\" OR \"Arrested Development\" OR \"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\"",
-  "ok": true,
-  "count": 24,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Last Man Standing\" OR \"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Fresh Off the Boat\"",
-  "ok": true,
-  "count": 22,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
-  "ok": true,
-  "count": 19,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\" OR \"Running Point\"",
-  "ok": true,
-  "count": 77,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\"",
-  "ok": true,
-  "count": 13,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Saved by the Bell\" OR \"Boy Meets World\" OR \"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\"",
-  "ok": true,
-  "count": 26,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Diff'rent Strokes\" OR \"The Jeffersons\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"Spin City\"",
-  "ok": true,
-  "count": 6,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-  "ok": true,
-  "count": 43,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
-  "ok": true,
-  "count": 26,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Saturday Night Live\" OR \"SNL\" OR \"The IT Crowd\" OR \"Peep Show\" OR \"Gavin & Stacey\" OR \"Derry Girls\"",
-  "ok": true,
-  "count": 37,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Fawlty Towers\" OR \"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\"",
-  "ok": true,
-  "count": 17,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Chris Perfetti\" OR \"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\"",
-  "ok": true,
-  "count": 10,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Kaley Cuoco\" OR \"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\"",
-  "ok": true,
-  "count": 22,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Charlie Sheen\" OR \"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\"",
-  "ok": true,
-  "count": 10,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Cedric the Entertainer\" OR \"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\"",
-  "ok": true,
-  "count": 24,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Lisa Kudrow\" OR \"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\"",
-  "ok": true,
-  "count": 19,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Jason Alexander\" OR \"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\"",
-  "ok": true,
-  "count": 9,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Mindy Kaling\" OR \"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\"",
-  "ok": true,
-  "count": 9,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Aubrey Plaza\" OR \"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\"",
-  "ok": true,
-  "count": 11,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Zooey Deschanel\" OR \"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\"",
-  "ok": true,
-  "count": 32,
-  "resolved": ""
- },
- {
-  "type": "search",
-  "name": "\"Julie Bowen\" OR \"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\"",
+  "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
   "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Kelsey Grammer\" OR \"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\"",
+  "name": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
+  "ok": true,
+  "count": 0,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+  "ok": true,
+  "count": 3,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"That '70s Show\" OR \"That '90s Show\" OR \"Malcolm in the Middle\" OR \"The Good Place\" OR \"Grace Under Fire\" OR \"Suddenly Susan\"",
+  "ok": true,
+  "count": 1,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
+  "ok": true,
+  "count": 9,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Everybody Loves Raymond\" OR \"The King of Queens\" OR \"Everybody Hates Chris\" OR \"Everybody Still Hates Chris\" OR \"Black-ish\" OR \"Grown-ish\"",
+  "ok": true,
+  "count": 3,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\" OR \"Kenan & Kel\" OR \"That's So Raven\"",
+  "ok": true,
+  "count": 0,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Raven's Home\" OR \"iCarly\" OR \"Hannah Montana\" OR \"Wizards of Waverly Place\" OR \"Wizards Beyond Waverly Place\" OR \"Arrested Development\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
+  "ok": true,
+  "count": 6,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Silicon Valley\" OR \"Fresh Off the Boat\"",
+  "ok": true,
+  "count": 3,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
+  "ok": true,
+  "count": 0,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+  "ok": true,
+  "count": 27,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
+  "ok": true,
+  "count": 1,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+  "ok": true,
+  "count": 4,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
+  "ok": true,
+  "count": 1,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
+  "ok": true,
+  "count": 4,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
+  "ok": true,
+  "count": 0,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+  "ok": true,
+  "count": 2,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
   "count": 18,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Alyson Hannigan\" OR \"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\"",
+  "name": "\"The Daily Show\" OR \"The IT Crowd\" OR \"Peep Show\" OR \"Gavin & Stacey\" OR \"Derry Girls\" OR \"Fawlty Towers\"",
   "ok": true,
-  "count": 23,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Rob McElhenney\" OR \"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\"",
+  "name": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
   "ok": true,
-  "count": 10,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Anthony Anderson\" OR \"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\"",
+  "name": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
+  "ok": true,
+  "count": 4,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
   "ok": true,
   "count": 11,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Steve Martin\" OR \"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\"",
+  "name": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
   "ok": true,
-  "count": 19,
+  "count": 4,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Ayo Edebiri\" OR \"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\"",
+  "name": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
   "ok": true,
-  "count": 8,
+  "count": 4,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Will Smith\" OR \"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symon\u00e9\" OR \"Kel Mitchell\"",
+  "name": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
   "ok": true,
-  "count": 18,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Tisha Campbell\" OR \"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\"",
+  "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 17,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Fran Drescher\" OR \"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\"",
+  "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 26,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Catherine O'Hara\" OR \"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\"",
+  "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 12,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Seth Meyers\" OR \"Jimmy Fallon\" OR \"Jimmy Kimmel\" OR \"Stephen Colbert\" OR \"Nate Bargatze\" OR \"Sebastian Maniscalco\"",
+  "name": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
   "ok": true,
-  "count": 58,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
-  "name": "\"Kevin Hart\" OR \"Bill Burr\"",
+  "name": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
   "ok": true,
-  "count": 6,
+  "count": 7,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
+  "ok": true,
+  "count": 2,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
+  "ok": true,
+  "count": 2,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
+  "ok": true,
+  "count": 3,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symon\u00e9\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+  "ok": true,
+  "count": 7,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+  "ok": true,
+  "count": 16,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
+  "ok": true,
+  "count": 5,
+  "resolved": ""
+ },
+ {
+  "type": "search",
+  "name": "\"Sebastian Maniscalco\" OR \"Kevin Hart\" OR \"Bill Burr\"",
+  "ok": true,
+  "count": 3,
   "resolved": ""
  },
  {
