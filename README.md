@@ -43,6 +43,7 @@ Posted marks and the header line are saved in your browser, so they're per devic
 
 - **On this day** posts (birthdays, death anniversaries, premieres, finales) get a ready caption in your exact formats, filled in from Wikidata. No AI involved.
 - **News** gets a Gemini draft if the key is set (see setup). Edit `config/caption_rules.md` to change the rules it follows.
+- **Caption maker (on demand):** paste your Gemini key once in **Settings** on each phone or computer you use (it's saved only on that device, never on the site). Then tap **Write caption** under any story, or paste any link or story text into the **Caption maker** box at the top. Gemini reads the article itself and follows `config/caption_rules.md`.
 - **Grok** still gets only the plain story (headline and links) when you use Copy, Open Grok or Share.
 
 ## Only fresh news

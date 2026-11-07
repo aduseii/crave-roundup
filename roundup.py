@@ -1383,6 +1383,25 @@ details.more > summary::-webkit-details-marker,details.other > summary::-webkit-
 .capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
 .capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
 .today .cap{margin-right:0}
+.writer{margin-top:var(--s2)}
+.writecap{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.writer .writecap{min-height:32px;padding:0 var(--s3);font-size:var(--t1);border-color:var(--rule);color:var(--crave-ink)}
+.writecap[disabled]{opacity:.7;cursor:progress}
+.writecap.busy::after{content:"";width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.writecap.busy::after{animation:none}}
+.writer-out:empty{display:none}
+.writer-out .cap{margin-right:0}
+.writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
+.writer-out .note a{color:var(--ink)}
+.maker{margin:var(--s5) 0 0;padding:var(--s1) var(--s4) var(--s3);border:1px solid var(--rule);border-radius:var(--r)}
+.maker > summary{cursor:pointer;list-style:none;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0}
+.maker > summary::-webkit-details-marker{display:none}
+.maker p{margin:0 0 var(--s2)}
+.maker textarea{margin:0 0 var(--s2)}
+.keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
+.keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
+.linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
 details.capd{margin-top:var(--s2)}
 details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
 details.capd > summary::-webkit-details-marker{display:none}
@@ -1437,11 +1456,38 @@ TRAY = """
 
 SETTINGS = """
 <details id="settings"><summary>Settings</summary>
+<div class="muted" style="margin-top:8px">Gemini key for writing captions on this device. It's saved only on this phone or computer, never on the site:</div>
+<div class="keyrow"><input id="gemkey" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Paste your Gemini API key">
+<button type="button" id="gemkey-save" class="writecap">Save</button><button type="button" id="gemkey-clear" class="linkish">Remove</button></div>
+<div class="muted" id="gemkey-state"></div>
 <div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
 <textarea id="header" rows="3"></textarea>
 <p class="muted">Tap a story to pick it. Stories you mark as posted get a green Posted badge; tap the badge to undo. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
 """
+
+MAKER = """
+<details id="maker" class="maker"><summary>Caption maker</summary>
+<p class="muted">Paste a link to any story, or the story's text, and Gemini writes the caption in your style.</p>
+<textarea id="maker-in" rows="3" placeholder="Paste a link or the story text"></textarea>
+<button type="button" id="maker-go" class="writecap">Write caption</button>
+<div id="maker-out" class="writer-out"></div>
+</details>
+"""
+
+WRITER = '<div class="writer"><button type="button" class="writecap">Write caption</button><div class="writer-out"></div></div>'
+
+_RULES: dict = {}
+
+
+def caption_rules_text() -> str:
+    if "text" not in _RULES:
+        path = CONFIG_DIR / "caption_rules.md"
+        if not path.exists():
+            path = Path(__file__).resolve().parent / "config" / "caption_rules.md"
+        _RULES["text"] = path.read_text(encoding="utf-8") if path.exists() else ""
+    return _RULES["text"]
+
 
 # small coloured word before a headline: (text shown, colour class)
 KICKERS = {
@@ -1504,6 +1550,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
                f'<nav id="secmenu" class="secmenu" aria-label="Jump to a section" hidden>{items}</nav></div></div>')
         aside = f'<aside class="side"><nav class="sidenav" aria-label="Sections">{items}</nav></aside>'
     css = CSS.replace("FONTPATH", f"{pre}fonts/archivo.woff2")
+    rules_js = json.dumps(caption_rules_text()).replace("</", "<\\/")  # safe inside <script>
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -1530,7 +1577,8 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <meta property="og:description" content="{E(desc)}">
 {og_image}<meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
-<script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};</script>
+<script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};
+window.ROUNDUP_CAPTION_RULES = {rules_js};</script>
 </head><body>
 {mast}
 {bar}
@@ -1582,7 +1630,8 @@ def draft_block(key: str) -> str:
 
 
 def item_html(key: str, packet: str, title: str, *, label: str = "", when: str = "",
-              meta: str = "", summary: str = "", anchor: bool = True, caption: str = "") -> str:
+              meta: str = "", summary: str = "", anchor: bool = True, caption: str = "",
+              writable: bool = False) -> str:
     idattr = f' id="s-{E(key)}"' if anchor else ""
     k = kicker(label)
     out = [f'<div class="item"{idattr} data-id="{E(key)}" data-packet="{E(packet)}">']
@@ -1599,6 +1648,8 @@ def item_html(key: str, packet: str, title: str, *, label: str = "", when: str =
         out.append(f'<div class="meta">{meta}</div>')
     if caption:
         out.append(caption)
+    if writable:
+        out.append(WRITER)
     out.append("</div>")
     return "\n".join(out)
 
@@ -1606,7 +1657,8 @@ def item_html(key: str, packet: str, title: str, *, label: str = "", when: str =
 def cluster_html(c: dict, now: dt.datetime, when: str | None = None) -> str:
     return item_html(c["key"], story_packet(c), c["primary"]["title"], label=chip_for(c),
                      when=when if when is not None else ago(c["time"], now),
-                     meta=links_html(c["sources"]), summary=c["summary"], caption=draft_block(c["key"]))
+                     meta=links_html(c["sources"]), summary=c["summary"], caption=draft_block(c["key"]),
+                     writable=c["kind"] == "article")
 
 
 def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
@@ -1703,7 +1755,7 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
             f'<div class="time" aria-label="Post around {clock(slot)} GMT">{h}<small>{":%02d" % slot.minute if slot.minute else ""}{ampm}</small></div>'
             f'<div><label><span class="t">{E(c["primary"]["title"])}</span>'
             f'<input type="checkbox" class="pick" aria-label="Pick this story"></label>'
-            f'<div class="meta">{meta}</div>{draft_block(c["key"])}</div></div>')
+            f'<div class="meta">{meta}</div>{draft_block(c["key"])}{WRITER}</div></div>')
     return (h2("Today's posting schedule", "sec-today", None)
             + '\n<p class="muted" style="margin:8px 0 0">The ten biggest stories, one an hour. Times are GMT.</p>'
             + '\n<div class="today">\n' + "\n".join(rows)
@@ -1741,6 +1793,7 @@ def write_breaking_page(clusters: list[dict], now: dt.datetime) -> None:
     body = ['<div class="intro"><h1>Breaking</h1>',
             f"<p>Deaths, renewals, cancellations, exits and revivals, newest first. "
             f"Last checked {clock(now)} GMT. Checks run every 30 minutes.</p></div>",
+            MAKER,
             h2(f"Last {BREAKING_PAGE_HOURS} hours", "sec-breaking", len(clusters))]
     if clusters:
         for c in clusters:
@@ -1817,6 +1870,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     body = [f'<div class="intro"><h1>{E(mode.title())} roundup</h1>'
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
             f"{nxt}</p></div>",
+            MAKER,
             post_today_html(ranked, now)]
     jump = [("sec-today", "Schedule", None)] if ranked else []
 
