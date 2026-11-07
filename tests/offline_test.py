@@ -174,7 +174,7 @@ idx = (OUT / "docs" / "index.html").read_text()
 sections = {}
 cur = None
 for line in idx.splitlines():
-    if line.startswith("<h2>"):
+    if line.startswith("<h2"):
         cur = line
     elif cur:
         sections.setdefault(cur, []).append(line)

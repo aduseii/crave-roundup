@@ -55,11 +55,15 @@
 
   function updateTray() {
     $("count").textContent = String(selected.size);
+    // the action bar slides up only while something is picked
+    document.body.classList.toggle("has-sel", selected.size > 0);
   }
 
   function setChecked(id, on) {
-    document.querySelectorAll('[data-id="' + CSS.escape(id) + '"] .pick').forEach(function (c) {
-      c.checked = on;
+    document.querySelectorAll('[data-id="' + CSS.escape(id) + '"]').forEach(function (item) {
+      item.classList.toggle("sel", on);
+      var c = item.querySelector(".pick");
+      if (c) c.checked = on;
     });
   }
 
@@ -127,28 +131,40 @@
     }
 
     $("copy").addEventListener("click", function () {
-      if (!selected.size) return status("Pick at least one story first.");
+      if (!selected.size) return status("Pick a story first.");
       copyText(buildPacket()).then(function (ok) {
-        status(ok ? "Copied " + selected.size + " for Grok. Paste it into your Grok chat."
-                  : "Copy was blocked by the browser. Try again.");
+        status(ok ? "Copied " + selected.size + ". Paste it into Grok." : "Copy was blocked. Try again.");
       });
     });
 
     $("open").addEventListener("click", function () {
-      if (!selected.size) return status("Pick at least one story first.");
+      if (!selected.size) return status("Pick a story first.");
       var text = buildPacket();
       var url = GROK_URL + encodeURIComponent(text);
-      // open first (browsers block pop-ups that come after an async step), copy as a backup
+      // start the copy and the new tab in the same tap: Safari blocks pop-ups after an async step
+      var copying = copyText(text);
       if (url.length <= GROK_LINK_LIMIT) {
         window.open(url, "_blank", "noopener");
-        copyText(text);
-        status("Opened Grok. The packet is also copied, in case you want to paste it into a project chat.");
+        status("Opened Grok. Also copied, to paste into a project chat.");
       } else {
-        copyText(text).then(function () {
-          status("Too long for a link, so it was copied instead. Paste it into Grok.");
-        });
+        copying.then(function () { status("Too long for a link, so it was copied. Paste it into Grok."); });
       }
     });
+
+    var shareBtn = $("share");
+    if (shareBtn && navigator.share) {
+      shareBtn.hidden = false;
+      shareBtn.addEventListener("click", function () {
+        if (!selected.size) return status("Pick a story first.");
+        var text = buildPacket();
+        copyText(text);
+        navigator.share({ text: text }).then(function () {
+          status("Shared.");
+        }, function (err) {
+          if (!err || err.name !== "AbortError") status("Sharing failed, but it's copied. Paste it into Grok.");
+        });
+      });
+    }
 
     $("markposted").addEventListener("click", function () {
       if (!selected.size) return status("Pick the stories you posted first.");
@@ -159,7 +175,7 @@
       selected.clear();
       updateTray();
       applyPosted();
-      status("Marked " + n + " as posted. Tick 'Show posted' to see them again.");
+      status("Marked " + n + " as posted.");
     });
 
     $("clear").addEventListener("click", function () {

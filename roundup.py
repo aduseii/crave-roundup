@@ -57,6 +57,14 @@ SECTIONS = [
     ("trailers", "Trailers"),
     ("upcoming", "Upcoming"),
 ]
+JUMP_LABELS = {
+    "breaking": "Breaking",
+    "news": "News",
+    "streaming": "Streaming",
+    "interviews": "Interviews",
+    "trailers": "Trailers",
+    "upcoming": "Upcoming",
+}
 SECTION_TYPE = {
     "breaking": "Breaking",
     "news": "News",
@@ -1024,67 +1032,129 @@ def alert_text(c: dict) -> str:
 E = html.escape
 
 CSS = """
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:0 auto;padding:12px 14px 120px;line-height:1.4;color:#111}
-a{color:#0645ad}
-h1{font-size:1.35em;margin:.4em 0 .1em}
-h2{font-size:1.1em;margin:1.4em 0 .4em;padding-bottom:3px;border-bottom:1px solid #ddd}
-h3{font-size:1em;margin:1em 0 .3em}
-nav{margin:.3em 0 1em}
-.muted{color:#666;font-size:.9em}
-.item{padding:6px 0;border-bottom:1px solid #f0f0f0}
-.item label{cursor:pointer}
+:root{--bg:#fff;--fg:#111;--muted:#666;--line:#e8e8e8;--link:#0645ad;--accent:#ff751f;--sel:#fff3ea;--tag:#c40000;--btn:#f2f2f2;--sum:#333}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#ececec;--muted:#9b9b9b;--line:#2b2b2b;--link:#8ab4ff;--sel:#2c1e14;--tag:#ff6b6b;--btn:#262626;--sum:#cfcfcf}}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.45;color:var(--fg);background:var(--bg);max-width:900px;margin:0 auto;padding:0 max(14px,env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
+body.has-sel{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+a{color:var(--link)}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:calc(4px + env(safe-area-inset-top)) 0 4px}
+nav.main{display:flex;gap:18px;flex-wrap:wrap}
+nav.main a{display:inline-block;padding:8px 0;font-weight:600;text-decoration:none}
+nav.jump{display:flex;gap:6px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:2px 0 4px}
+nav.jump::-webkit-scrollbar{display:none}
+nav.jump a{flex:0 0 auto;font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--fg)}
+h1{font-size:1.3em;line-height:1.25;margin:.7em 0 .15em}
+h2{font-size:1.12em;margin:1.5em 0 .2em;padding-bottom:4px;border-bottom:2px solid var(--line);scroll-margin-top:100px}
+h3{font-size:1em;margin:1.1em 0 .2em}
+.muted{color:var(--muted);font-size:.88em}
+.item{padding:11px 4px;border-bottom:1px solid var(--line);scroll-margin-top:100px;border-radius:6px}
+.item.sel{background:var(--sel)}
+.item label{display:flex;gap:11px;align-items:flex-start;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.item input.pick{width:22px;height:22px;flex:0 0 22px;margin:1px 0 0;accent-color:var(--accent)}
 .item .t{font-weight:600}
-.item .tag{font-weight:700;color:#b00}
-.item .meta{color:#666;font-size:.85em;margin-left:24px}
-.item .sum{font-size:.9em;margin-left:24px;color:#333}
+.item .tag{font-weight:700;color:var(--tag)}
+.item .meta,.item .sum{margin-left:33px}
+.item .meta{color:var(--muted);font-size:14px;margin-top:4px;line-height:1.7}
+.item .sum{font-size:15px;color:var(--sum);margin-top:3px}
+.item .meta details{display:inline}
+.item .meta summary{display:inline;color:var(--link);cursor:pointer;list-style:none}
+.item .meta summary::-webkit-details-marker{display:none}
 .item.posted{opacity:.45}
 body.hideposted .item.posted{display:none}
-ol.today li{margin:4px 0}
-#tray{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:2px solid #333;padding:8px 14px}
+ol.today{list-style:none;padding:0;margin:0;counter-reset:n}
+ol.today li.item{counter-increment:n}
+ol.today li.item label > span::before{content:counter(n) ". ";color:var(--muted);font-weight:600}
+details{margin:.6em 0}
+details > summary{cursor:pointer;padding:6px 0}
+#settings{border:1px solid var(--line);border-radius:10px;padding:2px 12px;margin:.8em 0}
+#settings label{display:flex;gap:10px;align-items:center;padding:8px 0}
+#settings input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent)}
+textarea{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bg);border-top:2px solid var(--accent);box-shadow:0 -4px 14px rgba(0,0,0,.12);padding:8px max(12px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));transform:translateY(115%);transition:transform .2s ease}
+body.has-sel #tray{transform:none}
 #tray .in{max-width:900px;margin:0 auto}
-#tray button{margin:2px 4px 2px 0;padding:6px 10px;font-size:.95em}
-#status{font-size:.9em;color:#060;margin-left:6px}
-textarea{width:100%;font-family:inherit}
-details{margin:.5em 0}
-table{border-collapse:collapse;font-size:.85em}
-td,th{border:1px solid #ddd;padding:3px 6px;text-align:left;vertical-align:top}
+#tray .info{display:flex;align-items:center;gap:10px;font-size:15px;margin-bottom:7px;min-height:22px}
+#tray .info b{white-space:nowrap}
+#status{color:#0a7a2f;font-size:14px;flex:1;line-height:1.3}
+#tray .linkbtn{background:none;border:0;color:var(--link);font-size:15px;padding:4px;min-height:0}
+#tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(68px,1fr));gap:7px}
+#tray .btns button{min-height:46px;font-size:15px;font-weight:600;border-radius:10px;border:1px solid var(--line);background:var(--btn);color:var(--fg);padding:4px 6px;-webkit-tap-highlight-color:transparent}
+#tray .btns button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+#tray .btns button[hidden]{display:none}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;font-size:13px}
+td,th{border:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+@media (min-width:700px){body{font-size:16px}.item .sum{font-size:14.5px}}
 """
 
 TRAY = """
-<div id="tray"><div class="in">
-<b><span id="count">0</span> selected</b>
-<button id="copy">Copy for Grok</button>
-<button id="open">Open in Grok</button>
-<button id="markposted">Mark selected as posted</button>
-<button id="clear">Clear</button>
-<label class="muted"><input type="checkbox" id="showposted"> Show posted</label>
-<span id="status"></span>
-<details><summary class="muted">Grok header line</summary>
-<textarea id="header" rows="2"></textarea>
-<div class="muted">This line goes at the top of every packet. Saved in this browser.</div>
-</details>
+<div id="tray" aria-live="polite"><div class="in">
+<div class="info"><b><span id="count">0</span> selected</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
+<div class="btns">
+<button id="copy" class="primary">Copy</button>
+<button id="open">Open Grok</button>
+<button id="share" hidden>Share</button>
+<button id="markposted">Posted</button>
+</div>
 </div></div>
 """
 
+SETTINGS = """
+<details id="settings"><summary class="muted">Settings</summary>
+<label><input type="checkbox" id="showposted"> Show stories I already posted</label>
+<div class="muted" style="margin-top:6px">Grok header line (top of every packet, saved on this device)</div>
+<textarea id="header" rows="3"></textarea>
+<p class="muted">Tip: Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in, and both also copy it.</p>
+</details>
+"""
 
-def page(title: str, body: str, depth: int = 0) -> str:
+
+def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str]] | None = None) -> str:
     pre = "../" * depth
-    nav = (f'<nav><a href="{pre}index.html">Latest roundup</a> · '
-           f'<a href="{pre}breaking.html">Breaking</a> · '
+    nav = (f'<nav class="main"><a href="{pre}index.html">Latest</a>'
+           f'<a href="{pre}breaking.html">Breaking</a>'
            f'<a href="{pre}archive.html">Archive</a></nav>')
+    if jump:
+        nav += '<nav class="jump">' + "".join(f'<a href="#{E(i)}">{E(l)}</a>' for i, l in jump) + "</nav>"
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Roundup">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="{pre}icon-180.png">
+<link rel="icon" type="image/png" href="{pre}icon-180.png">
 <title>{E(title)}</title>
 <style>{CSS}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};</script>
 </head><body class="hideposted">
-{nav}
+<header class="top">{nav}</header>
 {body}
+{SETTINGS}
 {TRAY}
 <script src="{pre}app.js"></script>
 </body></html>
 """
+
+
+def h2(label: str, anchor: str) -> str:
+    return f'<h2 id="{E(anchor)}">{E(label)}</h2>'
+
+
+def links_html(sources: list[tuple[str, str]], show: int = 3) -> str:
+    def a(o, u):
+        return f'<a href="{E(u)}" target="_blank" rel="noopener">{E(o)}</a>'
+    first = " · ".join(a(o, u) for o, u in sources[:show])
+    rest = sources[show:]
+    if not rest:
+        return first
+    return (f"{first} <details><summary>+{len(rest)} more</summary> · "
+            + " · ".join(a(o, u) for o, u in rest) + "</details>")
 
 
 def item_html(key: str, packet: str, title: str, *, tag: str = "", meta: str = "",
@@ -1092,7 +1162,7 @@ def item_html(key: str, packet: str, title: str, *, tag: str = "", meta: str = "
     tag_html = f'<span class="tag">[{E(tag)}]</span> ' if tag else ""
     idattr = f' id="s-{E(key)}"' if anchor else ""
     out = [f'<div class="item"{idattr} data-id="{E(key)}" data-packet="{E(packet)}">',
-           f'<label><input type="checkbox" class="pick"> {tag_html}<span class="t">{E(title)}</span></label>']
+           f'<label><input type="checkbox" class="pick"><span>{tag_html}<span class="t">{E(title)}</span></span></label>']
     if meta:
         out.append(f'<div class="meta">{meta}</div>')
     if summary:
@@ -1102,10 +1172,7 @@ def item_html(key: str, packet: str, title: str, *, tag: str = "", meta: str = "
 
 
 def cluster_html(c: dict, now: dt.datetime) -> str:
-    links = " · ".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(o)}</a>'
-                       for o, u in c["sources"])
-    extra = f" · {len(c['sources'])} outlets" if len(c["sources"]) > 1 else ""
-    meta = f"{links}{extra} · {ago(c['time'], now)}"
+    meta = f"{links_html(c['sources'])} · {ago(c['time'], now)}"
     tag = ", ".join(c["breaking"]) if c["breaking"] else ("Casting" if "Casting" in c["tags"] else "")
     return item_html(c["key"], story_packet(c), c["primary"]["title"], tag=tag, meta=meta,
                      summary=c["summary"])
@@ -1123,7 +1190,7 @@ def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
 
 
 def anniv_html(ann: dict, today: dt.date) -> str:
-    parts = [f"<h2>Anniversaries {E(long_date(today))}</h2>"]
+    parts = [h2(f"Anniversaries {long_date(today)}", "sec-anniversaries")]
 
     def links(e):
         return " · ".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(o)}</a>'
@@ -1176,8 +1243,8 @@ def health_html(health: list[dict]) -> str:
         rows.append(f"<tr><td>{E(h['type'])}</td><td>{E(h['name'])}</td><td>{status}</td>"
                     f"<td>{h.get('count', 0)}</td><td>{E(note)}</td></tr>")
     return (f"<details><summary>Source health: {len(health) - len(bad)} ok, {len(bad)} failed</summary>"
-            "<table><tr><th>Type</th><th>Source</th><th>Status</th><th>Stories</th><th>Note</th></tr>"
-            + "".join(rows) + "</table></details>")
+            '<div class="tablewrap"><table><tr><th>Type</th><th>Source</th><th>Status</th><th>Stories</th><th>Note</th></tr>'
+            + "".join(rows) + "</table></div></details>")
 
 
 def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
@@ -1190,9 +1257,10 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
         tag = f'<span class="tag">[{E(", ".join(c["breaking"]))}]</span> ' if c["breaking"] else ""
         rows.append(
             f'<li class="item" data-id="{E(c["key"])}" data-packet="{E(story_packet(c))}">'
-            f'<label><input type="checkbox" class="pick"> {tag}{E(c["primary"]["title"])}, ~{clock(slot)}</label> '
-            f'<a href="#s-{E(c["key"])}" class="muted">details</a></li>')
-    return ('<h2>Post today (ranked, times GMT)</h2>\n<ol class="today">\n' + "\n".join(rows)
+            f'<label><input type="checkbox" class="pick"><span>{tag}<span class="t">{E(c["primary"]["title"])}</span></span></label>'
+            f'<div class="meta">~{clock(slot)} GMT · {len(c["sources"])} outlet{"s" if len(c["sources"]) != 1 else ""} · '
+            f'<a href="#s-{E(c["key"])}">details</a></div></li>')
+    return (h2("Post today (ranked, times GMT)", "sec-today") + '\n<ol class="today">\n' + "\n".join(rows)
             + '\n</ol>\n<p class="muted" id="droppedline"></p>')
 
 
@@ -1203,6 +1271,7 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
 def write_assets() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "app.js", DOCS_DIR / "app.js")
+    shutil.copyfile(ASSETS_DIR / "icon-180.png", DOCS_DIR / "icon-180.png")
     write_text(DOCS_DIR / ".nojekyll", "")
 
 
@@ -1276,12 +1345,14 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
             f'<p class="muted">Updated {clock(now)} GMT. Stories {E(since)}: '
             f"{len(clusters)} after merging duplicates. {nxt}</p>",
             post_today_html(ranked, now)]
+    jump = [("sec-today", "Post today")] if ranked else []
 
     for key, label in SECTIONS:
         group = by_section[key]
         if key == "breaking" and not group:
             continue
-        body.append(f"<h2>{E(label)}</h2>")
+        body.append(h2(label, f"sec-{key}"))
+        jump.append((f"sec-{key}", JUMP_LABELS[key]))
         if key in ("interviews", "trailers"):
             arts = [c for c in group if c["kind"] == "article"]
             vids = [c for c in group if c["kind"] == "video"]
@@ -1306,14 +1377,17 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
 
     if mode == "morning":
         body.append(anniv_html(ann, today))
+        jump.append(("sec-anniversaries", "Anniversaries"))
 
-    body.append("<h2>Sources</h2>")
+    body.append(h2("Sources", "sec-sources"))
     body.append(health_html(health))
+    jump.append(("sec-sources", "Sources"))
 
-    html_edition = page(f"{title}: Sitcom Crave Roundup", "\n".join(b for b in body if b), depth=1)
-    write_text(DOCS_DIR / "editions" / f"{name}.html", html_edition)
+    content = "\n".join(b for b in body if b)
+    write_text(DOCS_DIR / "editions" / f"{name}.html",
+               page(f"{title}: Sitcom Crave Roundup", content, depth=1, jump=jump))
     write_text(DOCS_DIR / "index.html",
-               page(f"{title}: Sitcom Crave Roundup", "\n".join(b for b in body if b), depth=0))
+               page(f"{title}: Sitcom Crave Roundup", content, depth=0, jump=jump))
     state["editions"] = [e for e in state.get("editions", []) if e["name"] != name]
     state["editions"].append({"name": name, "edition": mode, "time": iso(now)})
     return name

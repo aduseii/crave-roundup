@@ -18,6 +18,14 @@ Instagram, X and captions are handled by the Grok bot, not this site.
 
 Posted marks and the header line are saved in your browser, so they're per device.
 
+### On iPhone
+
+- The action bar slides up from the bottom once you tick a story: **Copy**, **Open Grok**, **Share**, **Posted**.
+- **Share** opens the iPhone share sheet, so you can send the packet straight to the Grok app.
+- The pill buttons under the top links jump between sections.
+- **Settings** (bottom of the page) has "Show stories I already posted" and the Grok header line.
+- To get it as an app: open the site in Safari, tap **Share → Add to Home Screen**. (Posted marks saved in the home-screen app are separate from the ones in Safari.)
+
 ## Setup (one time)
 
 1. **Turn on the website:** repo **Settings → Pages → Build and deployment**: Source **Deploy from a branch**, Branch **main**, folder **/docs**, Save.
