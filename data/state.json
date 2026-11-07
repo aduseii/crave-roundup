@@ -166,7 +166,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T13:09:23+00:00"
+"time": "2026-11-07T13:16:48+00:00"
 }
 ],
 "items": {
@@ -178,7 +178,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query": "\"comedy series\"",
 "query_relevant": true,
 "rehash": false,
 "relevant": true,
@@ -782,7 +782,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -8988,6 +8988,28 @@
 "tags": [],
 "title": "What's Behind Me? with Sarah Paulson | The Tonight Show Starring Jimmy Fallon"
 },
+"ed51a82d4af0": {
+"first_seen": "2026-11-07T13:16:48+00:00",
+"id": "ed51a82d4af0",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB2TDlUX0dtUEJhUWJNN1psT29rcG1OUVVBQmNSbHY0dGpodk9wUkt2b2xBZTdTR1BkT2pxSjRWWVhZbVo1SWo1M3EwWGczZG43eUJtZEI4ZERWYlFucTl6b2tISzFEVXM?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T21:11:13+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "First Trailer for the ‘SpongeBob SquarePants’ Christmas Special Puts Mr. Krabs, Man Ray and Dirty Bubble on the Naughty List"
+},
 "ed8a6ad195f4": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "ed8a6ad195f4",
@@ -9956,7 +9978,7 @@
 },
 "shown": [
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8c5d995b4f32"
@@ -9979,7 +10001,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0296c89fdb4f"
@@ -10005,7 +10027,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b92902159881",
@@ -10017,7 +10039,13 @@
 "6e8968e95635",
 "ccebf1764b99",
 "d21e48618044",
-"d9b67637f041"
+"d9b67637f041",
+"2350396f1041",
+"453361322010",
+"acb74c5dca01",
+"e8bbeda6c282",
+"b70d59bb634a",
+"090bccb69c9e"
 ],
 "people": [
 "Ellen DeGeneres"
@@ -10039,7 +10067,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "99448a430770"
@@ -10070,7 +10098,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d179df46f490",
@@ -10095,7 +10123,300 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f7fe06e328e2"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Exit",
+"Revival"
+],
+"tokens": [
+"adam",
+"best",
+"confirm",
+"driver",
+"dunham",
+"girl",
+"lena",
+"luck",
+"reboot",
+"return",
+"won"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"76a0564e819c",
+"13643ed15757"
+],
+"people": [
+"Raven-Symoné"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"confront",
+"gabourey",
+"past",
+"podcast",
+"raven",
+"sidibe",
+"symone",
+"tension"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cb17be338bbc",
+"1465d0a4a07e"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"alien",
+"animat",
+"cann",
+"cat",
+"catnip",
+"conquer",
+"content",
+"creative",
+"earth",
+"fest",
+"goes",
+"maomao",
+"operation",
+"sent",
+"soft",
+"taiwan",
+"tuna"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"565e196316da"
+],
+"people": [],
+"shows": [
+"SNL",
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"all",
+"dating",
+"druski",
+"history",
+"relationship",
+"statu"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"46a13180447f",
+"9a859ce345d4",
+"99dc2c6d1996",
+"5a3d251d901d",
+"1045a610f646"
+],
+"people": [
+"Kristen Bell"
+],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"fate",
+"nobody",
+"reveal",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"af938445da40",
+"e3eb523adb91",
+"f0d012b60e99"
+],
+"people": [],
+"shows": [
+"Abbott Elementary"
+],
+"tags": [],
+"tokens": [
+"abbott",
+"ackl",
+"asks",
+"bachelor",
+"did",
+"does",
+"elementary",
+"firing",
+"jensen",
+"make",
+"most",
+"sense",
+"tracker",
+"tvline"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d740ff38b292"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"adult",
+"comedy",
+"gets",
+"paramount",
+"realize",
+"roommat",
+"skip",
+"stream",
+"suck",
+"trio",
+"worse"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"74976ccab729"
+],
+"people": [],
+"shows": [
+"Saturday Night Live"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"bill",
+"daughter",
+"hader",
+"hilariously",
+"milestone",
+"reveal",
+"sweet"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5b1f6862c61f"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"angst",
+"cameo",
+"captur",
+"dunham",
+"gen",
+"gets",
+"having",
+"idea",
+"lena",
+"leo",
+"load",
+"potenti",
+"reich",
+"scor",
+"worse"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"aa9ff585b0c4",
+"cc0213a163a9",
+"26bbe9b3753f",
+"15621954cfd2",
+"845a1eef5907",
+"b08f4f60f966",
+"fe9a41b11fcc",
+"251e43ddbc84",
+"f1f89d6ca5fb",
+"fa6e8fe78ef1",
+"0cb1db0a41ec",
+"d9418b1628cd",
+"0a9d19e172f2",
+"2971786d3257",
+"582360fd905d",
+"5f7811e634dd",
+"a4f9b2b87475",
+"d6e4082393b5"
+],
+"people": [
+"Kristen Bell"
+],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [
+"Renewal"
+],
+"tokens": [
+"netflix",
+"nobody",
+"renew",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"bd67e7f60865"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"anyth",
+"brunson",
+"but",
+"debut",
+"heinou",
+"jalen",
+"law",
+"order",
+"svu"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "935b8b70ae2d"
@@ -10122,7 +10443,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "05d70f47f147"
@@ -10147,7 +10468,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "06531c54fd54"
@@ -10174,11 +10495,11 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"6eb7a4eab682",
-"08ecf08678f7"
+"08ecf08678f7",
+"6eb7a4eab682"
 ],
 "people": [
 "Kaley Cuoco"
@@ -10197,7 +10518,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "408e604f1f0e"
@@ -10222,7 +10543,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fa2e235ab2b9"
@@ -10246,7 +10567,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b9551d153f4c"
@@ -10271,7 +10592,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fb5a545cb9db"
@@ -10297,7 +10618,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0524466d3c1c"
@@ -10319,7 +10640,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0e1d31396820",
@@ -10346,7 +10667,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0d04c59d0c2a"
@@ -10373,28 +10694,12 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"9a859ce345d4",
-"9fc362adf149"
-],
-"people": [],
-"shows": [
-"Nobody Wants This"
-],
-"tags": [],
-"tokens": [
-"nobody",
-"want"
-]
-},
-{
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5e5086d54f0b",
-"e0389ff45626"
+"e0389ff45626",
+"433e19028f05"
 ],
 "people": [
 "Hannah Waddingham"
@@ -10414,7 +10719,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "95062397a775"
@@ -10435,7 +10740,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d5606ba40095"
@@ -10461,7 +10766,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bd714306508c"
@@ -10481,10 +10786,13 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"b9e5e158a662"
+"b9e5e158a662",
+"406f2379b946",
+"a86ebb1996be",
+"edaaf6939162"
 ],
 "people": [],
 "shows": [],
@@ -10504,13 +10812,17 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"487740f792e9"
+"487740f792e9",
+"9ce1ef8aa1a1",
+"f825085dccef"
 ],
 "people": [
-"Courteney Cox"
+"Courteney Cox",
+"Sofia Vergara",
+"Zooey Deschanel"
 ],
 "shows": [],
 "tags": [],
@@ -10526,7 +10838,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "4b96db5f1aeb"
@@ -10549,35 +10861,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"e3eb523adb91"
-],
-"people": [],
-"shows": [
-"Abbott Elementary"
-],
-"tags": [],
-"tokens": [
-"abbott",
-"ackl",
-"asks",
-"bachelor",
-"did",
-"does",
-"elementary",
-"firing",
-"jensen",
-"make",
-"most",
-"sense",
-"tracker",
-"tvline"
-]
-},
-{
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cc8057ce618e"
@@ -10605,7 +10889,26 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"9fc362adf149"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"everyth",
+"finale",
+"know",
+"nobody",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cde2af6fe5eb"
@@ -10630,10 +10933,11 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"1ef390b6641d"
+"1ef390b6641d",
+"6edaf5f11b88"
 ],
 "people": [],
 "shows": [],
@@ -10652,7 +10956,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ab1345ee57fa"
@@ -10676,7 +10980,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6c733d3de8db"
@@ -10695,7 +10999,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6422e4d00f63"
@@ -10720,10 +11024,11 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"40837c3bd70a"
+"40837c3bd70a",
+"0fe0b5c7dda3"
 ],
 "people": [
 "Mindy Kaling"
@@ -10739,10 +11044,11 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"94e41b326e5b"
+"94e41b326e5b",
+"5faad182ebec"
 ],
 "people": [],
 "shows": [
@@ -10762,7 +11068,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "11d115087b74"
@@ -10786,7 +11092,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8413dc0f55d5"
@@ -10810,7 +11116,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "3f58f37b84e9"
@@ -10833,7 +11139,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0aa710d3e112"
@@ -10859,7 +11165,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bfef0aef9b5d"
@@ -10882,7 +11188,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "005accbf7a1e"
@@ -10903,7 +11209,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7ec181f7132f"
@@ -10922,7 +11228,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "171381f0bfe9"
@@ -10951,7 +11257,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "43ff0bc7e7f4"
@@ -10978,30 +11284,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"cc0213a163a9"
-],
-"people": [
-"Kristen Bell"
-],
-"shows": [],
-"tags": [
-"Renewal"
-],
-"tokens": [
-"bell",
-"kristen",
-"netflix",
-"officially",
-"renew",
-"return",
-"week"
-]
-},
-{
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "08d065d86bbe"
@@ -11026,7 +11309,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:09:23+00:00",
+"at": "2026-11-07T13:16:48+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5ed8f5ea7664"
@@ -11051,6 +11334,2724 @@
 "silver",
 "strik",
 "unrecognizable"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cce3aa2175f4"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"abel",
+"andrew",
+"host",
+"iron",
+"jake",
+"max",
+"niccol",
+"ronan",
+"saoirse",
+"starr",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8d91263277d8"
+],
+"people": [
+"John Stamos"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"drugstore",
+"gem",
+"john",
+"lock",
+"lusciou",
+"secret",
+"spill",
+"stamo",
+"trichologist",
+"turn",
+"use"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"dac946184c23"
+],
+"people": [],
+"shows": [
+"Unbreakable Kimmy Schmidt"
+],
+"tags": [],
+"tokens": [
+"kimmy",
+"schmidt",
+"unbreakable"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"804d54d6b693"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Revival"
+],
+"tokens": [
+"adam",
+"confirm",
+"driver",
+"girl",
+"join",
+"reviv",
+"shar",
+"thought",
+"won"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"51e86ebb822d"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"now",
+"our",
+"play",
+"trailer",
+"wedd"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"69a6def5d2ad"
+],
+"people": [
+"Kelsey Grammer"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"25th",
+"birthday",
+"call",
+"camille",
+"daughter",
+"grammer",
+"kelsey",
+"never",
+"text"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"9c5ece6b1038",
+"b03accbb14f6"
+],
+"people": [],
+"shows": [
+"Full House",
+"Fuller House"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"190",
+"before",
+"full",
+"fuller",
+"house",
+"jodie",
+"left",
+"paycheck",
+"sweetin"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6310d5d0c0e7"
+],
+"people": [],
+"shows": [
+"The Tonight Show"
+],
+"tags": [],
+"tokens": [
+"davidson",
+"fahy",
+"fallon",
+"jimmy",
+"meghann",
+"pete",
+"starr",
+"tonight"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"87fb23b8cc43"
+],
+"people": [
+"Jim Parsons"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2015",
+"entertainment",
+"fame",
+"hollywood",
+"jim",
+"parson",
+"walk"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0960163559d8"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"abc",
+"administer",
+"death",
+"pair",
+"scrub",
+"sentence"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"09c0365c4b96",
+"4ac3527655c2",
+"ae33b32ba6c0",
+"e2593a4c03ae"
+],
+"people": [
+"Amy Poehler",
+"Julia Louis-Dreyfus",
+"Julie Bowen",
+"Sarah Hyland"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2015",
+"amy",
+"award",
+"carpet",
+"emmy",
+"poehler",
+"red"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"da77a3b0c47a"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"call",
+"jimmy",
+"kimmel",
+"late",
+"monologue",
+"night",
+"nobody",
+"resign",
+"trump",
+"want",
+"you"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"02c7c913ca87"
+],
+"people": [
+"Melissa McCarthy"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"award",
+"berlanti",
+"center",
+"fall",
+"ford",
+"gala",
+"goldie",
+"greg",
+"harrison",
+"hawn",
+"honor",
+"mccarthy",
+"media",
+"melissa",
+"paley",
+"receive"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"33cd0db3500f"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"down",
+"going",
+"hunt",
+"someone",
+"trailer",
+"wive"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"01c7a3f80f3c",
+"140c2e34482d"
+],
+"people": [
+"Kelsey Grammer"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"angry",
+"birthday",
+"dad",
+"daughter",
+"grammer",
+"kelsey",
+"post",
+"react",
+"reveal",
+"viral"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"69ab0acf53d4"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"gilli",
+"gym",
+"inde",
+"joke",
+"navarrette",
+"own",
+"punchline",
+"shane",
+"snl",
+"turn"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1f6dea7520e7"
+],
+"people": [],
+"shows": [
+"The Tonight Show"
+],
+"tags": [],
+"tokens": [
+"ariana",
+"ben",
+"fallon",
+"grande",
+"jimmy",
+"niro",
+"robert",
+"starr",
+"stiller",
+"tonight"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"c09d920e3360"
+],
+"people": [
+"Courteney Cox"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"coco",
+"courteney",
+"cox",
+"dad",
+"daughter",
+"famou",
+"glamorou",
+"image",
+"photo"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"033050c573cc"
+],
+"people": [
+"Dan Levy"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"billy",
+"dan",
+"feat",
+"finn",
+"idina",
+"levy",
+"menzel",
+"night",
+"passover",
+"porter",
+"saturday",
+"seder",
+"wolfhard"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7b422c82c5c5"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"again",
+"comeback",
+"duff",
+"ever",
+"eyes",
+"going",
+"gross",
+"hilary",
+"like",
+"look",
+"million",
+"not",
+"residenci",
+"sure",
+"tour"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ef311764b8dd"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"divid",
+"docuseri",
+"internet",
+"melania",
+"trailer",
+"trump"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"50015dff54ac"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"announc",
+"back",
+"coming",
+"netflix",
+"nobody",
+"officially",
+"teaser",
+"want",
+"wedd",
+"weekend"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"96dab8cce97c",
+"eeef414b5beb"
+],
+"people": [
+"Queen Latifah"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"hope",
+"latifah",
+"midterm",
+"need",
+"queen",
+"result",
+"some"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"29737de67f70"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2015",
+"actress",
+"aniston",
+"highest",
+"jennifer",
+"paid",
+"world"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f3f1990e3a54"
+],
+"people": [
+"Kaley Cuoco"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2014",
+"2015",
+"actress",
+"cuoco",
+"highest",
+"kaley",
+"paid",
+"sweet"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"48298b43ab01"
+],
+"people": [],
+"shows": [
+"Sabrina the Teenage Witch"
+],
+"tags": [],
+"tokens": [
+"cast",
+"episod",
+"favorite",
+"guest",
+"sabrina",
+"shar",
+"teenage",
+"witch"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7dab39f470bd"
+],
+"people": [
+"Tim Allen"
+],
+"shows": [],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"allen",
+"date",
+"denning",
+"gear",
+"kat",
+"release",
+"share",
+"shift",
+"tim",
+"video",
+"watch"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ccbdbea65783"
+],
+"people": [
+"Reba McEntire"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"candace",
+"diana",
+"eng",
+"hudson",
+"jennifer",
+"mcentire",
+"prince",
+"reba"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f35a114b3b08"
+],
+"people": [],
+"shows": [
+"Happy's Place"
+],
+"tags": [],
+"tokens": [
+"description",
+"exclusive",
+"gabby",
+"happy",
+"jane",
+"lynch",
+"mom",
+"perfect",
+"place",
+"val"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"dff11cdfee37"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"2026",
+"election",
+"give",
+"jimmy",
+"kimmel",
+"monologue",
+"most",
+"night",
+"view"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7986342777d3"
+],
+"people": [
+"Quinta Brunson"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"behind",
+"brunson",
+"carrey",
+"crazy",
+"grinch",
+"jim",
+"lore",
+"makeup",
+"quinta",
+"shar"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ed51a82d4af0"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"bubble",
+"christma",
+"dirty",
+"krab",
+"list",
+"man",
+"naughty",
+"puts",
+"ray",
+"speci",
+"spongebob",
+"squarepant",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"10c6de2c3eb2"
+],
+"people": [],
+"shows": [
+"Golden Girls",
+"The Golden Girls"
+],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"girl",
+"golden",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5342300002eb"
+],
+"people": [],
+"shows": [
+"American Dad"
+],
+"tags": [
+"Death"
+],
+"tokens": [
+"american",
+"dad",
+"dies",
+"egypt",
+"patrick",
+"prince",
+"stewart"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"126af6c306c2",
+"7bf7818956fd"
+],
+"people": [
+"Ray Romano"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"actor",
+"comedian",
+"fame",
+"hall",
+"honor",
+"ray",
+"romano"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"4f36f9880419"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"hotline",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7aadb905bfbe"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2026",
+"billboard",
+"duff",
+"expect",
+"hilary",
+"live",
+"music",
+"set",
+"summit",
+"weezer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b21de05c6e75"
+],
+"people": [
+"Bowen Yang"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"bowen",
+"esposito",
+"fantasy",
+"giancarlo",
+"hilariou",
+"movie",
+"releas",
+"theater",
+"today",
+"yang"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"4822ec7056f1"
+],
+"people": [],
+"shows": [
+"Full House"
+],
+"tags": [],
+"tokens": [
+"addiction",
+"all",
+"bare",
+"cash",
+"drug",
+"embarrass",
+"full",
+"house",
+"jodie",
+"lays",
+"long",
+"money",
+"spend",
+"struggl",
+"sweetin",
+"year"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7dd90fc12316"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"box",
+"dick",
+"island",
+"lonely",
+"real",
+"reason",
+"releas",
+"reve",
+"snl",
+"uncensor",
+"version"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1dc318d7f785"
+],
+"people": [],
+"shows": [
+"SNL",
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"cast",
+"guest",
+"host",
+"live",
+"music",
+"night",
+"saturday",
+"snl",
+"upcom"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"daf2749188aa"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"anybody",
+"assassin",
+"boy",
+"hawe",
+"keeley",
+"pathetic",
+"review",
+"save",
+"unbearably"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"665a4939768a"
+],
+"people": [
+"Hannah Waddingham"
+],
+"shows": [
+"Ted Lasso"
+],
+"tags": [],
+"tokens": [
+"back",
+"but",
+"come",
+"hannah",
+"happily",
+"isn",
+"lasso",
+"return",
+"she",
+"sure",
+"ted",
+"waddingham"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fb615178f254"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"amid",
+"fallout",
+"fcc",
+"jimmy",
+"kimmel",
+"licens",
+"preemption",
+"reexamine",
+"suggest",
+"trump"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"a9726ae236df"
+],
+"people": [
+"Courteney Cox"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"arquette",
+"blonde",
+"coco",
+"courteney",
+"cox",
+"daughter",
+"hair",
+"like",
+"long",
+"look",
+"mom",
+"noth"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f0e1d10ca5c8"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Casting"
+],
+"tokens": [
+"bear",
+"chad",
+"jared",
+"join",
+"keeso",
+"kill",
+"kroeger"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0ca91f5a9b63"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"baby",
+"bachelor",
+"chri",
+"dating",
+"fox",
+"harrison",
+"look",
+"love",
+"nation",
+"now",
+"put",
+"trailer",
+"vow",
+"women"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"71f38feec414"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"adam",
+"brody",
+"clash",
+"confirm",
+"despite",
+"nobody",
+"showrunner",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"9644194d767e"
+],
+"people": [
+"Jason Sudeikis"
+],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"angry",
+"bird",
+"challenge",
+"face",
+"greatest",
+"jason",
+"sees",
+"sudeiki",
+"trailer",
+"yet"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0ea81bebbc30"
+],
+"people": [],
+"shows": [
+"Abbott Elementary"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"2027",
+"abbott",
+"elementary",
+"midseason",
+"premiere",
+"sets"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"36c2c662b099"
+],
+"people": [
+"Tim Allen"
+],
+"shows": [
+"Last Man Standing"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"actres",
+"allen",
+"belov",
+"last",
+"man",
+"replac",
+"sitcom",
+"stand",
+"tim",
+"tough"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"050e9fed10e5"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"bull",
+"down",
+"host",
+"late",
+"night",
+"scath",
+"schumer",
+"slam",
+"system",
+"tear"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ea86338a2171"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"bernth",
+"completely",
+"episode",
+"fans",
+"jon",
+"led",
+"may",
+"miss",
+"once",
+"punisher",
+"sitcom"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"23d4985d9655"
+],
+"people": [
+"Hannah Waddingham"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2026",
+"betzabe",
+"hannah",
+"honor",
+"minimalist",
+"mule",
+"slip",
+"waddingham",
+"wif"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"a33ab5edd1b4"
+],
+"people": [
+"Jenna Ortega"
+],
+"shows": [],
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"tokens": [
+"art",
+"collaborate",
+"jenna",
+"look",
+"natalie",
+"officially",
+"ortega",
+"portman",
+"thriller",
+"twist"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cdbdb1ddb3a5"
+],
+"people": [
+"Adam Scott"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"adam",
+"clear",
+"collapse",
+"golf",
+"league",
+"liv",
+"message",
+"scott",
+"send"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fa1bb246fe75"
+],
+"people": [
+"Tim Allen"
+],
+"shows": [
+"Shifting Gears"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"2027",
+"allen",
+"confirm",
+"date",
+"gear",
+"officially",
+"return",
+"shift",
+"tim"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"061e2243b0e4"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"come",
+"happen",
+"joanne",
+"noah",
+"nobody",
+"secret",
+"want",
+"yes"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"86c510fef230"
+],
+"people": [],
+"shows": [
+"Shifting Gears"
+],
+"tags": [],
+"tokens": [
+"abc",
+"american",
+"bachelor",
+"date",
+"gear",
+"high",
+"idol",
+"midseason",
+"move",
+"potenti",
+"sets",
+"shift",
+"sunday",
+"trent"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"2d037076232f"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"ball",
+"brady",
+"bunch",
+"influenc",
+"lucille",
+"name"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"44ada5e8c511",
+"2548bd0ca92e",
+"02764433420c",
+"08cc9b668780",
+"6084938238f5"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"adventur",
+"booth",
+"brad",
+"cliff",
+"further",
+"mis",
+"pitt",
+"return",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8e855dc62079"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"bad",
+"chao",
+"crime",
+"florida",
+"monkey",
+"return",
+"sees",
+"trailer",
+"vaughn",
+"vince"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0a5f596e2d72"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"beauty",
+"designer",
+"film",
+"horror",
+"katherine",
+"starr",
+"trailer",
+"waddell"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"49b2a55b3830"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"aren",
+"drama",
+"nobody",
+"offscreen",
+"politic",
+"return",
+"want",
+"which"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1029b70a7816"
+],
+"people": [],
+"shows": [
+"Letterkenny"
+],
+"tags": [],
+"tokens": [
+"bear",
+"country",
+"dylan",
+"enter",
+"kill",
+"letterkenny",
+"playfair"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"235e76be1b35",
+"edde046ecc3b",
+"28975228ef85",
+"bab8a21e9f5e"
+],
+"people": [
+"Kristen Bell"
+],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"bell",
+"gets",
+"kristen",
+"lower",
+"nobody",
+"rating",
+"surpris",
+"update",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"bbec38f12477"
+],
+"people": [
+"Larry David"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"before",
+"biographer",
+"chang",
+"comic",
+"david",
+"forever",
+"larry",
+"least",
+"likely",
+"succe",
+"television"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"79ce972aff89"
+],
+"people": [],
+"shows": [
+"Shifting Gears"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"date",
+"gear",
+"premiere",
+"set",
+"shift",
+"supersiz"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"dc4d1c768440"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"abc",
+"bachelor",
+"comedi",
+"date",
+"drama",
+"move",
+"reality",
+"sets",
+"sunday",
+"winter"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ff6ef8e96770"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"adam",
+"black",
+"che",
+"filthy",
+"michael",
+"pitch",
+"rock",
+"sketch",
+"snl",
+"straight"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ec95b582e062"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"ben",
+"christma",
+"cynthia",
+"home",
+"marshall",
+"music",
+"nixon",
+"olivia",
+"releas",
+"rodrigo",
+"snl",
+"take",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8e6318909f6e"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"dismiss",
+"doc",
+"follow",
+"media",
+"melania",
+"noise",
+"trailer",
+"trump"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5e34d4854ddd"
+],
+"people": [],
+"shows": [
+"Full House"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"alcohol",
+"alum",
+"college",
+"drug",
+"full",
+"gpa",
+"house",
+"jodie",
+"led",
+"reveal",
+"shock",
+"spir",
+"sweetin"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0f02b9fac39b"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"brett",
+"controversi",
+"follow",
+"melania",
+"movie",
+"prime",
+"ratner",
+"return",
+"trump",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d09e736205c0"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Renewal"
+],
+"tokens": [
+"acclaim",
+"apple",
+"gordon",
+"ramsay",
+"renew"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e9ae8d71a600"
+],
+"people": [
+"Raven-Symoné"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"being",
+"blast",
+"gabourey",
+"girl",
+"mean",
+"raven",
+"set",
+"sidibe",
+"symone"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"99966c93723e"
+],
+"people": [],
+"shows": [
+"Roseanne"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"barr",
+"because",
+"california",
+"democrat",
+"fled",
+"home",
+"list",
+"roseanne",
+"she",
+"worst"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7aff8042ec15"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"away",
+"backpedall",
+"furiously",
+"meyer",
+"republican",
+"seth",
+"trump"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e4e533a8e044"
+],
+"people": [
+"Sofia Vergara"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"100",
+"2014",
+"2015",
+"celebrity",
+"sofia",
+"vergara"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fecfe6075e99"
+],
+"people": [
+"Raven-Symoné"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"beef",
+"confront",
+"didn",
+"dynamic",
+"empire",
+"gabourey",
+"like",
+"past",
+"raven",
+"set",
+"sidibe",
+"symone",
+"treat",
+"you"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e66bd45b4be3"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"animat",
+"before",
+"bill",
+"cat",
+"forgot",
+"hader",
+"hat",
+"movie",
+"play",
+"repris",
+"role",
+"snl"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7755aebd1d97",
+"87b79b0d45ba"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"back",
+"bring",
+"melania",
+"prime",
+"trailer",
+"trump",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8d8516271805"
+],
+"people": [
+"Patricia Heaton"
+],
+"shows": [
+"Everybody Loves Raymond"
+],
+"tags": [],
+"tokens": [
+"completely",
+"different",
+"everybody",
+"gray",
+"hair",
+"heaton",
+"long",
+"look",
+"love",
+"patricia",
+"raymond",
+"year"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0c33a713009f"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"charity",
+"focus",
+"health",
+"kate",
+"make",
+"ment",
+"middleton",
+"nature",
+"surprise",
+"visit"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"59179e8d8128"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"tokens": [
+"debut",
+"hilariously",
+"melania",
+"misread",
+"prime",
+"room",
+"trailer",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"a1be23949235"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"biology",
+"gabby",
+"late",
+"lesbian",
+"lesson",
+"night",
+"week",
+"windey",
+"won"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f4ea447a4244"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"druski",
+"five",
+"host",
+"s52",
+"snl",
+"storylin",
+"watch"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6d57552adf6c"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Renewal"
+],
+"tokens": [
+"expect",
+"netflix",
+"north",
+"renew",
+"statu"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e56156bd9fd6"
+],
+"people": [],
+"shows": [
+"Happy's Place"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"date",
+"episode",
+"happy",
+"place",
+"release",
+"time",
+"watch",
+"where"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"3a1bc131834f"
+],
+"people": [],
+"shows": [
+"Only Murders in the Building"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"build",
+"close",
+"date",
+"extremely",
+"murder",
+"only",
+"release"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"c55d3dbb435c"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"cast",
+"lantern",
+"list",
+"summary",
+"trailer",
+"watch",
+"where"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"21b74d20523b"
+],
+"people": [
+"Raven-Symoné"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"gabourey",
+"liking",
+"not",
+"puts",
+"raven",
+"sidibe",
+"spot",
+"symone"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"2c3232050312"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"everyth",
+"gets",
+"know",
+"sitcom",
+"television",
+"worse"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8ef91c7c338a"
+],
+"people": [],
+"shows": [
+"Full House"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"amid",
+"full",
+"help",
+"house",
+"jodie",
+"money",
+"parent",
+"pay",
+"rent",
+"sweetin",
+"woes"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1c7290d1a6f4"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [
+"Interview",
+"Trailer"
+],
+"tokens": [
+"better",
+"childhood",
+"dream",
+"druski",
+"even",
+"host",
+"promo",
+"snl",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6115d70e3b23"
+],
+"people": [],
+"shows": [
+"Georgie & Mandy's First Marriage"
+],
+"tags": [],
+"tokens": [
+"anti",
+"future",
+"georgie",
+"groundwork",
+"lays",
+"mandy",
+"marriage",
+"mary",
+"sheldon",
+"twist"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"a90bf53bf8a6"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"bedwett",
+"creator",
+"digit",
+"druski",
+"hilariou",
+"history",
+"host",
+"make",
+"shar",
+"snl",
+"story"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"11073d45a205"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"believ",
+"brady",
+"bunch",
+"everyone",
+"nearly",
+"popular",
+"wasn"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"f398ea7c8142"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Revival"
+],
+"tokens": [
+"netflix",
+"order",
+"other",
+"prequel",
+"spinoff",
+"stranger",
+"thing",
+"world"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d6fe4313fefc"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"all",
+"coupl",
+"favorite",
+"sitcom",
+"time"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fcca2a41a9f1"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"adventur",
+"booth",
+"cliff",
+"further",
+"imax",
+"land",
+"mis",
+"play",
+"release",
+"second",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fd78bc50f846"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"apology",
+"blam",
+"costume",
+"craig",
+"him",
+"homeles",
+"issu",
+"martha",
+"melvin",
+"snafu",
+"stewart",
+"stupid",
+"today"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d0d3ebb5b057"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"halloween",
+"host",
+"inde",
+"million",
+"navarrette",
+"obsession",
+"snl",
+"watch"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"748e4474e04e"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"allen",
+"fallon",
+"kimmel",
+"lead",
+"rating",
+"slip",
+"weekly",
+"widen"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"63c1566ae786"
+],
+"people": [
+"Will Smith"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"face",
+"favorite",
+"movie",
+"poster",
+"smith"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"99135af174df"
+],
+"people": [],
+"shows": [
+"The Tonight Show"
+],
+"tags": [],
+"tokens": [
+"age",
+"carrie",
+"character",
+"coon",
+"gild",
+"impersonation",
+"prais",
+"swift",
+"taylor",
+"tonight"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1eb6a6d592a9"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"behind",
+"icon",
+"late",
+"lowest",
+"moment",
+"night",
+"reveal",
+"truth"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"3c5af71a8012"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"career",
+"drama",
+"exclusive",
+"hollywood",
+"hope",
+"latest",
+"markle",
+"meghan",
+"real",
+"reputation",
+"time",
+"unravel",
+"weaken"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e3f883890cd7"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"90s",
+"bikini",
+"california",
+"dream",
+"kelly",
+"packard",
+"rock",
+"sitcom",
+"succes",
+"year"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"35504568ff0c"
+],
+"people": [
+"Catherine O'Hara"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"beat",
+"catherine",
+"classic",
+"dwayne",
+"hara",
+"holiday",
+"johnson",
+"remake",
+"spot",
+"suddenly"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5fa9725f7aca"
+],
+"people": [
+"Jason Alexander"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"alexander",
+"alongside",
+"apa",
+"hollywood",
+"jason",
+"jimmy",
+"legend",
+"life",
+"portray",
+"real",
+"see",
+"they"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6ac9cc9c00b1"
+],
+"people": [
+"Jason Sudeikis"
+],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"angry",
+"bird",
+"fatherhood",
+"green",
+"jason",
+"movie",
+"pigs",
+"sudeiki",
+"take",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"96852a875217"
+],
+"people": [],
+"shows": [
+"The Daily Show"
+],
+"tags": [],
+"tokens": [
+"commentator",
+"daily",
+"react",
+"right",
+"trump",
+"turn",
+"wing"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d299d4e1df3d"
+],
+"people": [
+"Chuck Lorre"
+],
+"shows": [
+"Roseanne"
+],
+"tags": [],
+"tokens": [
+"barr",
+"bitter",
+"chuck",
+"exclusive",
+"feud",
+"inside",
+"lorre",
+"roseanne",
+"set"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b00365913b8d"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"aniston",
+"annoy",
+"favorite",
+"film",
+"find",
+"jennifer",
+"london",
+"naughty",
+"not",
+"place",
+"work"
+]
+},
+{
+"at": "2026-11-07T13:16:48+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"792d6dab96b5"
+],
+"people": [
+"Nate Bargatze"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"bargatze",
+"exclusive",
+"good",
+"nate",
+"nathan",
+"netflix",
+"return",
+"speci"
 ]
 }
 ]
