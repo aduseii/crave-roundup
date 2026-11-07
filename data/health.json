@@ -87,7 +87,7 @@
   "type": "search",
   "name": "\"comedy series\"",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
@@ -115,21 +115,21 @@
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 10,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -150,7 +150,7 @@
   "type": "search",
   "name": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -220,7 +220,7 @@
   "type": "search",
   "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
   "ok": true,
-  "count": 28,
+  "count": 29,
   "resolved": ""
  },
  {
@@ -290,14 +290,14 @@
   "type": "search",
   "name": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -311,7 +311,7 @@
   "type": "search",
   "name": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
@@ -325,7 +325,7 @@
   "type": "search",
   "name": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -339,21 +339,21 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -367,7 +367,7 @@
   "type": "search",
   "name": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
   "ok": true,
-  "count": 8,
+  "count": 10,
   "resolved": ""
  },
  {
@@ -409,14 +409,14 @@
   "type": "search",
   "name": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
   "ok": true,
-  "count": 14,
+  "count": 15,
   "resolved": ""
  },
  {

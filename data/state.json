@@ -71,6 +71,18 @@
 "model": "gemini-3-flash-preview",
 "text": "Netflix will stream the canceled Starz comedy series 'Run the World'. (via IMDb)"
 },
+"0aa710d3e112": {
+"at": "2026-11-07T13:14:48+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'The Office' star Jenna Fischer has shared the long-lost wedding website for Jim and Pam. (via Mashable)"
+},
+"11d115087b74": {
+"at": "2026-11-07T13:14:32+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'The Office' star Jenna Fischer fought to cut a storyline from the show's 'Mafia' episode. (via Mashable)"
+},
 "235e76be1b35": {
 "at": "2026-11-07T13:05:57+00:00",
 "from_article": false,
@@ -82,6 +94,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "\"They never paid me very well on that show,\" 'Two and a Half Men' star Holland Taylor says. She reveals she left the sitcom as a series regular after Season 6 because she never received a raise despite earning four Emmy nominations. (via TVLine)"
+},
+"43ff0bc7e7f4": {
+"at": "2026-11-07T13:14:57+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Full House' star Candace Cameron Bure is returning to 'The View'. She previously turned down an invitation to return to the talk show. (via Parade Magazine)"
 },
 "46a13180447f": {
 "at": "2026-11-07T13:04:15+00:00",
@@ -101,6 +119,18 @@
 "model": "gemini-3-flash-preview",
 "text": "'Ted Lasso' star Hannah Waddingham says she \"doesn't know\" about the future of the series. (via Yahoo Lifestyle Canada)"
 },
+"5ed8f5ea7664": {
+"at": "2026-11-07T13:15:04+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Everybody Loves Raymond' star Patricia Heaton, 68, debuted a new look with silver hair in striking new photos. (via HELLO!)"
+},
+"9a859ce345d4": {
+"at": "2026-11-07T13:13:21+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Nobody Wants This' has been renewed for Season 3. (via IMDb)"
+},
 "a3975ab141cd": {
 "at": "2026-11-07T13:06:31+00:00",
 "from_article": true,
@@ -119,6 +149,12 @@
 "model": "gemini-3-flash-preview",
 "text": "The cause of death for 'The Ellen DeGeneres Show' executive producer Matthew Wright has been confirmed as cardiopulmonary arrest. Hypertension was listed as the underlying cause for the producer, who passed away on October 30 at age 52. 🕊️\n\n(via Just Jared)"
 },
+"cc0213a163a9": {
+"at": "2026-11-07T13:12:02+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'The Good Place' star Kristen Bell's Netflix series has been officially renewed for a new season. The renewal comes just two weeks after the show returned to the platform with an 87% score on Rotten Tomatoes. (via Comic Book Resources)"
+},
 "cc8057ce618e": {
 "at": "2026-11-07T13:06:47+00:00",
 "from_article": false,
@@ -130,7 +166,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T12:56:14+00:00"
+"time": "2026-11-07T13:09:23+00:00"
 }
 ],
 "items": {
@@ -144,6 +180,7 @@
 "published": "2026-11-07T03:30:29+00:00",
 "query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -167,6 +204,7 @@
 "published": "2026-11-06T22:36:51+00:00",
 "query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -188,6 +226,7 @@
 "published": "2026-11-06T14:45:05+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -207,6 +246,7 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-07T08:00:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -227,6 +267,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T15:00:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -250,6 +291,7 @@
 "published": "2026-11-06T22:58:24+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -271,6 +313,7 @@
 "published": "2026-11-06T22:16:02+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -279,6 +322,26 @@
 "summary": "",
 "tags": [],
 "title": "Saturday Night Passover Seder feat. Dan Levy, Finn Wolfhard, Billy Porter, Idina Menzel & More"
+},
+"050e9fed10e5": {
+"first_seen": "2026-11-07T13:09:23+00:00",
+"id": "050e9fed10e5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcjZNTDRiMXZ2QUdpY2s0ODR6a2R1NkJoOVFqU0VRZEhNV0RWbVhSQkVDVTQtX1RTanJkR29zNFVwdkxyTngzblZsTzB6OGpzNWlrSWVWYXlhcklZdS1mMWpWUDdiU1hFckF2VnhqYkNLMm5SZFdTekZNWFNpZU5fWXV2WGx2ZFlfWVNQWHF5VnU3VWdsTThz?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-06T19:01:12+00:00",
+"query": "late-night show guests",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Late-night host in scathing slam of Schumer: Tear down ‘bull---t system’"
 },
 "0524466d3c1c": {
 "first_seen": "2026-11-07T12:42:09+00:00",
@@ -292,6 +355,7 @@
 "published": "2026-11-07T11:24:07+00:00",
 "query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -313,6 +377,7 @@
 "published": "2026-11-07T12:50:12+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -332,6 +397,7 @@
 "published": "2026-11-06T18:27:22+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -342,25 +408,6 @@
 "summary": "",
 "tags": [],
 "title": "Yes, Nobody Wants This season 4 is happening, and Joanne and Noah's secret will come out"
-},
-"0625c3e4cac4": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "0625c3e4cac4",
-"kind": "article",
-"link": "https://www.tvinsider.com/swooon/1307873/nobody-wants-this-season-4-premiere-date-cast-plot-details-updates/",
-"outlet": "TV Insider",
-"people": [],
-"published": "2026-11-06T18:13:48+00:00",
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Joanne and Noah's love story will continue! Immediately after binging Nobody Wants This Season 3, fans were eager for a fourth season of the spicy podcast host x hot rabbi rom-com. Well, fans got their wish. On November 6, Netflix announced that Nobody Wants This has been renewed for Season 4.",
-"tags": [],
-"title": "‘Nobody Wants This’ Season 4: Everything We Know So Far"
 },
 "06531c54fd54": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -374,6 +421,7 @@
 "published": "2026-11-07T12:25:54+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -394,6 +442,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T10:00:20+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -412,6 +461,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-29T13:00:29+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -433,6 +483,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T20:00:06+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -452,6 +503,7 @@
 "published": "2026-11-06T14:33:18+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -473,6 +525,7 @@
 "published": "2026-11-07T01:35:26+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Happy's Place"
@@ -483,6 +536,28 @@
 "summary": "",
 "tags": [],
 "title": "I Loved The Final Scene In This Week’s Happy’s Place. What Jane Lynch Had To Say About The ‘Handsome Firemen’"
+},
+"08ecf08678f7": {
+"first_seen": "2026-11-07T13:09:23+00:00",
+"id": "08ecf08678f7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPak11X3JnNFJCYjZvR2NUUC1zbWpuZWozeTNkLWpYLUFPU2ZSWHJtcTJPOTFmbVhfUDJXR19VUUQ5Q1ZFbWxTa2I5TW5mNVZWdXhnQVNKSjgxQ3N4Y3JDc2lNeU1xMWN3XzctZ0RIcnR3Z2ZpUUtIRmxDdVJNNFkwZU9Dbnp4M2U4eTBNTXd3?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Kaley Cuoco"
+],
+"published": "2026-11-07T12:16:32+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Kaley Cuoco’s Famous Exes and the Man Who Finally Stole Her Heart!"
 },
 "090bccb69c9e": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -496,6 +571,7 @@
 "published": "2026-11-07T00:01:03+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -517,6 +593,7 @@
 "published": "2026-11-06T23:15:18+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -535,6 +612,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T19:09:31+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -558,6 +636,7 @@
 "published": "2026-11-06T23:03:51+00:00",
 "query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -576,6 +655,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T16:03:35+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -594,6 +674,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-27T19:00:35+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -612,6 +693,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T11:00:32+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -633,6 +715,7 @@
 "published": "2026-11-06T18:05:15+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -653,6 +736,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T04:29:08+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -674,6 +758,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -699,6 +784,7 @@
 "published": "2026-11-07T04:31:39+00:00",
 "query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Office"
@@ -719,6 +805,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-20T15:40:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -738,6 +825,7 @@
 "published": "2026-11-07T05:27:44+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -758,6 +846,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T02:59:28+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -779,6 +868,7 @@
 "published": "2026-11-06T15:50:00+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -798,6 +888,7 @@
 "published": "2026-11-06T19:27:30+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -819,6 +910,7 @@
 "published": "2026-11-06T17:15:17+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -832,25 +924,6 @@
 ],
 "title": "Netflix Renews ‘Nobody Wants This’ for Season 4"
 },
-"0cc8fcbcdd36": {
-"first_seen": "2026-11-07T10:32:55+00:00",
-"id": "0cc8fcbcdd36",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TUy1WalVtcVFYdEhJN3NZcmFTb3N5VTd3SEtYUUtHTy1hVWRDUHduUGd5NElySjY2U2Q2VEhlUG5VM1ZzTGlIVHcwVEtlLXJrNVdNbGJwdTJpckJSbERxcExtRng5Ums?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T19:28:10+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "The 5 Funniest Sitcoms of the Last 10 Years, Ranked"
-},
 "0d04c59d0c2a": {
 "first_seen": "2026-11-07T11:14:33+00:00",
 "id": "0d04c59d0c2a",
@@ -863,6 +936,7 @@
 "published": "2026-11-07T11:00:00+00:00",
 "query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -881,6 +955,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-02T20:01:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -899,6 +974,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-04T01:00:35+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -920,6 +996,7 @@
 "published": "2026-11-07T11:06:24+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -940,6 +1017,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-29T18:41:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -960,6 +1038,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-01T23:00:15+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -979,6 +1058,7 @@
 "published": "2026-11-06T19:03:25+00:00",
 "query": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Abbott Elementary"
@@ -1001,6 +1081,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-03T07:00:18+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1019,6 +1100,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T13:00:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1040,6 +1122,7 @@
 "published": "2026-11-06T17:00:10+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1061,6 +1144,7 @@
 "published": "2026-11-06T13:45:50+00:00",
 "query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1079,6 +1163,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T06:59:33+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1098,6 +1183,7 @@
 "published": "2026-11-06T18:00:41+00:00",
 "query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Letterkenny"
@@ -1119,6 +1205,7 @@
 "published": "2026-11-06T17:05:32+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -1139,6 +1226,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-04T20:00:17+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1158,6 +1246,7 @@
 "published": "2026-11-06T21:08:57+00:00",
 "query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Golden Girls",
@@ -1182,6 +1271,7 @@
 "published": "2026-11-06T14:12:00+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1200,6 +1290,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T13:00:03+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1223,6 +1314,7 @@
 "published": "2026-11-07T05:00:00+00:00",
 "query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Office"
@@ -1246,6 +1338,7 @@
 "published": "2026-11-06T21:00:11+00:00",
 "query": "\"Everybody Loves Raymond\" OR \"The King of Queens\" OR \"Everybody Hates Chris\" OR \"Everybody Still Hates Chris\" OR \"Black-ish\" OR \"Grown-ish\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1264,6 +1357,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T05:25:25+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1285,6 +1379,7 @@
 "published": "2026-11-07T00:13:22+00:00",
 "query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1305,6 +1400,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-06T21:18:46+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1323,6 +1419,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-06T16:00:13+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1344,6 +1441,7 @@
 "published": "2026-11-06T22:36:51+00:00",
 "query": "\"Curb Your Enthusiasm\" OR \"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1365,6 +1463,7 @@
 "published": "2026-11-06T23:33:00+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1383,6 +1482,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T07:03:25+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -1404,6 +1504,7 @@
 "published": "2026-11-06T23:15:00+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -1426,6 +1527,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-29T18:47:55+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1444,6 +1546,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-29T14:37:56+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1463,6 +1566,7 @@
 "published": "2026-11-07T02:46:27+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1483,6 +1587,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T13:00:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1503,6 +1608,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-07T02:00:17+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1521,6 +1627,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-04T19:01:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1539,6 +1646,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T18:01:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1558,6 +1666,7 @@
 "published": "2026-11-06T14:18:43+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -1581,6 +1690,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-04T04:46:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1589,25 +1699,6 @@
 "summary": "It’s our big midterm election show and Democrats have taken control of the House, Trump has been very quiet so far tonight as things haven’t gone his way, his priorities are insane and having nothing to do with what Americans actually...",
 "tags": [],
 "title": "Jimmy Kimmel Breaks Down Midterm Election Results, Trump Loses Bigly & Assistant Natalie Stops By!"
-},
-"1cfafbfeb517": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "1cfafbfeb517",
-"kind": "article",
-"link": "https://www.tvinsider.com/list/longest-running-scripted-primetime-tv-shows/",
-"outlet": "TV Insider",
-"people": [],
-"published": "2026-11-06T21:20:34+00:00",
-"relevant": true,
-"shows": [
-"The Simpsons"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "‘The Simpsons’ is the longest-running series by a long shot, but all the series in this list have tenures of more than a decade and a half. It’ll be a long time before The Simpsons is dethroned as the longest-running scripted primetime series in American television history.",
-"tags": [],
-"title": "10 Longest-Running Scripted Primetime TV Shows"
 },
 "1dc318d7f785": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -1619,6 +1710,7 @@
 "published": "2026-11-06T20:04:14+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live",
@@ -1640,6 +1732,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-02T18:43:33+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1659,6 +1752,7 @@
 "published": "2026-11-06T13:00:00+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1680,6 +1774,7 @@
 "published": "2026-11-07T07:49:44+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -1698,6 +1793,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-05T15:22:52+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1717,6 +1813,7 @@
 "published": "2026-11-06T22:33:22+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -1737,6 +1834,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-06T05:32:16+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -1757,6 +1855,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T17:40:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1775,6 +1874,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-07T08:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1798,6 +1898,7 @@
 "published": "2026-11-06T14:42:38+00:00",
 "query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1816,6 +1917,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T17:38:29+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1836,6 +1938,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-29T21:00:27+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1857,6 +1960,7 @@
 "published": "2026-11-07T00:42:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1880,6 +1984,7 @@
 "published": "2026-11-06T17:49:31+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -1900,6 +2005,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T02:00:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1921,6 +2027,7 @@
 "published": "2026-11-06T18:45:54+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -1939,6 +2046,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-03T23:00:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -1947,27 +2055,6 @@
 "summary": "#HarryPotterHBO #FindingHarry About HBO Max: HBO Max is the premier global streaming platform from Skydance that delivers the most unique and captivating stories, ranging from the highest quality in scripted programming, movies,...",
 "tags": [],
 "title": "See you at Hogwarts."
-},
-"24dc506276f7": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "24dc506276f7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SUWdIYjhhaUFxN0ZmaFNmdnlidWZ0bW5KUkd0MkpVbXFyLWE1eTUySEVXXzh2NVZIMmNqYjBQNVk4a05yRFM5bWREUzFrU1ZOLTR2ejhUNF9fX1UzMWVDYUR3eFkzNUUxWmc?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T22:10:22+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
 },
 "251e43ddbc84": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -1979,6 +2066,7 @@
 "published": "2026-11-06T18:34:02+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -2002,6 +2090,7 @@
 "published": "2026-11-06T15:56:09+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2023,6 +2112,7 @@
 "published": "2026-11-07T00:59:45+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -2033,46 +2123,6 @@
 "summary": "",
 "tags": [],
 "title": "Nobody Wants This future confirmed by Netflix after season 3 cliffhanger"
-},
-"27380930f1d3": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "27380930f1d3",
-"kind": "article",
-"link": "https://www.tvinsider.com/1302138/abbott-elementary-midseason-finale-premiere-hiatus-explained/",
-"outlet": "TV Insider",
-"people": [],
-"published": "2026-11-06T19:03:25+00:00",
-"relevant": true,
-"shows": [
-"Abbott Elementary"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Everything you need to know about the show's upcoming hiatuses and debuts. Abbott Elementary's sixth season continues to deliver big laughs, and as we gear up for what's sure to be an epic 100th episode, which will serve as the midseason finale, we can't help but wonder when the halls of the...",
-"tags": [
-"Upcoming"
-],
-"title": "When Will ‘Abbott Elementary’ Return to TV? The Midseason Premiere, Explained"
-},
-"276069c713c8": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "276069c713c8",
-"kind": "article",
-"link": "https://www.tvline.com/2309048/why-holland-taylor-left-two-and-a-half-men/",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-06T21:12:00+00:00",
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Holland Taylor was a regular fixture as Charlie's mother in the first six seasons of \"Two and a Half Men,\" but she only appeared as a guest star after that.",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
 },
 "28975228ef85": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -2086,6 +2136,7 @@
 "published": "2026-11-06T17:46:16+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\" OR \"Running Point\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -2106,6 +2157,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T22:00:10+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2124,6 +2176,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-02T22:05:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2143,6 +2196,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -2168,6 +2222,7 @@
 "published": "2026-11-06T21:40:38+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2186,6 +2241,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-23T18:00:57+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2207,6 +2263,7 @@
 "published": "2026-11-06T14:22:00+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -2225,6 +2282,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-06T02:00:08+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2244,6 +2302,7 @@
 "published": "2026-11-06T18:12:00+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2252,23 +2311,6 @@
 "summary": "",
 "tags": [],
 "title": "How Lucille Ball Influenced The Brady Bunch's Name"
-},
-"2ec9a6a995a3": {
-"first_seen": "2026-11-07T12:56:14+00:00",
-"id": "2ec9a6a995a3",
-"kind": "article",
-"link": "https://collider.com/hbo-shows-forgotten-perfect-start-to-finish/",
-"outlet": "Collider",
-"people": [],
-"published": "2026-11-07T12:53:12+00:00",
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "From the war miniseries Generation Kill to the underrated true crime comedy Landscapers, these forgotten HBO shows are practically flawless.",
-"tags": [],
-"title": "10 Forgotten HBO Shows That Are Perfect From Start to Finish"
 },
 "2f357bc49735": {
 "channel_kind": "streamer",
@@ -2279,6 +2321,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-05T19:30:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2297,6 +2340,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-06T07:00:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2305,25 +2349,6 @@
 "summary": "Adam talks about being neighbors with Matt Damon, working with Miles Teller on his new movie Paper Tiger, playing Mister Sinister in the upcoming X-Men movie, getting asked to be in Marvel movies before this, and his uncle being a dog food...",
 "tags": [],
 "title": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller"
-},
-"2fe20127cb97": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "2fe20127cb97",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90cDJLdmR0X2VEQ0RCQU45RU1nNVloMmxhUGl3QjZuZk55cVY4YU8zek52ZFUzM3V5VzVyUVRyR2VpZHZTVTYydEwzemZPME5KamVpV3VWR05pZERC?oc=5",
-"outlet": "TVGuide.com",
-"people": [],
-"published": "2026-11-07T00:46:00+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "The 48 Best TV Shows on Hulu Right Now (November 2026)"
 },
 "3086ad5f98a5": {
 "channel_kind": "talk",
@@ -2334,6 +2359,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-04T20:00:21+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -2354,6 +2380,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T16:00:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2372,6 +2399,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-05T23:59:27+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2390,6 +2418,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-07T00:00:05+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2408,6 +2437,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T21:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2426,6 +2456,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-05T16:00:22+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live"
@@ -2447,6 +2478,7 @@
 "published": "2026-11-06T22:44:16+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2470,6 +2502,7 @@
 "published": "2026-11-06T12:25:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2488,6 +2521,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-01T19:03:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2509,6 +2543,7 @@
 "published": "2026-11-06T19:02:39+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Last Man Standing"
@@ -2531,6 +2566,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T18:03:02+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2549,6 +2585,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-06T21:00:13+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2567,6 +2604,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-19T20:38:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2585,6 +2623,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T13:00:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2605,6 +2644,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T05:00:32+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2623,6 +2663,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-04T17:59:51+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2642,6 +2683,7 @@
 "published": "2026-11-06T15:00:00+00:00",
 "query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Only Murders in the Building"
@@ -2664,6 +2706,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-04T18:00:23+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2682,6 +2725,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-04T20:12:03+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -2690,50 +2734,6 @@
 "summary": "",
 "tags": [],
 "title": "A peek into a Friday at Studio 8H with cast member Jeremy Culhane! Presented by @T-Mobile"
-},
-"3c2ba43223ea": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "3c2ba43223ea",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHOW90Zk9IVUZLX2RyZlJSTHROQlFkQUxCYmwtZnlnREM4OE80TVZBXy1KLW5EdVhGeklCSHZaZzFMOUNMd0tSUE42eDlvZ0tlbTdlODRoN2hsdDBINVdrVlB2VGZCQQ?oc=5",
-"outlet": "IMDb",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-07T01:19:22+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
-},
-"3c48713b7746": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "3c48713b7746",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rSkR0OG5sWmhCUloyc1ZRRWdvUEw0eFVQS0RoTTRSVHBNRGFGN1N1TGJCTFBTME1TRTRNUnhOYkM4UGw1cmVlTmZpT1ZKcXR1TFI0Y3A5Ykx6MS0ybVh6bGotMGY5bXNRdUE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T19:58:17+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Abbott Elementary"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Upcoming"
-],
-"title": "When Will ‘Abbott Elementary’ Return to TV? The Midseason Premiere, Explained"
 },
 "3c5af71a8012": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -2745,6 +2745,7 @@
 "published": "2026-11-06T13:00:00+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2764,6 +2765,7 @@
 "Ellen DeGeneres"
 ],
 "published": "2026-11-07T01:51:32+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2784,6 +2786,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T05:00:27+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -2809,6 +2812,7 @@
 "published": "2026-11-07T04:40:44+00:00",
 "query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2827,6 +2831,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T05:30:08+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -2848,6 +2853,7 @@
 "published": "2026-11-06T22:39:38+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2871,6 +2877,7 @@
 "published": "2026-11-07T06:09:20+00:00",
 "query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2892,6 +2899,7 @@
 "published": "2026-11-07T12:00:30+00:00",
 "query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2913,6 +2921,7 @@
 "published": "2026-11-06T20:56:30+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Ted Lasso"
@@ -2936,6 +2945,7 @@
 "published": "2026-11-07T02:26:00+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House"
@@ -2957,6 +2967,7 @@
 "published": "2026-11-06T18:09:07+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -2977,6 +2988,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T10:00:39+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -3000,6 +3012,7 @@
 "published": "2026-11-07T00:38:35+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3020,6 +3033,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-05T16:00:10+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3039,6 +3053,7 @@
 "Kristen Bell"
 ],
 "published": "2026-11-06T21:39:12+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -3060,6 +3075,7 @@
 "published": "2026-11-06T20:09:00+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House"
@@ -3081,6 +3097,7 @@
 "published": "2026-11-06T21:33:45+00:00",
 "query": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Sabrina the Teenage Witch"
@@ -3091,27 +3108,6 @@
 "summary": "",
 "tags": [],
 "title": "‘Sabrina the Teenage Witch’ cast shares favorite guests, episodes"
-},
-"4838a68b8c8a": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "4838a68b8c8a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tZnhjOWpLaHM1WXlDLWZJWVp4YjRqRFpFXzNrYnZhcW5hMHhqb0k2RnhTWENtRFM4dlBWTGZzVDVMZTdGUXBZb09VejhtbktHWW5heDJiZzRwX0xCUHYzbWpVRzc?oc=5",
-"outlet": "IMDb",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-07T07:51:24+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
 },
 "487740f792e9": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3125,6 +3121,7 @@
 "published": "2026-11-07T08:54:42+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3143,6 +3140,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T20:02:41+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3164,6 +3162,7 @@
 "published": "2026-11-06T18:02:39+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -3175,25 +3174,6 @@
 "tags": [],
 "title": "Which ‘Nobody Wants This’ Stars Are, Aren’t Returning for Season 4 After Offscreen Political Drama?"
 },
-"49bb54c7ae8c": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "49bb54c7ae8c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LbkRTb2s3VnpQTjNXR2lKWjFlNV9WWFRWcUxQVW54SC1FVWxVM0tsTmlGXy1BbVNOUWJsN1YwU1hydnRSVnluMGZGYUR1WkRveFVTdE5tdXhCdUFCSUVDUFlDa1BnMjNJcXc?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-07T04:31:27+00:00",
-"query": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "5 Beloved '70s Sitcoms That Don't Hold Up Today"
-},
 "4a30e1571fc3": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3203,6 +3183,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T07:00:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3221,6 +3202,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T23:00:09+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3239,6 +3221,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T03:00:01+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -3262,6 +3245,7 @@
 "published": "2026-11-06T18:17:28+00:00",
 "query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3280,6 +3264,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-30T15:00:16+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Never Have I Ever"
@@ -3301,6 +3286,7 @@
 "published": "2026-11-07T08:42:19+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3321,6 +3307,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-08-11T16:00:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3339,6 +3326,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T07:01:29+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3357,6 +3345,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T17:27:12+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3375,6 +3364,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-05T20:15:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3393,6 +3383,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T02:18:59+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3411,6 +3402,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-07T01:00:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3430,6 +3422,7 @@
 "published": "2026-11-06T20:49:06+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3451,6 +3444,7 @@
 "published": "2026-11-06T21:54:21+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -3473,6 +3467,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-05T19:00:51+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3491,6 +3486,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-05T17:36:05+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3509,6 +3505,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-29T21:15:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3527,6 +3524,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-04T16:20:38+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3546,6 +3544,7 @@
 "published": "2026-11-07T00:12:00+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3566,6 +3565,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T19:30:41+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3584,6 +3584,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-07T01:00:09+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3603,6 +3604,7 @@
 "published": "2026-11-06T21:00:42+00:00",
 "query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "American Dad"
@@ -3625,6 +3627,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T11:00:05+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3636,28 +3639,6 @@
 ],
 "title": "Awkwafina Is Reopening Her Family Restaurant Lum's, Talks Working with Arnold Schwarzenegger"
 },
-"545c0928741f": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "545c0928741f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUkh6ZS1TTlJVMTQtS19xa1BNRDM1Rlc1eE1zSnhocmcwR21aMk05TTUzczRwVW1HekxpaF9CejA3RFlnMEZ4QjliM2tLQnhWWVltSnN5dFVMYUlOTXYwTllGbkFmaEs3UVVvTDhoczdpX0l4RXBPNWtUQ3d0WHEyUnA3cE5FeEwyRTVTb2lZUTFRbWc4Yk9DWlVMSjNNUQ?oc=5",
-"outlet": "HELLO!",
-"people": [],
-"published": "2026-11-07T06:46:16+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"The Golden Girls",
-"Golden Girls"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Meet the cast of the Golden Girls,  before they were famous"
-},
 "5511771b7331": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3667,6 +3648,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T18:59:47+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3685,6 +3667,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T04:00:27+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3703,6 +3686,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-04T20:59:48+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3720,6 +3704,7 @@
 "outlet": "TV Insider",
 "people": [],
 "published": "2026-11-06T21:41:35+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live",
@@ -3741,6 +3726,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-05T20:59:54+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3760,6 +3746,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -3782,6 +3769,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-26T16:15:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3800,6 +3788,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T23:30:09+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3821,6 +3810,7 @@
 "published": "2026-11-06T15:47:32+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3842,6 +3832,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-07T00:30:33+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -3860,6 +3851,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T05:32:30+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -3881,6 +3873,7 @@
 "published": "2026-11-06T21:39:00+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -3900,6 +3893,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-06T18:46:37+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -3918,6 +3912,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T03:50:20+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -3939,6 +3934,7 @@
 "published": "2026-11-06T17:13:58+00:00",
 "query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House"
@@ -3964,6 +3960,7 @@
 "published": "2026-11-07T10:00:00+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Ted Lasso"
@@ -3987,6 +3984,7 @@
 "published": "2026-11-07T01:29:04+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Everybody Loves Raymond"
@@ -4007,6 +4005,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T22:00:14+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4026,6 +4025,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -4051,6 +4051,7 @@
 "published": "2026-11-06T11:30:00+00:00",
 "query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4070,6 +4071,7 @@
 "published": "2026-11-06T17:48:45+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Shifting Gears"
@@ -4093,6 +4095,7 @@
 "published": "2026-11-06T14:24:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4114,6 +4117,7 @@
 "published": "2026-11-06T14:15:18+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Georgie & Mandy's First Marriage"
@@ -4135,6 +4139,7 @@
 "published": "2026-11-06T23:16:04+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -4155,6 +4160,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T17:42:22+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4176,6 +4182,7 @@
 "published": "2026-11-06T13:18:39+00:00",
 "query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4194,6 +4201,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T13:59:50+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4213,6 +4221,7 @@
 "published": "2026-11-07T06:16:08+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4233,6 +4242,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-05T02:04:01+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4251,6 +4261,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T02:23:59+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -4272,6 +4283,7 @@
 "Ellen DeGeneres"
 ],
 "published": "2026-11-07T02:04:19+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4295,6 +4307,7 @@
 "published": "2026-11-06T19:51:21+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Ted Lasso"
@@ -4315,6 +4328,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-05T00:00:09+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4333,6 +4347,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-02T16:00:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4344,27 +4359,6 @@
 ],
 "title": "The Buffalo Miracle | Official Trailer | HBO Max"
 },
-"67f729479c65": {
-"first_seen": "2026-11-07T10:25:39+00:00",
-"id": "67f729479c65",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HM2FqbjMzM1ZVOHNsZW5SQWhnd2k1ZFR2LUZmZUxieG0xa0M1dDVtLXJGUzlLbHpqa2dqM3pQXy1NU3VlbUV4bjFpSmR0MGhRNG81TW1qenF0bGowMWYxZjJkaHgwQQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T21:20:14+00:00",
-"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
-},
 "69404a35cb7d": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -4374,6 +4368,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-05T07:00:25+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4382,27 +4377,6 @@
 "summary": "Miles talks about hosting the MLB All-Star game in Philadelphia, Philly sports fans being ruthless, growing up in Florida, his new movie Paper Tiger being inspired by the director James Gray’s life, getting a taste of what it could be like...",
 "tags": [],
 "title": "Miles Teller on Tom Cruise Talking About Top Gun 3, MLB All-Star Game in Philly & Paper Tiger"
-},
-"69a57a062ca5": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "69a57a062ca5",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQenQ3di12TGF4b1BwSXFKS1NxbmNHNDFZel8tZlBpb3BGelVaeHhsNHlZLV9IbXRUa3NzRFRKWXF6N3BQWFptMlg5SWVjVmhEeExjUE5HQTJOZkNqSDhNNzJFX3piOGd2eVBOVFBVMW53VU9XZjV4MllnSFI5dndibmh2cVJnUTRBTHBmMktLQ0lVaHRWcnZV?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-06T13:00:00+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Young Sheldon"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "The Big Bang Theory References You Totally Missed In Young Sheldon"
 },
 "69a6def5d2ad": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -4414,8 +4388,9 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4437,6 +4412,7 @@
 "published": "2026-11-06T22:35:49+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -4457,6 +4433,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T21:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4480,6 +4457,7 @@
 "published": "2026-11-06T11:25:57+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4500,6 +4478,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-23T15:00:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4518,6 +4497,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-06T23:15:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4537,6 +4517,7 @@
 "published": "2026-11-07T06:51:47+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4555,6 +4536,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-03T16:00:31+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4573,6 +4555,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T19:38:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4594,6 +4577,7 @@
 "published": "2026-11-06T15:29:26+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4614,6 +4598,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T21:00:39+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4632,6 +4617,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T02:00:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4650,6 +4636,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T12:24:47+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -4670,6 +4657,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-21T07:35:35+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4691,6 +4679,7 @@
 "published": "2026-11-07T02:37:27+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4714,6 +4703,7 @@
 "published": "2026-11-07T12:16:32+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4733,6 +4723,7 @@
 "published": "2026-11-06T16:12:00+00:00",
 "query": "\"Raven's Home\" OR \"iCarly\" OR \"Hannah Montana\" OR \"Wizards of Waverly Place\" OR \"Wizards Beyond Waverly Place\" OR \"Arrested Development\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -4751,6 +4742,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T22:00:38+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4770,6 +4762,7 @@
 "published": "2026-11-06T19:14:02+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -4790,6 +4783,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-05T17:29:48+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4808,6 +4802,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-05T06:00:18+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4827,6 +4822,7 @@
 "published": "2026-11-06T13:32:34+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4844,6 +4840,7 @@
 "outlet": "E! News",
 "people": [],
 "published": "2026-11-06T19:19:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live"
@@ -4866,6 +4863,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-06T17:00:39+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4884,6 +4882,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-31T07:05:32+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4903,6 +4902,7 @@
 "Raven-Symoné"
 ],
 "published": "2026-11-07T00:12:54+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4924,6 +4924,7 @@
 "published": "2026-11-06T15:57:47+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4944,6 +4945,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-07T00:00:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -4965,6 +4967,7 @@
 "published": "2026-11-06T10:28:28+00:00",
 "query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -4983,6 +4986,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T02:26:20+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -5006,6 +5010,7 @@
 "published": "2026-11-06T21:11:42+00:00",
 "query": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5025,6 +5030,7 @@
 "published": "2026-11-06T17:30:00+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Shifting Gears"
@@ -5050,6 +5056,7 @@
 "published": "2026-11-06T20:47:17+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5068,6 +5075,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-04T19:57:09+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5089,6 +5097,7 @@
 "published": "2026-11-06T16:31:00+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5110,6 +5119,7 @@
 "published": "2026-11-06T22:00:46+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5128,6 +5138,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T20:33:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5149,6 +5160,7 @@
 "published": "2026-11-06T21:00:09+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5167,6 +5179,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-04T16:59:57+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5175,23 +5188,6 @@
 "summary": "Normalcy is short-lived when Wanda is caught red-handed standing over a dead body. The Klatts must confront secrets in their town to prove her innocence. Where’s Wanda? Season 2 is now streaming on Apple TV.",
 "tags": [],
 "title": "Wo Rauch ist, ist auch Feuer (und ein Bluthund). #WheresWanda?,  Jetzt ansehen"
-},
-"7d745f623044": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "7d745f623044",
-"kind": "article",
-"link": "https://www.tvline.com/2309756/beloved-70s-sitcoms-dont-hold-up-today/",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-07T01:52:00+00:00",
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "direct",
-"strong": true,
-"summary": "There's no shortage of iconic series from the 1970s, but for every sitcom that stands the test of time, you get two that would never fly with viewers today.",
-"tags": [],
-"title": "5 Beloved '70s Sitcoms That Don't Hold Up Today"
 },
 "7dab39f470bd": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -5205,6 +5201,7 @@
 "published": "2026-11-06T21:29:08+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5226,6 +5223,7 @@
 "published": "2026-11-06T20:06:04+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -5248,6 +5246,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T22:30:02+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5259,25 +5258,6 @@
 ],
 "title": "Leah Remini Explains Why She Joined RHOBH -- and How She's Feeling About It! (Exclusive)"
 },
-"7e68a53be02a": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "7e68a53be02a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qa0tOTW9NUVBOTDktdHQ0SmIzZEdJMEZJNlYzcjUxSzFMSTlNTUFZVnQ5WkZzYUlnazRtd2VaLThXNWl1M1BpbURfNkUwd2MzLWV5aHQwZ3VITW5wOHUxa2xR?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T19:37:04+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "The 5 Funniest Sitcoms of the Last 10 Years, Ranked"
-},
 "7ec181f7132f": {
 "first_seen": "2026-11-07T10:43:30+00:00",
 "id": "7ec181f7132f",
@@ -5288,6 +5268,7 @@
 "published": "2026-11-07T03:27:00+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -5309,6 +5290,7 @@
 "published": "2026-11-07T00:23:00+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5329,6 +5311,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-07T00:00:39+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5348,6 +5331,7 @@
 "published": "2026-11-07T05:00:00+00:00",
 "query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Office"
@@ -5369,6 +5353,7 @@
 "published": "2026-11-06T19:28:16+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -5391,6 +5376,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T22:30:05+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5410,6 +5396,7 @@
 "published": "2026-11-06T18:22:39+00:00",
 "query": "\"Shifting Gears\" OR \"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Shifting Gears"
@@ -5431,6 +5418,7 @@
 "published": "2026-11-06T15:49:26+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5451,6 +5439,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T22:00:13+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5472,6 +5461,7 @@
 "published": "2026-11-06T23:15:51+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5490,6 +5480,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T19:02:39+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5508,6 +5499,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-02T19:42:47+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5526,6 +5518,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-17T15:00:38+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5537,6 +5530,26 @@
 ],
 "title": "Zara Larsson says her new music will \"change the world\" and that she's \"ready for world peace\""
 },
+"8c5d995b4f32": {
+"first_seen": "2026-11-07T13:09:23+00:00",
+"id": "8c5d995b4f32",
+"kind": "article",
+"link": "https://collider.com/izombie-all-5-seasons-streaming-prime-video-november-2026/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-07T13:00:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ghosts"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "All five seasons of the supernatural crime comedy iZombie have officially arrived on Prime Video, bringing the beloved CW series back to streaming.",
+"tags": [],
+"title": "‘Ghosts’ Meets ‘Veronica Mars’ in a 5-Part Zombie Series Officially on Prime Video"
+},
 "8d015960ebcd": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -5546,6 +5559,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T19:59:47+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5564,6 +5578,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-04T18:00:24+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5585,6 +5600,7 @@
 "published": "2026-11-06T15:56:34+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Everybody Loves Raymond"
@@ -5608,6 +5624,7 @@
 "published": "2026-11-07T00:30:00+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5626,6 +5643,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-02T03:00:11+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5647,6 +5665,7 @@
 "published": "2026-11-06T17:14:13+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5668,6 +5687,7 @@
 "published": "2026-11-06T18:08:57+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5689,6 +5709,7 @@
 "published": "2026-11-06T14:22:00+00:00",
 "query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House"
@@ -5711,6 +5732,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T04:35:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5729,6 +5751,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T20:20:32+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5747,6 +5770,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T17:30:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5767,6 +5791,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-03T18:00:38+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5775,6 +5800,28 @@
 "summary": "",
 "tags": [],
 "title": "He's going to be a rich man. #Reno911"
+},
+"935b8b70ae2d": {
+"first_seen": "2026-11-07T13:09:23+00:00",
+"id": "935b8b70ae2d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUWxLVTZhMWRqWl9zZlZGRmVRLVJrSXZkY1lBb2ZmXzdxNEhuY1U0NVNXUzZmdm5Xa1JDTWs3SjFuaWpwQUFmSVk4a3VBaHdVbnBkeEJtLVV2d0NGaVBwS2dreDhRclFTS2ZKNWt4M2N6cmduak1QZ2R5WkN1NjVRd0xiVndyaUpkb25iUA?oc=5",
+"outlet": "People.com",
+"people": [
+"Hilary Duff"
+],
+"published": "2026-11-07T13:00:00+00:00",
+"query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Hilary Duff Just Wore Anne Hathaway’s Exact Podiatrist-Backed Sneakers,  and They’re Quietly on Sale at Amazon"
 },
 "94417851b400": {
 "channel_kind": "talk",
@@ -5785,6 +5832,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-11-04T17:34:11+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5803,6 +5851,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T00:00:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5821,6 +5870,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-06T19:02:13+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5840,6 +5890,7 @@
 "published": "2026-11-07T05:06:10+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Shifting Gears"
@@ -5862,6 +5913,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T20:07:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -5881,6 +5933,7 @@
 "published": "2026-11-07T09:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5905,6 +5958,7 @@
 "published": "2026-11-06T19:04:11+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5926,6 +5980,7 @@
 "published": "2026-11-06T11:25:10+00:00",
 "query": "\"The Daily Show\" OR \"The IT Crowd\" OR \"Peep Show\" OR \"Gavin & Stacey\" OR \"Derry Girls\" OR \"Fawlty Towers\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -5949,6 +6004,7 @@
 "published": "2026-11-06T21:42:59+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -5957,27 +6013,6 @@
 "summary": "",
 "tags": [],
 "title": "Queen Latifah on midterm results: 'We needed some hope'"
-},
-"97a8cb5b5d9c": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "97a8cb5b5d9c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RM0owNkdWTkpWdXpMVUF6dEEweUFvTEFZSUVRZkhvUUhOY0xnOUdqUW5vU2tnMlNoTzVkMjd1LUxjcWR5a2dQanp0QjJlMTZKMnVITWszUU1tbVlXRjlURw?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T16:22:06+00:00",
-"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Georgie & Mandy's First Marriage"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Georgie & Mandy’s First Marriage’ Season 3 Episode 5 Recap and Ending Explained: Welcome Bedlam"
 },
 "97b3e31ce3b7": {
 "channel_kind": "talk",
@@ -5988,6 +6023,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T04:30:07+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -6009,6 +6045,7 @@
 "published": "2026-11-06T13:00:19+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -6028,6 +6065,7 @@
 "outlet": "Deadline",
 "people": [],
 "published": "2026-11-07T04:08:50+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6047,6 +6085,7 @@
 "published": "2026-11-06T16:45:25+00:00",
 "query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Roseanne"
@@ -6070,6 +6109,7 @@
 "published": "2026-11-06T21:43:00+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6091,6 +6131,7 @@
 "published": "2026-11-07T10:00:32+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6102,27 +6143,6 @@
 "tags": [],
 "title": "▶️ Nobody Wants This S3"
 },
-"9b6d0594ea96": {
-"first_seen": "2026-11-07T10:32:55+00:00",
-"id": "9b6d0594ea96",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kYjRUTzZxbkhkeV9keE5MQXdVOHRrUGItclhHbTVrVjZHSDZsM2JRWjVmU0Z1djFKUmgzNWxVaUU0ZGhzbVE5TGNPaHZpUEdCTlhjQlB2YkpCV1NRaWFYMkhjNnVaVXBhVVE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-06T22:18:25+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
-},
 "9c4c1fdb4f68": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -6132,6 +6152,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-03T21:00:10+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6151,6 +6172,7 @@
 "published": "2026-11-06T23:30:51+00:00",
 "query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House",
@@ -6175,6 +6197,7 @@
 "published": "2026-11-06T23:25:09+00:00",
 "query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6193,6 +6216,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T02:26:56+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -6213,6 +6237,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T23:00:07+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6232,6 +6257,7 @@
 "published": "2026-11-07T08:18:43+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6252,6 +6278,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-21T07:35:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6270,6 +6297,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6290,6 +6318,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-04T20:57:14+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6308,6 +6337,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-05T23:30:07+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live",
@@ -6330,6 +6360,7 @@
 "published": "2026-11-06T15:45:57+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6348,6 +6379,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-02T14:00:32+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live",
@@ -6372,6 +6404,7 @@
 "published": "2026-11-06T18:40:35+00:00",
 "query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6393,6 +6426,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-06T05:19:14+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -6406,25 +6440,6 @@
 ],
 "title": "Anthony Ippolito Talks Starring as Sylvester Stallone in I Play Rocky, Reenacting Iconic Film Scenes"
 },
-"a3975ab141cd": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "a3975ab141cd",
-"kind": "article",
-"link": "https://www.tvline.com/2303777/friends-jennifer-aniston-star-forgotten-90s-sketch-comedy-show/",
-"outlet": "TVLine",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-06T19:12:00+00:00",
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Friends turned Jennifer Aniston into an icon, but before she won over everyone's hearts as Rachel Green, she starred in one of the edgiest series of the 1990s.",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
-},
 "a47cf29b28fd": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -6434,6 +6449,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T22:00:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6455,6 +6471,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6477,6 +6494,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T01:09:29+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6496,6 +6514,7 @@
 "published": "2026-11-06T19:56:46+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6517,6 +6536,7 @@
 "published": "2026-11-06T14:12:50+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -6540,6 +6560,7 @@
 "published": "2026-11-06T19:42:00+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6558,6 +6579,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-03T04:45:20+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6576,6 +6598,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T16:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6596,6 +6619,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T18:00:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6615,6 +6639,7 @@
 "Kristen Bell"
 ],
 "published": "2026-11-06T17:00:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6628,27 +6653,6 @@
 ],
 "title": "‘Nobody Wants This’ Renewed for Season 4 at Netflix"
 },
-"aae3d3aaf99b": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "aae3d3aaf99b",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wOHA5Vy13SzRMTEpVQzdiUW5NSkZpdENXX1lCekZhd1FHOWlpMVloN2VyZXlQM0hOaVg5QWswV2diRzZJZGxjUjdOVG40cFdTZ01OajctOERoMTV3M1ZUMnRVQ19SR1EzYlVDTGZtMk1yRFE2eVZBdXRRZ0NiWE0?oc=5",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-06T21:12:00+00:00",
-"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
-},
 "ab1345ee57fa": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "ab1345ee57fa",
@@ -6659,6 +6663,7 @@
 "published": "2026-11-07T06:56:21+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6681,6 +6686,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-30T19:50:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6704,6 +6710,7 @@
 "published": "2026-11-07T00:32:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6724,6 +6731,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-04T17:00:06+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Saturday Night Live",
@@ -6747,6 +6755,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-21T07:35:07+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -6770,6 +6779,7 @@
 "published": "2026-11-06T17:41:53+00:00",
 "query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6788,6 +6798,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T00:39:19+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6806,6 +6817,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-04T19:01:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6823,6 +6835,7 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-06T20:58:44+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Abbott Elementary"
@@ -6846,6 +6859,7 @@
 "published": "2026-11-06T11:00:26+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6864,6 +6878,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-07T01:00:08+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6885,6 +6900,7 @@
 "published": "2026-11-06T16:06:07+00:00",
 "query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Full House",
@@ -6909,6 +6925,7 @@
 "published": "2026-11-06T19:28:16+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -6931,6 +6948,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T04:42:24+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -6951,6 +6969,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-05T21:00:27+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -6972,6 +6991,7 @@
 "published": "2026-11-06T20:25:16+00:00",
 "query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -6990,6 +7010,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-01T18:28:40+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7008,6 +7029,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T10:00:13+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -7019,25 +7041,6 @@
 "tags": [],
 "title": "Kim Kardashian Got in Trouble with Sarah Paulson While Filming All's Fair"
 },
-"b2e6aa3271fd": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "b2e6aa3271fd",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBVY1FralBzUVNmOVVvcFVhd2QzNkxpaFpURUVhWm81Ymg2V1h5X1JHaU1LaTNUNnJKZTBsSlhCaEZlOGVQUUNpcVlVUmFiR2dwMi1hTFFOWVpzWHBETFNCMXE2ZEhtUQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-07T07:46:56+00:00",
-"query": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "5 Beloved '70s Sitcoms That Don't Hold Up Today"
-},
 "b3b95c8b925c": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7047,6 +7050,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-04T07:00:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7065,6 +7069,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-05T04:35:16+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7083,6 +7088,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-05T16:59:54+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7103,6 +7109,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-06T12:00:06+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -7128,6 +7135,7 @@
 "published": "2026-11-07T00:29:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7148,6 +7156,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-04T16:00:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7156,27 +7165,6 @@
 "summary": "Writer-director Jordan Firstman and his on-screen son, Reggie Absolom, put their friendship to the test with questions about the 'Club Kid' audition process, music taste, and the film's Cannes premiere.",
 "tags": [],
 "title": "How Well Do 'Club Kid' Stars Jordan Firstman & Reggie Absolom Know Each Other?"
-},
-"b743a7f80f8b": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "b743a7f80f8b",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fYkp2cEdEdFdDd1JDMUdsVGhUQmpYVUJsbmJ0bGVicU5BU3BVaUFUYmxrVDV6OXdscnRaYlRURWwxTDhObndOV3ZGa2JYTlN3ZU5aQzVjd3YyX2lSTWlyN1VfT2xLaW5BTXc?oc=5",
-"outlet": "IMDb",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-06T19:50:20+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
 },
 "b75f51cfb592": {
 "channel_kind": "streamer",
@@ -7187,6 +7175,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T19:59:52+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7206,6 +7195,7 @@
 "Ellen DeGeneres"
 ],
 "published": "2026-11-07T07:49:44+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Ellen"
@@ -7231,6 +7221,7 @@
 "published": "2026-11-07T11:33:03+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7251,6 +7242,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-06T07:00:05+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Jimmy Kimmel Live"
@@ -7271,6 +7263,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-04T19:00:38+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7290,6 +7283,7 @@
 "published": "2026-11-07T08:57:32+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7313,6 +7307,7 @@
 "published": "2026-11-06T17:46:16+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -7333,6 +7328,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-01T18:47:57+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7341,27 +7337,6 @@
 "summary": "",
 "tags": [],
 "title": "photoshoot bts 📸 with inde!!!"
-},
-"baeeb1bb7be9": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "baeeb1bb7be9",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOclB5MG5rMmdaMHBzdjBVMFd1cGVjcFJwUlpjRTc0QjhMMTBsdFVaeFMybzJSaGNBZU4tdjdJZ1V4dDRZMkQ3UGhQSDFUcjBxdEJpaW1feUJXcEVLb0dvVGR2czlPdnY4WHNSSFpjcERkOWV2N25UNlhUSmhuajBuMWFKUmNfQk5xdjB4STJXWQ?oc=5",
-"outlet": "AOL.com",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-06T19:12:00+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
 },
 "bbec38f12477": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7375,6 +7350,7 @@
 "published": "2026-11-06T17:36:08+00:00",
 "query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7395,6 +7371,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-06T04:35:17+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7412,6 +7389,7 @@
 "outlet": "E! News",
 "people": [],
 "published": "2026-11-06T15:06:33+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -7437,6 +7415,7 @@
 "published": "2026-11-07T09:10:48+00:00",
 "query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7445,25 +7424,6 @@
 "summary": "",
 "tags": [],
 "title": "Jenny McCarthy on Charlie Sheen's HIV Revelation"
-},
-"be966b92f8bb": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "be966b92f8bb",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nZGF5Z3dYbGxVcXptRDVFbDNZb1dBS0tXNy1UWTRVTHZOQXFuMXhMV2tQTUMwVXdibFl1T0JNQ0RWSkVZdE41b0thNE9vMENtVi1WcUlWNW9jX1pOdER1SUQ1WQ?oc=5",
-"outlet": "Collider",
-"people": [],
-"published": "2026-11-06T11:55:12+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "5 '70s Sitcoms Too Strange to Last, Ranked"
 },
 "bfef0aef9b5d": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7475,6 +7435,7 @@
 "published": "2026-11-07T04:12:18+00:00",
 "query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Office"
@@ -7497,6 +7458,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-30T10:00:22+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7520,6 +7482,7 @@
 "published": "2026-11-06T22:25:49+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7538,6 +7501,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T11:00:39+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Late Night with Seth Meyers"
@@ -7558,6 +7522,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-11-05T18:00:12+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7578,6 +7543,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-04T23:28:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7596,6 +7562,7 @@
 "outlet": "HBO Max",
 "people": [],
 "published": "2026-10-29T17:00:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7607,27 +7574,6 @@
 ],
 "title": "When A Witness Recants | Official Trailer | HBO Max"
 },
-"c4f6a6f59191": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "c4f6a6f59191",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTTJTeFFDUU5qeXBvdHhzSmZwbTgxT1doNlVudE91a1BGYlVIN0t4SVdFVFktX3NSMW96Q2F4bmhLM09MbDg5NGFLN3JHcWdIZVpIMjliYkpEQWVhWXFEY0FzQ3l0YWRTc0hUajR0ZzRPQlpjQ0ZvY3BzaDAzRGxnSGJNNzBZNW9TX0lnRzhWVjNlcTlnQmI4aVpR?oc=5",
-"outlet": "TVLine",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-06T19:12:00+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Before Friends, Jennifer Aniston Starred In A Forgotten '90s Sketch Comedy Show"
-},
 "c55d3dbb435c": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "c55d3dbb435c",
@@ -7638,6 +7584,7 @@
 "published": "2026-11-06T14:43:14+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7658,6 +7605,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-07T05:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7678,6 +7626,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-17T15:01:08+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7700,6 +7649,7 @@
 "Kristen Bell"
 ],
 "published": "2026-11-03T07:00:01+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -7722,6 +7672,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T17:59:48+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7740,6 +7691,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-02T21:08:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7757,6 +7709,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-06T23:33:20+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7778,6 +7731,7 @@
 "published": "2026-11-07T02:11:00+00:00",
 "query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7799,6 +7753,7 @@
 "published": "2026-11-07T08:25:40+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Friends"
@@ -7822,6 +7777,7 @@
 "published": "2026-11-06T21:25:33+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7841,6 +7797,7 @@
 "published": "2026-11-07T00:45:28+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7864,6 +7821,7 @@
 "published": "2026-11-07T02:05:15+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7875,25 +7833,6 @@
 ],
 "title": "‘Ellen DeGeneres Show’ Producer Matthew Wright’s Cause of Death Revealed"
 },
-"cd2e22a1d087": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "cd2e22a1d087",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sTXdDRnpBUldBZzV5YlN5NFVUUTU4ZENuYWxILVdnTFRvMmg1WTFJeFZ2WXM3NVZxRFNSZzBaUUZaSWIyTmVNTk9fbnV5VjZRR0hlcU9KSWxYdGtGemJFYkhRb1VLMDVvN0M0cktKTlNSTmlZWW5tSlFn?oc=5",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-07T01:52:00+00:00",
-"query": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "5 Beloved '70s Sitcoms That Don't Hold Up Today"
-},
 "cdad7e24b829": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7903,6 +7842,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T04:30:01+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -7924,6 +7864,7 @@
 "published": "2026-11-06T18:38:26+00:00",
 "query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -7943,6 +7884,7 @@
 "published": "2026-11-07T08:08:34+00:00",
 "query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Bob's Burgers"
@@ -7963,6 +7905,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-22T07:02:20+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -7984,6 +7927,7 @@
 "published": "2026-11-06T16:50:50+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8005,6 +7949,7 @@
 "published": "2026-11-06T13:44:46+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -8027,6 +7972,7 @@
 "Kristen Bell"
 ],
 "published": "2026-11-07T00:36:30+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8045,6 +7991,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-06T17:18:28+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8064,6 +8011,7 @@
 "Jennifer Aniston"
 ],
 "published": "2026-11-07T01:12:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8082,6 +8030,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-26T16:55:21+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8103,6 +8052,7 @@
 "published": "2026-11-07T02:03:05+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8126,6 +8076,7 @@
 "published": "2026-11-06T11:12:34+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Roseanne"
@@ -8146,6 +8097,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T14:14:50+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8166,6 +8118,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T22:30:37+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8184,6 +8137,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-06T17:02:04+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8205,6 +8159,7 @@
 "published": "2026-11-07T09:30:00+00:00",
 "query": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8226,6 +8181,7 @@
 "published": "2026-11-07T01:12:00+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8244,6 +8200,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T20:21:06+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8263,6 +8220,7 @@
 "published": "2026-11-06T17:00:00+00:00",
 "query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -8286,6 +8244,7 @@
 "published": "2026-11-06T13:57:00+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -8303,6 +8262,7 @@
 "outlet": "Decider",
 "people": [],
 "published": "2026-11-06T20:15:00+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8321,6 +8281,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T19:52:17+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8341,6 +8302,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T23:21:45+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8360,6 +8322,7 @@
 "published": "2026-11-06T17:00:34+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -8383,8 +8346,9 @@
 "Ellen DeGeneres"
 ],
 "published": "2026-11-07T09:36:44+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8408,6 +8372,7 @@
 "published": "2026-11-07T01:51:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8428,6 +8393,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T23:00:23+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8446,6 +8412,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-26T19:00:48+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8465,6 +8432,7 @@
 "published": "2026-11-06T23:00:06+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8483,6 +8451,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-05T20:00:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8502,6 +8471,7 @@
 "published": "2026-11-07T00:26:51+00:00",
 "query": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Unbreakable Kimmy Schmidt"
@@ -8523,6 +8493,7 @@
 "published": "2026-11-06T20:03:00+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8542,6 +8513,7 @@
 "published": "2026-11-06T17:30:00+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8560,6 +8532,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-04T07:00:24+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Jimmy Kimmel Live"
@@ -8571,27 +8544,6 @@
 "tags": [],
 "title": "Cage the Elephant – Make It Easy"
 },
-"df8f2254f7c4": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "df8f2254f7c4",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjBjdS05eVFZX0laX0pEaWpCR1E1YnA0TmRDUHhLV1dIcGdxcXlCUTF0aUxiTDVMVHdJZllMU2FkY2o0eDl3c21rdFhhVnp1WkEzU2tOV3RpYTg4R2JJOS1yWkpKYmg4Q205WXc5SWg2WXVzSmRvZXdzUmVkWDlPclVvM0J3ZTR0RzlhVzZGNXcxb2Qt?oc=5",
-"outlet": "Yahoo",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-06T14:00:00+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "The Real Reason Jennifer Aniston Will Not Get Married"
-},
 "dfbac24ddcc1": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -8601,6 +8553,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-05T12:21:26+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Daily Show"
@@ -8622,6 +8575,7 @@
 "published": "2026-11-06T21:12:49+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8643,6 +8597,7 @@
 "published": "2026-11-07T07:53:00+00:00",
 "query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Ted Lasso"
@@ -8663,6 +8618,7 @@
 "outlet": "The Daily Show",
 "people": [],
 "published": "2026-11-04T22:30:08+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8681,6 +8637,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-06T22:27:14+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8702,6 +8659,7 @@
 "published": "2026-11-06T14:21:32+00:00",
 "query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8721,6 +8679,7 @@
 "published": "2026-11-07T08:34:55+00:00",
 "query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Abbott Elementary"
@@ -8742,6 +8701,7 @@
 "published": "2026-11-06T12:53:51+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -8763,6 +8723,7 @@
 "published": "2026-11-06T16:23:31+00:00",
 "query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8782,6 +8743,7 @@
 "published": "2026-11-06T15:28:00+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Happy's Place"
@@ -8804,6 +8766,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-06T07:00:12+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8822,6 +8785,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-05T20:00:21+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8841,6 +8805,7 @@
 "published": "2026-11-06T16:00:00+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -8864,6 +8829,7 @@
 "published": "2026-11-07T03:58:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8884,6 +8850,7 @@
 "outlet": "Late Night with Seth Meyers",
 "people": [],
 "published": "2026-11-07T00:15:12+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8892,27 +8859,6 @@
 "summary": "",
 "tags": [],
 "title": "Kim Kardashian on what it was like working with her mom in “All’s Fair”"
-},
-"e82a0fe7b5ab": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "e82a0fe7b5ab",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuOXZ5empzYm9wQTZyNl81amlnUUxTajJvdG9FQ2d3RGNZb3kzQVQwS3JrcVZ0MG15aDVnUFpVWjhKazI0UEdJaUpzLW9zcWd0dFBxZ0hWZUJHM3AwZXFWSkFhQ0dlWXp6M0drUDVVSUdjSS01VDE0VGdWQQ?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-06T21:12:00+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Two and a Half Men"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Why Holland Taylor Left Two And A Half Men"
 },
 "e8bbeda6c282": {
 "first_seen": "2026-11-07T11:14:33+00:00",
@@ -8926,6 +8872,7 @@
 "published": "2026-11-07T00:32:00+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8946,6 +8893,7 @@
 "outlet": "Jimmy Kimmel Live",
 "people": [],
 "published": "2026-11-05T07:00:30+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -8967,6 +8915,7 @@
 "published": "2026-11-06T16:46:25+00:00",
 "query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -8986,6 +8935,7 @@
 "published": "2026-11-06T18:55:56+00:00",
 "query": "sitcom",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -9005,6 +8955,7 @@
 "published": "2026-11-06T17:23:54+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -9025,6 +8976,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T04:50:37+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Tonight Show"
@@ -9048,6 +9000,7 @@
 "published": "2026-11-07T07:09:45+00:00",
 "query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9069,6 +9022,7 @@
 "published": "2026-11-06T18:30:14+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9092,6 +9046,7 @@
 "published": "2026-11-06T17:49:31+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -9112,6 +9067,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T18:59:52+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9133,6 +9089,7 @@
 "published": "2026-11-06T21:37:00+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9152,6 +9109,7 @@
 "published": "2026-11-06T21:58:18+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9172,6 +9130,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-05T22:00:31+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9191,6 +9150,7 @@
 "published": "2026-11-06T23:26:37+00:00",
 "query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Abbott Elementary"
@@ -9212,6 +9172,7 @@
 "published": "2026-11-06T19:32:19+00:00",
 "query": "\"comedy series\"",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9232,6 +9193,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T19:59:51+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9251,6 +9213,7 @@
 "published": "2026-11-06T17:44:46+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -9273,6 +9236,7 @@
 "outlet": "First We Feast",
 "people": [],
 "published": "2026-11-03T21:00:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9291,6 +9255,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-05T23:33:31+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9309,6 +9274,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-21T07:35:17+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "The Late Show"
@@ -9330,6 +9296,7 @@
 "published": "2026-11-06T21:14:47+00:00",
 "query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Happy's Place"
@@ -9351,6 +9318,7 @@
 "published": "2026-11-06T14:00:00+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9374,6 +9342,7 @@
 "published": "2026-11-06T21:34:31+00:00",
 "query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9392,6 +9361,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-06T16:59:58+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9411,6 +9381,7 @@
 "published": "2026-11-06T15:41:15+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -9431,6 +9402,7 @@
 "outlet": "Apple TV",
 "people": [],
 "published": "2026-11-07T02:00:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9449,6 +9421,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T16:00:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9467,6 +9440,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-30T19:48:47+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9487,6 +9461,7 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-10-19T15:00:22+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9505,6 +9480,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-06T22:00:29+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9522,6 +9498,7 @@
 "outlet": "TheWrap",
 "people": [],
 "published": "2026-11-07T01:04:11+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9543,6 +9520,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-28T19:01:00+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9564,6 +9542,7 @@
 "published": "2026-11-06T16:51:58+00:00",
 "query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9582,6 +9561,7 @@
 "outlet": "Prime Video",
 "people": [],
 "published": "2026-11-06T02:00:26+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9600,6 +9580,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-06T05:13:34+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9618,6 +9599,7 @@
 "outlet": "Saturday Night Live",
 "people": [],
 "published": "2026-11-04T18:08:59+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9639,6 +9621,7 @@
 "published": "2026-11-06T18:30:01+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Shifting Gears"
@@ -9662,8 +9645,9 @@
 "Queen Latifah"
 ],
 "published": "2026-11-07T11:48:25+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query": "\"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\" OR \"Kenan & Kel\" OR \"That's So Raven\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9683,6 +9667,7 @@
 "published": "2026-11-06T17:37:30+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -9708,6 +9693,7 @@
 "published": "2026-11-07T11:30:00+00:00",
 "query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9729,6 +9715,7 @@
 "published": "2026-11-06T19:42:32+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9737,29 +9724,6 @@
 "summary": "",
 "tags": [],
 "title": "Trump suggests FCC reexamine licenses amid fallout over preemption of Jimmy Kimmel"
-},
-"fbac496bfba9": {
-"first_seen": "2026-11-07T10:20:14+00:00",
-"id": "fbac496bfba9",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZEJjZFJrRXlqZlFzTHZHenpKcEtBbkY0NmVENVZaQlJEYnd6ZmFaTnB4MTBoVlZhWWVEZlFGdVdNS3BVS3hqcXVNeUpzUm9IS29JWVJoR241U3ItcFhhRnZRbDRqak9hMkFzTkFJRkFxbm4wLXhOWkplLXBsZTdMTGpxMUhDMy1ySjZka0dQOG8wSWlsUHRsbThQMDhPTUJs?oc=5",
-"outlet": "ELLE",
-"people": [],
-"published": "2026-11-07T06:22:48+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Renewal"
-],
-"title": "‘Nobody Wants This’ Has Officially Been Renewed for a 4th Season, Here’s When It Could Arrive"
 },
 "fcca2a41a9f1": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -9771,6 +9735,7 @@
 "published": "2026-11-06T13:46:08+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9791,6 +9756,7 @@
 "outlet": "Entertainment Tonight",
 "people": [],
 "published": "2026-11-07T02:00:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9810,6 +9776,7 @@
 "published": "2026-11-06T13:45:00+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9828,6 +9795,7 @@
 "outlet": "Hulu",
 "people": [],
 "published": "2026-11-07T02:00:27+00:00",
+"rehash": false,
 "relevant": true,
 "shows": [
 "Family Guy"
@@ -9848,6 +9816,7 @@
 "outlet": "Netflix",
 "people": [],
 "published": "2026-11-06T14:00:03+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9866,6 +9835,7 @@
 "outlet": "The Late Show with Stephen Colbert",
 "people": [],
 "published": "2026-05-21T07:35:23+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9884,6 +9854,7 @@
 "outlet": "Comedy Central",
 "people": [],
 "published": "2026-10-28T17:37:06+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9903,6 +9874,7 @@
 "published": "2026-11-06T19:09:12+00:00",
 "query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "Nobody Wants This"
@@ -9928,6 +9900,7 @@
 "published": "2026-11-06T16:14:37+00:00",
 "query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [],
 "sitcom": false,
@@ -9947,6 +9920,7 @@
 "published": "2026-11-06T17:24:46+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
+"rehash": false,
 "relevant": true,
 "shows": [
 "SNL"
@@ -9967,6 +9941,7 @@
 "outlet": "The Tonight Show Starring Jimmy Fallon",
 "people": [],
 "published": "2026-11-07T05:20:36+00:00",
+"rehash": false,
 "relevant": false,
 "shows": [],
 "sitcom": false,
@@ -9978,5 +9953,1105 @@
 ],
 "title": "Caitlin Clark Shoots Cheeseballs into Jimmy's Mouth, Talks Nike Friendship Bracelet Caitlin 1s"
 }
+},
+"shown": [
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8c5d995b4f32"
+],
+"people": [],
+"shows": [
+"Ghosts"
+],
+"tags": [],
+"tokens": [
+"ghost",
+"mars",
+"meet",
+"officially",
+"part",
+"prime",
+"veronica",
+"video",
+"zombie"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0296c89fdb4f"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"deloach",
+"druski",
+"hallmark",
+"host",
+"juan",
+"movie",
+"nikki",
+"pablo",
+"pace",
+"saturday",
+"snl",
+"watch"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b92902159881",
+"65bb7666346c",
+"3d7808b54a2b",
+"d97f33add155",
+"ed8a6ad195f4",
+"e6fb94d6811b",
+"6e8968e95635",
+"ccebf1764b99",
+"d21e48618044",
+"d9b67637f041"
+],
+"people": [
+"Ellen DeGeneres"
+],
+"shows": [
+"Ellen"
+],
+"tags": [
+"Death"
+],
+"tokens": [
+"cause",
+"death",
+"ellen",
+"matthew",
+"producer",
+"reveal",
+"wright"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"99448a430770"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"again",
+"amazingly",
+"amid",
+"been",
+"bill",
+"blue",
+"dinner",
+"get",
+"house",
+"humble",
+"joke",
+"maher",
+"might",
+"real",
+"think",
+"time",
+"trump",
+"wave",
+"white"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d179df46f490",
+"d637d46b9eeb"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"aniston",
+"episode",
+"era",
+"guest",
+"jennifer",
+"leap",
+"quantum",
+"starr",
+"vietnam",
+"war"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"935b8b70ae2d"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"amazon",
+"anne",
+"back",
+"duff",
+"exact",
+"hathaway",
+"hilary",
+"podiatrist",
+"quietly",
+"sale",
+"sneaker",
+"they",
+"wore"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"05d70f47f147"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"duff",
+"even",
+"expensive",
+"hilary",
+"legging",
+"look",
+"make",
+"mom",
+"rich",
+"style",
+"sweater"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"06531c54fd54"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"dance",
+"duff",
+"hilary",
+"love",
+"lucky",
+"pre",
+"redemption",
+"ritual",
+"take",
+"talk",
+"tour"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6eb7a4eab682",
+"08ecf08678f7"
+],
+"people": [
+"Kaley Cuoco"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"cuoco",
+"exes",
+"famou",
+"finally",
+"heart",
+"kaley",
+"man",
+"stole"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"408e604f1f0e"
+],
+"people": [
+"Larry David"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"biography",
+"costanza",
+"david",
+"george",
+"him",
+"larry",
+"made",
+"never",
+"scheme",
+"want",
+"won"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fa2e235ab2b9"
+],
+"people": [
+"Queen Latifah"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"again",
+"bet",
+"can",
+"documentary",
+"home",
+"latifah",
+"newark",
+"queen",
+"take",
+"you"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b9551d153f4c"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"career",
+"change",
+"could",
+"duff",
+"hilary",
+"music",
+"plan",
+"reveal",
+"unexpect"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"fb5a545cb9db"
+],
+"people": [
+"Adam Scott"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"adam",
+"golf",
+"left",
+"liv",
+"made",
+"now",
+"player",
+"reveal",
+"scott",
+"should"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0524466d3c1c"
+],
+"people": [
+"Charlie Sheen"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2011",
+"celebrity",
+"charlie",
+"donna",
+"marriag",
+"peele",
+"sheen",
+"shortest"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0e1d31396820",
+"0b67ab33022d"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"based",
+"charlie",
+"crimin",
+"evan",
+"graphic",
+"hunnam",
+"lead",
+"luke",
+"novel",
+"prime",
+"trailer",
+"video"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0d04c59d0c2a"
+],
+"people": [
+"Steve Carell"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"carell",
+"dakota",
+"event",
+"fyc",
+"hilton",
+"johnson",
+"maluma",
+"mic",
+"nicky",
+"plus",
+"rooster",
+"steve",
+"take"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"9a859ce345d4",
+"9fc362adf149"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"nobody",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5e5086d54f0b",
+"e0389ff45626"
+],
+"people": [
+"Hannah Waddingham"
+],
+"shows": [
+"Ted Lasso"
+],
+"tags": [],
+"tokens": [
+"doesn",
+"future",
+"hannah",
+"know",
+"lasso",
+"ted",
+"waddingham"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"95062397a775"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"tokens": [
+"cast",
+"date",
+"girl",
+"premiere",
+"trailer",
+"updat"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d5606ba40095"
+],
+"people": [
+"Tracee Ellis Ross"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"bag",
+"call",
+"carri",
+"cyru",
+"elli",
+"everywhere",
+"fall",
+"miley",
+"now",
+"ross",
+"statement",
+"tracee"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"bd714306508c"
+],
+"people": [
+"Charlie Sheen"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"charlie",
+"hiv",
+"jenny",
+"mccarthy",
+"revelation",
+"sheen"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b9e5e158a662"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"comedy",
+"debut",
+"exception",
+"gets",
+"paramount",
+"rotten",
+"score",
+"tomato",
+"worse"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"487740f792e9"
+],
+"people": [
+"Courteney Cox"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2014",
+"2015",
+"actress",
+"courteney",
+"cox",
+"highest",
+"paid",
+"tie"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"4b96db5f1aeb"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"businessmen",
+"comedy",
+"hair",
+"long",
+"movie",
+"office",
+"offici",
+"trailer",
+"wacky"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"e3eb523adb91"
+],
+"people": [],
+"shows": [
+"Abbott Elementary"
+],
+"tags": [],
+"tokens": [
+"abbott",
+"ackl",
+"asks",
+"bachelor",
+"did",
+"does",
+"elementary",
+"firing",
+"jensen",
+"make",
+"most",
+"sense",
+"tracker",
+"tvline"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cc8057ce618e"
+],
+"people": [],
+"shows": [
+"Friends"
+],
+"tags": [],
+"tokens": [
+"adult",
+"career",
+"epstein",
+"expos",
+"fairchild",
+"friend",
+"icon",
+"jeffrey",
+"launch",
+"link",
+"month",
+"morgan",
+"sitcom",
+"site"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cde2af6fe5eb"
+],
+"people": [],
+"shows": [
+"Bob's Burgers"
+],
+"tags": [],
+"tokens": [
+"bob",
+"burger",
+"burn",
+"eugene",
+"heroic",
+"him",
+"mirman",
+"people",
+"pull",
+"thank",
+"vehicle"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"1ef390b6641d"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"big",
+"break",
+"channel",
+"disney",
+"harper",
+"hit",
+"ncis",
+"shane",
+"sitcom",
+"york"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"ab1345ee57fa"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"cast",
+"date",
+"detail",
+"nobody",
+"plot",
+"premiere",
+"updat",
+"want"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6c733d3de8db"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"2026",
+"actor",
+"celebrity",
+"death",
+"lost",
+"singer",
+"year"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"6422e4d00f63"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"barbie",
+"but",
+"dust",
+"everyone",
+"gerwig",
+"greta",
+"left",
+"narnia",
+"not",
+"sold",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"40837c3bd70a"
+],
+"people": [
+"Mindy Kaling"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"deal",
+"gma",
+"kaling",
+"mindy",
+"steal"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"94e41b326e5b"
+],
+"people": [],
+"shows": [
+"Shifting Gears"
+],
+"tags": [
+"Upcoming"
+],
+"tokens": [
+"ahead",
+"gear",
+"globally",
+"head",
+"netflix",
+"premiere",
+"shift"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"11d115087b74"
+],
+"people": [
+"Jenna Fischer"
+],
+"shows": [
+"The Office"
+],
+"tags": [],
+"tokens": [
+"cut",
+"episode",
+"fischer",
+"fought",
+"jenna",
+"mafia",
+"office",
+"storyline"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"8413dc0f55d5"
+],
+"people": [],
+"shows": [
+"The Office"
+],
+"tags": [],
+"tokens": [
+"bad",
+"banker",
+"break",
+"cameo",
+"chat",
+"costabile",
+"david",
+"episode",
+"meet",
+"office"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"3f58f37b84e9"
+],
+"people": [
+"Raven-Symoné"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"call",
+"didn",
+"gabourey",
+"like",
+"raven",
+"sidibe",
+"symone",
+"thought",
+"you"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"0aa710d3e112"
+],
+"people": [
+"Jenna Fischer"
+],
+"shows": [
+"The Office"
+],
+"tags": [],
+"tokens": [
+"fischer",
+"jenna",
+"jim",
+"long",
+"lost",
+"office",
+"pam",
+"shar",
+"website",
+"wedd"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"bfef0aef9b5d"
+],
+"people": [],
+"shows": [
+"The Office"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"break",
+"cast",
+"entire",
+"made",
+"office",
+"recall",
+"scene"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"005accbf7a1e"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Cancel/End"
+],
+"tokens": [
+"cancel",
+"comedy",
+"netflix",
+"run",
+"starz",
+"stream",
+"world"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"7ec181f7132f"
+],
+"people": [],
+"shows": [
+"The Tonight Show"
+],
+"tags": [],
+"tokens": [
+"appearance",
+"caitlin",
+"clark",
+"make",
+"tonight"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"171381f0bfe9"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"adventur",
+"booth",
+"cliff",
+"detail",
+"emerge",
+"fincher",
+"further",
+"latest",
+"look",
+"mis",
+"pitt",
+"plot",
+"tarantino",
+"team",
+"trailer"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"43ff0bc7e7f4"
+],
+"people": [
+"Candace Cameron Bure"
+],
+"shows": [
+"Full House"
+],
+"tags": [],
+"tokens": [
+"bure",
+"cameron",
+"candace",
+"down",
+"full",
+"house",
+"invitation",
+"previously",
+"return",
+"turn",
+"view"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"cc0213a163a9"
+],
+"people": [
+"Kristen Bell"
+],
+"shows": [],
+"tags": [
+"Renewal"
+],
+"tokens": [
+"bell",
+"kristen",
+"netflix",
+"officially",
+"renew",
+"return",
+"week"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"08d065d86bbe"
+],
+"people": [],
+"shows": [
+"Happy's Place"
+],
+"tags": [],
+"tokens": [
+"final",
+"firemen",
+"handsome",
+"happy",
+"jane",
+"loved",
+"lynch",
+"place",
+"say",
+"scene",
+"week"
+]
+},
+{
+"at": "2026-11-07T13:09:23+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"5ed8f5ea7664"
+],
+"people": [
+"Patricia Heaton"
+],
+"shows": [
+"Everybody Loves Raymond"
+],
+"tags": [],
+"tokens": [
+"almost",
+"everybody",
+"flow",
+"hair",
+"heaton",
+"love",
+"patricia",
+"photo",
+"raymond",
+"silver",
+"strik",
+"unrecognizable"
+]
 }
+]
 }
