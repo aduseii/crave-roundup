@@ -30,11 +30,31 @@ body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
 .tabs{display:flex;gap:16px;font-size:15px}
 .tabs a{text-decoration:none;color:var(--slate);padding:6px 0}
 .tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
-.jumpbar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
-nav.jump{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;font-size:15px}
-nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{flex:0 0 auto;text-decoration:none;padding:10px 0;font-weight:600}
-nav.jump a span{color:var(--slate);font-weight:400;margin-left:3px}
+.jumpbar{position:sticky;top:0;z-index:6;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.jb{position:relative;max-width:680px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left))}
+#secbtn{display:flex;align-items:center;gap:9px;width:100%;background:none;border:0;padding:9px 0 10px;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
+#secbtn::before{content:"";width:4px;height:22px;background:var(--crave);border-radius:1px}
+#cursec{font-stretch:68%;font-weight:800;font-size:21px;line-height:1}
+#secbtn svg{color:var(--slate);transition:transform .15s}
+#secbtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.secmenu{position:absolute;top:100%;left:max(8px,env(safe-area-inset-left));right:max(8px,env(safe-area-inset-right));background:var(--paper);border:1px solid var(--rule);border-radius:6px;box-shadow:0 14px 30px rgba(8,24,35,.2);padding:6px 0;max-height:70vh;overflow:auto}
+.secmenu[hidden]{display:none}
+.secmenu a,.sidenav a{display:flex;justify-content:space-between;gap:12px;text-decoration:none;font-weight:600}
+.secmenu a{padding:12px 16px;font-size:17px}
+.secmenu a span,.sidenav a span{color:var(--slate);font-weight:400}
+.secmenu a.on{background:var(--pick);box-shadow:inset 4px 0 0 var(--crave)}
+.side{display:none}
+@media (min-width:1000px){
+.jumpbar{display:none}
+.layout{display:grid;grid-template-columns:170px minmax(0,680px);column-gap:56px;justify-content:center}
+.side{display:block}
+.sidenav{position:sticky;top:20px;display:flex;flex-direction:column;padding-top:28px}
+.sidenav a{padding:8px 0 8px 14px;border-left:3px solid var(--rule);color:var(--slate);font-size:15px}
+.sidenav a:hover{color:var(--ink)}
+.sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
+.layout main{margin:0;padding-left:0;padding-right:0}
+.mast{max-width:906px}
+}
 
 .intro{padding:22px 0 6px}
 .intro h1{font-stretch:68%;font-weight:900;font-size:40px;line-height:1;margin:0;letter-spacing:-.015em}
@@ -114,9 +134,11 @@ td,th{border-bottom:1px solid var(--rule);padding:5px 10px 5px 0;text-align:left
 <script>window.ROUNDUP_DEFAULT_HEADER = "Data processing and Captioner: caption these for X in my style. Post only the finished pieces.";</script>
 </head><body class="hideposted">
 <div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html" class="on">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html">Archive</a></nav></div>
-<div class="jumpbar"><nav class="jump"><a href="#sec-today">Schedule</a><a href="#sec-breaking">Breaking<span>4</span></a><a href="#sec-news">News<span>116</span></a><a href="#sec-streaming">Streaming</a><a href="#sec-interviews">Interviews<span>30</span></a><a href="#sec-trailers">Trailers<span>27</span></a><a href="#sec-upcoming">Upcoming<span>10</span></a><a href="#sec-anniversaries">On this day</a><a href="#sec-sources">Sources</a></nav></div>
+<div class="jumpbar"><div class="jb"><button id="secbtn" type="button" aria-expanded="false" aria-controls="secmenu"><span id="cursec">Schedule</span><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><nav id="secmenu" class="secmenu" aria-label="Jump to a section" hidden><a href="#sec-today" data-sec="sec-today" data-label="Schedule">Schedule</a><a href="#sec-breaking" data-sec="sec-breaking" data-label="Breaking">Breaking<span>4</span></a><a href="#sec-news" data-sec="sec-news" data-label="News">News<span>117</span></a><a href="#sec-streaming" data-sec="sec-streaming" data-label="Streaming">Streaming</a><a href="#sec-interviews" data-sec="sec-interviews" data-label="Interviews">Interviews<span>32</span></a><a href="#sec-trailers" data-sec="sec-trailers" data-label="Trailers">Trailers<span>28</span></a><a href="#sec-upcoming" data-sec="sec-upcoming" data-label="Upcoming">Upcoming<span>10</span></a><a href="#sec-anniversaries" data-sec="sec-anniversaries" data-label="On this day">On this day</a><a href="#sec-sources" data-sec="sec-sources" data-label="Sources">Sources</a></nav></div></div>
+<div class="layout">
+<aside class="side"><nav class="sidenav" aria-label="Sections"><a href="#sec-today" data-sec="sec-today" data-label="Schedule">Schedule</a><a href="#sec-breaking" data-sec="sec-breaking" data-label="Breaking">Breaking<span>4</span></a><a href="#sec-news" data-sec="sec-news" data-label="News">News<span>117</span></a><a href="#sec-streaming" data-sec="sec-streaming" data-label="Streaming">Streaming</a><a href="#sec-interviews" data-sec="sec-interviews" data-label="Interviews">Interviews<span>32</span></a><a href="#sec-trailers" data-sec="sec-trailers" data-label="Trailers">Trailers<span>28</span></a><a href="#sec-upcoming" data-sec="sec-upcoming" data-label="Upcoming">Upcoming<span>10</span></a><a href="#sec-anniversaries" data-sec="sec-anniversaries" data-label="On this day">On this day</a><a href="#sec-sources" data-sec="sec-sources" data-label="Sources">Sources</a></nav></aside>
 <main>
-<div class="intro"><h1>Morning roundup</h1><p>Saturday, November 7, 2026. Updated 11:14am GMT with 187 stories from the last 24 hours. The evening roundup lands around 6pm.</p></div>
+<div class="intro"><h1>Morning roundup</h1><p>Saturday, November 7, 2026. Updated 11:21am GMT with 191 stories from the last 24 hours. The evening roundup lands around 6pm.</p></div>
 <h2 id="sec-today">Today&#x27;s posting schedule</h2>
 <p class="muted" style="margin:8px 0 0">The ten biggest stories, one an hour. Times are GMT.</p>
 <div class="today">
@@ -209,7 +231,7 @@ Sources: [IMDb](https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TRUxvVFEyUU4
 <label><span class="t">Netflix To Stream Canceled Starz Comedy Series ‘Run the World’</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">7h ago</span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TRUxvVFEyUU4yZDhWeVMwY0dBdnpvNTEyQVdmZ2RHS01vRUlmaFpTVld5TlVkNnh1bFFqbmRkWW9DRlIxb3VITlBmdThyZjE4ZnJIT0J0c2tFQXJGZjV4ZklpVHM?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
-<h2 id="sec-news">News<span class="count">116</span></h2>
+<h2 id="sec-news">News<span class="count">117</span></h2>
 <div class="item" id="s-5e5086d54f0b" data-id="5e5086d54f0b" data-packet="Type: News
 Headline: Hannah Waddingham &#x27;doesn&#x27;t know&#x27; about Ted Lasso&#x27;s future
 Shows: &#x27;Ted Lasso&#x27;
@@ -300,19 +322,19 @@ Sources: [HELLO!](https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMHk2OTQxY
 <label><span class="t">Everybody Loves Raymond star Patricia Heaton, 68, almost unrecognizable with flowing silver hair in striking new photos</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">9h ago</span><a href="https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMHk2OTQxYUkzRnR5Wml5aGhHanpNbHY0YktZMmNCR0pTQ2xYZ0RwbXQtZWNEVEpCVE0wVEVSZ0NrYi1qWGJ1LXBjZ0xFS0tRVWpNQ2d1V0RSQnFEVFBnUjZxb1plZ254QVBlYThUOVVWNXA3SDVRMHk0aXZTZjhaSDhBNVNsMU9mb3Z1amc1OVlMcWdLRmYtMFNTZXNfYmRYRXhIQzY4ZHU4dFlfM3FycElZYklmaFQ0M1dLQWpzX2xXWGVKS0lYeVNINktDVnBuRDYxTFFhWkpIWG5ySWgzNnVWVW5IMUM0MzdTa1dJcw?oc=5" target="_blank" rel="noopener">HELLO!</a></div>
 </div>
-<div class="item" id="s-0d04c59d0c2a" data-id="0d04c59d0c2a" data-packet="Type: News
-Headline: Steve Carell Takes the Mic at a Rooster FYC Event in L.A., Plus Dakota Johnson, Maluma, Nicky Hilton and More
-People: Steve Carell
-Sources: [People.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTRzQ1JaTnhSNi1ZUnVBb1R4V3VMTWxnaFFuY080N2V1MmcwNGZSNTkzblc0djB1UGgxbWhLZGV1RGF0d3ZoT0NrVWRseEZSc3h6V1VIcG5XbFh0REJLWmJvRkJqM2MybVp5QlVkejRKcU5RWEJTOUFDSmQ0Vy14RHZMNm5Pbk1VaXNOZlM1eTVQVVUyZUpjYzBMRGtfcjY0?oc=5)">
-<label><span class="t">Steve Carell Takes the Mic at a Rooster FYC Event in L.A., Plus Dakota Johnson, Maluma, Nicky Hilton and More</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">14m ago</span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTRzQ1JaTnhSNi1ZUnVBb1R4V3VMTWxnaFFuY080N2V1MmcwNGZSNTkzblc0djB1UGgxbWhLZGV1RGF0d3ZoT0NrVWRseEZSc3h6V1VIcG5XbFh0REJLWmJvRkJqM2MybVp5QlVkejRKcU5RWEJTOUFDSmQ0Vy14RHZMNm5Pbk1VaXNOZlM1eTVQVVUyZUpjYzBMRGtfcjY0?oc=5" target="_blank" rel="noopener">People.com</a></div>
-</div>
 <div class="item" id="s-05d70f47f147" data-id="05d70f47f147" data-packet="Type: News
 Headline: Hilary Duff’s Rich-Mom Sweater Style Makes Even Leggings Look Expensive
 People: Hilary Duff
 Sources: [Us Weekly](https://news.google.com/rss/articles/CBMijAFBVV95cUxQUG14cUZvamk1YmFzZmZwcG41MEUtOFAwU1dLVjBEc1REU3BDWlB3aUUxazJISnhnbExhNjVLNmltRE5LWmZYbnp1WHRBMDl1R0YyM1FSb28wRWR5Q1IyS3pLNHQydm1iMTBHanZUaFNuN2NWXzRIZVdKY0dsbE85WUdObFRBTzhna2VxWg?oc=5)">
 <label><span class="t">Hilary Duff’s Rich-Mom Sweater Style Makes Even Leggings Look Expensive</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">1h ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQUG14cUZvamk1YmFzZmZwcG41MEUtOFAwU1dLVjBEc1REU3BDWlB3aUUxazJISnhnbExhNjVLNmltRE5LWmZYbnp1WHRBMDl1R0YyM1FSb28wRWR5Q1IyS3pLNHQydm1iMTBHanZUaFNuN2NWXzRIZVdKY0dsbE85WUdObFRBTzhna2VxWg?oc=5" target="_blank" rel="noopener">Us Weekly</a></div>
+<div class="meta"><span class="when">1m ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQUG14cUZvamk1YmFzZmZwcG41MEUtOFAwU1dLVjBEc1REU3BDWlB3aUUxazJISnhnbExhNjVLNmltRE5LWmZYbnp1WHRBMDl1R0YyM1FSb28wRWR5Q1IyS3pLNHQydm1iMTBHanZUaFNuN2NWXzRIZVdKY0dsbE85WUdObFRBTzhna2VxWg?oc=5" target="_blank" rel="noopener">Us Weekly</a></div>
+</div>
+<div class="item" id="s-0d04c59d0c2a" data-id="0d04c59d0c2a" data-packet="Type: News
+Headline: Steve Carell Takes the Mic at a Rooster FYC Event in L.A., Plus Dakota Johnson, Maluma, Nicky Hilton and More
+People: Steve Carell
+Sources: [People.com](https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTRzQ1JaTnhSNi1ZUnVBb1R4V3VMTWxnaFFuY080N2V1MmcwNGZSNTkzblc0djB1UGgxbWhLZGV1RGF0d3ZoT0NrVWRseEZSc3h6V1VIcG5XbFh0REJLWmJvRkJqM2MybVp5QlVkejRKcU5RWEJTOUFDSmQ0Vy14RHZMNm5Pbk1VaXNOZlM1eTVQVVUyZUpjYzBMRGtfcjY0?oc=5)">
+<label><span class="t">Steve Carell Takes the Mic at a Rooster FYC Event in L.A., Plus Dakota Johnson, Maluma, Nicky Hilton and More</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">21m ago</span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTRzQ1JaTnhSNi1ZUnVBb1R4V3VMTWxnaFFuY080N2V1MmcwNGZSNTkzblc0djB1UGgxbWhLZGV1RGF0d3ZoT0NrVWRseEZSc3h6V1VIcG5XbFh0REJLWmJvRkJqM2MybVp5QlVkejRKcU5RWEJTOUFDSmQ0Vy14RHZMNm5Pbk1VaXNOZlM1eTVQVVUyZUpjYzBMRGtfcjY0?oc=5" target="_blank" rel="noopener">People.com</a></div>
 </div>
 <div class="item" id="s-d5606ba40095" data-id="d5606ba40095" data-packet="Type: News
 Headline: I’m Calling It Now: The Statement Bag Tracee Ellis Ross and Miley Cyrus Carried Will Be Everywhere This Fall
@@ -419,7 +441,7 @@ Headline: Amy Poehler - 2015-09-20 - 2015 Emmy Awards Red Carpet
 People: Amy Poehler, Julia Louis-Dreyfus, Julie Bowen, Sarah Hyland
 Sources: [Forbes](https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zWkdNY0hCUzFya0R3bU41ZmxzekZMbFVOem50Zm5xbFl0Q2FzcmhnUXdLMm5fNUphRE5IZ0tMd201bGk1RllTeWpZdmthekw1ZHJDUzdGamxtbzRMR0wxQmpHcG8?oc=5)">
 <label><span class="t">Amy Poehler - 2015-09-20 - 2015 Emmy Awards Red Carpet</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">20h ago</span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zWkdNY0hCUzFya0R3bU41ZmxzekZMbFVOem50Zm5xbFl0Q2FzcmhnUXdLMm5fNUphRE5IZ0tMd201bGk1RllTeWpZdmthekw1ZHJDUzdGamxtbzRMR0wxQmpHcG8?oc=5" target="_blank" rel="noopener">Forbes</a></div>
+<div class="meta"><span class="when">21h ago</span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zWkdNY0hCUzFya0R3bU41ZmxzekZMbFVOem50Zm5xbFl0Q2FzcmhnUXdLMm5fNUphRE5IZ0tMd201bGk1RllTeWpZdmthekw1ZHJDUzdGamxtbzRMR0wxQmpHcG8?oc=5" target="_blank" rel="noopener">Forbes</a></div>
 </div>
 <div class="item" id="s-40837c3bd70a" data-id="40837c3bd70a" data-packet="Type: News
 Headline: &#x27;GMA&#x27; Deals &amp; Steals with Mindy Kaling
@@ -487,20 +509,6 @@ Sources: [IMDb](https://news.google.com/rss/articles/CBMiakFVX3lxTE1RTW1OeGhocWN
 <label><span class="t">Unbreakable Kimmy Schmidt: Season 2</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">10h ago</span><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1RTW1OeGhocWNKSHprMHJyYVBiU2hENG1MdmZMLVV6eHcxUWw2aEZtZVhJaDJUcnFia3k5NV91OFBJUE83YS1FcWxuTGtXY2RwSXpVTFZkeklrcGFycmJucEJTZ1BlMlpjdFE?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
-<div class="item" id="s-6310d5d0c0e7" data-id="6310d5d0c0e7" data-packet="Type: News
-Headline: The Tonight Show Starring Jimmy Fallon: Pete Davidson, Meghann Fahy,
-Shows: &#x27;The Tonight Show&#x27;
-Sources: [IMDb](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TT0JSb1ZibzhfMGpYLWN4bG04SFl5cjVOX1BzRTNQQUFKNG8yMmd3M2FBTEhFSkpaNEVhS3hRbGdxLUktVGIxMXBYMXNBWnI4RXdxdWJiM2JWanR5WjRoNE5QT0NZN2c?oc=5)">
-<label><span class="t">The Tonight Show Starring Jimmy Fallon: Pete Davidson, Meghann Fahy,</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">11h ago</span><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TT0JSb1ZibzhfMGpYLWN4bG04SFl5cjVOX1BzRTNQQUFKNG8yMmd3M2FBTEhFSkpaNEVhS3hRbGdxLUktVGIxMXBYMXNBWnI4RXdxdWJiM2JWanR5WjRoNE5QT0NZN2c?oc=5" target="_blank" rel="noopener">IMDb</a></div>
-</div>
-<div class="item" id="s-87fb23b8cc43" data-id="87fb23b8cc43" data-packet="Type: News
-Headline: US-ENTERTAINMENT-STAR-HOLLYWOOD-WALK OF FAME - 2015-06-24 - Jim Parsons
-People: Jim Parsons
-Sources: [Forbes](https://news.google.com/rss/articles/CBMijAFBVV95cUxQREVvUTFhR2NYWTM3M3haZzFfaFFUeGhFSXlQWjVzWnpVaGhpbENkcVF1emNTQmF5cEwzd3VCYUV4U19nQWRlWVRRdmN0NDBCbVQxblJZbkhYWHBWbS14MGhKQnl1dHJHMEs5MVhSdWFXS3RIX0Ztd2tlcEc4emN5NENxT1hIRjJYZEx1Xw?oc=5)">
-<label><span class="t">US-ENTERTAINMENT-STAR-HOLLYWOOD-WALK OF FAME - 2015-06-24 - Jim Parsons</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">11h ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQREVvUTFhR2NYWTM3M3haZzFfaFFUeGhFSXlQWjVzWnpVaGhpbENkcVF1emNTQmF5cEwzd3VCYUV4U19nQWRlWVRRdmN0NDBCbVQxblJZbkhYWHBWbS14MGhKQnl1dHJHMEs5MVhSdWFXS3RIX0Ztd2tlcEc4emN5NENxT1hIRjJYZEx1Xw?oc=5" target="_blank" rel="noopener">Forbes</a></div>
-</div>
 <div class="item" id="s-1ef390b6641d" data-id="1ef390b6641d" data-packet="Type: News
 Headline: NCIS: New York Star Shane Harper&#x27;s Big Break Was On A Hit Disney Channel Sitcom
 Sources: [IMDb](https://news.google.com/rss/articles/CBMiZEFVX3lxTFBab1ZyaFNUZE9wSU9jbUE1VkhUYktrNTJqREdzY0xNaUoxMEhwdk96V2J0Zms1MlZid3hRUnFrVWt0MTY5SzF1c05uXzdyb0VEaEhubk1YWnJURWp1a0xyQmtJMks?oc=5) · [TVLine](https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2JLbjR2SlpFR2RYQXo2WFhINGM0WUZsNkZ6QjN4VmF1REZIaU1sYkdCVFN5aHlhbVNlQ01jTUxpc2J5Qmt0bGxOWDZFNGlaUmZIZFQ5N1VXckpDbGFlUm1lOWkzemRhZFMwYWgxWkl6LW1Sd3g4bFJNS2pLSEZZYlh2djFmZkRnYkRCQlo0a0lfUUozYW1sMElMaGU5dlNVTzNIcW82RQ?oc=5)">
@@ -513,7 +521,21 @@ Sources: [Page Six](https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjQ1aE9
 <label><span class="t">Celebrity deaths 2026: Actors, singers and stars we lost this year</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">4h ago</span><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjQ1aE9KYzdFZU01dkhKLVVBbTRNRDNMVFlWeTBzVG4tS1hIS3hvWlJ6OHRUZ0RHZENBMUpRaW5mQkEydnlTNnd4dWdod09Wb2d1RGtZNmhVaEE1c19XVUNkRDNKR2VnOGtyYmRrWjNlWHFnNUNUaHU0WlA3TVJRallOeldlaXVsVU5qejcwa0RZbE5WUVJYOEctU3UxU0VGdEE?oc=5" target="_blank" rel="noopener">Page Six</a></div>
 </div>
-<details class="more"><summary>Show 76 more</summary>
+<div class="item" id="s-6310d5d0c0e7" data-id="6310d5d0c0e7" data-packet="Type: News
+Headline: The Tonight Show Starring Jimmy Fallon: Pete Davidson, Meghann Fahy,
+Shows: &#x27;The Tonight Show&#x27;
+Sources: [IMDb](https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TT0JSb1ZibzhfMGpYLWN4bG04SFl5cjVOX1BzRTNQQUFKNG8yMmd3M2FBTEhFSkpaNEVhS3hRbGdxLUktVGIxMXBYMXNBWnI4RXdxdWJiM2JWanR5WjRoNE5QT0NZN2c?oc=5)">
+<label><span class="t">The Tonight Show Starring Jimmy Fallon: Pete Davidson, Meghann Fahy,</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">12h ago</span><a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TT0JSb1ZibzhfMGpYLWN4bG04SFl5cjVOX1BzRTNQQUFKNG8yMmd3M2FBTEhFSkpaNEVhS3hRbGdxLUktVGIxMXBYMXNBWnI4RXdxdWJiM2JWanR5WjRoNE5QT0NZN2c?oc=5" target="_blank" rel="noopener">IMDb</a></div>
+</div>
+<div class="item" id="s-87fb23b8cc43" data-id="87fb23b8cc43" data-packet="Type: News
+Headline: US-ENTERTAINMENT-STAR-HOLLYWOOD-WALK OF FAME - 2015-06-24 - Jim Parsons
+People: Jim Parsons
+Sources: [Forbes](https://news.google.com/rss/articles/CBMijAFBVV95cUxQREVvUTFhR2NYWTM3M3haZzFfaFFUeGhFSXlQWjVzWnpVaGhpbENkcVF1emNTQmF5cEwzd3VCYUV4U19nQWRlWVRRdmN0NDBCbVQxblJZbkhYWHBWbS14MGhKQnl1dHJHMEs5MVhSdWFXS3RIX0Ztd2tlcEc4emN5NENxT1hIRjJYZEx1Xw?oc=5)">
+<label><span class="t">US-ENTERTAINMENT-STAR-HOLLYWOOD-WALK OF FAME - 2015-06-24 - Jim Parsons</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">12h ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQREVvUTFhR2NYWTM3M3haZzFfaFFUeGhFSXlQWjVzWnpVaGhpbENkcVF1emNTQmF5cEwzd3VCYUV4U19nQWRlWVRRdmN0NDBCbVQxblJZbkhYWHBWbS14MGhKQnl1dHJHMEs5MVhSdWFXS3RIX0Ztd2tlcEc4emN5NENxT1hIRjJYZEx1Xw?oc=5" target="_blank" rel="noopener">Forbes</a></div>
+</div>
+<details class="more"><summary>Show 77 more</summary>
 <div class="item" id="s-02c7c913ca87" data-id="02c7c913ca87" data-packet="Type: News
 Headline: Greg Berlanti, Goldie Hawn, Melissa McCarthy, Harrison Ford to Receive the Paley Center for Media’s Honors Award at Its Fall Gala
 People: Melissa McCarthy
@@ -547,7 +569,7 @@ Headline: Saturday Night Passover Seder feat. Dan Levy, Finn Wolfhard, Billy Por
 People: Dan Levy
 Sources: [Yahoo](https://news.google.com/rss/articles/CBMilwFBVV95cUxORERVaGpwVHZKVkt0ajZCcHQxLUVfLVdKV2RjZmJCdDZlZ1ZEY2VEa1Z0Z3gwNWZJOVFWZTRVWDJ5bEpGdlpSRjl0WWdWdG4tNjFFVFM4dkRXVXpaZWdFbkVTLWdEeE9kNlhMQXpmT2t5ODJkNGdOUlAzRC1TX2U5Q2xmYlhnN25aYnhJbllBbWFVQlhxcVVV?oc=5)">
 <label><span class="t">Saturday Night Passover Seder feat. Dan Levy, Finn Wolfhard, Billy Porter, Idina Menzel &amp; More</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">12h ago</span><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxORERVaGpwVHZKVkt0ajZCcHQxLUVfLVdKV2RjZmJCdDZlZ1ZEY2VEa1Z0Z3gwNWZJOVFWZTRVWDJ5bEpGdlpSRjl0WWdWdG4tNjFFVFM4dkRXVXpaZWdFbkVTLWdEeE9kNlhMQXpmT2t5ODJkNGdOUlAzRC1TX2U5Q2xmYlhnN25aYnhJbllBbWFVQlhxcVVV?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
+<div class="meta"><span class="when">13h ago</span><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxORERVaGpwVHZKVkt0ajZCcHQxLUVfLVdKV2RjZmJCdDZlZ1ZEY2VEa1Z0Z3gwNWZJOVFWZTRVWDJ5bEpGdlpSRjl0WWdWdG4tNjFFVFM4dkRXVXpaZWdFbkVTLWdEeE9kNlhMQXpmT2t5ODJkNGdOUlAzRC1TX2U5Q2xmYlhnN25aYnhJbllBbWFVQlhxcVVV?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
 </div>
 <div class="item" id="s-7b422c82c5c5" data-id="7b422c82c5c5" data-packet="Type: News
 Headline: Hilary Duff Eyes Residencies as Comeback Tour Grosses $48.3 Million: &#x27;I&#x27;m Not Sure It&#x27;s Ever Going to Look Like That Again&#x27;
@@ -555,6 +577,13 @@ People: Hilary Duff
 Sources: [Yahoo](https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUdQLTBVWFI1NzhBRnhEWTkyTWhTZWpEcEhGbmFKajFQcGI0VzhfLUJDNGpROGcwUHdWZkM5S1VzM0xJSmo1NmZVVG1ZRzBSVWhOUS1JZlFIc2ZqNXpodHpyZjNydzZ2cjFLaVRhQ1g1REJaN2xwX0hWLThERXl1Uk1CNXhSc1JwdVFuRnVOQndHLWZKM2hDWEJ2a1cxRFFSdWw3TmlKOEtHclM5WDF4TUtR?oc=5)">
 <label><span class="t">Hilary Duff Eyes Residencies as Comeback Tour Grosses $48.3 Million: &#x27;I&#x27;m Not Sure It&#x27;s Ever Going to Look Like That Again&#x27;</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">13h ago</span><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUdQLTBVWFI1NzhBRnhEWTkyTWhTZWpEcEhGbmFKajFQcGI0VzhfLUJDNGpROGcwUHdWZkM5S1VzM0xJSmo1NmZVVG1ZRzBSVWhOUS1JZlFIc2ZqNXpodHpyZjNydzZ2cjFLaVRhQ1g1REJaN2xwX0hWLThERXl1Uk1CNXhSc1JwdVFuRnVOQndHLWZKM2hDWEJ2a1cxRFFSdWw3TmlKOEtHclM5WDF4TUtR?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
+</div>
+<div class="item" id="s-29737de67f70" data-id="29737de67f70" data-packet="Type: News
+Headline: 5. Jennifer Aniston - 2015-10-02 - The World&#x27;s Highest-Paid Actresses 2015
+People: Jennifer Aniston
+Sources: [Forbes](https://news.google.com/rss/articles/CBMib0FVX3lxTFBoRVFNR3lxMDlvUlZVR3Ftcl9KRHVjR1FfNzhLTzZPSFl5SWhrc0dQcGNLREJtV1hPUHpkQnBMa2RVUzhaaWZrSTJMeENtSEpqcDNpZWZoQlVraEliM1l6VlNQLXoza1JQanVPQzBYVQ?oc=5)">
+<label><span class="t">5. Jennifer Aniston - 2015-10-02 - The World&#x27;s Highest-Paid Actresses 2015</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">13h ago</span><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBoRVFNR3lxMDlvUlZVR3Ftcl9KRHVjR1FfNzhLTzZPSFl5SWhrc0dQcGNLREJtV1hPUHpkQnBMa2RVUzhaaWZrSTJMeENtSEpqcDNpZWZoQlVraEliM1l6VlNQLXoza1JQanVPQzBYVQ?oc=5" target="_blank" rel="noopener">Forbes</a></div>
 </div>
 <div class="item" id="s-f3f1990e3a54" data-id="f3f1990e3a54" data-packet="Type: News
 Headline: No. 3: Kaley Cuoco-Sweeting - 2015-03-13 - The Highest-Paid TV Actresses Of 2014
@@ -584,14 +613,14 @@ Shows: &#x27;The Simpsons&#x27;
 Sources: [TV Insider](https://www.tvinsider.com/list/longest-running-scripted-primetime-tv-shows/)">
 <label><span class="t">10 Longest-Running Scripted Primetime TV Shows</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">‘The Simpsons’ is the longest-running series by a long shot, but all the series in this list have tenures of more than a decade and a half. It’ll be a long time before The Simpsons is dethroned as the longest-running scripted primetime series in American television history.</div>
-<div class="meta"><span class="when">13h ago</span><a href="https://www.tvinsider.com/list/longest-running-scripted-primetime-tv-shows/" target="_blank" rel="noopener">TV Insider</a></div>
+<div class="meta"><span class="when">14h ago</span><a href="https://www.tvinsider.com/list/longest-running-scripted-primetime-tv-shows/" target="_blank" rel="noopener">TV Insider</a></div>
 </div>
 <div class="item" id="s-f35a114b3b08" data-id="f35a114b3b08" data-packet="Type: News
 Headline: Jane Lynch Has the Perfect Description for Gabby&#x27;s Mom Val on Happy&#x27;s Place (EXCLUSIVE)
 Shows: &#x27;Happy&#x27;s Place&#x27;
 Sources: [Yahoo](https://news.google.com/rss/articles/CBMiogFBVV95cUxPemxVbmhnS0kzOWVIdFlXX3E5ZTBiVmRfWHNPQWltMGFQa3BhNkJRVGlvT3RtdG40WXV0QmdDR08zY3BBSnJWd0ZNbGk0NGZmUGhjdmxhS0VaYzFiUDNhRGNNVTg1SGV3dHNCbHB4RTVjc0VvQzdxeVVDczhraXUzeHJhYWtYU1FYQ0p4aWJPSmRrXzdsdVdTa3ZzQ01YNEY3Smc?oc=5)">
 <label><span class="t">Jane Lynch Has the Perfect Description for Gabby&#x27;s Mom Val on Happy&#x27;s Place (EXCLUSIVE)</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">13h ago</span><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPemxVbmhnS0kzOWVIdFlXX3E5ZTBiVmRfWHNPQWltMGFQa3BhNkJRVGlvT3RtdG40WXV0QmdDR08zY3BBSnJWd0ZNbGk0NGZmUGhjdmxhS0VaYzFiUDNhRGNNVTg1SGV3dHNCbHB4RTVjc0VvQzdxeVVDczhraXUzeHJhYWtYU1FYQ0p4aWJPSmRrXzdsdVdTa3ZzQ01YNEY3Smc?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
+<div class="meta"><span class="when">14h ago</span><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPemxVbmhnS0kzOWVIdFlXX3E5ZTBiVmRfWHNPQWltMGFQa3BhNkJRVGlvT3RtdG40WXV0QmdDR08zY3BBSnJWd0ZNbGk0NGZmUGhjdmxhS0VaYzFiUDNhRGNNVTg1SGV3dHNCbHB4RTVjc0VvQzdxeVVDczhraXUzeHJhYWtYU1FYQ0p4aWJPSmRrXzdsdVdTa3ZzQ01YNEY3Smc?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
 </div>
 <div class="item" id="s-7986342777d3" data-id="7986342777d3" data-packet="Type: News
 Headline: Quinta Brunson Shares The Crazy Lore Behind Jim Carrey&#x27;s &#x27;Grinch&#x27; Makeup
@@ -717,7 +746,7 @@ Headline: Gabourey Sidibe confronts Raven-Symoné over past beef, dynamic on Emp
 People: Raven-Symoné
 Sources: [Entertainment Weekly](https://news.google.com/rss/articles/CBMifEFVX3lxTE8xQV9IMC1Zekd6ZU9seEpSTzlEaW5GcFNqZFZqVW1QLWlncnJyTmFUR3hBWU5adjRERURIRTAzb0ZwaHB2TFpQMWdwbHVGUy1BXy1zdXgxSkVCZ0huY3JwMU55ZFR4T2RmbW5DSTdFNUpHNDNFWEplcTkyQnc?oc=5)">
 <label><span class="t">Gabourey Sidibe confronts Raven-Symoné over past beef, dynamic on Empire set: ‘Treated me like you didn’t like me’</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">18h ago</span><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE8xQV9IMC1Zekd6ZU9seEpSTzlEaW5GcFNqZFZqVW1QLWlncnJyTmFUR3hBWU5adjRERURIRTAzb0ZwaHB2TFpQMWdwbHVGUy1BXy1zdXgxSkVCZ0huY3JwMU55ZFR4T2RmbW5DSTdFNUpHNDNFWEplcTkyQnc?oc=5" target="_blank" rel="noopener">Entertainment Weekly</a></div>
+<div class="meta"><span class="when">19h ago</span><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE8xQV9IMC1Zekd6ZU9seEpSTzlEaW5GcFNqZFZqVW1QLWlncnJyTmFUR3hBWU5adjRERURIRTAzb0ZwaHB2TFpQMWdwbHVGUy1BXy1zdXgxSkVCZ0huY3JwMU55ZFR4T2RmbW5DSTdFNUpHNDNFWEplcTkyQnc?oc=5" target="_blank" rel="noopener">Entertainment Weekly</a></div>
 </div>
 <div class="item" id="s-e66bd45b4be3" data-id="e66bd45b4be3" data-packet="Type: News
 Headline: Bill Hader forgot he played the Cat in the Hat on ‘SNL’ before reprising role for animated movie
@@ -745,7 +774,7 @@ Headline: Georgie &amp; Mandy&#x27;s First Marriage&#x27;s Twist Lays The Ground
 Shows: &#x27;Georgie &amp; Mandy&#x27;s First Marriage&#x27;
 Sources: [ScreenRant](https://news.google.com/rss/articles/CBMinwFBVV95cUxNa28zUjlfajdSSHZ2TnM2SDZVX2t2amZJTTFsWE9kNUpKdndETmZrTlVNNnZaLTBGdnZhRHNpdExKTjItQXlFa09FenZmUzF2eTN1SmdOTG95bTQxREpRLW00VkJ5NnVqdGRxVzJkQzdvUTU5X05LbDBrYjFaMnBLeHlYUUpSazY3VG1mcVFUVlNORXZKUmtHcVVLYnRDQ28?oc=5)">
 <label><span class="t">Georgie &amp; Mandy&#x27;s First Marriage&#x27;s Twist Lays The Groundwork For Mary’s Anti-Sheldon Future</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">20h ago</span><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNa28zUjlfajdSSHZ2TnM2SDZVX2t2amZJTTFsWE9kNUpKdndETmZrTlVNNnZaLTBGdnZhRHNpdExKTjItQXlFa09FenZmUzF2eTN1SmdOTG95bTQxREpRLW00VkJ5NnVqdGRxVzJkQzdvUTU5X05LbDBrYjFaMnBLeHlYUUpSazY3VG1mcVFUVlNORXZKUmtHcVVLYnRDQ28?oc=5" target="_blank" rel="noopener">ScreenRant</a></div>
+<div class="meta"><span class="when">21h ago</span><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNa28zUjlfajdSSHZ2TnM2SDZVX2t2amZJTTFsWE9kNUpKdndETmZrTlVNNnZaLTBGdnZhRHNpdExKTjItQXlFa09FenZmUzF2eTN1SmdOTG95bTQxREpRLW00VkJ5NnVqdGRxVzJkQzdvUTU5X05LbDBrYjFaMnBLeHlYUUpSazY3VG1mcVFUVlNORXZKUmtHcVVLYnRDQ28?oc=5" target="_blank" rel="noopener">ScreenRant</a></div>
 </div>
 <div class="item" id="s-a90bf53bf8a6" data-id="a90bf53bf8a6" data-packet="Type: News
 Headline: Druski Makes History as First Digital Creator to Host SNL, Shares Hilarious Bedwetting Story
@@ -773,7 +802,7 @@ Headline: Favorite Movie Poster of Will Smith&#x27;s Face
 People: Will Smith
 Sources: [IMDb](https://news.google.com/rss/articles/CBMidEFVX3lxTFBVOW14VXNyaS1GUlhNZEhuVF9PVlUyXy0xVlhaVkVRWEpaWDd0X1Q4VzcxdDJVclJMajd5aVBJeW1OUGVfR2hvUi1QSEY4UUhzV2ozU0JFMnd0VHlTM3pDU2VmMnhRRzVJc0Y1V01IZHlvU2to?oc=5)">
 <label><span class="t">Favorite Movie Poster of Will Smith&#x27;s Face</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">21h ago</span><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBVOW14VXNyaS1GUlhNZEhuVF9PVlUyXy0xVlhaVkVRWEpaWDd0X1Q4VzcxdDJVclJMajd5aVBJeW1OUGVfR2hvUi1QSEY4UUhzV2ozU0JFMnd0VHlTM3pDU2VmMnhRRzVJc0Y1V01IZHlvU2to?oc=5" target="_blank" rel="noopener">IMDb</a></div>
+<div class="meta"><span class="when">22h ago</span><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBVOW14VXNyaS1GUlhNZEhuVF9PVlUyXy0xVlhaVkVRWEpaWDd0X1Q4VzcxdDJVclJMajd5aVBJeW1OUGVfR2hvUi1QSEY4UUhzV2ozU0JFMnd0VHlTM3pDU2VmMnhRRzVJc0Y1V01IZHlvU2to?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
 <div class="item" id="s-99135af174df" data-id="99135af174df" data-packet="Type: News
 Headline: Carrie Coon Praises Taylor Swift’s Impersonation of Her &#x27;Gilded Age&#x27; Character on the Tonight Show
@@ -860,12 +889,6 @@ Sources: [Variety](https://variety.com/2026/tv/markets-festivals/alien-cat-comed
 <div class="sum">An alien cat sent to seize Earth’s catnip supply gets sidetracked by a cozy couch and a steady diet of canned tuna in “Operation Maomao,” an animated sci-fi comedy series from Shaogao creator Jonathan Yu that is at the Taiwan Creative Content Fest (TCCF) in Taipei.</div>
 <div class="meta"><span class="when">11h ago</span><a href="https://variety.com/2026/tv/markets-festivals/alien-cat-comedy-operation-maomao-taiwan-creative-content-fest-1236941796/" target="_blank" rel="noopener">Variety</a></div>
 </div>
-<div class="item" id="s-0960163559d8" data-id="0960163559d8" data-packet="Type: News
-Headline: ABC Administers Death Sentence To OG Scrubs Pairing
-Sources: [ScreenRant](https://news.google.com/rss/articles/CBMib0FVX3lxTE1UMnp2YVZBS0o4VjBBbnVnQ1ZxNlh1WHV0Wm9vWXFEdVlzNkRObUU2UVZ2SzBlYmdsd013b01GSGRMajZVRnotQ1RkNlZzRVphZUQ3WXZSUzAxZDdMaUQ4Nk9oMXptaDVEYm1MM3YtVQ?oc=5)">
-<label><span class="t">ABC Administers Death Sentence To OG Scrubs Pairing</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">11h ago</span><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1UMnp2YVZBS0o4VjBBbnVnQ1ZxNlh1WHV0Wm9vWXFEdVlzNkRObUU2UVZ2SzBlYmdsd013b01GSGRMajZVRnotQ1RkNlZzRVphZUQ3WXZSUzAxZDdMaUQ4Nk9oMXptaDVEYm1MM3YtVQ?oc=5" target="_blank" rel="noopener">ScreenRant</a></div>
-</div>
 <div class="item" id="s-f0e1d10ca5c8" data-id="f0e1d10ca5c8" data-packet="Type: News
 Headline: Chad Kroeger Joins Jared Keeso’s New Series &#x27;I Kill the Bear&#x27;
 Sources: [Rolling Stone Canada](https://news.google.com/rss/articles/CBMilwFBVV95cUxQaFE4dmNHUjdYa1hZSU9nZ21uSFEyN1Y5RFpmNl9hYjRfYmFYeUQ0c3Y2Sy1QVENZczlCVndRNlBTN1ZXUTYtU2lpa0I2N3RaY1otVW1OMFo5U05XR0N4aUdBSGpHUTJ3eXYyaHlJY2ZuLUFyNUJiZEJYTzh1eFc5ZDBWal80ZWRZNmlNR1RkNkY5N2ZlN0Zn?oc=5)">
@@ -909,6 +932,12 @@ Sources: [Collider](https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nZGF5Z3d
 <label><span class="t">5 &#x27;70s Sitcoms Too Strange to Last, Ranked</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">23h ago</span><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nZGF5Z3dYbGxVcXptRDVFbDNZb1dBS0tXNy1UWTRVTHZOQXFuMXhMV2tQTUMwVXdibFl1T0JNQ0RWSkVZdE41b0thNE9vMENtVi1WcUlWNW9jX1pOdER1SUQ1WQ?oc=5" target="_blank" rel="noopener">Collider</a></div>
 </div>
+<div class="item" id="s-0960163559d8" data-id="0960163559d8" data-packet="Type: News
+Headline: ABC Administers Death Sentence To OG Scrubs Pairing
+Sources: [ScreenRant](https://news.google.com/rss/articles/CBMib0FVX3lxTE1UMnp2YVZBS0o4VjBBbnVnQ1ZxNlh1WHV0Wm9vWXFEdVlzNkRObUU2UVZ2SzBlYmdsd013b01GSGRMajZVRnotQ1RkNlZzRVphZUQ3WXZSUzAxZDdMaUQ4Nk9oMXptaDVEYm1MM3YtVQ?oc=5)">
+<label><span class="t">ABC Administers Death Sentence To OG Scrubs Pairing</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">12h ago</span><a href="https://news.google.com/rss/articles/CBMib0FVX3lxTE1UMnp2YVZBS0o4VjBBbnVnQ1ZxNlh1WHV0Wm9vWXFEdVlzNkRObUU2UVZ2SzBlYmdsd013b01GSGRMajZVRnotQ1RkNlZzRVphZUQ3WXZSUzAxZDdMaUQ4Nk9oMXptaDVEYm1MM3YtVQ?oc=5" target="_blank" rel="noopener">ScreenRant</a></div>
+</div>
 <div class="item" id="s-da77a3b0c47a" data-id="da77a3b0c47a" data-packet="Type: News
 Headline: Jimmy Kimmel calls on Trump to resign in late-night monologue: ‘Nobody wants you’
 Sources: [Fox News](https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ncmM3VXFFZ2UwTlh1emtRSjJXY1pvUW9yRnZCUzdLTVV5V2dEZkZGX2RLN2xqX2tRM1VCUWlRVW5sSFA2UlhfOV9ENW9Jck8yUU9LWEh3?oc=5)">
@@ -927,7 +956,7 @@ Details: Leo Reich, Emily Fairn, and Olive Gray star in the series, which was cr
 Sources: [Decider](https://decider.com/2026/11/06/it-gets-worse-paramount-plus-review/)">
 <label><span class="t">Stream It Or Skip It: ‘It Gets Worse’ On Paramount+, A Comedy About A Trio Of Roommates Who Realize That Adulting Sucks</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Leo Reich, Emily Fairn, and Olive Gray star in the series, which was created and written by Reich.</div>
-<div class="meta"><span class="when">14h ago</span><a href="https://decider.com/2026/11/06/it-gets-worse-paramount-plus-review/" target="_blank" rel="noopener">Decider</a></div>
+<div class="meta"><span class="when">15h ago</span><a href="https://decider.com/2026/11/06/it-gets-worse-paramount-plus-review/" target="_blank" rel="noopener">Decider</a></div>
 </div>
 <div class="item" id="s-daf2749188aa" data-id="daf2749188aa" data-packet="Type: News
 Headline: The Assassin review – will anybody save Keeley Hawes from this unbearably pathetic boy?
@@ -1030,7 +1059,7 @@ Sources: [Page Six](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSzA4TGd
 </details>
 <h2 id="sec-streaming">Streaming</h2>
 <p class="empty">Nothing new here.</p>
-<h2 id="sec-interviews">Interviews and podcasts<span class="count">30</span></h2>
+<h2 id="sec-interviews">Interviews and podcasts<span class="count">32</span></h2>
 <div class="item" id="s-36c2c662b099" data-id="36c2c662b099" data-packet="Type: Interview
 Headline: ‘Last Man Standing’ actress says it was ‘tough’ replacing beloved star on Tim Allen sitcom
 Shows: &#x27;Last Man Standing&#x27;
@@ -1046,7 +1075,7 @@ People: Hilary Duff
 Sources: [Billboard](https://news.google.com/rss/articles/CBMikAFBVV95cUxNdWdkcEZWbWk2bnRDX2stZ0VsUDlKMmZFZmFxT1VxZjJxd0tBZ1lMeUJRQm1aNUQ2dENMcjlzbElwRXJBSDhWeUxVQjBfR1VROURUYldiYWxhLWNaY3ZPdWhEelJsUTRzY0dwTklMSHpsU2tYZXNVbVpxMVh6TEtOaTdaaFBsV1BrTUk2bVRBTGY?oc=5)">
 <div class="kick"><span class="tag k-interview">Interview</span></div>
 <label><span class="t">Hilary Duff Talks Lucky Me Tour, Pre-Show Rituals &amp; ‘With Love’ Dance Redemption | Takes Us Out</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">18m ago</span><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNdWdkcEZWbWk2bnRDX2stZ0VsUDlKMmZFZmFxT1VxZjJxd0tBZ1lMeUJRQm1aNUQ2dENMcjlzbElwRXJBSDhWeUxVQjBfR1VROURUYldiYWxhLWNaY3ZPdWhEelJsUTRzY0dwTklMSHpsU2tYZXNVbVpxMVh6TEtOaTdaaFBsV1BrTUk2bVRBTGY?oc=5" target="_blank" rel="noopener">Billboard</a></div>
+<div class="meta"><span class="when">25m ago</span><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNdWdkcEZWbWk2bnRDX2stZ0VsUDlKMmZFZmFxT1VxZjJxd0tBZ1lMeUJRQm1aNUQ2dENMcjlzbElwRXJBSDhWeUxVQjBfR1VROURUYldiYWxhLWNaY3ZPdWhEelJsUTRzY0dwTklMSHpsU2tYZXNVbVpxMVh6TEtOaTdaaFBsV1BrTUk2bVRBTGY?oc=5" target="_blank" rel="noopener">Billboard</a></div>
 </div>
 <div class="item" id="s-9c5ece6b1038" data-id="9c5ece6b1038" data-packet="Type: Interview
 Headline: &#x27;Full House&#x27; Star Jodie Sweetin Had Just $190 Left Before Her First &#x27;Fuller House&#x27; Paycheck
@@ -1106,7 +1135,7 @@ Sources: [E! News](https://www.eonline.com/news/1437896/bill-hader-reveals-daugh
 <div class="kick"><span class="tag k-interview">Interview</span></div>
 <label><span class="t">Bill Hader Reveals Hilariously Sweet Milestone With Daughters</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">It is fun to have fun but you have to know how, and after his latest movie, Bill Hader’s kids think he’s pretty cool now. The Saturday Night Live alum shared a rare comment about his dynamic with...</div>
-<div class="meta"><span class="when">15h ago</span><a href="https://www.eonline.com/news/1437896/bill-hader-reveals-daughters-reaction-to-cat-in-the-hat?cmpid=rss-syndicate-genericrss-us-top_stories" target="_blank" rel="noopener">E! News</a></div>
+<div class="meta"><span class="when">16h ago</span><a href="https://www.eonline.com/news/1437896/bill-hader-reveals-daughters-reaction-to-cat-in-the-hat?cmpid=rss-syndicate-genericrss-us-top_stories" target="_blank" rel="noopener">E! News</a></div>
 </div>
 <div class="item" id="s-bbec38f12477" data-id="bbec38f12477" data-packet="Type: Interview
 Headline: Larry David was the comic ‘least likely to succeed’ before changing television forever, biographer says
@@ -1148,6 +1177,28 @@ Sources: [Yahoo](https://news.google.com/rss/articles/CBMiigFBVV95cUxNTHdjcnR5Qz
 <div class="meta"><span class="when">22h ago</span><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNTHdjcnR5QzlSZ3VxbHFTZE1ta2NCQmZ5bmNmODNWTjFWM1JLV2E4clYxRWl6WjhSV0kyOHhoZzUxT1hOaHl2SXdtRFgtZ0UwSnhxa0w4TUJPd1U1Z0dOakxTSnExT2l0cl9YZEthTzViZ3djTUE0R3hxTFYtSmg3R2pGY0JDZzJ0Y2c?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
 </div>
 <h3>Talk-show and podcast clips</h3>
+<div class="item" id="s-c0f616e2b7e3" data-id="c0f616e2b7e3" data-packet="Type: Interview clip
+Headline: Jeff Hiller Got Recognized for His UCB Improv During a Humiliating Anal Exam
+Details: Jeff Hiller talks about how his Widow&#x27;s Bay character was originally supposed to die, learning lines for his solo show The Exhibitionist and auditioning for Stephen Sondheim. Late Night with Seth Meyers.
+Video: Late Night with Seth Meyers on YouTube, https://www.youtube.com/watch?v=RW6gcDsrmdA
+Shows: &#x27;Late Night with Seth Meyers&#x27;
+Sources: [Late Night with Seth Meyers](https://www.youtube.com/watch?v=RW6gcDsrmdA)">
+<div class="kick"><span class="tag k-clip">Clip</span></div>
+<label><span class="t">Jeff Hiller Got Recognized for His UCB Improv During a Humiliating Anal Exam</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="sum">Jeff Hiller talks about how his Widow&#x27;s Bay character was originally supposed to die, learning lines for his solo show The Exhibitionist and auditioning for Stephen Sondheim. Late Night with Seth Meyers.</div>
+<div class="meta"><span class="when">20m ago</span><a href="https://www.youtube.com/watch?v=RW6gcDsrmdA" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
+</div>
+<div class="item" id="s-0a56d22fcddc" data-id="0a56d22fcddc" data-packet="Type: Interview clip
+Headline: John Lutz Makes a Passionate Argument About AI Data Centers
+Details: Seth gives Late Night writer John Lutz a topic he didn&#x27;t know he&#x27;d have to make a passionate argument about. Late Night with Seth Meyers.
+Video: Late Night with Seth Meyers on YouTube, https://www.youtube.com/watch?v=P7j7451oJ40
+Shows: &#x27;Late Night with Seth Meyers&#x27;
+Sources: [Late Night with Seth Meyers](https://www.youtube.com/watch?v=P7j7451oJ40)">
+<div class="kick"><span class="tag k-clip">Clip</span></div>
+<label><span class="t">John Lutz Makes a Passionate Argument About AI Data Centers</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="sum">Seth gives Late Night writer John Lutz a topic he didn&#x27;t know he&#x27;d have to make a passionate argument about. Late Night with Seth Meyers.</div>
+<div class="meta"><span class="when">21m ago</span><a href="https://www.youtube.com/watch?v=P7j7451oJ40" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
+</div>
 <div class="item" id="s-4531911b9fe3" data-id="4531911b9fe3" data-packet="Type: Interview clip
 Headline: Seth Holds a Surprise Inspection of His Monologue Writers in November 2026
 Details: Seth checks in with his monologue writers and holds a surprise inspection to review the quality of their jokes. Late Night with Seth Meyers.
@@ -1300,7 +1351,7 @@ Sources: [The Tonight Show Starring Jimmy Fallon](https://www.youtube.com/watch?
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">Anthony Ippolito Talks Starring as Sylvester Stallone in I Play Rocky, Reenacting Iconic Film Scenes</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Anthony Ippolito talks about starring in the film I Play Rocky, meeting Sylvester Stallone and reenacting iconic scenes from the original movie. The Tonight Show Starring Jimmy Fallon.</div>
-<div class="meta"><span class="when">29h ago</span><a href="https://www.youtube.com/watch?v=rVoNx1yuOH0" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
+<div class="meta"><span class="when">30h ago</span><a href="https://www.youtube.com/watch?v=rVoNx1yuOH0" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
 </div>
 <div class="item" id="s-0a62470b7cc5" data-id="0a62470b7cc5" data-packet="Type: Interview clip
 Headline: Teddy Schleifer on Elon Musk’s $500M Election Flop | The Daily Show
@@ -1340,7 +1391,7 @@ Sources: [The Tonight Show Starring Jimmy Fallon](https://www.youtube.com/watch?
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">Caitlin Clark Shoots Cheeseballs into Jimmy&#x27;s Mouth, Talks Nike Friendship Bracelet Caitlin 1s</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Caitlin Clark talks about achieving her childhood dream of playing in the WNBA and releasing her children&#x27;s book EXTRAordinary! A Little EXTRA to Reach BIG Dreams before shooting cheeseballs into Jimmy&#x27;s mouth with precise accuracy.</div>
-<div class="meta"><span class="when">5h ago</span><a href="https://www.youtube.com/watch?v=KCZaSSr5m6o" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
+<div class="meta"><span class="when">6h ago</span><a href="https://www.youtube.com/watch?v=KCZaSSr5m6o" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
 </div>
 <div class="item" id="s-3897555e929d" data-id="3897555e929d" data-packet="Type: Interview clip
 Headline: #SarahPaulson scored some #HarryStyles merch at #Harryween! #FallonTonight
@@ -1438,7 +1489,7 @@ Video: Late Night with Seth Meyers on YouTube, https://www.youtube.com/shorts/iA
 Sources: [Late Night with Seth Meyers](https://www.youtube.com/shorts/iAfTGi2DNb4)">
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">Kim Kardashian on what it was like working with her mom in “All’s Fair”</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">10h ago</span><a href="https://www.youtube.com/shorts/iAfTGi2DNb4" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
+<div class="meta"><span class="when">11h ago</span><a href="https://www.youtube.com/shorts/iAfTGi2DNb4" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
 </div>
 <div class="item" id="s-81d7d65c9567" data-id="81d7d65c9567" data-packet="Type: Interview clip
 Headline: Sean Evans finally sits down with Sean Evans
@@ -1486,7 +1537,7 @@ Video: The Tonight Show Starring Jimmy Fallon on YouTube, https://www.youtube.co
 Sources: [The Tonight Show Starring Jimmy Fallon](https://www.youtube.com/shorts/wVQtdb99sn4)">
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">22 in the house! #CaitlinClark #FallonTonight</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">11h ago</span><a href="https://www.youtube.com/shorts/wVQtdb99sn4" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
+<div class="meta"><span class="when">12h ago</span><a href="https://www.youtube.com/shorts/wVQtdb99sn4" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
 </div>
 <div class="item" id="s-da040f019215" data-id="da040f019215" data-packet="Type: Interview clip
 Headline: Ross Lynch Secretly Got MARRIED
@@ -1544,7 +1595,7 @@ Sources: [Comedy Central](https://www.youtube.com/shorts/O6emZI2jca4)">
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">Ah, gravity. Brand-new episodes come out Wednesdays at 10:30/9:30c. #BeavisandButtHead</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf</div>
-<div class="meta"><span class="when">13h ago</span><a href="https://www.youtube.com/shorts/O6emZI2jca4" target="_blank" rel="noopener">Comedy Central</a></div>
+<div class="meta"><span class="when">14h ago</span><a href="https://www.youtube.com/shorts/O6emZI2jca4" target="_blank" rel="noopener">Comedy Central</a></div>
 </div>
 <div class="item" id="s-6d8369857b73" data-id="6d8369857b73" data-packet="Type: Interview clip
 Headline: The Golden Bachelorette BREAKUP! Joan Vassos and Chock Chappel End Engagement, 2 Years After Finale
@@ -1642,7 +1693,7 @@ Video: The Tonight Show Starring Jimmy Fallon on YouTube, https://www.youtube.co
 Sources: [The Tonight Show Starring Jimmy Fallon](https://www.youtube.com/shorts/ttpK1lYnv0I)">
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">#JenniferBeals is in the top 0.05% of #TaylorSwift’s listeners on Spotify ❤️ #FallonTonight</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">17h ago</span><a href="https://www.youtube.com/shorts/ttpK1lYnv0I" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
+<div class="meta"><span class="when">18h ago</span><a href="https://www.youtube.com/shorts/ttpK1lYnv0I" target="_blank" rel="noopener">The Tonight Show Starring Jimmy Fallon</a></div>
 </div>
 <div class="item" id="s-d50bd3636adc" data-id="d50bd3636adc" data-packet="Type: Interview clip
 Headline: Leah Sava Jeffries shuts down rumors that she ships herself with #PercyJackson&#x27;s Walker Scobell
@@ -1738,7 +1789,7 @@ Video: Late Night with Seth Meyers on YouTube, https://www.youtube.com/shorts/O6
 Sources: [Late Night with Seth Meyers](https://www.youtube.com/shorts/O6N00L0LeM8)">
 <div class="kick"><span class="tag k-clip">Clip</span></div>
 <label><span class="t">Republicans got spanked #ACloserLook</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">32h ago</span><a href="https://www.youtube.com/shorts/O6N00L0LeM8" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
+<div class="meta"><span class="when">33h ago</span><a href="https://www.youtube.com/shorts/O6N00L0LeM8" target="_blank" rel="noopener">Late Night with Seth Meyers</a></div>
 </div>
 <div class="item" id="s-6e118c0c7e30" data-id="6e118c0c7e30" data-packet="Type: Interview clip
 Headline: Republicans Say Trump Era Is Over &amp; MAGA Is Dead After Blowout, Vance Blames Iran War: A Closer Look
@@ -1776,7 +1827,7 @@ Sources: [Saturday Night Live](https://www.youtube.com/shorts/RlcNCiOHd-Y)">
 <label><span class="t">saturday!! druski!! the strokes!!</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">35h ago</span><a href="https://www.youtube.com/shorts/RlcNCiOHd-Y" target="_blank" rel="noopener">Saturday Night Live</a></div>
 </div></details>
-<h2 id="sec-trailers">Trailers<span class="count">27</span></h2>
+<h2 id="sec-trailers">Trailers<span class="count">28</span></h2>
 <div class="item" id="s-10c6de2c3eb2" data-id="10c6de2c3eb2" data-packet="Type: Trailer
 Headline: Trailer for The Golden Girls
 Shows: &#x27;Golden Girls&#x27;, &#x27;The Golden Girls&#x27;
@@ -1785,19 +1836,19 @@ Sources: [Yahoo](https://news.google.com/rss/articles/CBMif0FVX3lxTFBkNXI5R3J2aW
 <label><span class="t">Trailer for The Golden Girls</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">14h ago</span><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBkNXI5R3J2aWtIb0I4Xzg1YWlxVHN4QTEzWE1HU3dyemd3S2JKZkZ3RHhuOHNHanpMb0w3MGRaaVBZejV5Y1JPNUhVV3hmbWpObG9iMFZLYTE3UGtSY0dJM1diVGVTNmstOHpBUTRYQjMyd3otZEZxc1UzVVUyeVk?oc=5" target="_blank" rel="noopener">Yahoo</a></div>
 </div>
-<div class="item" id="s-95062397a775" data-id="95062397a775" data-packet="Type: Trailer
-Headline: &#x27;Girls&#x27; Season 7: Cast, Premiere Date, Trailer, and More Updates
-Sources: [TV Insider](https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5)">
+<div class="item" id="s-4b96db5f1aeb" data-id="4b96db5f1aeb" data-packet="Type: Trailer
+Headline: Wacky Office Comedy &#x27;Long Haired Businessmen&#x27; Movie Official Trailer
+Sources: [IMDb](https://news.google.com/rss/articles/CBMiZEFVX3lxTE42MkpCUkE4UjQ0bU14ZThvZUtrVVJ5RFFOOFNHV1ROSXE3eWJZUDBiOFYwOGhSUFJyTHhXQUh5T1dmUV9BbE83RmYtS2hzUGxtOVVwNmdPZ2E3WWxPX1FEd3Jab3U?oc=5)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
-<label><span class="t">&#x27;Girls&#x27; Season 7: Cast, Premiere Date, Trailer, and More Updates</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">1h ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5" target="_blank" rel="noopener">TV Insider</a></div>
+<label><span class="t">Wacky Office Comedy &#x27;Long Haired Businessmen&#x27; Movie Official Trailer</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">2h ago</span><a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE42MkpCUkE4UjQ0bU14ZThvZUtrVVJ5RFFOOFNHV1ROSXE3eWJZUDBiOFYwOGhSUFJyTHhXQUh5T1dmUV9BbE83RmYtS2hzUGxtOVVwNmdPZ2E3WWxPX1FEd3Jab3U?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
 <div class="item" id="s-6422e4d00f63" data-id="6422e4d00f63" data-packet="Type: Trailer
 Headline: Greta Gerwig’s ‘Narnia’ Trailer Just Left ‘Barbie’ in the Dust, but Not Everyone Is Sold
 Sources: [IMDb](https://news.google.com/rss/articles/CBMiakFVX3lxTE8tc3htV0plTDB0QVBWV0Q5eDl4Mm5NZFY0bmtDalFkYXBXSDBLTzdhbW1FR1Z4aV95d2w1MnZUa210WUZEV3NlS0JOM0RHS1h4SnplRm9ka3NhWjY0MThCa3lTUWpvRXVNTkE?oc=5)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">Greta Gerwig’s ‘Narnia’ Trailer Just Left ‘Barbie’ in the Dust, but Not Everyone Is Sold</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">4h ago</span><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8tc3htV0plTDB0QVBWV0Q5eDl4Mm5NZFY0bmtDalFkYXBXSDBLTzdhbW1FR1Z4aV95d2w1MnZUa210WUZEV3NlS0JOM0RHS1h4SnplRm9ka3NhWjY0MThCa3lTUWpvRXVNTkE?oc=5" target="_blank" rel="noopener">IMDb</a></div>
+<div class="meta"><span class="when">5h ago</span><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE8tc3htV0plTDB0QVBWV0Q5eDl4Mm5NZFY0bmtDalFkYXBXSDBLTzdhbW1FR1Z4aV95d2w1MnZUa210WUZEV3NlS0JOM0RHS1h4SnplRm9ka3NhWjY0MThCa3lTUWpvRXVNTkE?oc=5" target="_blank" rel="noopener">IMDb</a></div>
 </div>
 <div class="item" id="s-50015dff54ac" data-id="50015dff54ac" data-packet="Type: Trailer
 Headline: ‘Nobody Wants This’ Is Officially Coming Back, and Netflix Announced It With a Wedding Weekend Teaser
@@ -1836,7 +1887,7 @@ Shows: &#x27;SNL&#x27;
 Sources: [Parade Magazine](https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWUFVZFBzb1FHeGF5SThoVDRValJyWFA4eXA2b1M0MGJmQnVUdDRkQVZ1RklLWjBBSUR2WmxfSkY2RXBqLTlJWk5aTk52cUxZQkJXVzRNZEtaS0p5TGRJUVlzbWJWQVBrY1hJWVVQT2Q3RE9pVm5fY0FMSTZBOF8zYjhXRThscGRBOU9wUjl5VjRJUmNjOHVZeHZYeXVib294Q0MtTXR6MDJJQQ?oc=5)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">Druski Says Hosting SNL Is Even Better Than His Childhood Dream in New Promo Video</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
-<div class="meta"><span class="when">20h ago</span><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWUFVZFBzb1FHeGF5SThoVDRValJyWFA4eXA2b1M0MGJmQnVUdDRkQVZ1RklLWjBBSUR2WmxfSkY2RXBqLTlJWk5aTk52cUxZQkJXVzRNZEtaS0p5TGRJUVlzbWJWQVBrY1hJWVVQT2Q3RE9pVm5fY0FMSTZBOF8zYjhXRThscGRBOU9wUjl5VjRJUmNjOHVZeHZYeXVib294Q0MtTXR6MDJJQQ?oc=5" target="_blank" rel="noopener">Parade Magazine</a></div>
+<div class="meta"><span class="when">21h ago</span><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWUFVZFBzb1FHeGF5SThoVDRValJyWFA4eXA2b1M0MGJmQnVUdDRkQVZ1RklLWjBBSUR2WmxfSkY2RXBqLTlJWk5aTk52cUxZQkJXVzRNZEtaS0p5TGRJUVlzbWJWQVBrY1hJWVVQT2Q3RE9pVm5fY0FMSTZBOF8zYjhXRThscGRBOU9wUjl5VjRJUmNjOHVZeHZYeXVib294Q0MtTXR6MDJJQQ?oc=5" target="_blank" rel="noopener">Parade Magazine</a></div>
 </div>
 <div class="item" id="s-6ac9cc9c00b1" data-id="6ac9cc9c00b1" data-packet="Type: Trailer
 Headline: Jason Sudeikis Takes on Fatherhood, Green Pigs in New ‘Angry Birds Movie 3’ Trailer
@@ -1845,6 +1896,13 @@ Sources: [IMDb](https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0ejBzZUhGQ0J
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">Jason Sudeikis Takes on Fatherhood, Green Pigs in New ‘Angry Birds Movie 3’ Trailer</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="meta"><span class="when">23h ago</span><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0ejBzZUhGQ0JiekxLSkFneWFaNnNDOGlaWEZabm5ubWduZV9mQnU5VXFIS2xKTGxpeGh1eTV3Y3QyQVlENlJvYXA5bnZ2QVlpSGt1U2xEQlVMTjRaSDFVaU5vOXo1QQ?oc=5" target="_blank" rel="noopener">IMDb</a></div>
+</div>
+<div class="item" id="s-95062397a775" data-id="95062397a775" data-packet="Type: Trailer
+Headline: &#x27;Girls&#x27; Season 7: Cast, Premiere Date, Trailer, and More Updates
+Sources: [TV Insider](https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5)">
+<div class="kick"><span class="tag k-trailer">Trailer</span></div>
+<label><span class="t">&#x27;Girls&#x27; Season 7: Cast, Premiere Date, Trailer, and More Updates</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
+<div class="meta"><span class="when">7h ago</span><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5" target="_blank" rel="noopener">TV Insider</a></div>
 </div>
 <div class="item" id="s-171381f0bfe9" data-id="171381f0bfe9" data-packet="Type: Trailer
 Headline: ‘The Further Mis-Adventures Of Cliff Booth’ Trailer: More Plot Details Emerge In Latest Look At Fincher-Tarantino-Pitt Team-Up
@@ -2125,7 +2183,7 @@ Sources: [Hulu](https://www.youtube.com/shorts/WlEwVR9FNA0)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">BIG Scorpio energy. 🦂 ✨ #AllsFair is now streaming. New episodes Wednesdays!</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Season 2 of All&#x27;s Fair is now streaming on Hulu and Hulu on Disney+. SUBSCRIBE TO HULU&#x27;S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows &amp; updates.</div>
-<div class="meta"><span class="when">14h ago</span><a href="https://www.youtube.com/shorts/WlEwVR9FNA0" target="_blank" rel="noopener">Hulu</a></div>
+<div class="meta"><span class="when">15h ago</span><a href="https://www.youtube.com/shorts/WlEwVR9FNA0" target="_blank" rel="noopener">Hulu</a></div>
 </div>
 <div class="item" id="s-90423006af19" data-id="90423006af19" data-packet="Type: Trailer
 Headline: Dig in! #AllsFair
@@ -2135,7 +2193,7 @@ Sources: [Hulu](https://www.youtube.com/shorts/MUwp7ZLZKJs)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">Dig in! #AllsFair</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">Season 2 of All&#x27;s Fair is now streaming on Hulu and Hulu on Disney+. SUBSCRIBE TO HULU&#x27;S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows &amp; updates.</div>
-<div class="meta"><span class="when">14h ago</span><a href="https://www.youtube.com/shorts/MUwp7ZLZKJs" target="_blank" rel="noopener">Hulu</a></div>
+<div class="meta"><span class="when">15h ago</span><a href="https://www.youtube.com/shorts/MUwp7ZLZKJs" target="_blank" rel="noopener">Hulu</a></div>
 </div>
 <div class="item" id="s-b75f51cfb592" data-id="b75f51cfb592" data-packet="Type: Trailer
 Headline: Jack Reacher: &quot;Cowboy S#*t&quot; | REACHER Edit
@@ -2245,7 +2303,7 @@ Sources: [Apple TV](https://www.youtube.com/shorts/Zf266MdAnkA)">
 <div class="kick"><span class="tag k-trailer">Trailer</span></div>
 <label><span class="t">Cheers to another season. #KnifeEdge: Chasing Michelin Stars is officially renewed for Season 3.</span><input type="checkbox" class="pick" aria-label="Pick this story"></label>
 <div class="sum">From executive producer Gordon Ramsay, Knife Edge: Chasing Michelin Stars, hosted by Topjaw&#x27;s Jesse Burgess, now streaming on Apple TV.</div>
-<div class="meta"><span class="when">20h ago</span><a href="https://www.youtube.com/shorts/Zf266MdAnkA" target="_blank" rel="noopener">Apple TV</a></div>
+<div class="meta"><span class="when">21h ago</span><a href="https://www.youtube.com/shorts/Zf266MdAnkA" target="_blank" rel="noopener">Apple TV</a></div>
 </div>
 <div class="item" id="s-fded868d3ee9" data-id="fded868d3ee9" data-packet="Type: Trailer
 Headline: Other Worlds: A Stranger Things Adventure | Official Announcement | Netflix
@@ -2808,7 +2866,7 @@ Sources: [Wikipedia](https://en.wikipedia.org/wiki/Wanda_at_Large) · [Wikidata]
 <div class="meta"><span class="when">2003</span><a href="https://en.wikipedia.org/wiki/Wanda_at_Large" target="_blank" rel="noopener">Wikipedia</a> and <a href="https://www.wikidata.org/wiki/Q7967150" target="_blank" rel="noopener">Wikidata</a></div>
 </div>
 <h2 id="sec-sources">Sources</h2>
-<details class="health"><summary>82 sources worked. Show the list</summary><div class="tablewrap"><table><tr><th>Type</th><th>Source</th><th>Status</th><th>Stories</th><th>Note</th></tr><tr><td>feed</td><td>Deadline</td><td>ok</td><td>12</td><td></td></tr><tr><td>feed</td><td>Variety</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>The Hollywood Reporter</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>TVLine</td><td>ok</td><td>20</td><td></td></tr><tr><td>feed</td><td>TV Insider</td><td>ok</td><td>30</td><td></td></tr><tr><td>feed</td><td>TheWrap</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>Decider</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>Collider</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>IndieWire</td><td>ok</td><td>12</td><td></td></tr><tr><td>feed</td><td>E! News</td><td>ok</td><td>30</td><td></td></tr><tr><td>feed</td><td>Just Jared</td><td>ok</td><td>25</td><td></td></tr><tr><td>search</td><td>sitcom</td><td>ok</td><td>20</td><td></td></tr><tr><td>search</td><td>&quot;comedy series&quot;</td><td>ok</td><td>11</td><td></td></tr><tr><td>search</td><td>sitcom trailer OR &quot;comedy series&quot; trailer</td><td>ok</td><td>20</td><td></td></tr><tr><td>search</td><td>&quot;sitcom star&quot; OR &quot;sitcom actor&quot; OR &quot;sitcom actress&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>late-night show guests</td><td>ok</td><td>10</td><td></td></tr><tr><td>search</td><td>sitcom (dies OR &quot;passed away&quot; OR canceled OR renewed OR exits OR arrested OR revival OR reboot)</td><td>ok</td><td>8</td><td></td></tr><tr><td>search</td><td>&quot;comedy series&quot; (canceled OR renewed OR revival OR reboot OR &quot;final season&quot;)</td><td>ok</td><td>6</td><td></td></tr><tr><td>search</td><td>&quot;Abbott Elementary&quot; OR &quot;Young Sheldon&quot; OR &quot;Georgie &amp; Mandy&#x27;s First Marriage&quot; OR &quot;Big Bang Theory&quot; OR &quot;Two and a Half Men&quot; OR &quot;Mike &amp; Molly&quot;</td><td>ok</td><td>10</td><td></td></tr><tr><td>search</td><td>&quot;The Kominsky Method&quot; OR &quot;Bob Hearts Abishola&quot; OR &quot;The Neighborhood&quot; OR &quot;Poppa&#x27;s House&quot; OR &quot;Happy&#x27;s Place&quot; OR &quot;Shifting Gears&quot;</td><td>ok</td><td>11</td><td></td></tr><tr><td>search</td><td>&quot;Night Court&quot; OR &quot;The Conners&quot; OR &quot;Roseanne&quot; OR &quot;St. Denis Medical&quot; OR &quot;Brooklyn Nine-Nine&quot; OR &quot;The Office&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Parks and Recreation&quot; OR &quot;Parks and Rec&quot; OR &quot;Modern Family&quot; OR &quot;New Girl&quot; OR &quot;Seinfeld&quot; OR &quot;Curb Your Enthusiasm&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;It&#x27;s Always Sunny&quot; OR &quot;Always Sunny&quot; OR &quot;How I Met Your Mother&quot; OR &quot;How I Met Your Father&quot; OR &quot;Frasier&quot; OR &quot;The Goldbergs&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;That &#x27;70s Show&quot; OR &quot;That &#x27;90s Show&quot; OR &quot;Malcolm in the Middle&quot; OR &quot;The Good Place&quot; OR &quot;Grace Under Fire&quot; OR &quot;Suddenly Susan&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;A Different World&quot; OR &quot;The Cosby Show&quot; OR &quot;Fresh Prince&quot; OR &quot;Family Matters&quot; OR &quot;Full House&quot; OR &quot;Fuller House&quot;</td><td>ok</td><td>9</td><td></td></tr><tr><td>search</td><td>&quot;Everybody Loves Raymond&quot; OR &quot;The King of Queens&quot; OR &quot;Everybody Hates Chris&quot; OR &quot;Everybody Still Hates Chris&quot; OR &quot;Black-ish&quot; OR &quot;Grown-ish&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;Mixed-ish&quot; OR &quot;The Parkers&quot; OR &quot;Living Single&quot; OR &quot;Sister, Sister&quot; OR &quot;Kenan &amp; Kel&quot; OR &quot;That&#x27;s So Raven&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>&quot;Raven&#x27;s Home&quot; OR &quot;iCarly&quot; OR &quot;Hannah Montana&quot; OR &quot;Wizards of Waverly Place&quot; OR &quot;Wizards Beyond Waverly Place&quot; OR &quot;Arrested Development&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;30 Rock&quot; OR &quot;Will &amp; Grace&quot; OR &quot;Mad About You&quot; OR &quot;Home Improvement&quot; OR &quot;Last Man Standing&quot; OR &quot;The Middle&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Workaholics&quot; OR &quot;What We Do in the Shadows&quot; OR &quot;Reservation Dogs&quot; OR &quot;Schitt&#x27;s Creek&quot; OR &quot;Silicon Valley&quot; OR &quot;Fresh Off the Boat&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;The Mindy Project&quot; OR &quot;Never Have I Ever&quot; OR &quot;Kim&#x27;s Convenience&quot; OR &quot;Letterkenny&quot; OR &quot;Shoresy&quot; OR &quot;Only Murders in the Building&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Ted Lasso&quot; OR &quot;Nobody Wants This&quot; OR &quot;The Bear&quot; OR &quot;Jury Duty&quot; OR &quot;English Teacher&quot; OR &quot;Mid-Century Modern&quot;</td><td>ok</td><td>29</td><td></td></tr><tr><td>search</td><td>&quot;The Four Seasons&quot; OR &quot;Running Point&quot; OR &quot;The Studio&quot; OR &quot;Girls5eva&quot; OR &quot;Unbreakable Kimmy Schmidt&quot; OR &quot;The Ranch&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Married... with Children&quot; OR &quot;I Love Lucy&quot; OR &quot;The Golden Girls&quot; OR &quot;Golden Girls&quot; OR &quot;Saved by the Bell&quot; OR &quot;Boy Meets World&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;Girl Meets World&quot; OR &quot;Sabrina the Teenage Witch&quot; OR &quot;Step by Step&quot; OR &quot;Perfect Strangers&quot; OR &quot;Diff&#x27;rent Strokes&quot; OR &quot;The Jeffersons&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Good Times&quot; OR &quot;Sanford and Son&quot; OR &quot;Murphy Brown&quot; OR &quot;Designing Women&quot; OR &quot;The Nanny&quot; OR &quot;Spin City&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;3rd Rock from the Sun&quot; OR &quot;NewsRadio&quot; OR &quot;M*A*S*H&quot; OR &quot;Happy Days&quot; OR &quot;Laverne &amp; Shirley&quot; OR &quot;The Simpsons&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>&quot;Family Guy&quot; OR &quot;Bob&#x27;s Burgers&quot; OR &quot;King of the Hill&quot; OR &quot;South Park&quot; OR &quot;Futurama&quot; OR &quot;American Dad&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Saturday Night Live&quot; OR &quot;SNL&quot; OR &quot;Jimmy Kimmel Live&quot; OR &quot;The Tonight Show&quot; OR &quot;Late Night with Seth Meyers&quot; OR &quot;The Late Show&quot;</td><td>ok</td><td>18</td><td></td></tr><tr><td>search</td><td>&quot;The Daily Show&quot; OR &quot;The IT Crowd&quot; OR &quot;Peep Show&quot; OR &quot;Gavin &amp; Stacey&quot; OR &quot;Derry Girls&quot; OR &quot;Fawlty Towers&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Quinta Brunson&quot; OR &quot;Janelle James&quot; OR &quot;Tyler James Williams&quot; OR &quot;Sheryl Lee Ralph&quot; OR &quot;Lisa Ann Walter&quot; OR &quot;Chris Perfetti&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Chuck Lorre&quot; OR &quot;Leanne Morgan&quot; OR &quot;Melissa McCarthy&quot; OR &quot;Billy Gardell&quot; OR &quot;Jim Parsons&quot; OR &quot;Kaley Cuoco&quot;</td><td>ok</td><td>6</td><td></td></tr><tr><td>search</td><td>&quot;Johnny Galecki&quot; OR &quot;Mayim Bialik&quot; OR &quot;Iain Armitage&quot; OR &quot;Montana Jordan&quot; OR &quot;Jon Cryer&quot; OR &quot;Charlie Sheen&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Ashton Kutcher&quot; OR &quot;Mila Kunis&quot; OR &quot;Topher Grace&quot; OR &quot;Reba McEntire&quot; OR &quot;Tim Allen&quot; OR &quot;Cedric the Entertainer&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Tichina Arnold&quot; OR &quot;Ray Romano&quot; OR &quot;Kevin James&quot; OR &quot;Jennifer Aniston&quot; OR &quot;Courteney Cox&quot; OR &quot;Lisa Kudrow&quot;</td><td>ok</td><td>10</td><td></td></tr><tr><td>search</td><td>&quot;Matt LeBlanc&quot; OR &quot;David Schwimmer&quot; OR &quot;Jerry Seinfeld&quot; OR &quot;Julia Louis-Dreyfus&quot; OR &quot;Larry David&quot; OR &quot;Jason Alexander&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Steve Carell&quot; OR &quot;Jenna Fischer&quot; OR &quot;Angela Kinsey&quot; OR &quot;Rainn Wilson&quot; OR &quot;John Krasinski&quot; OR &quot;Mindy Kaling&quot;</td><td>ok</td><td>6</td><td></td></tr><tr><td>search</td><td>&quot;B.J. Novak&quot; OR &quot;Ed Helms&quot; OR &quot;Michael Schur&quot; OR &quot;Amy Poehler&quot; OR &quot;Nick Offerman&quot; OR &quot;Aubrey Plaza&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Adam Scott&quot; OR &quot;Tina Fey&quot; OR &quot;Andy Samberg&quot; OR &quot;Terry Crews&quot; OR &quot;Stephanie Beatriz&quot; OR &quot;Zooey Deschanel&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Jake Johnson&quot; OR &quot;Max Greenfield&quot; OR &quot;Lamorne Morris&quot; OR &quot;Sofia Vergara&quot; OR &quot;Ty Burrell&quot; OR &quot;Julie Bowen&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Jesse Tyler Ferguson&quot; OR &quot;Eric Stonestreet&quot; OR &quot;Ariel Winter&quot; OR &quot;Sarah Hyland&quot; OR &quot;Steven Levitan&quot; OR &quot;Kelsey Grammer&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Ted Danson&quot; OR &quot;Kristen Bell&quot; OR &quot;Neil Patrick Harris&quot; OR &quot;Josh Radnor&quot; OR &quot;Jason Segel&quot; OR &quot;Alyson Hannigan&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Cobie Smulders&quot; OR &quot;Hilary Duff&quot; OR &quot;Danny DeVito&quot; OR &quot;Charlie Day&quot; OR &quot;Kaitlin Olson&quot; OR &quot;Rob McElhenney&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Glenn Howerton&quot; OR &quot;Frankie Muniz&quot; OR &quot;Bryan Cranston&quot; OR &quot;Wendi McLendon-Covey&quot; OR &quot;Tracee Ellis Ross&quot; OR &quot;Anthony Anderson&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Kenan Thompson&quot; OR &quot;Issa Rae&quot; OR &quot;Jean Smart&quot; OR &quot;Hannah Einbinder&quot; OR &quot;Martin Short&quot; OR &quot;Steve Martin&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Jason Sudeikis&quot; OR &quot;Hannah Waddingham&quot; OR &quot;Brett Goldstein&quot; OR &quot;Kristen Wiig&quot; OR &quot;Maya Rudolph&quot; OR &quot;Ayo Edebiri&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Jeremy Allen White&quot; OR &quot;Sean Hayes&quot; OR &quot;Debra Messing&quot; OR &quot;Eric McCormack&quot; OR &quot;Megan Mullally&quot; OR &quot;Will Smith&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Tatyana Ali&quot; OR &quot;Alfonso Ribeiro&quot; OR &quot;Jaleel White&quot; OR &quot;Raven-Symoné&quot; OR &quot;Kel Mitchell&quot; OR &quot;Tisha Campbell&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Martin Lawrence&quot; OR &quot;Queen Latifah&quot; OR &quot;Bob Saget&quot; OR &quot;John Stamos&quot; OR &quot;Candace Cameron Bure&quot; OR &quot;Fran Drescher&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Ellen DeGeneres&quot; OR &quot;Patricia Heaton&quot; OR &quot;Tony Danza&quot; OR &quot;Dan Levy&quot; OR &quot;Eugene Levy&quot; OR &quot;Catherine O&#x27;Hara&quot;</td><td>ok</td><td>16</td><td></td></tr><tr><td>search</td><td>&quot;Annie Murphy&quot; OR &quot;Kumail Nanjiani&quot; OR &quot;Jenna Ortega&quot; OR &quot;Bowen Yang&quot; OR &quot;Sarah Sherman&quot; OR &quot;Nate Bargatze&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Sebastian Maniscalco&quot; OR &quot;Kevin Hart&quot; OR &quot;Bill Burr&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>youtube</td><td>The Tonight Show Starring Jimmy Fallon</td><td>ok</td><td>15</td><td>channel: The Tonight Show Starring Jimmy Fallon</td></tr><tr><td>youtube</td><td>Jimmy Kimmel Live</td><td>ok</td><td>15</td><td>channel: Jimmy Kimmel Live</td></tr><tr><td>youtube</td><td>Late Night with Seth Meyers</td><td>ok</td><td>15</td><td>channel: Late Night with Seth Meyers</td></tr><tr><td>youtube</td><td>The Late Show with Stephen Colbert</td><td>ok</td><td>15</td><td>channel: The Late Show with Stephen Colbert</td></tr><tr><td>youtube</td><td>Saturday Night Live</td><td>ok</td><td>15</td><td>channel: Saturday Night Live</td></tr><tr><td>youtube</td><td>The Daily Show</td><td>ok</td><td>15</td><td>channel: The Daily Show</td></tr><tr><td>youtube</td><td>First We Feast (Hot Ones)</td><td>ok</td><td>15</td><td>channel: First We Feast</td></tr><tr><td>youtube</td><td>Comedy Central</td><td>ok</td><td>15</td><td>channel: Comedy Central</td></tr><tr><td>youtube</td><td>Netflix</td><td>ok</td><td>15</td><td>channel: Netflix</td></tr><tr><td>youtube</td><td>Prime Video</td><td>ok</td><td>15</td><td>channel: Prime Video</td></tr><tr><td>youtube</td><td>Hulu</td><td>ok</td><td>15</td><td>channel: Hulu</td></tr><tr><td>youtube</td><td>Apple TV</td><td>ok</td><td>15</td><td>channel: Apple TV</td></tr><tr><td>youtube</td><td>HBO Max</td><td>ok</td><td>15</td><td>channel: HBO Max</td></tr><tr><td>youtube</td><td>Variety</td><td>ok</td><td>15</td><td>channel: Variety</td></tr><tr><td>youtube</td><td>Entertainment Tonight</td><td>ok</td><td>15</td><td>channel: Entertainment Tonight</td></tr><tr><td>wikidata</td><td>birthdays</td><td>ok</td><td>17</td><td></td></tr><tr><td>wikidata</td><td>deaths</td><td>ok</td><td>1</td><td></td></tr><tr><td>wikidata</td><td>premieres</td><td>ok</td><td>2</td><td></td></tr><tr><td>wikidata</td><td>finales</td><td>ok</td><td>7</td><td></td></tr><tr><td>tmdb</td><td>upcoming premieres</td><td>ok</td><td>11</td><td></td></tr></table></div></details>
+<details class="health"><summary>82 sources worked. Show the list</summary><div class="tablewrap"><table><tr><th>Type</th><th>Source</th><th>Status</th><th>Stories</th><th>Note</th></tr><tr><td>feed</td><td>Deadline</td><td>ok</td><td>12</td><td></td></tr><tr><td>feed</td><td>Variety</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>The Hollywood Reporter</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>TVLine</td><td>ok</td><td>20</td><td></td></tr><tr><td>feed</td><td>TV Insider</td><td>ok</td><td>30</td><td></td></tr><tr><td>feed</td><td>TheWrap</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>Decider</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>Collider</td><td>ok</td><td>10</td><td></td></tr><tr><td>feed</td><td>IndieWire</td><td>ok</td><td>12</td><td></td></tr><tr><td>feed</td><td>E! News</td><td>ok</td><td>30</td><td></td></tr><tr><td>feed</td><td>Just Jared</td><td>ok</td><td>25</td><td></td></tr><tr><td>search</td><td>sitcom</td><td>ok</td><td>21</td><td></td></tr><tr><td>search</td><td>&quot;comedy series&quot;</td><td>ok</td><td>11</td><td></td></tr><tr><td>search</td><td>sitcom trailer OR &quot;comedy series&quot; trailer</td><td>ok</td><td>20</td><td></td></tr><tr><td>search</td><td>&quot;sitcom star&quot; OR &quot;sitcom actor&quot; OR &quot;sitcom actress&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>late-night show guests</td><td>ok</td><td>10</td><td></td></tr><tr><td>search</td><td>sitcom (dies OR &quot;passed away&quot; OR canceled OR renewed OR exits OR arrested OR revival OR reboot)</td><td>ok</td><td>9</td><td></td></tr><tr><td>search</td><td>&quot;comedy series&quot; (canceled OR renewed OR revival OR reboot OR &quot;final season&quot;)</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Abbott Elementary&quot; OR &quot;Young Sheldon&quot; OR &quot;Georgie &amp; Mandy&#x27;s First Marriage&quot; OR &quot;Big Bang Theory&quot; OR &quot;Two and a Half Men&quot; OR &quot;Mike &amp; Molly&quot;</td><td>ok</td><td>10</td><td></td></tr><tr><td>search</td><td>&quot;The Kominsky Method&quot; OR &quot;Bob Hearts Abishola&quot; OR &quot;The Neighborhood&quot; OR &quot;Poppa&#x27;s House&quot; OR &quot;Happy&#x27;s Place&quot; OR &quot;Shifting Gears&quot;</td><td>ok</td><td>11</td><td></td></tr><tr><td>search</td><td>&quot;Night Court&quot; OR &quot;The Conners&quot; OR &quot;Roseanne&quot; OR &quot;St. Denis Medical&quot; OR &quot;Brooklyn Nine-Nine&quot; OR &quot;The Office&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Parks and Recreation&quot; OR &quot;Parks and Rec&quot; OR &quot;Modern Family&quot; OR &quot;New Girl&quot; OR &quot;Seinfeld&quot; OR &quot;Curb Your Enthusiasm&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>&quot;It&#x27;s Always Sunny&quot; OR &quot;Always Sunny&quot; OR &quot;How I Met Your Mother&quot; OR &quot;How I Met Your Father&quot; OR &quot;Frasier&quot; OR &quot;The Goldbergs&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;That &#x27;70s Show&quot; OR &quot;That &#x27;90s Show&quot; OR &quot;Malcolm in the Middle&quot; OR &quot;The Good Place&quot; OR &quot;Grace Under Fire&quot; OR &quot;Suddenly Susan&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;A Different World&quot; OR &quot;The Cosby Show&quot; OR &quot;Fresh Prince&quot; OR &quot;Family Matters&quot; OR &quot;Full House&quot; OR &quot;Fuller House&quot;</td><td>ok</td><td>9</td><td></td></tr><tr><td>search</td><td>&quot;Everybody Loves Raymond&quot; OR &quot;The King of Queens&quot; OR &quot;Everybody Hates Chris&quot; OR &quot;Everybody Still Hates Chris&quot; OR &quot;Black-ish&quot; OR &quot;Grown-ish&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;Mixed-ish&quot; OR &quot;The Parkers&quot; OR &quot;Living Single&quot; OR &quot;Sister, Sister&quot; OR &quot;Kenan &amp; Kel&quot; OR &quot;That&#x27;s So Raven&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>&quot;Raven&#x27;s Home&quot; OR &quot;iCarly&quot; OR &quot;Hannah Montana&quot; OR &quot;Wizards of Waverly Place&quot; OR &quot;Wizards Beyond Waverly Place&quot; OR &quot;Arrested Development&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;30 Rock&quot; OR &quot;Will &amp; Grace&quot; OR &quot;Mad About You&quot; OR &quot;Home Improvement&quot; OR &quot;Last Man Standing&quot; OR &quot;The Middle&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Workaholics&quot; OR &quot;What We Do in the Shadows&quot; OR &quot;Reservation Dogs&quot; OR &quot;Schitt&#x27;s Creek&quot; OR &quot;Silicon Valley&quot; OR &quot;Fresh Off the Boat&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;The Mindy Project&quot; OR &quot;Never Have I Ever&quot; OR &quot;Kim&#x27;s Convenience&quot; OR &quot;Letterkenny&quot; OR &quot;Shoresy&quot; OR &quot;Only Murders in the Building&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Ted Lasso&quot; OR &quot;Nobody Wants This&quot; OR &quot;The Bear&quot; OR &quot;Jury Duty&quot; OR &quot;English Teacher&quot; OR &quot;Mid-Century Modern&quot;</td><td>ok</td><td>29</td><td></td></tr><tr><td>search</td><td>&quot;The Four Seasons&quot; OR &quot;Running Point&quot; OR &quot;The Studio&quot; OR &quot;Girls5eva&quot; OR &quot;Unbreakable Kimmy Schmidt&quot; OR &quot;The Ranch&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Married... with Children&quot; OR &quot;I Love Lucy&quot; OR &quot;The Golden Girls&quot; OR &quot;Golden Girls&quot; OR &quot;Saved by the Bell&quot; OR &quot;Boy Meets World&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;Girl Meets World&quot; OR &quot;Sabrina the Teenage Witch&quot; OR &quot;Step by Step&quot; OR &quot;Perfect Strangers&quot; OR &quot;Diff&#x27;rent Strokes&quot; OR &quot;The Jeffersons&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Good Times&quot; OR &quot;Sanford and Son&quot; OR &quot;Murphy Brown&quot; OR &quot;Designing Women&quot; OR &quot;The Nanny&quot; OR &quot;Spin City&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;3rd Rock from the Sun&quot; OR &quot;NewsRadio&quot; OR &quot;M*A*S*H&quot; OR &quot;Happy Days&quot; OR &quot;Laverne &amp; Shirley&quot; OR &quot;The Simpsons&quot;</td><td>ok</td><td>0</td><td></td></tr><tr><td>search</td><td>&quot;Family Guy&quot; OR &quot;Bob&#x27;s Burgers&quot; OR &quot;King of the Hill&quot; OR &quot;South Park&quot; OR &quot;Futurama&quot; OR &quot;American Dad&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Saturday Night Live&quot; OR &quot;SNL&quot; OR &quot;Jimmy Kimmel Live&quot; OR &quot;The Tonight Show&quot; OR &quot;Late Night with Seth Meyers&quot; OR &quot;The Late Show&quot;</td><td>ok</td><td>18</td><td></td></tr><tr><td>search</td><td>&quot;The Daily Show&quot; OR &quot;The IT Crowd&quot; OR &quot;Peep Show&quot; OR &quot;Gavin &amp; Stacey&quot; OR &quot;Derry Girls&quot; OR &quot;Fawlty Towers&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Quinta Brunson&quot; OR &quot;Janelle James&quot; OR &quot;Tyler James Williams&quot; OR &quot;Sheryl Lee Ralph&quot; OR &quot;Lisa Ann Walter&quot; OR &quot;Chris Perfetti&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Chuck Lorre&quot; OR &quot;Leanne Morgan&quot; OR &quot;Melissa McCarthy&quot; OR &quot;Billy Gardell&quot; OR &quot;Jim Parsons&quot; OR &quot;Kaley Cuoco&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Johnny Galecki&quot; OR &quot;Mayim Bialik&quot; OR &quot;Iain Armitage&quot; OR &quot;Montana Jordan&quot; OR &quot;Jon Cryer&quot; OR &quot;Charlie Sheen&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Ashton Kutcher&quot; OR &quot;Mila Kunis&quot; OR &quot;Topher Grace&quot; OR &quot;Reba McEntire&quot; OR &quot;Tim Allen&quot; OR &quot;Cedric the Entertainer&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Tichina Arnold&quot; OR &quot;Ray Romano&quot; OR &quot;Kevin James&quot; OR &quot;Jennifer Aniston&quot; OR &quot;Courteney Cox&quot; OR &quot;Lisa Kudrow&quot;</td><td>ok</td><td>11</td><td></td></tr><tr><td>search</td><td>&quot;Matt LeBlanc&quot; OR &quot;David Schwimmer&quot; OR &quot;Jerry Seinfeld&quot; OR &quot;Julia Louis-Dreyfus&quot; OR &quot;Larry David&quot; OR &quot;Jason Alexander&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>search</td><td>&quot;Steve Carell&quot; OR &quot;Jenna Fischer&quot; OR &quot;Angela Kinsey&quot; OR &quot;Rainn Wilson&quot; OR &quot;John Krasinski&quot; OR &quot;Mindy Kaling&quot;</td><td>ok</td><td>6</td><td></td></tr><tr><td>search</td><td>&quot;B.J. Novak&quot; OR &quot;Ed Helms&quot; OR &quot;Michael Schur&quot; OR &quot;Amy Poehler&quot; OR &quot;Nick Offerman&quot; OR &quot;Aubrey Plaza&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Adam Scott&quot; OR &quot;Tina Fey&quot; OR &quot;Andy Samberg&quot; OR &quot;Terry Crews&quot; OR &quot;Stephanie Beatriz&quot; OR &quot;Zooey Deschanel&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Jake Johnson&quot; OR &quot;Max Greenfield&quot; OR &quot;Lamorne Morris&quot; OR &quot;Sofia Vergara&quot; OR &quot;Ty Burrell&quot; OR &quot;Julie Bowen&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Jesse Tyler Ferguson&quot; OR &quot;Eric Stonestreet&quot; OR &quot;Ariel Winter&quot; OR &quot;Sarah Hyland&quot; OR &quot;Steven Levitan&quot; OR &quot;Kelsey Grammer&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Ted Danson&quot; OR &quot;Kristen Bell&quot; OR &quot;Neil Patrick Harris&quot; OR &quot;Josh Radnor&quot; OR &quot;Jason Segel&quot; OR &quot;Alyson Hannigan&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Cobie Smulders&quot; OR &quot;Hilary Duff&quot; OR &quot;Danny DeVito&quot; OR &quot;Charlie Day&quot; OR &quot;Kaitlin Olson&quot; OR &quot;Rob McElhenney&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Glenn Howerton&quot; OR &quot;Frankie Muniz&quot; OR &quot;Bryan Cranston&quot; OR &quot;Wendi McLendon-Covey&quot; OR &quot;Tracee Ellis Ross&quot; OR &quot;Anthony Anderson&quot;</td><td>ok</td><td>2</td><td></td></tr><tr><td>search</td><td>&quot;Kenan Thompson&quot; OR &quot;Issa Rae&quot; OR &quot;Jean Smart&quot; OR &quot;Hannah Einbinder&quot; OR &quot;Martin Short&quot; OR &quot;Steve Martin&quot;</td><td>ok</td><td>1</td><td></td></tr><tr><td>search</td><td>&quot;Jason Sudeikis&quot; OR &quot;Hannah Waddingham&quot; OR &quot;Brett Goldstein&quot; OR &quot;Kristen Wiig&quot; OR &quot;Maya Rudolph&quot; OR &quot;Ayo Edebiri&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Jeremy Allen White&quot; OR &quot;Sean Hayes&quot; OR &quot;Debra Messing&quot; OR &quot;Eric McCormack&quot; OR &quot;Megan Mullally&quot; OR &quot;Will Smith&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Tatyana Ali&quot; OR &quot;Alfonso Ribeiro&quot; OR &quot;Jaleel White&quot; OR &quot;Raven-Symoné&quot; OR &quot;Kel Mitchell&quot; OR &quot;Tisha Campbell&quot;</td><td>ok</td><td>5</td><td></td></tr><tr><td>search</td><td>&quot;Martin Lawrence&quot; OR &quot;Queen Latifah&quot; OR &quot;Bob Saget&quot; OR &quot;John Stamos&quot; OR &quot;Candace Cameron Bure&quot; OR &quot;Fran Drescher&quot;</td><td>ok</td><td>7</td><td></td></tr><tr><td>search</td><td>&quot;Ellen DeGeneres&quot; OR &quot;Patricia Heaton&quot; OR &quot;Tony Danza&quot; OR &quot;Dan Levy&quot; OR &quot;Eugene Levy&quot; OR &quot;Catherine O&#x27;Hara&quot;</td><td>ok</td><td>16</td><td></td></tr><tr><td>search</td><td>&quot;Annie Murphy&quot; OR &quot;Kumail Nanjiani&quot; OR &quot;Jenna Ortega&quot; OR &quot;Bowen Yang&quot; OR &quot;Sarah Sherman&quot; OR &quot;Nate Bargatze&quot;</td><td>ok</td><td>4</td><td></td></tr><tr><td>search</td><td>&quot;Sebastian Maniscalco&quot; OR &quot;Kevin Hart&quot; OR &quot;Bill Burr&quot;</td><td>ok</td><td>3</td><td></td></tr><tr><td>youtube</td><td>The Tonight Show Starring Jimmy Fallon</td><td>ok</td><td>15</td><td>channel: The Tonight Show Starring Jimmy Fallon</td></tr><tr><td>youtube</td><td>Jimmy Kimmel Live</td><td>ok</td><td>15</td><td>channel: Jimmy Kimmel Live</td></tr><tr><td>youtube</td><td>Late Night with Seth Meyers</td><td>ok</td><td>15</td><td>channel: Late Night with Seth Meyers</td></tr><tr><td>youtube</td><td>The Late Show with Stephen Colbert</td><td>ok</td><td>15</td><td>channel: The Late Show with Stephen Colbert</td></tr><tr><td>youtube</td><td>Saturday Night Live</td><td>ok</td><td>15</td><td>channel: Saturday Night Live</td></tr><tr><td>youtube</td><td>The Daily Show</td><td>ok</td><td>15</td><td>channel: The Daily Show</td></tr><tr><td>youtube</td><td>First We Feast (Hot Ones)</td><td>ok</td><td>15</td><td>channel: First We Feast</td></tr><tr><td>youtube</td><td>Comedy Central</td><td>ok</td><td>15</td><td>channel: Comedy Central</td></tr><tr><td>youtube</td><td>Netflix</td><td>ok</td><td>15</td><td>channel: Netflix</td></tr><tr><td>youtube</td><td>Prime Video</td><td>ok</td><td>15</td><td>channel: Prime Video</td></tr><tr><td>youtube</td><td>Hulu</td><td>ok</td><td>15</td><td>channel: Hulu</td></tr><tr><td>youtube</td><td>Apple TV</td><td>ok</td><td>15</td><td>channel: Apple TV</td></tr><tr><td>youtube</td><td>HBO Max</td><td>ok</td><td>15</td><td>channel: HBO Max</td></tr><tr><td>youtube</td><td>Variety</td><td>ok</td><td>15</td><td>channel: Variety</td></tr><tr><td>youtube</td><td>Entertainment Tonight</td><td>ok</td><td>15</td><td>channel: Entertainment Tonight</td></tr><tr><td>wikidata</td><td>birthdays</td><td>ok</td><td>17</td><td></td></tr><tr><td>wikidata</td><td>deaths</td><td>ok</td><td>1</td><td></td></tr><tr><td>wikidata</td><td>premieres</td><td>ok</td><td>2</td><td></td></tr><tr><td>wikidata</td><td>finales</td><td>ok</td><td>7</td><td></td></tr><tr><td>tmdb</td><td>upcoming premieres</td><td>ok</td><td>11</td><td></td></tr></table></div></details>
 
 <details id="settings"><summary>Settings</summary>
 <label><input type="checkbox" id="showposted"> Show stories I already posted</label>
@@ -2818,6 +2876,7 @@ Sources: [Wikipedia](https://en.wikipedia.org/wiki/Wanda_at_Large) · [Wikidata]
 </details>
 
 </main>
+</div>
 
 <div id="tray" aria-live="polite"><div class="in">
 <div class="info"><b><span id="count">0</span> picked</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>

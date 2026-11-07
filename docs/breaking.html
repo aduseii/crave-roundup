@@ -30,11 +30,31 @@ body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
 .tabs{display:flex;gap:16px;font-size:15px}
 .tabs a{text-decoration:none;color:var(--slate);padding:6px 0}
 .tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
-.jumpbar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
-nav.jump{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;font-size:15px}
-nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{flex:0 0 auto;text-decoration:none;padding:10px 0;font-weight:600}
-nav.jump a span{color:var(--slate);font-weight:400;margin-left:3px}
+.jumpbar{position:sticky;top:0;z-index:6;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.jb{position:relative;max-width:680px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left))}
+#secbtn{display:flex;align-items:center;gap:9px;width:100%;background:none;border:0;padding:9px 0 10px;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
+#secbtn::before{content:"";width:4px;height:22px;background:var(--crave);border-radius:1px}
+#cursec{font-stretch:68%;font-weight:800;font-size:21px;line-height:1}
+#secbtn svg{color:var(--slate);transition:transform .15s}
+#secbtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.secmenu{position:absolute;top:100%;left:max(8px,env(safe-area-inset-left));right:max(8px,env(safe-area-inset-right));background:var(--paper);border:1px solid var(--rule);border-radius:6px;box-shadow:0 14px 30px rgba(8,24,35,.2);padding:6px 0;max-height:70vh;overflow:auto}
+.secmenu[hidden]{display:none}
+.secmenu a,.sidenav a{display:flex;justify-content:space-between;gap:12px;text-decoration:none;font-weight:600}
+.secmenu a{padding:12px 16px;font-size:17px}
+.secmenu a span,.sidenav a span{color:var(--slate);font-weight:400}
+.secmenu a.on{background:var(--pick);box-shadow:inset 4px 0 0 var(--crave)}
+.side{display:none}
+@media (min-width:1000px){
+.jumpbar{display:none}
+.layout{display:grid;grid-template-columns:170px minmax(0,680px);column-gap:56px;justify-content:center}
+.side{display:block}
+.sidenav{position:sticky;top:20px;display:flex;flex-direction:column;padding-top:28px}
+.sidenav a{padding:8px 0 8px 14px;border-left:3px solid var(--rule);color:var(--slate);font-size:15px}
+.sidenav a:hover{color:var(--ink)}
+.sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
+.layout main{margin:0;padding-left:0;padding-right:0}
+.mast{max-width:906px}
+}
 
 .intro{padding:22px 0 6px}
 .intro h1{font-stretch:68%;font-weight:900;font-size:40px;line-height:1;margin:0;letter-spacing:-.015em}
@@ -115,9 +135,11 @@ td,th{border-bottom:1px solid var(--rule);padding:5px 10px 5px 0;text-align:left
 </head><body class="hideposted">
 <div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html" class="on">Breaking</a><a href="archive.html">Archive</a></nav></div>
 
+<div class="layout">
+
 <main>
 <div class="intro"><h1>Breaking</h1>
-<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 11:14am GMT. Checks run every 30 minutes.</p></div>
+<p>Deaths, renewals, cancellations, exits and revivals, newest first. Last checked 11:21am GMT. Checks run every 30 minutes.</p></div>
 <h2 id="sec-breaking">Last 48 hours<span class="count">4</span></h2>
 <div class="item" id="s-b92902159881" data-id="b92902159881" data-packet="Type: Breaking (Death)
 Headline: Cause of Death Revealed for ‘Ellen’ Producer Matthew Wright
@@ -165,6 +187,7 @@ Sources: [Cartoon Brew](https://news.google.com/rss/articles/CBMiekFVX3lxTE1yeEl
 </details>
 
 </main>
+</div>
 
 <div id="tray" aria-live="polite"><div class="in">
 <div class="info"><b><span id="count">0</span> picked</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>

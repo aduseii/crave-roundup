@@ -205,8 +205,60 @@
       status("Unmarked as posted.");
     });
 
+    initSections();
     applyPosted();
     updateTray();
+  }
+
+  // section indicator: the left rail (wide screens) or the button in the top bar (phones)
+  // shows which section is on screen; tap or click to jump
+  function initSections() {
+    var heads = Array.prototype.slice.call(document.querySelectorAll("main h2[id]"));
+    var links = document.querySelectorAll("[data-sec]");
+    var btn = $("secbtn"), menu = $("secmenu"), cur = $("cursec");
+    if (!heads.length || !links.length) return;
+    var labels = {};
+    links.forEach(function (a) { labels[a.dataset.sec] = a.dataset.label; });
+    heads = heads.filter(function (h) { return labels[h.id]; });
+    var lastId = null;
+
+    function update() {
+      var offset = 90; // a heading counts as current once it reaches the top of the screen
+      var active = heads[0];
+      for (var i = 0; i < heads.length; i++) {
+        if (heads[i].getBoundingClientRect().top - offset <= 0) active = heads[i];
+        else break;
+      }
+      var doc = document.documentElement;
+      if (window.innerHeight + window.scrollY >= doc.scrollHeight - 4) active = heads[heads.length - 1];
+      if (!active || active.id === lastId) return;
+      lastId = active.id;
+      links.forEach(function (a) { a.classList.toggle("on", a.dataset.sec === active.id); });
+      if (cur) cur.textContent = labels[active.id];
+    }
+
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () { ticking = false; update(); });
+    }, { passive: true });
+    window.addEventListener("resize", update);
+
+    function setMenu(open) {
+      if (!btn || !menu) return;
+      menu.hidden = !open;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    }
+    if (btn && menu) {
+      btn.addEventListener("click", function () { setMenu(menu.hidden); });
+      menu.addEventListener("click", function (e) { if (e.target.closest("a")) setMenu(false); });
+      document.addEventListener("click", function (e) {
+        if (!menu.hidden && !e.target.closest(".jb")) setMenu(false);
+      });
+      document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
+    }
+    update();
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

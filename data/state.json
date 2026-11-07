@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:14:33+00:00"
+"time": "2026-11-07T11:21:35+00:00"
 }
 ],
 "items": {
@@ -208,7 +208,7 @@
 "people": [
 "Hilary Duff"
 ],
-"published": "2026-11-07T09:50:12+00:00",
+"published": "2026-11-07T11:20:12+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "relevant": true,
@@ -500,6 +500,26 @@
 "summary": "",
 "tags": [],
 "title": "It's Halloweek, baby. #KeyandPeele"
+},
+"0a56d22fcddc": {
+"channel_kind": "talk",
+"first_seen": "2026-11-07T11:21:35+00:00",
+"id": "0a56d22fcddc",
+"kind": "video",
+"link": "https://www.youtube.com/watch?v=P7j7451oJ40",
+"outlet": "Late Night with Seth Meyers",
+"people": [],
+"published": "2026-11-07T11:00:32+00:00",
+"relevant": true,
+"shows": [
+"Late Night with Seth Meyers"
+],
+"sitcom": false,
+"source_type": "youtube",
+"strong": false,
+"summary": "Seth gives Late Night writer John Lutz a topic he didn't know he'd have to make a passionate argument about. Late Night with Seth Meyers.",
+"tags": [],
+"title": "John Lutz Makes a Passionate Argument About AI Data Centers"
 },
 "0a5f596e2d72": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -1969,6 +1989,27 @@
 ],
 "title": "‘Nobody Wants This’ Renewed For Season 4 By Netflix"
 },
+"29737de67f70": {
+"first_seen": "2026-11-07T11:21:35+00:00",
+"id": "29737de67f70",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoRVFNR3lxMDlvUlZVR3Ftcl9KRHVjR1FfNzhLTzZPSFl5SWhrc0dQcGNLREJtV1hPUHpkQnBMa2RVUzhaaWZrSTJMeENtSEpqcDNpZWZoQlVraEliM1l6VlNQLXoza1JQanVPQzBYVQ?oc=5",
+"outlet": "Forbes",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-06T21:40:38+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "5. Jennifer Aniston - 2015-10-02 - The World's Highest-Paid Actresses 2015"
+},
 "2bd50ffb7484": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3045,6 +3086,27 @@
 "tags": [],
 "title": "Maitreyi Ramakrishnan on Riding Motorcycles, PR Training & Why She’s Not Devi"
 },
+"4b96db5f1aeb": {
+"first_seen": "2026-11-07T11:21:35+00:00",
+"id": "4b96db5f1aeb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42MkpCUkE4UjQ0bU14ZThvZUtrVVJ5RFFOOFNHV1ROSXE3eWJZUDBiOFYwOGhSUFJyTHhXQUh5T1dmUV9BbE83RmYtS2hzUGxtOVVwNmdPZ2E3WWxPX1FEd3Jab3U?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-07T08:42:19+00:00",
+"query": "\"comedy series\"",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "Wacky Office Comedy 'Long Haired Businessmen' Movie Official Trailer"
+},
 "4be719d08aa9": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3801,7 +3863,7 @@
 "outlet": "What's on Netflix",
 "people": [],
 "published": "2026-11-06T17:48:45+00:00",
-"query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
+"query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -5590,7 +5652,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T09:30:46+00:00",
+"published": "2026-11-07T03:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -7217,6 +7279,26 @@
 "summary": "",
 "tags": [],
 "title": "Courteney Cox's daughter Coco, 22, is the image of famous dad in glamorous new photos"
+},
+"c0f616e2b7e3": {
+"channel_kind": "talk",
+"first_seen": "2026-11-07T11:21:35+00:00",
+"id": "c0f616e2b7e3",
+"kind": "video",
+"link": "https://www.youtube.com/watch?v=RW6gcDsrmdA",
+"outlet": "Late Night with Seth Meyers",
+"people": [],
+"published": "2026-11-07T11:00:39+00:00",
+"relevant": true,
+"shows": [
+"Late Night with Seth Meyers"
+],
+"sitcom": false,
+"source_type": "youtube",
+"strong": false,
+"summary": "Jeff Hiller talks about how his Widow's Bay character was originally supposed to die, learning lines for his solo show The Exhibitionist and auditioning for Stephen Sondheim. Late Night with Seth Meyers.",
+"tags": [],
+"title": "Jeff Hiller Got Recognized for His UCB Improv During a Humiliating Anal Exam"
 },
 "c239b3bec402": {
 "channel_kind": "streamer",
