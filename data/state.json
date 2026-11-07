@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:21:35+00:00"
+"time": "2026-11-07T11:30:13+00:00"
 }
 ],
 "items": {
@@ -572,7 +572,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -4209,7 +4209,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -5652,7 +5652,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T03:30:46+00:00",
+"published": "2026-11-07T09:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -8491,8 +8491,8 @@
 "outlet": "HELLO!",
 "people": [],
 "published": "2026-11-06T12:53:51+00:00",
-"query": "sitcom",
-"query_relevant": true,
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+"query_relevant": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
