@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:25:39+00:00"
+"time": "2026-11-07T10:32:55+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query": "\"comedy series\"",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -479,6 +479,29 @@
 "tags": [],
 "title": "Teddy Schleifer on Elon Musk’s $500M Election Flop | The Daily Show"
 },
+"0aa710d3e112": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "0aa710d3e112",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSm94d1ZrS1VNYVhEcGNUa0M0YjV6blFCZGdsQnZKajB1azN5bDhqbGw2bHRaSzRrY0tFNWdDRjV1clppdkU3ckg5al92RFFDNzAybGNwT0psNVcwbVlnaUJhRG5QX3E4U3pHYWxIT0JwQ1ZWWDM0MmFIcHYwa1RhcA?oc=5",
+"outlet": "Mashable",
+"people": [
+"Jenna Fischer"
+],
+"published": "2026-11-07T04:31:39+00:00",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jenna Fischer shared Jim and Pam's long-lost wedding website from 'The Office'"
+},
 "0b0ce37b5b42": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -579,6 +602,25 @@
 "Renewal"
 ],
 "title": "Netflix Renews ‘Nobody Wants This’ for Season 4"
+},
+"0cc8fcbcdd36": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "0cc8fcbcdd36",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5TUy1WalVtcVFYdEhJN3NZcmFTb3N5VTd3SEtYUUtHTy1hVWRDUHduUGd5NElySjY2U2Q2VEhlUG5VM1ZzTGlIVHcwVEtlLXJrNVdNbGJwdTJpckJSbERxcExtRng5Ums?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T19:28:10+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "The 5 Funniest Sitcoms of the Last 10 Years, Ranked"
 },
 "0d077bb212a2": {
 "channel_kind": "talk",
@@ -3515,6 +3557,29 @@
 ],
 "title": "‘Full House’ Alum Jodie Sweetin Reveals Drug and Alcohol Spiral Led to Shocking 0.9 GPA in College"
 },
+"5e5086d54f0b": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "5e5086d54f0b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ1QyVXNnd0FNTURScGJrcUVFb0xmUjlpQWRuQ25nMGtLRFpyN1AtUFBLUkpUX19ETEI3enM3cDlhaExHeWk2ekRNcEwwdFJ5Ukx1UFhHdVcyalFQMGpfc2NxbHFlVFFxN0hzXzB5RzRaSkFYV3AwV0FMeEE1Z0pLQg?oc=5",
+"outlet": "Yahoo Lifestyle Canada",
+"people": [
+"Hannah Waddingham"
+],
+"published": "2026-11-07T10:00:00+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Hannah Waddingham 'doesn't know' about Ted Lasso's future"
+},
 "5ed8f5ea7664": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "5ed8f5ea7664",
@@ -3954,7 +4019,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -4898,6 +4963,27 @@
 "tags": [],
 "title": "‘Bachelor’ Moves To Sundays As ABC Sets Midseason Dates For ‘High Potential,’ ‘Will Trent,’ ‘American Idol,’ ‘Shifting Gears’ & More"
 },
+"87b79b0d45ba": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "87b79b0d45ba",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5adWNYSWs2aTV4WUdDM1BaX1VncWR4Q3hjZ2ZyX2d3WUtScTM5OGxxYmFsLXpPblNjT1FIVVVTRHgtVFdYSFBhRG5rSEJTUXJ2X19KcHZKTmExQXBDWE8zSEVSRldwY0ZsSUE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T15:49:26+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "‘Melania, The Series’ Trailer Brings the Trumps Back to Prime Video"
+},
 "87de8ee13620": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -5334,7 +5420,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T09:30:46+00:00",
+"published": "2026-11-07T03:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -5534,6 +5620,27 @@
 "summary": "",
 "tags": [],
 "title": "▶️ Nobody Wants This S3"
+},
+"9b6d0594ea96": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "9b6d0594ea96",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kYjRUTzZxbkhkeV9keE5MQXdVOHRrUGItclhHbTVrVjZHSDZsM2JRWjVmU0Z1djFKUmgzNWxVaUU0ZGhzbVE5TGNPaHZpUEdCTlhjQlB2YkpCV1NRaWFYMkhjNnVaVXBhVVE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T22:18:25+00:00",
+"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Two and a Half Men"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Why Holland Taylor Left Two And A Half Men"
 },
 "9c4c1fdb4f68": {
 "channel_kind": "talk",
@@ -6246,6 +6353,27 @@
 "tags": [],
 "title": "TVLine Asks: Did Tracker Make Most Of Jensen Ackles? Does Abbott Elementary Firing Make Sense? Who Is The Bachelor? And More!"
 },
+"b00365913b8d": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "b00365913b8d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWEVneFp3THA3UHBhajlKaXJWTzFSb1dLc3dVRy1nYmJGNFQ5UTZfdGpuSjBTQkNnbE53RVgyYkhWRjQ0NmdZRDdxcWFvSmpBbGhlRjFDQVRKTWxNejVnMDJKdGx5U1NEQXlEcVk2Q0hpTWJHU1RaOTNnU3BTSndPNkt2UmprcmFkblZuSXRiSk40MGZNc1lnV1VVbTFhMjRUX1VHeFJmWS1Bdw?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-06T11:00:26+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jennifer Aniston Finds It ‘Annoying’ Filming ‘Naughty’ in London: ‘Not Her Favorite Place to Work’"
+},
 "b0207e27a227": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -6841,7 +6969,7 @@
 "outlet": "Mashable",
 "people": [],
 "published": "2026-11-07T04:12:18+00:00",
-"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -7178,6 +7306,27 @@
 "summary": "",
 "tags": [],
 "title": "The Jennifer Hudson Show: Reba McEntire, Candace Eng, Diana Prince"
+},
+"cce3aa2175f4": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "cce3aa2175f4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tUVVKTkZWeU5RMnNfNFpJVHdIUHV3Z2s1RWFkZndNWVlZOGhqTThIbjNzMFdLcnkyRkxwU0sza1BjVEg5TG1ENGxXTm1JSlpNanUydGxBSUk5UTRPbFFwejZ2SEZjTjJINkZv?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-07T00:45:28+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "New Trailer for Andrew Niccol’s The Host, Starring Saoirse Ronan, Max Irons, and Jake Abel"
 },
 "ccebf1764b99": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7579,6 +7728,25 @@
 "Renewal"
 ],
 "title": "‘Nobody Wants This’ Renewed for Season 4 at Netflix"
+},
+"d6fe4313fefc": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "d6fe4313fefc",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNS1zYkVlUDliWXo3Q3pKMFAxWmFUM01haWllZks0d2hhSDJab1NMN085N1MybkozaXl6MkNhN0liZWRsaGZoZFRFZDdhSVphLVVUTlJ2ektvUkt6WkI0Um1GV1c0RFZ5Ni1BSlNmUEMtYWhSbE9Qb21zNUdkbWt0cQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T13:57:00+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All-Time Favorite TV Sitcom Couples"
 },
 "d740ff38b292": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7996,6 +8164,27 @@
 "tags": [],
 "title": "Sarah Hyland - 2015-09-20 - 2015 Emmy Awards Red Carpet"
 },
+"e3eb523adb91": {
+"first_seen": "2026-11-07T10:32:55+00:00",
+"id": "e3eb523adb91",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xb1dpSzRUVHpORjBzbGpfTDVXUkgyRnRMeFh6RHBQcFdOYjNsblRmN3NLTnlURGNxQlptUFFhLWxERlY0WU8wLWRNY1FzZkw0S3lOMGowMk41MWNhS2JRV3ZnS2E?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-07T08:34:55+00:00",
+"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Abbott Elementary"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "TVLine Asks: Did Tracker Make Most Of Jensen Ackles? Does Abbott Elementary Firing Make Sense? Who Is The Bachelor? And More!"
+},
 "e3f883890cd7": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "e3f883890cd7",
@@ -8004,8 +8193,8 @@
 "outlet": "HELLO!",
 "people": [],
 "published": "2026-11-06T12:53:51+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
+"query": "sitcom",
+"query_relevant": true,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -8025,7 +8214,7 @@
 "Sofia Vergara"
 ],
 "published": "2026-11-06T16:23:31+00:00",
-"query": "\"Zooey Deschanel\" OR \"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\"",
+"query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],

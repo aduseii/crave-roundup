@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Roundup">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-180.png">
 <title>Archive: Sitcom Crave Roundup</title>
 <style>
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:900px;margin:0 auto;padding:12px 14px 120px;line-height:1.4;color:#111}
-a{color:#0645ad}
-h1{font-size:1.35em;margin:.4em 0 .1em}
-h2{font-size:1.1em;margin:1.4em 0 .4em;padding-bottom:3px;border-bottom:1px solid #ddd}
-h3{font-size:1em;margin:1em 0 .3em}
-nav{margin:.3em 0 1em}
-.muted{color:#666;font-size:.9em}
-.item{padding:6px 0;border-bottom:1px solid #f0f0f0}
-.item label{cursor:pointer}
+:root{--bg:#fff;--fg:#111;--muted:#666;--line:#e8e8e8;--link:#0645ad;--accent:#ff751f;--sel:#fff3ea;--tag:#c40000;--btn:#f2f2f2;--sum:#333}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#ececec;--muted:#9b9b9b;--line:#2b2b2b;--link:#8ab4ff;--sel:#2c1e14;--tag:#ff6b6b;--btn:#262626;--sum:#cfcfcf}}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:-apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.45;color:var(--fg);background:var(--bg);max-width:900px;margin:0 auto;padding:0 max(14px,env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
+body.has-sel{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+a{color:var(--link)}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:calc(4px + env(safe-area-inset-top)) 0 4px}
+nav.main{display:flex;gap:18px;flex-wrap:wrap}
+nav.main a{display:inline-block;padding:8px 0;font-weight:600;text-decoration:none}
+nav.jump{display:flex;gap:6px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:2px 0 4px}
+nav.jump::-webkit-scrollbar{display:none}
+nav.jump a{flex:0 0 auto;font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--fg)}
+h1{font-size:1.3em;line-height:1.25;margin:.7em 0 .15em}
+h2{font-size:1.12em;margin:1.5em 0 .2em;padding-bottom:4px;border-bottom:2px solid var(--line);scroll-margin-top:100px}
+h3{font-size:1em;margin:1.1em 0 .2em}
+.muted{color:var(--muted);font-size:.88em}
+.item{padding:11px 4px;border-bottom:1px solid var(--line);scroll-margin-top:100px;border-radius:6px}
+.item.sel{background:var(--sel)}
+.item label{display:flex;gap:11px;align-items:flex-start;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.item input.pick{width:22px;height:22px;flex:0 0 22px;margin:1px 0 0;accent-color:var(--accent)}
 .item .t{font-weight:600}
-.item .tag{font-weight:700;color:#b00}
-.item .meta{color:#666;font-size:.85em;margin-left:24px}
-.item .sum{font-size:.9em;margin-left:24px;color:#333}
+.item .tag{font-weight:700;color:var(--tag)}
+.item .meta,.item .sum{margin-left:33px}
+.item .meta{color:var(--muted);font-size:14px;margin-top:4px;line-height:1.7}
+.item .sum{font-size:15px;color:var(--sum);margin-top:3px}
+.item .meta details{display:inline}
+.item .meta summary{display:inline;color:var(--link);cursor:pointer;list-style:none}
+.item .meta summary::-webkit-details-marker{display:none}
 .item.posted{opacity:.45}
 body.hideposted .item.posted{display:none}
-ol.today li{margin:4px 0}
-#tray{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:2px solid #333;padding:8px 14px}
+ol.today{list-style:none;padding:0;margin:0;counter-reset:n}
+ol.today li.item{counter-increment:n}
+ol.today li.item label > span::before{content:counter(n) ". ";color:var(--muted);font-weight:600}
+details{margin:.6em 0}
+details > summary{cursor:pointer;padding:6px 0}
+#settings{border:1px solid var(--line);border-radius:10px;padding:2px 12px;margin:.8em 0}
+#settings label{display:flex;gap:10px;align-items:center;padding:8px 0}
+#settings input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent)}
+textarea{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bg);border-top:2px solid var(--accent);box-shadow:0 -4px 14px rgba(0,0,0,.12);padding:8px max(12px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));transform:translateY(115%);transition:transform .2s ease}
+body.has-sel #tray{transform:none}
 #tray .in{max-width:900px;margin:0 auto}
-#tray button{margin:2px 4px 2px 0;padding:6px 10px;font-size:.95em}
-#status{font-size:.9em;color:#060;margin-left:6px}
-textarea{width:100%;font-family:inherit}
-details{margin:.5em 0}
-table{border-collapse:collapse;font-size:.85em}
-td,th{border:1px solid #ddd;padding:3px 6px;text-align:left;vertical-align:top}
+#tray .info{display:flex;align-items:center;gap:10px;font-size:15px;margin-bottom:7px;min-height:22px}
+#tray .info b{white-space:nowrap}
+#status{color:#0a7a2f;font-size:14px;flex:1;line-height:1.3}
+#tray .linkbtn{background:none;border:0;color:var(--link);font-size:15px;padding:4px;min-height:0}
+#tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(68px,1fr));gap:7px}
+#tray .btns button{min-height:46px;font-size:15px;font-weight:600;border-radius:10px;border:1px solid var(--line);background:var(--btn);color:var(--fg);padding:4px 6px;-webkit-tap-highlight-color:transparent}
+#tray .btns button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+#tray .btns button[hidden]{display:none}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;font-size:13px}
+td,th{border:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
+@media (min-width:700px){body{font-size:16px}.item .sum{font-size:14.5px}}
 </style>
 <script>window.ROUNDUP_DEFAULT_HEADER = "Data processing and Captioner: caption these for X in my style. Post only the finished pieces.";</script>
 </head><body class="hideposted">
-<nav><a href="index.html">Latest roundup</a> · <a href="breaking.html">Breaking</a> · <a href="archive.html">Archive</a></nav>
+<header class="top"><nav class="main"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html">Archive</a></nav></header>
 <h1>Archive</h1>
 <ul>
 <li><a href="editions/2026-11-07-morning.html">Morning, Saturday, November 7, 2026</a></li>
 </ul>
 
-<div id="tray"><div class="in">
-<b><span id="count">0</span> selected</b>
-<button id="copy">Copy for Grok</button>
-<button id="open">Open in Grok</button>
-<button id="markposted">Mark selected as posted</button>
-<button id="clear">Clear</button>
-<label class="muted"><input type="checkbox" id="showposted"> Show posted</label>
-<span id="status"></span>
-<details><summary class="muted">Grok header line</summary>
-<textarea id="header" rows="2"></textarea>
-<div class="muted">This line goes at the top of every packet. Saved in this browser.</div>
+<details id="settings"><summary class="muted">Settings</summary>
+<label><input type="checkbox" id="showposted"> Show stories I already posted</label>
+<div class="muted" style="margin-top:6px">Grok header line (top of every packet, saved on this device)</div>
+<textarea id="header" rows="3"></textarea>
+<p class="muted">Tip: Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in, and both also copy it.</p>
 </details>
+
+
+<div id="tray" aria-live="polite"><div class="in">
+<div class="info"><b><span id="count">0</span> selected</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
+<div class="btns">
+<button id="copy" class="primary">Copy</button>
+<button id="open">Open Grok</button>
+<button id="share" hidden>Share</button>
+<button id="markposted">Posted</button>
+</div>
 </div></div>
 
 <script src="app.js"></script>
