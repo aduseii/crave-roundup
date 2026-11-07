@@ -39,17 +39,16 @@
   function header() {
     var el = $("header");
     var v = el ? el.value.trim() : "";
-    return v || window.ROUNDUP_DEFAULT_HEADER || "";
+    return v;
   }
 
+  // only the stories themselves: headline and links, separated by a blank line
   function buildPacket() {
     var parts = [];
-    var i = 1;
-    selected.forEach(function (packet) {
-      parts.push(i + ". " + packet);
-      i += 1;
-    });
-    return header() + "\n\n" + parts.join("\n\n");
+    selected.forEach(function (packet) { parts.push(packet); });
+    var body = parts.join("\n\n");
+    var h = header();
+    return h ? h + "\n\n" + body : body;
   }
   window.buildPacket = buildPacket;
 
