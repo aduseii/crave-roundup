@@ -1111,9 +1111,7 @@ def plural_years(n: int) -> str:
 
 
 def birthday_caption(b: dict) -> str:
-    shows = ", ".join(b["shows"][:2])
-    return (f"Happy birthday to {adjective(b['gender'])} {b['name']}, who turns {b['years']} today!\n"
-            f"Born {b['date'].year}." + (f" {shows}" if shows else ""))
+    return f"Happy birthday to {adjective(b['gender'])} {b['name']}, who turns {b['years']} today!"
 
 
 def death_caption(d: dict) -> str:

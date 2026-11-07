@@ -256,8 +256,8 @@ check(any(a.startswith("Morning roundup is ready") and "aduseii.github.io/crave-
       "morning roundup notice sent to Telegram")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
 caps = [htmllib.unescape(c) for c in re.findall(r'data-cap="([^"]*)"', idx)]
-check("Happy birthday to the beautiful Test Person, who turns 45 today!\nBorn 1981. 'Old Show' (2005), 'Maple Street' (2019)" in caps,
-      "birthday caption in the exact house format")
+check("Happy birthday to the beautiful Test Person, who turns 45 today!" in caps,
+      "birthday caption is just the one line")
 check("Remembering the talented Old Actor, who passed away 21 years ago today. \U0001F54A\uFE0F\nMar 2, 1930 - Nov 7, 2005\nKnown for: 'Classic Sitcom'." in caps,
       "remembrance caption in the exact house format")
 check("'Classic Sitcom' premiered 30 years ago today! 1996, NBC." in caps, "premiere anniversary caption")
