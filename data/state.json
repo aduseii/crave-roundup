@@ -69,7 +69,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T12:07:41+00:00"
+"time": "2026-11-07T12:42:09+00:00"
 }
 ],
 "items": {
@@ -138,6 +138,25 @@
 ],
 "title": "The Further Mis-Adventures Of Cliff Booth New Trailer Sees Brad Pitt Go From Stuntman To Hollywood Fixer"
 },
+"0296c89fdb4f": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "0296c89fdb4f",
+"kind": "article",
+"link": "https://www.tvline.com/2307641/what-to-watch-november-7-2026-tv-shows-movies-streaming/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-07T08:00:00+00:00",
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "On TV this Saturday: Druski hosts SNL, ﻿Nikki DeLoach and Juan Pablo Di ﻿Pace star in Holiday Unplugged, and Gail Daughtry and the Celebrity Sex Pass streams.",
+"tags": [],
+"title": "What To Watch Saturday: Druski Hosts SNL, Nikki DeLoach/Juan Pablo Di Pace Hallmark Movie, And More"
+},
 "02b298cdad80": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -199,6 +218,27 @@
 "summary": "",
 "tags": [],
 "title": "Saturday Night Passover Seder feat. Dan Levy, Finn Wolfhard, Billy Porter, Idina Menzel & More"
+},
+"0524466d3c1c": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "0524466d3c1c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPazNEcnppRnlYOHlmZ1NLU2w1cHhUS3ZWZ3I4UW9sOWxKVW9wd1pUT1Y2anhGYUNfTGJhX0VDWVpYTndEYmFXdHZFNEdBQzE4b3owMi1GVl9Dc09aWHVhVEhLOWcxMlNlREZtU1lKTUdWdk1QZ1BHSlpRXzFRMWNFM2I5dTNqUEJUOVE?oc=5",
+"outlet": "Forbes",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-07T11:24:07+00:00",
+"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Charlie Sheen & Donna Peele - 2011-10-31 - Shortest Celebrity Marriages"
 },
 "05d70f47f147": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -270,7 +310,7 @@
 "people": [
 "Hilary Duff"
 ],
-"published": "2026-11-07T10:55:54+00:00",
+"published": "2026-11-07T12:25:54+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "relevant": true,
@@ -562,6 +602,29 @@
 "summary": "New York Times reporter Teddy Schleifer joins Jordan Klepper to discuss what it’s like covering the billionaire beat and if money is losing its power in American politics.",
 "tags": [],
 "title": "Teddy Schleifer on Elon Musk’s $500M Election Flop | The Daily Show"
+},
+"0a9d19e172f2": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "0a9d19e172f2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94eU1iNWFmSmN6LVpUZDFyQU51UFZkWDZGSXU0Zy0zMU5TT0R6SWFVWlNfTVJTYjRjbXFiTUgzUkJERVNRMTV3MUdERmRnZXNWdjRxVXFINE9TeGJhZjB4R3hQdnQ3SWdtQlJmYngtUHJ4SEJqNnZiVTNR?oc=5",
+"outlet": "Yahoo News UK",
+"people": [],
+"published": "2026-11-06T17:00:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Nobody Wants This’ Renewed for Season 4 at Netflix"
 },
 "0aa710d3e112": {
 "first_seen": "2026-11-07T10:32:55+00:00",
@@ -2718,6 +2781,27 @@
 "tags": [],
 "title": "'GMA' Deals & Steals with Mindy Kaling"
 },
+"408e604f1f0e": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "408e604f1f0e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcXpKcnpLcTJVNVpWSjdzMUlMdm5XbHRLaXBPZXA5al95SlFqUXFFWXVWS3hHV0JtTmYzQXVCQ1B0Q3VvU3RzOEc4M0YyV1JHekY2a19Ec2R5dzZNSGRYcm4wUGZIT2JrLWotUkRZZHVUclJLOVFmcXZaTElCd2RNcWJJb3U5bWVwSHhjaHBMOTczNmdCYzc1LTVmaGVOaUptZWxEUXpPWHdTUnJWd3fSAbMBQVVfeXFMTWNYeVBJX0ZNTDVIbElsV0FvazEzNjVEUWRmRGl1VVhMU0NGUVVORVljMVg4TkxlQ09EVENtZ1lrLWJweVY3c2FBaEJUVEZtMW0tdk5xcFNZaWFvRWRBNFMyWlVtTm9uSVhmbVpzMEJWd0FTcmctV0J1cjdJUHFKanRTMDA2NFY1TV91Q1JrdFktczFhMkdoOWlWaVlzT01RZWdYdzVqWnJDLW1ULTZYalJfV2c?oc=5",
+"outlet": "Fox News",
+"people": [
+"Larry David"
+],
+"published": "2026-11-07T12:00:30+00:00",
+"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Why Larry David never wanted this biography made and how a George Costanza scheme won him over"
+},
 "433e19028f05": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "433e19028f05",
@@ -4231,7 +4315,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -4518,6 +4602,27 @@
 "Death"
 ],
 "title": "‘Ellen DeGeneres Show’ Producer Matthew Wright’s Cause of Death Revealed"
+},
+"6eb7a4eab682": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "6eb7a4eab682",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc2JfNlhUZE1wRTd4UnUxYWw2U0hkb0gxd2JLRGVaLXBvbFVCVFZLa2pmSWtRRHRwODIxMERkZXNFNHAwQ0U3dEdObGFXbzlDWnhZc1dmZ3hZZXlNTTdmVTVNYXBIMzlOWXlBZTRsaXZrVDByWkpHb3RQVVVKZk9lTjgxTUQ2U1Y1MGVWMENB?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Kaley Cuoco"
+],
+"published": "2026-11-07T12:16:32+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Kaley Cuoco’s Famous Exes and the Man Who Finally Stole Her Heart!"
 },
 "6edaf5f11b88": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -8876,6 +8981,29 @@
 ],
 "title": "Paramount+'s New 6-Part Comedy Series Debuts To Exceptional Rotten Tomatoes Score"
 },
+"edde046ecc3b": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "edde046ecc3b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE92amwxM2ZVRUREbl85SWZKeGZZeV95bnRSOXlwTWE4eHNfd19XdjhsMk0yNXVzSDhHaUlEX0RHLWNocjZnVGVKSHFERXhZemRjcnlHcl8wVE93aldJbXFzRU4yeGlLX0ZvWk1EdTJlR1NNY0hGU2pnWVhocXVUdw?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-06T17:49:31+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Nobody Wants This Season 4: Kristen Bell Show Gets Surprising Update After Lower Ratings"
+},
 "eed988cae77d": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -9424,6 +9552,27 @@
 "Upcoming"
 ],
 "title": "Tim Allen’s ‘Shifting Gears’ Officially Confirms 2027 Return Date"
+},
+"fa2e235ab2b9": {
+"first_seen": "2026-11-07T12:42:09+00:00",
+"id": "fa2e235ab2b9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5yc3ZjSjQwT3ZoWUhfOXhyN05TZGloZkFlYWtOYzVPUldHYm5vTFZSbHpNUkhGV1ROM0w4bUFuTFNKOHJaQThmdno2N3RSaGJIRDlwWk94TVF1S3p3UDdJWA?oc=5",
+"outlet": "IMDb",
+"people": [
+"Queen Latifah"
+],
+"published": "2026-11-07T11:48:25+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Queen Latifah Takes BET Home to Newark in Documentary You Can Go Home Again"
 },
 "fa6e8fe78ef1": {
 "first_seen": "2026-11-07T11:02:56+00:00",
