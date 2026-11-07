@@ -179,7 +179,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T13:54:46+00:00"
+"time": "2026-11-07T14:29:41+00:00"
 }
 ],
 "items": {
@@ -387,7 +387,7 @@
 "people": [
 "Hilary Duff"
 ],
-"published": "2026-11-07T12:50:12+00:00",
+"published": "2026-11-07T11:20:12+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "rehash": false,
@@ -431,7 +431,7 @@
 "people": [
 "Hilary Duff"
 ],
-"published": "2026-11-07T12:25:54+00:00",
+"published": "2026-11-07T13:55:54+00:00",
 "query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "rehash": false,
@@ -795,7 +795,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -1403,6 +1403,30 @@
 "Interview"
 ],
 "title": "Gabourey Sidibe Confronts Raven-Symoné About Their Past Tension on Her Podcast"
+},
+"13808395c815": {
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "13808395c815",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05aVY3QjhhQkhvWFJUenJYYUlTZUFmRnRHZ05BSkRNZ09LamZqSGJwSWlNNDhNMUNucW8tUEpjeU43VEVpLXhPXzFLbGd1ZlNLLVUwZkdFU2NxY09UdmQzOVdtNGRoQlBoZ3c?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T18:49:52+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Nobody Wants This’ Renewed for Season 4 at Netflix"
 },
 "139cfd9694db": {
 "channel_kind": "talk",
@@ -2267,6 +2291,29 @@
 "tags": [],
 "title": "5. Jennifer Aniston - 2015-10-02 - The World's Highest-Paid Actresses 2015"
 },
+"2b0d2058617e": {
+"channel_kind": "talk",
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "2b0d2058617e",
+"kind": "video",
+"link": "https://www.youtube.com/watch?v=8ksoLS2Nbzw",
+"outlet": "Late Night with Seth Meyers",
+"people": [],
+"published": "2026-11-07T14:00:38+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Late Night with Seth Meyers"
+],
+"sitcom": false,
+"source_type": "youtube",
+"strong": false,
+"summary": "All the news and jokes you missed from the week of November 2. Late Night with Seth Meyers. Stream now on Peacock: https://bit.ly/3erP2gX Subscribe to Late Night: http://bit.ly/LateNightSeth Watch Late Night with Seth Meyers Weeknights...",
+"tags": [
+"Interview"
+],
+"title": "Trump Responds to Midterm Loss, Calls Ballroom \"Most Powerful Building\": Late Night News of the Week"
+},
 "2bd50ffb7484": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -2751,6 +2798,28 @@
 "tags": [],
 "title": "Hearts2Hearts (하츠투하츠) Eat the Spiciest Meal of Their Lives | Heat Eaters"
 },
+"3abdfd0d09a5": {
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "3abdfd0d09a5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNEhZQ2VGWmU1d3FCdEl6RWpRUXo2RV8tT1dTOEJKQ0E2X0hHZXlhTTRIbjJ1cXB3WlhlVWRUbGFiclBacUQwc21fbzhFWGpzcGp0ejQzSFJGSDJXVkh4MWpzZTFvcHdFNGZMWlhKX0dJSC14c0RlMXFkUFhHM0JmZzdKQkhVUQ?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-07T14:00:00+00:00",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Why ‘The Office’ Makes Its Original Star ‘Cringe’"
+},
 "3ae9fa72b150": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -2834,6 +2903,25 @@
 "Interview"
 ],
 "title": "Sarah Paulson Talks Harryween and Her All's Fair Season 2 Rotten Tomatoes Prediction | Tonight Show"
+},
+"3ef63b691a3c": {
+"channel_kind": "outlet",
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "3ef63b691a3c",
+"kind": "video",
+"link": "https://www.youtube.com/watch?v=GYLVUSBEYoQ",
+"outlet": "Entertainment Tonight",
+"people": [],
+"published": "2026-11-07T14:00:17+00:00",
+"rehash": false,
+"relevant": false,
+"shows": [],
+"sitcom": false,
+"source_type": "youtube",
+"strong": false,
+"summary": "Henry Winkler gets emotional as he looks back on five decades in Hollywood in this exclusive rETrospective with ET's Emily Curl, revisiting career-defining roles and the friendships that shaped his life.",
+"tags": [],
+"title": "Henry Winkler Gets Emotional Reliving Happy Days and More Hollywood Memories | rETrospective"
 },
 "3f58f37b84e9": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3108,7 +3196,7 @@
 "outlet": "Page Six",
 "people": [],
 "published": "2026-11-06T20:09:00+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -4467,7 +4555,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -5380,6 +5468,27 @@
 "Revival"
 ],
 "title": "Adam Driver Confirms He Won't Join 'Girls' Revival, Shares Thoughts on the Show"
+},
+"80fd3bb5e4c3": {
+"channel_kind": "talk",
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "80fd3bb5e4c3",
+"kind": "video",
+"link": "https://www.youtube.com/watch?v=7BcWRwyYaYw",
+"outlet": "The Daily Show",
+"people": [],
+"published": "2026-11-07T14:00:23+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Daily Show"
+],
+"sitcom": false,
+"source_type": "youtube",
+"strong": true,
+"summary": "Jon Stewart covers pre-Election Day news, including Haley Stevens's endorsement of Mike Rogers (who she previously called a \"nightmare\"), the media's poll addiction, and a warning against overconfidence in a 2026 blue wave.",
+"tags": [],
+"title": "Jon Stewart and The Best F**king News Team Cover the 2026 Midterm Elections | The Daily Show"
 },
 "81d7d65c9567": {
 "channel_kind": "talk",
@@ -7224,6 +7333,25 @@
 ],
 "title": "Martin McDonagh Was Terrified to Meet John Malkovich, Talks Sam Rockwell Improv in Wild Horse Nine"
 },
+"b4f2ea03a545": {
+"channel_kind": "talk",
+"first_seen": "2026-11-07T14:29:41+00:00",
+"id": "b4f2ea03a545",
+"kind": "video",
+"link": "https://www.youtube.com/shorts/7_lLsIXN0bI",
+"outlet": "First We Feast",
+"people": [],
+"published": "2026-11-07T14:00:03+00:00",
+"rehash": false,
+"relevant": false,
+"shows": [],
+"sitcom": false,
+"source_type": "youtube",
+"strong": false,
+"summary": "Hearts2Hearts adds WAY too much sauce on HEAT EATERS!",
+"tags": [],
+"title": "I'm not liable for this!"
+},
 "b70d59bb634a": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "b70d59bb634a",
@@ -8494,8 +8622,8 @@
 "Ellen DeGeneres"
 ],
 "published": "2026-11-07T09:36:44+00:00",
-"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -9839,7 +9967,7 @@
 "Queen Latifah"
 ],
 "published": "2026-11-07T11:48:25+00:00",
-"query": "\"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\" OR \"Kenan & Kel\" OR \"That's So Raven\"",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -10172,7 +10300,7 @@
 },
 "shown": [
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8c5d995b4f32"
@@ -10195,7 +10323,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0296c89fdb4f"
@@ -10221,7 +10349,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b92902159881",
@@ -10261,7 +10389,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "99448a430770"
@@ -10292,7 +10420,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d179df46f490",
@@ -10317,7 +10445,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f7fe06e328e2"
@@ -10343,7 +10471,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "76a0564e819c",
@@ -10368,7 +10496,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cb17be338bbc",
@@ -10398,7 +10526,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "565e196316da"
@@ -10419,7 +10547,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "46a13180447f",
@@ -10443,7 +10571,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "af938445da40",
@@ -10473,7 +10601,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d740ff38b292"
@@ -10496,7 +10624,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "74976ccab729"
@@ -10519,7 +10647,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5b1f6862c61f"
@@ -10546,7 +10674,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "aa9ff585b0c4",
@@ -10556,6 +10684,7 @@
 "845a1eef5907",
 "b08f4f60f966",
 "fe9a41b11fcc",
+"13808395c815",
 "251e43ddbc84",
 "f1f89d6ca5fb",
 "fa6e8fe78ef1",
@@ -10585,7 +10714,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bd67e7f60865"
@@ -10610,128 +10739,25 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
-"d17330385a77"
+"3abdfd0d09a5"
 ],
 "people": [],
 "shows": [
-"SNL"
+"The Office"
 ],
 "tags": [],
 "tokens": [
-"episode",
-"fifth",
-"know",
-"snl",
-"tonight"
-]
-},
-{
-"at": "2026-11-07T13:54:46+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"d732405a7481"
-],
-"people": [],
-"shows": [
-"Bewitched"
-],
-"tags": [
-"Cancel/End",
-"Interview"
-],
-"tokens": [
-"1972",
-"before",
-"bewitch",
-"cancel",
-"erin",
-"murphy",
-"plan",
-"reveal",
-"suddenly",
-"tabitha"
-]
-},
-{
-"at": "2026-11-07T13:54:46+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"935b8b70ae2d"
-],
-"people": [
-"Hilary Duff"
-],
-"shows": [],
-"tags": [],
-"tokens": [
-"amazon",
-"anne",
-"back",
-"duff",
-"exact",
-"hathaway",
-"hilary",
-"podiatrist",
-"quietly",
-"sale",
-"sneaker",
-"they",
-"wore"
-]
-},
-{
-"at": "2026-11-07T13:54:46+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"05d70f47f147"
-],
-"people": [
-"Hilary Duff"
-],
-"shows": [],
-"tags": [],
-"tokens": [
-"duff",
-"even",
-"expensive",
-"hilary",
-"legging",
-"look",
+"cringe",
 "make",
-"mom",
-"rich",
-"style",
-"sweater"
+"office",
+"origin"
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
-"edition": "2026-11-07-morning",
-"ids": [
-"b21e0778b5b6"
-],
-"people": [],
-"shows": [
-"SNL"
-],
-"tags": [],
-"tokens": [
-"1994",
-"audition",
-"brut",
-"ferrell",
-"got",
-"modern",
-"reaction",
-"snl",
-"viewer"
-]
-},
-{
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "06531c54fd54"
@@ -10758,7 +10784,103 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d17330385a77"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"episode",
+"fifth",
+"know",
+"snl",
+"tonight"
+]
+},
+{
+"at": "2026-11-07T14:29:41+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"d732405a7481"
+],
+"people": [],
+"shows": [
+"Bewitched"
+],
+"tags": [
+"Cancel/End",
+"Interview"
+],
+"tokens": [
+"1972",
+"before",
+"bewitch",
+"cancel",
+"erin",
+"murphy",
+"plan",
+"reveal",
+"suddenly",
+"tabitha"
+]
+},
+{
+"at": "2026-11-07T14:29:41+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"935b8b70ae2d"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"amazon",
+"anne",
+"back",
+"duff",
+"exact",
+"hathaway",
+"hilary",
+"podiatrist",
+"quietly",
+"sale",
+"sneaker",
+"they",
+"wore"
+]
+},
+{
+"at": "2026-11-07T14:29:41+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"b21e0778b5b6"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"1994",
+"audition",
+"brut",
+"ferrell",
+"got",
+"modern",
+"reaction",
+"snl",
+"viewer"
+]
+},
+{
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "08ecf08678f7",
@@ -10781,7 +10903,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "408e604f1f0e"
@@ -10806,7 +10928,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fa2e235ab2b9"
@@ -10830,7 +10952,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b9551d153f4c"
@@ -10855,7 +10977,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fb5a545cb9db"
@@ -10881,7 +11003,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0524466d3c1c"
@@ -10903,7 +11025,32 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
+"edition": "2026-11-07-morning",
+"ids": [
+"05d70f47f147"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"duff",
+"even",
+"expensive",
+"hilary",
+"legging",
+"look",
+"make",
+"mom",
+"rich",
+"style",
+"sweater"
+]
+},
+{
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0e1d31396820",
@@ -10930,7 +11077,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0d04c59d0c2a"
@@ -10957,7 +11104,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fcdeca27aeed",
@@ -10983,7 +11130,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5e5086d54f0b",
@@ -11008,7 +11155,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "95062397a775"
@@ -11029,7 +11176,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d5606ba40095"
@@ -11055,7 +11202,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bd714306508c"
@@ -11075,7 +11222,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b9e5e158a662",
@@ -11101,7 +11248,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "487740f792e9",
@@ -11127,7 +11274,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "4b96db5f1aeb"
@@ -11150,7 +11297,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cc8057ce618e"
@@ -11178,7 +11325,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "9fc362adf149"
@@ -11197,7 +11344,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cde2af6fe5eb"
@@ -11222,7 +11369,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1ef390b6641d",
@@ -11245,7 +11392,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ab1345ee57fa"
@@ -11269,7 +11416,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6c733d3de8db"
@@ -11288,7 +11435,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6422e4d00f63"
@@ -11313,7 +11460,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "40837c3bd70a",
@@ -11335,7 +11482,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "94e41b326e5b",
@@ -11359,7 +11506,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "11d115087b74"
@@ -11383,7 +11530,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8413dc0f55d5"
@@ -11407,7 +11554,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "3f58f37b84e9"
@@ -11430,7 +11577,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0aa710d3e112"
@@ -11456,7 +11603,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bfef0aef9b5d"
@@ -11479,7 +11626,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "005accbf7a1e"
@@ -11500,7 +11647,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7ec181f7132f"
@@ -11519,7 +11666,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "171381f0bfe9"
@@ -11548,7 +11695,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "43ff0bc7e7f4"
@@ -11575,7 +11722,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "08d065d86bbe"
@@ -11600,7 +11747,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5ed8f5ea7664"
@@ -11628,7 +11775,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cce3aa2175f4"
@@ -11653,7 +11800,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8d91263277d8"
@@ -11678,7 +11825,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "dac946184c23"
@@ -11695,7 +11842,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "804d54d6b693"
@@ -11718,7 +11865,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "51e86ebb822d"
@@ -11737,7 +11884,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "69a6def5d2ad"
@@ -11762,7 +11909,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "9c5ece6b1038",
@@ -11789,7 +11936,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6310d5d0c0e7"
@@ -11811,7 +11958,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "87fb23b8cc43"
@@ -11832,7 +11979,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0960163559d8"
@@ -11850,7 +11997,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "09c0365c4b96",
@@ -11877,7 +12024,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "da77a3b0c47a"
@@ -11900,7 +12047,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "02c7c913ca87"
@@ -11930,7 +12077,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "33cd0db3500f"
@@ -11950,7 +12097,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "01c7a3f80f3c",
@@ -11977,7 +12124,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1f6dea7520e7"
@@ -12001,7 +12148,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "c09d920e3360"
@@ -12024,7 +12171,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "033050c573cc"
@@ -12051,7 +12198,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e1f1433392f8"
@@ -12076,7 +12223,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7b422c82c5c5"
@@ -12105,7 +12252,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ef311764b8dd"
@@ -12125,7 +12272,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "50015dff54ac"
@@ -12151,7 +12298,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "96dab8cce97c",
@@ -12173,7 +12320,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "29737de67f70"
@@ -12194,7 +12341,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f3f1990e3a54"
@@ -12216,7 +12363,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "48298b43ab01"
@@ -12238,7 +12385,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7dab39f470bd"
@@ -12265,7 +12412,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ccbdbea65783"
@@ -12287,7 +12434,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f35a114b3b08"
@@ -12311,7 +12458,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "dff11cdfee37"
@@ -12332,7 +12479,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7986342777d3"
@@ -12356,7 +12503,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ed51a82d4af0"
@@ -12383,7 +12530,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "10c6de2c3eb2"
@@ -12403,7 +12550,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5342300002eb"
@@ -12426,7 +12573,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "126af6c306c2",
@@ -12448,7 +12595,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "4f36f9880419"
@@ -12464,7 +12611,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7aadb905bfbe"
@@ -12488,7 +12635,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b21de05c6e75"
@@ -12512,7 +12659,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "4822ec7056f1"
@@ -12542,7 +12689,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7dd90fc12316"
@@ -12569,7 +12716,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1dc318d7f785"
@@ -12593,7 +12740,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "daf2749188aa"
@@ -12614,7 +12761,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "665a4939768a"
@@ -12642,7 +12789,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fb615178f254"
@@ -12664,7 +12811,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "a9726ae236df"
@@ -12690,7 +12837,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f0e1d10ca5c8"
@@ -12711,7 +12858,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0ca91f5a9b63"
@@ -12739,7 +12886,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "71f38feec414"
@@ -12761,7 +12908,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "9644194d767e"
@@ -12787,7 +12934,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0ea81bebbc30"
@@ -12809,7 +12956,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "36c2c662b099"
@@ -12837,7 +12984,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "050e9fed10e5"
@@ -12859,7 +13006,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ea86338a2171"
@@ -12882,7 +13029,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "23d4985d9655"
@@ -12905,7 +13052,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "a33ab5edd1b4"
@@ -12932,7 +13079,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "cdbdb1ddb3a5"
@@ -12955,7 +13102,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fa1bb246fe75"
@@ -12982,7 +13129,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "061e2243b0e4"
@@ -13004,7 +13151,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "86c510fef230"
@@ -13032,7 +13179,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "2d037076232f"
@@ -13050,7 +13197,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "44ada5e8c511",
@@ -13077,7 +13224,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8e855dc62079"
@@ -13101,7 +13248,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0a5f596e2d72"
@@ -13123,7 +13270,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "49b2a55b3830"
@@ -13145,7 +13292,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1029b70a7816"
@@ -13166,7 +13313,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "235e76be1b35",
@@ -13194,7 +13341,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "bbec38f12477"
@@ -13221,7 +13368,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "79ce972aff89"
@@ -13243,7 +13390,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "dc4d1c768440"
@@ -13265,7 +13412,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ff6ef8e96770"
@@ -13289,7 +13436,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "ec95b582e062"
@@ -13316,7 +13463,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8e6318909f6e"
@@ -13338,7 +13485,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5e34d4854ddd"
@@ -13367,7 +13514,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0f02b9fac39b"
@@ -13389,7 +13536,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d09e736205c0"
@@ -13408,7 +13555,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e9ae8d71a600"
@@ -13431,7 +13578,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "99966c93723e"
@@ -13457,7 +13604,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7aff8042ec15"
@@ -13476,7 +13623,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e4e533a8e044"
@@ -13496,7 +13643,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fecfe6075e99"
@@ -13524,7 +13671,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e66bd45b4be3"
@@ -13550,7 +13697,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "7755aebd1d97",
@@ -13572,7 +13719,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8d8516271805"
@@ -13600,7 +13747,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "0c33a713009f"
@@ -13622,7 +13769,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "59179e8d8128"
@@ -13645,7 +13792,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "a1be23949235"
@@ -13666,7 +13813,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "54d95fa9de98",
@@ -13692,7 +13839,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f4ea447a4244"
@@ -13713,7 +13860,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6d57552adf6c"
@@ -13732,7 +13879,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e56156bd9fd6"
@@ -13756,7 +13903,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "3a1bc131834f"
@@ -13779,7 +13926,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "c55d3dbb435c"
@@ -13800,7 +13947,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "21b74d20523b"
@@ -13822,7 +13969,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "2c3232050312"
@@ -13840,7 +13987,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "8ef91c7c338a"
@@ -13867,7 +14014,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1c7290d1a6f4"
@@ -13893,7 +14040,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6115d70e3b23"
@@ -13917,7 +14064,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "a90bf53bf8a6"
@@ -13942,7 +14089,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "11073d45a205"
@@ -13961,7 +14108,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "f398ea7c8142"
@@ -13983,7 +14130,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d6fe4313fefc"
@@ -14000,7 +14147,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "fd78bc50f846"
@@ -14025,7 +14172,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d0d3ebb5b057"
@@ -14047,7 +14194,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "748e4474e04e"
@@ -14067,7 +14214,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "63c1566ae786"
@@ -14086,7 +14233,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "99135af174df"
@@ -14110,7 +14257,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "1eb6a6d592a9"
@@ -14132,7 +14279,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "3c5af71a8012"
@@ -14157,7 +14304,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "e3f883890cd7"
@@ -14179,7 +14326,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "35504568ff0c"
@@ -14203,7 +14350,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "5fa9725f7aca"
@@ -14229,7 +14376,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "6ac9cc9c00b1"
@@ -14255,7 +14402,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "96852a875217"
@@ -14276,7 +14423,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "d299d4e1df3d"
@@ -14301,7 +14448,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "b00365913b8d"
@@ -14326,7 +14473,7 @@
 ]
 },
 {
-"at": "2026-11-07T13:54:46+00:00",
+"at": "2026-11-07T14:29:41+00:00",
 "edition": "2026-11-07-morning",
 "ids": [
 "792d6dab96b5"

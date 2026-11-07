@@ -226,8 +226,223 @@
     });
 
     initSections();
+    initWriter();
     applyPosted();
     updateTray();
+  }
+
+
+  // ---------- caption writer: Gemini, called straight from this device ----------
+  var LS_GEMKEY = "scr_gemini_key";
+  var GEMINI_API = "https://generativelanguage.googleapis.com/v1beta";
+  var busyModels = {};
+
+  function gemKey() { return ((load(LS_GEMKEY, "") || "").trim().split(/\s+/)[0]) || ""; }
+  function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+
+  function tidyCaption(t) {
+    t = (t || "").trim().replace(/^`+|`+$/g, "").trim();
+    if (t.length > 1 && t[0] === '"' && t[t.length - 1] === '"') t = t.slice(1, -1).trim();
+    t = t.replace(/https?:\/\/\S+/g, "");                       // captions carry no links
+    t = t.replace(/ — /g, ", ").replace(/—/g, ", ").replace(/ – /g, ", ");
+    t = t.replace(/[ \t]+/g, " ").replace(/[ \t]+\n/g, "\n");
+    t = t.replace(/\s*\n\s*\n\s*(\(via [^)]*\))\s*$/, " $1");
+    return t.trim().slice(0, 700);
+  }
+
+  function version(n) { var m = n.match(/(\d+(?:\.\d+)?)/); return m ? parseFloat(m[1]) : 0; }
+
+  function pickModels(key) {
+    try {
+      var cached = JSON.parse(sessionStorage.getItem("scr_gem_models") || "null");
+      if (cached && cached.length) return Promise.resolve(cached);
+    } catch (e) { /* ignore */ }
+    return fetch(GEMINI_API + "/models?pageSize=200", { headers: { "x-goog-api-key": key } })
+      .then(function (r) {
+        if (r.ok) return r.json();
+        return r.text().then(function (body) {
+          if (/API_KEY_INVALID|API key not valid|PERMISSION_DENIED/i.test(body) || r.status === 401 || r.status === 403) throw new Error("badkey");
+          return { models: [] };
+        });
+      })
+      .then(function (d) {
+        var skip = /image|tts|live|audio|exp|embedding|8b|thinking|robotics|computer/;
+        var names = (d.models || []).filter(function (m) {
+          return (m.supportedGenerationMethods || []).indexOf("generateContent") >= 0;
+        }).map(function (m) { return m.name.split("/").pop(); }).filter(function (n) { return /flash/.test(n) && !skip.test(n); });
+        var byVer = function (a, b) { return version(b) - version(a); };
+        var full = names.filter(function (n) { return !/lite|latest|preview/.test(n); }).sort(byVer);
+        var prev = names.filter(function (n) { return !/lite/.test(n) && /preview/.test(n); }).sort(byVer);
+        var lite = names.filter(function (n) { return /lite/.test(n) && !/latest|preview/.test(n); }).sort(byVer);
+        var order = [];
+        if (names.indexOf("gemini-flash-latest") >= 0) order.push("gemini-flash-latest");
+        order = order.concat(full.slice(0, 2), prev.slice(0, 1));
+        if (names.indexOf("gemini-flash-lite-latest") >= 0) order.push("gemini-flash-lite-latest");
+        order = order.concat(lite.slice(0, 1));
+        if (!order.length) order = ["gemini-flash-latest"];
+        order = order.filter(function (n, i) { return order.indexOf(n) === i; });
+        try { sessionStorage.setItem("scr_gem_models", JSON.stringify(order)); } catch (e) { /* ignore */ }
+        return order;
+      });
+  }
+
+  // ask Gemini; with a link it reads the page itself (URL context tool)
+  function generate(key, models, prompt, useUrl) {
+    var i = 0;
+    function next() {
+      while (i < models.length && busyModels[models[i]]) i++;
+      if (i >= models.length) return Promise.reject(new Error("busy"));
+      return attempt(models[i++], 0, useUrl);
+    }
+    function attempt(model, tries, withUrl) {
+      var body = {
+        systemInstruction: { parts: [{ text: window.ROUNDUP_CAPTION_RULES || "" }] },
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.3, maxOutputTokens: 2048 }
+      };
+      if (withUrl) body.tools = [{ url_context: {} }];
+      return fetch(GEMINI_API + "/models/" + model + ":generateContent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+        body: JSON.stringify(body)
+      }).then(function (r) {
+        if (r.ok) {
+          return r.json().then(function (d) {
+            var c = (d.candidates || [])[0] || {};
+            var text = tidyCaption(((c.content || {}).parts || []).filter(function (p) { return !p.thought; })
+              .map(function (p) { return p.text || ""; }).join(""));
+            var meta = c.urlContextMetadata || c.url_context_metadata || {};
+            var list = meta.urlMetadata || meta.url_metadata || [];
+            var read = list.some(function (u) { return /SUCCESS/.test(u.urlRetrievalStatus || u.url_retrieval_status || ""); });
+            if (!text) return next();
+            return { text: text, model: model, read: read };
+          });
+        }
+        return r.text().then(function (errBody) {
+          if (/API_KEY_INVALID|API key not valid/i.test(errBody) || r.status === 401 || r.status === 403) throw new Error("badkey");
+          if (r.status === 400 && withUrl) return attempt(model, tries, false);   // no link reading on this model
+          if ((r.status === 429 || r.status >= 500) && tries === 0) return wait(2500).then(function () { return attempt(model, 1, withUrl); });
+          busyModels[model] = true;
+          return next();
+        });
+      });
+    }
+    return next();
+  }
+
+  function writeCaption(prompt, useUrl) {
+    var key = gemKey();
+    if (!key) return Promise.reject(new Error("nokey"));
+    return pickModels(key).then(function (models) { return generate(key, models, prompt, useUrl); });
+  }
+
+  function showCaption(out, text, note) {
+    out.innerHTML = "";
+    var box = document.createElement("div");
+    box.className = "cap";
+    box.dataset.cap = text;
+    var h = document.createElement("div"); h.className = "cap-h"; h.textContent = note;
+    var p = document.createElement("p"); p.className = "cap-t"; p.textContent = text;
+    var b = document.createElement("button"); b.type = "button"; b.className = "capcopy"; b.textContent = "Copy caption";
+    box.appendChild(h); box.appendChild(p); box.appendChild(b);
+    out.appendChild(box);
+  }
+
+  function showNote(out, msg, settingsLink) {
+    out.innerHTML = "";
+    var n = document.createElement("div"); n.className = "note"; n.textContent = msg + " ";
+    if (settingsLink) {
+      var a = document.createElement("a"); a.href = "#settings"; a.textContent = "Open Settings";
+      a.addEventListener("click", function () { var st = $("settings"); if (st) st.open = true; });
+      n.appendChild(a);
+    }
+    out.appendChild(n);
+  }
+
+  function explain(out, err) {
+    var m = err && err.message;
+    if (m === "nokey") return showNote(out, "Add your Gemini key in Settings first.", true);
+    if (m === "badkey") return showNote(out, "Gemini didn't accept the saved key. Check it in Settings.", true);
+    if (m === "busy") return showNote(out, "Gemini is busy or today's free limit is used up. Try again in a few minutes.");
+    return showNote(out, "Couldn't reach Gemini. Check your connection and try again.");
+  }
+
+  function setBusy(btn, busy) {
+    if (busy) { btn.dataset.label = btn.textContent; btn.textContent = "Writing"; }
+    else { btn.textContent = btn.dataset.label || "Write caption"; }
+    btn.disabled = busy;
+    btn.classList.toggle("busy", busy);
+  }
+
+  function writeForItem(btn) {
+    var item = btn.closest("[data-id]");
+    var out = btn.parentNode.querySelector(".writer-out");
+    var lines = (item.dataset.packet || "").split("\n");
+    var headline = (item.querySelector(".t") || {}).textContent || lines[0];
+    var link = lines.filter(function (l) { return /^https?:\/\//.test(l); })[0] || "";
+    var outletEl = item.querySelector('.meta a[target="_blank"]');
+    var outlet = outletEl ? outletEl.textContent : "";
+    var sumEl = item.querySelector(".sum");
+    var prompt = [
+      "Write the caption for this story.",
+      "Headline: " + headline,
+      outlet ? "Outlet: " + outlet : "",
+      sumEl ? "Summary: " + sumEl.textContent : "",
+      link ? "Article: " + link : "",
+      link ? "Read the article at that link and use only facts stated in it. If you can't open it, use only the headline and summary." : ""
+    ].filter(Boolean).join("\n");
+    setBusy(btn, true);
+    writeCaption(prompt, !!link).then(function (res) {
+      showCaption(out, res.text, res.read
+        ? "Written just now by Gemini from the article. Check it before posting."
+        : "Written just now by Gemini from the headline only (the article couldn't be read). Check it carefully.");
+    }, function (err) { explain(out, err); }).then(function () { setBusy(btn, false); });
+  }
+
+  function writeFromMaker() {
+    var input = ($("maker-in").value || "").trim();
+    var out = $("maker-out"), btn = $("maker-go");
+    if (!input) return showNote(out, "Paste a link or some text first.");
+    var isLink = /^https?:\/\/\S+$/.test(input);
+    var prompt = isLink
+      ? "Write the caption for the story at this link: " + input + "\nRead it and use only facts stated in it."
+      : "Write the caption for this story. Use only facts stated in it.\n\n" + input;
+    setBusy(btn, true);
+    writeCaption(prompt, isLink).then(function (res) {
+      var note = !isLink ? "Written just now by Gemini from the text you pasted. Check it before posting."
+        : res.read ? "Written just now by Gemini from the article. Check it before posting."
+        : "Gemini couldn't open that link, so this may be thin. Paste the story text instead for a better caption.";
+      showCaption(out, res.text, note);
+    }, function (err) { explain(out, err); }).then(function () { setBusy(btn, false); });
+  }
+
+  function initWriter() {
+    document.addEventListener("click", function (e) {
+      var btn = e.target.closest && e.target.closest(".writer .writecap");
+      if (btn) writeForItem(btn);
+    });
+    var go = $("maker-go");
+    if (go) go.addEventListener("click", writeFromMaker);
+
+    var keyIn = $("gemkey"), save = $("gemkey-save"), clear = $("gemkey-clear"), state = $("gemkey-state");
+    function showState() {
+      if (!state) return;
+      state.textContent = gemKey() ? "A key is saved on this device." : "No key saved yet. Get one free at aistudio.google.com.";
+    }
+    if (save) save.addEventListener("click", function () {
+      var v = (keyIn.value || "").trim().split(/\s+/)[0] || "";
+      if (!v) { state.textContent = "Paste the key first."; return; }
+      store(LS_GEMKEY, v);
+      keyIn.value = "";
+      try { sessionStorage.removeItem("scr_gem_models"); } catch (e) { /* ignore */ }
+      busyModels = {};
+      showState();
+    });
+    if (clear) clear.addEventListener("click", function () {
+      try { localStorage.removeItem(LS_GEMKEY); } catch (e) { /* ignore */ }
+      showState();
+    });
+    showState();
   }
 
   // section indicator: the left rail (wide screens) or the button in the top bar (phones)

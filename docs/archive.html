@@ -125,6 +125,25 @@ details.more > summary::-webkit-details-marker,details.other > summary::-webkit-
 .capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
 .capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
 .today .cap{margin-right:0}
+.writer{margin-top:var(--s2)}
+.writecap{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.writer .writecap{min-height:32px;padding:0 var(--s3);font-size:var(--t1);border-color:var(--rule);color:var(--crave-ink)}
+.writecap[disabled]{opacity:.7;cursor:progress}
+.writecap.busy::after{content:"";width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.writecap.busy::after{animation:none}}
+.writer-out:empty{display:none}
+.writer-out .cap{margin-right:0}
+.writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
+.writer-out .note a{color:var(--ink)}
+.maker{margin:var(--s5) 0 0;padding:var(--s1) var(--s4) var(--s3);border:1px solid var(--rule);border-radius:var(--r)}
+.maker > summary{cursor:pointer;list-style:none;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0}
+.maker > summary::-webkit-details-marker{display:none}
+.maker p{margin:0 0 var(--s2)}
+.maker textarea{margin:0 0 var(--s2)}
+.keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
+.keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
+.linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
 details.capd{margin-top:var(--s2)}
 details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
 details.capd > summary::-webkit-details-marker{display:none}
@@ -164,7 +183,8 @@ td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 
 .arch b{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4)}
 .arch span{color:var(--slate);font-size:var(--t2)}
 </style>
-<script>window.ROUNDUP_DEFAULT_HEADER = "";</script>
+<script>window.ROUNDUP_DEFAULT_HEADER = "";
+window.ROUNDUP_CAPTION_RULES = "# Sitcom Crave caption rules (used for Gemini drafts)\n\nEdit this file to change how draft captions are written.\n\nYou write X (Twitter) captions for Sitcom Crave, a sitcom and comedy TV news account.\n\nStyle\n- Match PopCrave/PopBase: short, punchy, headline-first, 1 to 3 sentences. Lead with the news fact. No fluff.\n- Never use the em dash.\n- No emojis, except \ud83d\udd4a\ufe0f at the end of a post about someone who passed away.\n- Captions never contain links or URLs.\n- End with the source credit in plain text, e.g. \"(via Variety)\" or \"(via Deadline)\".\n- Say \"Twitter\", not \"X\".\n- Show titles in single quotes, e.g. 'Abbott Elementary'.\n- Episodes as \"S7 E6\", e.g. \"'Seinfeld' S7 E6: 'The Soup Nazi'\".\n- Say \"passed away\", never \"died\".\n- US audience: US dates, ET/PT times, \"today/tomorrow\" relative to US time.\n- Describe a person by the show they are known for, e.g. \"'Abbott Elementary' star Janelle James\". Janelle James is always \"Comedian and 'Abbott Elementary' star Janelle James\".\n- Describe a show plainly when needed: \"a show starring [lead] about [premise]\".\n- Don't copy the outlet's sentences. Reword the narration; only direct quotes stay word for word.\n\nQuote posts (when the story is mostly what someone said)\n- Put the quote first and the attribution at the end, e.g. \"... Chuck Lorre says\".\n- Quote the person the story is about, not the interviewer.\n- Open with a complete sentence from the quote; drop fragments and never add words.\n- For magazine interviews, don't write \"in an interview with [outlet]\"; the credit goes in \"(via Outlet)\".\n\nAccuracy (most important)\n- Use only facts stated in the article text given to you. If something is not in the article, leave it out.\n- Copy quotes exactly as written in the article, or don't quote at all.\n- Keep credits exactly as the article states them (created by is not produced by).\n- If the article text is missing, write only what the headline and summary say.\n- Reply with the caption text only. No notes, no options, no hashtags.\n";</script>
 </head><body>
 <div class="mast"><a class="brand" href="index.html"><img src="logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html" class="on">Archive</a></nav></div>
 
@@ -172,9 +192,13 @@ td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 
 
 <main>
 <div class="intro"><h1>Archive</h1><p>Every morning and evening roundup, newest first.</p></div>
-<a class="arch" href="editions/2026-11-07-morning.html"><b>Morning</b><span>Saturday, November 7, 2026</span><span>1:54pm</span></a>
+<a class="arch" href="editions/2026-11-07-morning.html"><b>Morning</b><span>Saturday, November 7, 2026</span><span>2:29pm</span></a>
 
 <details id="settings"><summary>Settings</summary>
+<div class="muted" style="margin-top:8px">Gemini key for writing captions on this device. It's saved only on this phone or computer, never on the site:</div>
+<div class="keyrow"><input id="gemkey" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Paste your Gemini API key">
+<button type="button" id="gemkey-save" class="writecap">Save</button><button type="button" id="gemkey-clear" class="linkish">Remove</button></div>
+<div class="muted" id="gemkey-state"></div>
 <div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
 <textarea id="header" rows="3"></textarea>
 <p class="muted">Tap a story to pick it. Stories you mark as posted get a green Posted badge; tap the badge to undo. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
