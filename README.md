@@ -31,10 +31,11 @@ Posted marks and the header line are saved in your browser, so they're per devic
 1. **Turn on the website:** repo **Settings → Pages → Build and deployment**: Source **Deploy from a branch**, Branch **main**, folder **/docs**, Save.
    The site will be at `https://aduseii.github.io/crave-roundup/`.
 2. **TMDB (upcoming premieres):** repo **Settings → Secrets and variables → Actions → New repository secret**, name `TMDB_API_KEY`, value your TMDB API key.
-3. **Telegram alerts (optional):**
-   - In Telegram, message `@BotFather`, send `/newbot`, follow the steps and copy the bot token.
-   - Send any message to your new bot, then open `https://api.telegram.org/bot<TOKEN>/getUpdates` in a browser and copy the `chat` → `id` number.
-   - Add two secrets: `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
+3. **Telegram alerts:**
+   - In Telegram, open `@BotFather`, send `/newbot`, give it a name (e.g. Sitcom Crave Roundup) and a username ending in `bot`. Copy the token it gives you.
+   - Open your new bot and tap **Start**. Bots can't message you until you do.
+   - Add one secret: `TELEGRAM_BOT_TOKEN` = the token.
+   - The next run finds your chat from that Start message (it looks for the Telegram username in `config/sources.json` → `telegram`), remembers it in `data/telegram.json`, and sends a "connected" message. You then get every breaking alert plus a short note when each morning and evening roundup is ready.
 4. **First run:** **Actions → Roundup → Run workflow**, pick `morning`.
 
 ## Changing what it watches

@@ -945,7 +945,10 @@ def upcoming(today: dt.date, health: list[dict]) -> list[dict]:
             if not sid or sid in out:
                 continue
             d = tmdb(f"/tv/{sid}", {})
-            nets = ", ".join(n.get("name", "") for n in d.get("networks", [])[:2])
+            net_names = [n.get("name", "") for n in d.get("networks", []) if n.get("name")]
+            if not net_names or all(n.lower() == "youtube" for n in net_names):
+                continue  # web-only or unknown shows are rarely news
+            nets = ", ".join(net_names[:2])
             if is_new:
                 when = _date(d.get("first_air_date") or r.get("first_air_date") or "")
                 label = "new series"
@@ -996,9 +999,48 @@ def site_url() -> str:
     return ""
 
 
-def send_telegram(text: str) -> bool:
+TELEGRAM_FILE = DATA_DIR / "telegram.json"
+_TG_CHAT: dict = {}
+
+
+def telegram_chat(cfg: dict) -> str | None:
+    """The chat to alert. Found once from the bot's messages (the user taps Start
+    in their bot), then remembered in data/telegram.json."""
+    if "id" in _TG_CHAT:
+        return _TG_CHAT["id"]
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")
+    if not chat and TELEGRAM_FILE.exists():
+        try:
+            chat = str(json.loads(TELEGRAM_FILE.read_text()).get("chat_id") or "") or None
+        except json.JSONDecodeError:
+            chat = None
+    if not chat and token:
+        want = (cfg.get("telegram", {}).get("username") or "").lstrip("@").lower()
+        try:
+            r = http_get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20)
+            for u in reversed(r.json().get("result", [])):
+                msg = u.get("message") or {}
+                c = msg.get("chat") or {}
+                if c.get("type") == "private" and (not want or (c.get("username") or "").lower() == want):
+                    chat = str(c["id"])
+                    write_text(TELEGRAM_FILE, json.dumps({"chat_id": chat}) + "\n")
+                    _TG_CHAT["id"] = chat
+                    send_telegram("Sitcom Crave Roundup is connected. Breaking news and each "
+                                  "morning and evening roundup will arrive here.", cfg)
+                    log("  Telegram connected")
+                    break
+            else:
+                log("  Telegram: no Start message from the right account yet. Open the bot and tap Start.")
+        except Exception as e:
+            log(f"  Telegram lookup failed: {redact(str(e))[:120]}")
+    _TG_CHAT["id"] = chat
+    return chat
+
+
+def send_telegram(text: str, cfg: dict | None = None) -> bool:
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat = _TG_CHAT.get("id") or (telegram_chat(cfg or {}) if token else None)
     if not token or not chat:
         return False
     try:
@@ -1016,7 +1058,9 @@ def send_telegram(text: str) -> bool:
 
 def alert_text(c: dict) -> str:
     p = c["primary"]
-    lines = [f"BREAKING ({', '.join(c['breaking'])}): {p['title']}"]
+    kind = {"Death": "In memoriam", "Cancel/End": "Cancelled", "Renewal": "Renewed"}.get(
+        c["breaking"][0], c["breaking"][0])
+    lines = [f"BREAKING, {kind}: {p['title']}"]
     for outlet, link in c["sources"][:3]:
         lines.append(f"{outlet}: {link}")
     url = site_url()
@@ -1502,6 +1546,10 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
                page(f"{title}: Sitcom Crave Roundup", content, depth=1, jump=jump))
     write_text(DOCS_DIR / "index.html",
                page(f"{title}: Sitcom Crave Roundup", content, depth=0, jump=jump))
+    url = site_url()
+    top = "\n".join(f"{i + 1}. {c['primary']['title']}" for i, c in enumerate(ranked[:3]))
+    state["_notice"] = (f"{mode.title()} roundup is ready: {len(clusters)} stories.\n\nTop picks:\n{top}"
+                        + (f"\n\n{url}/" if url else ""))
     state["editions"] = [e for e in state.get("editions", []) if e["name"] != name]
     state["editions"].append({"name": name, "edition": mode, "time": iso(now)})
     return name
@@ -1520,6 +1568,8 @@ def run(mode: str) -> int:
     wl = Watchlist(load_lines(CONFIG_DIR / "watchlist_shows.txt"),
                    load_lines(CONFIG_DIR / "watchlist_people.txt"))
     first_run = not STATE_FILE.exists()
+    if os.environ.get("TELEGRAM_BOT_TOKEN"):
+        telegram_chat(cfg)
     state = load_state()
     refilter(state, wl, cfg)
     log(f"{mode} run at {iso(now)}")
@@ -1538,7 +1588,7 @@ def run(mode: str) -> int:
         log("First run: noting current breaking stories without alerting")
     else:
         for c in fresh[:MAX_ALERTS]:
-            if send_telegram(alert_text(c)):
+            if send_telegram(alert_text(c), cfg):
                 sent += 1
         if len(fresh) > MAX_ALERTS:
             url = site_url()
@@ -1561,8 +1611,12 @@ def run(mode: str) -> int:
         return 0
 
     name = build_edition(mode, state, health, now)
+    notice = state.get("_notice")
+    if notice:
+        send_telegram(notice, cfg)
     write_archive(state)
     write_text(DATA_DIR / "health.json", json.dumps(health, indent=1))
+    state.pop("_notice", None)
     save_state(state)
     log(f"Wrote edition {name}")
     return 0

@@ -150,7 +150,7 @@ def fake_get(url, *, params=None, headers=None, timeout=25):
 
 ALERTS = []
 roundup.http_get = fake_get
-roundup.send_telegram = lambda text: ALERTS.append(text) or True
+roundup.send_telegram = lambda text, cfg=None: ALERTS.append(text) or True
 roundup.time.sleep = lambda s: None
 
 
@@ -208,21 +208,25 @@ check("Today&#x27;s posting schedule" in idx and ">8<small>am</small>" in idx, "
 check("test-key-123" not in idx and "test-key-123" not in (OUT / "data" / "state.json").read_text(),
       "TMDB key never written to pages or data")
 check("FAILED" in idx and "sources worked" in idx, "failed sources shown in the sources list")
-check(ALERTS == [], "first run does not send alerts")
+check([a for a in ALERTS if a.startswith("BREAKING")] == [], "first run does not send breaking alerts")
+check(any(a.startswith("Morning roundup is ready") and "aduseii.github.io/crave-roundup/" in a for a in ALERTS),
+      "morning roundup notice sent to Telegram")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
 check('src="../app.js"' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
       "edition page points at app.js correctly")
 
 PHASE["trade"] = MORNING_TRADE + BREAKING_EXTRA
 run("breaking", "2026-11-07T13:13:00Z")
-check(len(ALERTS) == 1 and "Pat Example" in ALERTS[0], "breaking check sends one alert for the new story")
-check("aduseii.github.io/crave-roundup/breaking.html" in (ALERTS[0] if ALERTS else ""),
+BRK = lambda: [a for a in ALERTS if a.startswith("BREAKING")]
+check(len(BRK()) == 1 and "Pat Example" in BRK()[0] and "In memoriam" in BRK()[0],
+      "breaking check sends one alert for the new story")
+check("aduseii.github.io/crave-roundup/breaking.html" in (BRK()[0] if BRK() else ""),
       "alert links to the breaking page")
 brk = (OUT / "docs" / "breaking.html").read_text()
 check("Pat Example" in brk and "Maple Street" in brk, "breaking page lists both breaking stories")
 
 run("breaking", "2026-11-07T13:43:00Z")
-check(len(ALERTS) == 1, "the same story is not alerted twice")
+check(len(BRK()) == 1, "the same story is not alerted twice")
 
 run("evening", "2026-11-07T17:50:00Z")
 eve = (OUT / "docs" / "index.html").read_text()
@@ -231,6 +235,26 @@ check("Renewed For Season 4" not in eve, "evening edition leaves out what the mo
 check("sec-anniversaries" not in eve, "anniversaries only in the morning")
 arc = (OUT / "docs" / "archive.html").read_text()
 check("2026-11-07-morning.html" in arc and "2026-11-07-evening.html" in arc, "archive lists both editions")
+
+# Telegram: the chat is found from the user's Start message and remembered
+UPDATES = {"ok": True, "result": [
+    {"update_id": 1, "message": {"chat": {"id": 111, "type": "private", "username": "someoneelse"}, "text": "/start"}},
+    {"update_id": 2, "message": {"chat": {"id": 222, "type": "private", "username": "WhoFring"}, "text": "/start"}},
+]}
+_old_get = roundup.http_get
+roundup.http_get = lambda url, **k: Resp(UPDATES) if "getUpdates" in url else _old_get(url, **k)
+os.environ["TELEGRAM_BOT_TOKEN"] = "123:test-token"
+roundup._TG_CHAT.clear()
+ALERTS.clear()
+cfg = json.loads((OUT / "config" / "sources.json").read_text())
+chat = roundup.telegram_chat(cfg)
+saved = json.loads((OUT / "data" / "telegram.json").read_text())
+check(chat == "222" and saved == {"chat_id": "222"}, "Telegram chat found by username and remembered")
+check(any("connected" in a for a in ALERTS), "a 'connected' message is sent once")
+check("123:test-token" not in (OUT / "data" / "telegram.json").read_text(), "bot token never saved")
+roundup._TG_CHAT.clear()
+check(roundup.telegram_chat(cfg) == "222", "remembered chat is reused on the next run")
+del os.environ["TELEGRAM_BOT_TOKEN"]
 
 print(f"\nOutput in {OUT}")
 print("ALL PASSED" if not check.failed else f"{check.failed} FAILED")
