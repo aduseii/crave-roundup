@@ -1262,8 +1262,10 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
     pre = "../" * depth
     desc = desc or DEFAULT_DESC
     site = site_url()
-    og_image = (f'<meta property="og:image" content="{E(site)}/logo-512.png">\n'
-                f'<meta property="og:image:width" content="512">\n<meta property="og:image:height" content="512">\n'
+    og_image = (f'<meta property="og:image" content="{E(site)}/og-image.jpg">\n'
+                f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+                f'<meta property="og:image:alt" content="Sitcom Crave">\n'
+                f'<meta name="twitter:image" content="{E(site)}/og-image.jpg">\n'
                 if site else "")
     on = ' class="on"'
     tabs = "".join(
@@ -1296,15 +1298,20 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
 <link rel="preload" href="{pre}fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="apple-touch-icon" href="{pre}icon-180.png">
+<link rel="icon" href="{pre}favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="{pre}favicon-16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="{pre}favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="{pre}favicon-48.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{pre}icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{pre}icon-180.png">
+<link rel="manifest" href="{pre}site.webmanifest">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Sitcom Crave Roundup">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
-{og_image}<meta name="twitter:card" content="summary">
+{og_image}<meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};</script>
 </head><body class="hideposted">
@@ -1471,7 +1478,8 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
 def write_assets() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "app.js", DOCS_DIR / "app.js")
-    for name in ("icon-180.png", "logo-96.png", "favicon-32.png", "logo-512.png"):
+    for name in ("icon-180.png", "icon-192.png", "logo-96.png", "logo-512.png", "og-image.jpg",
+                 "favicon-16.png", "favicon-32.png", "favicon-48.png", "favicon.ico", "site.webmanifest"):
         shutil.copyfile(ASSETS_DIR / name, DOCS_DIR / name)
     (DOCS_DIR / "fonts").mkdir(exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "fonts" / "archivo.woff2", DOCS_DIR / "fonts" / "archivo.woff2")
