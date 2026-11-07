@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:59:24+00:00"
+"time": "2026-11-07T11:02:56+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query": "\"comedy series\"",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -552,7 +552,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -2834,7 +2834,7 @@
 "people": [
 "Courteney Cox"
 ],
-"published": "2026-11-06T17:35:58+00:00",
+"published": "2026-11-07T08:54:42+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
 "relevant": true,
@@ -3715,7 +3715,7 @@
 "outlet": "TheWrap",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -4105,7 +4105,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -5548,7 +5548,7 @@
 "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmlLOTVnNXVRZnY0WXlGLVdyQkZKZXNNVnRjbEFlVW9iZk5LQWxMazZQVWltbFJNbnV1UkFGamJhS3hZTGMwVktlcDRWQkJMamFwbVlTcFJELXZuelRDejJUTERxTGJPZkJXN2MzYTMtMDhTVDVuU1dEc1BBREJwQ0U4WGN1SVdKRkdDWQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-07T09:30:46+00:00",
+"published": "2026-11-07T03:30:46+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "relevant": true,
@@ -7741,6 +7741,29 @@
 ],
 "title": "‘Ellen DeGeneres Show’ Producer Matthew Wright’s Cause of Death at 52 Revealed"
 },
+"d299d4e1df3d": {
+"first_seen": "2026-11-07T11:02:56+00:00",
+"id": "d299d4e1df3d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM0V6RkQ4eGNYaHlUNHpIMlVId3psZ2wzQUZJNEF5TVFTNE45aWtTVE14YkdTcjNqRGtqc0p2eUZWa1lwZnYtTUZKdk9KWUNxQWdvVkZpWHF2OFNBLVJmaTc0alMtLThZSjRFMW9nZUdxN2lOQWM1VUNOTHpNamdfT1dhN3E4bDQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Chuck Lorre"
+],
+"published": "2026-11-06T11:12:34+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Roseanne"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "EXCLUSIVE: Inside Chuck Lorre's Bitter Feud With Roseanne Barr on Set"
+},
 "d358876c3f67": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -9209,6 +9232,29 @@
 "Upcoming"
 ],
 "title": "Tim Allen’s ‘Shifting Gears’ Officially Confirms 2027 Return Date"
+},
+"fa6e8fe78ef1": {
+"first_seen": "2026-11-07T11:02:56+00:00",
+"id": "fa6e8fe78ef1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1samZOWDd0WkpONm1NSFo4V01rMk9GNnJVREk5bVoyV29SeEVpWlZCMkV4SXRlZldiUUZzb0lJQnljYTZmNEJYYi1BcGJTZw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T17:37:30+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Nobody Wants This’ Renewed For Season 4 By Netflix"
 },
 "fb615178f254": {
 "first_seen": "2026-11-07T10:51:32+00:00",
