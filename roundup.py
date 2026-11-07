@@ -1298,13 +1298,13 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
 <link rel="preload" href="{pre}fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="icon" href="{pre}favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="16x16" href="{pre}favicon-16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{pre}favicon-32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="{pre}favicon-48.png">
-<link rel="icon" type="image/png" sizes="192x192" href="{pre}icon-192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="{pre}icon-180.png">
-<link rel="manifest" href="{pre}site.webmanifest">
+<link rel="icon" href="{pre}favicon.ico?v=3" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="{pre}favicon-16.png?v=3">
+<link rel="icon" type="image/png" sizes="32x32" href="{pre}favicon-32.png?v=3">
+<link rel="icon" type="image/png" sizes="48x48" href="{pre}favicon-48.png?v=3">
+<link rel="icon" type="image/png" sizes="192x192" href="{pre}icon-192.png?v=3">
+<link rel="apple-touch-icon" sizes="180x180" href="{pre}icon-180.png?v=3">
+<link rel="manifest" href="{pre}site.webmanifest?v=3">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
 <meta property="og:type" content="website">
@@ -1478,7 +1478,7 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
 def write_assets() -> None:
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(ASSETS_DIR / "app.js", DOCS_DIR / "app.js")
-    for name in ("icon-180.png", "icon-192.png", "logo-96.png", "logo-512.png", "og-image.jpg",
+    for name in ("icon-180.png", "icon-192.png", "icon-512.png", "logo-96.png", "logo-512.png", "og-image.jpg",
                  "favicon-16.png", "favicon-32.png", "favicon-48.png", "favicon.ico", "site.webmanifest"):
         shutil.copyfile(ASSETS_DIR / name, DOCS_DIR / name)
     (DOCS_DIR / "fonts").mkdir(exist_ok=True)
@@ -1613,7 +1613,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
     write_text(DOCS_DIR / "editions" / f"{name}.html",
                page(f"{title}: Sitcom Crave Roundup", content, depth=1, jump=jump, desc=desc))
     write_text(DOCS_DIR / "index.html",
-               page(f"{title}: Sitcom Crave Roundup", content, depth=0, jump=jump, desc=desc))
+               page("Sitcom Crave Roundup", content, depth=0, jump=jump, desc=desc))
     rerun = any(e["name"] == name for e in state.get("editions", []))
     url = site_url()
     top = "\n".join(f"{i + 1}. {c['primary']['title']}" for i, c in enumerate(ranked[:3]))
