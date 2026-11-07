@@ -34,7 +34,7 @@ Posted marks and the header line are saved in your browser, so they're per devic
 3. **Telegram alerts:**
    - In Telegram, open `@BotFather`, send `/newbot`, give it a name (e.g. Sitcom Crave Roundup) and a username ending in `bot`. Copy the token it gives you.
    - Open your new bot and tap **Start**. Bots can't message you until you do.
-   - Add one secret: `TELEGRAM_BOT_TOKEN` = the token.
+   - Add one secret with the token. It's named `TELEGRAMBOT` in this repo (`TELEGRAM_BOT_TOKEN` also works).
    - The next run finds your chat from that Start message (it looks for the Telegram username in `config/sources.json` → `telegram`), remembers it in `data/telegram.json`, and sends a "connected" message. You then get every breaking alert plus a short note when each morning and evening roundup is ready.
 4. **First run:** **Actions → Roundup → Run workflow**, pick `morning`.
 
