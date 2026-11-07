@@ -176,7 +176,7 @@ def fake_post_json(url, body, headers, timeout=60):
 
 
 roundup.http_post_json = fake_post_json
-os.environ["GEMINI_API_KEY"] = "gem-key-456"
+os.environ["GEMINI_API_KEY"] = " gem-key-456\n"  # pasted with stray spaces, like a real secret can be
 roundup.http_get = fake_get
 roundup.send_telegram = lambda text, cfg=None: ALERTS.append(text) or True
 roundup.time.sleep = lambda s: None

@@ -84,10 +84,18 @@ _SECRETS: list[str] = []
 
 
 def redact(text: str) -> str:
-    """Hide API keys and tokens from anything that gets logged or saved."""
-    for s in _SECRETS:
-        if s:
-            text = text.replace(s, "***")
+    """Hide API keys and tokens from anything that gets logged or saved,
+    including padded copies and partial pieces of them."""
+    for secret in _SECRETS:
+        secret = (secret or "").strip()
+        if len(secret) < 8:
+            continue
+        text = text.replace(secret, "***")
+        # any run of 8+ characters taken from the start of the secret (e.g. a cut-off error message)
+        for n in range(len(secret) - 1, 7, -1):
+            if secret[:n] in text:
+                text = text.replace(secret[:n], "***")
+                break
     return text
 
 
@@ -1113,7 +1121,7 @@ def gemini_model(cfg: dict) -> str | None:
             names = [m["name"].split("/", 1)[-1] for m in data.get("models", [])
                      if "generateContent" in m.get("supportedGenerationMethods", [])]
         except Exception as e:
-            log(f"  Gemini model list failed: {redact(str(e))[:100]}")
+            log(f"  Gemini model list failed: {type(e).__name__}{': ' + str(e) if isinstance(e, FetchError) else ''}")
         if "gemini-flash-latest" in names:
             pick = "gemini-flash-latest"
         else:
@@ -1195,11 +1203,11 @@ def draft_caption(c: dict, cfg: dict) -> str | None:
                                 "from_article": bool(text)}
             return out
         except Exception as e:
-            msg = redact(str(e))
+            msg = str(e) if isinstance(e, FetchError) else type(e).__name__  # FetchError holds only "HTTP nnn"
             if "429" in msg and attempt == 0:
                 time.sleep(20)
                 continue
-            log(f"  Gemini draft failed: {msg[:120]}")
+            log(f"  Gemini draft failed: {redact(msg)}")
             return None
     return None
 
@@ -1812,6 +1820,9 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
 def run(mode: str) -> int:
     global USER_AGENT
     now = now_utc()
+    for name in ("TMDB_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "GEMINI_API_KEY"):
+        if name in os.environ:
+            os.environ[name] = os.environ[name].strip()  # pasted secrets often carry a stray space or line break
     _SECRETS.extend([os.environ.get("TMDB_API_KEY", ""), os.environ.get("TELEGRAM_BOT_TOKEN", "")])
     cfg = json.loads((CONFIG_DIR / "sources.json").read_text(encoding="utf-8"))
     USER_AGENT = cfg.get("user_agent", USER_AGENT)
