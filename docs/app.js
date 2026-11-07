@@ -2,7 +2,6 @@
 (function () {
   var LS_POSTED = "scr_posted";
   var LS_HEADER = "scr_header";
-  var LS_SHOWPOSTED = "scr_showposted";
   var GROK_URL = "https://grok.com/?q=";
   var GROK_LINK_LIMIT = 7000; // longer packets are copied only
 
@@ -66,19 +65,27 @@
     });
   }
 
+  // posted stories stay on the page with a green "Posted" badge; tapping the badge undoes it
   function applyPosted() {
     var posted = postedSet();
-    var dropped = [];
     document.querySelectorAll("[data-id]").forEach(function (el) {
       var isPosted = posted.has(el.dataset.id);
       el.classList.toggle("posted", isPosted);
-      if (isPosted && el.closest(".today")) {
-        var t = el.querySelector(".t");
-        if (t) dropped.push(t.textContent.trim());
+      var badge = el.querySelector(".posted-badge");
+      if (isPosted && !badge) {
+        badge = document.createElement("button");
+        badge.type = "button";
+        badge.className = "posted-badge";
+        badge.textContent = "Posted";
+        badge.title = "Tap to unmark";
+        badge.setAttribute("aria-label", "Posted. Tap to unmark");
+        var meta = el.querySelector(".meta");
+        if (meta) meta.insertBefore(badge, meta.firstChild);
+        else el.appendChild(badge);
+      } else if (!isPosted && badge) {
+        badge.remove();
       }
     });
-    var line = $("droppedline");
-    if (line) line.textContent = dropped.length ? "Dropped as already posted: " + dropped.join("; ") : "";
   }
 
   function copyText(text) {
@@ -117,16 +124,6 @@
     if (h) {
       h.value = load(LS_HEADER, window.ROUNDUP_DEFAULT_HEADER || "");
       h.addEventListener("input", function () { store(LS_HEADER, h.value); });
-    }
-
-    var sp = $("showposted");
-    if (sp) {
-      sp.checked = load(LS_SHOWPOSTED, "0") === "1";
-      document.body.classList.toggle("hideposted", !sp.checked);
-      sp.addEventListener("change", function () {
-        store(LS_SHOWPOSTED, sp.checked ? "1" : "0");
-        document.body.classList.toggle("hideposted", !sp.checked);
-      });
     }
 
     $("copy").addEventListener("click", function () {
@@ -174,7 +171,7 @@
       selected.clear();
       updateTray();
       applyPosted();
-      status("Marked " + n + " as posted.");
+      status("Marked " + n + " as posted. Tap a Posted badge to undo.");
     });
 
     $("clear").addEventListener("click", function () {
@@ -204,7 +201,19 @@
       });
     });
 
-    // unmark one posted story: it shows when "Show posted" is ticked; Shift+click its checkbox
+    // tap a Posted badge to unmark that story
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest && e.target.closest(".posted-badge");
+      if (!b) return;
+      var item = b.closest("[data-id]");
+      var posted = postedSet();
+      posted.delete(item.dataset.id);
+      savePosted(posted);
+      applyPosted();
+      status("Unmarked.");
+    });
+
+    // older shortcut: Shift+click a posted story's checkbox
     document.addEventListener("click", function (e) {
       if (!e.shiftKey || !e.target.classList || !e.target.classList.contains("pick")) return;
       var item = e.target.closest("[data-id]");

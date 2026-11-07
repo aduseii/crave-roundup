@@ -94,7 +94,7 @@
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 20,
+  "count": 18,
   "resolved": ""
  },
  {
@@ -108,21 +108,21 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 10,
+  "count": 9,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 8,
+  "count": 9,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -164,7 +164,7 @@
   "type": "search",
   "name": "\"That '70s Show\" OR \"That '90s Show\" OR \"Malcolm in the Middle\" OR \"The Good Place\" OR \"Grace Under Fire\" OR \"Suddenly Susan\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -185,7 +185,7 @@
   "type": "search",
   "name": "\"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\" OR \"Kenan & Kel\" OR \"That's So Raven\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -199,14 +199,14 @@
   "type": "search",
   "name": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
   "ok": true,
-  "count": 6,
+  "count": 8,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Silicon Valley\" OR \"Fresh Off the Boat\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -262,14 +262,14 @@
   "type": "search",
   "name": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
-  "count": 16,
+  "count": 17,
   "resolved": ""
  },
  {
@@ -304,14 +304,14 @@
   "type": "search",
   "name": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
   "ok": true,
-  "count": 11,
+  "count": 10,
   "resolved": ""
  },
  {
@@ -339,14 +339,14 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -381,7 +381,7 @@
   "type": "search",
   "name": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
   "ok": true,
-  "count": 1,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -423,7 +423,7 @@
   "type": "search",
   "name": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
