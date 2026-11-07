@@ -64,12 +64,73 @@
 "fbac496bfba9": "2026-11-07T10:20:14+00:00",
 "fe9a41b11fcc": "2026-11-07T10:20:14+00:00"
 },
-"drafts": {},
+"drafts": {
+"005accbf7a1e": {
+"at": "2026-11-07T13:06:38+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Netflix will stream the canceled Starz comedy series 'Run the World'. (via IMDb)"
+},
+"235e76be1b35": {
+"at": "2026-11-07T13:05:57+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Nobody Wants This' star Kristen Bell has received a surprising update regarding a potential Season 4 following lower ratings. (via Yahoo)"
+},
+"276069c713c8": {
+"at": "2026-11-07T13:06:19+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "\"They never paid me very well on that show,\" 'Two and a Half Men' star Holland Taylor says. She reveals she left the sitcom as a series regular after Season 6 because she never received a raise despite earning four Emmy nominations. (via TVLine)"
+},
+"46a13180447f": {
+"at": "2026-11-07T13:04:15+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Nobody Wants This' has been renewed for a fourth season at Netflix. The romantic comedy stars Kristen Bell and Adam Brody. (via E! News)"
+},
+"5342300002eb": {
+"at": "2026-11-07T13:06:06+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'American Dad!' and 'The Prince of Egypt' voice actor Patrick Stewart has passed away at the age of 86. 🕊️ (via Cartoon Brew)"
+},
+"5e5086d54f0b": {
+"at": "2026-11-07T13:05:42+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Ted Lasso' star Hannah Waddingham says she \"doesn't know\" about the future of the series. (via Yahoo Lifestyle Canada)"
+},
+"a3975ab141cd": {
+"at": "2026-11-07T13:06:31+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Friends' star Jennifer Aniston starred in the sketch comedy series 'The Edge' two years before landing her role as Rachel Green. The 1992 show featured dark humor and a cast including 'Seinfeld' star Wayne Knight and 'Spin City' star Alan Ruck. Aniston reportedly turned down an offer to join 'Saturday Night Live' after the series ended.\n\n(via TVLine)"
+},
+"aa9ff585b0c4": {
+"at": "2026-11-07T12:58:15+00:00",
+"from_article": true,
+"model": "gemini-flash-latest",
+"text": "'Nobody Wants This' has been renewed for Season 4 at Netflix.\n\nThe Kristen Bell and Adam Brody-led rom-com recently delivered the streamer's biggest opening week for a returning comedy series this year. (via The Hollywood Reporter)"
+},
+"b92902159881": {
+"at": "2026-11-07T13:01:26+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "The cause of death for 'The Ellen DeGeneres Show' executive producer Matthew Wright has been confirmed as cardiopulmonary arrest. Hypertension was listed as the underlying cause for the producer, who passed away on October 30 at age 52. 🕊️\n\n(via Just Jared)"
+},
+"cc8057ce618e": {
+"at": "2026-11-07T13:06:47+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Friends' star Morgan Fairchild has launched a career on an adult site at 76 years old. The move comes months after the actress was linked to Jeffrey Epstein. (via Yahoo Lifestyle Canada)"
+}
+},
 "editions": [
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T12:50:50+00:00"
+"time": "2026-11-07T12:56:14+00:00"
 }
 ],
 "items": {
@@ -848,6 +909,27 @@
 "Casting"
 ],
 "title": "♡ Hearts2Hearts (하츠투하트) joins the CUTEST Heat Eaters EVER! ♡"
+},
+"0e1d31396820": {
+"first_seen": "2026-11-07T12:56:14+00:00",
+"id": "0e1d31396820",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1UZEJybEdfV3A3YUdiQTZNdkJ3dHozUk1qQXVpS0tmMVh5bXV0b1NoQVpyNzNvZXVzYzJvem9MY2xNVHNkTVR0UEE5QnpRaVN2MXc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-07T11:06:24+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "‘Criminal’ TV Show Trailer: Charlie Hunnam & Luke Evans Lead New Prime Video Series Based on Graphic Novel!"
 },
 "0e66e0836f87": {
 "channel_kind": "streamer",
@@ -2170,6 +2252,23 @@
 "summary": "",
 "tags": [],
 "title": "How Lucille Ball Influenced The Brady Bunch's Name"
+},
+"2ec9a6a995a3": {
+"first_seen": "2026-11-07T12:56:14+00:00",
+"id": "2ec9a6a995a3",
+"kind": "article",
+"link": "https://collider.com/hbo-shows-forgotten-perfect-start-to-finish/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-07T12:53:12+00:00",
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "From the war miniseries Generation Kill to the underrated true crime comedy Landscapers, these forgotten HBO shows are practically flawless.",
+"tags": [],
+"title": "10 Forgotten HBO Shows That Are Perfect From Start to Finish"
 },
 "2f357bc49735": {
 "channel_kind": "streamer",
