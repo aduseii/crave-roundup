@@ -1325,14 +1325,14 @@ body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
 .side{display:none}
 @media (min-width:1000px){
 .jumpbar{display:none}
-.layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
+body.has-side .layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
 .side{display:block}
 .sidenav{position:sticky;top:var(--s5);display:flex;flex-direction:column;padding-top:var(--s6)}
 .sidenav a{padding:var(--s2) 0 var(--s2) var(--s4);border-left:4px solid var(--rule);color:var(--slate);font-size:var(--t2)}
 .sidenav a:hover{color:var(--ink)}
 .sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
-.layout main{margin:0;padding-left:0;padding-right:0}
-.mast{max-width:896px}
+body.has-side .layout main{margin:0;padding-left:0;padding-right:0}
+body.has-side .mast{max-width:896px}
 }
 
 .intro{padding:var(--s5) 0 var(--s2)}
@@ -1550,6 +1550,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
                f'<nav id="secmenu" class="secmenu" aria-label="Jump to a section" hidden>{items}</nav></div></div>')
         aside = f'<aside class="side"><nav class="sidenav" aria-label="Sections">{items}</nav></aside>'
     css = CSS.replace("FONTPATH", f"{pre}fonts/archivo.woff2")
+    body_class = ' class="has-side"' if aside else ""  # the two-column layout only when there is a section list
     rules_js = json.dumps(caption_rules_text()).replace("</", "<\\/")  # safe inside <script>
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -1579,7 +1580,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <style>{css}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};
 window.ROUNDUP_CAPTION_RULES = {rules_js};</script>
-</head><body>
+</head><body{body_class}>
 {mast}
 {bar}
 <div class="layout">
