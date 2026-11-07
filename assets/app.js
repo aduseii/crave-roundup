@@ -458,7 +458,10 @@
     var lastId = null;
 
     function update() {
-      var offset = 90; // a heading counts as current once it reaches the top of the screen
+      // a heading counts as current once it reaches the spot where a jump lands it, just under the pinned header
+      var head = document.querySelector("header.top");
+      var landing = parseFloat(getComputedStyle(heads[0]).scrollMarginTop) || 0;
+      var offset = Math.max(landing, head ? head.offsetHeight : 0) + 16;
       var active = heads[0];
       for (var i = 0; i < heads.length; i++) {
         if (heads[i].getBoundingClientRect().top - offset <= 0) active = heads[i];

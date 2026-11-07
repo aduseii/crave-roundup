@@ -1302,14 +1302,15 @@ main,.mast{max-width:var(--col);margin:0 auto;padding-left:max(var(--s4),env(saf
 main{padding-bottom:calc(var(--s8) + env(safe-area-inset-bottom))}
 body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
 
-.mast{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);flex-wrap:wrap;padding-top:calc(var(--s4) + env(safe-area-inset-top));padding-bottom:var(--s2)}
+header.top{position:sticky;top:0;z-index:8;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.mast{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);flex-wrap:wrap;padding-top:var(--s3);padding-bottom:var(--s2)}
 .brand{display:inline-flex;align-items:center;gap:var(--s3);font-stretch:var(--narrow);font-weight:900;font-size:var(--t5);line-height:1;letter-spacing:-.01em;text-decoration:none}
 .brand img{width:44px;height:44px;border-radius:var(--r);display:block}
 .tabs{display:flex;gap:var(--s4);font-size:var(--t2)}
 .tabs a{text-decoration:none;color:var(--slate);padding:var(--s2) 0}
 .tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
 
-.jumpbar{position:sticky;top:0;z-index:6;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.jumpbar{border-top:1px solid var(--rule)}
 .jb{position:relative;max-width:var(--col);margin:0 auto;padding:0 max(var(--s4),env(safe-area-inset-right)) 0 max(var(--s4),env(safe-area-inset-left))}
 #secbtn{display:flex;align-items:center;gap:var(--s2);width:100%;background:none;border:0;padding:var(--s3) 0;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
 #secbtn::before{content:"";width:4px;height:24px;background:var(--crave)}
@@ -1327,25 +1328,32 @@ body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
 .jumpbar{display:none}
 body.has-side .layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
 .side{display:block}
-.sidenav{position:sticky;top:var(--s5);display:flex;flex-direction:column;padding-top:var(--s6)}
+.sidenav{position:sticky;top:96px;display:flex;flex-direction:column;padding-top:var(--s6)}
 .sidenav a{padding:var(--s2) 0 var(--s2) var(--s4);border-left:4px solid var(--rule);color:var(--slate);font-size:var(--t2)}
 .sidenav a:hover{color:var(--ink)}
 .sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
 body.has-side .layout main{margin:0;padding-left:0;padding-right:0}
 body.has-side .mast{max-width:896px}
+h2,.item{scroll-margin-top:96px}
+}
+@media (max-width:640px){
+.brand{font-size:var(--t4);gap:var(--s2)}
+.brand img{width:36px;height:36px}
+.mast{padding-top:var(--s2);padding-bottom:var(--s1);gap:var(--s2)}
+.tabs{gap:var(--s3)}
 }
 
 .intro{padding:var(--s5) 0 var(--s2)}
 .intro h1{font-stretch:var(--narrow);font-weight:900;font-size:var(--t6);line-height:1;margin:0;letter-spacing:-.015em}
 .intro p{margin:var(--s2) 0 0;color:var(--slate);font-size:var(--t2);max-width:34em}
 
-h2{font-stretch:var(--narrow);font-weight:800;font-size:var(--t5);line-height:1.1;margin:var(--s7) 0 var(--s1);padding-bottom:var(--s2);border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:var(--s3);scroll-margin-top:64px}
+h2{font-stretch:var(--narrow);font-weight:800;font-size:var(--t5);line-height:1.1;margin:var(--s7) 0 var(--s1);padding-bottom:var(--s2);border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:var(--s3);scroll-margin-top:136px}
 h2 .count{font-stretch:100%;font-weight:400;font-size:var(--t2);color:var(--slate)}
 h3{font-size:var(--t2);font-weight:700;margin:var(--s5) 0 0;color:var(--slate)}
 .muted{color:var(--slate);font-size:var(--t2)}
 .empty{color:var(--slate);font-size:var(--t2);margin:var(--s3) 0}
 
-.item{position:relative;padding:var(--s4) 0;border-bottom:1px solid var(--rule);scroll-margin-top:64px;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.item{position:relative;padding:var(--s4) 0;border-bottom:1px solid var(--rule);scroll-margin-top:136px;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .item.sel{background:var(--pick);box-shadow:calc(-1 * var(--s4)) 0 0 var(--pick),var(--s4) 0 0 var(--pick)}
 .item.sel::before{content:"";position:absolute;left:calc(-1 * var(--s4));top:0;bottom:0;width:4px;background:var(--crave)}
 .item .kick{font-size:var(--t1);margin-bottom:var(--s1)}
@@ -1581,8 +1589,7 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};
 window.ROUNDUP_CAPTION_RULES = {rules_js};</script>
 </head><body{body_class}>
-{mast}
-{bar}
+<header class="top">{mast}{bar}</header>
 <div class="layout">
 {aside}
 <main>
