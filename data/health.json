@@ -87,14 +87,14 @@
   "type": "search",
   "name": "\"comedy series\"",
   "ok": true,
-  "count": 12,
+  "count": 11,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 21,
+  "count": 20,
   "resolved": ""
  },
  {
@@ -108,21 +108,21 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 11,
+  "count": 10,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 7,
+  "count": 8,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -150,7 +150,7 @@
   "type": "search",
   "name": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -220,7 +220,7 @@
   "type": "search",
   "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
   "ok": true,
-  "count": 29,
+  "count": 30,
   "resolved": ""
  },
  {
@@ -269,7 +269,7 @@
   "type": "search",
   "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
-  "count": 15,
+  "count": 16,
   "resolved": ""
  },
  {
@@ -283,7 +283,7 @@
   "type": "search",
   "name": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -297,7 +297,7 @@
   "type": "search",
   "name": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -318,7 +318,7 @@
   "type": "search",
   "name": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -346,14 +346,14 @@
   "type": "search",
   "name": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -388,7 +388,7 @@
   "type": "search",
   "name": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
   "ok": true,
-  "count": 7,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -423,7 +423,7 @@
   "type": "search",
   "name": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
