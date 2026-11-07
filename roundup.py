@@ -86,16 +86,17 @@ _SECRETS: list[str] = []
 def redact(text: str) -> str:
     """Hide API keys and tokens from anything that gets logged or saved,
     including padded copies and partial pieces of them."""
-    for secret in _SECRETS:
-        secret = (secret or "").strip()
-        if len(secret) < 8:
-            continue
-        text = text.replace(secret, "***")
-        # any run of 8+ characters taken from the start of the secret (e.g. a cut-off error message)
-        for n in range(len(secret) - 1, 7, -1):
-            if secret[:n] in text:
-                text = text.replace(secret[:n], "***")
-                break
+    for whole in _SECRETS:
+        for secret in (whole or "").split():
+            if len(secret) < 10:
+                continue
+            text = text.replace(secret, "***")
+            # any 10+ character stretch of the secret (a cut-off or split copy)
+            for size in range(len(secret) - 1, 9, -1):
+                for start in range(0, len(secret) - size + 1):
+                    piece = secret[start:start + size]
+                    if piece in text:
+                        text = text.replace(piece, "***")
     return text
 
 
@@ -232,7 +233,7 @@ def http_get(url: str, *, params: dict | None = None, headers: dict | None = Non
         except requests.RequestException as e:
             last = e
             time.sleep(2)
-    raise FetchError(redact(f"{type(last).__name__}: {last}") if last else "request failed")
+    raise FetchError(type(last).__name__ if last else "request failed")
 
 
 # --------------------------------------------------------------------------
@@ -1821,8 +1822,12 @@ def run(mode: str) -> int:
     global USER_AGENT
     now = now_utc()
     for name in ("TMDB_API_KEY", "TELEGRAM_BOT_TOKEN", "TELEGRAM_CHAT_ID", "GEMINI_API_KEY"):
-        if name in os.environ:
-            os.environ[name] = os.environ[name].strip()  # pasted secrets often carry a stray space or line break
+        raw = os.environ.get(name, "")
+        parts = raw.split()
+        if len(parts) > 1:
+            log(f"  Note: the {name} secret holds {len(parts)} values; using the first one")
+        os.environ[name] = parts[0] if parts else ""  # pasted secrets often carry stray spaces or extra lines
+        _SECRETS.extend(parts)
     _SECRETS.extend([os.environ.get("TMDB_API_KEY", ""), os.environ.get("TELEGRAM_BOT_TOKEN", "")])
     cfg = json.loads((CONFIG_DIR / "sources.json").read_text(encoding="utf-8"))
     USER_AGENT = cfg.get("user_agent", USER_AGENT)
