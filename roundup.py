@@ -1019,19 +1019,25 @@ def telegram_chat(cfg: dict) -> str | None:
         want = (cfg.get("telegram", {}).get("username") or "").lstrip("@").lower()
         try:
             r = http_get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20)
-            for u in reversed(r.json().get("result", [])):
-                msg = u.get("message") or {}
-                c = msg.get("chat") or {}
-                if c.get("type") == "private" and (not want or (c.get("username") or "").lower() == want):
-                    chat = str(c["id"])
-                    write_text(TELEGRAM_FILE, json.dumps({"chat_id": chat}) + "\n")
-                    _TG_CHAT["id"] = chat
-                    send_telegram("Sitcom Crave Roundup is connected. Breaking news and each "
-                                  "morning and evening roundup will arrive here.", cfg)
-                    log("  Telegram connected")
-                    break
+            updates = r.json().get("result", [])
+            private = {}
+            for u in updates:
+                c = (u.get("message") or u.get("edited_message") or {}).get("chat") or {}
+                if c.get("type") == "private" and c.get("id"):
+                    private[str(c["id"])] = (c.get("username") or "").lower()
+            match = [cid for cid, name in private.items() if want and name == want]
+            if not match and len(private) == 1:
+                match = list(private)  # only one person has messaged this bot: that's the owner
+            if match:
+                chat = match[-1]
+                write_text(TELEGRAM_FILE, json.dumps({"chat_id": chat}) + "\n")
+                _TG_CHAT["id"] = chat
+                send_telegram("Sitcom Crave Roundup is connected. Breaking news and each "
+                              "morning and evening roundup will arrive here.", cfg)
+                log("  Telegram connected")
             else:
-                log("  Telegram: no Start message from the right account yet. Open the bot and tap Start.")
+                log(f"  Telegram: {len(updates)} recent messages to the bot, {len(private)} private chats, "
+                    "none matched. Open the bot, tap Start and send it any message.")
         except Exception as e:
             log(f"  Telegram lookup failed: {redact(str(e))[:120]}")
     _TG_CHAT["id"] = chat
