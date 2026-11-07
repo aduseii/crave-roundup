@@ -695,9 +695,9 @@ def md_sources(sources: list[tuple[str, str]]) -> str:
 def story_packet(c: dict) -> str:
     """Just the story: the headline as published and the source links.
     Grok's own setup does the writing, so nothing here is reworded."""
-    lines = [c["primary"]["title"]]
-    lines += [link for _, link in c["sources"][:3]]
-    return "\n".join(lines)
+    direct = [link for _, link in c["sources"] if "news.google." not in link]
+    links = direct[:2] or [c["sources"][0][1]]  # real outlet links first; Google links only as a last resort
+    return "\n".join([c["primary"]["title"]] + links)
 
 # --------------------------------------------------------------------------
 # Wikidata: birthdays, death anniversaries, premiere and finale anniversaries
