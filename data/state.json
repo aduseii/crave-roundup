@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:34:18+00:00"
+"time": "2026-11-07T11:49:30+00:00"
 }
 ],
 "items": {
@@ -572,7 +572,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -6993,6 +6993,29 @@
 ],
 "title": "Cause of Death Revealed for ‘Ellen’ Producer Matthew Wright"
 },
+"b9551d153f4c": {
+"first_seen": "2026-11-07T11:49:30+00:00",
+"id": "b9551d153f4c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa29NOHlxLV9sQlJkREV2SEU4RDhjVGgxd2FXMTlSTFQwY01uNGdhTUQtYU42QVJpTVdVejBMakNTbXFIZW1ZR1dPZWNlWjQ4cjl2MVdWc3B4c0NOZHpQM0owTzBySjZpeW1kanY4cmdTYXZ3V3ZaREFCUE1XeWc1cXRtaVJ5WDR2c2FOUGNzXzZqSHowLW5xMXdn?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Hilary Duff"
+],
+"published": "2026-11-07T11:33:03+00:00",
+"query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Hilary Duff Reveals Unexpected Plans That Could Change Her Music Career!"
+},
 "b9773cf79c73": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7224,7 +7247,7 @@
 "outlet": "Mashable",
 "people": [],
 "published": "2026-11-07T04:12:18+00:00",
-"query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -8491,8 +8514,8 @@
 "outlet": "HELLO!",
 "people": [],
 "published": "2026-11-06T12:53:51+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
+"query": "sitcom",
+"query_relevant": true,
 "relevant": true,
 "shows": [],
 "sitcom": true,
