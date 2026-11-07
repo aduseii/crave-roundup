@@ -74,10 +74,7 @@ SECTION_TYPE = {
     "upcoming": "Upcoming",
 }
 
-DEFAULT_HEADER = (
-    "Data processing and Captioner: caption these for X in my style. "
-    "Post only the finished pieces."
-)
+DEFAULT_HEADER = ""   # nothing added above the stories; Grok handles the writing
 
 # --------------------------------------------------------------------------
 # Small helpers
@@ -696,25 +693,11 @@ def md_sources(sources: list[tuple[str, str]]) -> str:
 
 
 def story_packet(c: dict) -> str:
-    p = c["primary"]
-    if c["breaking"]:
-        typ = f"Breaking ({', '.join(c['breaking'])})"
-    elif c["kind"] == "video":
-        typ = "Trailer" if c["section"] == "trailers" else "Interview clip"
-    else:
-        typ = SECTION_TYPE[c["section"]]
-    lines = [f"Type: {typ}", f"Headline: {p['title']}"]
-    if c["summary"]:
-        lines.append(f"Details: {c['summary']}")
-    if c["kind"] == "video":
-        lines.append(f"Video: {p['outlet']} on YouTube, {p['link']}")
-    if c["shows"]:
-        lines.append("Shows: " + ", ".join(f"'{s}'" for s in sorted(c["shows"])))
-    if c["people"]:
-        lines.append("People: " + ", ".join(sorted(c["people"])))
-    lines.append("Sources: " + md_sources(c["sources"]))
+    """Just the story: the headline as published and the source links.
+    Grok's own setup does the writing, so nothing here is reworded."""
+    lines = [c["primary"]["title"]]
+    lines += [link for _, link in c["sources"][:3]]
     return "\n".join(lines)
-
 
 # --------------------------------------------------------------------------
 # Wikidata: birthdays, death anniversaries, premiere and finale anniversaries
@@ -873,39 +856,22 @@ def links_for(entry: dict) -> list[tuple[str, str]]:
 
 
 def birthday_packet(b: dict) -> str:
-    lines = ["Type: Birthday", f"Name: {b['name']}, turns {b['years']} today"]
-    if b["gender"]:
-        lines.append(f"Gender: {b['gender']}")
-    lines.append(f"Born: {us_date(b['date'])}")
-    if b["shows"]:
-        lines.append("Known for: " + ", ".join(b["shows"]))
-    lines.append("Sources: " + md_sources(links_for(b)))
+    lines = [f"{b['name']}, born {us_date(b['date'])}"]
+    lines += [u for _, u in links_for(b)[:1]]
     return "\n".join(lines)
-
 
 def death_packet(d: dict) -> str:
-    lines = ["Type: Death anniversary",
-             f"Name: {d['name']}, passed away {d['years']} years ago today"]
-    if d["gender"]:
-        lines.append(f"Gender: {d['gender']}")
-    born = short_date(d["born"]) if d.get("born") else "?"
-    lines.append(f"Dates: {born} - {short_date(d['date'])}")
-    if d["shows"]:
-        lines.append("Known for: " + ", ".join(d["shows"]))
-    lines.append("Sources: " + md_sources(links_for(d)))
+    born = f"born {us_date(d['born'])}, " if d.get("born") else ""
+    lines = [f"{d['name']}, {born}died {us_date(d['date'])}"]
+    lines += [u for _, u in links_for(d)[:1]]
     return "\n".join(lines)
 
-
 def show_anniv_packet(s: dict, verb: str) -> str:
-    kind = "Premiere anniversary" if verb == "premiered" else "Finale anniversary"
-    net = f", {s['networks']}" if s["networks"] else ""
-    return "\n".join([
-        f"Type: {kind}",
-        f"Show: '{s['name']}' {verb} {s['years']} years ago today",
-        f"Date: {us_date(s['date'])}{net}",
-        "Sources: " + md_sources(links_for(s)),
-    ])
-
+    what = "premiered" if verb == "premiered" else "ended"
+    net = f" on {s['networks']}" if s["networks"] else ""
+    lines = [f"{s['name']} {what} {us_date(s['date'])}{net}"]
+    lines += [u for _, u in links_for(s)[:1]]
+    return "\n".join(lines)
 
 # --------------------------------------------------------------------------
 # TMDB: upcoming comedy premieres
@@ -976,13 +942,8 @@ def upcoming(today: dt.date, health: list[dict]) -> list[dict]:
 
 def upcoming_packet(u: dict) -> str:
     net = f" on {u['networks']}" if u["networks"] else ""
-    lines = ["Type: Upcoming premiere", f"Show: '{u['name']}' ({u['label']})",
-             f"Premieres: {long_date(u['date'])}{net}"]
-    if u["overview"]:
-        lines.append(f"About: {u['overview']}")
-    lines.append(f"Sources: [TMDB](https://www.themoviedb.org/tv/{u['id']})")
-    return "\n".join(lines)
-
+    what = "new series" if u["label"] == "new series" else u["label"]
+    return f"{u['name']} ({what}) premieres {us_date(u['date'])}{net}\nhttps://www.themoviedb.org/tv/{u['id']}"
 
 # --------------------------------------------------------------------------
 # Telegram alerts
@@ -1220,7 +1181,7 @@ TRAY = """
 SETTINGS = """
 <details id="settings"><summary>Settings</summary>
 <label><input type="checkbox" id="showposted"> Show stories I already posted</label>
-<div class="muted" style="margin-top:8px">First line of every packet sent to Grok (saved on this device):</div>
+<div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
 <textarea id="header" rows="3"></textarea>
 <p class="muted">Tap a story to pick it. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
