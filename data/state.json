@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T11:30:13+00:00"
+"time": "2026-11-07T11:34:18+00:00"
 }
 ],
 "items": {
@@ -572,7 +572,7 @@
 "Jenna Fischer"
 ],
 "published": "2026-11-07T04:31:39+00:00",
-"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -9402,6 +9402,29 @@
 "Renewal"
 ],
 "title": "‘Nobody Wants This’ Renewed For Season 4 By Netflix"
+},
+"fb5a545cb9db": {
+"first_seen": "2026-11-07T11:34:18+00:00",
+"id": "fb5a545cb9db",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPazdlUDdLWGh4bE1KUTlvRXNDbmlBRFhBaUlvYlFlal9VNW9qNXBseTRReVlKOFFQSnVZOXhZZWJ2aUVSQ0xjMVJnX2ZUNUxsaExob2ZaSjdIN0FnVlpDV2h2bnZReFRIOFJ0REg0SnQ1NG1LSzFDWHpnc1Q3WUoxMDRhSm9ZRG8?oc=5",
+"outlet": "Yahoo Sports",
+"people": [
+"Adam Scott"
+],
+"published": "2026-11-07T11:30:00+00:00",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Adam Scott reveals what players who have just left LIV Golf should be made to do now"
 },
 "fb615178f254": {
 "first_seen": "2026-11-07T10:51:32+00:00",
