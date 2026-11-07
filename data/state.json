@@ -47,6 +47,7 @@
 "bfe29063af1d": "2026-11-07T10:20:14+00:00",
 "c3dfdf6672d7": "2026-11-07T10:20:14+00:00",
 "cc0213a163a9": "2026-11-07T10:20:14+00:00",
+"ce5070146bb1": "2026-11-07T16:37:29+00:00",
 "d0592b412802": "2026-11-07T10:20:14+00:00",
 "d09e736205c0": "2026-11-07T10:20:14+00:00",
 "d6e4082393b5": "2026-11-07T10:20:14+00:00",
@@ -167,6 +168,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Friends' star Morgan Fairchild has launched a career on an adult site at 76 years old. The move comes months after the actress was linked to Jeffrey Epstein. (via Yahoo Lifestyle Canada)"
+},
+"ce5070146bb1": {
+"at": "2026-11-07T16:39:10+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Yellowjackets' star Hilary Swank landed her first acting role on 'Harry and the Hendersons', a sitcom spin-off of the 1987 film. Swank and her mother were struggling with homelessness and sleeping in their car before she was cast in the show's first season. (via TVLine)"
 },
 "d17330385a77": {
 "at": "2026-11-07T14:57:48+00:00",
@@ -2265,8 +2272,8 @@
 "outlet": "Deadline",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -3923,8 +3930,8 @@
 "outlet": "Variety",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -5753,6 +5760,24 @@
 "summary": "",
 "tags": [],
 "title": "Good news for JD Vance: he's got name recognition. The bad news? His name is JD"
+},
+"89aa446ec0ed": {
+"first_seen": "2026-11-07T16:37:29+00:00",
+"id": "89aa446ec0ed",
+"kind": "article",
+"link": "https://www.tvline.com/2303692/gilligans-island-actor-bob-denver-60s-sitcom-the-many-loves-of-dobie-gillis/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-07T15:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Most people think Gilligan was Bob Denver's breakthrough TV role, but that's not actually the case. It was this beloved '60s sitcom that gave him his big break.",
+"tags": [],
+"title": "Before Gilligan's Island, Bob Denver Starred In A Beloved '60s Sitcom"
 },
 "8c14c28ebf4c": {
 "channel_kind": "talk",
@@ -8058,8 +8083,8 @@
 "Kristen Bell"
 ],
 "published": "2026-11-07T02:11:00+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -8267,6 +8292,26 @@
 "summary": "",
 "tags": [],
 "title": "Is ‘SNL’ New Tonight? What to Know About the Fifth Episode of Season 52"
+},
+"ce5070146bb1": {
+"first_seen": "2026-11-07T16:37:29+00:00",
+"id": "ce5070146bb1",
+"kind": "article",
+"link": "https://www.tvline.com/2303850/hilary-swank-acting-career-start-sitcom-spin-off-kids-movie-harry-and-the-hendersons/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-07T16:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Long before \"Yellowjackets,\" Hilary Swank and her mom struggled with homelessness. It finally paid off when Swank landed a guest role in this spin-off.",
+"tags": [
+"Revival"
+],
+"title": "Hilary Swank's Acting Career Started On A Sitcom Spin-Off Of An '80s Kids Movie"
 },
 "d09e736205c0": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -8718,8 +8763,8 @@
 "outlet": "The Hollywood Reporter",
 "people": [],
 "published": "2026-11-06T17:00:34+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
