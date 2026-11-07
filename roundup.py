@@ -1099,11 +1099,31 @@ body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
 .tabs{display:flex;gap:16px;font-size:15px}
 .tabs a{text-decoration:none;color:var(--slate);padding:6px 0}
 .tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
-.jumpbar{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
-nav.jump{display:flex;gap:18px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;font-size:15px}
-nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{flex:0 0 auto;text-decoration:none;padding:10px 0;font-weight:600}
-nav.jump a span{color:var(--slate);font-weight:400;margin-left:3px}
+.jumpbar{position:sticky;top:0;z-index:6;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.jb{position:relative;max-width:680px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-right)) 0 max(16px,env(safe-area-inset-left))}
+#secbtn{display:flex;align-items:center;gap:9px;width:100%;background:none;border:0;padding:9px 0 10px;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
+#secbtn::before{content:"";width:4px;height:22px;background:var(--crave);border-radius:1px}
+#cursec{font-stretch:68%;font-weight:800;font-size:21px;line-height:1}
+#secbtn svg{color:var(--slate);transition:transform .15s}
+#secbtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.secmenu{position:absolute;top:100%;left:max(8px,env(safe-area-inset-left));right:max(8px,env(safe-area-inset-right));background:var(--paper);border:1px solid var(--rule);border-radius:6px;box-shadow:0 14px 30px rgba(8,24,35,.2);padding:6px 0;max-height:70vh;overflow:auto}
+.secmenu[hidden]{display:none}
+.secmenu a,.sidenav a{display:flex;justify-content:space-between;gap:12px;text-decoration:none;font-weight:600}
+.secmenu a{padding:12px 16px;font-size:17px}
+.secmenu a span,.sidenav a span{color:var(--slate);font-weight:400}
+.secmenu a.on{background:var(--pick);box-shadow:inset 4px 0 0 var(--crave)}
+.side{display:none}
+@media (min-width:1000px){
+.jumpbar{display:none}
+.layout{display:grid;grid-template-columns:170px minmax(0,680px);column-gap:56px;justify-content:center}
+.side{display:block}
+.sidenav{position:sticky;top:20px;display:flex;flex-direction:column;padding-top:28px}
+.sidenav a{padding:8px 0 8px 14px;border-left:3px solid var(--rule);color:var(--slate);font-size:15px}
+.sidenav a:hover{color:var(--ink)}
+.sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
+.layout main{margin:0;padding-left:0;padding-right:0}
+.mast{max-width:906px}
+}
 
 .intro{padding:22px 0 6px}
 .intro h1{font-stretch:68%;font-weight:900;font-size:40px;line-height:1;margin:0;letter-spacing:-.015em}
@@ -1241,11 +1261,17 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
     mast = (f'<div class="mast"><a class="brand" href="{pre}index.html">'
             f'<img src="{pre}logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a>'
             f'<nav class="tabs">{tabs}</nav></div>')
-    bar = ""
+    bar = aside = ""
     if jump:
-        links = "".join(f'<a href="#{E(i)}">{E(l)}' + (f"<span>{n}</span>" if n else "") + "</a>"
-                        for i, l, n in jump)
-        bar = f'<div class="jumpbar"><nav class="jump">{links}</nav></div>'
+        items = "".join(f'<a href="#{E(i)}" data-sec="{E(i)}" data-label="{E(l)}">{E(l)}'
+                        + (f"<span>{n}</span>" if n else "") + "</a>" for i, l, n in jump)
+        chevron = ('<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" '
+                   'fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+        bar = (f'<div class="jumpbar"><div class="jb">'
+               f'<button id="secbtn" type="button" aria-expanded="false" aria-controls="secmenu">'
+               f'<span id="cursec">{E(jump[0][1])}</span>{chevron}</button>'
+               f'<nav id="secmenu" class="secmenu" aria-label="Jump to a section" hidden>{items}</nav></div></div>')
+        aside = f'<aside class="side"><nav class="sidenav" aria-label="Sections">{items}</nav></aside>'
     css = CSS.replace("FONTPATH", f"{pre}fonts/archivo.woff2")
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -1266,10 +1292,13 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 </head><body class="hideposted">
 {mast}
 {bar}
+<div class="layout">
+{aside}
 <main>
 {body}
 {SETTINGS}
 </main>
+</div>
 {TRAY}
 <script src="{pre}app.js"></script>
 </body></html>
@@ -1554,10 +1583,12 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime) 
                page(f"{title}: Sitcom Crave Roundup", content, depth=1, jump=jump))
     write_text(DOCS_DIR / "index.html",
                page(f"{title}: Sitcom Crave Roundup", content, depth=0, jump=jump))
+    rerun = any(e["name"] == name for e in state.get("editions", []))
     url = site_url()
     top = "\n".join(f"{i + 1}. {c['primary']['title']}" for i, c in enumerate(ranked[:3]))
-    state["_notice"] = (f"{mode.title()} roundup is ready: {len(clusters)} stories.\n\nTop picks:\n{top}"
-                        + (f"\n\n{url}/" if url else ""))
+    if not rerun:  # one Telegram note per edition, even if it's rebuilt
+        state["_notice"] = (f"{mode.title()} roundup is ready: {len(clusters)} stories.\n\nTop picks:\n{top}"
+                            + (f"\n\n{url}/" if url else ""))
     state["editions"] = [e for e in state.get("editions", []) if e["name"] != name]
     state["editions"].append({"name": name, "edition": mode, "time": iso(now)})
     return name
