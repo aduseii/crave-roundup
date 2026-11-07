@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:51:32+00:00"
+"time": "2026-11-07T10:55:17+00:00"
 }
 ],
 "items": {
@@ -80,7 +80,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-07T03:30:29+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query": "\"comedy series\"",
 "query_relevant": true,
 "relevant": true,
 "shows": [],
@@ -115,6 +115,27 @@
 "Interview"
 ],
 "title": "Kelsey Grammer’s Daughter Reveals How Her Dad Reacted After Angry Viral Birthday Post"
+},
+"02764433420c": {
+"first_seen": "2026-11-07T10:55:17+00:00",
+"id": "02764433420c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0yUTRET25xdUNyOHJlN0RkTlF5VnVFcHBIeHlxdktoc0xfUDV0ZFN1Ui03a2I3RktwdU4zRHZEMUxvc0Z1c1lnZjNoS0kwSE5IOGY4aDNwc3pOaFJNRDY0ekE5UHpWWDg?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-06T14:45:05+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "The Further Mis-Adventures Of Cliff Booth New Trailer Sees Brad Pitt Go From Stuntman To Hollywood Fixer"
 },
 "02b298cdad80": {
 "channel_kind": "streamer",
@@ -297,6 +318,27 @@
 "summary": "Get an inside look at Jaalen Best's path to Becoming The Greatest. Presented by Cadillac. Watch all episodes of The Greatest now, only on Prime.",
 "tags": [],
 "title": "Becoming The Greatest | Prime Video"
+},
+"08cc9b668780": {
+"first_seen": "2026-11-07T10:55:17+00:00",
+"id": "08cc9b668780",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVGZ6RTZ4Q04tQ1ZfRmNBWTV4Q2JYN0NLemh2LUNIUl9PZlRkcjB2U2tqTkdITHdQRHo2ZWpnSTZIMnd4WE16cmN4cXlYZndnc3B3bkJaa0NJdnBLLS1HcWFPU1QtUWZhSTRfaUxrdU9WTXJiTlpMaW9zbWN0UzhrWTlBRGxkMk82SkJiRDA0bUtRa2w0bXZV?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-06T14:33:18+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "The Further Mis-Adventures of Cliff Booth: Trailer 2"
 },
 "08d065d86bbe": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3629,7 +3671,7 @@
 "outlet": "TheWrap",
 "people": [],
 "published": "2026-11-06T17:00:00+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
@@ -4019,7 +4061,7 @@
 "Kelsey Grammer"
 ],
 "published": "2026-11-06T23:43:26+00:00",
-"query": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [],
@@ -6078,7 +6120,7 @@
 "outlet": "Yahoo",
 "people": [],
 "published": "2026-11-06T14:12:50+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"The IT Crowd\" OR \"Peep Show\" OR \"Gavin & Stacey\" OR \"Derry Girls\"",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
 "relevant": true,
 "shows": [
