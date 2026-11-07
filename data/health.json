@@ -80,7 +80,7 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 20,
+  "count": 21,
   "resolved": ""
  },
  {
@@ -94,7 +94,7 @@
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 19,
+  "count": 18,
   "resolved": ""
  },
  {
@@ -108,7 +108,7 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
@@ -157,7 +157,7 @@
   "type": "search",
   "name": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
   "ok": true,
-  "count": 2,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -248,7 +248,7 @@
   "type": "search",
   "name": "\"Good Times\" OR \"Sanford and Son\" OR \"Murphy Brown\" OR \"Designing Women\" OR \"The Nanny\" OR \"Spin City\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -290,14 +290,14 @@
   "type": "search",
   "name": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
   "ok": true,
-  "count": 7,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -339,7 +339,7 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 2,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -395,7 +395,7 @@
   "type": "search",
   "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -409,7 +409,7 @@
   "type": "search",
   "name": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
