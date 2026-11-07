@@ -68,7 +68,7 @@
 {
 "edition": "morning",
 "name": "2026-11-07-morning",
-"time": "2026-11-07T10:32:55+00:00"
+"time": "2026-11-07T10:43:30+00:00"
 }
 ],
 "items": {
@@ -2748,7 +2748,7 @@
 "people": [
 "Courteney Cox"
 ],
-"published": "2026-11-06T17:35:58+00:00",
+"published": "2026-11-07T08:54:42+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
 "relevant": true,
@@ -4408,7 +4408,7 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTZhUEg3YUUtR25qZlhOWmlVZi1weXU3UmtZQnJ6a2NSeEJJR080UDFQWTAyU0F0YXc5RUJlMGo5T0FVb2Fta2lUc3VzM0VET29xRU1paEMxLUZkc3o1RmJkQ0RLbk40YUlMc1lMV0J1VWNkMkZQYTFKaTZXZHlQc3hVRzNZcFFNR0dtcU9CdTBPVzJKTHEzelZZUjJ0Zw?oc=5",
 "outlet": "LateNighter",
 "people": [],
-"published": "2026-11-06T13:18:27+00:00",
+"published": "2026-11-06T13:32:34+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
 "relevant": true,
@@ -4840,6 +4840,27 @@
 "summary": "",
 "tags": [],
 "title": "The 5 Funniest Sitcoms of the Last 10 Years, Ranked"
+},
+"7ec181f7132f": {
+"first_seen": "2026-11-07T10:43:30+00:00",
+"id": "7ec181f7132f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWmhZVjc4R0QyYmpMYm1KajZ2QnlkV1hKUTBhanJfaHlaSHI3RDA4VTBiajBRWE5WV3RNLU5vYnh2Z2F2MGtPUllGVG4tM2RYUm85cnpaeDVBb1Y2SDMwMS0xdE04VElHWFpPVkpaZHVYanlHMnJVaFZsU2lEVnJ5OFhPV3RkUEJF?oc=5",
+"outlet": "Yahoo Sports",
+"people": [],
+"published": "2026-11-07T03:27:00+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [
+"The Tonight Show"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Caitlin Clark makes ‘The Tonight Show’ appearance"
 },
 "804d54d6b693": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -5434,6 +5455,29 @@
 "Upcoming"
 ],
 "title": "'Girls' Season 7: Cast, Premiere Date, Trailer, and More Updates"
+},
+"9644194d767e": {
+"first_seen": "2026-11-07T10:43:30+00:00",
+"id": "9644194d767e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBtaTdvcnphRXBqNWZTVnpfTVdMbTJFcTB0LVllaDhyZUN5ZkFPQU1lYmQyTnFJSVYycVYxWnJ3Tzd0SklXZDR5cGZid19qZm5Ra1Y5eFBBTENkSWxTa3NobXhDdlU?oc=5",
+"outlet": "IMDb",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-06T19:04:11+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "‘The Angry Birds 3’ trailer sees Jason Sudeikis face his greatest challenge yet"
 },
 "96852a875217": {
 "first_seen": "2026-11-07T10:25:39+00:00",
@@ -8193,8 +8237,8 @@
 "outlet": "HELLO!",
 "people": [],
 "published": "2026-11-06T12:53:51+00:00",
-"query": "sitcom",
-"query_relevant": true,
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+"query_relevant": false,
 "relevant": true,
 "shows": [],
 "sitcom": true,
@@ -8747,6 +8791,27 @@
 "summary": "",
 "tags": [],
 "title": "Jane Lynch Has the Perfect Description for Gabby's Mom Val on Happy's Place (EXCLUSIVE)"
+},
+"f398ea7c8142": {
+"first_seen": "2026-11-07T10:43:30+00:00",
+"id": "f398ea7c8142",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPai1JZDVGNU11NEZJSUZSeWZNT1BzM29zWkFMMkJfenlUbC1kYllpNUdtVnVRdE4tYnh2eHJTYVBpOUtLU3AtcVRJSnhKY21lWVQ1QnJJWWROeVh5VjViZEJNVGJDaG45dmpTOUVuRVVDNll0b0l5MVBjTzloc2tid0RLSmlEUlYzbjJoQWxWelJQaHk4eWtHRXA0LWthZlBTYTYtc0xicw?oc=5",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-06T14:00:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "‘Stranger Things’ Prequel Spinoff ‘Other Worlds’ Ordered to Series at Netflix"
 },
 "f3f1990e3a54": {
 "first_seen": "2026-11-07T10:20:14+00:00",

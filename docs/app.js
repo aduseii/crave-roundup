@@ -73,9 +73,9 @@
     document.querySelectorAll("[data-id]").forEach(function (el) {
       var isPosted = posted.has(el.dataset.id);
       el.classList.toggle("posted", isPosted);
-      if (isPosted && el.closest("ol.today")) {
-        var t = el.querySelector("label");
-        if (t) dropped.push(t.textContent.trim().replace(/, ~\d+:\d\d[ap]m$/, ""));
+      if (isPosted && el.closest(".today")) {
+        var t = el.querySelector(".t");
+        if (t) dropped.push(t.textContent.trim());
       }
     });
     var line = $("droppedline");
@@ -182,6 +182,15 @@
       selected.forEach(function (_, id) { setChecked(id, false); });
       selected.clear();
       updateTray();
+    });
+
+    // tap anywhere on a card to pick it (links, "more" and the checkbox itself work as usual)
+    document.addEventListener("click", function (e) {
+      if (e.target.closest("a, summary, details, input, label, button, textarea")) return;
+      var item = e.target.closest(".item[data-id]");
+      if (!item) return;
+      var box = item.querySelector(".pick");
+      if (box) box.click();
     });
 
     // unmark one posted story: it shows when "Show posted" is ticked; Shift+click its checkbox

@@ -4,84 +4,113 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Roundup">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#081823">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" type="image/png" href="icon-180.png">
 <title>Archive: Sitcom Crave Roundup</title>
 <style>
-:root{--bg:#fff;--fg:#111;--muted:#666;--line:#e8e8e8;--link:#0645ad;--accent:#ff751f;--sel:#fff3ea;--tag:#c40000;--btn:#f2f2f2;--sum:#333}
-@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#ececec;--muted:#9b9b9b;--line:#2b2b2b;--link:#8ab4ff;--sel:#2c1e14;--tag:#ff6b6b;--btn:#262626;--sum:#cfcfcf}}
+:root{--navy:#081823;--navy2:#13222d;--accent:#ff751f;--pink:#ff5fa8;--bg:#f3f4f6;--card:#fff;--fg:#14181c;--muted:#6b7280;--line:#e5e7eb;--link:#1f5fbf;--sel:#fff4ec;--sum:#3b4148;--btn:#eef0f3;--shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08)}
+@media (prefers-color-scheme:dark){:root{--bg:#0b1117;--card:#151d25;--fg:#e9edf1;--muted:#8d98a5;--line:#243040;--link:#8ab4ff;--sel:#2a1f17;--sum:#c3cbd4;--btn:#1e2833;--shadow:none}}
+*{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{font-family:-apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.45;color:var(--fg);background:var(--bg);max-width:900px;margin:0 auto;padding:0 max(14px,env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left))}
-body.has-sel{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
-a{color:var(--link)}
-header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:calc(4px + env(safe-area-inset-top)) 0 4px}
-nav.main{display:flex;gap:18px;flex-wrap:wrap}
-nav.main a{display:inline-block;padding:8px 0;font-weight:600;text-decoration:none}
-nav.jump{display:flex;gap:6px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:2px 0 4px}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,system-ui,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.45;color:var(--fg);background:var(--bg)}
+body.has-sel main{padding-bottom:calc(150px + env(safe-area-inset-bottom))}
+a{color:var(--link);text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:0 max(12px,env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
+header.top{position:sticky;top:0;z-index:5}
+.bar{background:var(--navy);color:#fff;padding:calc(8px + env(safe-area-inset-top)) max(14px,env(safe-area-inset-right)) 0 max(14px,env(safe-area-inset-left))}
+.bar .in{max-width:760px;margin:0 auto}
+.brand{display:inline-flex;align-items:baseline;gap:7px;color:#fff;font-weight:900;letter-spacing:.04em;font-size:17px;padding:2px 0 6px}
+.brand .b2{color:var(--accent)}
+.tabs{display:flex;gap:4px}
+.tabs a{color:#c9d3dc;font-weight:700;font-size:15px;padding:9px 12px 10px;border-bottom:3px solid transparent}
+.tabs a.on{color:#fff;border-bottom-color:var(--accent)}
+.jumpwrap{background:var(--bg);border-bottom:1px solid var(--line)}
+nav.jump{max-width:760px;margin:0 auto;display:flex;gap:7px;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:9px max(12px,env(safe-area-inset-right)) 9px max(12px,env(safe-area-inset-left))}
 nav.jump::-webkit-scrollbar{display:none}
-nav.jump a{flex:0 0 auto;font-size:14px;padding:6px 12px;border:1px solid var(--line);border-radius:16px;text-decoration:none;color:var(--fg)}
-h1{font-size:1.3em;line-height:1.25;margin:.7em 0 .15em}
-h2{font-size:1.12em;margin:1.5em 0 .2em;padding-bottom:4px;border-bottom:2px solid var(--line);scroll-margin-top:100px}
-h3{font-size:1em;margin:1.1em 0 .2em}
-.muted{color:var(--muted);font-size:.88em}
-.item{padding:11px 4px;border-bottom:1px solid var(--line);scroll-margin-top:100px;border-radius:6px}
-.item.sel{background:var(--sel)}
-.item label{display:flex;gap:11px;align-items:flex-start;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.item input.pick{width:22px;height:22px;flex:0 0 22px;margin:1px 0 0;accent-color:var(--accent)}
-.item .t{font-weight:600}
-.item .tag{font-weight:700;color:var(--tag)}
-.item .meta,.item .sum{margin-left:33px}
-.item .meta{color:var(--muted);font-size:14px;margin-top:4px;line-height:1.7}
-.item .sum{font-size:15px;color:var(--sum);margin-top:3px}
+nav.jump a{flex:0 0 auto;font-size:14px;font-weight:600;padding:6px 12px;border-radius:999px;background:var(--card);color:var(--fg);border:1px solid var(--line)}
+nav.jump a .n{color:var(--muted);font-weight:600;margin-left:4px}
+.intro{padding:16px 2px 4px}
+.intro h1{font-size:24px;line-height:1.2;font-weight:800;margin:0}
+.intro p{margin:4px 0 0;color:var(--muted);font-size:14px}
+h2{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:26px 2px 10px;scroll-margin-top:120px}
+h2 .count{background:var(--btn);color:var(--muted);border-radius:999px;padding:1px 8px;font-size:12px;letter-spacing:0}
+h3{font-size:14px;font-weight:700;color:var(--muted);margin:18px 2px 8px}
+.muted{color:var(--muted);font-size:14px}
+.item{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:12px 14px 12px;margin:0 0 10px;scroll-margin-top:120px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:border-color .15s,background .15s}
+.item.sel{border-color:var(--accent);background:var(--sel);box-shadow:0 0 0 1px var(--accent)}
+.item .top{display:flex;align-items:center;gap:8px;margin-bottom:6px;min-height:22px}
+.item .when{color:var(--muted);font-size:13px;margin-left:auto;white-space:nowrap}
+.item label{display:flex;gap:12px;align-items:flex-start;cursor:pointer}
+.item .t{font-weight:700;font-size:16.5px;line-height:1.3}
+.item .sum{color:var(--sum);font-size:14.5px;margin:6px 36px 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.item .meta{color:var(--muted);font-size:13px;margin-top:8px;line-height:1.6}
 .item .meta details{display:inline}
 .item .meta summary{display:inline;color:var(--link);cursor:pointer;list-style:none}
 .item .meta summary::-webkit-details-marker{display:none}
-.item.posted{opacity:.45}
+input.pick{-webkit-appearance:none;appearance:none;order:2;margin:0 0 0 auto;flex:0 0 26px;width:26px;height:26px;border:2px solid #c3c9d1;border-radius:50%;background:var(--card);cursor:pointer}
+input.pick:checked{background:var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat;border-color:var(--accent)}
+.chip{display:inline-block;font-size:11.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:6px;color:#fff;background:#5b6573;white-space:nowrap}
+.c-death,.c-remember{background:#2b2f36}
+.c-renewal{background:#15803d}
+.c-cancel{background:#c62828}
+.c-exit{background:#d9480f}
+.c-arrest{background:#a61e4d}
+.c-revival,.c-trailer{background:#7c3aed}
+.c-casting{background:#1d4ed8}
+.c-news{background:var(--navy2)}
+.c-streaming{background:#4338ca}
+.c-interview,.c-clip{background:#0f766e}
+.c-upcoming,.c-premiere{background:#0369a1}
+.c-birthday{background:var(--pink)}
+.c-anniv{background:#b45309}
+.item.rank .num{display:inline-flex;align-items:center;justify-content:center;min-width:26px;height:26px;border-radius:8px;background:var(--navy);color:#fff;font-weight:800;font-size:14px}
+.item.rank .slot{font-weight:700;color:var(--accent);font-size:13px;margin-left:auto}
+.item.posted{opacity:.5}
 body.hideposted .item.posted{display:none}
-ol.today{list-style:none;padding:0;margin:0;counter-reset:n}
-ol.today li.item{counter-increment:n}
-ol.today li.item label > span::before{content:counter(n) ". ";color:var(--muted);font-weight:600}
-details{margin:.6em 0}
-details > summary{cursor:pointer;padding:6px 0}
-#settings{border:1px solid var(--line);border-radius:10px;padding:2px 12px;margin:.8em 0}
-#settings label{display:flex;gap:10px;align-items:center;padding:8px 0}
+.empty{color:var(--muted);font-size:14px;padding:4px 2px}
+details.more > summary,details.other > summary{cursor:pointer;color:var(--link);font-weight:600;font-size:14px;padding:6px 2px;list-style:none}
+details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
+#settings{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px;margin:26px 0 10px}
+#settings > summary{cursor:pointer;font-weight:700;padding:10px 0;color:var(--muted)}
+#settings label{display:flex;gap:10px;align-items:center;padding:8px 0;font-size:15px}
 #settings input[type=checkbox]{width:22px;height:22px;accent-color:var(--accent)}
-textarea{width:100%;box-sizing:border-box;font:inherit;font-size:16px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
-#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bg);border-top:2px solid var(--accent);box-shadow:0 -4px 14px rgba(0,0,0,.12);padding:8px max(12px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));transform:translateY(115%);transition:transform .2s ease}
+textarea{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--card);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.14);border-radius:18px 18px 0 0;padding:10px max(14px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));transform:translateY(115%);transition:transform .22s ease}
 body.has-sel #tray{transform:none}
-#tray .in{max-width:900px;margin:0 auto}
-#tray .info{display:flex;align-items:center;gap:10px;font-size:15px;margin-bottom:7px;min-height:22px}
+#tray .in{max-width:760px;margin:0 auto}
+#tray .info{display:flex;align-items:center;gap:10px;font-size:15px;margin-bottom:9px;min-height:22px}
 #tray .info b{white-space:nowrap}
-#status{color:#0a7a2f;font-size:14px;flex:1;line-height:1.3}
-#tray .linkbtn{background:none;border:0;color:var(--link);font-size:15px;padding:4px;min-height:0}
-#tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(68px,1fr));gap:7px}
-#tray .btns button{min-height:46px;font-size:15px;font-weight:600;border-radius:10px;border:1px solid var(--line);background:var(--btn);color:var(--fg);padding:4px 6px;-webkit-tap-highlight-color:transparent}
-#tray .btns button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+#status{color:#15803d;font-size:13.5px;flex:1;line-height:1.3}
+#tray .linkbtn{background:none;border:0;color:var(--link);font-size:15px;font-weight:600;padding:4px}
+#tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:8px}
+#tray .btns button{min-height:48px;font-size:15px;font-weight:700;border-radius:12px;border:0;background:var(--btn);color:var(--fg);padding:4px 6px;-webkit-tap-highlight-color:transparent}
+#tray .btns button.primary{background:var(--accent);color:#fff}
 #tray .btns button[hidden]{display:none}
-.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
-table{border-collapse:collapse;font-size:13px}
-td,th{border:1px solid var(--line);padding:4px 6px;text-align:left;vertical-align:top}
-@media (min-width:700px){body{font-size:16px}.item .sum{font-size:14.5px}}
+.health{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:4px 14px}
+.health > summary{cursor:pointer;padding:10px 0;font-weight:600;color:var(--muted);font-size:14px}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:10px}
+table{border-collapse:collapse;font-size:12.5px}
+td,th{border-bottom:1px solid var(--line);padding:5px 8px 5px 0;text-align:left;vertical-align:top}
+a.card{display:block;color:var(--fg)}
 </style>
 <script>window.ROUNDUP_DEFAULT_HEADER = "Data processing and Captioner: caption these for X in my style. Post only the finished pieces.";</script>
 </head><body class="hideposted">
-<header class="top"><nav class="main"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html">Archive</a></nav></header>
-<h1>Archive</h1>
-<ul>
-<li><a href="editions/2026-11-07-morning.html">Morning, Saturday, November 7, 2026</a></li>
-</ul>
+<header class="top"><div class="bar"><div class="in"><a class="brand" href="index.html"><span>SITCOM CRAVE</span><span class="b2">ROUNDUP</span></a><nav class="tabs"><a href="index.html">Latest</a><a href="breaking.html">Breaking</a><a href="archive.html" class="on">Archive</a></nav></div></div></header>
+<main>
+<div class="intro"><h1>Archive</h1><p>Every morning and evening roundup.</p></div>
+<a class="item card" href="editions/2026-11-07-morning.html"><div class="t">Morning roundup</div><div class="muted">Saturday, November 7, 2026 · 10:43am GMT</div></a>
 
-<details id="settings"><summary class="muted">Settings</summary>
+<details id="settings"><summary>Settings</summary>
 <label><input type="checkbox" id="showposted"> Show stories I already posted</label>
 <div class="muted" style="margin-top:6px">Grok header line (top of every packet, saved on this device)</div>
 <textarea id="header" rows="3"></textarea>
-<p class="muted">Tip: Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in, and both also copy it.</p>
+<p class="muted">Tap any story to pick it. Share opens the iPhone share sheet so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
 
+</main>
 
 <div id="tray" aria-live="polite"><div class="in">
 <div class="info"><b><span id="count">0</span> selected</b><span id="status"></span><button id="clear" class="linkbtn">Clear</button></div>
