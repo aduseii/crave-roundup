@@ -192,7 +192,7 @@ def fake_post_json(url, body, headers, timeout=60):
 roundup.http_post_json = fake_post_json
 os.environ["GEMINI_API_KEY"] = " gem-key-456\nsecond-key-789\n"  # padded, and two keys pasted in one secret
 roundup.http_get = fake_get
-roundup.send_telegram = lambda text, cfg=None, html_mode=False: ALERTS.append(text) or True
+roundup.send_telegram = lambda text, cfg=None: ALERTS.append(text) or True
 roundup.time.sleep = lambda s: None
 
 
@@ -252,10 +252,8 @@ check("test-key-123" not in idx and "test-key-123" not in (OUT / "data" / "state
       "TMDB key never written to pages or data")
 check("FAILED" in idx and "sources worked" in idx, "failed sources shown in the sources list")
 check([a for a in ALERTS if a.startswith("BREAKING")] == [], "first run does not send breaking alerts")
-note = next((a for a in ALERTS if a.startswith("<b>Morning roundup is ready</b>")), "")
-check(note and "aduseii.github.io/crave-roundup/" in note, "morning roundup notice sent to Telegram")
-check("<b>Birthdays today</b>" in note and "<code>Happy birthday to the beautiful Test Person, who turns 45 today!</code>" in note
-      and note.index("Birthdays today") < note.index("Top picks"), "morning note has the birthday captions first, tap to copy")
+check(any(a.startswith("Morning roundup is ready") and "aduseii.github.io/crave-roundup/" in a for a in ALERTS),
+      "morning roundup notice sent to Telegram")
 check((OUT / "docs" / "editions" / "2026-11-07-morning.html").exists(), "edition page saved")
 cap_page = (OUT / "docs" / "captions.html").read_text()
 check('id="maker-in"' in cap_page and 'class="on">Captions' in cap_page, "caption maker has its own Captions tab")
