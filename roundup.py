@@ -1052,15 +1052,19 @@ def telegram_chat(cfg: dict) -> str | None:
     return chat
 
 
-def send_telegram(text: str, cfg: dict | None = None) -> bool:
+def send_telegram(text: str, cfg: dict | None = None, html_mode: bool = False) -> bool:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = _TG_CHAT.get("id") or (telegram_chat(cfg or {}) if token else None)
     if not token or not chat:
         return False
     try:
-        r = SESSION.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                         data={"chat_id": chat, "text": text, "disable_web_page_preview": "true"},
-                         timeout=20)
+        data = {"chat_id": chat, "text": text, "disable_web_page_preview": "true"}
+        if html_mode:
+            data["parse_mode"] = "HTML"
+        r = SESSION.post(f"https://api.telegram.org/bot{token}/sendMessage", data=data, timeout=20)
+        if r.status_code == 400 and html_mode:  # formatting rejected: send it as plain text instead
+            plain = html.unescape(re.sub(r"<[^>]+>", "", text))
+            return send_telegram(plain, cfg)
         if r.status_code >= 400:
             log(f"  Telegram refused the alert: HTTP {r.status_code}")
             return False
@@ -1823,6 +1827,26 @@ def write_breaking_page(clusters: list[dict], now: dt.datetime) -> None:
                          f"from the last {BREAKING_PAGE_HOURS} hours."))
 
 
+def roundup_note(mode: str, clusters: list[dict], ranked: list[dict], ann: dict) -> str:
+    """The Telegram message for a finished roundup. Birthdays come first, each caption
+    in tap-to-copy text; then the top stories and the link."""
+    def h(x: str) -> str:
+        return html.escape(x, quote=False)
+    n = len(clusters)
+    parts = [f"<b>{h(mode.title())} roundup is ready</b>: {n} {'story' if n == 1 else 'stories'}."]
+    bdays = (ann or {}).get("birthdays", [])[:8]
+    if bdays:
+        parts.append("<b>Birthdays today</b> (tap a caption to copy it)\n"
+                     + "\n".join(f"<code>{h(birthday_caption(b))}</code>" for b in bdays))
+    if ranked:
+        parts.append("<b>Top picks</b>\n" + "\n".join(f"{i + 1}. {h(c['primary']['title'])}"
+                                                      for i, c in enumerate(ranked[:3])))
+    url = site_url()
+    if url:
+        parts.append(h(url + "/"))
+    return "\n\n".join(parts)
+
+
 def write_captions_page() -> None:
     body = ('<div class="intro"><h1>Caption maker</h1>'
             "<p>Paste a link to any story, or the story's text, and Gemini writes the caption in your style, "
@@ -1941,11 +1965,8 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     write_text(DOCS_DIR / "index.html",
                page("Sitcom Crave Roundup", content, depth=0, jump=jump, desc=desc))
     rerun = any(e["name"] == name for e in state.get("editions", []))
-    url = site_url()
-    top = "\n".join(f"{i + 1}. {c['primary']['title']}" for i, c in enumerate(ranked[:3]))
     if not rerun:  # one Telegram note per edition, even if it's rebuilt
-        state["_notice"] = (f"{mode.title()} roundup is ready: {len(clusters)} stories.\n\nTop picks:\n{top}"
-                            + (f"\n\n{url}/" if url else ""))
+        state["_notice"] = roundup_note(mode, clusters, ranked, ann)
     state["editions"] = [e for e in state.get("editions", []) if e["name"] != name]
     state["editions"].append({"name": name, "edition": mode, "time": iso(now)})
     keep = [e for e in state.get("shown", []) if e.get("edition") != name
@@ -2061,7 +2082,7 @@ def run(mode: str) -> int:
     name = build_edition(mode, state, health, now, cfg)
     notice = state.get("_notice")
     if notice:
-        send_telegram(notice, cfg)
+        send_telegram(notice, cfg, html_mode=True)
     write_archive(state)
     write_text(DATA_DIR / "health.json", json.dumps(health, indent=1))
     state.pop("_notice", None)
