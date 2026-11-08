@@ -1688,8 +1688,12 @@ def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
     return shown
 
 
+def anniv_total(ann: dict) -> int:
+    return sum(len(ann.get(k, [])) for k in ("birthdays", "deaths", "premieres", "finales"))
+
+
 def anniv_html(ann: dict, today: dt.date) -> str:
-    total = sum(len(ann.get(k, [])) for k in ("birthdays", "deaths", "premieres", "finales"))
+    total = anniv_total(ann)
     parts = [h2(f"On this day, {today.strftime('%B')} {today.day}", "sec-anniversaries", total)]
 
     def links(e):
@@ -1882,7 +1886,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
         log("Caption drafts")
         draft_many(ranked + by_section["breaking"], cfg)
     log("Extras")
-    ann = anniversaries(today, health) if mode == "morning" else {}
+    ann = anniversaries(today, health)  # every edition, so today's birthdays stay on the front page all day
     ups = upcoming(today, health)
 
     title = f"{mode.title()} roundup, {long_date(today)}"
@@ -1899,10 +1903,14 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
 
     for key, label in SECTIONS:
         group = by_section[key]
+        if key == "news":  # On this day sits near the top: it only counts today
+            body.append(anniv_html(ann, today))
+            jump.append(("sec-anniversaries", "On this day", anniv_total(ann)))
         if key == "breaking" and not group:
             continue
-        body.append(h2(label, f"sec-{key}", len(group)))
-        jump.append((f"sec-{key}", JUMP_LABELS[key], len(group)))
+        n = len(group) + (len(ups) if key == "upcoming" else 0)
+        body.append(h2(label, f"sec-{key}", n))
+        jump.append((f"sec-{key}", JUMP_LABELS[key], n))
         if key in ("interviews", "trailers"):
             arts = [c for c in group if c["kind"] == "article"]
             vids = [c for c in group if c["kind"] == "video"]
@@ -1919,15 +1927,13 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
                 oc = build_clusters(others)
                 body.append(f'<details class="other"><summary>Other uploads, not on the watchlist ({len(oc)})</summary>'
                             + "\n".join(cluster_html(c, now) for c in oc) + "</details>")
-        elif key == "upcoming":
-            body.append(cluster_list(group, now) if group or not ups else "")
+        elif key == "upcoming":  # premiere dates first, then news about shows on the way
             body.append(upcoming_html(ups))
+            if group and ups:
+                body.append("<h3>Coming-up news</h3>")
+            body.append(cluster_list(group, now) if group or not ups else "")
         else:
             body.append(cluster_list(group, now))
-
-    if mode == "morning":
-        body.append(anniv_html(ann, today))
-        jump.append(("sec-anniversaries", "On this day", None))
 
     body.append(h2("Sources", "sec-sources"))
     body.append(health_html(health))

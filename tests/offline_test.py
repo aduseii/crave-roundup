@@ -266,6 +266,10 @@ check("Remembering the talented Old Actor, who passed away 21 years ago today. \
 check("'Classic Sitcom' premiered 30 years ago today! 1996, NBC." in caps, "premiere anniversary caption")
 otd = idx[idx.index('id="sec-anniversaries"'):]
 check(otd.index("<h3>Birthdays</h3>") < otd.index("<h3>Death anniversaries</h3>"), "birthdays come first in On this day")
+check(idx.index('id="sec-anniversaries"') < idx.index('id="sec-news"'), "On this day sits above News")
+upc = idx[idx.index('id="sec-upcoming"'):]
+check(upc.index("Premiere dates") < upc.index("Returning Comedy") and "Premiere dates" in upc[:300],
+      "premiere dates lead the Upcoming section")
 drafts = [c for c in caps if c.startswith("DRAFT for")]
 check(len(drafts) >= 5, f"Gemini drafts shown for the posting schedule ({len(drafts)})")
 check(all("\u2014" not in d and "http" not in d for d in drafts), "drafts have no em dash and no links")
@@ -306,7 +310,8 @@ eve = (OUT / "docs" / "index.html").read_text()
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")
 check("Fourth Season Pickup" not in eve, "another outlet's version of a story already shown is left out")
-check("sec-anniversaries" not in eve, "anniversaries only in the morning")
+check('id="sec-anniversaries"' in eve and "Happy birthday to the beautiful Test Person" in eve,
+      "evening edition keeps today's birthdays on the front page")
 arc = (OUT / "docs" / "archive.html").read_text()
 check("2026-11-07-morning.html" in arc and "2026-11-07-evening.html" in arc, "archive lists both editions")
 
