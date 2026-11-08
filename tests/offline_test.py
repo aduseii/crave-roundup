@@ -330,6 +330,15 @@ roundup._TG_CHAT.clear()
 check(roundup.telegram_chat(cfg) == "222", "remembered chat is reused on the next run")
 del os.environ["TELEGRAM_BOT_TOKEN"]
 
+# auto mode: a late or skipped schedule is caught up by whichever run happens next
+U = roundup.UTC
+st = {"editions": [{"name": "2026-11-07-evening"}]}
+check(roundup.pick_mode(st, roundup.dt.datetime(2026, 11, 8, 5, 56, tzinfo=U)) == "breaking", "auto: before 6:30am it's a breaking check")
+check(roundup.pick_mode(st, roundup.dt.datetime(2026, 11, 8, 13, 17, tzinfo=U)) == "morning", "auto: a missed morning roundup is made by the next run")
+st["editions"].append({"name": "2026-11-08-morning"})
+check(roundup.pick_mode(st, roundup.dt.datetime(2026, 11, 8, 13, 17, tzinfo=U)) == "breaking", "auto: morning done, so breaking check")
+check(roundup.pick_mode(st, roundup.dt.datetime(2026, 11, 8, 21, 5, tzinfo=U)) == "evening", "auto: a late evening run still makes the evening roundup")
+
 print(f"\nOutput in {OUT}")
 print("ALL PASSED" if not check.failed else f"{check.failed} FAILED")
 sys.exit(1 if check.failed else 0)

@@ -1961,6 +1961,24 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
 # Main
 # --------------------------------------------------------------------------
 
+MORNING_AT = (6, 30)   # GMT: from here on, a run makes the morning roundup if today's is missing
+EVENING_AT = (17, 30)  # GMT: same for the evening roundup
+
+
+def pick_mode(state: dict, now: dt.datetime) -> str:
+    """For 'auto' runs: catch up on a missed roundup, otherwise do a breaking check.
+    GitHub's scheduler can run late or skip runs, so any run that does happen can fill the gap."""
+    done = {e["name"] for e in state.get("editions", [])}
+    today = now.date().isoformat()
+    minutes = now.hour * 60 + now.minute
+    if minutes >= EVENING_AT[0] * 60 + EVENING_AT[1] and f"{today}-evening" not in done:
+        return "evening"
+    if minutes >= MORNING_AT[0] * 60 + MORNING_AT[1] and minutes < EVENING_AT[0] * 60 + EVENING_AT[1] \
+            and f"{today}-morning" not in done:
+        return "morning"
+    return "breaking"
+
+
 def run(mode: str) -> int:
     global USER_AGENT
     now = now_utc()
@@ -1987,6 +2005,13 @@ def run(mode: str) -> int:
     if os.environ.get("TELEGRAM_BOT_TOKEN"):
         telegram_chat(cfg)
     state = load_state()
+    if mode == "auto":
+        mode = pick_mode(state, now)
+        log(f"auto: doing the {mode} run")
+    try:  # lets the workflow name its commit after what actually ran
+        (Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "roundup_mode").write_text(mode)
+    except OSError:
+        pass
     global DRAFTS
     DRAFTS = state.setdefault("drafts", {})
     refilter(state, wl, cfg)
@@ -2047,7 +2072,7 @@ def run(mode: str) -> int:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("mode", choices=["morning", "evening", "breaking"])
+    ap.add_argument("mode", choices=["morning", "evening", "breaking", "auto"])
     args = ap.parse_args()
     return run(args.mode)
 

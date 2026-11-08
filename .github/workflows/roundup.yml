@@ -2,17 +2,20 @@ name: Roundup
 
 on:
   schedule:
-    - cron: "47 6 * * *"     # morning roundup, ready around 7am GMT
-    - cron: "47 17 * * *"    # evening roundup, ready around 6pm GMT
-    - cron: "13,43 * * * *"  # breaking check every 30 minutes
+    # every run is "auto": it makes the morning roundup (from 6:30am GMT) or the evening roundup
+    # (from 5:30pm GMT) if that one is still missing today, otherwise it does a breaking check.
+    # GitHub sometimes runs these late or skips them, so whichever run happens fills the gap.
+    - cron: "47 6 * * *"
+    - cron: "47 17 * * *"
+    - cron: "13,43 * * * *"
   workflow_dispatch:
     inputs:
       mode:
         description: "Which run"
         required: true
-        default: morning
+        default: auto
         type: choice
-        options: [morning, evening, breaking]
+        options: [auto, morning, evening, breaking]
 
 permissions:
   contents: write
@@ -42,10 +45,8 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
           INPUT_MODE: ${{ inputs.mode }}
         run: |
-          if [ "$EVENT" = "workflow_dispatch" ]; then MODE="$INPUT_MODE"
-          elif [ "$SCHEDULE" = "47 6 * * *" ]; then MODE=morning
-          elif [ "$SCHEDULE" = "47 17 * * *" ]; then MODE=evening
-          else MODE=breaking
+          if [ "$EVENT" = "workflow_dispatch" ] && [ -n "$INPUT_MODE" ]; then MODE="$INPUT_MODE"
+          else MODE=auto
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
           echo "Mode: $MODE"
@@ -82,7 +83,7 @@ jobs:
             echo "Nothing new to save"
             exit 0
           fi
-          git commit -m "$MODE roundup $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "$(cat "$RUNNER_TEMP/roundup_mode" 2>/dev/null || echo $MODE) roundup $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do
             git pull --rebase --quiet && git push && exit 0
             sleep 5
