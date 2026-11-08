@@ -80,21 +80,21 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 21,
+  "count": 19,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"comedy series\"",
   "ok": true,
-  "count": 5,
+  "count": 4,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -108,14 +108,14 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 5,
+  "count": 11,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 11,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -129,28 +129,28 @@
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
-  "count": 3,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -199,7 +199,7 @@
   "type": "search",
   "name": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -220,14 +220,14 @@
   "type": "search",
   "name": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
   "ok": true,
-  "count": 8,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
   "ok": true,
-  "count": 4,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -241,7 +241,7 @@
   "type": "search",
   "name": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -255,7 +255,7 @@
   "type": "search",
   "name": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -269,7 +269,7 @@
   "type": "search",
   "name": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
   "ok": true,
-  "count": 58,
+  "count": 57,
   "resolved": ""
  },
  {
@@ -283,7 +283,7 @@
   "type": "search",
   "name": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -304,7 +304,7 @@
   "type": "search",
   "name": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
   "ok": true,
-  "count": 5,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -318,21 +318,21 @@
   "type": "search",
   "name": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
   "ok": true,
-  "count": 3,
+  "count": 1,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
   "ok": true,
-  "count": 2,
+  "count": 3,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -353,35 +353,35 @@
   "type": "search",
   "name": "\"Jesse Tyler Ferguson\" OR \"Eric Stonestreet\" OR \"Ariel Winter\" OR \"Sarah Hyland\" OR \"Steven Levitan\" OR \"Kelsey Grammer\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
   "ok": true,
-  "count": 3,
+  "count": 8,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
   "ok": true,
-  "count": 0,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -395,7 +395,7 @@
   "type": "search",
   "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
   "ok": true,
-  "count": 10,
+  "count": 11,
   "resolved": ""
  },
  {
@@ -409,28 +409,28 @@
   "type": "search",
   "name": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
   "ok": true,
-  "count": 8,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
   "ok": true,
-  "count": 3,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
   "ok": true,
-  "count": 4,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Sebastian Maniscalco\" OR \"Kevin Hart\" OR \"Bill Burr\"",
   "ok": true,
-  "count": 1,
+  "count": 2,
   "resolved": ""
  },
  {
@@ -537,6 +537,30 @@
   "ok": true,
   "count": 15,
   "resolved": "Entertainment Tonight"
+ },
+ {
+  "type": "wikidata",
+  "name": "birthdays",
+  "ok": true,
+  "count": 18
+ },
+ {
+  "type": "wikidata",
+  "name": "deaths",
+  "ok": true,
+  "count": 5
+ },
+ {
+  "type": "wikidata",
+  "name": "premieres",
+  "ok": true,
+  "count": 5
+ },
+ {
+  "type": "wikidata",
+  "name": "finales",
+  "ok": true,
+  "count": 3
  },
  {
   "type": "tmdb",
