@@ -85,7 +85,15 @@ jobs:
           fi
           git commit -m "$(cat "$RUNNER_TEMP/roundup_mode" 2>/dev/null || echo $MODE) roundup $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do
-            git pull --rebase --quiet && git push && exit 0
+            if git pull --rebase --quiet; then
+              git push && exit 0
+            else
+              # another run saved first while this one was working: keep theirs, drop this run's copy
+              git rebase --abort || true
+              git fetch --quiet origin main && git reset --hard --quiet origin/main
+              echo "Another run already saved newer results; nothing more to save."
+              exit 0
+            fi
             sleep 5
           done
           exit 1
