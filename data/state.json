@@ -17,6 +17,7 @@
 "43fec9c77921": "2026-11-07T10:20:14+00:00",
 "486fee3adbd4": "2026-11-07T10:20:14+00:00",
 "48a01f85f9bf": "2026-11-08T21:19:01+00:00",
+"4a1528fbff7d": "2026-11-09T21:00:12+00:00",
 "4a83a9b33386": "2026-11-07T10:20:14+00:00",
 "4e35d9e7ac8a": "2026-11-07T10:20:14+00:00",
 "50460e8605a9": "2026-11-07T10:20:14+00:00",
@@ -233,6 +234,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Happy Days' star Henry Winkler reveals why he turned down a Fonzie-themed spinoff of the series. (via Parade Magazine)"
+},
+"4a1528fbff7d": {
+"at": "2026-11-09T21:02:33+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Happy Days' star Henry Winkler has shared his thoughts on a potential reboot of the series. (via Parade Magazine)"
 },
 "513a18718c95": {
 "at": "2026-11-09T16:33:48+00:00",
@@ -6411,6 +6418,26 @@
 ],
 "title": "Michael J. Fox Reveals He Feared Backlash Over Parkinson’s Jokes on ‘Curb Your Enthusiasm’: ‘They’ll Crucify Us’"
 },
+"3b83acb6cb18": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "3b83acb6cb18",
+"kind": "article",
+"link": "https://www.eonline.com/news/1437960/dax-shepard-reacts-to-claims-he-kristen-bell-are-in-abusive-relationship?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-09T20:28:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Dax Shepard is setting the record straight. Two weeks after Kristen Bell shared that her husband flirts with her by complimenting their waiter or waitress while on a date, the Parenthood actor...",
+"tags": [],
+"title": "Dax Shepard Reacts to Claims His, Kristen Bell's Marriage Is \"Abusive\""
+},
 "3b92d562eece": {
 "first_seen": "2026-11-08T18:29:46+00:00",
 "id": "3b92d562eece",
@@ -7300,6 +7327,30 @@
 "tags": [],
 "title": "Hilary Duff, 39, Convinced Me, 28, to Try This Fuss-Free, Polished Travel Outfit That Costs Less Than $50"
 },
+"4a1528fbff7d": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "4a1528fbff7d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcmxwNnBHOFNwOWZpb2szdGI5bWY3blo0NllhZlIzcFBiTG9LR2wzU3dfODQxOVZtUEFad2VSUlpvSVFVcWVqY2NXOWZvNWR3OUY0a1YyZGF3Ym9BY3Vrc0xyNXVBRlNnQUF1SjJ0UE9mWnZBdTN6eGIzWHlFcG96NGFLa1FlWHhzNS0yeEdGOW43ZEJacXJ4aDJsQnd6UENkT1N2bA?oc=5",
+"outlet": "Parade Magazine",
+"people": [],
+"published": "2026-11-09T20:52:22+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Happy Days"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Henry Winkler Gives His Take on a ‘Happy Days’ Reboot, and It’s Not What You’d Expect"
+},
 "4a28b38767db": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "4a28b38767db",
@@ -8101,8 +8152,8 @@
 "outlet": "primetimer.com",
 "people": [],
 "published": "2026-11-09T11:22:00+00:00",
-"query": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -14330,6 +14381,29 @@
 "tags": [],
 "title": "Michael J. Fox Thought Viewers Would ‘Crucify’ Him for ‘Curb Your Enthusiasm’ Cameo"
 },
+"98a34111e0c2": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "98a34111e0c2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMVAydWNpemczVWwyYjNWa1M3b0dtSmFQVFBSb2FGZ0NnWUZMT0JJVU1RNkx1ZkRDX29ob09kcEpmY2FTSzN4NUt4V2RvZk9fQS1xUUlPMVY4MTF1SHNMRkRCM3NSNnFLaHFZUEQ1eHZfLTlLUnFoLURtS0ZOY2d5ZkFRd1U3Yi05SDhR0gGQAUFVX3lxTE9sUGNSWUJsSU1RM0ZmblZkQXhUSktzZmxDMXVNRm5kZ0lrVUd3TXlZUUJmYVAtZ0Q4aVNWc0lnY3dabVMxZm91czhaeXA0V1M1azlKVktjaS1PQ1Z4M0E5ak5OWVpUdjc3RmduNmpfMWItcnpjcG5UaE1WVmVxbU5GMHNHZlRLaElpR0ZMRjBvaw?oc=5",
+"outlet": "ComingSoon.net",
+"people": [],
+"published": "2026-11-09T15:56:46+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Adam Driver Reveals His Girls Reboot Return Status"
+},
 "98aaf38935a7": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "98aaf38935a7",
@@ -15101,6 +15175,26 @@
 "summary": "",
 "tags": [],
 "title": "don’t worry about it"
+},
+"a124b9117823": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "a124b9117823",
+"kind": "article",
+"link": "https://deadline.com/2026/11/kristen-bell-frozen-nat-geo-disney-animation-series-1237217388/",
+"outlet": "Deadline",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-09T20:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "In the latest bit of corporate synergy, National Geographic and Walt Disney Animation Studios have teamed on The Real Frozen (w/t) a new natural history series, with Frozen franchise stars Kristen Bell, Idina Menzel, Jonathan Goff and Josh Gad returning to reprise their roles.",
+"tags": [],
+"title": "Kristen Bell, Idina Menzel, Josh Gad & Jonathan Groff To Reprise ‘Frozen’ Roles In Nat Geo/Disney Animation Series"
 },
 "a172540b6e91": {
 "channel_kind": "talk",
@@ -18248,6 +18342,28 @@
 "tags": [],
 "title": "okay then"
 },
+"c301feea4b30": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "c301feea4b30",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/09/dax-shepard-addresses-narrative-hes-controlling-and-abusive-in-marriage-to-kristen-bell/",
+"outlet": "Just Jared",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-09T19:40:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Dax Shepard is responding to narratives regarding his marriage to Kristen Bell. During the latest episode of the “Armchair Expert”...",
+"tags": [
+"Interview"
+],
+"title": "Dax Shepard Addresses Narrative He’s ‘Controlling’ & ‘Abusive’ in Marriage to Kristen Bell"
+},
 "c325a3d6e69c": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-09T09:03:04+00:00",
@@ -19135,6 +19251,28 @@
 "Renewal"
 ],
 "title": "Kristen Bell's 87% RT Netflix Series Officially Renewed Just 2 Weeks After Return"
+},
+"cc1aa4b2b128": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "cc1aa4b2b128",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1McUNzbndpRjVMVjhqU2RPaG8tMS1yUlZBQUtwRF84d0laSlIxdmgxX09NMHhHWGJuQ0VBTFhoRllGWjRuQi1mVjBKa3VaM1lRN2dqRExoODNaM3VBQzZ5NmJlcC1WSzZEYmkwYlJnREFOTDQ?oc=5",
+"outlet": "People.com",
+"people": [],
+"published": "2026-11-09T17:48:07+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Toukie Smith, Model, Actress and Former Partner of Robert De Niro, Dies at 74 Following ‘Battle’ with Multiple Sclerosis"
 },
 "cc6ea9ea29e1": {
 "first_seen": "2026-11-09T16:30:11+00:00",
@@ -21762,6 +21900,26 @@
 "tags": [],
 "title": "The Punisher Star Jon Bernthal Once Led A 19-Episode Sitcom That Fans May Have Completely Missed"
 },
+"ea94f61dafb3": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "ea94f61dafb3",
+"kind": "article",
+"link": "https://deadline.com/2026/11/druski-snl-creator-economy-franchise-era-begins-1237216040/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-09T20:45:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Editors note: Adam Goodman is the founder and CEO of Invisible Narratives, a creator-first entertainment studio focused on developing and scaling multi-platform franchises. He previously served as President of Paramount Pictures’ Film Group and President of Production at DreamWorks SKG.",
+"tags": [],
+"title": "Druski’s ‘SNL’ Gig Marks The Start Of The Creator Economy’s Franchise Era – Guest Column"
+},
 "eb26723fc0f3": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "eb26723fc0f3",
@@ -22901,6 +23059,28 @@
 "summary": "Stream PHONY, starring Connie Britton and Sam Nivola, on Hulu and Hulu on Disney+ SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Hey, you. Yeah, you. 👋 Subscribe to our YouTube for the latest shows & updates.",
 "tags": [],
 "title": "\"Your mom is actually cool.\" 💀 #PHONY"
+},
+"f72c200e2216": {
+"first_seen": "2026-11-09T21:00:12+00:00",
+"id": "f72c200e2216",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVUlLWXdWZDNqU3JXU2M2SHBKMUJVdmJVREVEaVRkdzhjeGc1cWI4ZjViZzV3dXF0WHBZRU10VmszcmlwcndTbm5CZE5SdHo1c3N5LUI5WDFIVlhIVWdaRmlVeWg0N01JQ1FtZ0VHLTB2cnBMWENNbzU3MG9jRVNhQURDNDNiMDRVRk1WdTZDNThFLVJYN2J5QQ?oc=5",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-09T19:15:31+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Exit"
+],
+"title": "Food Network Star Reportedly Leaves Network After Several Show Exits"
 },
 "f757b6fd2bcf": {
 "first_seen": "2026-11-08T18:29:46+00:00",
