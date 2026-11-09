@@ -20,6 +20,7 @@
 "4a83a9b33386": "2026-11-07T10:20:14+00:00",
 "4e35d9e7ac8a": "2026-11-07T10:20:14+00:00",
 "50460e8605a9": "2026-11-07T10:20:14+00:00",
+"513a18718c95": "2026-11-09T16:30:11+00:00",
 "5342300002eb": "2026-11-07T10:20:14+00:00",
 "5428c264680e": "2026-11-07T10:20:14+00:00",
 "582360fd905d": "2026-11-07T10:20:14+00:00",
@@ -202,6 +203,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Happy Days' star Henry Winkler reveals why he turned down a Fonzie-themed spinoff of the series. (via Parade Magazine)"
+},
+"513a18718c95": {
+"at": "2026-11-09T16:33:48+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Family Ties' star Michael J. Fox reveals he feared his controversial 'Curb Your Enthusiasm' cameo could get him canceled. (via Primetimer)"
 },
 "5342300002eb": {
 "at": "2026-11-07T13:06:06+00:00",
@@ -517,6 +524,28 @@
 "Cancel/End"
 ],
 "title": "Netflix To Stream Canceled Starz Comedy Series ‘Run the World’"
+},
+"006dcff1d919": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "006dcff1d919",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX29JTHo4WnZ1aXBKRTgtTW93YldaczdLX1lRcGxMZGtabHY4TWR2SkRYMzFiQjJ2bWhUbHhnU01vMWlVWndpQmJWa3JfaXNhSzRWVnI0d005d0pEWGJnNWN0c0pFZkctZDRwa1Q5cjExQzdEQ3A3cmZhLWY5d08xQURDZ1ZIYnNMZFBPVmk0NDlLa3VuZlN5QmhnX2JyV1puNFNyamxHUQ?oc=5",
+"outlet": "Los Angeles Times",
+"people": [],
+"published": "2026-11-09T11:00:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Inside New Jersey’s surprising Hollywood revival"
 },
 "00b483f69dff": {
 "channel_kind": "talk",
@@ -2526,6 +2555,26 @@
 "tags": [],
 "title": "Why Jenna Fischer fought to cut a storyline from the 'Mafia' episode of 'The Office'"
 },
+"122f2997297c": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "122f2997297c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3U2NkVERKZlpwUUQ1REFGYXhjSGd0dS14ZjJ5a3ppdEY1cU5BYTgzVzVOM00yWTYtd1Y5NXkxVEE0R1pPaTFFOS1qZUtxckdVblRiNXFCalZrZnpvREp0R1BNVjZZUXJqeGc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-08T16:41:12+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "After Gilligan's Island, Tina Louise Starred In One Of TV's Most Iconic Westerns"
+},
 "126af6c306c2": {
 "first_seen": "2026-11-07T10:25:39+00:00",
 "id": "126af6c306c2",
@@ -2943,6 +2992,27 @@
 "summary": "",
 "tags": [],
 "title": "Beetlejuice 2 Writers Address Making Part 3 After Catherine O'Hara's Death"
+},
+"17a7abbfdb8c": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "17a7abbfdb8c",
+"kind": "article",
+"link": "https://deadline.com/2026/11/adam-devine-chloe-fineman-miami-pi-afm-1237216738/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-09T16:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Workaholics",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "EXCLUSIVE: Workaholics‘ Adam Devine and SNL alum Chloe Fineman will headline Miami PI, an indie crime comedy written and to be directed by Michael Diliberti for Endurance Media. Production begins in March with filming planned in Miami.",
+"tags": [],
+"title": "Adam Devine & Chloe Fineman Set For Michael Diliberti Crime Comedy ‘Miami PI’ – AFM"
 },
 "182dcdbff3d4": {
 "first_seen": "2026-11-07T21:06:09+00:00",
@@ -4862,6 +4932,28 @@
 "tags": [],
 "title": "Stephen Miller’s Wife Melts Down Over SNL’s Savage Elon Hit"
 },
+"2d4d374b1f62": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "2d4d374b1f62",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV1BDS3Y3U2ZlTFhsS2pwMEFaRkJoSkg4T3djS1BUUGR4SWxwMk5lT3ZWZ3Q2TDRrdi0xWXdKZGtzWm1rb0xZNGE3OUF1M0pub041b0RtME5JZlF2emQ4UkRWS2loLTJDQ2FYRVFxRHdQYk1OcExhcG8yNi0zOGJPMUEwSXhnbHNxM2xfYXFJd1NicFZFV2RXUXlR?oc=5",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-09T15:48:12+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+},
 "2d51e735b502": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "2d51e735b502",
@@ -5680,6 +5772,26 @@
 "summary": "",
 "tags": [],
 "title": "#SarahPaulson scored some #HarryStyles merch at #Harryween! #FallonTonight"
+},
+"38e2664ba28c": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "38e2664ba28c",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/ariana-grande-tonight-show-stepping-away-public-1236943053/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-09T16:26:03+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Tonight Show"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Ariana Grande was a guest on “The Tonight Show Starring Jimmy Fallon” on Sunday alongside her “Focker In-Law” castmates Robert De Niro and Ben Stiller. The Sunday night episode marked her first public appearance in months, following a statement that she’d be stepping away from the spotlight due to...",
+"tags": [],
+"title": "Ariana Grande Appears on ‘Tonight Show’ After Months Away From Public Eye"
 },
 "38ed21f6ff66": {
 "channel_kind": "streamer",
@@ -7346,6 +7458,26 @@
 "tags": [],
 "title": "Modern romance 😍 #Detroiters"
 },
+"5073d7ec5711": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "5073d7ec5711",
+"kind": "article",
+"link": "https://variety.com/2026/tv/global/russell-brand-channel-4-brushed-under-carpet-1236943037/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-09T15:35:22+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "One of Russell Brand’s victims says when she told Channel 4 she had been assaulted by the comedian during a shoot for the network, senior management “brushed [it] under the carpet.” Brand was sentenced to 10 years and six months in prison on Monday after being convicted of one count of rape and...",
+"tags": [
+"Interview"
+],
+"title": "Russell Brand Victim Says When She Told Channel 4 Managers About Assault ‘It Was Brushed Under the Carpet’"
+},
 "5080187e92ff": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -7402,6 +7534,30 @@
 "summary": "Don’t miss tomorrow’s new episode of DC Studios Showcase with Michael Mando aka Bane in Batman: Knightfall Part 1 and find out how Bane really feels about Batman.",
 "tags": [],
 "title": "How does Bane really feel about Batman?"
+},
+"513a18718c95": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "513a18718c95",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbGJoZWZtNEFkTUlOa29BU0NMMzhKRkRsekJjV2dvR0RZa2ZINEo5SUtteGROS3lvRFZDU3V6MklUMmpqS1JxMk45eWs3Z1g1djY3WXZ4OEJMU2EwV3pMbXJ0NjJ2MUpHdVp1Q0gxSkk4ZDVSRVE1ZjlONEhCLXpxNXZadGwzeG53SXFUNnFMUmtkYjNFM0FzdkxWeFZyM1h3SDNYd2h2WEJBeVI0ekE4WjZYbzFjMEtQblNKODJiNG1Mdw?oc=5",
+"outlet": "primetimer.com",
+"people": [],
+"published": "2026-11-09T11:22:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Curb Your Enthusiasm"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Michael J. Fox feared his controversial ‘Curb Your Enthusiasm’ cameo could get him canceled"
 },
 "514dab4956b5": {
 "channel_kind": "talk",
@@ -10991,6 +11147,28 @@
 "tags": [],
 "title": "Celine Dion and Jack Black Rock Out at the Metallica Concert"
 },
+"7f96fc9ca0bb": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "7f96fc9ca0bb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FYlBUMHhjQzR3akx3aEJhaU8zeXNWSEdISk1OaFZCM2I1dDhiaVhaRjI2N0JVZUtOMktUZDI4TFdLdmpqLXNUa3hJMXlxbUhSNm00dWRPc2V6bURtSG5vVmVVU0F0dw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-09T16:20:59+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Toukie Smith, Top Runway Model and ‘227’ Actress, Dies at 74"
+},
 "7fce98740d45": {
 "first_seen": "2026-11-09T09:03:04+00:00",
 "id": "7fce98740d45",
@@ -13549,6 +13727,29 @@
 "tags": [],
 "title": "Texas senator-elect James Talarico surprises with ‘SNL’ cameo"
 },
+"9efa285befcc": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "9efa285befcc",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/danielle-fishel-girl-meets-world-pay-disliked-boundaries-1236941905/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-09T13:35:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Boy Meets World",
+"Girl Meets World"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Danielle Fishel was a little different when she returned to TV on “Girl Meets World” 14 years after “Boy Meets World” wrapped,  and not everyone was happy about it.",
+"tags": [
+"Interview"
+],
+"title": "Danielle Fishel Gets Honest About ‘Girl Meets World’ Pay, Says She Knew She Was Disliked on Set for Setting Boundaries (EXCLUSIVE)"
+},
 "9f68100c8a4a": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -13904,6 +14105,24 @@
 "summary": "",
 "tags": [],
 "title": "James Talarico Makes Surprise SNL Appearance in Post-Election Cold Open, Watch"
+},
+"a3028bc268bd": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "a3028bc268bd",
+"kind": "article",
+"link": "https://collider.com/jackie-chan-chris-tucker-rush-hour-streaming-success-paramount-plus-november-2026/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-09T15:00:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Jackie Chan and Chris Tucker's iconic buddy-cop comedy Rush Hour becomes a streaming hit amid talks of a fourth movie.",
+"tags": [],
+"title": "Jackie Chan’s ‘Lethal Weapon’ Replacement Officially Takes Over Streaming"
 },
 "a3299deb6ec7": {
 "channel_kind": "talk",
@@ -14577,6 +14796,26 @@
 "summary": "",
 "tags": [],
 "title": "Chris Rock Wasn’t The Only A-List Celebrity To Show Up To Support Druski On SNL"
+},
+"a9febf113e6f": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "a9febf113e6f",
+"kind": "article",
+"link": "https://variety.com/2026/film/global/disney-manolo-caro-blood-wedding-federico-garcia-lorca-1236941655/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-09T14:15:02+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Perfect Strangers"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Disney+ and Mexican director-producer Manolo Caro (“The House of Flowers,” “Perfect Strangers”) are developing a new series adaptation of “Blood Wedding” (“Bodas de Sangre”) by iconic Spanish poet-playwright Federico García Lorca.",
+"tags": [],
+"title": "Disney+ and ‘The House of Flowers’ Director Manolo Caro Prep Series Adaptation of ‘Blood Wedding’ by Federico García Lorca (EXCLUSIVE)"
 },
 "aa2e73458d22": {
 "channel_kind": "streamer",
@@ -16980,6 +17219,28 @@
 "tags": [],
 "title": "Will Smith's $585 Million Post-Apocalyptic Sci-Fi Blockbuster Is Now Streaming For Free"
 },
+"c6621b54af57": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "c6621b54af57",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1qM0lMMXg2U01MTlBFMnlLbVlNb013WktpamNqVmJ3WWg3NEVoWmN4QkxCSElZSjc1MS1JT3REZHpTVjN4NVVzWFZpcUYzekNvUUpBRzVkb1pTRG5wVHhNS1A4MTU?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-08T22:35:33+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Fan-Favorite Girls Character's Fate Confirmed For Lena Dunham's HBO Reboot"
+},
 "c667ad29d358": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -17468,6 +17729,26 @@
 ],
 "title": "Kristen Bell's 87% RT Netflix Series Officially Renewed Just 2 Weeks After Return"
 },
+"cc6ea9ea29e1": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "cc6ea9ea29e1",
+"kind": "article",
+"link": "https://deadline.com/2026/11/ariana-grande-jimmy-fallon-tonight-show-focker-in-law-1237217250/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-09T15:08:22+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Tonight Show"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Following a several-month hiatus, Ariana Grande made a surprise appearance on the Tonight Show Sunday, alongside her Focker-In-Law co-stars Ben Stiller and Robert de Niro. The trio came by to promote their upcoming holiday film during Jimmy Fallon’s monologue.",
+"tags": [],
+"title": "Ariana Grande Crashes Jimmy Fallon’s Monologue With ‘Focker-In-Law’s Ben Stiller & Robert De Niro"
+},
 "cc8057ce618e": {
 "first_seen": "2026-11-07T10:25:39+00:00",
 "id": "cc8057ce618e",
@@ -17707,6 +17988,24 @@
 "summary": "",
 "tags": [],
 "title": "Is ‘SNL’ New Tonight? What to Know About the Fifth Episode of Season 52"
+},
+"ce1611e271a9": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "ce1611e271a9",
+"kind": "article",
+"link": "https://deadline.com/2026/11/mojo-brookzz-tour-dates-2027-outta-pocket-tour-1237216681/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-09T15:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: Coming off his first two sold-out arena headlining shows and the No. 1 U.S. debut of his first stand-up special, Netflix’s I Know You Lying, comedian Dyon “Mojo” Brooks has added 25 dates to his 2027 Outta Pocket Tour.",
+"tags": [],
+"title": "Comedian Dyon “Mojo” Brooks Expands Outta Pocket Tour With 25 Dates, Multiple Arena Shows For 2027"
 },
 "ce21714b2e87": {
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -18331,6 +18630,26 @@
 "tags": [],
 "title": "David O. Russell Shares Update on Selena Gomez's Linda Ronstadt Biopic (Exclusive)"
 },
+"d624414d67fc": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "d624414d67fc",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/09/adam-brody-misses-nobody-wants-this-event-amid-palestine-comments/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-09T15:33:55+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Adam Brody was absent from a recent Nobody Wants This event attended by several of his co-stars. The 46-year-old actor...",
+"tags": [],
+"title": "Adam Brody Misses ‘Nobody Wants This’ Event Amid Public Disagreements With Co-Stars Over Palestine Comments"
+},
 "d637d46b9eeb": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "d637d46b9eeb",
@@ -18629,6 +18948,26 @@
 "summary": "",
 "tags": [],
 "title": "#CaitlinClark surprises Jimmy with his own #Nike Caitlin 1’s Friendship Bracelet sneakers!"
+},
+"d90b4c21dd83": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "d90b4c21dd83",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPODJEc0oxOGJHY1NuMm90OXJGdUNWZ2RHamM0M1JBRFZ2YmN6QVVPa194dlR4bjlvRnEwdkFSZXk4Y0NmcmQtSGVMczZYZGpVWDhfck1oMGJ6MjB4NXRyaUlrd2xxaTZpMlo2ZFp1S1ppTjJOTTI4dmE0M25qcE15Ny1BOVgwaXg0OFRQeGlLYWtUcy02UTZVTUg5cHBvQQ?oc=5",
+"outlet": "ELLE",
+"people": [],
+"published": "2026-11-09T14:39:16+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "'Girls' Is Officially Returning For A Limited Run: Get All The Key Details You Need"
 },
 "d9418b1628cd": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -21172,6 +21511,26 @@
 "summary": "",
 "tags": [],
 "title": "Sofía Vergara Wears a Sheer Brown Lace Corset for a Glitzy Dinner in Los Angeles"
+},
+"fa53412a5dc9": {
+"first_seen": "2026-11-09T16:30:11+00:00",
+"id": "fa53412a5dc9",
+"kind": "article",
+"link": "https://www.eonline.com/news/1437917/david-schwimmer-brings-nostalgic-fun-to-quinces-s50-cashmere-sweater?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [
+"David Schwimmer"
+],
+"published": "2026-11-09T14:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "There are some iconic moments in TV history that have been imprinted on us forever, and many of them come from Friends. And that's exactly why we're loving this cheeky and nostalgic campaign from...",
+"tags": [],
+"title": "David Schwimmer Brings Nostalgic Fun to Quince’s Cashmere Sweaters"
 },
 "fa6e8fe78ef1": {
 "first_seen": "2026-11-07T11:02:56+00:00",
