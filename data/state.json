@@ -335,6 +335,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'SNL UK' director Liz Clare says the production decided against using the original show's famous crane shot because it takes up too much space. Cast member Emma Sidi also admitted she initially found the end-of-show goodbyes \"naff\" before joining the series. (via Collider)"
 },
+"b6c8b1cf0b49": {
+"at": "2026-11-09T09:50:49+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Hulu has officially announced a new 'Shoresy' spin-off. The news comes ahead of the show's sixth season. (via IMDb)"
+},
 "b92902159881": {
 "at": "2026-11-07T13:01:26+00:00",
 "from_article": true,
@@ -358,6 +364,12 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'The Bear' star is under scrutiny after new photos have fans zooming in on one strange detail, prompting calls that \"he needs to stop.\" (via AOL)"
+},
+"c803d511b0c9": {
+"at": "2026-11-09T09:47:40+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Nobody Wants This' stars Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss. (via IMDb)"
 },
 "c8bcb31688f0": {
 "at": "2026-11-07T21:10:49+00:00",
@@ -448,6 +460,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Emma Stone joined host Druski during his 'Saturday Night Live' opening monologue last night. The pair are set to co-star in the upcoming movie 'The Catch', which is directed by Dave McCary. Stone joked that Druski misread their scenes together after he claimed to be her love interest in the film. (via Just Jared)"
+},
+"f42b6ef12dff": {
+"at": "2026-11-09T09:53:57+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Ted Lasso' star Hannah Waddingham has shared a skeptical update regarding the fate of a potential fifth season of the series. (via IMDb)"
 }
 },
 "editions": [
@@ -474,7 +492,7 @@
 {
 "edition": "morning",
 "name": "2026-11-09-morning",
-"time": "2026-11-09T09:03:04+00:00"
+"time": "2026-11-09T09:43:13+00:00"
 }
 ],
 "items": {
@@ -758,6 +776,28 @@
 "summary": "",
 "tags": [],
 "title": "Saturday Night Passover Seder feat. Dan Levy, Finn Wolfhard, Billy Porter, Idina Menzel & More"
+},
+"043546b42a86": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "043546b42a86",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeXlsVzlvbFZoRjFYdFhkMThCb1FPS1NaanF1V1puTVhRUVJQWWd2aFJJcVhnN01ZcndEYUE0clpsRldnb2dlNEkwU25PX0RuOS10U2dYNVhuVzd6aExuVm1mM0gxWkJKTk5LcnpqLVljVFMtTk1yRUVHWUVTckZjNGVpLUt4azNZZ0RwOQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Sofia Vergara"
+],
+"published": "2026-11-09T07:04:00+00:00",
+"query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Sofia Vergara’s Dangerously Plunging Celia Kritharioti Dress Barely Contains Her Curves"
 },
 "0485594c2030": {
 "first_seen": "2026-11-09T09:03:04+00:00",
@@ -1234,6 +1274,28 @@
 "summary": "",
 "tags": [],
 "title": "Kaley Cuoco’s Famous Exes and the Man Who Finally Stole Her Heart!"
+},
+"08f6a4f7df65": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "08f6a4f7df65",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS0pLWjZHZjl2bTRtdFQwVmRjYWRWSVB1VDdFV0t4cGVtdXR0QTluUm91OTVfYkE0Wld4MHBMRzFfYjd1VXJSZ0h3MmpYeG9OVVNlTTVHejFuLXdVc0c0VEdtbnc3MTZERHF2RzN6N2x0MHJJa2hjOC1Wc1lMZ25ZT1hRem5wZw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-08T19:58:57+00:00",
+"query": "\"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Silicon Valley\" OR \"Fresh Off the Boat\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Schitt's Creek"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Schitt's Creek (2015)"
 },
 "090bccb69c9e": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -4154,6 +4216,28 @@
 "tags": [],
 "title": "Nobody Wants This future confirmed by Netflix after season 3 cliffhanger"
 },
+"26ce4e58cb8d": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "26ce4e58cb8d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acmFySmxIVTJWVldBNVB1LW1oU19DVXBKcm9JRVNwbE1mMXlXYVhrSXBLQ3lYVVBNUTZMZHB5N1JlX1Z5bUxZUlJEekdrN1QwekE?oc=5",
+"outlet": "IMDb",
+"people": [
+"Courteney Cox"
+],
+"published": "2026-11-08T21:46:42+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Scream’ Star Courteney Cox (62) Soaks up the Hawaiian Sun Ahead of a Star-Studded Wedding"
+},
 "27057f2d97ea": {
 "first_seen": "2026-11-09T09:03:04+00:00",
 "id": "27057f2d97ea",
@@ -5030,6 +5114,28 @@
 "summary": "SNL's Mikey Day takes on The Wings of Death! Thursday at 11am EST!",
 "tags": [],
 "title": "Sean Evans takes on... Sean Evans?"
+},
+"30a682f16be4": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "30a682f16be4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcG9DRmpWU2UxN0xyaGRxMmc1Y1dEWE5xNEtQOVc1VHBBeWtsQll2d1J0Q3VoZXpKRk9aaDRoWmhsSjNpMVlUU3puUTBqNzByUzVIZG53dV9qd2t5aVp6anJrZ1pKRkNKc1ZXUDBidkRFeldpd2haOUNWS3RTZkZQX2hIVG5RZGFnaXpXNW15dVR2TkFDNkswaTV3OHZJUDBk?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-08T15:04:05+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Watch All of Druski's SNL Sketches & Monologue from November 7, 2026"
 },
 "30a8ad24493f": {
 "channel_kind": "streamer",
@@ -8176,6 +8282,28 @@
 "summary": "Every episode of \"The Late Show\" is special, so Stephen Colbert thought it would be best to begin his series finale with a regular monologue focused on the national conversation, free from forced celebrity cameos.",
 "tags": [],
 "title": "There's Nothing Special About Stephen Colbert's Final Monologue At \"The Late Show\""
+},
+"5c20238f51ca": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "5c20238f51ca",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WUzIya1huR1B4VldZWDl1TTZiR1NLNElXUlo3eVBvYnAtd1JraHN4QXRHcklfSVpUNGVyZ0tnZVpsYU5hSFZERHRDRzMzTmM0QjJCTmpjVVRfTV9DanNkWkhCcWFOM2JuZjVGbmdLUk5fbEFq?oc=5",
+"outlet": "IMDb",
+"people": [
+"Jenna Ortega"
+],
+"published": "2026-11-09T04:35:53+00:00",
+"query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jenna Ortega's Dresses"
 },
 "5c60d7555b88": {
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -11902,7 +12030,7 @@
 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTm05WVluZVp6U2J0b0N6T1dSSk5Vb21PRUhIU1E2T3d4eWU1M1JGZlEtOFF2NVB0XzY3dlc4TGhPSWY5ZElkYTAxVWFkN1A0MFd2V055Tk9uWTFpWlM1ZnEweTFvTUpyX0szQTQ2SnRYZGlJS214VlhlT01IbUpWbHR1RWstVkNzRmxpOUlfcWJHOGYxXy1qU2JWMElzeG9UTWdnTw?oc=5",
 "outlet": "The Guardian",
 "people": [],
-"published": "2026-11-08T18:02:00+00:00",
+"published": "2026-11-08T18:04:00+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
 "rehash": false,
@@ -13399,6 +13527,28 @@
 "tags": [],
 "title": "Legends Of Late Night Introduce The Series Finale of \"The Late Show\""
 },
+"9dede7d6d575": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "9dede7d6d575",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40dW1QU202U2RjWE9PR1dfU2c1a0dBR205STBPX0RmbkZ0M3VoZ2thNGlUajFqbF95RzduUmJzREdjdE1VTmpReTNhbUJMbTFtM0JodDVlakhXX19jRENRUG5sVkdDdzdBM3dXV1F2dmFSaDZQd1pV?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [],
+"published": "2026-11-08T21:48:34+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Texas senator-elect James Talarico surprises with ‘SNL’ cameo"
+},
 "9f68100c8a4a": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -13953,6 +14103,46 @@
 ],
 "title": "Nobody Wants This Renewed For Season 4 At Netflix,  Kristen Bell/Adam Brody Comedy"
 },
+"a579a525c66c": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "a579a525c66c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEp3bHlhU2hPRDUtQVd6UWQ5cFFCQWk2YThScXVscW0yd3QxR0tuMlBiVi1UTmdXQUt4aXlKVHpsck04T2J5TGVQZ0l4MDZFWHJKTEhIdmgyNDliMnFpcVZVZmFxb3JfbGdwbG9COTkxZmN1dG00QmV2V2hYRGdEU014QXhMeW1uTnRWX2ZkYWJKRDVQNm9RSmV5bkRKWnByV0Z3LWJ3?oc=5",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-08T22:44:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Dave Chappelle’s Charlie Kirk Joke Prompts Response from Erika Kirk: Using the ‘Destruction of a Human Life’ as a ‘Punchline Is Beyond Disgusting’"
+},
+"a580047c4baf": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "a580047c4baf",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdFpLaUtLbkJHZ2F6Mm5hczhULTlfeWlESUdwRjBIV1RDeGN1SEJjMjh2WTNUTjZFeV9FVk9YYnQ2eloxZ2RjQlF4YV8tT1dLRXBfekhQVm83UW9ESmtuODFaUnlaelZlYVhtOEZCd0RBTjJ3ZjFRam5idmJKcFdxTkU1b3NnWTFxd3NfZkpFZw?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-09T09:25:00+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Quote Of The Day By Sally Field: 'I Worked So Hard To Get Out Of Television. People Wouldn't Let Me...'"
+},
 "a587a5812d25": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "a587a5812d25",
@@ -14198,7 +14388,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-08T18:18:41+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -15378,6 +15568,30 @@
 "Interview"
 ],
 "title": "Romeo + Juliet Turns 30! Leonardo DiCaprio & Claire Danes Reveal On-Set SECRETS | ET Vault Unlocked"
+},
+"b6c8b1cf0b49": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "b6c8b1cf0b49",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jNXlycC1KNFAtUUpidjdhbmxYZFdFSjJnbEhXX1JMdFI5WEZqN1NzZDJGamtMTzc5RkpFSzh4RG5ZZ2R2OEZjbEVaR3ZsX3hnOWdvdWdnVm41WVJ0WVdaRzJOM01JelE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-08T21:38:41+00:00",
+"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Shoresy"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Hulu Officially Announces New 'Shoresy' Spin-Off Ahead of Season 6"
 },
 "b70d59bb634a": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -16880,6 +17094,28 @@
 "tags": [],
 "title": "Druski Does White Face as Elizabeth Holmes in ‘Dru Can See Everything’ ‘SNL’ Parody"
 },
+"c803d511b0c9": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "c803d511b0c9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MNlE0azRYcG52RzJKMnMwTlBzcXhoUVBSUHB5YjNkendtYThwa0hkLVFLMkhQQ0oxTjM5cEgzVTlyOWt5cnIwQWRXeWtfdHdST0xtRC1wRHE0bGtibjdPMQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-09T07:14:57+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Nobody Wants This’: Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss"
+},
 "c81b1fa518b8": {
 "first_seen": "2026-11-07T21:06:09+00:00",
 "id": "c81b1fa518b8",
@@ -17104,6 +17340,28 @@
 "summary": "",
 "tags": [],
 "title": "Elon Musk Is Portrayed on ‘SNL’: “The Worst Thing South Africa Has Ever Done”"
+},
+"cacb935e9395": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "cacb935e9395",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aMEVWcnFYaFFBLXR1TDdtYlpoenZzckNJaURwS2hPb1RGcHRCWXJfRHZ3Tnp2QnNXOWlISExJeS05ZzdZZ3lPTEo5U2Y2di1veVE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-08T15:52:42+00:00",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Nobody Wants This’ Season 3 Opens With 6.2 Million Views in Four Days"
 },
 "cadfe4e5f76f": {
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -17923,6 +18181,28 @@
 "tags": [],
 "title": "Marshals Star Ash Santos Was In Wesley Snipes And Kevin Hart's Netflix Show"
 },
+"d4daf20d5837": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "d4daf20d5837",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MakIzMURsMkpESDZqemFFMk9LVVQ0OFpwUUQ1SU5pX1NrQWVhSng2QjhjWE9KWC1VQmFpeFFJSzNleENRYUdsaERyZl9sR3VvbzRDUXVDQmxlNmEyaDhHelJ5aVBsZW9WVjJjM2xNcDlaaWFRWDhQbVdicVBQdzA?oc=5",
+"outlet": "AOL.com",
+"people": [],
+"published": "2026-11-09T08:56:12+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "“This is just a political hit job”: Stephen Miller’s wife defends Elon Musk over SNL Joke"
+},
 "d50bd3636adc": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -17994,7 +18274,7 @@
 "outlet": "IMDb",
 "people": [],
 "published": "2026-11-08T16:54:33+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -20323,6 +20603,30 @@
 "summary": "",
 "tags": [],
 "title": "No. 3: Kaley Cuoco-Sweeting - 2015-03-13 - The Highest-Paid TV Actresses Of 2014"
+},
+"f42b6ef12dff": {
+"first_seen": "2026-11-09T09:43:13+00:00",
+"id": "f42b6ef12dff",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRTHF5THBaaFhqaFVzLUlkOFM0SXUxQmU0TWttNWhiNk1DbWNtOXlkR2pvTUI4RzBMaFJrOTVHMXpLU2hQQkZDZG9Da01McDhFbFp5LXlZamdjLWM5S0ZJUEk1c3ZfU3c?oc=5",
+"outlet": "IMDb",
+"people": [
+"Hannah Waddingham"
+],
+"published": "2026-11-09T07:14:22+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Ted Lasso Season 5 Fate Gets Skeptical Update from Hannah Waddingham"
 },
 "f44764770dc0": {
 "channel_kind": "streamer",
@@ -29661,7 +29965,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "83a4113e7d21",
@@ -29690,7 +29994,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "dbe0fa7bae57"
@@ -29723,7 +30027,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "ba40aa458719",
@@ -29744,7 +30048,56 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"a580047c4baf"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"day",
+"field",
+"get",
+"hard",
+"let",
+"people",
+"quote",
+"sally",
+"television",
+"work",
+"wouldn"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"d4daf20d5837",
+"2d22c0a65757"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"defend",
+"elon",
+"hit",
+"job",
+"joke",
+"miller",
+"musk",
+"politic",
+"snl",
+"stephen",
+"wife"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "2d5b34e1be1e"
@@ -29769,7 +30122,84 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"c803d511b0c9",
+"7ecd6d6c95f7",
+"babd548bf1ad"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"await",
+"break",
+"down",
+"justine",
+"kiss",
+"long",
+"lupe",
+"morgan",
+"nobody",
+"sasha",
+"simon",
+"timothy",
+"want"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"f42b6ef12dff"
+],
+"people": [
+"Hannah Waddingham"
+],
+"shows": [
+"Ted Lasso"
+],
+"tags": [],
+"tokens": [
+"fate",
+"gets",
+"hannah",
+"lasso",
+"skeptic",
+"ted",
+"update",
+"waddingham"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"043546b42a86"
+],
+"people": [
+"Sofia Vergara"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"barely",
+"celia",
+"contain",
+"curv",
+"dangerously",
+"dres",
+"kritharioti",
+"plung",
+"sofia",
+"vergara"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "67283e1d69de",
@@ -29800,7 +30230,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "b48280f21c71"
@@ -29824,7 +30254,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "b8087913fc8b"
@@ -29845,7 +30275,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "42e3f2656dc0"
@@ -29869,7 +30299,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "ed564c992a0a"
@@ -29892,7 +30322,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "1757dc792e29"
@@ -29914,35 +30344,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
-"edition": "2026-11-09-morning",
-"ids": [
-"7ecd6d6c95f7",
-"babd548bf1ad"
-],
-"people": [],
-"shows": [
-"Nobody Wants This"
-],
-"tags": [],
-"tokens": [
-"await",
-"break",
-"down",
-"justine",
-"kiss",
-"long",
-"lupe",
-"morgan",
-"nobody",
-"sasha",
-"simon",
-"timothy",
-"want"
-]
-},
-{
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "817411e256ca",
@@ -29966,7 +30368,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "e370f4a4b1ac"
@@ -29987,7 +30389,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "fe779d3a8cd7"
@@ -30012,7 +30414,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "b52e7d3d7e31"
@@ -30039,7 +30441,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "4e0e13b8008d"
@@ -30063,7 +30465,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "0485594c2030",
@@ -30090,7 +30492,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "e122c591517a"
@@ -30108,7 +30510,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "5fb7b7dc1faa"
@@ -30133,7 +30535,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "9494a969e7d4",
@@ -30155,7 +30557,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "a1bd90e59c60"
@@ -30178,7 +30580,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "1b34ae7fe617"
@@ -30203,7 +30605,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "c9065ac632c8",
@@ -30229,7 +30631,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "98321cbd4c71"
@@ -30252,7 +30654,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "985e752c98bd"
@@ -30277,7 +30679,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "7fce98740d45"
@@ -30299,7 +30701,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "e2d6bbf6f0f2"
@@ -30321,7 +30723,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "47aeebb95b6a"
@@ -30344,7 +30746,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "d2ac70de58e7"
@@ -30371,7 +30773,34 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"a579a525c66c"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"beyond",
+"chappelle",
+"charlie",
+"dave",
+"destruction",
+"disgust",
+"erika",
+"human",
+"joke",
+"kirk",
+"life",
+"prompt",
+"punchline",
+"response",
+"using"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "3bf6c23e1bb7"
@@ -30393,7 +30822,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "39e70fbf17a4"
@@ -30415,7 +30844,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "a9c78ab8bedc"
@@ -30438,7 +30867,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "6c1de04e104c",
@@ -30464,7 +30893,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "b4c9d8622c44"
@@ -30484,28 +30913,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
-"edition": "2026-11-09-morning",
-"ids": [
-"df8641a42a20"
-],
-"people": [],
-"shows": [],
-"tags": [
-"Trailer"
-],
-"tokens": [
-"cast",
-"jackson",
-"off",
-"offici",
-"percy",
-"studd",
-"trailer"
-]
-},
-{
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "807db912494e"
@@ -30527,7 +30935,28 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"df8641a42a20"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer"
+],
+"tokens": [
+"cast",
+"jackson",
+"off",
+"offici",
+"percy",
+"studd",
+"trailer"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "29b1b6a174d1",
@@ -30560,7 +30989,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "27057f2d97ea"
@@ -30583,10 +31012,11 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
-"0a2645c7dea0"
+"0a2645c7dea0",
+"9dede7d6d575"
 ],
 "people": [],
 "shows": [
@@ -30605,7 +31035,30 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"26ce4e58cb8d"
+],
+"people": [
+"Courteney Cox"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"ahead",
+"courteney",
+"cox",
+"hawaiian",
+"scream",
+"soak",
+"studd",
+"sun",
+"wedd"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "d90858159cb1"
@@ -30632,7 +31085,30 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"b6c8b1cf0b49"
+],
+"people": [],
+"shows": [
+"Shoresy"
+],
+"tags": [
+"Revival"
+],
+"tokens": [
+"ahead",
+"announc",
+"hulu",
+"off",
+"officially",
+"shoresy",
+"spin"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "a4423269406f"
@@ -30654,7 +31130,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "dd7b5cbedfac"
@@ -30675,7 +31151,24 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"08f6a4f7df65"
+],
+"people": [],
+"shows": [
+"Schitt's Creek"
+],
+"tags": [],
+"tokens": [
+"2015",
+"creek",
+"schitt"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "d88993fa9482"
@@ -30701,7 +31194,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "a4e78eeb8f77"
@@ -30725,7 +31218,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "a907c855d3f7"
@@ -30747,7 +31240,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "25c1c58bf98b"
@@ -30774,7 +31267,7 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "d589e3d51e7a"
@@ -30798,10 +31291,31 @@
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
-"2d22c0a65757"
+"cacb935e9395"
+],
+"people": [],
+"shows": [
+"Nobody Wants This"
+],
+"tags": [],
+"tokens": [
+"days",
+"four",
+"million",
+"nobody",
+"open",
+"view",
+"want"
+]
+},
+{
+"at": "2026-11-09T09:43:13+00:00",
+"edition": "2026-11-09-morning",
+"ids": [
+"30a682f16be4"
 ],
 "people": [],
 "shows": [
@@ -30809,19 +31323,18 @@
 ],
 "tags": [],
 "tokens": [
-"down",
-"elon",
-"hit",
-"melt",
-"miller",
-"savage",
+"2026",
+"all",
+"druski",
+"monologue",
+"november",
+"sketch",
 "snl",
-"stephen",
-"wife"
+"watch"
 ]
 },
 {
-"at": "2026-11-09T09:03:04+00:00",
+"at": "2026-11-09T09:43:13+00:00",
 "edition": "2026-11-09-morning",
 "ids": [
 "65891144fafa"
