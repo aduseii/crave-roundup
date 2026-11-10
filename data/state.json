@@ -61,6 +61,7 @@
 "d732405a7481": "2026-11-07T13:20:04+00:00",
 "d9418b1628cd": "2026-11-07T10:20:14+00:00",
 "d97f33add155": "2026-11-07T10:20:14+00:00",
+"dbfaf218c333": "2026-11-10T16:30:11+00:00",
 "dca507423663": "2026-11-07T10:20:14+00:00",
 "e0489798ace7": "2026-11-07T10:20:14+00:00",
 "e168f42c7974": "2026-11-07T10:20:14+00:00",
@@ -565,6 +566,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "Comedian Druski is set to host 'Saturday Night Live' on November 8. The Strokes will serve as the musical guest. (via Yahoo)"
+},
+"dbfaf218c333": {
+"at": "2026-11-10T16:32:15+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "An iconic '90s comedy is officially set for a TV reboot. An original star from the series is confirmed to return. (via Digital Spy)"
 },
 "e177d5538f8e": {
 "at": "2026-11-08T18:33:35+00:00",
@@ -5251,6 +5258,24 @@
 ],
 "title": "Jodie Sweetin Says She Had $190 in Her Bank Account Before Signing on for Fuller House"
 },
+"28c9b6f69ab5": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "28c9b6f69ab5",
+"kind": "article",
+"link": "https://www.tvinsider.com/swooon/1248612/mosquito-premiere-date-trailer-cast-plot/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-10T15:55:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Everything you need to know about the series from 'The Great' creator Tony McNamara. Hulu's latest team-up between The Great's Nicholas Hoult and Tony McNamara is on the way as the upcoming dark comedy Mosquito begins principal photography in the UK.",
+"tags": [],
+"title": "‘Mosquito’: Nicholas Hoult & Daisy Edgar-Jones Tease the Start of Filming for Hulu’s Dark Comedy"
+},
 "2913f537e641": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -8793,6 +8818,29 @@
 "Interview"
 ],
 "title": "Matt Rife Responds to Lisa Ann After She Claims He Keeps Showing Video of Her Being Handcuffed at His Show"
+},
+"4d9c86324280": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "4d9c86324280",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-features/nobody-wants-this-timothy-simons-adam-brody-sasha-morgan-s4-1236751303/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-10T14:15:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Veep",
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The 'Veep' actor also opens up about his co-stars and creator weighing in on Adam Brody's Gaza comments, and how being on the Jewish show has shaped his own views on religion.",
+"tags": [
+"Interview"
+],
+"title": "‘Nobody Wants This’ Star Timothy Simons Reveals Biggest Season 3 Concern and Looks to Season 4: “They Burned One Another,  So They’re Even”"
 },
 "4db5937815e9": {
 "first_seen": "2026-11-10T06:30:11+00:00",
@@ -18286,6 +18334,24 @@
 "tags": [],
 "title": "John Krasinski Net Worth: How Much Money Does the Actor and Director Make?"
 },
+"ac458dee36c5": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "ac458dee36c5",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/david-walliams-accused-grooming-young-women/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-10T14:20:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The English comedian, author and TV personality had sought an injunction to prevent publication of the allegations, arguing it was \"highly likely\" he would harm himself",
+"tags": [],
+"title": "David Walliams Accused of Grooming Teen Girls for Sex"
+},
 "ac5130cfe648": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -20084,6 +20150,24 @@
 "summary": "",
 "tags": [],
 "title": "Jenny McCarthy on Charlie Sheen's HIV Revelation"
+},
+"bd7237931a0e": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "bd7237931a0e",
+"kind": "article",
+"link": "https://variety.com/2026/tv/global/david-walliams-little-britain-bbc-1236944047/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-10T16:02:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The BBC has said it will remove from its streaming platform those shows, including “Little Britain,” that star or were written by British comedian, author and former “Britain’s Got Talent” judge David Walliams, after allegations that he was a sexual predator were published on Tuesday by the...",
+"tags": [],
+"title": "David Walliams Shows, Including ‘Little Britain,’ Removed From BBC Streaming Platform"
 },
 "bd78ce97b902": {
 "channel_kind": "talk",
@@ -23451,6 +23535,28 @@
 "tags": [],
 "title": "‘Cheers,’ ‘Taxi’ Showrunner Ken Estin and Mentalist Banachek Take Psychic Fraud Series ‘Psychic Predators’ From Taiwan Creative Content Fest to American Film Market (EXCLUSIVE)"
 },
+"dbfaf218c333": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "dbfaf218c333",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRGJJOUhCZ0g1Y2UwbUJLLXd6TmNTREUwRDJrV2d3eF9Ra09TY1c4WlI5dURabGZWQjl4bFg1Qlp3SnlNd3NRZjE0cXp3bFUtQzdBYnlXcHQzS0c2ZURtUTZoRDNQTGtxVVhfSi1ndElyQ1k3OW1JQUhSMzVHQzhkbWZqLWVmanNHVFJB?oc=5",
+"outlet": "Digital Spy",
+"people": [],
+"published": "2026-11-10T13:42:02+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Iconic '90s comedy set for TV reboot with original star returning"
+},
 "dc4d1c768440": {
 "first_seen": "2026-11-07T10:20:14+00:00",
 "id": "dc4d1c768440",
@@ -24325,6 +24431,24 @@
 "Death"
 ],
 "title": "Matthew Wright cause of death: New details about Ellen DeGeneres Show producer's passing emerge weeks after his death"
+},
+"e77d5c8d7e4b": {
+"first_seen": "2026-11-10T16:30:11+00:00",
+"id": "e77d5c8d7e4b",
+"kind": "article",
+"link": "https://www.tvinsider.com/1231605/mosquito-premiere-date-trailer-cast-plot/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-10T15:50:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Everything you need to know about the series from 'The Great' creator Tony McNamara. Hulu's latest team-up between The Great's Nicholas Hoult and Tony McNamara is on the way as the upcoming dark comedy Mosquito begins principal photography in the UK.",
+"tags": [],
+"title": "‘Mosquito’: Nicholas Hoult & Daisy Edgar-Jones Tease the Start of Filming for Hulu’s Dark Comedy"
 },
 "e785005ef8d6": {
 "first_seen": "2026-11-10T06:30:11+00:00",
