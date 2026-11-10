@@ -7,6 +7,7 @@
 "0d2b048b036f": "2026-11-08T13:52:55+00:00",
 "0daacfe5a2b8": "2026-11-07T10:20:14+00:00",
 "176c4526555d": "2026-11-07T10:20:14+00:00",
+"18cd3e48c5e8": "2026-11-10T13:00:15+00:00",
 "19a7cd7c0fe3": "2026-11-07T10:20:14+00:00",
 "1e831f87272b": "2026-11-07T10:20:14+00:00",
 "251e43ddbc84": "2026-11-07T10:20:14+00:00",
@@ -144,6 +145,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Workaholics' star Adam Devine and 'SNL' alum Chloe Fineman will star in the upcoming indie crime comedy 'Miami PI'. Written and directed by Michael Diliberti, production is set to begin in March in Miami. (via Deadline)"
+},
+"18cd3e48c5e8": {
+"at": "2026-11-10T13:03:45+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "\"Our marriage was a triumph. So it's tough. She died in 2010, but I still communicate with her all the time,\" 'Only Murders in the Building' star Martin Short says. He shares that he still speaks to his late wife Nancy Dolman, who passed away in 2010. (via TVLine)"
 },
 "19e995b64807": {
 "at": "2026-11-08T14:08:15+00:00",
@@ -1954,6 +1961,28 @@
 ],
 "title": "‘Criminal’ TV Show Trailer: Charlie Hunnam & Luke Evans Lead New Prime Video Series Based on Graphic Novel!"
 },
+"0b72e5f1f32f": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "0b72e5f1f32f",
+"kind": "article",
+"link": "https://www.tvinsider.com/1302531/janelle-james-how-romantic-ncis-origins-dancing-with-the-stars-portrait-of-an-artist-stephen-curry/",
+"outlet": "TV Insider",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-10T12:00:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Abbott Elementary"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "A curated critical checklist of notable Tuesday TV. Abbott Elementary's Janelle James moonlights with her first debut stand-up special. NCIS: Origins focuses on the origin story of Gibbs' 1990s love interest, Lala. Dancing With the Stars boogies to hits that won or were nominated for Grammys.",
+"tags": [],
+"title": "Janelle James Does Stand-Up, Lala’s Con-Woman ‘Origin,’ Dancing to Grammy Hits, the Rise of Stephen Curry"
+},
 "0bac6fdfb101": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -3464,6 +3493,30 @@
 "tags": [],
 "title": "James Talarico Crashes ‘SNL’ Cold Open: ‘I’m the Guy Who’s Been Texting You Every Day Asking for $5’"
 },
+"18cd3e48c5e8": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "18cd3e48c5e8",
+"kind": "article",
+"link": "https://www.tvline.com/2309657/quote-of-the-day-martin-short-talking-to-dead-wife/",
+"outlet": "TVLine",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-10T09:25:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Only Murders in the Building"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Martin Short shares how the death of his wife has affected him. He still talks to her and thinks about how she'd react to certain decisions.",
+"tags": [
+"Death"
+],
+"title": "Quote Of The Day By Only Murders In The Building Star Martin Short: 'She Died In 2010, But I Still Communicate With Her...'"
+},
 "18d43e2918ac": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-07T21:06:09+00:00",
@@ -3564,6 +3617,30 @@
 "summary": "",
 "tags": [],
 "title": "Bob Saget’s Widow Kelly Rizzo Defends Dating Since Actor’s Death"
+},
+"1981d619db5d": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "1981d619db5d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xSllBRUdfU19TTHptNDBIcW5SaDJfSXN1WktGdnd6RTZWVVZIeXJJcFhnbXNCTkxzaHhCOUE4bFZranA0QzFrcDU1aFFzOWwwMEkzWlljTVY5cXk4LVhsaHdHM2hwT2U4dVc4?oc=5",
+"outlet": "IMDb",
+"people": [
+"Neil Patrick Harris"
+],
+"published": "2026-11-09T15:30:52+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Showtime Cancels Neil Patrick Harris Show Ahead Of Season 2 Despite Saving It From Netflix"
 },
 "19a41bfd1a6e": {
 "first_seen": "2026-11-08T21:19:01+00:00",
@@ -8031,6 +8108,28 @@
 "tags": [],
 "title": "XYZ Films, CAA Media Finance Ink U.S. Deal With Samuel Goldwyn Films for Dark Comedy ‘Kill Me’ Starring Charlie Day and Allison Williams (Exclusive)"
 },
+"4798b09d5eec": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "4798b09d5eec",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95YTNhTVZGVFBnZmtBYVRLLWczYjgwUTRFc1ZoVWtyUnd5c1hoQUlNcTdLTm82TTFzM0d1OVpHTTFNNHZXZEVCVFlEZ0lBaUlRRjhEZHJjNUVMSEhXMWtCNU1XTDlFNjU3eVE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-10T07:40:39+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Casting"
+],
+"title": "‘The ‘Burbs’ Season 2 Cast: Six Stars Returning, One Promoted to Series Regular, & Four Actors Join"
+},
 "47aeebb95b6a": {
 "first_seen": "2026-11-09T09:03:04+00:00",
 "id": "47aeebb95b6a",
@@ -8836,6 +8935,28 @@
 "summary": "After Oliver (Conrad Ricamora), Michaela (Aja Naomi King), and Connor (Jack Falahee) discover a key wittness' controversial internet history, Annalise Keating (Viola Davis) is determined to make him crack on the stand.",
 "tags": [],
 "title": "Annalise Keating: Master of the Cross-Examination | How To Get Away With Murder | Hulu"
+},
+"4ee0ac7d5942": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "4ee0ac7d5942",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ibmx4NDFKNnZZUjFZaTZxM0Y2WTRLOHZ2QnhNMHZDMlZ3UjMxR0F2eml2eTRXMlJKY1VkcU9OU2pGQVN1dlhJU1R0cC1KMEVCdVFXcFFLMFE2eFpwTlV1YmpHeG4xbngyZFhuOWxrMS1pSXBBUUlRdtIBfkFVX3lxTE9jdy02dWl6TmN3UUxxdkh5bFRTRmZkdURXcE1wOVplLVo0WWxCaUQxN2N5ejJNcVdfUWdYZW9ZMXdzSmJEQVBmWjdwUFg3eTdJNFBkOTYyRDdFYWEwQ3hQOEVGTjc2TFNyNE9mNlBRT0l3cmJ2OXNLaW5iS0pmdw?oc=5",
+"outlet": "ABC News - Breaking News, Latest News and Videos",
+"people": [],
+"published": "2026-11-10T09:16:48+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'Ted Lasso' returns: Everything to know about season 4"
 },
 "4ee127b9daee": {
 "first_seen": "2026-11-09T17:30:11+00:00",
@@ -9781,6 +9902,24 @@
 "summary": "Anthony Mackie and Jamie Dornan star in this heist drama. 12 months to plan. 12 hours to execute. 12 days to make it out alive.",
 "tags": [],
 "title": "He’s the only man for the job. 12 12 12,  November 13"
+},
+"573b9e5d1cc0": {
+"first_seen": "2026-11-10T13:00:15+00:00",
+"id": "573b9e5d1cc0",
+"kind": "article",
+"link": "https://collider.com/russell-crowe-the-nice-guys-streaming-on-amazon-prime/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-10T12:31:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Russell Crowe’s best comedic feat occurs in The Nice Guys, the highly underrated mystery set in 1970s Los Angeles.",
+"tags": [],
+"title": "Russell Crowe’s Fan-Favorite 116-Minute Mystery Moves to a New Streaming Platform"
 },
 "573f9c357578": {
 "channel_kind": "talk",
