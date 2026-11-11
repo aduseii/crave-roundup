@@ -25,6 +25,7 @@
 "4e35d9e7ac8a": "2026-11-07T10:20:14+00:00",
 "50460e8605a9": "2026-11-07T10:20:14+00:00",
 "513a18718c95": "2026-11-09T16:30:11+00:00",
+"51d4f683f551": "2026-11-11T15:30:17+00:00",
 "5342300002eb": "2026-11-07T10:20:14+00:00",
 "5428c264680e": "2026-11-07T10:20:14+00:00",
 "582360fd905d": "2026-11-07T10:20:14+00:00",
@@ -340,6 +341,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Family Ties' star Michael J. Fox reveals he feared his controversial 'Curb Your Enthusiasm' cameo could get him canceled. (via Primetimer)"
+},
+"51d4f683f551": {
+"at": "2026-11-11T15:33:30+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "MHz Choice has acquired the exclusive U.S. rights to 'Sherlock & Daughter' writer Brendan Foley’s Finnish dark comedy 'The Man Who Died'. The first season will premiere on December 1 and the second season will debut in 2027. (via Deadline)"
 },
 "5342300002eb": {
 "at": "2026-11-07T13:06:06+00:00",
@@ -1587,6 +1594,28 @@
 "summary": "Seth addresses 93-year-old Republican Senator Chuck Grassley saying he won't resign early and more in his monologue for Thursday, November 5, before taking a closer look at Republicans backpedaling away from Trump and the MAGA movement.",
 "tags": [],
 "title": "Wall Street Journal Publishes \"How Trump Lost the Midterms\" Article"
+},
+"071d99e61262": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "071d99e61262",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWttQmxkSjBwQ2hYcGVmTnNtM0VSbkRPQTFrdmtlakFTWE5kTU9CcFFCdGxGcHMxSTAzV0pFNFNUVjZpS2tfMmNmZm1CaVVRTmYwWkNUa1lLWHBrdl9MYkRMOU1fbFpSU0Y1WnFQeTNYck1lb0NIS3lfcjJtb2hWMWFnNU5JZFFZOTVBNkpJcXFoNnJXYl90a1dHX3E?oc=5",
+"outlet": "The Guardian",
+"people": [],
+"published": "2026-11-11T09:33:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Stacy Keach, Mike Hammer actor whose career spanned stage and screen, dies aged 85"
 },
 "0775a9a329ce": {
 "channel_kind": "streamer",
@@ -3982,6 +4011,28 @@
 "summary": "",
 "tags": [],
 "title": "A Decade After ‘Parks and Rec,’ Amy Poehler Is Back on TV With ‘Dig’: “I Was Waiting For the Right Thing”"
+},
+"16f78d2584c6": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "16f78d2584c6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiQW84dnIzbkU2amRjdkRQQ0RCbkJxdTM3U0R5dFJJLXhoSHZZR3RGRmwwRDZxZ25pUzhRTmhLblYzSENLc040R1dzSVphUjZzZFJ2Y0llc2dac25RVGlXSW5SS20yVExtTkV5MmtuTmkzYWc?oc=5",
+"outlet": "Den of Geek",
+"people": [],
+"published": "2026-11-11T02:00:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "VisionQuest Episode 8 Finale Review: Worthwhile Revival Television"
 },
 "171381f0bfe9": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -8834,6 +8885,26 @@
 ],
 "title": "Michael J. Fox Reveals He Feared Backlash Over Parkinson’s Jokes on ‘Curb Your Enthusiasm’: ‘They’ll Crucify Us’"
 },
+"3b82393d889e": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "3b82393d889e",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/julianna-margulies-american-heiress-mgm-series-1236944246/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-11T13:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "MGM+ has greenlit the romantic comedy series “The American Heiress” with Julianna Margulies set for a lead role, Variety has learned. The series is based on the novel of the same name by Daisy Goodwin (“Victoria”), which is also published under the title “My Last Duchess.” “’The American Heiress’...",
+"tags": [
+"Casting"
+],
+"title": "Julianna Margulies to Star in Period Romantic Comedy Series ‘American Heiress’ at MGM+"
+},
 "3b83acb6cb18": {
 "first_seen": "2026-11-09T21:00:12+00:00",
 "id": "3b83acb6cb18",
@@ -11825,6 +11896,26 @@
 "tags": [],
 "title": "'Only Murders in the Building': 22 Stars Joining the London-Set Season"
 },
+"51d4f683f551": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "51d4f683f551",
+"kind": "article",
+"link": "https://deadline.com/2026/11/mhz-choice-the-man-who-died-1237220161/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-11T15:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: International drama streamer MHz Choice has acquired exclusive U.S. rights to Sherlock & Daughter writer Brendan Foley’s Finnish dark comedy The Man Who Died. The first season will premiere on MHz Choice on December 1 and the long-awaited second season, which never streamed in the U.S.",
+"tags": [
+"Death"
+],
+"title": "MHz CHoice Becomes New U.S. Home For ‘The Man Who Died’, Finnish Dark Comedy Series From ‘Sherlock & Daughter’ Writer Brendan Foley"
+},
 "51e46d1e6eb1": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "51e46d1e6eb1",
@@ -13153,6 +13244,26 @@
 "summary": "",
 "tags": [],
 "title": "Jenna Ortega's Dresses"
+},
+"5c2830c710b9": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "5c2830c710b9",
+"kind": "article",
+"link": "https://deadline.com/2026/11/entertainment-360-acquires-max-stein-brigade-1237220289/",
+"outlet": "Deadline",
+"people": [
+"Jeremy Allen White"
+],
+"published": "2026-11-11T14:52:08+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Entertainment 360 has acquired Max Stein’s management firm Brigade. The agency, which reps the likes of Margot Robbie, Jeremy Allen White and Julianne Moore, will bring Stein on board as partner along with his team and clients.",
+"tags": [],
+"title": "Entertainment 360 Acquires Max Stein’s Brigade"
 },
 "5c60d7555b88": {
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -21573,6 +21684,27 @@
 "tags": [],
 "title": "James Talarico, the new senator-elect of Texas, has a message for Trump in ‘SNL’ cold open"
 },
+"a0ae3d769d09": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "a0ae3d769d09",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/snl-uk-ania-magliano-tour-dates-1236944333/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-11T14:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "“SNL U.K.” star Ania Magliano is adding more stand-up comedy dates across the pond. The actress and comedian, who co-anchors “Weekend Update” on the British version of “Saturday Night Live,” is bringing her stand-up show “Peach Fuzz” to U.S. audiences.",
+"tags": [],
+"title": "‘SNL UK’ Star Ania Magliano Adds U.S. Tour Dates (EXCLUSIVE)"
+},
 "a0cc0b5e1bbb": {
 "channel_kind": "talk",
 "first_seen": "2026-11-08T18:29:46+00:00",
@@ -22854,6 +22986,28 @@
 "summary": "",
 "tags": [],
 "title": "Chris Rock Wasn’t The Only A-List Celebrity To Show Up To Support Druski On SNL"
+},
+"a9cd99ed3a33": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "a9cd99ed3a33",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQTFaMzRmei1WQ0pidkN2WlV3bnBrYTRMSkR5THBRaW04VWxkbjdNWmJYa3NHV3NySzF2c0lKanNBTkxXWWFaWHE2WlNYeUM5SkpTajJQa2Z2OUpES0VNTkZXV3pFc1NPRFQ5ZXVsMXFPckNxRDB3UnRmckRrWllHUWx6Qy15aFVBNVp4V3dqTHJQZ0ZTX091cw?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-11T14:00:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Emily In Paris Travels To Greece, Reunites With [Spoiler] In First Footage From Final Season,  Watch"
 },
 "a9febf113e6f": {
 "first_seen": "2026-11-09T16:30:11+00:00",
@@ -26047,6 +26201,28 @@
 "summary": "",
 "tags": [],
 "title": "HBO & HBO Max Renew 11 TV Shows, Announce 1 Is Ending & 2 Have Wrapped Up"
+},
+"c386f46e9e02": {
+"first_seen": "2026-11-11T15:30:17+00:00",
+"id": "c386f46e9e02",
+"kind": "article",
+"link": "https://www.tvinsider.com/1302952/roseanne-barr-sitcom-john-goodman-danny-jacobson/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-11T15:22:06+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Roseanne"
+],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "'I always felt bad for her because I knew she was frightened.'. Roseanne Barr has never been afraid to speak her mind, but Danny Jacobson, the former head writer of her hit sitcom, said he always sensed an underlying fear beneath her on-screen bravado.",
+"tags": [
+"Interview"
+],
+"title": "Former ‘Roseanne’ Head Writer Says Barr Was ‘Scared’ by Her Rapid Rise to Fame"
 },
 "c39fc5f78aa1": {
 "first_seen": "2026-11-08T21:19:01+00:00",
