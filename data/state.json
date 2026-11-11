@@ -6,6 +6,7 @@
 "0cb1db0a41ec": "2026-11-07T10:20:14+00:00",
 "0d2b048b036f": "2026-11-08T13:52:55+00:00",
 "0daacfe5a2b8": "2026-11-07T10:20:14+00:00",
+"16bb9e686d97": "2026-11-11T19:30:10+00:00",
 "176c4526555d": "2026-11-07T10:20:14+00:00",
 "18cd3e48c5e8": "2026-11-10T13:00:15+00:00",
 "19a7cd7c0fe3": "2026-11-07T10:20:14+00:00",
@@ -165,6 +166,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'The Office' star Jenna Fischer fought to cut a storyline from the show's 'Mafia' episode. (via Mashable)"
+},
+"16bb9e686d97": {
+"at": "2026-11-11T19:33:25+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "FX has renewed 'Adults' for a 16-episode third season. Creators Ben Kronengold and Rebecca Shaw have also signed a new overall deal with FX Productions. The comedy stars Malik Elassal, Lucy Freyer, Jack Innanen, Amita Rao and Owen Thiele as five friends sharing a house in Queens. (via The Hollywood Reporter)"
 },
 "17a7abbfdb8c": {
 "at": "2026-11-09T17:33:26+00:00",
@@ -1253,6 +1260,28 @@
 "Trailer"
 ],
 "title": "'90 Day: Florida' Season 1 | Official Trailer (TLC, 2026)"
+},
+"028df1386ba0": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "028df1386ba0",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONUxibXBFN0R0c2tYVUFBSk5zNjJSMWFWemp2TXJrcjY4eEc0aFNPYk9qV0dua3dKNUNvazhxLWJreVRqWGF5WU5qREZyU09kSlZ3eXU4eVlhQ0hqdXR4LVVwak9iTGhGUEdlOXZKSXNoRGZpZFhXeDlLSTFyX1ZnQg?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-11T19:14:11+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "Adults Renewed For Supersized Season 3 At FX"
 },
 "0296c89fdb4f": {
 "first_seen": "2026-11-07T12:42:09+00:00",
@@ -4304,6 +4333,26 @@
 "summary": "",
 "tags": [],
 "title": "Husker Volleyball Sweeps #12 Oregon in Late Night Match – #1 Nebraska 3 – #12 Oregon 0"
+},
+"16bb9e686d97": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "16bb9e686d97",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/adults-fx-comedy-adults-third-season-renewed-1236753149/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-11T19:25:37+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The comedy’s creators Ben Kronengold and Rebecca Shaw have also inked a new overall deal with FX Productions.",
+"tags": [
+"Renewal"
+],
+"title": "FX Gives Gen Z Comedy ‘Adults’ Third Season Renewal"
 },
 "16c07165da9f": {
 "channel_kind": "talk",
@@ -13423,6 +13472,26 @@
 "tags": [],
 "title": "Lucy Hale and Ian Harding Want a #prettylittleliars Cast Reunion"
 },
+"54068325903c": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "54068325903c",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/adults-renewed-season-3-fx-1236945319/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-11T19:04:03+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "“Adults” has been renewed for Season 3 at FX and Hulu, Variety has learned. The third season of the ensemble comedy will consist of 16 episodes, which is double the eight episodes the show aired for both its first and second seasons.",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed for Season 3 at FX"
+},
 "5414c6c4dad6": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -17270,6 +17339,28 @@
 "tags": [],
 "title": "Only Murders in the Building (2021)"
 },
+"713c364d6311": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "713c364d6311",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIX2laMGkxWEZXZnhRUGdaY1VKSnZjTDh5eTh6TFJuYnZYWVNYeks2NGFaNGFaY3RBWFo3ZWlPOGZxRzFQN1o2V1I0Nk5mUQ?oc=5",
+"outlet": "Comic Book Resources",
+"people": [],
+"published": "2026-11-11T01:10:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Stacy Keach, Mike Hammer Actor and Titus Star, Dies at 85"
+},
 "715878358d53": {
 "first_seen": "2026-11-08T18:29:46+00:00",
 "id": "715878358d53",
@@ -17782,6 +17873,26 @@
 "summary": "",
 "tags": [],
 "title": "Is ‘SNL’ New Tonight (Nov. 7, 2026)? Host, Musical Guest Details"
+},
+"75609b624428": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "75609b624428",
+"kind": "article",
+"link": "https://www.tvline.com/2314022/adults-renewed-season-3-16-episodes-fx-hulu/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-11T19:14:11+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "FX's breakout comedy Adults has been renewed for Season 3, receiving its larger episode order to date.",
+"tags": [
+"Renewal"
+],
+"title": "Adults Renewed For Supersized Season 3 At FX"
 },
 "757a3b7ec286": {
 "first_seen": "2026-11-11T17:30:11+00:00",
@@ -18784,6 +18895,26 @@
 "tags": [],
 "title": "she can’t deceive druski"
 },
+"7c15598c905e": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "7c15598c905e",
+"kind": "article",
+"link": "https://collider.com/adults-season-3-renewed-16-episodes-fx-hulu/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-11T19:20:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Friends"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "FX officially decides the fate of Adults with a massive update after Season 2 viewership jumped over 60%.",
+"tags": [],
+"title": "Fate of 10/10 ‘Friends’ Replacement Officially Confirmed With Massive Update"
+},
 "7c96c15eaaed": {
 "first_seen": "2026-11-07T21:06:09+00:00",
 "id": "7c96c15eaaed",
@@ -19043,6 +19174,26 @@
 "tags": [],
 "title": "Jenna Ortega’s Sci-Fi Movie Bomb Vanishes From Box Office Radar After 2 Weeks"
 },
+"7e790306c78d": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "7e790306c78d",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438020/pete-davidson-details-tattoo-removal-in-new-interview?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [],
+"published": "2026-11-11T18:05:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Pete Davidson is wearing his heart on his sleeve, just not in ink. As the Saturday Night Live alum continues his tattoo removal journey, which he began in 2020, he shared a cheeky update about...",
+"tags": [],
+"title": "Pete Davidson Teases Future Tattoos After “Brutal” Removal Process"
+},
 "7e82d702f8f5": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "7e82d702f8f5",
@@ -19132,6 +19283,26 @@
 "Interview"
 ],
 "title": "Dax Shepard Responds to Accusations That He’s ‘Controlling’ and ‘Abusive’ to Wife Kristen Bell"
+},
+"7f2f5e49c81e": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "7f2f5e49c81e",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/snl-ratings-two-year-high-druski-host-1236752951/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-11T17:41:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The Nov. 7 episode also had a big college football lead-in.",
+"tags": [],
+"title": "TV Ratings: ‘SNL’ Hits Two-Year High With Druski as Host"
 },
 "7f3583ee6577": {
 "channel_kind": "outlet",
@@ -21648,6 +21819,28 @@
 "tags": [],
 "title": "#ArianaGrande met #RobertDeNiro for the first time at The Tonight Show in 2015 🥹 #FallonTonight"
 },
+"91b668c37fc8": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "91b668c37fc8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSHdIQnkzWlRRVW9ZSmVJM0FVYkhzQ2xCVVY3QXRSNTlBa1VfWnVna0s2THk4U2hYRlc5Qmg2UnBkdUlibXAyaExOdnlxb2o5MENRUFUwYkJXNTQ2bERNMVVoRnZjZy1zU0FEa1lBSUp4OVJJMVZwdHp0bXBBWDh1UUQ4Mzc3YlU4?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-11T00:52:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Stacy Keach, Mike Hammer And Blue Bloods Star, Dead At 85"
+},
 "91c82c056e72": {
 "channel_kind": "talk",
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -23388,6 +23581,24 @@
 "tags": [],
 "title": "Sofía Vergara’s Low-Cut Corset Dress Brings Lingerie Glamour to LACMA"
 },
+"9d9fc9b2e648": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "9d9fc9b2e648",
+"kind": "article",
+"link": "https://collider.com/eternally-yours-season-1-episode-6-sneak-peek-clip/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-11T18:44:46+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Watch an exclusive Eternally Yours clip as Jesse and Phyllis have their first real fight in the new CBS vampire comedy from the Ghosts creators.",
+"tags": [],
+"title": "‘Eternally Yours’ Teases a Major Change for Its Most Unusual Marriage"
+},
 "9dbb24cfbae2": {
 "first_seen": "2026-11-07T21:06:09+00:00",
 "id": "9dbb24cfbae2",
@@ -23409,6 +23620,28 @@
 "summary": "",
 "tags": [],
 "title": "Who is Druski? The first digital creator to host ‘SNL’ takes the stage tonight"
+},
+"9dbc19047591": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "9dbc19047591",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObkJqUFYyZGRkdU8yV1RaSXc0X05hZlo2Z20ybno5WHVuV2NUbkhXaDlLQXM0MDY0bXRYbTJLczJUYnFzcWdDZ1dCQlAxV2ZxYXBhZEp2SHVrblBqVkFpRzQ4TV9BZ1BwWGhBdzlvRy1VeXNfMUVma0JpSnctZXdZNVFOZWJlWU1JanBISXEtMUhxd21HZmJxY3puUWViV2hFNkRsYzhBSjNCd3hia0ZHX1J3?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-11T19:00:08+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed for 16-Episode Season 3 at FX"
 },
 "9dca85b14df5": {
 "channel_kind": "talk",
@@ -24204,6 +24437,26 @@
 ],
 "title": "Julianna Margulies to Star in Period Romantic Comedy Series ‘American Heiress’ at MGM+"
 },
+"a28f4a91830c": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "a28f4a91830c",
+"kind": "article",
+"link": "https://deadline.com/feature/stick-soundtrack-songs-owen-wilson-golf-show-1236424017/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-11T18:08:22+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Stick tells the story of optimistic ex-professional golfer Pryce Cahill (Owen Wilson), who might be good friends with one Ted Lasso if they ever overlapped in their sports worlds.",
+"tags": [],
+"title": "‘Stick’ Soundtrack: All The Songs You’ll Hear In The Apple TV+ Golf Series"
+},
 "a2cf3a7dc0ae": {
 "channel_kind": "talk",
 "first_seen": "2026-11-09T09:03:04+00:00",
@@ -24872,6 +25125,24 @@
 "summary": "",
 "tags": [],
 "title": "Elon Musk’s Stunning Prison Admission Resurfaces After ‘SNL’ Roast"
+},
+"a6e3d6a596cf": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "a6e3d6a596cf",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/late-night-seth-meyers-timothy-olyphant-owen-wilson/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-11T17:47:43+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "\"Tonight, nothing gimmicky,\" the \"Stick\" stars sarcastically promise the \"Late Night\" host",
+"tags": [],
+"title": "Owen Wilson Helps Timothy Olyphant Interrupt Seth Meyers Yet Again: ‘On With the Show!’"
 },
 "a700ffc69148": {
 "channel_kind": "talk",
@@ -25604,6 +25875,26 @@
 "Upcoming"
 ],
 "title": "Eric Bauza To Make Posthumous Debut In ‘The Simpsons’ Playing Two Characters"
+},
+"ac1d786204f9": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "ac1d786204f9",
+"kind": "article",
+"link": "https://deadline.com/2026/11/adults-renewed-season-3-fx-1237220654/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-11T19:11:10+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "FX is sticking with Adults. The Disney-owned network has renewed the comedy for a third season with a supersized 16-episode season. The second season premiered in August on FXX and Hulu and both seasons so far have featured eight episodes.",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed For Season 3 At FX"
 },
 "ac458dee36c5": {
 "first_seen": "2026-11-10T16:30:11+00:00",
@@ -26951,6 +27242,26 @@
 ],
 "title": "Tough critic. #KnifeEdge: Chasing Michelin Stars is now streaming on Apple TV."
 },
+"b5e5a1edb053": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "b5e5a1edb053",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/south-park-season-29-episode-5-tweek-craig-episode-1236752968/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-11T17:33:04+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The penultimate episode of the \"South America\" season sent Tweek into club sports to spend more time with his boyfriend.",
+"tags": [],
+"title": "‘South Park’ Brings Back Tweek for First Time in 5 Years in Craig-Centric Episode"
+},
 "b5e9fe0e6fb7": {
 "first_seen": "2026-11-10T17:30:13+00:00",
 "id": "b5e9fe0e6fb7",
@@ -27276,6 +27587,26 @@
 "Interview"
 ],
 "title": "Kristen Bell Says Dax Shepard Is ‘Committed to Growth’ Amid Flirting Narrative: ‘He Is Vulnerable’"
+},
+"b7ac0e204d10": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "b7ac0e204d10",
+"kind": "article",
+"link": "https://www.thewrap.com/creative-content/tv-shows/adults-season-3-renewed-16-episodes/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-11T19:00:08+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The episode count doubles the hit comedy’s first two installments",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed for 16-Episode Season 3 at FX"
 },
 "b7d7f01a42fc": {
 "channel_kind": "talk",
@@ -30898,7 +31229,7 @@
 "tags": [
 "Cancel/End"
 ],
-"title": "Usher, Chris Brown Hug it Out in Atlanta Amid Rumored Feud, Canceled Concerts"
+"title": "Usher, Chris Brown Hug it Out in Atlanta Amid Feud, Canceled Concerts"
 },
 "d03bef1e6f9f": {
 "first_seen": "2026-11-08T18:29:46+00:00",
@@ -33510,6 +33841,28 @@
 "tags": [],
 "title": "Druski Brings ‘SNL’ 5.6 Million Viewers, Its Biggest Audience in Two Years"
 },
+"e3669a3bf2be": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "e3669a3bf2be",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeUhHMzBQamJLWjJfckpzRmZickJkaU9XZFdocWhtcXhnRjh1ZDB6VGMxaUU5cEROLXhjTWxpY3dRVDZORGZoMGp2QVRINTlpekFjaHhkWV9fd2V1U2l2TGRpbXNWREpHRWtmdy1uV0RWQnV6VXpyQnpNVTE3eHBkdw?oc=5",
+"outlet": "AOL.com",
+"people": [],
+"published": "2026-11-11T03:58:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Stacy Keach, actor known for playing detective Mike Hammer, dies at 85"
+},
 "e370f4a4b1ac": {
 "first_seen": "2026-11-09T09:03:04+00:00",
 "id": "e370f4a4b1ac",
@@ -34109,6 +34462,28 @@
 ],
 "title": "‘The Simpsons’ Season 38 Episode 7 Release Date, Time, Where to Watch and Preview"
 },
+"e882a356bcb7": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "e882a356bcb7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOGkwM2w5T01GQ3BtM0dwbzdVTWlVNFBqUzlCTlBtZmdhemJVVlFZdEwwd2FIRXQzNHI4UDhjWEdETkRGY3lEZ1p0elNvVVFnT1ZGUWtmc1pZbXpqMmFWRVBPajBpVGJIeE5mMUZ2MFpIdHhWN2dVSVhkTEg5RzZaQWRHMThXcUdvMjVnYzl3UQ?oc=5",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-11T19:00:08+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed for 16-Episode Season 3 at FX"
+},
 "e8a8f13de80a": {
 "channel_kind": "talk",
 "first_seen": "2026-11-08T18:29:46+00:00",
@@ -34650,6 +35025,28 @@
 "Interview"
 ],
 "title": "‘Boy Meets World’ book reveals ‘romantic’ rain moment between Danielle Fishel and Rider Strong"
+},
+"ec374b5c20ba": {
+"first_seen": "2026-11-11T19:30:10+00:00",
+"id": "ec374b5c20ba",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-features/janelle-james-abbott-elementary-how-romantic-interview-1236752954/",
+"outlet": "The Hollywood Reporter",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-11T17:40:42+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Abbott Elementary"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The actress and stand-up talks about alarming fan interactions at the supermarket, tackling everything in Netflix special 'How Romantic' and what she thinks Ava from 'Abbott Elementary' has in common with Steve Urkel.",
+"tags": [],
+"title": "Janelle James Does Not Go to Trader Joe’s Anymore,  She’s Famous"
 },
 "ec5f63b38cb9": {
 "first_seen": "2026-11-08T18:29:46+00:00",
@@ -37114,7 +37511,7 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": true,
-"summary": "The Nov. 7 episode of “Saturday Night Live,” hosted by Druski with the Strokes as musical guest, brought in a strong 5.6 million viewers. Not only does that total outpace the 5.2 million viewers achieved by Inde Navarrette and Gracie Abrams’ Halloween episode, which was previously the Season 52...",
+"summary": "The Nov. 7 episode of “Saturday Night Live,” hosted by internet comedian Druski with the Strokes as musical guest, brought a strong 5.6 million viewers to NBC.",
 "tags": [],
 "title": "Druski Brings ‘SNL’ 5.6 Million Viewers, Its Biggest Audience in Two Years"
 },
