@@ -75,6 +75,7 @@
 "e24bcafee1e1": "2026-11-11T17:30:11+00:00",
 "e4d2a4bee389": "2026-11-07T10:20:14+00:00",
 "e80ef385442e": "2026-11-07T10:20:14+00:00",
+"f171e8690faf": "2026-11-12T05:00:10+00:00",
 "f1d7dd8e371d": "2026-11-07T10:20:14+00:00",
 "f1f89d6ca5fb": "2026-11-07T10:20:14+00:00",
 "f435acc7276e": "2026-11-07T10:20:14+00:00",
@@ -784,6 +785,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Boy Meets World' actors are sharing untold stories regarding their salaries and exit decisions. The cast also discussed Ben Savage's contract negotiations for the series. (via Primetimer)"
+},
+"f171e8690faf": {
+"at": "2026-11-12T05:03:57+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Yes, Dear' star Anthony Clark has passed away at the age of 62. 🕊️ (via Extra)"
 },
 "f42b6ef12dff": {
 "at": "2026-11-09T09:53:57+00:00",
@@ -1650,6 +1657,26 @@
 "tags": [],
 "title": "Charlie Sheen & Donna Peele - 2011-10-31 - Shortest Celebrity Marriages"
 },
+"0553b55f99e6": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "0553b55f99e6",
+"kind": "article",
+"link": "https://www.tvline.com/2314408/anthony-clark-dead-yes-dear-obituary/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-12T01:35:42+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "Actor and comedian Anthony Clark, who starred in the long-running CBS sitcom Yes, Dear, has died at the age of 62.",
+"tags": [
+"Death"
+],
+"title": "Yes, Dear Star Anthony Clark Dead At 62"
+},
 "056ac2a24c97": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "056ac2a24c97",
@@ -2037,6 +2064,26 @@
 "summary": "Get an inside look at Jaalen Best's path to Becoming The Greatest. Presented by Cadillac. Watch all episodes of The Greatest now, only on Prime.",
 "tags": [],
 "title": "Becoming The Greatest | Prime Video"
+},
+"08b2eeeff74d": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "08b2eeeff74d",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/south-park-craig-tweek-1236945874/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-12T04:42:51+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "In the fifth episode of “South Park” Season 29, the blue wave swept through the mountain town of South America, making it a particularly good time to bring Craig Tucker and Tweek Tweak back to the show’s forefront for the first time in years.",
+"tags": [],
+"title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave"
 },
 "08c69a9d7970": {
 "first_seen": "2026-11-07T21:06:09+00:00",
@@ -3083,6 +3130,26 @@
 "summary": "",
 "tags": [],
 "title": "Watch '20/20' Friday Nights at 10 p.m."
+},
+"0d24c1452b0f": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "0d24c1452b0f",
+"kind": "article",
+"link": "https://deadline.com/2026/11/anthony-clark-dead-yes-dear-actor-1237221232/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-12T01:14:55+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Anthony Clark, who started his career as a stand-up comedian and later became the star of CBS’ Yes, Dear, died yesterday, according to a post from his co-star Mike O’Malley. It’s understood that Clark died from complications related to pneumonia. He was 62.",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark Dies: Comedian And ‘Yes, Dear’ Star Was 62"
 },
 "0d2b048b036f": {
 "first_seen": "2026-11-08T13:52:55+00:00",
@@ -5568,6 +5635,26 @@
 "tags": [],
 "title": "You’re gonna be fine. Brand-new episodes come out Wednesdays at 10:30/9:30c. #BeavisandButtHead"
 },
+"1e83eac6e9a9": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "1e83eac6e9a9",
+"kind": "article",
+"link": "https://decider.com/2026/11/11/gabby-windey-didnt-want-to-look-like-ellen-degeneres-as-a-closeted-teen-her-new-horror-series-the-body-gets-that/",
+"outlet": "Decider",
+"people": [
+"Ellen DeGeneres"
+],
+"published": "2026-11-12T00:15:16+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Former Bachelorette Gabby Windey says she needed a show like The Body when she was a teenager.",
+"tags": [],
+"title": "Gabby Windey Didn’t Want To ‘Look Like Ellen DeGeneres’ As A Closeted Teen,  Her New Horror Series ‘The Body’ Gets That"
+},
 "1e9cafb53ebc": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "1e9cafb53ebc",
@@ -5874,6 +5961,26 @@
 "summary": "Blitzø’s reaction was everything. 😂 Helluva Boss Season 3 Part 1 is now streaming on Prime Video. About Helluva Boss: This adult animated comedy follows the misadventures, hijinks, and relationships of the Immediate Murder Professionals...",
 "tags": [],
 "title": "The resemblance is uncanny. #HelluvaBoss #Moxxie #PrimeVideo"
+},
+"1fb30a9ee932": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "1fb30a9ee932",
+"kind": "article",
+"link": "https://www.tvinsider.com/1303085/frankie-muniz-hospitalized-after-crash-at-daytona/",
+"outlet": "TV Insider",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-12T01:17:03+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "He was hospitalized following a crash at Daytona International Speedway. UPDATE: Frankie Muniz has been released from the hospital following a crash during a practice lap at Daytona International Speedway. He confirmed he is doing well despite some soreness, crediting his car for keeping him safe.",
+"tags": [],
+"title": "Frankie Muniz Released From Hospital After Crash at Daytona International Speedway"
 },
 "1fbdb35d3d3d": {
 "first_seen": "2026-11-09T17:30:11+00:00",
@@ -7495,6 +7602,28 @@
 ],
 "title": "'Boy Meets World' cast talks new book"
 },
+"2ad578986e49": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "2ad578986e49",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOHNtb3YyYnBQRk9oMWd6aC1CZl8xUkpTWlQwWVlkODBjV0ozR2tqU1ZuMDVkdzJsOGlCT1FWLVlLMmxxM25seExkcHNWMmxMWVpWZzc1UDViRUhOTjJsZzBPVUNwMlRpNFdJZWw3cUo1MFNqNVVyVmN2N1JaSXJiTW1mZG51c2lCSEFPLU0zaW12NlJCRW11alFsZW1rN09Q?oc=5",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-12T01:49:28+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, Comedian and ‘Yes, Dear’ Actor, Dies at 62"
+},
 "2adcef541afe": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "2adcef541afe",
@@ -8240,6 +8369,26 @@
 "tags": [],
 "title": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller"
 },
+"301b68a04dbe": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "301b68a04dbe",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438042/frankie-muniz-released-from-hospital-after-car-crash-at-daytona?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-12T02:48:28+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Frankie Muniz's health is getting back on track. After being hospitalized Nov. 11 due to a driving accident in preparation for the Proud to Honor Veterans Day Classic, the Malcom in the Middle...",
+"tags": [],
+"title": "Frankie Muniz Speaks Out After Crash at Daytona International Speedway"
+},
 "30286e26ffdd": {
 "first_seen": "2026-11-11T17:30:11+00:00",
 "id": "30286e26ffdd",
@@ -8496,6 +8645,26 @@
 "summary": "",
 "tags": [],
 "title": "Trump’s Dem Nemesis Crashes ‘SNL’ Cold Open"
+},
+"312f8465136e": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "312f8465136e",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/11/anthony-clark-comedian-yes-dear-star-dies-at-62/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-12T03:20:54+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "Anthony Clark has sadly passed away. The stand-up comedian, who later became the star of the CBS sitcom Yes, Dear,...",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, Comedian & ‘Yes, Dear’ Star, Dies at 62"
 },
 "313a5b2e365a": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -9322,6 +9491,29 @@
 "summary": "",
 "tags": [],
 "title": "David Schwimmer Brings Back Ross’s Iconic Red Sweater From ‘Friends’ 25 Years Later in New Ad"
+},
+"38221aa15e11": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "38221aa15e11",
+"kind": "article",
+"link": "https://www.tvinsider.com/1303109/abbott-elementary-season-6-theory-janine-gregory-disneyland-proposal/",
+"outlet": "TV Insider",
+"people": [
+"Quinta Brunson",
+"Tyler James Williams"
+],
+"published": "2026-11-12T02:02:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Abbott Elementary"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "How the latest twist could shape Gregory's proposal plans for Janine. Abbott Elementary's latest Season 6 episode, \"Competition,\" seems to reveal that a theory about Janine (Quinta Brunson) and Gregory's (Tyler James Williams) romantic future may actually come true after the latest developments.",
+"tags": [],
+"title": "Did ‘Abbott Elementary’ Confirm This Janine & Gregory Theory for Season 6?"
 },
 "388be0ccdd6e": {
 "channel_kind": "streamer",
@@ -13533,6 +13725,28 @@
 "tags": [],
 "title": "Saban shocks ‘GameDay’ panel, including Jason Sudeikis, with weekly pick"
 },
+"548912d31ba7": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "548912d31ba7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5iMlRRYl82Q3pKNTNZWGtJd1JMMHlJSTZwbC1vSnFKak5fLVRXNjRiT1lyWjVwTk9FNklTbEVPOVB0MFREdUUwd0tjajRYeW1GZk1sR1k1WG85aXVib0pMWHFrZ1hDMmM1RzBr?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [],
+"published": "2026-11-12T02:16:44+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, ‘Yes, Dear’ and ‘Boston Common’ star, dies at 62"
+},
 "54aa538e915e": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "54aa538e915e",
@@ -13759,6 +13973,26 @@
 "summary": "",
 "tags": [],
 "title": "Everything fans want to know about the ping pong scenes from 'The Office'"
+},
+"55aba09c0253": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "55aba09c0253",
+"kind": "article",
+"link": "https://variety.com/2026/tv/people-news/anthony-clark-dead-yes-dear-1236945796/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-12T02:16:45+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Anthony Clark, an actor and comedian best known for starring in six seasons of “Yes, Dear,” died Tuesday. He was 62. Clark’s death was announced by his “Yes, Dear” co-star Mike O’Malley, who shared the news on Wednesday in a statement posted to X. “Anthony Clark died yesterday.",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, ‘Yes, Dear’ Star and Comedian, Dies at 62"
 },
 "55bd9a122294": {
 "channel_kind": "streamer",
@@ -15261,6 +15495,29 @@
 "summary": "Jimmy addresses the latest news, like 93-year-old Iowa Senator Chuck Grassley potentially running for re-election in 2028, the FDA requiring GLP-1 makers to include warnings about the rare risk of blindness and a United flight from Newark...",
 "tags": [],
 "title": "Trump Claims Midterms Were Rigged, Mystery Woman Interrupts Trump's C-SPAN Call with Giggles"
+},
+"60f94b13485c": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "60f94b13485c",
+"kind": "article",
+"link": "https://deadline.com/2026/11/beck-bennett-snl-reunion-ski-resort-comedy-show-fx-1237220707/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-11T22:48:56+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: Saturday Night Live alums Anna Drezen, Paul Briganti and Beck Bennett are developing a half-hour comedy series at FX, sources told Deadline. Bennett will star in the project as a disgraced Olympic skier who is forced to save his family’s failing Aspen resort,  which will be an uphill...",
+"tags": [
+"Casting"
+],
+"title": "Beck Bennett To Star In Ski Resort Comedy In Works At FX, In Reunion With ‘SNL’ Duo Anna Drezen & Paul Briganti"
 },
 "6115d70e3b23": {
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -17112,6 +17369,24 @@
 "Interview"
 ],
 "title": "'Boy Meets World' cast talks new book"
+},
+"6f6f9236cce8": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "6f6f9236cce8",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-features/adam-conover-interview-comedy-special-1236752988/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-11T22:52:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The comedian and writer's latest stand-up special, 'Big Divorce Energy,' talks about an unexpected dip into personal material and the merger impact he says we're only starting: \"We tried to avert the asteroid coming and we failed.\"",
+"tags": [],
+"title": "Adam Conover May Be Getting Vulnerable on Stage, But He’s Still Riled Up About a Hollywood in Decline"
 },
 "6f7d4709078c": {
 "first_seen": "2026-11-10T06:30:11+00:00",
@@ -19152,6 +19427,28 @@
 ],
 "title": "Leah Remini Explains Why She Joined RHOBH -- and How She's Feeling About It! (Exclusive)"
 },
+"7e03afdba98c": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "7e03afdba98c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FcHd2T1NVbmJQdy1icnpjMTNIemZJdmluWE15VnRKcXY0U1BQT2lRMGlVNFU2ejlTd3cyaFgtRjVNRUdIYWtwYlVFQjFnbFNJWFdjNXE1NW04WGVMMnRWSXFlWFd3R25JUHpQN3BHaHFmZV9jemRramYzM0ZsS2M?oc=5",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-12T01:51:59+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "‘Yes, Dear’ Star Anthony Clark Dies at 62: Mike O’Malley & More Pay Tribute"
+},
 "7e255095ce56": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "7e255095ce56",
@@ -19925,6 +20222,26 @@
 "tags": [],
 "title": "Ariana Grande Sings Christmas Carol With Ben Stiller & Robert De Niro on ‘The Tonight Show’ – Watch Now!"
 },
+"83d59d043653": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "83d59d043653",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/11/frankie-muniz-released-from-hospital-after-crash-at-daytona-speedway-speaks-out-in-new-statement/",
+"outlet": "Just Jared",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-12T03:06:59+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Frankie Muniz is speaking out after his crash. While practicing for a race on Wednesday (November 11), the 40-year-old Malcolm...",
+"tags": [],
+"title": "Frankie Muniz Released from Hospital After Crash at Daytona Speedway, Speaks Out in New Statement"
+},
 "840074173ccc": {
 "first_seen": "2026-11-08T18:29:46+00:00",
 "id": "840074173ccc",
@@ -20564,6 +20881,26 @@
 "summary": "Most people think Gilligan was Bob Denver's breakthrough TV role, but that's not actually the case. It was this beloved '60s sitcom that gave him his big break.",
 "tags": [],
 "title": "Before Gilligan's Island, Bob Denver Starred In A Beloved '60s Sitcom"
+},
+"89b73ac09ae1": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "89b73ac09ae1",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/jimmy-kimmel-live-ratings-midterms-1236945586/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-12T00:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Jimmy Kimmel Live"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Last week’s midterm elections brought good news for more than just the Democratic party. The Tuesday night episode of “Jimmy Kimmel Live” brought 2.4 million viewers to ABC, according to Nielsen.",
+"tags": [],
+"title": "‘Jimmy Kimmel Live’ Hits Its Highest Ratings Ever for a Midterm Election Telecast With 2.4 Million Viewers"
 },
 "89da1238c2dc": {
 "channel_kind": "streamer",
@@ -21688,6 +22025,28 @@
 ],
 "title": "Jodie Sweetin Says She Had $190 in Her Bank Account Before Signing on for ‘Fuller House’"
 },
+"90acfd4ea85a": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "90acfd4ea85a",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/11/scrubs-season-2-hiatus-return-date-finale-schedule-2026/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-11T21:25:44+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Scrubs"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Scrubs is taking a break from ABC’s Wednesday night lineup! The hit medical comedy returned for its second season on...",
+"tags": [
+"Upcoming"
+],
+"title": "Why Isn’t ‘Scrubs’ Airing New Episodes for 2 Weeks? Season 2 Return Date & Finale Schedule Revealed"
+},
 "90bd5a466fdc": {
 "first_seen": "2026-11-08T13:52:55+00:00",
 "id": "90bd5a466fdc",
@@ -21862,6 +22221,28 @@
 "summary": "Two photographers (Druski, Grace Reiter) document a couple's (Marcello Hernández, Saidah Belo-Osagie) wedding day. Saturday Night Live.",
 "tags": [],
 "title": "Wedding Photographers - SNL"
+},
+"91d16ea8d47b": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "91d16ea8d47b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRFd0aEFnMHh3U1kxVjZ1RnRWZWxpbS13dXB4UkotcTVnX3lubUloNW9aU3NKUGZHYTFMRnFJYUVpZjRKYURSVXBXWXotWnJIUVZJNG14ZU5SV3FQSVBJTWFaajlmNExZbERicGVDY25YSDNiS1owQ25GTGY4X3J6Q0pYeG9SRVFlYTNsdHFRcnNETnVMSmNhX2ZiSGNWN2dqdVFvU1pFMEdpTU1RUFVpX3VHSUl0M3lD?oc=5",
+"outlet": "Los Angeles Times",
+"people": [],
+"published": "2026-11-12T03:14:19+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, comedian and actor best known for 'Yes, Dear' and 'Boston Common,' dies at 62"
 },
 "9242346a514b": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -22693,6 +23074,27 @@
 "tags": [],
 "title": "The Strokes’ ‘SNL’ Performance Has Fans Arguing During Druski’s Episode"
 },
+"975496742efe": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "975496742efe",
+"kind": "article",
+"link": "https://www.tvinsider.com/gallery/dig-series-character-guide/",
+"outlet": "TV Insider",
+"people": [
+"Michael Schur",
+"Amy Poehler"
+],
+"published": "2026-11-11T22:40:45+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The series is based on the book 'Excavations' by Kate Myers. Get ready to dig into Peacock's newest comedy as Amy Poehler and Michael Schur reunite for their first series together since Parks and Recreation wrapped its run in 2015.",
+"tags": [],
+"title": "‘Dig’: Who Is Who in Peacock’s New Comedy?"
+},
 "976581c463dd": {
 "first_seen": "2026-11-11T06:30:12+00:00",
 "id": "976581c463dd",
@@ -23367,6 +23769,28 @@
 "tags": [],
 "title": "‘The Voice’ Recap: One Artist Is Sent Home After Adam & Queen’s Top 13 Artists Perform"
 },
+"9b98de7b43a6": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "9b98de7b43a6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsV2VtVnlGWDY4eDR5R3prd1lVS0YtcHE3cTRIbzU4WnhVcDlJMHVnRHNRc1NQLVUyRGlkV0pOQ3NDaWpUXzNTSjE2ck94WjdCMjhaV0lzVGJNSVhBY3V5dVMxZ2s0dw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-11T19:35:52+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Adults’ Renewed for 16-Episode Season 3 at FX"
+},
 "9b9b389c4866": {
 "first_seen": "2026-11-07T21:06:09+00:00",
 "id": "9b9b389c4866",
@@ -23474,6 +23898,28 @@
 "summary": "",
 "tags": [],
 "title": "'Full House' Star Jodie Sweetin Had Just $190 Left Before Her First 'Fuller House' Paycheck"
+},
+"9ca7e5e702f7": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "9ca7e5e702f7",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/11/frankie-muniz-rushed-to-hospital-after-crash-at-daytona-speedway/",
+"outlet": "Just Jared",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-11T21:12:28+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Malcolm in the Middle"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Frankie Muniz was involved in a car accident. While practicing for a race, the 40-year-old Malcolm in the Middle actor,...",
+"tags": [],
+"title": "Frankie Muniz Rushed to Hospital After Crash at Daytona Speedway"
 },
 "9ccc4477f636": {
 "first_seen": "2026-11-10T06:30:11+00:00",
@@ -23663,6 +24109,26 @@
 "summary": "Special thanks to Seth Meyers, Jimmy Kimmel, Jon Stewart, John Oliver, Jimmy Fallon, Samantha Bee, Arsenio Hall, Johnny Carson, Chelsea Handler, Andy Cohen, David Letterman, Craig Ferguson, Dick Cavett, Trevor Noah, Jay Leno, Joan Rivers,...",
 "tags": [],
 "title": "Legends Of Late Night Introduce The Series Finale of \"The Late Show\""
+},
+"9dcef273cab9": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "9dcef273cab9",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/frankie-muniz-hospitalized-race-car-crash-daytona/",
+"outlet": "TheWrap",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-11T22:07:49+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The former actor crashed during a practice lap at the Daytona International Speedway Veterans Day event",
+"tags": [],
+"title": "Frankie Muniz Hospitalized Following Race Car Crash at Daytona"
 },
 "9dede7d6d575": {
 "first_seen": "2026-11-09T09:43:13+00:00",
@@ -27029,6 +27495,29 @@
 ],
 "title": "The Tupac Tapes With Angie Martinez | Official Trailer | Netflix"
 },
+"b432a134ce45": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "b432a134ce45",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlpkRXY4bEJqLUFQNWFPVWJxNi1ZMUVTMWVSQUx5M2VzcXlSTzZUZ0c3RWg4MzhlMW0tZTVSZzNiQmJYVVR1Y3FJckEzdVBlc1ZaWkJqWjF5QzFveGNmaXB4RHlJcHFCRnhkeXljVHpLdUozN1hTek01WkVnTVdUQVdBUjJ4NkIwb3RqZjVudXhnTm13XzRvetIBngFBVV95cUxOVWJpcXNWTEVuOVo5R3NlSkZSemJ2NzNtS2ZzMDlmdGZIajUtMnNSdENjRVdRZWxqN2hwbjdqT3BpNUlSV1lkTkZBSk1YVUVDNWwwWVRQcUtSUnk1WHZBcks0SGl1WUY0VmtteW9XYjlUcHZsOFBOcTNmSmd4dGNBZGJvalhpNVo1VFNtNDJoUU5OOFBka1BQY1JuVDUydw?oc=5",
+"outlet": "Hollywood Life",
+"people": [],
+"published": "2026-11-11T17:25:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End",
+"Upcoming"
+],
+"title": "‘Emily in Paris’ Season 6: Release Date, Cast, Location & All Other Updates on the Final Season"
+},
 "b43e89f982f1": {
 "channel_kind": "talk",
 "first_seen": "2026-11-07T10:20:14+00:00",
@@ -27047,6 +27536,26 @@
 "summary": "Everyone is in a good mood today after the results of last night’s election, the right wing media scrambled last night to explain why this blue wave happened, in the face of defeat Trump has been blaming everyone other than himself like a...",
 "tags": [],
 "title": "Trump Blames Everyone But Himself for Huge Midterm Loss & the White House Lashes Out at Jimmy Kimmel"
+},
+"b467ae01ddd5": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "b467ae01ddd5",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/anthony-clark-dead-comedian-yes-dear-actor-1236753548/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-12T01:44:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Clark also starred in the comedy shows 'Boston Common' and 'Soul Man.'",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, Comedian and ‘Yes, Dear’ Actor, Dies at 62"
 },
 "b46b758572d6": {
 "first_seen": "2026-11-07T21:06:09+00:00",
@@ -35793,6 +36302,28 @@
 ],
 "title": "Boy Meets World actors share untold stories about salaries, exit decisions and Ben Savage's contract negotiations"
 },
+"f171e8690faf": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "f171e8690faf",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMzkyblBVbE4wcGhUS090d1RjSGUzOXVidjJOUU9NRzI0VS0xcDJrSXlQeVJodm5TTEdaNHpTcElqQnNpc0h2UHNqM0JhZDRhb3J4VG83YzgzSHVIaFEteG1URWJkU0RVRGlhNVhkSWVhQm9waTBDVzBodC1OejctbWdKOA?oc=5",
+"outlet": "Extra",
+"people": [],
+"published": "2026-11-12T04:49:28+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "‘Yes, Dear’ Sitcom Star Anthony Clark Dies at 62"
+},
 "f1c16724a5d4": {
 "first_seen": "2026-11-09T17:30:11+00:00",
 "id": "f1c16724a5d4",
@@ -36933,6 +37464,28 @@
 ],
 "title": "Quote Of The Day By Only Murders In The Building Star Martin Short: 'She Died In 2010, But I Still Communicate With Her...'"
 },
+"f8a34a7f23db": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "f8a34a7f23db",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438034/frankie-muniz-hospitalized-after-racing-crash-at-daytona-speedway?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [
+"Frankie Muniz"
+],
+"published": "2026-11-11T22:56:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Malcolm in the Middle"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Frankie Muniz is navigating a scary situation. The Malcolm in the Middle star was hospitalized in Florida Nov. 11 as he was in the midst of practicing for the Proud to Honor Veterans Day Classic...",
+"tags": [],
+"title": "Frankie Muniz Hospitalized After Crash at Daytona Speedway"
+},
 "f91c3f8c8a9d": {
 "channel_kind": "talk",
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -37315,6 +37868,26 @@
 "summary": "",
 "tags": [],
 "title": "Emmy Winner Shocks Late-Night Viewers in Completely Sheer Skirt"
+},
+"fb3bc4b3191e": {
+"first_seen": "2026-11-12T05:00:10+00:00",
+"id": "fb3bc4b3191e",
+"kind": "article",
+"link": "https://www.tvinsider.com/1303158/anthony-clark-yes-dear-dies-62-tributes/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-12T01:51:59+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "'He was so unique,  one of those comics who is laughing along with you at the absurdity of his stories and observations.'. Comedian and actor Anthony Clark, best known for his work in the CBS sitcom Yes, Dear, died Tuesday, November 10, at age 62.",
+"tags": [
+"Death"
+],
+"title": "‘Yes, Dear’ Star Anthony Clark Dies at 62: Mike O’Malley & More Pay Tribute"
 },
 "fb5a545cb9db": {
 "first_seen": "2026-11-07T11:34:18+00:00",
