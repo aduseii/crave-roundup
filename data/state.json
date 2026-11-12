@@ -6,6 +6,7 @@
 "0cb1db0a41ec": "2026-11-07T10:20:14+00:00",
 "0d2b048b036f": "2026-11-08T13:52:55+00:00",
 "0daacfe5a2b8": "2026-11-07T10:20:14+00:00",
+"124c95cc3f55": "2026-11-12T13:30:11+00:00",
 "16bb9e686d97": "2026-11-11T19:30:10+00:00",
 "176c4526555d": "2026-11-07T10:20:14+00:00",
 "18cd3e48c5e8": "2026-11-10T13:00:15+00:00",
@@ -168,6 +169,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'The Office' star Jenna Fischer fought to cut a storyline from the show's 'Mafia' episode. (via Mashable)"
+},
+"124c95cc3f55": {
+"at": "2026-11-12T13:33:36+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'The Office' star Steve Carell and John C. Reilly will lead a Broadway revival of 'The Odd Couple'. (via The New York Times)"
 },
 "16bb9e686d97": {
 "at": "2026-11-11T19:33:25+00:00",
@@ -3007,6 +3014,28 @@
 "tags": [],
 "title": "Melissa Joan Hart 'warned' not to miss Sabrina The Teenage Witch filming due to illness"
 },
+"0b9ef7550a5d": {
+"first_seen": "2026-11-12T13:30:11+00:00",
+"id": "0b9ef7550a5d",
+"kind": "article",
+"link": "https://deadline.com/2026/11/hamilton-hodell-agent-elizabeth-fieldhouse-joins-b-side-1237221478/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-12T13:20:09+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Derry Girls"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "EXCLUSIVE: Hamilton Hodell agent Elizabeth Fieldhouse has joined B-Side Management. Fieldhouse’s clients moving with her include Harry Lawtey (Industry), Holly Cattle (Young Sherlock), Leonie Benesch (September 5), Dylan Llewellyn (Derry Girls), Shalom Brune-Franklin (Baby Reindeer) and Taj Atwal...",
+"tags": [
+"Casting"
+],
+"title": "Hamilton Hodell Agent Elizabeth Fieldhouse Joins B-Side Management"
+},
 "0bac52704a82": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "0bac52704a82",
@@ -4243,6 +4272,30 @@
 "summary": "",
 "tags": [],
 "title": "After Gilligan's Island, Tina Louise Starred In One Of TV's Most Iconic Westerns"
+},
+"124c95cc3f55": {
+"first_seen": "2026-11-12T13:30:11+00:00",
+"id": "124c95cc3f55",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ0RBa0pXZWp3eU5fSURsSmhMS2tXTUxaODV0RzlWd1psZGZKcHlVeFUycUF1WUEwaktZcXlGN29YVmQ5d09lb0ZKMW9nYlZzbUhCZ0NQbXFaT1dSTnVXNDRlOFNpbHIwNEx0VGZkaWhLMnJPaHBWTng4cS1maFVsNDBZQnQxVExKakdHNXVyaTQzN01mMkZBb05R?oc=5",
+"outlet": "The New York Times",
+"people": [
+"Steve Carell"
+],
+"published": "2026-11-12T13:00:05+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Steve Carell and John C. Reilly Lead Broadway ‘Odd Couple’ Revival"
 },
 "126af6c306c2": {
 "first_seen": "2026-11-07T10:25:39+00:00",
@@ -11224,6 +11277,24 @@
 "summary": "",
 "tags": [],
 "title": "Druski-Hosted SNL Scores Highest Ratings in Two Years"
+},
+"3f4cb86c56bf": {
+"first_seen": "2026-11-12T13:30:11+00:00",
+"id": "3f4cb86c56bf",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/russell-brand-documentary-jimmy-savile-producers-netflix-1236945930/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-12T08:28:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Netflix has unveiled a documentary on Russell Brand, days after the comedian and former actor received a prison term of 10 years and six months for rape and sexual assault.",
+"tags": [],
+"title": "Russell Brand Documentary From ‘Jimmy Savile: A British Horror Story’ Producers Set at Netflix Days After Rape Sentencing"
 },
 "3f50dc8e4ecc": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -18617,6 +18688,27 @@
 "Interview"
 ],
 "title": "'Boy Meets World' cast talks new book"
+},
+"6f5efccf6f49": {
+"first_seen": "2026-11-12T13:30:11+00:00",
+"id": "6f5efccf6f49",
+"kind": "article",
+"link": "https://www.tvline.com/2314551/snl-ratings-druski-host/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-12T13:25:04+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Druski became the first digital creator to host \"Saturday Night Live\" with his recent episode, which registered a two-year viewership high for the sketch show.",
+"tags": [],
+"title": "SNL Ratings Hit Two-Year High With Druski As Host"
 },
 "6f6f9236cce8": {
 "first_seen": "2026-11-12T05:00:10+00:00",
