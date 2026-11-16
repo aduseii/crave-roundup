@@ -11,13 +11,13 @@
 "513a18718c95": "2026-11-09T16:30:11+00:00",
 "51d4f683f551": "2026-11-11T15:30:17+00:00",
 "5ba3fdde12e0": "2026-11-11T17:30:11+00:00",
-"67283e1d69de": "2026-11-09T09:03:04+00:00",
 "8e3906faf6c6": "2026-11-11T17:30:11+00:00",
 "c4eb21d082fc": "2026-11-12T06:30:23+00:00",
 "db7c09aa3d19": "2026-11-11T17:30:11+00:00",
 "dbfaf218c333": "2026-11-10T16:30:11+00:00",
 "e24bcafee1e1": "2026-11-11T17:30:11+00:00",
-"f171e8690faf": "2026-11-12T05:00:10+00:00"
+"f171e8690faf": "2026-11-12T05:00:10+00:00",
+"fc00af04801c": "2026-11-16T14:00:14+00:00"
 },
 "drafts": {
 "008fa991656c": {
@@ -43,12 +43,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Saturday Night Live' reached its highest viewership in two years with host Druski. He is the first digital creator to host the long-running NBC sketch comedy series. (via Deadline)"
-},
-"0485594c2030": {
-"at": "2026-11-09T09:06:50+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "A comedian says Amy Schumer took credit for jokes used by Kim Kardashian on 'SNL'. (via Entertainment Weekly)"
 },
 "080cbf2ef016": {
 "at": "2026-11-13T17:36:02+00:00",
@@ -146,12 +140,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Full House' star Candace Cameron Bure and husband Valeri Bure are teasing the secrets to their 30-year marriage. Valeri joked that their children would not want to hear some of their secrets, while Candace credited his humor and their shared faith for their long-lasting relationship. (via E! News)"
 },
-"1b34ae7fe617": {
-"at": "2026-11-09T09:06:10+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Abbott Elementary' has officially set the stage for two character exits. (via ScreenRant)"
-},
 "1c0ee1367152": {
 "at": "2026-11-13T17:35:36+00:00",
 "from_article": false,
@@ -193,12 +181,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "A 'Desperate Housewives' star will officially play Reba McEntire's new love interest in 'Happy's Place' Season 3. (via Collider)"
-},
-"29b1b6a174d1": {
-"at": "2026-11-09T09:07:09+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Comedian Druski led one of the most star-studded curtain calls in 'SNL' history. He was joined on stage by Emma Stone, Michael B. Jordan, Austin Butler, Dave Chappelle, Chris Rock, and Walton Goggins. (via IMDb)"
 },
 "2ab78dc6050a": {
 "at": "2026-11-10T17:34:24+00:00",
@@ -452,23 +434,11 @@
 "model": "gemini-3-flash-preview",
 "text": "‘Saturday Night Live’ star Rachel Dratch stars in the new dark comedy ‘Loves Company’ as an obsessive fan of a faded game show host. The film follows a Florida outcast who rescues her idol after a car crash and traps him in her home. It premieres tomorrow, November 10. (via Collider)"
 },
-"67283e1d69de": {
-"at": "2026-11-09T09:05:38+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "James Talarico crashed the first 'Saturday Night Live' cold open following the Midterm elections. First-time host Druski also revived his controversial whiteface character during the episode. (via The Independent)"
-},
 "6a3a201c1834": {
 "at": "2026-11-12T17:33:49+00:00",
 "from_article": true,
 "model": "gemini-flash-lite-latest",
 "text": "James Denton will reunite with Reba McEntire in an upcoming multi-episode guest arc on NBC's 'Happy's Place'. Denton plays a customer named JB who goes on a date with McEntire's character Bobbie. (via TV Insider)"
-},
-"6c1de04e104c": {
-"at": "2026-11-09T09:06:03+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'M*A*S*H' star Wayne Rogers has revealed that his departure from the series was due to a controversial morals clause. (via AOL.com)"
 },
 "6c56fe62f663": {
 "at": "2026-11-14T17:43:32+00:00",
@@ -530,12 +500,6 @@
 "model": "gemini-3-flash-preview",
 "text": "The stars of 'The Hunting Wives' have reacted to comedian and 'Parks and Recreation' star Amy Poehler’s spoof of the series on 'SNL'. (via Yahoo)"
 },
-"7ecd6d6c95f7": {
-"at": "2026-11-09T09:06:41+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Nobody Wants This' stars Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss. (via Gold Derby)"
-},
 "7fc1cf6f69b3": {
 "at": "2026-11-13T06:37:13+00:00",
 "from_article": false,
@@ -553,12 +517,6 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "Charlie Sheen has announced a new series titled 'Mostly Sheenius', with new episodes set to release every week (via IMDb)."
-},
-"83a4113e7d21": {
-"at": "2026-11-09T09:06:24+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Ariana Grande, Ben Stiller, and Robert De Niro crashed Jimmy Fallon’s opening monologue on ‘The Tonight Show’ to sing ‘O Christmas Tree’. The trio appeared to promote their upcoming comedy ‘Focker-In-Law’, which follows Greg Focker as he grows suspicious of his son’s new girlfriend. (via Just Jared)"
 },
 "83d59d043653": {
 "at": "2026-11-12T06:35:59+00:00",
@@ -656,12 +614,6 @@
 "model": "gemini-flash-lite-latest",
 "text": "Kristen Bell, Idina Menzel, Josh Gad, and Jonathan Groff will reprise their 'Frozen' roles for the new National Geographic and Disney Animation natural history series 'The Real Frozen'. The show will premiere on National Geographic and stream on Disney+ and Hulu. (via Deadline)"
 },
-"a1bd90e59c60": {
-"at": "2026-11-09T09:06:59+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "BritBox’s new British series is being described as 'Seinfeld' meets 'Schitt’s Creek'. The series is reportedly near-perfect. (via Collider)"
-},
 "a24ffe51cc06": {
 "at": "2026-11-14T06:39:30+00:00",
 "from_article": false,
@@ -680,12 +632,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Last Man Standing' star Tim Allen reunited with his TV daughter and son-in-law in a new photo. (via Parade Magazine)"
 },
-"a907c855d3f7": {
-"at": "2026-11-09T09:06:33+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Netflix has yet to confirm if 'Nobody Wants This' will return for Season 4 following the show’s wedding finale. (via IMDb)"
-},
 "ab28b72cdfe3": {
 "at": "2026-11-15T06:36:37+00:00",
 "from_article": false,
@@ -703,18 +649,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "A new book from Larry David reveals the actors who were almost cast as George, Kramer, and Elaine on ‘Seinfeld’. (via Entertainment Weekly)"
-},
-"b6c8b1cf0b49": {
-"at": "2026-11-09T09:50:49+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Hulu has officially announced a new 'Shoresy' spin-off. The news comes ahead of the show's sixth season. (via IMDb)"
-},
-"ba40aa458719": {
-"at": "2026-11-09T09:07:20+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Mary Tyler Moore starred in two hit sitcoms featuring legendary ensemble casts. 'The Dick Van Dyke Show' and 'The Mary Tyler Moore Show' included stars such as Dick Van Dyke, Carl Reiner, Ed Asner, and Betty White. (via TVLine)"
 },
 "bc4c145d2351": {
 "at": "2026-11-12T06:35:45+00:00",
@@ -763,12 +697,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Malcolm in the Middle' star Frankie Muniz has been released from the hospital following a car crash. (via AOL.com)"
-},
-"c803d511b0c9": {
-"at": "2026-11-09T09:47:40+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Nobody Wants This' stars Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss. (via IMDb)"
 },
 "c89a86ffb81e": {
 "at": "2026-11-12T06:37:37+00:00",
@@ -944,12 +872,6 @@
 "model": "gemini-flash-lite-latest",
 "text": "Steve Carell and John C. Reilly will star in a Broadway production of 'The Odd Couple'. (via IMDb)"
 },
-"f42b6ef12dff": {
-"at": "2026-11-09T09:53:57+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Ted Lasso' star Hannah Waddingham has shared a skeptical update regarding the fate of a potential fifth season of the series. (via IMDb)"
-},
 "f44583b6e269": {
 "at": "2026-11-14T06:40:52+00:00",
 "from_article": true,
@@ -973,6 +895,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "\"I thought, ‘Am I having a panic attack?’\" 'The Suite Life of Zack and Cody' star Brenda Song says. The actress revealed she felt \"overworked\" and \"underpaid\" while starring on the Disney Channel sitcom. (via Variety)"
+},
+"fc00af04801c": {
+"at": "2026-11-16T14:03:01+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Malcolm in the Middle' star Bryan Cranston and Marianne Jean-Baptiste will star in a Broadway revival of 'All My Sons' this spring. Performances begin at the August Wilson Theatre on March 30, 2027. (via Deadline)"
 },
 "fc7143becf53": {
 "at": "2026-11-11T17:35:22+00:00",
@@ -1632,28 +1560,6 @@
 ],
 "title": "Adults Renewed For Supersized Season 3 At FX"
 },
-"02a39b81af96": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "02a39b81af96",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=Wb8KSed6Zhc",
-"outlet": "Saturday Night Live",
-"people": [],
-"published": "2026-11-09T00:00:18+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Saturday Night Live",
-"SNL"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "In this Cut for Time sketch, Republicans (Druski, Andrew Dismukes, Ashley Padilla, Jeremy Culhane) ask for forgiveness after losing in the midterms. Saturday Night Live.",
-"tags": [],
-"title": "Post-Election Ad - SNL"
-},
 "02aed38afc16": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "02aed38afc16",
@@ -1850,28 +1756,6 @@
 "tags": [],
 "title": "Bryan Cranston’s Rare Sci-Fi Movie Remake Officially Takes Over Prime Video After 14 Years"
 },
-"043546b42a86": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "043546b42a86",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeXlsVzlvbFZoRjFYdFhkMThCb1FPS1NaanF1V1puTVhRUVJQWWd2aFJJcVhnN01ZcndEYUE0clpsRldnb2dlNEkwU25PX0RuOS10U2dYNVhuVzd6aExuVm1mM0gxWkJKTk5LcnpqLVljVFMtTk1yRUVHWUVTckZjNGVpLUt4azNZZ0RwOQ?oc=5",
-"outlet": "AOL.com",
-"people": [
-"Sofia Vergara"
-],
-"published": "2026-11-09T07:04:00+00:00",
-"query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Sofia Vergara’s Dangerously Plunging Celia Kritharioti Dress Barely Contains Her Curves"
-},
 "0481c1d12650": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -1890,30 +1774,6 @@
 "summary": "Season 2 of All's Fair is now streaming on Hulu and Hulu on Disney+. New episodes Wednesdays. SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows & updates.",
 "tags": [],
 "title": "It's a goddamn baked potato. #AllsFair"
-},
-"0485594c2030": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "0485594c2030",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ1RWWnpjQzk4QmVvR2JJVDNVZ2U2QzRaMUduVUxSZ2lDYW1na3VlckdnNm52OGRtOTlLWG5sdmRiLUNPRlJ4ZHJWSGtZeDE5d0NoeHZiMXp0SUpjT1NzVXNZMzlpSjlKSWdSc3hiWlFYcDhsLUF6anZsUEFTc2ZRYjFkcnBBS3ZiMGJ3RGN3a2FXdXlQMkhKY2E4WTJzaEE1RU9B?oc=5",
-"outlet": "Entertainment Weekly",
-"people": [],
-"published": "2026-11-09T01:27:58+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "Comedian says Amy Schumer took credit for jokes used by Kim Kardashian on ‘SNL’"
 },
 "0494c6f11a5c": {
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -2310,28 +2170,6 @@
 "Interview"
 ],
 "title": "Lucille Ball Talks Legacy of ‘I Love Lucy’ on TODAY in 1983"
-},
-"06ef476be9e0": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "06ef476be9e0",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CcW1IREpvSzZqcUprei03ZEtRakJCSm9LYmVwa1ZvM3h2UEkwMFRXaHctS040dHNDRkZuOWZaUGJtek1CUmRnN0RzeFZtUUFjeEpVaVVIZXNHY2ZFODlsUE13Q1QtQXAtd2ZYc0swWlR1NlRJMTlSdVJLaTMzVE0?oc=5",
-"outlet": "Yahoo News Canada",
-"people": [
-"Johnny Galecki"
-],
-"published": "2026-11-08T19:12:42+00:00",
-"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Johnny Galecki Shares Rare Behind-the-Scenes Look at His First Acting Role in 7 Years (Exclusive Photos)"
 },
 "071d99e61262": {
 "first_seen": "2026-11-11T15:30:17+00:00",
@@ -2740,6 +2578,26 @@
 "tags": [],
 "title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave"
 },
+"08d6561593a3": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "08d6561593a3",
+"kind": "article",
+"link": "https://deadline.com/2026/11/nbc100-the-live-celebration-nbc-sets-centennial-special-1237224549/",
+"outlet": "Deadline",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-16T13:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The onscreen home of the peacock is marking 100 years with a star-studded celebration as NBC100: The Live Celebration takes shape. Set for Thursday, Dec.",
+"tags": [],
+"title": "‘NBC100: The Live Celebration’ Sets Amy Poehler, Conan O’Brien, Mariska Hargitay & More For Centennial Special Lineup; More Soon"
+},
 "08f26cd4d602": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "08f26cd4d602",
@@ -2761,28 +2619,6 @@
 "summary": "",
 "tags": [],
 "title": "Brian Grazer Sold His Montecito Estate to Ellen DeGeneres for $27.4 Million In 2025"
-},
-"08f6a4f7df65": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "08f6a4f7df65",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS0pLWjZHZjl2bTRtdFQwVmRjYWRWSVB1VDdFV0t4cGVtdXR0QTluUm91OTVfYkE0Wld4MHBMRzFfYjd1VXJSZ0h3MmpYeG9OVVNlTTVHejFuLXdVc0c0VEdtbnc3MTZERHF2RzN6N2x0MHJJa2hjOC1Wc1lMZ25ZT1hRem5wZw?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T19:58:57+00:00",
-"query": "\"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Silicon Valley\" OR \"Fresh Off the Boat\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Schitt's Creek"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Schitt's Creek (2015)"
 },
 "091bc8bfe8a2": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -2943,28 +2779,6 @@
 "tags": [],
 "title": "Shane Gillis Breaks His Silence on Backlash Over Controversial 'Saturday Night Live' Monologue"
 },
-"09cf3f83bad6": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "09cf3f83bad6",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORDR6Ul8wRFZDelVVQjR4eHFoQVkxSWpxWlcwU0ZkaVU3cEVnbzNvUFdiZVJqUDdialpVLTlLNHFXakZ4NjQxajdiMkxEeFdXWjJDZDhGNjYwdXhKYVlUaUtMSTZfSjNRUDB1WHVRR3p4TTBObW9yUWhCVEVibzZzOFMwLTBhWVE?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-09T02:44:00+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "New Texas Senator James Talarico Crashed Donald Trump's Post-Midterm Cold Open on SNL"
-},
 "0a0197bf02af": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "0a0197bf02af",
@@ -3029,28 +2843,6 @@
 "tags": [],
 "title": "“Newlyweds” Stars Téa Leoni and Tim Daly Detail Their Quiet Life Together After “Madam Secretary” Ended (Exclusive)"
 },
-"0a2645c7dea0": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "0a2645c7dea0",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd2IzZ1ZIYkpQelpqaTNKRDVNNFhJc1dMbTdsamJCbVNzM3JOSWlYSTVPR1V6TjVkUUY2WDJ4UG9KcVJadW53UUF2LWRtSjMtTGwtSHh4QjJZTWtUUExuSGhnWklSVDdCUG9FSGdiUy1rU0RqXzJnOGVRZGNkUjdMemMwWFcwTHhEMkJmN2pWRDRIWkFQOGxtbkZOUkFUQQ?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T21:48:34+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Texas senator-elect James Talarico surprises with “SNL” cameo"
-},
 "0a34bf05e0d5": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "0a34bf05e0d5",
@@ -3072,30 +2864,6 @@
 "summary": "",
 "tags": [],
 "title": "Sofia Vergara Leave GQ Men of the Year Party With Douglas Chabbott"
-},
-"0a37e97a6654": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "0a37e97a6654",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYk1sVHNXemN4VF9fRTZDMVRBdjAwRWFHN3h0NjBsWDVaY0tFbXJKTGZlMWFRMS1vLWZfQ1hxLWF6UjRtcW5WeTlSbDl3QXl3QllrZ0sxcGlyQnEzY3owSkEyN21qelRrVTVxODkzSmcybjA5TjkyeEFYZ21wS1dvMDZYdjhOVTFtYVU4T0t4NTVnSTB3NHhJMzFudGwwVEtfSWVsZmdGUnE?oc=5",
-"outlet": "E! News",
-"people": [],
-"published": "2026-11-08T16:00:11+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Fuller House"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "Jodie Sweetin Says She Had $190 in Her Bank Account Before Signing on for Fuller House"
 },
 "0a38abe0588a": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -4726,26 +4494,6 @@
 "tags": [],
 "title": "Kristen Bell Calls Husband Dax Shepard A 'Vulneraboy' Amid 'Abusive' Narrative"
 },
-"12fc5dad0002": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "12fc5dad0002",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zT1lkNGNYNDhEdVNuYk5jbUJrRktFZUdmUFlSSHF1ZUNjUGRDaFhMTFVHSElBdWlUMHRxeU9tNmN3RUZKcmdyZnV2ME00LVRMZ1JTV2lnY1pvNm1RWkFKMkxXenhodGRuU2c?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T17:24:24+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "After Gilligan's Island, Tina Louise Starred In One Of TV's Most Iconic Westerns"
-},
 "136183e66fd3": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "136183e66fd3",
@@ -5299,28 +5047,6 @@
 ],
 "title": "Amy Poehler Celebrates ‘Dig’ Premiere, Her First Live-Action TV Lead Since ‘Parks & Rec’"
 },
-"1757dc792e29": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "1757dc792e29",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CUFdkNjVOcWNYNm1uVS1PajZJQjUtbU5pWklWSjY5UFFVTW55YnJuUXdkRlNOOWpxXzVhc09QYTBxOVUzTDh4VVlUMXplYVRVNTZ0c1RrT2p6QWs5SzY3ZFoxZ1NndVE?oc=5",
-"outlet": "IMDb",
-"people": [
-"Catherine O'Hara"
-],
-"published": "2026-11-09T04:28:06+00:00",
-"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Beetlejuice 2 Writers Address Making Part 3 After Catherine O'Hara's Death"
-},
 "1765f5770c68": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1765f5770c68",
@@ -5677,25 +5403,6 @@
 "Interview"
 ],
 "title": "Dax Shepard addresses rumors he's 'abusive' to wife Kristen Bell"
-},
-"192f06c6c106": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "192f06c6c106",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=ZRHgT-EL_U4",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-09T01:15:32+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Taylor Swift and Karlie Kloss prove they no longer have 'Bad Blood,' as the singer brings the model as her date to husband Travis Kelce's Kansas City Chiefs game.",
-"tags": [],
-"title": "Taylor Swift Brings Karlie Kloss as Date to Travis Kelce’s Chiefs Game"
 },
 "193ec208efe4": {
 "channel_kind": "streamer",
@@ -6085,30 +5792,6 @@
 "summary": "",
 "tags": [],
 "title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave"
-},
-"1b34ae7fe617": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "1b34ae7fe617",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRS0tcjNqVXJ2OFR5bGZPUkMzQWpQRWZFLXdsaEpiUU40bnVpQmI0dFBqMThjRDluMDAteVNvczkwcnpaTzE5N0o5OENoY1FsZXplOFh6V0dSdGtvSFdXMzdkenF2RE9BMTBiblhncWcwTTJhbEZRbF9RdzNWMVFFNQ?oc=5",
-"outlet": "ScreenRant",
-"people": [],
-"published": "2026-11-09T00:45:00+00:00",
-"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Abbott Elementary"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "Abbott Elementary Officially Sets The Stage For Not One, But Two Character Exits"
 },
 "1b45cecbd995": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -6547,30 +6230,6 @@
 "Interview"
 ],
 "title": "Ariana Grande Returns to TV After Announcing Break, Says She Practiced Heimlich on Ben Stiller for Hours"
-},
-"1ded30b216db": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "1ded30b216db",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmZWZHh0NXhsT0V0Y0ZOYm52NGlyM1lDZU02azlrNkVYWXhrTk9OOTUxTjl0Tk5UQVdYT0NYc2FQUTcwTDB2UjRZRWktZGhvRkZYZ2tzdmh5R1lrVFJ1cHFmelU4cC1tOTFiVndIMG03UGtBSno2cHZncGxpb1JwYy1EcjRCOWxSZlE0S3UwS3E5aUcxUk84VVdDdC1nRDNzelBMeWpadkdUZVJLeFJ2cHJrNTFFQjRWTHI2azVGaWhHQQ?oc=5",
-"outlet": "Cinemablend",
-"people": [],
-"published": "2026-11-09T00:21:00+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Boy Meets World"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival"
-],
-"title": "Two Boy Meets World Stars Have A Spinoff Idea, And As A Fan, I Really Need It To Happen"
 },
 "1e2adea0bd57": {
 "channel_kind": "talk",
@@ -7037,25 +6696,6 @@
 "tags": [],
 "title": "Alan Ritchson’s Raunchy 3-Season Sitcom Is the Perfect Anti-Reacher"
 },
-"20a4d2f3e63e": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "20a4d2f3e63e",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/dtTtrHlD1u0",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-08T23:30:27+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Jordyn Woods literally dazzles at the LACMA Art+Film Gala! ✨",
-"tags": [],
-"title": "Jordyn Woods Dazzles at The LACMA Art+Film Gala"
-},
 "20beb648593a": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "20beb648593a",
@@ -7101,6 +6741,26 @@
 "Death"
 ],
 "title": "Ellen DeGeneres Breaks Down in Emotional Tribute to ‘Ellen Show’ Producer Matthew Wright, Who Passed Away at 52"
+},
+"20de0791cab5": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "20de0791cab5",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/mariska-hargitay-steve-carell-jimmy-fallon-nbc-100-special-1236948553/",
+"outlet": "Variety",
+"people": [
+"Steve Carell"
+],
+"published": "2026-11-16T13:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Mariska Hargitay, Steve Carell and Jimmy Fallon are among the stars set to take the stage during NBC’s forthcoming anniversary special. Titled “NBC100: The Live Celebration,” the show will air on Dec. 10 at 8 p.m. ET from the Dolby Theatre in Los Angeles on NBC and Peacock.",
+"tags": [],
+"title": "Mariska Hargitay, Steve Carell and Jimmy Fallon Among Stars Set for NBC’s 100th Anniversary Special"
 },
 "213cfd5181e1": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -7819,28 +7479,6 @@
 "tags": [],
 "title": "‘SNL’ Weekend Update Mocks Donald Trump’s Response to FAA Ground Stop"
 },
-"25c1c58bf98b": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "25c1c58bf98b",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1acjFka1ZRQ1dQQ2VSNUhvNE5OVm54WmRLYzJvZExhLWhEYWdpSnVtT01rOVMtaWRwNTFWYlRCd1BaRDdBNlpuUlNIekltWGZfNFE?oc=5",
-"outlet": "IMDb",
-"people": [
-"Jeremy Allen White"
-],
-"published": "2026-11-08T17:18:49+00:00",
-"query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Jeremy Allen White’s Dating History Revealed: New Girlfriend Lulu Tenney, Famous Exes & Past Relationships"
-},
 "25d2ec4fc8f0": {
 "first_seen": "2026-11-13T06:30:14+00:00",
 "id": "25d2ec4fc8f0",
@@ -7926,28 +7564,6 @@
 "tags": [],
 "title": "A military veteran gets the ultimate surprise during a round of Whisper Challenge 🤍 #VeteransDay"
 },
-"26ce4e58cb8d": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "26ce4e58cb8d",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acmFySmxIVTJWVldBNVB1LW1oU19DVXBKcm9JRVNwbE1mMXlXYVhrSXBLQ3lYVVBNUTZMZHB5N1JlX1Z5bUxZUlJEekdrN1QwekE?oc=5",
-"outlet": "IMDb",
-"people": [
-"Courteney Cox"
-],
-"published": "2026-11-08T21:46:42+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Scream’ Star Courteney Cox (62) Soaks up the Hawaiian Sun Ahead of a Star-Studded Wedding"
-},
 "26d22ed80450": {
 "first_seen": "2026-11-10T17:30:13+00:00",
 "id": "26d22ed80450",
@@ -7991,28 +7607,6 @@
 "Interview"
 ],
 "title": "Olivia Wilde Says She Takes ‘Pride’ in How She and Ex Jason Sudeikis Co-Parent Their 2 Kids After ‘Painful’ Split"
-},
-"27057f2d97ea": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "27057f2d97ea",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaGRxSk1veWJtd2JoQ1BMREhNcEF2bEpGb3VpdmZDSjg3dldyWUI4WUVTNnFFWTNIM3FWejVRMjlocUxNME9YZ2Z6dkZvcUs0YWFEeUdpOTBVZnZsSzl4YUozSl9qemNuVWZoZDRKZnJjaGV3RS1RLU11aC1MWlZGelVmT1RxQ2lFWkdRQWlJMFRCN05ucHFKSGtFVlNQclZzZ2c?oc=5",
-"outlet": "People.com",
-"people": [],
-"published": "2026-11-08T21:59:00+00:00",
-"query": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Curb Your Enthusiasm"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Michael J. Fox Feared Backlash Over ‘Curb Your Enthusiasm’ Parkinson’s Jokes"
 },
 "2709ae17bf54": {
 "channel_kind": "outlet",
@@ -8500,28 +8094,6 @@
 "tags": [],
 "title": "The Big Bang Theory Began As Two Sitcom Pitches That Merged Into One"
 },
-"29b1b6a174d1": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "29b1b6a174d1",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZQUtGR2pBbHR5UEl6ckhla0JIMEl3Z3cyeW1STGUzV3dEcXdCQWZpMzZJUkFSd0E2YmYzZXdrRTlLcEZFMEdxWmYwVTdUY0RnMC11MjZrR3Y5eEgwbDhmaG53eF9DTjg?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T22:10:06+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Druski Leads One Of ‘SNL’s Most Star-Studded Curtain Calls Ever With Emma Stone, Michael B. Jordan, Austin Butler, Plus Chappelle, Rock, Goggins"
-},
 "29b36826f844": {
 "channel_kind": "talk",
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -8665,30 +8237,6 @@
 "summary": "Elizabeth Banks and Ted Danson play daughter and father in the new Apple TV comedy She's Fine - find out when it premieres on the streamer.",
 "tags": [],
 "title": "Save The Dates: Elizabeth Banks' Apple TV Comedy, Snoop Dogg's NBC Christmas Special, And More"
-},
-"2a8d685926c7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "2a8d685926c7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJZ3kyX2NLeng5Z0llNUFFcEtfcXhBLXhEaDVyYWxvSTY1QWV1TnhPaVNrYTZrb0NIX25GMVYwcWdHSndGb21BQzdaOW5ySWpYVnhWRFNxVG02M0xWNmRIRVBfQllrRlJMT0hjWHJ3Z3JnRDlBWGNxM1hJb211Sk0?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-09T01:27:00+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "Michelle Wolf says Amy Schumer took credit for jokes in Kim Kardashian’s “SNL” monologue"
 },
 "2aa57bdd617e": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -8935,28 +8483,6 @@
 "tags": [],
 "title": "it’s nothing personal"
 },
-"2b661d555501": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "2b661d555501",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLTFEREFySzZQbEpDT2JIeEtjdXh2V2lwWXBLd3AzUmhtQW1FN2RGcS1sSDRxRDNfNlRMdWFzbFhHVzM4bjlKTTZsaTZvT1NxVnRoYU5hLTBCTy1PV1hZSXFrSEE1a05ORkRjdk8tQVJBUkRWeXlZQ1Etc2lMem01LQ?oc=5",
-"outlet": "AOL.com",
-"people": [
-"Bryan Cranston"
-],
-"published": "2026-11-08T20:20:44+00:00",
-"query": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Bryan Cranston and Aaron Paul Honor RJ Mitte at Emotional Celebration of Life in Texas"
-},
 "2b85d8e813ad": {
 "channel_kind": "talk",
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -9130,28 +8656,6 @@
 "tags": [],
 "title": "John Mulaney’s Woodstock Sketch May Be One of ‘SNL’s’ Funniest Generational Roasts Yet"
 },
-"2d22c0a65757": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "2d22c0a65757",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS1BFUG41OTNVelg5Ny1MS0s5SEdSc1A1d3o5b1hMSWRfT3ZkLXhIemhSRWZ1bXgxaW0tRExfQ1g4ZU5CR3ZSRTNCSDJndjN2T2xpZUxLNDVkUnY5ZVF4dlBUdkIxV25VZG16dmtlSUNrNEl4YUxHTDJFdzB2MC01YXFhb2hZLXM?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T16:10:57+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Stephen Miller’s Wife Melts Down Over SNL’s Savage Elon Hit"
-},
 "2d3313f6e425": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "2d3313f6e425",
@@ -9244,26 +8748,6 @@
 "Upcoming"
 ],
 "title": "Elizabeth Banks Comedy Series ‘She’s Fine’ Gets January Release Date At Apple TV,  See First Look"
-},
-"2d5b34e1be1e": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "2d5b34e1be1e",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUTRQUS1xNDlhV05qbFRjSm1DeVFDRlQ4WDhVdC1WRlV6QVprODl4bG5mbkVveWxraVoycmNpVGVHSU1sMzhyOGlaRGJjeW85OGg0em9wS2JBMEtBMnU1WjE0ZkhqTUk3RlRIUlNvOWIydXVsbF8tdUJPQzA3WHVMVTluU282Y0pUN19qQmRnZmdHUQ?oc=5",
-"outlet": "HELLO!",
-"people": [],
-"published": "2026-11-09T08:00:00+00:00",
-"query": "late-night show guests",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Meet Kate & Allie star Jane Curtin's only child she shares with famous TV producer husband of over 50 years"
 },
 "2d73c66f77c3": {
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -9728,27 +9212,6 @@
 "tags": [],
 "title": "How does 'Abbott Elementary' cast its mind-blowing guest stars?"
 },
-"2f3a2e225bbd": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "2f3a2e225bbd",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/d2HwbMr9Za4",
-"outlet": "First We Feast",
-"people": [
-"Frankie Muniz"
-],
-"published": "2026-11-08T23:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Frankie Muniz has a Breaking Bad hot take...",
-"tags": [],
-"title": "Justice for Skyler 😅"
-},
 "2f4c712d4200": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "2f4c712d4200",
@@ -9976,25 +9439,6 @@
 "tags": [],
 "title": "‘SNL UK’ Star Ania Magliano Adds U.S. Tour Dates (EXCLUSIVE)"
 },
-"302d3c9c0a7a": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "302d3c9c0a7a",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/ztfAazHSVIM",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-09T00:30:32+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Anya Taylor-Joy looks otherwordly at the LACMA Art+Film Gala! 🤍",
-"tags": [],
-"title": "Anya Taylor-Joy at The LACMA Art+Film Gala"
-},
 "3043fd6c1b9a": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "3043fd6c1b9a",
@@ -10082,28 +9526,6 @@
 "summary": "",
 "tags": [],
 "title": "Disney’s Only Murders in the Building escape room opens Dec. 9"
-},
-"30a682f16be4": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "30a682f16be4",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcG9DRmpWU2UxN0xyaGRxMmc1Y1dEWE5xNEtQOVc1VHBBeWtsQll2d1J0Q3VoZXpKRk9aaDRoWmhsSjNpMVlUU3puUTBqNzByUzVIZG53dV9qd2t5aVp6anJrZ1pKRkNKc1ZXUDBidkRFeldpd2haOUNWS3RTZkZQX2hIVG5RZGFnaXpXNW15dVR2TkFDNkswaTV3OHZJUDBk?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T15:04:05+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Watch All of Druski's SNL Sketches & Monologue from November 7, 2026"
 },
 "30c9c23625b4": {
 "first_seen": "2026-11-09T17:30:11+00:00",
@@ -10677,25 +10099,6 @@
 "tags": [],
 "title": "Sure, Trump would PREFER heaven over hell, but not if it means forgiving his enemies #DailyShow"
 },
-"3428c84c2b84": {
-"channel_kind": "streamer",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "3428c84c2b84",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/suFlS5S6YRw",
-"outlet": "Prime Video",
-"people": [],
-"published": "2026-11-09T00:00:10+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "What are friends for? Maxton Hall is now streaming on Prime Video. About Maxton Hall: When Ruby (Harriet Herbig-Matten) unwittingly witnesses an explosive secret at Maxton Hall private school, the arrogant millionaire heir James Beaufort...",
-"tags": [],
-"title": "Sometimes all you need is a good slumber party. #MaxtonHall #HarrietHerbigMatten #PrimeVideo"
-},
 "343fb191b96c": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "343fb191b96c",
@@ -11059,28 +10462,6 @@
 "tags": [],
 "title": "Best Memes and TikToks After Midterms’ Blue Wave, From Regina George to ‘The Office’ References"
 },
-"364cf82a65c2": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "364cf82a65c2",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdmpYdkcxQU41NVBtVDZLTlJ0Q3h6bkNybmlDZHRJOTRudG1qbnhCOGtZRkcwSXdQMmxEWWdVSlFsNWJKYUNia0syc3pvaUxPUmlrOWVpZFdod05OVF9JYV9WT1FlOC1yb2JPOENQb1hrMXhWVUltVU5ZcnZkQU9pb1kwRW1kX25jTklFNDZyclYyVTZDSmd1LUZ1clVSaDRvUXQ5MGZGUEZGSy1ieC1LVHI4QXgwZXNQbVVz?oc=5",
-"outlet": "Rolling Stone Australia",
-"people": [],
-"published": "2026-11-08T20:51:01+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘SNL’ Weekend Update Drags Trump Over Midterm Drubbing, Stephen Miller Promotion"
-},
 "366e4a61c99e": {
 "first_seen": "2026-11-12T17:30:21+00:00",
 "id": "366e4a61c99e",
@@ -11235,47 +10616,6 @@
 "summary": "",
 "tags": [],
 "title": "'Boy Meets World' cast plays 'This or That'"
-},
-"36fcf53b79bb": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "36fcf53b79bb",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=sG_SJYUCDrg",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-08T22:00:00+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "'I Play Rocky's Stephan James and Kiki Seto chat with ET's Kevin Frazier about their new Sylvester Stallone biopic, hitting select theaters on Nov. 6 and going nationwide on Nov. 20.",
-"tags": [],
-"title": "I Play Rocky: Stephan James Jokes About Playing Michael B. Jordan's 'Daddy' (Exclusive)"
-},
-"370a9afba68c": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "370a9afba68c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hMzhMN1o0VTJUTjJFV3RCVWtnaWVVdTlGVlhJRjhmRkt5SzJuZDMwUm9NNlU1THVFUjcyNm12MmxXUUJLLWRwWlQtb3Nyb3RVT0Z4bGNzUGJXcGF1SWZ5MnlmREJiQQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T00:02:32+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘SNL’ Roasts Elon Musk Over Texas Midterms Loss"
 },
 "3723473f63ed": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -11630,27 +10970,6 @@
 "tags": [],
 "title": "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
 },
-"394cf6124436": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "394cf6124436",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=r07P9Fa9Xo4",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T05:01:08+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "Robert De Niro, Ben Stiller, Ariana Grande and Jimmy play a game where they take turns confessing a random fact before interrogating each other to determine who was telling the truth. The Tonight Show Starring Jimmy Fallon.",
-"tags": [],
-"title": "True Confessions with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show"
-},
 "397db9d10a54": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "397db9d10a54",
@@ -11716,28 +11035,6 @@
 "summary": "",
 "tags": [],
 "title": "Will Ferrell Interrupts ‘Jimmy Kimmel Live!’ to Insult ‘Elf’ Co-Star in Very Un-Merry Tirade: ‘Boring!’"
-},
-"39e70fbf17a4": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "39e70fbf17a4",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TdTN0RUJkNGt2d05BWFRJSWppYWJJUVE4T05uWmhjNnNwS3d2OGVqUnFPY3RiXzFCX08wWlgzaTRGcjBMZHBBZ2RCelNkOUdyM0FZRk5JZWZTTG5MX09jME8yMWFodDQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T22:37:27+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "The Tonight Show Starring Jimmy Fallon: Jessica Chastain, Taylor Kinney"
 },
 "3a56f3346e9a": {
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -12113,28 +11410,6 @@
 ],
 "title": "Diane Morgan explains how her guests feel on the set of \"Cunk on Cinema\""
 },
-"3bf6c23e1bb7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "3bf6c23e1bb7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DVVlLNWRnSVBBaVJmc1o3R3JyaEMxN2dzWGpjNzNVQ0FZeHlVOFF6TUJrbzlkVE40bVdfU3puYzR6b0JuZVZ3cEdxYnFaNGJrMGdHRnpjSHkyMUNiX25UWTVuWFV0eXE3SlE?oc=5",
-"outlet": "IMDb",
-"people": [
-"Courteney Cox"
-],
-"published": "2026-11-08T22:38:45+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "This X-Men-Esque '80s Sci-Fi Series Launched Courteney Cox's Career"
-},
 "3c074e0f4cdc": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "3c074e0f4cdc",
@@ -12197,25 +11472,6 @@
 "summary": "",
 "tags": [],
 "title": "Reacher & Neagley Are Losing to a 17-Year-Old Sitcom on Streaming"
-},
-"3c23b661402e": {
-"channel_kind": "streamer",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "3c23b661402e",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/gP5kitcXffg",
-"outlet": "Hulu",
-"people": [],
-"published": "2026-11-08T23:00:18+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Stream PHONY on Hulu and Hulu on Disney+. SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Hey, you. Yeah, you. 👋 Subscribe to our YouTube for the latest shows & updates.",
-"tags": [],
-"title": "Welcome to the set of PHONY!"
 },
 "3c2812f42685": {
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -13642,28 +12898,6 @@
 "tags": [],
 "title": "Why Julia Garner HATES movie trailers 🎬"
 },
-"42e3f2656dc0": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "42e3f2656dc0",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4dGMzVnhMX0V6aGxsZVM3ZnJQWlpIdkpmRGVkRDZ1U0RxZlB1OXJCQnNwbFNZMTIyN0ZkRUtRWXAzNXNrNjJrdkM0MTBqQndnUGg3SE1tY1BXRHk1VDNlUTdPSU1aT3VUWHR3UlJsUmJ0NnZEbHVR?oc=5",
-"outlet": "Comic Book Resources",
-"people": [
-"Jeremy Allen White"
-],
-"published": "2026-11-09T04:58:00+00:00",
-"query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "X-Men Fan Campaign for Jeremy Allen White as Wolverine Picks Up Steam: 'Perfect Casting for the MCU'"
-},
 "4354d184b720": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "4354d184b720",
@@ -14492,28 +13726,6 @@
 ],
 "title": "‘The ‘Burbs’ Season 2 Cast: Six Stars Returning, One Promoted to Series Regular, & Four Actors Join"
 },
-"47aeebb95b6a": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "47aeebb95b6a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUZaVzlVeS1RZnRRMnRBOVg4R3U0SlZXbEFYeWhkUXhldmhfeHlBR1pYdFRybWhHMlBOdUNkUHA3Sl9kQ2wxUEV5MU9HQzhtalBFdUl1NDcwR3g0Q2I2bGNGbzBwUkVoUGZrNzRfSXl2bUR3NU9rdXhUMVpUYUdOOUl3R0FmdEQzYmRvWmlpdjhlNzJiRmF5QjVKcw?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T23:19:19+00:00",
-"query": "\"Raven's Home\" OR \"iCarly\" OR \"Hannah Montana\" OR \"Wizards of Waverly Place\" OR \"Wizards Beyond Waverly Place\" OR \"Arrested Development\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Hannah Montana"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Dylan Sprouse On Five Cent Residual Check From 'Hannah Montana' Crossover"
-},
 "47b573ce01ea": {
 "first_seen": "2026-11-11T06:30:12+00:00",
 "id": "47b573ce01ea",
@@ -14726,26 +13938,6 @@
 "summary": "",
 "tags": [],
 "title": "Danny McBride's Hit HBO Series Officially Releases New Episodes Next Month"
-},
-"490dd450fd03": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "490dd450fd03",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wZGtpWnhqSEJRWGdXVk9ybGpWSmVpR2JhTEVnSVAwSDAtN3QzQV8tY1ZRd0FNVURQME5UbkhwclZGai0zN3Vuak83QVk2Q1ZvZmNfNHJHWHRnNkV3MUd6c2x6dUxZN01UWkE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T23:11:00+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Mary Tyler Moore Starred In Two Hit Sitcoms With An All Star Cast"
 },
 "49297ab3b855": {
 "first_seen": "2026-11-14T06:30:10+00:00",
@@ -15768,28 +14960,6 @@
 "tags": [],
 "title": "Ashley Padilla’s ‘Kathy’ Returns to Saturday Night Live"
 },
-"4e0e13b8008d": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "4e0e13b8008d",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUVLbEdraExmaXlqU05vejJPYkljVXZ4ek9zQ3I3TjRGSmJUTmRnb3g3ZjhFcUVmRTQwbnl2bWc5U3hSc3N1eDhCX1BZLUtFSGxqSkJmUEhzU181cXZGTzUyMjM5Q0xVTmtrODhTRzR1YVctcFNVMTlTWWRDSHFOOUhtUQ?oc=5",
-"outlet": "AOL.com",
-"people": [
-"Melissa McCarthy"
-],
-"published": "2026-11-09T01:33:00+00:00",
-"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Melissa McCarthy’s Sheer Red Carpet Look Highlights Her Weight Loss Transformation"
-},
 "4e23dcd90aac": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "4e23dcd90aac",
@@ -16159,25 +15329,6 @@
 ],
 "title": "Doctor Doom & F4’s Sue Storm Lead Exciting New Marvel Trailer Ahead of Avengers: Doomsday"
 },
-"4f9503dbf64e": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "4f9503dbf64e",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/dIXqLYGRA8w",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T02:50:05+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "#RobertDeNiro, #BenStiller and #ArianaGrande crash Jimmy’s monologue to sing “O Christmas Tree”!"
-},
 "4f9d2c5cb54e": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "4f9d2c5cb54e",
@@ -16242,28 +15393,6 @@
 "summary": "",
 "tags": [],
 "title": "Lost-Era Johnny Carson 'Tonight Show' Footage Discovered in SoCal Garage"
-},
-"4fd9d37c9bfe": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "4fd9d37c9bfe",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ibFllYUdzWG9pS3MydGU0RlZBMHI0b2piQkdKR1hfNlhuN2M5cUc3bmJndi0zTGFUaTVkUEJ3c0RhUDNGMnRBY2JjNHM1cWhkZzExODZPUGdxVkN5WG5uV3Rwdkg1ZmM?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T21:53:37+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer"
 },
 "4ff582841bed": {
 "channel_kind": "streamer",
@@ -16902,28 +16031,6 @@
 "tags": [],
 "title": "Frankie Muniz Rushed To Hospital After Crashing Racecar At Daytona Speedway"
 },
-"52e4587ced4f": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "52e4587ced4f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNN0pSenM0ZjNtUTdmbUQ4UnVHTnRwVnJEWjJTYWxVS081WDdxWE5BQVAyUUEtc2U2Y2NPVzFKOUprTEl6UEFyYXY3Y1JFaVdrQVFzZzdoMVQ1TTQwT0ZBSVhNTlk1N0F3TUVNU2xTVElzVzduYXNFUXRPd0tkT3IzaWQ5VDdMY0FScDhUSEk0Y0VXTk91Y3gxaw?oc=5",
-"outlet": "Deadline",
-"people": [],
-"published": "2026-11-08T22:00:00+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Druski Leads One Of 'SNL's Most Star-Studded Curtain Calls Ever"
-},
 "52f026f804d2": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "52f026f804d2",
@@ -17411,27 +16518,6 @@
 ],
 "title": "Saved by the Bell star Tiffani Thiessen, 52, reveals health struggles as she faces major surgery"
 },
-"54e69142b03a": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "54e69142b03a",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=x4AClOJzbnk",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T05:32:04+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "Musical guest Lil Baby performs \"Dead Fresh\" for The Tonight Show. The Tonight Show Starring Jimmy Fallon. Stream now on Peacock: https://bit.ly/3gZJaNy Subscribe NOW to The Tonight Show Starring Jimmy Fallon: http://bit.ly/1nwT1aN Watch...",
-"tags": [],
-"title": "Lil Baby: Dead Fresh | The Tonight Show Starring Jimmy Fallon"
-},
 "54f5da748ad8": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "54f5da748ad8",
@@ -17880,27 +16966,6 @@
 "summary": "",
 "tags": [],
 "title": "SNL writer’s sister vanished,  now her boyfriend and rival face charges in deadly love triangle"
-},
-"573f9c357578": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "573f9c357578",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=zOQLrSi1peE",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T04:37:27+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "Jimmy addresses the latest news, like Trump responding to the midterm results by hiring Stephen Miller as White House Chief of Staff, the Chicago Bears facing off against the Tampa Bay Buccaneers and scientists finding evidence of a whole...",
-"tags": [],
-"title": "Trump Hires Stephen Miller as Chief of Staff, Butchers \"Genome\" Pronunciation | The Tonight Show"
 },
 "574c2174051c": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -18591,28 +17656,6 @@
 ],
 "title": "Shaq to Star in Hide-and-Seek Competition Series ‘Can You Hide… Shaq?’ at ABC (EXCLUSIVE)"
 },
-"5c20238f51ca": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "5c20238f51ca",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WUzIya1huR1B4VldZWDl1TTZiR1NLNElXUlo3eVBvYnAtd1JraHN4QXRHcklfSVpUNGVyZ0tnZVpsYU5hSFZERHRDRzMzTmM0QjJCTmpjVVRfTV9DanNkWkhCcWFOM2JuZjVGbmdLUk5fbEFq?oc=5",
-"outlet": "IMDb",
-"people": [
-"Jenna Ortega"
-],
-"published": "2026-11-09T04:35:53+00:00",
-"query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Jenna Ortega's Dresses"
-},
 "5c2830c710b9": {
 "first_seen": "2026-11-11T15:30:17+00:00",
 "id": "5c2830c710b9",
@@ -18789,28 +17832,6 @@
 "summary": "",
 "tags": [],
 "title": "Kaley Cuoco Shares Adorable Snap of Father-Daughter Bonding Moment Between Fiancé Tom Pelphrey and Newborn Philomena"
-},
-"5de0e5c91527": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "5de0e5c91527",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVlLaWxZRndCYlE3WVBvajhwMGNWU2VqdGlBSEI0M2ZFN2dZTVZhajhYeDhId3gzMHozbDJsMDRLMDNWbWVGMTR2NVBLd3JJOEJSd3hCWEx4UmdWUExmOXZ0TnNPanZHQy1wQ2hUeEdLYTZubW5YU0V1NFItUHJOZVgzbzNTcEM4T1Etb2F1Tk42REJla3A1X04zVGZGanYwbHc?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T18:28:25+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Michael B. Jordan and Austin Butler make blink-and-you’ll-miss-em cameos on “SNL”"
 },
 "5e2ef348209f": {
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -19148,28 +18169,6 @@
 "Trailer"
 ],
 "title": "The Baddest Speechwriter of All | Official Trailer | Netflix"
-},
-"5fb7b7dc1faa": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "5fb7b7dc1faa",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOajVpRHdsZzBjN2NXb3Rzd3dlSjNBYldSSkREM0FJRlFDQnZNclNTazM5S0p3anBZZTFrb1BIUXFwMGFvVnp0VmtJOGdrSm1uZDdmaE1lX2c4XzhKS3hacjBRWTBxTWtPSkJSQ0NUWHIteE9PbmdhbnRfRmJiSmpTSFktM19QNUNXSXZSSkR0WGJ1VnAzS2VSU0lqSlVNbk9kUG1hdTQ1cDJYMk1mMG5xZWJja01scWxMT1NjYzA4am9yRWs?oc=5",
-"outlet": "HELLO!",
-"people": [
-"Melissa McCarthy"
-],
-"published": "2026-11-09T01:01:33+00:00",
-"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Melissa McCarthy, 56, looks incredible in sleek satin suit following 95lbs weight loss"
 },
 "5fc436409e51": {
 "first_seen": "2026-11-13T17:30:12+00:00",
@@ -20403,28 +19402,6 @@
 "tags": [],
 "title": "Creatorverse: Druski’s ‘SNL’ Victory Was a Creator Collaboration Done Right"
 },
-"65891144fafa": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "65891144fafa",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9oMjFVWFRVRlRaWms3YzFrbGtTZmtoTThzWlJod0NGLUo1RDBwTmRpNkxmOWhnVTNVYzREWU9RYnFiWVBhZmIzQzFvTExFbXhHekxYRklBY2g1aURDYzFPUENHNXRpNy1lRzBhWHNPM1lxTGM?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T14:08:04+00:00",
-"query": "\"Everybody Loves Raymond\" OR \"The King of Queens\" OR \"Everybody Hates Chris\" OR \"Everybody Still Hates Chris\" OR \"Black-ish\" OR \"Grown-ish\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Everybody Hates Chris"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "\"Everybody Hates Chris\" Everybody Hates the Lottery (TV Episode 2006) - Videos"
-},
 "6601d6c47102": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "6601d6c47102",
@@ -20684,30 +19661,6 @@
 "summary": "",
 "tags": [],
 "title": "Caitlin Clark Gives Jimmy Fallon Unreleased Taylor Swift-Inspired Shoes, Hints At A Release Window"
-},
-"67283e1d69de": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "67283e1d69de",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTRGS1c5b2VXclJqdmpoYm1rZTJ0eGhUZmpESVFxaWlTLTRLekc5QjdQSU1NeWF6cTRodXFrOFdxZ0w5U0E3a0xyZlB2WWJ5NzIyUnRmYk9FcGdmU2dBMjlvVEZXbzlnSWhGYjEwNVRzbHNZZXRtMnQ0dk9QQU53NEVkT25yUjdmdUNUX2ZNMTNXQm5WUW1XVTVBdXRnTFR3U3V4NW9CTy12NGp5ZFFPZ0R3?oc=5",
-"outlet": "The Independent",
-"people": [],
-"published": "2026-11-09T05:17:00+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival"
-],
-"title": "James Talarico crashes first SNL cold open post Midterms and first-time host Druski revives his controversial whiteface"
 },
 "673b8a128e4b": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -20974,25 +19927,6 @@
 "Interview"
 ],
 "title": "‘Nobody Wants This’ Star Timothy Simons Reveals Biggest Season 3 Concern and Looks to Season 4: “They Burned One Another,  So They’re Even”"
-},
-"6954515870be": {
-"channel_kind": "streamer",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "6954515870be",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/pQ6W-9QhhxQ",
-"outlet": "Prime Video",
-"people": [],
-"published": "2026-11-08T22:00:30+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Now is not a time for morals, Moxxie! Helluva Boss Season 3 Part 1 is now streaming on Prime Video. About Helluva Boss: This adult animated comedy follows the misadventures, hijinks, and relationships of the Immediate Murder Professionals...",
-"tags": [],
-"title": "👏 You're 👏 not 👏 paid 👏 to 👏 think! #HelluvaBoss #Moxxie #PrimeVideo"
 },
 "6a09204e084c": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -21275,31 +20209,6 @@
 "tags": [],
 "title": "Pretty Little Liars’ Lucy Hale & Ian Harding Brainstorm How to Get Cast Back Together (Exclusive)"
 },
-"6c1de04e104c": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "6c1de04e104c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTzNkYWE1OUJNMXFVam9tdG5raDd0RHNOWjdBd2dLaVpnaEs3SkxycUtaVUo2UXZFd2FjYldJYmdkNlBPbXZmZGpfZTV2c012WTQybnhRZVBmb1FKYmlKTDdaTXBFUzFIcGFORURNSHdCbVhQLXhVRDBnOG9kbGpDOTRyYw?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-08T22:24:21+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"M*A*S*H"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Exit",
-"Interview"
-],
-"title": "Wayne Rogers Explains His Departure from M*A*S*H Due to Controversial Morals Clause"
-},
 "6c33144aaacc": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "6c33144aaacc",
@@ -21388,28 +20297,6 @@
 "tags": [],
 "title": "Why Rex Linn thinks it would’ve been weird for Tom and Brenda to date on “Young Sheldon”"
 },
-"6cb89b0d9650": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "6cb89b0d9650",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbElRRnBMdnZ0R21hYUVULUt0WUdpYVg5X0R5dlVGWVJjc0R6ak9FVkZqRmNrdGRBRFVSNGttVnZRYVRtWTVfcm5tVzBsU2g5bXR4TldlM0ZoWkl0Z2Y3a3NqVXlXQ0NTdTBUeDRiN1ctQUxtd1h4WHJ0bEtXMWNYc3BxSmx1TjVITHBFTnBDNTBPdVVCMlpRek5rcGdhLW9HNjcxR3FsNVBLbzBF?oc=5",
-"outlet": "Rolling Stone Australia",
-"people": [],
-"published": "2026-11-08T20:46:01+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘SNL’ Cold Open: James Talarico Crashes Trump’s Midterm Postmortem"
-},
 "6ccb69d0a00f": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "6ccb69d0a00f",
@@ -21494,25 +20381,6 @@
 "summary": "",
 "tags": [],
 "title": "Bobby - Phoebe Bridgers"
-},
-"6d902d8c552c": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "6d902d8c552c",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/ob_e-NEcNfA",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-08T22:34:23+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Taylor Swift and Karlie Kloss are side by side again, cheering on Travis Kelce at the Chiefs vs. Jets game!",
-"tags": [],
-"title": "Taylor Swift and Karlie Kloss Cheer on Travis Kelce"
 },
 "6deb575e16d2": {
 "first_seen": "2026-11-14T06:30:10+00:00",
@@ -21986,28 +20854,6 @@
 "tags": [],
 "title": "Steven Spielberg Honored at the MoMA Film Benefit"
 },
-"705eda8d6c7c": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "705eda8d6c7c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TZEpXSkN1NFEwUjdJXzhYRW5qSGdkQTd1Z1I2Y2lHaUtxSWRUMGpKYmdLUHFiYUlublV5YVgzYU1ZSU9xM2JoSWU1U1JVWS15aXVRY0l4R3ppVU0wRmVBM3JObnpkaVVXaWxSQUdKd3VNT0ZmQUVB?oc=5",
-"outlet": "Forbes",
-"people": [
-"Charlie Sheen"
-],
-"published": "2026-11-10T01:05:05+00:00",
-"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Charlie Sheen & Donna Peele - 2015-10-20 - Shortest Celebrity Marriages"
-},
 "70653e69e521": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "70653e69e521",
@@ -22363,26 +21209,6 @@
 "Upcoming"
 ],
 "title": "Ariana Grande and Ricky Álvarez make their red carpet debut at the “Focker in Law” world premiere."
-},
-"71f56a049db6": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "71f56a049db6",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVVZTX1F1S0plUlhvbmpKTk9xMXgzUTJfbEFXa29CTDJSb0ZFdndqajRaWW8tUHBNYl9yNDJUVXRnV2lRUXRUbDBYOGRialV6NmNBRUhDcGI1T2o3NU5QNG9TQVl3ak1GcmQtU29sem5oSGc2QWtxUmdzNWxHaEczOVd5YjRpaEJaZG91NUh3bEJYQ3RFR1JEQm8wdFN1bDVMWnZsSFdsdDBvQlZFQTVRcg?oc=5",
-"outlet": "Billboard",
-"people": [],
-"published": "2026-11-09T02:06:40+00:00",
-"query": "late-night show guests",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Ariana Grande Sings ‘O Christmas Tree’ With Robert De Niro & Ben Stiller on ‘Tonight Show’: Exclusive Preview"
 },
 "720e87c67802": {
 "first_seen": "2026-11-09T17:30:11+00:00",
@@ -23829,6 +22655,28 @@
 "tags": [],
 "title": "Druski Impersonates “Crazy” Elizabeth Holmes in ‘SNL’ Meta-Documentary"
 },
+"7aea52fbb35f": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "7aea52fbb35f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84UkdrdFVtcWJ3RnlZT0xoWjVoNWlOaXpvZW84T0cweGNIdm1wSHE2cm5ydzQtYmpaX2hUM3IxNTNBVjBHRTRXb3czVEFUSW9LUXVTUGYybzM1NVJDZVdCaWhMQnZNU18ydjZHUDgwUGlQeE1Pa2lN?oc=5",
+"outlet": "People.com",
+"people": [],
+"published": "2026-11-16T12:00:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Meet the Kids of the Scrubs Revival Cast, Including 1 Who Had a ‘Full Page’ of Notes for the Stars After a Set Visit"
+},
 "7afc69288429": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -24466,28 +23314,6 @@
 "tags": [],
 "title": "Bill's Included cast tease \"chaos\" and comedy about found family in Rob Brydon's first sitcom since Gavin & Stacey"
 },
-"7ecd6d6c95f7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "7ecd6d6c95f7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSmhKVlY5d0hLcG5hQnRNSGhJZE5NbUhsX0xnQXkxamVzbVZBNkRFTDBHS1JicnhqdW4yY3N2Xy1rX0Y5c1A4NnFiZENuVFpGbHloRV9jZFhyLWxpN1BvT1ZmRjFZVzM3cUkta1VIelB4VFdEc09fenFTSzRVTm5TSkR5WUFmUHVIV3Nyd2RidmJUc1JuUXhZSVRtS2hTU3VMRE5leg?oc=5",
-"outlet": "Gold Derby",
-"people": [],
-"published": "2026-11-08T20:45:06+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "'Nobody Wants This': Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss"
-},
 "7eeb0a238701": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "7eeb0a238701",
@@ -24575,25 +23401,6 @@
 "summary": "The Nov. 7 episode also had a big college football lead-in.",
 "tags": [],
 "title": "TV Ratings: ‘SNL’ Hits Two-Year High With Druski as Host"
-},
-"7f3583ee6577": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "7f3583ee6577",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/Jaey3clrYrE",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-09T01:30:22+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Celine Dion and Jack Black rocking out together at a Metallica concert was not on our 2026 bingo card. 😭",
-"tags": [],
-"title": "Celine Dion and Jack Black Rock Out at the Metallica Concert"
 },
 "7f40aeb77788": {
 "first_seen": "2026-11-14T06:30:10+00:00",
@@ -24729,28 +23536,6 @@
 "summary": "",
 "tags": [],
 "title": "Shane Gillis Breaks Silence on Backlash Over His Controversial ‘Saturday Night Live’ Monologue"
-},
-"7fce98740d45": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "7fce98740d45",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1KeXJhMFUxbmVBSjJCNC0xakRnVUd1dFFmeTR1T1U4Ukc5NS1JbjQtbElhVG9fa3JoVlFNYkNMRFNVaVl6UVZVYnZGRC12WVUtVC1HakVuYVRZVWdTRkRMbER3ZUU?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T23:39:54+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "Cameron Diaz Breaks Bad in First Trailer for New Netflix Action Movie"
 },
 "7fcfe57df6e6": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -24904,28 +23689,6 @@
 "summary": "Peter (Seth MacFarlane) has to give Brian (Seth MacFarlane) a pill and attempts various methods. Stream Family Guy on Hulu and Hulu on Disney+ SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows & updates.",
 "tags": [],
 "title": "Peter is basically a veterinarian."
-},
-"807db912494e": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "807db912494e",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oYVF3UUkySkFGWmVXNVdFMVpaOTBaSm5xMFhJWTVCeDQ3cG1YSDNyUTZjZ3p4MEhXb2x4TXE4eXBVOHpFUW1YcnlGaTJuYmFjb1lvTFRjTVNIdFdxRi04RkVpVXZDTFk?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T22:10:11+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Late Night with Seth Meyers"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Late Night with Seth Meyers: Timothy Olyphant, Harper Steele"
 },
 "80d6ce6c679f": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -25150,28 +23913,6 @@
 "Interview"
 ],
 "title": "Jessica Chastain Reveals Her Insane Wine Hack, Talks Singing in Front of Country Stars for Heartland"
-},
-"817411e256ca": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "817411e256ca",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1oZk5jX1U4R21tVWR5dmVTUV9MZ0Y3TGZOX0RNenJhUkotV3JKeWJEejIwbTlzQVZJekc4WHFKc1dnNzBKRm02eG4tUzZkRFlzMXlnZ2FUT29lcmQ1a1BuOGJ5QlhDVzhMUnc?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T03:34:49+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "SNL Cold Open: James Talarico Interrupts Trump’s Rant"
 },
 "81ab17e65d05": {
 "first_seen": "2026-11-11T17:30:11+00:00",
@@ -25531,26 +24272,6 @@
 "summary": "",
 "tags": [],
 "title": "Druski’s whiteface SNL skit exposes ‘double standard’ in Hollywood"
-},
-"83a4113e7d21": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "83a4113e7d21",
-"kind": "article",
-"link": "https://www.justjared.com/2026/11/09/ariana-grande-sings-christmas-carol-with-ben-stiller-robert-de-niro-on-the-tonight-show-watch-now/",
-"outlet": "Just Jared",
-"people": [],
-"published": "2026-11-09T06:10:51+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Ben Stiller, Robert De Niro and Ariana Grande crashed Jimmy Fallon‘s opening monologue on The Tonight Show on Sunday night...",
-"tags": [],
-"title": "Ariana Grande Sings Christmas Carol With Ben Stiller & Robert De Niro on ‘The Tonight Show’ – Watch Now!"
 },
 "83cd7d021612": {
 "channel_kind": "streamer",
@@ -26204,28 +24925,6 @@
 "summary": "The project particularly hits close to home for the star. Tisha Campbell is known much of her career for comedies like Martin and My Wife and Kids, However, the NAACP Image Award-winning actress takes a dramatic turn in Lifetime’s One Last Shot.",
 "tags": [],
 "title": "‘One Last Shot’: Tisha Campbell Shares Heartbreaking Inspiration Behind Powerful Lifetime Movie"
-},
-"8769bf321237": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "8769bf321237",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeXVFVC1VdzNJZEV3TTJacmVVTmFsTVhpUlRFY1hULUg5VjBVb2xYaXJGSVhjRHRWTkFTZU9xb180b3ZvclF6blVubHRUQ2xzR1pVNzFwdjVNc0s5d2JIYnZrNkRlODZFckthMEVvN1NLdFVxQ0tJZ1VuZVJsV2JaQzhUN05RaXM5TFQybV9EeHRkZEoySG4xRnNHcTZCNVJ3R0w2QTJVR2I3aVVTaUdfUmRRZURmU0ZWd19aRUhkSHREYU9QNy1Kd3l1dzJUeEo5?oc=5",
-"outlet": "Just Jared",
-"people": [],
-"published": "2026-11-09T06:12:17+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Ariana Grande Sings Christmas Carol With Ben Stiller & Robert De Niro on 'The Tonight Show' - Watch Now!"
 },
 "8770f6c5cf38": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -27250,25 +25949,6 @@
 "tags": [],
 "title": "When Stephen Graham met Rory Culkin #Nocturne,  Now Streaming"
 },
-"8d11e4e44b84": {
-"channel_kind": "streamer",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "8d11e4e44b84",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=-lRWEaBEpu0",
-"outlet": "HBO Max",
-"people": [],
-"published": "2026-11-09T03:00:32+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "There's been a lot of talk. #TheGildedAge About HBO Max: HBO Max is the premier global streaming platform from Skydance that delivers the most unique and captivating stories, ranging from the highest quality in scripted programming,...",
-"tags": [],
-"title": "The Gilded Age Season 4 | Episode 3 Preview | HBO Max"
-},
 "8d176cf7f4af": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "8d176cf7f4af",
@@ -27646,28 +26326,6 @@
 "tags": [],
 "title": "Bryan Cranston Shares New Update on Frankie Muniz After Scary Daytona Crash"
 },
-"8ed1c8337b5e": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "8ed1c8337b5e",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUER5dlkyV2k0QThsUmFSOGx4V2lKdnVydU9MUGRYTGI4U2ZkeW5sVjhXZ2hoM2RfVGVrcDV0cDZyNmp6RkdjYjNwTTRzeF9GT1hCeWV2M0JIMUhid0RDN1BLZFgzaXg1MF8yM3dYczV2SVloQzVoSVQ1cEpKTkJmRnV5Q04wd3N5RDJQMWZoRVhoMmZOb0t3ak4yTFdPYjczYlhqRmNPcU9mSlU?oc=5",
-"outlet": "People.com",
-"people": [
-"Johnny Galecki"
-],
-"published": "2026-11-08T19:12:42+00:00",
-"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Johnny Galecki Shares Rare Behind-the-Scenes Look at His First Acting Role in 7 Years (Exclusive Photos)"
-},
 "8edb608fc859": {
 "first_seen": "2026-11-14T17:30:12+00:00",
 "id": "8edb608fc859",
@@ -27821,6 +26479,28 @@
 "tags": [],
 "title": "What Happens When Stars Break Character On SNL? That Time Ryan Gosling Made It Happen"
 },
+"8fc3ff83455d": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "8fc3ff83455d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBSS1dhd1hXSDhOTmFSWkZGV25wcGhtczh1UFJjN19yWVhLWmxpU2RXRF8xUG8tRXRIaTdNdWd6b1pQTkx1WXVmdmQtSjA4OThZRUFyTm5pSXpaUjNFZWtnbEdwbkdLaVZQU1BKLVJNVDRCemVQNmV4U3lB?oc=5",
+"outlet": "Yahoo News UK",
+"people": [],
+"published": "2026-11-16T12:50:43+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Slow Horses’ Renewed For Seasons 9 & 10 At Apple TV"
+},
 "8fe975947ccd": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "8fe975947ccd",
@@ -27908,28 +26588,6 @@
 "summary": "",
 "tags": [],
 "title": "‘Malcolm in the Middle’ star, race car driver Frankie Muniz released from hospital after crash"
-},
-"900ea5556071": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "900ea5556071",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lVkczWFpiRDNsVUFubzAzeEVqV3ZvVHFybHRJam9hYnBaNGo3dWc4T3FCYzVQV0tycnBsVWppYVJDVUNqX0VTZThkYmZzeW12ZmZCdDdyXy1yOFNpM2d6RXJtTzdUdVU?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T22:21:54+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "Maya Jama Exits As ‘Love Island UK’ Host After 9 Seasons"
 },
 "901971f77639": {
 "channel_kind": "talk",
@@ -28213,27 +26871,6 @@
 "summary": "ET’s Kevin Frazier and Nischelle Turner join Miss Aloha Hula 2025, Jaedyn Pavao, in Hawaii for an ‘oli, a traditional Hawaiian chant.",
 "tags": [],
 "title": "What Is a Hawaiian 'Oli? ET Gets Chant to Bless Production on the Islands"
-},
-"918d328799d9": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "918d328799d9",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/Hm3cwAWxo8o",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T05:01:03+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "#ArianaGrande met #RobertDeNiro for the first time at The Tonight Show in 2015 🥹 #FallonTonight"
 },
 "91a42f02d152": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -28955,28 +27592,6 @@
 "tags": [],
 "title": "Jennifer Aniston, 57, Called This Tinted Moisturizer “Delicious,” and Shoppers Say It “Blurs Pores Into Oblivion”"
 },
-"9494a969e7d4": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "9494a969e7d4",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RSEkyanJ1SXpuMVdKWVQ0WDhwaDRaNjA4aEcxM2JuTExObVNJcGUxdVM2YW02Rk44dm8zb1UyX2RWR0FCbnhKYWFKWHFtczFfSFdTZmZPUWNZSGU3ajZIWlZnYTUtZw?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T00:56:52+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "My Hero Ultra Rumble Mobile Version Teased in New Trailer"
-},
 "949e5b15af89": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "949e5b15af89",
@@ -29358,25 +27973,6 @@
 "tags": [],
 "title": "‘I Love Lucy’ Treasures Acquired by the National Comedy Center"
 },
-"97f53c15aaae": {
-"channel_kind": "streamer",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "97f53c15aaae",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/gBoNaUPXdFQ",
-"outlet": "Prime Video",
-"people": [],
-"published": "2026-11-09T02:00:01+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Some of our favorite moments from the Radio Demon. Hazbin Hotel is now streaming on Prime Video. About Hazbin Hotel: Charlie Morningstar, the Princess of Hell, struggles to convince demons and angels alike that any soul can be redeemed.",
-"tags": [],
-"title": "Alastor: effortlessly iconic. #HazbinHotel #Alastor #PrimeVideo"
-},
 "981549ae5f5c": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "981549ae5f5c",
@@ -29398,28 +27994,6 @@
 "Death"
 ],
 "title": "‘Yes, Dear’ Actor Anthony Clark Dies at 62"
-},
-"98321cbd4c71": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "98321cbd4c71",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QbE02LTNEeVlxQm1MUDZySmZnTUZPZHc0ZmhMNHZzSzBCdXFtdV9PQTFzQno2b2hJUkJSSEJrNThDeUhNQWFGNVFUM01fTmIxQ1ZTcUZwTC1KNHlhdGhHZ2Q4Q25mclE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T00:37:02+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "Nicolas Cage Returns in Legacy Sequel 'Lords of War' Teaser Trailer"
 },
 "984db47d943d": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -29466,28 +28040,6 @@
 "summary": "",
 "tags": [],
 "title": "Malcolm in the Middle’s Frankie Muniz Gives Update After Hospitalization in New Statement"
-},
-"985e752c98bd": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "985e752c98bd",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQalotM2pfWnZRSmxNWkJFM3pVX2tpLWlOQUIxQ2lIWHJSWnYyQm55UzBiVTBqYzE3d1c2dWI1bVRYYWR2LWJQdFVDWl9GOVFtNnNoVE90Wjl5a0tYMnRLTmp1c1ZrZmlhUGFQZk04aHpFOGhtc1g5eUIzVHhSWEszMnd4N1NMQTd5cXNQWkdSTXMyUWtZbUpkT1l0bWRlWFN6VmpPTEUzWGpYY1Q3czdxcQ?oc=5",
-"outlet": "Parade Magazine",
-"people": [],
-"published": "2026-11-09T00:19:00+00:00",
-"query": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Curb Your Enthusiasm"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Michael J. Fox Thought Viewers Would ‘Crucify’ Him for ‘Curb Your Enthusiasm’ Cameo"
 },
 "9864b45d7863": {
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -30039,30 +28591,6 @@
 "tags": [],
 "title": "All About Chip and Joanna Gaines’ 6-Acre Waco Mansion That’s Already Listed for $7.4M"
 },
-"9b38fe2f67ab": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "9b38fe2f67ab",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaWNmeGJyZjBZTHFCNXA3TnpwTExJS3d3S0ZkaTFpMUI2c2k1eFpMdi13X0pYZ2RoaGVyMWQwQ1JKZkdOMl9ZbG1RYVQwZjRYSVBSSk5PMHNZaGl0bmJMSWozM1Q2Z09nbjNlSVpiUlh5cXZTbGF0WEV3RmtpNkZuYzRNUnBNbGtBOTdtV1NXZ1RpTXFhangxY0JkeWpNcnJzOGZZ?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T13:10:15+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Upcoming"
-],
-"title": "Dave Chappelle and Michael B. Jordan Surprise Fans During Druski's SNL Hosting Debut"
-},
 "9b392559d7f8": {
 "first_seen": "2026-11-10T17:30:13+00:00",
 "id": "9b392559d7f8",
@@ -30558,28 +29086,6 @@
 "tags": [],
 "title": "Frankie Muniz Hospitalized Following Race Car Crash at Daytona"
 },
-"9dede7d6d575": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "9dede7d6d575",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40dW1QU202U2RjWE9PR1dfU2c1a0dBR205STBPX0RmbkZ0M3VoZ2thNGlUajFqbF95RzduUmJzREdjdE1VTmpReTNhbUJMbTFtM0JodDVlakhXX19jRENRUG5sVkdDdzdBM3dXV1F2dmFSaDZQd1pV?oc=5",
-"outlet": "Entertainment Weekly",
-"people": [],
-"published": "2026-11-08T21:48:34+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Texas senator-elect James Talarico surprises with ‘SNL’ cameo"
-},
 "9df848f6a13f": {
 "first_seen": "2026-11-09T17:30:11+00:00",
 "id": "9df848f6a13f",
@@ -30822,27 +29328,6 @@
 "summary": "",
 "tags": [],
 "title": "Amanda Seyfried to Host SNL With Don Toliver as Musical Guest"
-},
-"9f6c87198301": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "9f6c87198301",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=p4a3_cFy2-M",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T05:21:11+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "Jimmy, Robert De Niro, Ben Stiller and Ariana Grande show a clip from their soap opera \"My Family's Money,\" where the director loved dramatic slow claps a little too much. The Tonight Show Starring Jimmy Fallon.",
-"tags": [],
-"title": "Slow Clap Soap Opera with Robert De Niro, Ben Stiller and Ariana Grande | The Tonight Show"
 },
 "9f7f94160dbf": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -31252,29 +29737,6 @@
 "tags": [],
 "title": "Kristen Bell, Idina Menzel, Josh Gad & Jonathan Groff To Reprise ‘Frozen’ Roles In Nat Geo/Disney Animation Series"
 },
-"a1bd90e59c60": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a1bd90e59c60",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsb2JWcm54dndNcmpuRjFYR214MVo0NGtoMEdmOEpJRUNmMGhTcVhKTW1Wb01UdFRESEozUEY0V0lsNjNaMFhiQXV2eFZ5clZ0UmRnTnhYdW1TcFVfZzAyWFN4alhQZnVOYkdvTldjeVhyVERQX0E?oc=5",
-"outlet": "Collider",
-"people": [],
-"published": "2026-11-09T00:54:00+00:00",
-"query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Seinfeld",
-"Schitt's Creek"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Seinfeld’ Meets ‘Schitt’s Creek’ in BritBox’s Near-Perfect British Series"
-},
 "a1d30c3af332": {
 "first_seen": "2026-11-11T06:30:12+00:00",
 "id": "a1d30c3af332",
@@ -31542,27 +30004,6 @@
 "summary": "",
 "tags": [],
 "title": "‘SNL’ Weekend Update Mocks Donald Trump’s Response to Faa Ground Stop"
-},
-"a2cf3a7dc0ae": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a2cf3a7dc0ae",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/VCcfjWIK8gE",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T03:50:37+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "#Trump has fired his chief of staff Susie Wiles. #FallonTonight"
 },
 "a2f2762a68dd": {
 "first_seen": "2026-11-10T17:30:13+00:00",
@@ -31845,28 +30286,6 @@
 ],
 "title": "‘Elsbeth’ Is Ready to Play a ‘Ted Lasso’ Star’s Game in First Look at This Week’s New Episode"
 },
-"a4423269406f": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a4423269406f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTkh0clo2SkVybE9xQ0hSdkJkYjBBemJuUnY5M1lVV2Y2NGpGcnE1S3JtS0RPdnZVQjBTQ3lnc0UzOWRWV3VFRHZZVHMxc3FTLVFqUzdNRHBXY2FxY2VvX1MySUR6VUN3V3Bkd1FyUFBWZk5MVDVYRUU0TG16MzE2UkgzTWVjQ2lON1RqTU14SQ?oc=5",
-"outlet": "Deadline",
-"people": [],
-"published": "2026-11-08T21:32:00+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘SNL’ Pays Tribute To Susan Saint James With Title Card"
-},
 "a47b5510e743": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -31981,28 +30400,6 @@
 "tags": [],
 "title": "Jason Segel Is Married to Kayla Radomski!"
 },
-"a4e78eeb8f77": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a4e78eeb8f77",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOU2RHZlhYNjhfVU9wMVBFbzlfQ3ZYemNmX0VHeHJMZGZRX3F1RnB2QUFlbnV3TVVCTGViOURhX2FhV2pSUWJpdHhSZDNPY2U4Z0FlUS13NHp5MFk4VlkwQzdoVGtiN2Q0Y0J1NWU0U1FSSmhZMmVvc1pSU21ndzJGRElOdw?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-08T19:32:35+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Emma Stone Surprises Fans in Druski's SNL Monologue to Promote Their Movie 'The Catch'"
-},
 "a4e973252d5b": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "a4e973252d5b",
@@ -32048,46 +30445,6 @@
 "Upcoming"
 ],
 "title": "Amanda Seyfried to Make Her Debut as ‘Saturday Night Live’ Host"
-},
-"a579a525c66c": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "a579a525c66c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOEp3bHlhU2hPRDUtQVd6UWQ5cFFCQWk2YThScXVscW0yd3QxR0tuMlBiVi1UTmdXQUt4aXlKVHpsck04T2J5TGVQZ0l4MDZFWHJKTEhIdmgyNDliMnFpcVZVZmFxb3JfbGdwbG9COTkxZmN1dG00QmV2V2hYRGdEU014QXhMeW1uTnRWX2ZkYWJKRDVQNm9RSmV5bkRKWnByV0Z3LWJ3?oc=5",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-08T22:44:00+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Dave Chappelle’s Charlie Kirk Joke Prompts Response from Erika Kirk: Using the ‘Destruction of a Human Life’ as a ‘Punchline Is Beyond Disgusting’"
-},
-"a580047c4baf": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "a580047c4baf",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdFpLaUtLbkJHZ2F6Mm5hczhULTlfeWlESUdwRjBIV1RDeGN1SEJjMjh2WTNUTjZFeV9FVk9YYnQ2eloxZ2RjQlF4YV8tT1dLRXBfekhQVm83UW9ESmtuODFaUnlaelZlYVhtOEZCd0RBTjJ3ZjFRam5idmJKcFdxTkU1b3NnWTFxd3NfZkpFZw?oc=5",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-09T09:25:00+00:00",
-"query": "sitcom",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Quote Of The Day By Sally Field: 'I Worked So Hard To Get Out Of Television. People Wouldn't Let Me...'"
 },
 "a581326dbd37": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -32762,30 +31119,6 @@
 "tags": [],
 "title": "Michael Urie, Raven-Symoné, Dan Bucatinsky, and Michael Feinstein to receive honor at wayOUT Gayla"
 },
-"a907c855d3f7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a907c855d3f7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE55RHZDLWVITEpkdG82c28zcWZSbG1fSzVmNkhuTFFWZngxZHdadnpfWTRBLWUwZ1lGdzdocGJRRXRlcFhoWWgyNHZZOHBCMS1UOWc?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T18:18:41+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Cancel/End"
-],
-"title": "Nobody Wants This Season 4: Has Netflix Cancelled the Show After That Wedding Finale?"
-},
 "a9329e46e3a1": {
 "channel_kind": "talk",
 "first_seen": "2026-11-11T17:30:11+00:00",
@@ -32917,28 +31250,6 @@
 "summary": "",
 "tags": [],
 "title": "Shane Gillis promised ‘no controversy’ in “SNL” monologue ahead of backlash to joke about women’s gym attire"
-},
-"a9c78ab8bedc": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "a9c78ab8bedc",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX1VIYm1RWDFQODBNa3M2NW5TMW9jY1laVzdxM3l4ZWRlUFFWWGxDVkdfYXJqWDIyT3VaLU1BZVNyaHBUeXFGVkJaUVVWdkNud09Wc1dQVVZjbFQxdWxEaHBORG1nd1JLcEV5UWg5MVE5LTdaZ1B3UTJsTnhQTVVVdGZnWUxCNTFDRWFRSEZqQW5zczZfX3R0LWkzZnNrYWR4RnZmdg?oc=5",
-"outlet": "Cinemablend",
-"people": [],
-"published": "2026-11-08T22:33:59+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Chris Rock Wasn’t The Only A-List Celebrity To Show Up To Support Druski On SNL"
 },
 "a9c913cad423": {
 "first_seen": "2026-11-13T06:30:14+00:00",
@@ -34637,31 +32948,6 @@
 ],
 "title": "Anthony Clark, Stand-Up Comic and ‘Yes, Dear’ Star, Dead at 62"
 },
-"b3674b71433c": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "b3674b71433c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jT0ZDLUxjYWVxSFc5UE8zdW9XWXlXQk5iZFF1UURRN0w5TTZZYmlxOUV0SldnWEktczFtQ1hIZ3VIVXM3b3dJQ3hOWExiY3NHX2dpelhsYjNOVHdTZ2ozd3BobmNoZEpDakZVX2kwOTk0c0hvaTF5SUpDQ0wxMTA?oc=5",
-"outlet": "Yahoo News UK",
-"people": [],
-"published": "2026-11-08T22:24:21+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"M*A*S*H"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Exit",
-"Interview"
-],
-"title": "Wayne Rogers Explains His Departure from M*A*S*H Due to Controversial Morals Clause"
-},
 "b3a417d033d5": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "b3a417d033d5",
@@ -34875,28 +33161,6 @@
 "tags": [],
 "title": "‘One Last Shot’: Tisha Campbell Shares Heartbreaking Inspiration Behind Powerful Lifetime Movie"
 },
-"b48280f21c71": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "b48280f21c71",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RZ2l6TGd5N1N4X0pxUlZWZVFnd0JDdFAySDhxRHNiWlEzU3l6V0YwVUhoNm5Hc2xZR2x4akd5QWFyRG9BaGptc3BZSWN2bWtzRUNOc0pJa3dDLTdWSFowWFZnMjlLZ2c?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T05:16:34+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "Alan Ritchson Returns to Prime Video in Trailer for Next Month's New Action Movie"
-},
 "b4bcd98bc4ad": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "b4bcd98bc4ad",
@@ -34939,28 +33203,6 @@
 "tags": [],
 "title": "'Daily Show's Desi Lydic reacts to Nvidia CEO Jensen Huang allegedly having 3 affairs"
 },
-"b4c9d8622c44": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "b4c9d8622c44",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSGt5MnZqZHByNUV0aGtMTEVBazE0TFZWMmRXdHhHbG5DVzhkMWo4Y1ByZFpxS2VnNDhtX0psYjQzX0tjNko3M0N4Y2s2N2JONXFvV0JKN1doMENaWmFDMnAzcDZKbVBTWkxXaDBmWjZkSWhPeUdqV19STktLemhBSmxuVHp6TUVrRXZqcGZnQ2VaQlUtLU0ya21ZUGpzVmNSc0dzT2NR?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-08T22:16:48+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "SpongeBob SquarePants: Trailer - Merry Christmas Mr. Plankton"
-},
 "b4f084f08f9e": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "b4f084f08f9e",
@@ -34982,30 +33224,6 @@
 "summary": "",
 "tags": [],
 "title": "How ‘That ’70s Show’ changed Wilmer Valderrama’s family’s life"
-},
-"b52e7d3d7e31": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "b52e7d3d7e31",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcWZWekZqQ1dfZzJ3MDFFdFRCZWdsU1pBcFhTbk16aGJtMHl1NXRlNVFkTU9uZ2lXNThNME51UmJzR0RfR3VOblJrTVNOQWZ2ME1lZ293cE1MdFBCcjR1SVhUc3JUdWU2UTBaTGNid3BDa0tjQXg0S2drYzdDQ1ZVVHZQd0FHUEI3clUzY1BRWGFsUWNXZkFUSktQNGtKTm84Y2pFc3FB?oc=5",
-"outlet": "Yahoo",
-"people": [
-"John Stamos"
-],
-"published": "2026-11-09T02:30:00+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "John Stamos Says His 8-Year-Old Son Pulls Out His Nose Hairs as Part of Their Bedtime Routine"
 },
 "b541ee57765b": {
 "channel_kind": "streamer",
@@ -35224,30 +33442,6 @@
 "summary": "",
 "tags": [],
 "title": "'Malcolm in the Middle' Star Frankie Muniz Offers Health Update After Major Accident"
-},
-"b6c8b1cf0b49": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "b6c8b1cf0b49",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jNXlycC1KNFAtUUpidjdhbmxYZFdFSjJnbEhXX1JMdFI5WEZqN1NzZDJGamtMTzc5RkpFSzh4RG5ZZ2R2OEZjbEVaR3ZsX3hnOWdvdWdnVm41WVJ0WVdaRzJOM01JelE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T21:38:41+00:00",
-"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Shoresy"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival"
-],
-"title": "Hulu Officially Announces New 'Shoresy' Spin-Off Ahead of Season 6"
 },
 "b6c9ea5129aa": {
 "channel_kind": "talk",
@@ -35524,28 +33718,6 @@
 "summary": "",
 "tags": [],
 "title": "Charlie Sheen Highly Encourages Two & Half Men Reunion In His New Series"
-},
-"b8087913fc8b": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "b8087913fc8b",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oYjNKTnc0MldEVnVXZXV0ekptai0zWlZyc25VQW9xZkV6bXNlcjdnQ20zd18tZnk4S0ltOGx5cl9Na1FOdTVVNEM4TmRrWkRoUVFuMW1LU2RlX0NkeTFEeDM0T19IUQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T05:07:42+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "The Great Indian Kapil Show: Comedy ka 2X Dose on Kapil's Finale - Promo"
 },
 "b81736bc7983": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -35878,24 +34050,6 @@
 "tags": [],
 "title": "John Mulaney's Latest SNL Musical Brings Back Bowen Yang As Mary Todd Lincoln, Plus Ashley Padilla's Kathy"
 },
-"ba40aa458719": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "ba40aa458719",
-"kind": "article",
-"link": "https://www.tvline.com/2305004/mary-tyler-moore-star-two-hit-sitcoms-with-an-all-star-cast/",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-08T22:12:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": true,
-"source_type": "direct",
-"strong": true,
-"summary": "Mary Tyler Moore will always be remembered as an icon of television, and she was surrounded by other titans as well. Her sitcoms frequently had A-list casts.",
-"tags": [],
-"title": "Mary Tyler Moore Starred In Two Hit Sitcoms With An All Star Cast"
-},
 "ba7bc8057f54": {
 "first_seen": "2026-11-11T17:30:11+00:00",
 "id": "ba7bc8057f54",
@@ -35937,28 +34091,6 @@
 "Renewal"
 ],
 "title": "‘Adults’ Renewed For Season 3 At FX"
-},
-"babd548bf1ad": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "babd548bf1ad",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHhrR29qNmRzd2RZMDMyMzFkMUowczZScHNHdF9Zd1NfU19fT19jekR2THJzRXJkZEh0UWtvZWRtOFlzandrMmFEamxRbUJnV2E0Zk5SVlotRW5KRTVsRW1kRVo0M0VfWkVRRnVSQXBvMnh1MXhzN0FXMnpQM0lKM2ZqcWhOb2pLQkx1blQzQTZITDRHa2JmbWdoaUlPdEk?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-09T03:45:00+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Nobody Wants This’: Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss"
 },
 "bad08fec823a": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -37412,25 +35544,6 @@
 ],
 "title": "Dax Shepard Addresses Narrative He’s ‘Controlling’ & ‘Abusive’ in Marriage to Kristen Bell"
 },
-"c325a3d6e69c": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "c325a3d6e69c",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/7ZEhhCS5XJs",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-08T23:10:30+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Talk about a perfect fit! Kylie Jenner stuns at the LACMA Art+Film Gala.",
-"tags": [],
-"title": "Kylie Jenner Stuns at the LACMA Art+Film Gala"
-},
 "c3481b37e493": {
 "first_seen": "2026-11-11T17:30:11+00:00",
 "id": "c3481b37e493",
@@ -37746,25 +35859,6 @@
 "Death"
 ],
 "title": "Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
-},
-"c4c689fe53ad": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "c4c689fe53ad",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/EnAAnil-llY",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-09T00:15:17+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Salma Hayek brings the heat in a stunning red look at the LACMA Art+Film Gala! ❤️",
-"tags": [],
-"title": "Salma Hayek Brings the Heat in Red at The LACMA Art+Film Gala"
 },
 "c4c73f473fd7": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -38316,28 +36410,6 @@
 "tags": [],
 "title": "James and Ruby Find Their Way Back to Each Other | Maxton Hall Season 1 | Clip | Prime Video"
 },
-"c803d511b0c9": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "c803d511b0c9",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MNlE0azRYcG52RzJKMnMwTlBzcXhoUVBSUHB5YjNkendtYThwa0hkLVFLMkhQQ0oxTjM5cEgzVTlyOWt5cnIwQWRXeWtfdHdST0xtRC1wRHE0bGtibjdPMQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T07:07:30+00:00",
-"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Nobody Wants This’: Timothy Simons and Justine Lupe break down Sasha and Morgan’s long-awaited kiss"
-},
 "c868b65dd302": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "c868b65dd302",
@@ -38469,28 +36541,6 @@
 "summary": "",
 "tags": [],
 "title": "Frankie Muniz Shares Health Update After Daytona Racing Crash"
-},
-"c9065ac632c8": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "c9065ac632c8",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qekNXX0FuMGNBcWdxTEdVbERsYnRZeXRuWG5CaTFCX1FWbTdVN2ptMHNsRENveEc0dGU3YXc4UXpubWNZdWotSUZIbkZFRDc2RWdFbC1kdGE5UkI4VjdEMFB2ZzN1QQ?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T00:44:45+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "Maya Jama Exits ‘Love Island UK’ as Host, Releases Statement About Her Decision to Step Down"
 },
 "c90f559246b4": {
 "channel_kind": "streamer",
@@ -38971,28 +37021,6 @@
 ],
 "title": "The Rockford Files Reboot Starring David Boreanaz Gets Special Post-nfl Premiere On NBC"
 },
-"cacb935e9395": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "cacb935e9395",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aMEVWcnFYaFFBLXR1TDdtYlpoenZzckNJaURwS2hPb1RGcHRCWXJfRHZ3Tnp2QnNXOWlISExJeS05ZzdZZ3lPTEo5U2Y2di1veVE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T15:52:42+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Nobody Wants This’ Season 3 Opens With 6.2 Million Views in Four Days"
-},
 "cad197169d54": {
 "first_seen": "2026-11-10T17:30:13+00:00",
 "id": "cad197169d54",
@@ -39035,6 +37063,26 @@
 "summary": "Lucifer 🤝 Listening. Hazbin Hotel is now streaming on Prime Video. About Hazbin Hotel: Charlie Morningstar, the Princess of Hell, struggles to convince demons and angels alike that any soul can be redeemed.",
 "tags": [],
 "title": "Well, that's a way to start the conversation... #HazbinHotel #LuciferMorningstar #PrimeVideo"
+},
+"cae940544dc6": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "cae940544dc6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN09rQUxGaS1SWkpIX1cxZUs3VXQtTXNqVi1QWE1rTVZNcHZIaGV3cTRDU3JERFhjSGxpalF0Q2Izd0VieVlvemtrVEpYMXBpQkVhWllBTm94b1hJZUIxd0ZRQUZCLTdELUVSZ1M1Z1FSaFJHYjFYbzY1M2xyUU1CYVVmVWMxQWNLY3R0NnhZaGozSUc5eHdwNklCSnBQRk9UbGNPRmRRMml5Y3ZpQnJDTFEyUEo2eUwzMzZOXzJYS3lHbGc?oc=5",
+"outlet": "NBC News",
+"people": [],
+"published": "2026-11-15T16:23:45+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Russell Brand and David Walliams scandals provoke a reckoning for British media"
 },
 "caf24022c729": {
 "first_seen": "2026-11-16T06:30:10+00:00",
@@ -39797,29 +37845,6 @@
 ],
 "title": "Will Ferrell Interrupts Andy Richter’s Interview About His New Elf Book"
 },
-"cf17b46ad652": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "cf17b46ad652",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=LtS4lur6unc",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T05:11:06+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Robert De Niro, Ben Stiller and Ariana Grande talk about Meet the Parents, welcoming Ariana to the cast for Focker-In-Law and filming an intense scene involving the Heimlich maneuver. The Tonight Show Starring Jimmy Fallon.",
-"tags": [
-"Interview"
-],
-"title": "Robert De Niro, Ben Stiller and Ariana Grande Talk Focker In-Law and Intense Heimlich Maneuver Scene"
-},
 "cf2a5fd22189": {
 "first_seen": "2026-11-14T17:30:12+00:00",
 "id": "cf2a5fd22189",
@@ -40466,28 +38491,6 @@
 "tags": [],
 "title": "this saturdayyyy!"
 },
-"d2ac70de58e7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d2ac70de58e7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSWRKQW1tRTlVZ3NmUmRXcTItMHlKR3FKNW5IRjFIR0lad09XS3RfT1MwTk9MZTA1ZEI1R0JlUnN1UVZMWUVlLTlGWmdod2hobXhsVDVaclpKcmVkSDlaR01EaUNvaVVld1NGbGs1bHVGVTFwdF9oWktHeGMtQ3NOLVdUNU5nbl9C?oc=5",
-"outlet": "Billboard",
-"people": [],
-"published": "2026-11-08T23:18:40+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Druski’s Best ‘SNL’ Sketches Had Him Singing Through a Proposal Gone Wrong & In a Hip-Hop Parody"
-},
 "d2f368e2a4e1": {
 "first_seen": "2026-11-13T06:30:14+00:00",
 "id": "d2f368e2a4e1",
@@ -40756,6 +38759,26 @@
 ],
 "title": "'Jurassic Park' actor Sam Neill dies at 78"
 },
+"d3ba4abf2832": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "d3ba4abf2832",
+"kind": "article",
+"link": "https://variety.com/2026/tv/global/hunting-alice-bell-online-sleuthing-1236946862/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-16T11:58:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "“Hunting Alice Bell” is a new thriller about the dangers of online sleuthing from an unusual source. Co-created by comedian David Baddiel and The Guardian’s long-time TV critic Peter Bradshaw, it tells the story of five women who find themselves the target of some of the internet’s most toxic...",
+"tags": [
+"Interview"
+],
+"title": "‘Hunting Alice Bell’ Showrunner Says Simon Pegg Thriller Highlights Dangers of Online Sleuthing: It ‘Can Happen to Anyone’"
+},
 "d3bf2b9c993c": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -40933,28 +38956,6 @@
 "tags": [],
 "title": "Shane Gillis Breaks His Silence on Backlash Over Controversial ‘Saturday Night Live’ Monologue"
 },
-"d4daf20d5837": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "d4daf20d5837",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MakIzMURsMkpESDZqemFFMk9LVVQ0OFpwUUQ1SU5pX1NrQWVhSng2QjhjWE9KWC1VQmFpeFFJSzNleENRYUdsaERyZl9sR3VvbzRDUXVDQmxlNmEyaDhHelJ5aVBsZW9WVjJjM2xNcDlaaWFRWDhQbVdicVBQdzA?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-09T08:56:12+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "“This is just a political hit job”: Stephen Miller’s wife defends Elon Musk over SNL Joke"
-},
 "d50bd3636adc": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -41017,28 +39018,6 @@
 "Interview"
 ],
 "title": "Melissa Joan Hart explains why she kept working while sick on Sabrina the Teenage Witch : ‘I was warned’"
-},
-"d589e3d51e7a": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d589e3d51e7a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CaWFnZnJ5ZlNLSVJKNGtFbkNxd0JMeERzU1Rma1VjZnVEVzJHaUJ4OU9TcjJXUDN0d014OWx5SmNhUlJwSER0a18zUlIwQnhmR1E?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T16:54:33+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "‘Nobody Wants This’ Creator Teases “Pivotal & Important” Role Written For Dax Shepard"
 },
 "d5b1aba85a49": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -41107,25 +39086,6 @@
 "summary": "",
 "tags": [],
 "title": "SNL 52: Bowen Yang makes surprise return as Jensen Huang in cold open"
-},
-"d5ed79a6fc51": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d5ed79a6fc51",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=t5OV70jkY5U",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-09T00:00:15+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "David O. Russell offers an update on his Selena Gomez-led Linda Ronstadt biopic while chatting with ET's Kevin Frazier at the premiere of his new film, 'Madden,' before it streams globally on Prime Video and hits select theaters on Nov.",
-"tags": [],
-"title": "David O. Russell Shares Update on Selena Gomez's Linda Ronstadt Biopic (Exclusive)"
 },
 "d5eef1af5fa1": {
 "channel_kind": "talk",
@@ -41408,28 +39368,6 @@
 "tags": [],
 "title": "One Of Jennifer Aniston's Favorite Friends Moments Involved Guest Star Ben Stiller"
 },
-"d7d6d2c0c128": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d7d6d2c0c128",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNUt0STdYeFF4WnlhcjdJOVktUmZTNTE1YzhXR1J4MEVkM3pQajVkRzEzaXV1SUxVSzZSTi1kWTZYd3hBZWxzNjI4a2h2cnpXc3prUUhkZHhFaXc1bTZHWVdmZUczaFl3Vnl0OS0xZFBpNTlneWtUYmVGVTZKREZTNXhtRWpqQVpsUGx3QldrR1lwekVCdktsd3ItSTQtSHJCMjBhUzVMeW5VY3g3aDhRWlNJVXg?oc=5",
-"outlet": "Rolling Stone",
-"people": [],
-"published": "2026-11-09T07:49:16+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Watch Ariana Grande, Ben Stiller, Robert De Niro Take Over ‘The Tonight Show’"
-},
 "d7fb3525490c": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "d7fb3525490c",
@@ -41451,28 +39389,6 @@
 "summary": "",
 "tags": [],
 "title": "‘WTF?’ SNL Fans Don’t Know Whether To Laugh Or Cry At Sketch That Hit Way Too Close To Home"
-},
-"d819eebbe10f": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d819eebbe10f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VNlVGWmJmemVZLVNJM000MEhUUko2djduYWhBcEFiUGxjWl9BU0RTbXd1M1BuNFV4SUtmUldIcGtERnQ0RE1jdE42RzlPNXJzeENubk5yMzdtQWlnOGxMcXlLV1Z2dw?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T02:53:22+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "SNL Cold Open: James Talarico Interrupts Trump’s Rant"
 },
 "d8318801740e": {
 "first_seen": "2026-11-13T17:30:12+00:00",
@@ -41580,30 +39496,6 @@
 "tags": [],
 "title": "Pet Tarot Readings, Designer Collars & Doggy BBLs? Lewis Black on Pampered Pets | The Daily Show"
 },
-"d88993fa9482": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d88993fa9482",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaVp2WUQxYkc1UFdOUHZ3T3I3ajl3RHlEaE1heDhqRjNRNEZuWGpBWVdoNXdOTDV5bV9ZdHRoLVhnbjNLZ010SE5sTlNsNWtOU1Jfb215ZUFvRTR1QlY4dkY0Y0oyN05aS3VFWm00SERCNlFadk11UHNmZWVsd0NmbjBSMDBYSFk?oc=5",
-"outlet": "AOL.com",
-"people": [
-"Bryan Cranston"
-],
-"published": "2026-11-08T19:35:22+00:00",
-"query": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Malcolm in the Middle"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Bryan Cranston Might Have Missed Breaking Bad if Malcolm in the Middle Lasted Longer"
-},
 "d8b03786153c": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "d8b03786153c",
@@ -41674,29 +39566,6 @@
 "summary": "",
 "tags": [],
 "title": "'South Park' Taunts 'Helpless Loser' Trump And MAGA Hysteria With NSFW Midterms Assembly"
-},
-"d90858159cb1": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d90858159cb1",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MN19jaFhWZml1TVNaQWdvVnFXZnFSWk5CTnluN3Z5LVpKZjNyZVpHNEVqRWNwY25pNV9LZnAtcjBMTDZlWk1FUWpTaENKRkJWbmVjV1RtRHktQVJDMlFIdnBOb25wd1E?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T21:40:36+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Revival",
-"Upcoming"
-],
-"title": "David Boreanaz's '70s Crime Classic Reboot 'Rockford Files' Officially Confirms Release Date"
 },
 "d90b4c21dd83": {
 "first_seen": "2026-11-09T16:30:11+00:00",
@@ -41894,31 +39763,6 @@
 "summary": "",
 "tags": [],
 "title": "Parker Posey Tears Up Remembering Doing ‘A Mighty Wind’ With Catherine O’Hara and Eugene Levy: ‘So Much Love There’"
-},
-"d9c6d4877f8a": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "d9c6d4877f8a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTWwzVnlQZFcyTkJJWXo5S3JmT2JFUGQ5NzlSWWFUdXpMTlhWWDM1Zk02MUVIdFZyV25YanVFMUF6bXhUTHlxRWtSRFNRRWc2UEl1bDhUb1E2M09xcXRKSkFHQV96WW15VDJ2Z0VQTXExczhnWmRzcTJCemx3cHdiWGpR?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-08T20:12:00+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Happy Days"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival",
-"Interview"
-],
-"title": "Henry Winkler Reveals Why He Turned Down a Fonzie-Themed ‘Happy Days’ Spinoff"
 },
 "d9da0460977f": {
 "first_seen": "2026-11-11T17:30:11+00:00",
@@ -42253,26 +40097,6 @@
 ],
 "title": "Toukie Smith, model and actor known for her role on ‘227,’ dies at 74"
 },
-"dbe0fa7bae57": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "dbe0fa7bae57",
-"kind": "article",
-"link": "https://variety.com/2026/tv/markets-festivals/cheers-showrunner-estin-banachek-psychic-predators-afm-1236941946/",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-09T00:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Taxi"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Two-time Emmy winner Ken Estin, showrunner of “Taxi” and “Cheers,” is steering “Psychic Predators,” a paranormal dramatic comedy starring mentalist Banachek as himself.",
-"tags": [],
-"title": "‘Cheers,’ ‘Taxi’ Showrunner Ken Estin and Mentalist Banachek Take Psychic Fraud Series ‘Psychic Predators’ From Taiwan Creative Content Fest to American Film Market (EXCLUSIVE)"
-},
 "dbf725c86fb3": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "dbf725c86fb3",
@@ -42578,28 +40402,6 @@
 "Renewal"
 ],
 "title": "Ted Lasso Smashes Apple TV Viewership Record Amid Season 5 Renewal Wait"
-},
-"dd7b5cbedfac": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "dd7b5cbedfac",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQX3NxTmo2ejQ5QkliWWNaRE1oUDVlUVo4QWJnT0t4Z2ZWN0RrR1RMdS1yWk56U3dPbTdtQVJBVVJ4OHhsN3lTVXprYUJmUGk2Um1nR0dnYlNCYldjUDg4ZG83Sl81dHlRN2NlMnQ0ZkdTdGtQQThaMHJEcGhrQURBSWFRLU0zZUFTbmpz?oc=5",
-"outlet": "Yahoo Sports",
-"people": [],
-"published": "2026-11-08T21:26:42+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Indiana Fever React to Caitlin Clark's Moment on 'The Tonight Show'"
 },
 "dd9d1cb9fdc3": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -42949,28 +40751,6 @@
 "tags": [],
 "title": "Frankie Muniz Hospitalized After Crashing Race Car at Daytona"
 },
-"deeafdc5f81c": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "deeafdc5f81c",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE53QjlFQ3J2aHdFb1FySndLVE1PaHJnS2V2RTFCakcydFFYeE10bVdpTTVqN0Q0VjNCc0hocXdJaTI1bTFPWGpYekdDS0RNUnpKX2Rtdjl6bHZRZTh0aWFwSGUyeENVdw?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T00:04:04+00:00",
-"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Celebs Flock to Druski’s ‘SNL’: Michael B. Jordan, Austin Butler, Chris Rock, Dave Chappelle Crash Goodnights"
-},
 "df7659754058": {
 "channel_kind": "talk",
 "first_seen": "2026-11-13T17:30:12+00:00",
@@ -42989,28 +40769,6 @@
 "summary": "",
 "tags": [],
 "title": "Trump claims there will be no Christmas 😳 #ACloserLook"
-},
-"df8641a42a20": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "df8641a42a20",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10ZmpnQU82OWRzbGlCajhScjF6eVFud3ZWT1JpemszbHh0VHFQelMxam9VZmhvRTNRbHJtTGRNV2JySGpUUGNYQUxjWXhjaEpxWnEzdllRVy1uc3VKMzNTVUVPaG9Mb1E?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T22:10:11+00:00",
-"query": "sitcom trailer OR \"comedy series\" trailer",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Trailer"
-],
-"title": "Percy Jackson Season 3 Official Trailer Shows Off Star-Studded New Cast"
 },
 "df873d5fb468": {
 "first_seen": "2026-11-10T06:30:11+00:00",
@@ -43294,28 +41052,6 @@
 "tags": [],
 "title": "Frankie Muniz Released from Hospital After Crash at Daytona Speedway, Speaks Out in New Statement"
 },
-"e122c591517a": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "e122c591517a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN21SNnRudlVidkxEdXVRbDIyMGVXOXRndmMzdkFOMlBwblR2MHpQZ1BPek03YkRvV1BLaXY3ck1mTDRpZ0IyZ1BsVmFwaUNMajF3c0NrWnphV3ZCYTJKOGo2cGpYeVU3RWdJV2ZwLXBQaEFNOVM4Zl9uR1F3V05XWUFvNA?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T01:20:52+00:00",
-"query": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Sabrina the Teenage Witch"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Sabrina the Teenage Witch (1996)"
-},
 "e134710fe1a7": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "e134710fe1a7",
@@ -43532,28 +41268,6 @@
 ],
 "title": "‘Boy Meets World’ star Ben Savage had ‘teenager’ energy on spinoff set, book claims"
 },
-"e2d6bbf6f0f2": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "e2d6bbf6f0f2",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Vb3NmVXVkSjd5QTFJNzBCYlVjZW00NnFWdkM1NTdpSE5iUFhDMTVFYTVqa0cxRGNXOHhEbmlacTFjWjB1TXdvOVlkYVYyOFdnNV95RTc4YmplcVdBcEw3dEs2dnNwblZNVkE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-08T23:25:16+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "‘Chicago P.D.’ Season 14 Cast Shakeup: 1 Major Star Exits, 2 New Actors Join & 6 Stars Return"
-},
 "e315145fd4d1": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "e315145fd4d1",
@@ -43615,26 +41329,6 @@
 "Death"
 ],
 "title": "Stacy Keach, actor known for playing detective Mike Hammer, dies at 85"
-},
-"e370f4a4b1ac": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "e370f4a4b1ac",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBib1RJWmlFWExOTC1CQ2h1R3BuNFlRVDdNUFBaekNWX1FHZXJkcVhFMVZmWjRpdkgzWmc1MTZuLTlLWmh3RzRHVV92Szl3aGw2dFlHdHE4TE4xTXFoSnNfR2JsVThOQmJkQ19zTmFGdjAtMkw2REJUUE1Xbw?oc=5",
-"outlet": "ScreenRant",
-"people": [],
-"published": "2026-11-09T03:04:00+00:00",
-"query": "\"comedy series\"",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Netflix Officially Hits Rare Rotten Tomatoes Streak With Returning Comedy Series"
 },
 "e38ba6000091": {
 "first_seen": "2026-11-13T06:30:14+00:00",
@@ -44454,30 +42148,6 @@
 "summary": "",
 "tags": [],
 "title": "The Daily Show (1996)"
-},
-"e85e67e82032": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "e85e67e82032",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UNTFVNF9TRi0xOGU2dUZBa1NwcWhZTlA5ZU5zX3dHQzc1em1GR0d1QmZiekp4VmRURnNNZ3o2TXllcXJ1U1JTOFpNWVZ5Ykc5eEJpa3dTRUt4M1N3cWpQeWh3?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T01:51:33+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Simpsons"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Upcoming"
-],
-"title": "‘The Simpsons’ Season 38 Episode 7 Release Date, Time, Where to Watch and Preview"
 },
 "e882a356bcb7": {
 "first_seen": "2026-11-11T19:30:10+00:00",
@@ -45510,26 +43180,6 @@
 "tags": [],
 "title": "The Tonight Show Starring Jimmy Fallon: Kieran Culkin, Julia Garner"
 },
-"ed564c992a0a": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "ed564c992a0a",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fLWJoQmVhbVQtN0dUOUxQc0xodEZNRjRZVVQyWkhZcjVfQ3Q5TkxZUnd0OGdFc3hTVjdpMndIYmhiS3VXMEs3dGdPZkFVQmNNWURIUFdlZEJHWmhyb2JZa0NoNDU2eU0?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-09T04:28:46+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Forget 'Slow Horses', the Next Best British Spy Thriller Officially Arrives This Month"
-},
 "ed7d8ab40591": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "ed7d8ab40591",
@@ -46183,6 +43833,24 @@
 "tags": [],
 "title": "SNL writer's sister vanished, now two suspects face charges"
 },
+"f22af9ca356c": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "f22af9ca356c",
+"kind": "article",
+"link": "https://deadline.com/2026/11/hbo-max-buys-break-clause-channel-4-charly-clive-1237224931/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-16T13:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: HBO Max has bought British flatshare comedy Break Clause starring Samuel Bottomley, Lara Ricote and Rooster’s Charly Clive. The show created by Jess Bray (The Outlaws) and directed by Starstruck’s Alice Snedden follows a couple who break up but are stuck together in a tenancy.",
+"tags": [],
+"title": "HBO Max Buys British Flatshare Comedy ‘Break Clause’ Starring Samuel Bottomley, Lara Ricote & ‘Rooster’s Charly Clive"
+},
 "f241d8a6cd97": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "f241d8a6cd97",
@@ -46610,30 +44278,6 @@
 ],
 "title": "Inside the ‘Hogan’s Heroes’ Cast’s Lives 55 Years After the Show Was Canceled"
 },
-"f42b6ef12dff": {
-"first_seen": "2026-11-09T09:43:13+00:00",
-"id": "f42b6ef12dff",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRTHF5THBaaFhqaFVzLUlkOFM0SXUxQmU0TWttNWhiNk1DbWNtOXlkR2pvTUI4RzBMaFJrOTVHMXpLU2hQQkZDZG9Da01McDhFbFp5LXlZamdjLWM5S0ZJUEk1c3ZfU3c?oc=5",
-"outlet": "IMDb",
-"people": [
-"Hannah Waddingham"
-],
-"published": "2026-11-09T07:14:22+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Ted Lasso"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [],
-"title": "Ted Lasso Season 5 Fate Gets Skeptical Update from Hannah Waddingham"
-},
 "f44583b6e269": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "f44583b6e269",
@@ -46941,30 +44585,6 @@
 "summary": "Well, that was rude. Maxton Hall Season 3 premieres December 9, only on Prime Video. About Maxton Hall: When Ruby (Harriet Herbig-Matten) unwittingly witnesses an explosive secret at Maxton Hall private school, the arrogant millionaire...",
 "tags": [],
 "title": "Ruby & James sneak a kiss. #MaxtonHall #DamianHardung #PrimeVideo"
-},
-"f54a9952db5a": {
-"channel_kind": "outlet",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "f54a9952db5a",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=RB2ybo7zb1s",
-"outlet": "Entertainment Tonight",
-"people": [],
-"published": "2026-11-08T23:30:08+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Saturday Night Live",
-"SNL"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": true,
-"summary": "Druski enlists James Talarico, Emma Stone, Chris Rock and more famous faces for his first-ever hosting stint at 'Saturday Night Live.' More from Entertainment Tonight:...",
-"tags": [
-"Upcoming"
-],
-"title": "SNL: James Talarico, Emma Stone and More Crash Druski’s Hosting Debut"
 },
 "f54f62ff9db6": {
 "first_seen": "2026-11-10T06:30:11+00:00",
@@ -47896,27 +45516,6 @@
 "tags": [],
 "title": "Charlie Sheen Highly Encourages Two & Half Men Reunion In His New Series"
 },
-"f9f4e3042008": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "f9f4e3042008",
-"kind": "video",
-"link": "https://www.youtube.com/watch?v=En4fD03PNCM",
-"outlet": "The Tonight Show Starring Jimmy Fallon",
-"people": [],
-"published": "2026-11-09T04:44:02+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Tonight Show"
-],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "Robert De Niro, Ben Stiller and Ariana Grande interrupt Jimmy's monologue to help him get in the holiday spirit. The Tonight Show Starring Jimmy Fallon.",
-"tags": [],
-"title": "Robert De Niro, Ben Stiller and Ariana Grande Interrupt Jimmy's Monologue with Christmas Cheer"
-},
 "f9f95eac48ce": {
 "first_seen": "2026-11-13T17:30:12+00:00",
 "id": "f9f95eac48ce",
@@ -47960,25 +45559,6 @@
 "summary": "",
 "tags": [],
 "title": "A dark 'Sabrina the Teenage Witch' TV show is in the works at The CW"
-},
-"fa1e1c3f13a0": {
-"channel_kind": "talk",
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "fa1e1c3f13a0",
-"kind": "video",
-"link": "https://www.youtube.com/shorts/cyrz-HixQfU",
-"outlet": "The Daily Show",
-"people": [],
-"published": "2026-11-09T07:00:34+00:00",
-"rehash": false,
-"relevant": false,
-"shows": [],
-"sitcom": false,
-"source_type": "youtube",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Min Jin Lee discusses “American Hagwon,” her novel about a Korean family living in the diaspora"
 },
 "fa38d542f323": {
 "channel_kind": "streamer",
@@ -48366,6 +45946,28 @@
 "summary": "Featuring brand new songs from John Legend, Kamasi Washington, Leon Bridges and Laufey. Snoopy Presents: 12 Days of Snoopy is now streaming on Apple TV.",
 "tags": [],
 "title": "A familiar favorite made enchanting by Laufey. #Snoopy Presents: 12 Days of Snoopy,  Now Streaming"
+},
+"fc00af04801c": {
+"first_seen": "2026-11-16T14:00:14+00:00",
+"id": "fc00af04801c",
+"kind": "article",
+"link": "https://deadline.com/2026/11/bryan-cranston-marianne-jean-baptiste-broadway-all-my-sons-1237223310/",
+"outlet": "Deadline",
+"people": [
+"Bryan Cranston"
+],
+"published": "2026-11-16T13:45:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Director Ivo Van Hove’s acclaimed, Olivier Award-winning West End revival of Arthur Miller’s All My Sons starring Bryan Cranston and Marianne Jean-Baptiste will transfer to Broadway this spring, producers announced today.",
+"tags": [
+"Revival"
+],
+"title": "Bryan Cranston & Marianne Jean-Baptiste Heading To Broadway In Ivo Van Hove’s Acclaimed ‘All My Sons’ Revival"
 },
 "fc0f2059394f": {
 "channel_kind": "talk",
@@ -48873,30 +46475,6 @@
 "summary": "",
 "tags": [],
 "title": "a turkey day tune from tommy brennan"
-},
-"fe779d3a8cd7": {
-"first_seen": "2026-11-09T09:03:04+00:00",
-"id": "fe779d3a8cd7",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdlZYVTFVelZBcXQ0N1RVRDJFRHhxbFFrd1hiNHR6S3BuRHE5MHpNUTYtdWJXOE9lWUVRUXA3TFVfSTNyeDhpbWZtR3A5c2VPSkVVMDQ1X0Jia2F2RE85bjEwbVJsTlJGeFUwY0M5VzVDbndUb2ZOWmItQ2JaQTNFbUl1X2M3NndwaG9JLXZ1MVpNY0xyenc?oc=5",
-"outlet": "Gold Derby",
-"people": [
-"Melissa McCarthy"
-],
-"published": "2026-11-09T02:55:00+00:00",
-"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "Melissa McCarthy admits she judged Patsy Ramsey before playing her"
 },
 "fe9e0c9ac480": {
 "channel_kind": "streamer",
