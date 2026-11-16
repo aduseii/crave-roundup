@@ -6,10 +6,10 @@
 "1f3901dd70db": "2026-11-15T00:00:12+00:00",
 "2e9c39c375af": "2026-11-12T17:30:21+00:00",
 "3ef970c6039c": "2026-11-10T17:30:13+00:00",
-"4a1528fbff7d": "2026-11-09T21:00:12+00:00",
 "4c4b890c827f": "2026-11-10T17:30:13+00:00",
 "51d4f683f551": "2026-11-11T15:30:17+00:00",
 "5ba3fdde12e0": "2026-11-11T17:30:11+00:00",
+"6e53b9f4231d": "2026-11-16T21:00:30+00:00",
 "8b76ecbfbdb5": "2026-11-16T17:30:15+00:00",
 "8e3906faf6c6": "2026-11-11T17:30:11+00:00",
 "c4eb21d082fc": "2026-11-12T06:30:23+00:00",
@@ -428,6 +428,12 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Saturday Night Live' star returns to television in a dark new role, marking her first major TV part since 'Parks and Recreation'. (via Yahoo)"
+},
+"6e53b9f4231d": {
+"at": "2026-11-16T21:01:36+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Ghosts' star Utkarsh Ambudkar will channel John McClane in the upcoming holiday special titled 'Died Hard'. The hour-long episode is set to air December 10 on CBS and will feature a 'Die Hard' twist. (via TV Insider)"
 },
 "6f11f5cbb461": {
 "at": "2026-11-12T17:33:05+00:00",
@@ -3139,6 +3145,26 @@
 "summary": "",
 "tags": [],
 "title": "Favorite \"Young Sheldon\" Character"
+},
+"0a5167b28d1e": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "0a5167b28d1e",
+"kind": "article",
+"link": "https://deadline.com/2026/11/the-jokers-wild-reboot-howie-mandel-syndication-cbs-stations-1237225343/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-16T18:26:51+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Sony Pictures Television is bringing back game show The Joker’s Wild as a half-hour syndicated program hosted by comedian and television personality Howie Mandel.",
+"tags": [
+"Revival"
+],
+"title": "‘The Joker’s Wild’ Reboot Hosted By Howie Mandel To Launch In Fall 2027 Syndication On CBS Stations"
 },
 "0a5e7f6a63d0": {
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -8248,6 +8274,33 @@
 "tags": [],
 "title": "'Desperate Housewives' Star Is Officially Reba McEntire's New Love Interest in 'Happy's Place' Season 3"
 },
+"289d237a8ea4": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "289d237a8ea4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNXzNacU1jNjNhbjI5ZUEzVE50RUdVWHZYRDBSeGNpZ1BYYnl5M19yVWtzeHVnVmR2SkozSFgydVRmMlgtX25ZZDZaRFRrRVhJU0tzZkpSZDhtQ3JRMEo2aWVqcERVNFJPcFNDeENHMlYzUGJaQVhrQmM3Y0tONW52OXlVZHlweUthaTFKekItYmxoazl1MFdkVmFOMmk0YzhZ?oc=5",
+"outlet": "Just Jared",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T18:17:57+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Home Improvement"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Tim Allen Reveals Why He Doesn't Want to Bring Back 'Home Improvement' After Previously Discussing Revival Plans"
+},
 "28b579f4fb18": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -10360,6 +10413,30 @@
 "tags": [],
 "title": "Woodstock - SNL"
 },
+"333235f5f54e": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "333235f5f54e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sTnpoZmRhbEdveG04R2xENENOQjZGZEFfTjc4dUdSbldDNXZHcEpNNHZZT2tVNWtDR0NlWFB1R0p2SGxlOWY1Wm5zRXpWNnBzZDJZTGdqcE9aUFR0R1NBZVFXVWM?oc=5",
+"outlet": "IMDb",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T19:23:01+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Tim Allen Officially Hangs Up His Tool Belt on a Home Improvement Revival"
+},
 "33394141d342": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "33394141d342",
@@ -11728,26 +11805,6 @@
 "Casting"
 ],
 "title": "Julianna Margulies to Star in Period Romantic Comedy Series ‘American Heiress’ at MGM+"
-},
-"3b83acb6cb18": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "3b83acb6cb18",
-"kind": "article",
-"link": "https://www.eonline.com/news/1437960/dax-shepard-reacts-to-claims-he-kristen-bell-are-in-abusive-relationship?cmpid=rss-syndicate-genericrss-us-top_stories",
-"outlet": "E! News",
-"people": [
-"Kristen Bell"
-],
-"published": "2026-11-09T20:28:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Dax Shepard is setting the record straight. Two weeks after Kristen Bell shared that her husband flirts with her by complimenting their waiter or waitress while on a date, the Parenthood actor...",
-"tags": [],
-"title": "Dax Shepard Reacts to Claims His, Kristen Bell's Marriage Is \"Abusive\""
 },
 "3b9428251e0c": {
 "channel_kind": "outlet",
@@ -13742,6 +13799,26 @@
 ],
 "title": "‘Nobody Wants This’ Star Timothy Simons Reveals Biggest Season 3 Concern and Looks to Season 4: “They Burned One Another,  So They’re Even”"
 },
+"441a6fd88ea8": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "441a6fd88ea8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkpXbDFPRTVseC1qRDlKdUstT2l1cDdnMTRQMmx2bUJGcDR5ci0xTlI1aGtkSkJpTG1SYzdxOVJQblhwZWVyWjR3bGhIM01TUmlVOHFqVUxGaHJleXVMRDEtSzJnRzBuUWZ0S18xT1dMOGNVM01ITmNnNGVVN0NFYTJVeU4xNUJGWEdnUnJ0Y2U4NnNRY0p4cGRzcnZJb1NLbHRIMU9FTjE1Zw?oc=5",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-16T20:36:38+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Fourth ‘Terminal List’ Show in the Works at Prime Video"
+},
 "442abcdc9d92": {
 "first_seen": "2026-11-10T06:30:11+00:00",
 "id": "442abcdc9d92",
@@ -14604,6 +14681,32 @@
 "tags": [],
 "title": "Dax Shepard Fights 'Offensive' Claims He's 'Controlling And Abusive' To Kristen Bell"
 },
+"4971b9dc1cd3": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "4971b9dc1cd3",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWNFcFl3NEQ3YkpDUk9LT3ZOUUh2SC05LWY0REFyM0ZicGlFa29vZUx5dHR4bGVVT1ZKOHdoc0dmWWdzUnFIcW9xZTlTX1FEcWlRYzJaMEtRWVZlbVNhNF9kaFVHTVJZOWtldk1RcFZack5MUld3WDl1SkM0RHBPMjRic2xFbjczbXJvNFJ6LS1yVUFYc2NOeGt5c0Y2TWwybl9zQWRBdTRXQVI3YlRZYzRWWQ?oc=5",
+"outlet": "Parade Magazine",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T20:28:09+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Home Improvement"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Tim Allen Shuts Down ‘Home Improvement’ Revival After Years of Hinting at a Return"
+},
 "49759a82fd59": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "49759a82fd59",
@@ -14734,30 +14837,6 @@
 "Interview"
 ],
 "title": "‘Full House’ Star Candace Cameron Bure Says ‘The View’ Was Harder Than ‘Special Forces’"
-},
-"4a1528fbff7d": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "4a1528fbff7d",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcmxwNnBHOFNwOWZpb2szdGI5bWY3blo0NllhZlIzcFBiTG9LR2wzU3dfODQxOVZtUEFad2VSUlpvSVFVcWVqY2NXOWZvNWR3OUY0a1YyZGF3Ym9BY3Vrc0xyNXVBRlNnQUF1SjJ0UE9mWnZBdTN6eGIzWHlFcG96NGFLa1FlWHhzNS0yeEdGOW43ZEJacXJ4aDJsQnd6UENkT1N2bA?oc=5",
-"outlet": "Parade Magazine",
-"people": [],
-"published": "2026-11-09T20:52:22+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Happy Days"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival"
-],
-"title": "Henry Winkler Gives His Take on a ‘Happy Days’ Reboot, and It’s Not What You’d Expect"
 },
 "4a1be502764a": {
 "first_seen": "2026-11-13T06:30:14+00:00",
@@ -15125,6 +15204,27 @@
 "summary": "",
 "tags": [],
 "title": "My Glass Skin Staples Include Hailey Bieber and Jennifer Aniston-Used Products, Get Them From $17"
+},
+"4b3e0c415e28": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "4b3e0c415e28",
+"kind": "article",
+"link": "https://deadline.com/2026/11/gianmarco-soresi-comedy-means-business-podcast-interview-1237225548/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-16T20:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Comedian Gianmarco Soresi once said that he procrastinated filming an hour special, “holding on to the most destructive thought a creative can have: I’ll do it when someone pays me for it.” Ultimately, he didn’t hold out, though that’s probably for the better: His self-released debut hour, Thief of...",
+"tags": [
+"Upcoming",
+"Interview"
+],
+"title": "Gianmarco Soresi Talks Debut Netflix Special, Global Comedy Explosion, Role Of “Sh*t Talk” In Keeping Comics Honest – Comedy Means Business Podcast"
 },
 "4b4a5a6d7269": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -18552,6 +18652,31 @@
 "tags": [],
 "title": "Kaley Cuoco Shares Adorable Snap of Father-Daughter Bonding Moment Between Fiancé Tom Pelphrey and Newborn Philomena"
 },
+"5dfd993447a5": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "5dfd993447a5",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/tim-allen-reveals-why-he-doesnt-want-home-improvement-revival/",
+"outlet": "Just Jared",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T18:15:54+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Home Improvement"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Tim Allen is sharing a new update about the possibility of bringing back Home Improvement, and it sounds like his...",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Tim Allen Reveals Why He Doesn’t Want to Bring Back ‘Home Improvement’ After Previously Discussing Revival Plans"
+},
 "5e2ef348209f": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "5e2ef348209f",
@@ -21271,6 +21396,30 @@
 "tags": [],
 "title": "Dead ass?? 🪦 Pete Davidson tests Nicholas Hoult on NYC slang"
 },
+"6e53b9f4231d": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "6e53b9f4231d",
+"kind": "article",
+"link": "https://www.tvinsider.com/gallery/ghosts-christmas-special-season-6-ghostmas-photos-die-hard/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-16T20:00:59+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ghosts"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "See Jay channel his inner John McClane. Ghosts is gearing up for its second holiday special this fall as the annual event known as Ghostmas approaches. But what's in store for the must-see hour-long episode?",
+"tags": [
+"Death",
+"Trailer",
+"Upcoming"
+],
+"title": "‘Ghosts’ First Look: Jay Channels His Inner John McClane for ‘Died Hard’ Ghostmas Special"
+},
 "6e80fd5c2c2b": {
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -22761,6 +22910,28 @@
 "Upcoming"
 ],
 "title": "Julianne Moore & Paul Giamatti Clash in The Debut Trailer"
+},
+"77099e8021c1": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "77099e8021c1",
+"kind": "article",
+"link": "https://www.tvinsider.com/swooon/1312875/candace-cameron-bure-holiday-plans-2026-grandkids-family-interview/",
+"outlet": "TV Insider",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-16T18:18:33+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The first-time grandmother is looking forward to 'zoning out' for the next few weeks. Candace Cameron Bure became a grandmother twice this year, which means there's even more to look forward to this holiday season.",
+"tags": [
+"Interview"
+],
+"title": "Candace Cameron Bure Reveals Holiday Plans as a First-Time Grandmother"
 },
 "771ed29dce8c": {
 "first_seen": "2026-11-12T06:30:23+00:00",
@@ -25157,6 +25328,29 @@
 "tags": [],
 "title": "Frankie Muniz Released from Hospital After Crash at Daytona Speedway, Speaks Out in New Statement"
 },
+"83dad2d93d64": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "83dad2d93d64",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMUVvMmFxcnNHUVhsX3NlQk1GVHhxV01vVkFQaTdoT3ZJYWFvQkdBYjJ6RWhqX084Zm8ySEZuX2J6OVlyd2psUDdBQnYzT2Z4MGxJN2hUcTBtQ1hWcmU3VzFOQlpIb2RyZ3E4ZEt6RG53UWJhbldQSkFpcmdkTUZ6TEFvY2xfX0RHRmVSeVFhdEFMZw?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-16T20:30:50+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Jane Lynch Says She'd Play Sue Sylvester 'for the Rest of My Life' if 'Glee' Reboot Asks Her Back"
+},
 "83f7acbd2433": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -26164,6 +26358,28 @@
 "summary": "",
 "tags": [],
 "title": "there’s a time and place"
+},
+"8990516ed392": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "8990516ed392",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/hilary-duff-all-you-want-for-christmas-is-me-official-music-video-holiday-things/",
+"outlet": "Just Jared",
+"people": [
+"Hilary Duff"
+],
+"published": "2026-11-16T19:52:17+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Hilary Duff is getting into the holiday spirit with a brand new music video! The 39-year-old singer and actress premiered...",
+"tags": [
+"Upcoming"
+],
+"title": "Hilary Duff Debuts ‘All You Want for Christmas is Me’ Music Video From New ‘Holiday Things’ EP – Watch Now!"
 },
 "89a0b357081f": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -29335,29 +29551,6 @@
 "tags": [],
 "title": "‘High Potential’ Fans Debate Whether Morgan & Karadec Should Get Together"
 },
-"98a34111e0c2": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "98a34111e0c2",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMVAydWNpemczVWwyYjNWa1M3b0dtSmFQVFBSb2FGZ0NnWUZMT0JJVU1RNkx1ZkRDX29ob09kcEpmY2FTSzN4NUt4V2RvZk9fQS1xUUlPMVY4MTF1SHNMRkRCM3NSNnFLaHFZUEQ1eHZfLTlLUnFoLURtS0ZOY2d5ZkFRd1U3Yi05SDhR0gGQAUFVX3lxTE9sUGNSWUJsSU1RM0ZmblZkQXhUSktzZmxDMXVNRm5kZ0lrVUd3TXlZUUJmYVAtZ0Q4aVNWc0lnY3dabVMxZm91czhaeXA0V1M1azlKVktjaS1PQ1Z4M0E5ak5OWVpUdjc3RmduNmpfMWItcnpjcG5UaE1WVmVxbU5GMHNHZlRLaElpR0ZMRjBvaw?oc=5",
-"outlet": "ComingSoon.net",
-"people": [],
-"published": "2026-11-09T15:56:46+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Revival",
-"Interview"
-],
-"title": "Adam Driver Reveals His Girls Reboot Return Status"
-},
 "98a59dd2084b": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "98a59dd2084b",
@@ -31038,26 +31231,6 @@
 "tags": [],
 "title": "Usher, Chris Brown cancel two tour stops on ‘R&B Tour’ amid alleged feud"
 },
-"a124b9117823": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "a124b9117823",
-"kind": "article",
-"link": "https://deadline.com/2026/11/kristen-bell-frozen-nat-geo-disney-animation-series-1237217388/",
-"outlet": "Deadline",
-"people": [
-"Kristen Bell"
-],
-"published": "2026-11-09T20:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "In the latest bit of corporate synergy, National Geographic and Walt Disney Animation Studios have teamed on The Real Frozen (w/t) a new natural history series, with Frozen franchise stars Kristen Bell, Idina Menzel, Jonathan Goff and Josh Gad returning to reprise their roles.",
-"tags": [],
-"title": "Kristen Bell, Idina Menzel, Josh Gad & Jonathan Groff To Reprise ‘Frozen’ Roles In Nat Geo/Disney Animation Series"
-},
 "a1a2cd239f16": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "a1a2cd239f16",
@@ -31242,6 +31415,26 @@
 "summary": "",
 "tags": [],
 "title": "Kaley Cuoco Shares Sweet Photos of Fiancé Tom Pelphrey With Their Newborn"
+},
+"a23a95ecc708": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "a23a95ecc708",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/elon-musk-rates-jeremy-culhanes-snl-impression-of-him/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-16T17:57:14+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Elon Musk is sharing his thoughts on Jeremy Culhane‘s SNL impression. If you don’t know, in the latest cold open...",
+"tags": [],
+"title": "Elon Musk Rates Jeremy Culhane’s ‘SNL’ Impression of Him"
 },
 "a2444b2d7ddb": {
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -36766,6 +36959,26 @@
 "tags": [],
 "title": "‘Ted Lasso’ Star Jason Sudeikis and Olivia Wilde Win Arbitration Against Former Nanny"
 },
+"c0bbe2f9e115": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "c0bbe2f9e115",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/nbc-100th-anniversary-special-celebrity-guest-list-the-office-cast-reunion/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-16T20:37:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "NBC is celebrating its 100th anniversary with a huge television special, and some of the network’s most beloved stars are...",
+"tags": [],
+"title": "‘The Office’ Cast Reuniting for NBC’s 100th Anniversary Special – See the Star-Studded Celebrity Guest List!"
+},
 "c0d24df97f33": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "c0d24df97f33",
@@ -37250,28 +37463,6 @@
 "tags": [],
 "title": "Phoebe Bridgers’ Skeletal Transformation on ‘SNL’ Wasn’t Just a Startling Special Effect,  It Emotionally Elevated One of the Best Pop Songs Ever Written About Death"
 },
-"c301feea4b30": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "c301feea4b30",
-"kind": "article",
-"link": "https://www.justjared.com/2026/11/09/dax-shepard-addresses-narrative-hes-controlling-and-abusive-in-marriage-to-kristen-bell/",
-"outlet": "Just Jared",
-"people": [
-"Kristen Bell"
-],
-"published": "2026-11-09T19:40:24+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Dax Shepard is responding to narratives regarding his marriage to Kristen Bell. During the latest episode of the “Armchair Expert”...",
-"tags": [
-"Interview"
-],
-"title": "Dax Shepard Addresses Narrative He’s ‘Controlling’ & ‘Abusive’ in Marriage to Kristen Bell"
-},
 "c3062b7f3163": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "c3062b7f3163",
@@ -37629,6 +37820,28 @@
 "Death"
 ],
 "title": "Anthony Clark, Comic and ‘Yes, Dear’ Star, Dies at 63"
+},
+"c4c109a24fc6": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "c4c109a24fc6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9naXVqdU1QWjlUc2Z3OHBqS0xSUWpDa0VqVnFjdF9jdG9ObTZHOTd3MUZ1QmI3S0ZibzUxVmpVTzFCQ0lsVWJUYlV2WHpyeUE0ekhTUGZRU05ENGRfTnhFNUR6cndXNUNpdWc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-16T19:53:56+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "‘The Joker’s Wild’ Revival From Sony Pictures TV Gets Green Light With Host Howie Mandel"
 },
 "c4c73f473fd7": {
 "first_seen": "2026-11-11T06:30:12+00:00",
@@ -39029,28 +39242,6 @@
 "tags": [],
 "title": "Disney’s Only Murders in the Building escape room opens Dec. 9"
 },
-"cc1aa4b2b128": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "cc1aa4b2b128",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1McUNzbndpRjVMVjhqU2RPaG8tMS1yUlZBQUtwRF84d0laSlIxdmgxX09NMHhHWGJuQ0VBTFhoRllGWjRuQi1mVjBKa3VaM1lRN2dqRExoODNaM3VBQzZ5NmJlcC1WSzZEYmkwYlJnREFOTDQ?oc=5",
-"outlet": "People.com",
-"people": [],
-"published": "2026-11-09T17:48:07+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Death"
-],
-"title": "Toukie Smith, Model, Actress and Former Partner of Robert De Niro, Dies at 74 Following ‘Battle’ with Multiple Sclerosis"
-},
 "cc23e0865a5a": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "cc23e0865a5a",
@@ -39140,6 +39331,24 @@
 "Interview"
 ],
 "title": "Shane Gillis Addresses ‘SNL’ Monologue After He Promised Show “No Controversy”"
+},
+"cc7e1c3405c4": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "cc7e1c3405c4",
+"kind": "article",
+"link": "https://deadline.com/2026/11/justin-long-kate-bosworth-indie-comedy-the-renovation-1237225426/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-16T19:18:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: The resurgence of independent television series continues to grow with Justin Long (Barbarian, You Deserve Each Other) and Kate Bosworth (Still Alice, Along for the Ride) starring in The Renovation, a fully-financed indie comedy series.",
+"tags": [],
+"title": "Justin Long & Kate Bosworth To Headline Indie Comedy Series ‘The Renovation’"
 },
 "cd13923d6f8a": {
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -44464,26 +44673,6 @@
 "tags": [],
 "title": "John Mulaney Returns to SNL: What to Expect from His Upcoming Musical Sketch"
 },
-"ea94f61dafb3": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "ea94f61dafb3",
-"kind": "article",
-"link": "https://deadline.com/2026/11/druski-snl-creator-economy-franchise-era-begins-1237216040/",
-"outlet": "Deadline",
-"people": [],
-"published": "2026-11-09T20:45:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Editors note: Adam Goodman is the founder and CEO of Invisible Narratives, a creator-first entertainment studio focused on developing and scaling multi-platform franchises. He previously served as President of Paramount Pictures’ Film Group and President of Production at DreamWorks SKG.",
-"tags": [],
-"title": "Druski’s ‘SNL’ Gig Marks The Start Of The Creator Economy’s Franchise Era – Guest Column"
-},
 "eaae4cda30c0": {
 "first_seen": "2026-11-12T06:30:23+00:00",
 "id": "eaae4cda30c0",
@@ -46570,6 +46759,30 @@
 "tags": [],
 "title": "Bob's Burgers: Smellbound"
 },
+"f5a1553fb79b": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "f5a1553fb79b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14UTN0Vzk2RkJmckFudUF6bUJzTk9sOTEtQ0tlYmM2S0Z1Z3RXdnQ2ZndobjJxUFYxOEYxWThNLVFvd1pEUktLM3JwTU9tWFNubG5YQ29Nc0haNjRDUkNzUUNWZDQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-16T10:13:05+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival",
+"Upcoming",
+"Streaming"
+],
+"title": "Harry Potter Movies Are Leaving Peacock Just Weeks Before the HBO Reboot Premiere – Here’s Where You Can Still Watch All 8 Films"
+},
 "f5dfc26326eb": {
 "first_seen": "2026-11-11T17:30:11+00:00",
 "id": "f5dfc26326eb",
@@ -46843,28 +47056,6 @@
 "summary": "ET is in Hawaii, taking you behind the scenes of some famous film shots! Nischelle Turner and Kevin Frazier are at the brand-new Hale Hōkūala Kauai resort, speaking with general manager Jon Itoga and taking a swing at the popular Ocean...",
 "tags": [],
 "title": "Hawaii Holds a 'Happy Gilmore' Secret! Where You Can Golf Like Adam Sandler"
-},
-"f72c200e2216": {
-"first_seen": "2026-11-09T21:00:12+00:00",
-"id": "f72c200e2216",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVUlLWXdWZDNqU3JXU2M2SHBKMUJVdmJVREVEaVRkdzhjeGc1cWI4ZjViZzV3dXF0WHBZRU10VmszcmlwcndTbm5CZE5SdHo1c3N5LUI5WDFIVlhIVWdaRmlVeWg0N01JQ1FtZ0VHLTB2cnBMWENNbzU3MG9jRVNhQURDNDNiMDRVRk1WdTZDNThFLVJYN2J5QQ?oc=5",
-"outlet": "TV Insider",
-"people": [],
-"published": "2026-11-09T19:15:31+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Exit"
-],
-"title": "Food Network Star Reportedly Leaves Network After Several Show Exits"
 },
 "f72d436d8de4": {
 "first_seen": "2026-11-12T17:30:21+00:00",
@@ -48441,6 +48632,28 @@
 "summary": "Nischelle Turner climbs aboard a historic train at Kauai’s 105-acre Kilohana Plantation for a ride through the lush Hawaiian countryside.",
 "tags": [],
 "title": "On Board Hawaii's Real-Life 'Jungle Cruise' Train (Exclusive)"
+},
+"fe23d9629928": {
+"first_seen": "2026-11-16T21:00:30+00:00",
+"id": "fe23d9629928",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmpsdlZUNllzZnBLZ29wU1AtV3c4Rk0zbFlQVXlXMk9VY051eFRXMHRtbnpEWENrRmVGZzBrY3o1MF9JX3BsYnZ4MlY4cHd1d3VCelVGUG1rcTc5QXpzSjM2Mk8xLVR2R2hhc1B1eFB1WDB0QU1Rd1h4eThqd0ZWVVRIN2JiLTNyeFhQa0ZDZE9OMmRNc3FXQU41SHh5d0FK?oc=5",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-16T18:06:09+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Howie Mandel to Host ‘Joker’s Wild’ Game Show Revival"
 },
 "fe275bbcd58b": {
 "first_seen": "2026-11-16T17:30:15+00:00",
