@@ -13,6 +13,7 @@
 "8b76ecbfbdb5": "2026-11-16T17:30:15+00:00",
 "8e3906faf6c6": "2026-11-11T17:30:11+00:00",
 "c4eb21d082fc": "2026-11-12T06:30:23+00:00",
+"c880e336cd4b": "2026-11-16T18:00:11+00:00",
 "db7c09aa3d19": "2026-11-11T17:30:11+00:00",
 "dbfaf218c333": "2026-11-10T16:30:11+00:00",
 "e24bcafee1e1": "2026-11-11T17:30:11+00:00",
@@ -31,12 +32,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Ted Lasso' stars Jason Sudeikis and Hanna Waddingham reunited to perform a duet of 'Islands in the Stream' at the annual Thundergong! benefit. The performance served as a tribute to the late Dolly Parton. (via Deadline)"
-},
-"016f1b6b245a": {
-"at": "2026-11-09T17:33:59+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Quince is bringing the red sweater 'Friends' episode to life in a new collaboration with 'Friends' star David Schwimmer. The collection also features three additional holiday looks. (via People)"
 },
 "01ec7b029808": {
 "at": "2026-11-11T17:36:10+00:00",
@@ -116,12 +111,6 @@
 "model": "gemini-3.8-flash",
 "text": "Bowen Yang played ex-Nvidia CEO Jensen Huang in the 'SNL' cold open. (via Mashable)"
 },
-"17a7abbfdb8c": {
-"at": "2026-11-09T17:33:26+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Workaholics' star Adam Devine and 'SNL' alum Chloe Fineman will star in the upcoming indie crime comedy 'Miami PI'. Written and directed by Michael Diliberti, production is set to begin in March in Miami. (via Deadline)"
-},
 "18cd3e48c5e8": {
 "at": "2026-11-10T13:03:45+00:00",
 "from_article": true,
@@ -169,12 +158,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Oscar winner Olivia Colman and 'Doctor Who' star David Tennant are among the stars joining 'Only Murders in the Building' Season 6. The new season follows the trio to England to investigate the murder of Cinda Canning and premieres December 8 on Hulu. (via TV Insider)"
-},
-"22180ae29138": {
-"at": "2026-11-09T17:34:07+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Larry David’s biographer is opening up about the comedian’s failure at ‘SNL’ and the sketches that never made it to air. (via LateNighter)"
 },
 "226ab056b381": {
 "at": "2026-11-14T17:47:38+00:00",
@@ -242,12 +225,6 @@
 "model": "gemini-3-flash-preview",
 "text": "Comedian and 'Yes, Dear' star Anthony Clark has passed away at the age of 62. He passed away on November 10 from complications related to pneumonia. (via Just Jared) 🕊️"
 },
-"331cf7943598": {
-"at": "2026-11-09T17:32:50+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "David Schwimmer has reunited with Ross Geller’s iconic red sweater from ‘Friends’. (via Entertainment Weekly)"
-},
 "3605941f5da7": {
 "at": "2026-11-13T06:38:09+00:00",
 "from_article": true,
@@ -271,12 +248,6 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Boy Meets World' star Danielle Fishel recalls being labeled difficult while working on 'Girl Meets World', sharing that people in charge were uncomfortable around her (via Us Weekly)"
-},
-"38e2664ba28c": {
-"at": "2026-11-09T17:34:55+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "Ariana Grande made her first public appearance in months on 'The Tonight Show Starring Jimmy Fallon' alongside her 'Focker In-Law' castmates Robert De Niro and Ben Stiller. (via Variety)"
 },
 "3942b1258dbb": {
 "at": "2026-11-15T06:35:40+00:00",
@@ -446,12 +417,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Saturday Night Live' reached a two-year viewership high with the Nov. 7 episode hosted by Druski. The episode brought in 5.6 million viewers and is the most-watched episode of the series ever on Peacock. (via TheWrap)"
 },
-"640cd4671440": {
-"at": "2026-11-09T17:34:41+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "‘Saturday Night Live’ star Rachel Dratch stars in the new dark comedy ‘Loves Company’ as an obsessive fan of a faded game show host. The film follows a Florida outcast who rescues her idol after a car crash and traps him in her home. It premieres tomorrow, November 10. (via Collider)"
-},
 "6a3a201c1834": {
 "at": "2026-11-12T17:33:49+00:00",
 "from_article": true,
@@ -493,12 +458,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Several 'Gilligan's Island' stars once played the Conner family in the 1995 'Roseanne' episode 'Sherwood Schwartz: A Loving Tribute'. Bob Denver, Tina Louise, Russell Johnson, and Dawn Wells appeared in the tribute to creator Sherwood Schwartz, who also made a cameo. (via TVLine)"
-},
-"77af9cff00aa": {
-"at": "2026-11-09T17:34:19+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'The Good Place' star Kristen Bell’s waist abruptly shrinking in a poorly edited 'Nobody Wants This' scene has sparked discourse about impossible body standards. (via BuzzFeed)"
 },
 "78ae1077b80e": {
 "at": "2026-11-12T17:34:27+00:00",
@@ -638,12 +597,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Saturday Night Live' alum Bowen Yang made a surprise return to the show during this weekend’s cold open. Yang portrayed NVIDIA CEO Jensen Huang in a sketch about tech billionaires alongside host John Mulaney. (via Just Jared)"
 },
-"9efa285befcc": {
-"at": "2026-11-09T17:33:51+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Boy Meets World' star Danielle Fishel says she knew she was disliked on the set of 'Girl Meets World' for setting boundaries. Fishel also opened up about her pay on the series, which premiered 14 years after the original show wrapped. (via Variety)"
-},
 "a0ae3d769d09": {
 "at": "2026-11-11T17:34:55+00:00",
 "from_article": true,
@@ -740,6 +693,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'Malcolm in the Middle' star Frankie Muniz has been released from the hospital following a car crash. (via AOL.com)"
 },
+"c880e336cd4b": {
+"at": "2026-11-16T18:00:52+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "Tim Allen says a revival of 'Home Improvement' will not happen. (via Entertainment Weekly)"
+},
 "c89a86ffb81e": {
 "at": "2026-11-12T06:37:37+00:00",
 "from_article": false,
@@ -793,12 +752,6 @@
 "from_article": true,
 "model": "gemini-flash-latest",
 "text": "“I actually like dating. I know ‘everybody’s miserable.’ But everybody I date is supremely vetted before they even get me alone,” comedian and 'Abbott Elementary' star Janelle James says. (via TV Insider)"
-},
-"d624414d67fc": {
-"at": "2026-11-09T17:33:40+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Nobody Wants This' star Adam Brody was absent from a recent event for the series following public disagreements with his co-stars over his comments on Palestine. The 46-year-old actor was reportedly working on a project in the United Kingdom during the Netflix event in Los Angeles. The series has been officially renewed for Season 4. (via Just Jared)"
 },
 "da4f4e86b97c": {
 "at": "2026-11-15T06:35:50+00:00",
@@ -14100,8 +14053,8 @@
 "outlet": "Collider",
 "people": [],
 "published": "2026-11-16T17:00:12+00:00",
-"query": "\"The Daily Show\" OR \"The IT Crowd\" OR \"Peep Show\" OR \"Gavin & Stacey\" OR \"Derry Girls\" OR \"Fawlty Towers\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -38203,6 +38156,32 @@
 "tags": [],
 "title": "The Dark Sitcom Hailed as 'America's Harry Potter'"
 },
+"c880e336cd4b": {
+"first_seen": "2026-11-16T18:00:11+00:00",
+"id": "c880e336cd4b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQ1FHb2EwVzItNEc5T3huTXB0Z3VLYU1Cb1c3Y3lzdllhdGp1RHd5dnlpbVd5bzBiZTkwWU1GRGpuSUdjeHp3WWI3LTJsVVFlNHN2WmJQYlBwWVQtTWdXME9ZTnh4d2ZVeUZTSFFsV3F5XzdCN3dKRTNXNGRIUHBYaFJsLVVCSWppM090cg?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T17:30:49+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Home Improvement"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Tim Allen shuts down possibility of ‘Home Improvement’ revival"
+},
 "c8881d49cf99": {
 "first_seen": "2026-11-11T06:30:12+00:00",
 "id": "c8881d49cf99",
@@ -45301,8 +45280,8 @@
 "Patricia Heaton"
 ],
 "published": "2026-11-16T15:56:32+00:00",
-"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
