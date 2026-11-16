@@ -13,6 +13,7 @@
 "8b76ecbfbdb5": "2026-11-16T17:30:15+00:00",
 "8e3906faf6c6": "2026-11-11T17:30:11+00:00",
 "c4eb21d082fc": "2026-11-12T06:30:23+00:00",
+"c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
 "db7c09aa3d19": "2026-11-11T17:30:11+00:00",
 "dbfaf218c333": "2026-11-10T16:30:11+00:00",
@@ -314,12 +315,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "\"So much love there,\" 'A Mighty Wind' star Parker Posey says while reflecting on working with Catherine O’Hara and Eugene Levy. (via IMDb)"
-},
-"4a1528fbff7d": {
-"at": "2026-11-09T21:02:33+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Happy Days' star Henry Winkler has shared his thoughts on a potential reboot of the series. (via Parade Magazine)"
 },
 "4a68b0462bfc": {
 "at": "2026-11-10T06:32:10+00:00",
@@ -698,6 +693,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Malcolm in the Middle' star Frankie Muniz has been released from the hospital following a car crash. (via AOL.com)"
+},
+"c529796de2fe": {
+"at": "2026-11-16T22:02:37+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Home Improvement' star Tim Allen confirms his 8-season '90s sitcom will not return after 27 years. (via Comic Book Resources)"
 },
 "c880e336cd4b": {
 "at": "2026-11-16T18:00:52+00:00",
@@ -6679,6 +6680,28 @@
 "tags": [],
 "title": "Tyra Banks Reacts to Her Book ‘Modelland’ Going Viral 15 Years Later"
 },
+"1efd72380abd": {
+"first_seen": "2026-11-16T22:00:13+00:00",
+"id": "1efd72380abd",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdE12MnNOcHUwampzU3RFSU1iMFYwLUh1XzFjUTF5M1ZMTFpwTExvblRoNzBCU09qMGpLLXh3RHVzM01aMTFqNVd4QjRaUzIzSTVrdFdLcEg5dzZUVmI3dkhTdU5PaVlSN2VZUnZCV0p5NXFGNEwtbkNuTmktRFlpeldWM290dE5ZY3M3Ujl6NnNjYnJSOHZjd3NMQ2g1aFdBT2tEWW1JOUctaFNoR3dYVWdmSEUxN3BJ?oc=5",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-16T15:07:33+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Exit"
+],
+"title": "Willie Geist to Exit MS NOW’s ‘Morning Joe’ for Expanded Role at NBC’s ‘Today’ Show"
+},
 "1f35fd2c76be": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "1f35fd2c76be",
@@ -9470,6 +9493,24 @@
 "summary": "Musical guest Brothers Osborne perform \"Born and Raised Hell\" for The Tonight Show. The Tonight Show Starring Jimmy Fallon.",
 "tags": [],
 "title": "Brothers Osborne: Born and Raised Hell | The Tonight Show Starring Jimmy Fallon"
+},
+"2e57428ee6e8": {
+"first_seen": "2026-11-16T22:00:13+00:00",
+"id": "2e57428ee6e8",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/justin-long-wife-kate-boseworth-to-star-together-in-new-comedy-series-the-renovation/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-16T21:32:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Justin Long and Kate Bosworth are teaming up for a new series! The married couple will be starring in the...",
+"tags": [],
+"title": "Justin Long & Wife Kate Boseworth to Star Together in New Comedy Series ‘The Renovation’"
 },
 "2e6e92ec02ae": {
 "channel_kind": "outlet",
@@ -21412,13 +21453,13 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": true,
-"summary": "See Jay channel his inner John McClane. Ghosts is gearing up for its second holiday special this fall as the annual event known as Ghostmas approaches. But what's in store for the must-see hour-long episode?",
+"summary": "See Jay channel his inner John McClane. Ghosts is gearing up for its second holiday special this fall as the annual event known as Ghostsmas approaches. But what's in store for the must-see hour-long episode?",
 "tags": [
 "Death",
 "Trailer",
 "Upcoming"
 ],
-"title": "‘Ghosts’ First Look: Jay Channels His Inner John McClane for ‘Died Hard’ Ghostmas Special"
+"title": "‘Ghosts’ First Look: Jay Channels His Inner John McClane for ‘Died Hard’ Ghostsmas Special"
 },
 "6e80fd5c2c2b": {
 "channel_kind": "talk",
@@ -37890,6 +37931,30 @@
 "Exit"
 ],
 "title": "Frankie Muniz Leaves Hospital After Car Crash"
+},
+"c529796de2fe": {
+"first_seen": "2026-11-16T22:00:13+00:00",
+"id": "c529796de2fe",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5YZEY1ZXl2UmVQRUstZ0xZR25RcEs2Ti1xQnZTeWRQUlpuWjMxMzJwN3FjY1l5clMzS2V3NjlRN1NKVmtvcGZVX0xtdVNLMHZZVm9XNGxhcDQ1ZDdyQXpReVptdkg1eVJEUEx1OW93?oc=5",
+"outlet": "Comic Book Resources",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-16T21:34:12+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Exit"
+],
+"title": "Tim Allen Confirms His 8-Season '90s Sitcom Won't Return After 27 Years"
 },
 "c52b661579f6": {
 "channel_kind": "outlet",
