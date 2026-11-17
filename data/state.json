@@ -15,6 +15,7 @@
 "c4eb21d082fc": "2026-11-12T06:30:23+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
+"d68048de1b2e": "2026-11-17T01:00:11+00:00",
 "db7c09aa3d19": "2026-11-11T17:30:11+00:00",
 "dbfaf218c333": "2026-11-10T16:30:11+00:00",
 "e24bcafee1e1": "2026-11-11T17:30:11+00:00",
@@ -759,6 +760,12 @@
 "from_article": true,
 "model": "gemini-flash-latest",
 "text": "“I actually like dating. I know ‘everybody’s miserable.’ But everybody I date is supremely vetted before they even get me alone,” comedian and 'Abbott Elementary' star Janelle James says. (via TV Insider)"
+},
+"d68048de1b2e": {
+"at": "2026-11-17T01:03:26+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "Filmmaker Ray Tintori, boyfriend of 'Saturday Night Live' alum Heidi Gardner, has passed away at the age of 43. Tintori was known for directing music videos for bands like MGMT and Arcade Fire, and was part of the filmmaking group behind 'Beasts of the Southern Wild'. 🕊️ (via Just Jared)"
 },
 "da4f4e86b97c": {
 "at": "2026-11-15T06:35:50+00:00",
@@ -7781,6 +7788,24 @@
 "tags": [],
 "title": "Daniel Ings & Stephanie Beatriz Summoned for Amazon MGM Horror Movie ‘Summoner’"
 },
+"255b90feb822": {
+"first_seen": "2026-11-17T01:00:11+00:00",
+"id": "255b90feb822",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438162/lily-tomlin-george-schlatter-detail-creative-chemistry-on-laugh-in?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [],
+"published": "2026-11-16T23:04:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "You bet your sweet blippy Lily Tomlin and George Schlatter have only the best memories of Laugh-In. The two comedy icons gave behind-the-scenes details of the very eenteresting time they shared on...",
+"tags": [],
+"title": "Lily Tomlin and George Schlatter Detail the Chemistry Behind Laugh-In"
+},
 "255f402dbba2": {
 "first_seen": "2026-11-14T17:30:12+00:00",
 "id": "255f402dbba2",
@@ -8306,7 +8331,7 @@
 "people": [
 "Tim Allen"
 ],
-"published": "2026-11-16T18:17:57+00:00",
+"published": "2026-11-16T18:18:06+00:00",
 "query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
 "rehash": false,
@@ -8427,6 +8452,28 @@
 "summary": "Everything you need to know about the series from 'The Great' creator Tony McNamara. Hulu's latest team-up between The Great's Nicholas Hoult and Tony McNamara is on the way as the upcoming dark comedy Mosquito begins principal photography in the UK.",
 "tags": [],
 "title": "‘Mosquito’: Nicholas Hoult & Daisy Edgar-Jones Tease the Start of Filming for Hulu’s Dark Comedy"
+},
+"28de73fc2827": {
+"first_seen": "2026-11-17T01:00:11+00:00",
+"id": "28de73fc2827",
+"kind": "article",
+"link": "https://deadline.com/2026/11/nicolas-cage-chris-pine-american-epic-series-bj-novak-a24-1237222431/",
+"outlet": "Deadline",
+"people": [
+"B.J. Novak"
+],
+"published": "2026-11-16T23:10:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: Nicolas Cage and Chris Pine are set to star together in American Epic, a drama series package, which has been taken out by A24, generating interest from multiple buyers, Deadline has learned. The Office alum B.J.",
+"tags": [
+"Casting"
+],
+"title": "Nicolas Cage & Chris Pine To Star In Vegas Drama Series ‘American Epic’ From B.J. Novak & A24"
 },
 "28e3880e1f9d": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -37941,7 +37988,7 @@
 "people": [
 "Tim Allen"
 ],
-"published": "2026-11-16T21:34:12+00:00",
+"published": "2026-11-16T23:52:13+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -41246,6 +41293,29 @@
 "tags": [],
 "title": "Ayo Edebiri Got the Forehead Curl Memo"
 },
+"d68048de1b2e": {
+"first_seen": "2026-11-17T01:00:11+00:00",
+"id": "d68048de1b2e",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/16/snl-alum-heidi-gardners-boyfriend-filmmaker-ray-tintori-dies-at-43/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-17T00:52:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Saturday Night Live alum Heidi Gardner‘s boyfriend, Ray Tintori, has passed away at the age of 43. Ray was an...",
+"tags": [
+"Death"
+],
+"title": "‘SNL’ Alum Heidi Gardner’s Boyfriend, Filmmaker Ray Tintori, Dies at 43"
+},
 "d69949390145": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "d69949390145",
@@ -43695,6 +43765,26 @@
 "tags": [],
 "title": "I Tried the Biggest Sweater Trends Inspired by Oprah, Kate Middleton, and Kristen Bell,  All for $30 or Less"
 },
+"e4b73b0db9d2": {
+"first_seen": "2026-11-17T01:00:11+00:00",
+"id": "e4b73b0db9d2",
+"kind": "article",
+"link": "https://collider.com/ghosts-season-6-cbs-2026-schedule-change-problems/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-16T22:26:13+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ghosts"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The news that Ghosts is airing twice a week might seem nice, but CBS risks losing what makes it such a great watch in the first place.",
+"tags": [],
+"title": "‘Ghosts’ Season 6 Is Taking an Unnecessary Risk With Its Release Formula"
+},
 "e4d2e926a064": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-11T17:30:11+00:00",
@@ -45018,6 +45108,28 @@
 "summary": "In a major upset Scott Colom won his Senate race in Mississippi, Trump is spinning after taking a week to digest the massive defeat by Democrats, he claims that he's the first President to not take a salary, he is lashing out at...",
 "tags": [],
 "title": "Trump Spins Over Huge Midterm Defeat, Pulls JD Vance Off Iran & Nvidia CEO’s Chinese Spy Sex Scandal"
+},
+"eb8b541c3281": {
+"first_seen": "2026-11-17T01:00:11+00:00",
+"id": "eb8b541c3281",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRdmFIUDFORlM2c0ZmdnNFQW80NDhBRHcyMXk4ZW9XdFhlaE0xN19FOEVjQzdlVG5PSmxSRHJub0Z1QklWQVk3NjY3X3BydFpVQXhWTU1IbGY4SnZoeTN4UW9peGtNZw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-16T21:14:59+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Howie Mandel to Host ‘Joker’s Wild’ Game Show Revival"
 },
 "eb9109950c36": {
 "first_seen": "2026-11-12T06:30:23+00:00",
