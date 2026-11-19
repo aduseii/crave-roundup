@@ -5,6 +5,7 @@
 "6e53b9f4231d": "2026-11-16T21:00:30+00:00",
 "86b748c21fb4": "2026-11-18T21:00:15+00:00",
 "8b76ecbfbdb5": "2026-11-16T17:30:15+00:00",
+"937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
 "a1a10e12883f": "2026-11-17T06:30:10+00:00",
 "af6a1d2c4656": "2026-11-17T16:29:54+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
@@ -62,12 +63,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'The Big Bang Theory' star Jim Parsons’ first role after the sitcom ended was in Ryan Murphy’s Netflix miniseries 'Hollywood'. Parsons played talent agent Henry Willson, a character considered the show's villain. (via TVLine)"
-},
-"0e16fc6deb8e": {
-"at": "2026-11-12T17:34:12+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "Tiffani Thiessen is opening up about the major differences between starring in 'Saved by the Bell' and 'Beverly Hills, 90210', revealing she once worked 22 hours straight on set. (via TV Insider)"
 },
 "0edc5ce5b3cf": {
 "at": "2026-11-17T06:33:59+00:00",
@@ -195,12 +190,6 @@
 "model": "gemini-3-flash-preview",
 "text": "Filmmaker Ray Tintori, the boyfriend of 'Saturday Night Live' alum Heidi Gardner, has passed away at 43. He was known for directing music videos for artists including MGMT and The Killers. 🕊️ (via TheWrap)"
 },
-"2e9c39c375af": {
-"at": "2026-11-12T17:32:40+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "Will Smith is producing a Jackie Chan blockbuster that is leaving streaming soon. (via ComingSoon.net)"
-},
 "33ca91cc14d5": {
 "at": "2026-11-18T17:34:10+00:00",
 "from_article": false,
@@ -260,12 +249,6 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Ted Lasso' stars Jason Sudeikis and Hannah Waddingham are earning comparisons to Kenny Rogers and Dolly Parton following a viral duet, with fans praising their chemistry. (via Yahoo News UK)"
-},
-"424f3ce6b2cd": {
-"at": "2026-11-12T17:33:35+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Frasier' star Jane Leeves explains why she did not reprise her role as Daphne in the revival series. (via The Independent)"
 },
 "4355168365d7": {
 "at": "2026-11-19T17:40:31+00:00",
@@ -387,12 +370,6 @@
 "model": "gemini-3-flash-preview",
 "text": "\"So your message to the American people is that things like this happen?\" 'The Daily Show' host Michael Kosta says. Kosta mocked Donald Trump’s response to recent tech outages and compared the president’s remarks to a fortune cookie. (via TheWrap)"
 },
-"6a3a201c1834": {
-"at": "2026-11-12T17:33:49+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "James Denton will reunite with Reba McEntire in an upcoming multi-episode guest arc on NBC's 'Happy's Place'. Denton plays a customer named JB who goes on a date with McEntire's character Bobbie. (via TV Insider)"
-},
 "6c56fe62f663": {
 "at": "2026-11-14T17:43:32+00:00",
 "from_article": false,
@@ -404,12 +381,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Ghosts' star Utkarsh Ambudkar will channel John McClane in the upcoming holiday special titled 'Died Hard'. The hour-long episode is set to air December 10 on CBS and will feature a 'Die Hard' twist. (via TV Insider)"
-},
-"6f11f5cbb461": {
-"at": "2026-11-12T17:33:05+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "Molly McCook and Christoph Sanders recently reunited with Tim Allen on the set of 'Shifting Gears'. McCook clarified that she was just visiting and is not currently slated to appear on the ABC comedy. (via TV Insider)"
 },
 "735f52f86a8f": {
 "at": "2026-11-15T17:38:07+00:00",
@@ -428,12 +399,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Martin' star Tisha Campbell reveals her youngest son calls her by her character’s name from the show. (via Extra)"
-},
-"78ae1077b80e": {
-"at": "2026-11-12T17:34:27+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "'Full House' alum Candace Cameron Bure is praising her daughter Natasha Bure for her postpartum strength following health complications after welcoming her first baby. (via E! News)"
 },
 "7a638459edae": {
 "at": "2026-11-18T17:33:14+00:00",
@@ -477,23 +442,11 @@
 "model": "gemini-3-flash-preview",
 "text": "'Scrubs' will not air a new episode tonight. The revival series is set to return for its 200th episode. (via Parade Magazine)"
 },
-"86ed102b6472": {
-"at": "2026-11-12T17:34:01+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "Comedian and 'Martin' star Tisha Campbell takes on a powerful dramatic role in the new Lifetime movie 'One Last Shot', which she also helped write and executive produce. The project was inspired by her personal experience watching her aunt navigate grief after losing her cousin. (via TV Insider)"
-},
 "87e24d337efc": {
 "at": "2026-11-14T06:42:14+00:00",
 "from_article": true,
 "model": "gemini-flash-lite-latest",
 "text": "'Two and a Half Men' is coming to free streaming for the first time through a new deal with Pluto TV. The series will be joined by 'Veronica Mars', 'The Jamie Foxx Show', 'Martin' and 'The Wayans Bros.' later this month. (via Variety)"
-},
-"88973f99cd13": {
-"at": "2026-11-12T17:34:38+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'South Park' targeted Donald Trump in a recent episode following the election. (via Yahoo)"
 },
 "8b4b7e60e93b": {
 "at": "2026-11-16T06:36:48+00:00",
@@ -542,6 +495,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'New Girl' star Zooey Deschanel would consider a reunion for the series if the entire cast returns. (via AOL.com)"
+},
+"937d0cf5b5b2": {
+"at": "2026-11-19T20:33:28+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Laverne & Shirley' actress has passed away at the age of 88. (via Page Six) 🕊️"
 },
 "939a38953879": {
 "at": "2026-11-14T06:42:01+00:00",
@@ -698,12 +657,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Seinfeld' co-creator and 'Curb Your Enthusiasm' creator and star Larry David has announced a six-city live conversation tour for February 2027. Titled 'A Conversation with Larry David', the tour will feature his daughter, writer and filmmaker Cazzie David, as a special guest moderator. (via Deadline)"
-},
-"c1242e7aac73": {
-"at": "2026-11-12T17:33:29+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "'Jimmy Kimmel Live!' topped network late-night television in October with just over 3 million total viewers, while NBC’s 'The Tonight Show Starring Jimmy Fallon' saw declines across total viewers and the key demographic. (via TV Insider)"
 },
 "c24fc294e20b": {
 "at": "2026-11-14T17:47:19+00:00",
@@ -872,12 +825,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'SNL' star Bowen Yang made a surprise cameo in the show’s cold open in a hilarious role. (via USA Today)"
-},
-"f324d56aef3f": {
-"at": "2026-11-12T17:32:57+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "Steve Carell and John C. Reilly will star in a Broadway production of 'The Odd Couple'. (via IMDb)"
 },
 "f44583b6e269": {
 "at": "2026-11-14T06:40:52+00:00",
@@ -6527,6 +6474,24 @@
 "tags": [],
 "title": "Melissa McCarthy showcases her 95lbs weight loss in slim fitting jeans and floral kimono at star studded dinner"
 },
+"1cdb9761c745": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "1cdb9761c745",
+"kind": "article",
+"link": "https://www.thewrap.com/creative-content/tv-shows/adults-16-episode-season-3-renewal-ratings-analysis-fx/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-19T19:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Plus, prepare for the GTA storm and \"Dancing With the Stars\" hits another season high",
+"tags": [],
+"title": "How ‘Adults’ Defied the Streaming Comedy Curse"
+},
 "1cfd507927b5": {
 "first_seen": "2026-11-17T16:29:54+00:00",
 "id": "1cfd507927b5",
@@ -9476,6 +9441,24 @@
 "summary": "",
 "tags": [],
 "title": "John Mulaney’s Woodstock Sketch May Be One of ‘SNL’s’ Funniest Generational Roasts Yet"
+},
+"2cebfcd57c9e": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "2cebfcd57c9e",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/nikki-glaser-netflix-scripted-series-specials-1236952642/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-19T19:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Nikki Glaser has formed a major partnership with Netflix. The Emmy-nominated comedian will develop a scripted series to star in, as well as deliver two new stand-up specials, for the streamer as part of its newly announced Netflix Is a Joke Studios.",
+"tags": [],
+"title": "Nikki Glaser to Develop Scripted Series at Netflix, Inks Partnership With New Netflix Is a Joke Studios"
 },
 "2d3313f6e425": {
 "first_seen": "2026-11-13T17:30:12+00:00",
@@ -21599,6 +21582,24 @@
 "tags": [],
 "title": "‘Dig’ Review: Amy Poehler’s Talent-Rich Peacock Comedy Barely Scratches the Surface"
 },
+"6a24d9d9ffe7": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "6a24d9d9ffe7",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/nikki-glaser-overall-deal-netflix-1236759294/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-19T19:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The in-house unit at the streamer will be an incubator for projects that go beyond stand-up comedy.",
+"tags": [],
+"title": "Nikki Glaser Signs Deal With Newly Created Netflix Is a Joke Studios"
+},
 "6a5f3c17d61d": {
 "first_seen": "2026-11-14T17:30:12+00:00",
 "id": "6a5f3c17d61d",
@@ -23554,6 +23555,28 @@
 "summary": "",
 "tags": [],
 "title": "talkin’ thanksgiving transpo"
+},
+"7591814092a9": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "7591814092a9",
+"kind": "article",
+"link": "https://deadline.com/2026/11/zooey-deschanel-caleb-hearon-trash-mountain-1237229457/",
+"outlet": "Deadline",
+"people": [
+"Zooey Deschanel"
+],
+"published": "2026-11-19T20:24:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: The TIFF world premiere, Trash Mountain, starring Zooey Deschanel and Caleb Hearon, is seeing its North American rights go to Magnolia Pictures for a theatrical release next year.",
+"tags": [
+"Upcoming"
+],
+"title": "Zooey Deschanel & Caleb Hearon TIFF World Premiere ‘Trash Mountain’ Acquired By Magnolia Pictures"
 },
 "759bc66f78a7": {
 "first_seen": "2026-11-15T06:30:11+00:00",
@@ -29781,6 +29804,28 @@
 "tags": [],
 "title": "Tyra Banks on Tackling Lies, Reclaiming Her Narrative and Bringing Back 'Modelland' (Exclusive)"
 },
+"9477b0a68866": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "9477b0a68866",
+"kind": "article",
+"link": "https://www.tvinsider.com/1304626/dancing-with-the-stars-alfonso-ribeiro-harry-shum-jr-jenna-johnson-elimination-interview/",
+"outlet": "TV Insider",
+"people": [
+"Alfonso Ribeiro"
+],
+"published": "2026-11-19T17:29:17+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The show's host also explained why it would've been a 'shock' no matter who went home in the Semifinals. Alfonso Ribeiro has a front row view of everything that happens on Dancing With the Stars.",
+"tags": [
+"Interview"
+],
+"title": "‘Dancing With the Stars’: Alfonso Ribeiro Reveals What He Said to Harry & Jenna After Elimination"
+},
 "94831bf3acca": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "94831bf3acca",
@@ -30921,6 +30966,26 @@
 "Interview"
 ],
 "title": "Danielle Fishel Recalls ‘Purging & Overexercising’ After ‘Boy Meets World’ Creator Commented on Her Weight"
+},
+"9bd10c4a0dd8": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "9bd10c4a0dd8",
+"kind": "article",
+"link": "https://www.thewrap.com/industry-news/business/ashton-kutcher-celebrates-anthropic-ipo/",
+"outlet": "TheWrap",
+"people": [
+"Ashton Kutcher"
+],
+"published": "2026-11-19T19:16:49+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The AI company, which the actor invested in through his firm Sound Ventures, opened on the Nasdaq at $111.50 per share on Thursday",
+"tags": [],
+"title": "Ashton Kutcher Celebrates Anthropic IPO as His Firm Rakes in Billions: ‘Kind of Cool’"
 },
 "9bd10f25d8fc": {
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -34725,7 +34790,7 @@
 "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY1V3X2RaWERMOWtIVFlyN1VJLXpFUXpMdl9rQTJJT3I0cEdJdXRqX0UzVjQ2N0IzeUloMHNkLUc2dE5MUUN0VDNmR1RyS2F5OFJVZDJGc2tzNGthU01rY2Z2SVFwUjVaOHVoUmh3RzRFWm1GWmFSQTlkd0NRNlczLXNHSjUwbk9FYTRN?oc=5",
 "outlet": "Comic Book Resources",
 "people": [],
-"published": "2026-11-19T13:10:15+00:00",
+"published": "2026-11-19T18:00:12+00:00",
 "query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
 "query_relevant": true,
 "rehash": false,
@@ -35915,6 +35980,24 @@
 "summary": "",
 "tags": [],
 "title": "'Malcolm in the Middle' Star Frankie Muniz Offers Health Update After Major Accident"
+},
+"b6e84f30ae9f": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "b6e84f30ae9f",
+"kind": "article",
+"link": "https://www.thewrap.com/media-platforms/tv/netflix-launches-netflix-is-a-joke-studios-creative-partnership-nikki-glaser/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-19T19:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Netflix Is a Joke Studios will develop scripted projects and original formats with stand-up comedians",
+"tags": [],
+"title": "Netflix Partners With Nikki Glaser on Scripted Series to Launch Its New Comedy Studio"
 },
 "b73fb8efdce7": {
 "channel_kind": "outlet",
@@ -38984,6 +39067,26 @@
 "summary": "Seth addresses Trump's plans to meet with Xi Jinping and Vladimir Putin in his monologue for Wednesday, November 18, before taking a closer look at the Trump administration struggling to reassure Americans after a series of major tech...",
 "tags": [],
 "title": "Trump to Meet with Xi Jinping and Vladimir Putin to Discuss Nuclear Weapons"
+},
+"c6744a631f85": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "c6744a631f85",
+"kind": "article",
+"link": "https://deadline.com/2026/11/susan-sarandon-film-accompanist-us-deal-watermelon-pictures-1237229354/",
+"outlet": "Deadline",
+"people": [
+"Aubrey Plaza"
+],
+"published": "2026-11-19T18:57:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Watermelon Pictures has picked up North American distribution rights to The Accompanist, co-written and directed by actor, writer and comedian Zach Woods, starring Oscar winner Susan Sarandon alongside Aubrey Plaza and Everly Carganilla.",
+"tags": [],
+"title": "Susan Sarandon & Aubrey Plaza Drama ‘The Accompanist’ Gets North American Deal With Watermelon Pictures"
 },
 "c69e47289cb7": {
 "channel_kind": "talk",
@@ -44113,6 +44216,26 @@
 "summary": "",
 "tags": [],
 "title": "Amy Poehler on Why She Wanted to Return to Television With ‘Dig’"
+},
+"e22ccbe47e6e": {
+"first_seen": "2026-11-19T20:30:13+00:00",
+"id": "e22ccbe47e6e",
+"kind": "article",
+"link": "https://www.thewrap.com/creative-content/tv-shows/the-daily-show-outages-government-answers-trump-administration/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-19T20:16:35+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Daily Show"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"I might buy the fact that this is all kind of a coincidence, but the problem is I don't buy it from you guys,\" host Michael Kosta tells the administration",
+"tags": [],
+"title": "‘The Daily Show’ Begs for Trump Answers After Outages: ‘We Don’t Trust You, and That’s Dangerous’"
 },
 "e22fbcbaba34": {
 "first_seen": "2026-11-18T06:30:20+00:00",
