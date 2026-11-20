@@ -8,6 +8,7 @@
 "937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
 "a1a10e12883f": "2026-11-17T06:30:10+00:00",
+"a470c0275fa1": "2026-11-20T18:00:12+00:00",
 "af6a1d2c4656": "2026-11-17T16:29:54+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
@@ -42,12 +43,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Desperate Housewives' star James Denton says Reba McEntire is \"so normal\" to work with on 'Happy's Place'. (via IMDb)"
-},
-"080cbf2ef016": {
-"at": "2026-11-13T17:36:02+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Disney’s 'Herbie' movie franchise was once turned into an '80s sitcom that was canceled after only five episodes. 'Herbie, the Love Bug' premiered on CBS in 1982 and followed star Dean Jones as he ran a driving school with the sentient race car. (via TVLine)"
 },
 "084831cb4d7a": {
 "at": "2026-11-20T17:39:14+00:00",
@@ -127,12 +122,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Full House' star Candace Cameron Bure and husband Valeri Bure are teasing the secrets to their 30-year marriage. Valeri joked that their children would not want to hear some of their secrets, while Candace credited his humor and their shared faith for their long-lasting relationship. (via E! News)"
 },
-"1c0ee1367152": {
-"at": "2026-11-13T17:35:36+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Seinfeld' star Julia Louis-Dreyfus discusses her projects 'Tangles' and 'Other Desert Cities'. She also opens up about the 'Christmas Vacation' line she says she can’t escape. (via IMDb)"
-},
 "1cfd507927b5": {
 "at": "2026-11-17T17:32:28+00:00",
 "from_article": true,
@@ -193,12 +182,6 @@
 "model": "gemini-flash-lite-latest",
 "text": "'Ted Lasso' star Jason Sudeikis' co-star almost missed his big night until an unexpected event occurred (via Yahoo News UK)."
 },
-"2d3313f6e425": {
-"at": "2026-11-13T17:35:27+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "Comedian and 'Abbott Elementary' star Janelle James says fans of the show might be \"shocked\" by her upcoming Netflix special. (via AOL.com)"
-},
 "2d94e03065b8": {
 "at": "2026-11-17T06:33:17+00:00",
 "from_article": true,
@@ -228,12 +211,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "\"The unspoken message I got as a child was that we had nothing,\" 'Cheers' star Ted Danson says. He reflects on growing up with very little money and how his family focused on necessities rather than wealth. (via TVLine)"
-},
-"374f13179616": {
-"at": "2026-11-13T17:36:34+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "John Mulaney and Phoebe Bridgers’ latest ‘SNL’ promo features a brutal roast. (via Mashable)"
 },
 "3942b1258dbb": {
 "at": "2026-11-15T06:35:40+00:00",
@@ -271,12 +248,6 @@
 "model": "gemini-3-flash-preview",
 "text": "The first trailer for 'Only Murders in the Building' Season 6 has been released. The new season premieres Tuesday, December 8 on Hulu. (via Deadline)"
 },
-"4786ca4393db": {
-"at": "2026-11-13T17:34:24+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'The Fresh Prince of Bel-Air' star Tatyana Ali says her 'Dancing with the Stars' partner Jan Ravnik \"would love\" a cameo on 'Abbott Elementary'. (via Parade Magazine)"
-},
 "49297ab3b855": {
 "at": "2026-11-14T06:41:37+00:00",
 "from_article": false,
@@ -301,35 +272,17 @@
 "model": "gemini-3-flash-preview",
 "text": "\"I’m the definition of a cameo. I think you may also call it a very small part, but it’s either a very small part or it’s a cameo, depending on how confident I’m feeling,\" former 'Doctor Who' star David Tennant says of his role in 'Only Murders in the Building' Season 6. Tennant joins the cast as the series"
 },
-"53a942b017ff": {
-"at": "2026-11-13T17:36:16+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"I was not really fully emotionally baked until shortly before I met Mary ... Thank God we didn't meet earlier,\" 'Cheers' star Ted Danson says. He reflects on his 30-year marriage to Mary Steenburgen and says he needed to grow into an emotionally mature human being in his 40s. (via TVLine)"
-},
 "53eebe4eb5c4": {
 "at": "2026-11-15T06:35:18+00:00",
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Comedian and former 'Saturday Night Live' writer John Mulaney returned to host the show for the seventh time. Mulaney roasted RFK Jr. and made out with Jeremy Culhane during his opening monologue. (via Deadline)"
 },
-"540a6ce19dc0": {
-"at": "2026-11-13T17:35:44+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Only Murders in the Building' stars Steve Martin and Martin Short jabbed at Donald Trump while honoring Steven Spielberg. (via The Independent)"
-},
 "5436f9dc40ba": {
 "at": "2026-11-19T06:41:36+00:00",
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "New episodes of 'Scrubs' and 'Abbott Elementary' scheduled for November 18 and November 25 will not air. Both shows are reportedly delayed for a while. (via IMDb)"
-},
-"54f5da748ad8": {
-"at": "2026-11-13T17:36:24+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "A sneak peek for 'How Romantic' starring comedian and 'Abbott Elementary' star Janelle James has been released. (via IMDb)"
 },
 "57765ae18ecc": {
 "at": "2026-11-17T17:32:41+00:00",
@@ -450,12 +403,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "The children of the 'Scrubs' revival cast have been revealed. One child reportedly had a 'full page' of notes for the stars after visiting the set. (via People)"
-},
-"7dbe26f9f6b4": {
-"at": "2026-11-13T17:35:14+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "The stars of 'The Hunting Wives' have reacted to comedian and 'Parks and Recreation' star Amy Poehler’s spoof of the series on 'SNL'. (via Yahoo)"
 },
 "7fcfe57df6e6": {
 "at": "2026-11-14T17:47:44+00:00",
@@ -625,17 +572,17 @@
 "model": "gemini-3-flash-preview",
 "text": "'Boy Meets World' star Danielle Fishel reveals she struggled with purging and overexercising after creator Michael Jacobs commented on her weight. Fishel says she became obsessive about her appearance after Jacobs told her and co-star Will Friedle they had gained weight before writing the season 7 episode 'She’s Having My Baby Back Ribs'. (via Just Jared)"
 },
+"a470c0275fa1": {
+"at": "2026-11-20T18:03:58+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "\"A 'Moesha' reboot can really be something in today’s time,\" Brandy says. (via Billboard)"
+},
 "a5963d886294": {
 "at": "2026-11-18T17:33:42+00:00",
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Full House' star Candace Cameron Bure says John Stamos would never do 'Special Forces' because he is \"too pretty.\" (via People)"
-},
-"a71d96730ae2": {
-"at": "2026-11-13T17:35:51+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Last Man Standing' star Tim Allen reunited with his TV daughter and son-in-law in a new photo. (via Parade Magazine)"
 },
 "a8a161477654": {
 "at": "2026-11-19T06:40:59+00:00",
@@ -5128,8 +5075,8 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-20T13:12:00+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -13148,6 +13095,26 @@
 "tags": [],
 "title": "Kelly Ripa and Mark Consuelos Anchor 'Live!' in the Middle of a RAIN STORM!"
 },
+"3fc3109fa925": {
+"first_seen": "2026-11-20T18:00:12+00:00",
+"id": "3fc3109fa925",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/bowen-yang-apologizes-for-antisemitic-remark-regina-spektor/",
+"outlet": "TheWrap",
+"people": [
+"Bowen Yang"
+],
+"published": "2026-11-20T17:59:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"I want to genuinely apologize for using a word on the podcast without knowing its antisemitic history,\" the \"Las Culturistas\" host says",
+"tags": [],
+"title": "Bowen Yang Apologizes for Antisemitic Remark About Regina Spektor"
+},
 "3fe0319cb39c": {
 "first_seen": "2026-11-14T06:30:10+00:00",
 "id": "3fe0319cb39c",
@@ -18075,8 +18042,8 @@
 "outlet": "TV Insider",
 "people": [],
 "published": "2026-11-20T14:27:38+00:00",
-"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -19133,7 +19100,7 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": true,
-"summary": "EXCLUSIVE: Louis Garrel and Harry Lawtey are set to join Jeremy Allen White in the Laika Live Action and A24 World War Ii survival thriller Airman directed by Ben Stiller.",
+"summary": "EXCLUSIVE: Louis Garrel and Harry Lawtey are set to join Jeremy Allen White in the Laika Live Action and A24 World War II survival thriller Airman directed by Ben Stiller.",
 "tags": [],
 "title": "Louis Garrel And Harry Lawtey Join Jeremy Allen White In Ben Stiller-Directed ‘Airman’ From Laika Live-Action And A24"
 },
@@ -32850,6 +32817,30 @@
 "summary": "NEW hot ones episode with Michelle Yeoh 🔥 find out if they made it through the wings of death NOW 👀",
 "tags": [],
 "title": "Michelle Yeoh on Hot Ones NOW!"
+},
+"a470c0275fa1": {
+"first_seen": "2026-11-20T18:00:12+00:00",
+"id": "a470c0275fa1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZER0cEkzMlQycGxfRU5faFFqVXByek41UlFRVnllNXNzbTh6cTk2V2lPLVJLem5GUUVjdlZicTd5dFMtUW8yNU05WTAyaTdzd0ZpdXdYeld1ZFJNNlJLNDR4eU9pWXNHWG9icm5MX1gyRnVtQzJYQ3FpZkgxa3JGOGVsMFFSWXZveF9xSUNLYzhRQnhK?oc=5",
+"outlet": "Billboard",
+"people": [],
+"published": "2026-11-20T17:39:49+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Moesha"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Brandy Believes a ‘Moesha’ Reboot ‘Can Really Be Something in Today’s Time’"
 },
 "a47b5510e743": {
 "channel_kind": "outlet",
