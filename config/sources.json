@@ -44,6 +44,42 @@
     {
       "name": "Just Jared",
       "url": "https://www.justjared.com/feed/"
+    },
+    {
+      "name": "AV Club",
+      "url": "https://www.avclub.com/rss"
+    },
+    {
+      "name": "Us Weekly",
+      "url": "https://www.usmagazine.com/feed/"
+    },
+    {
+      "name": "Page Six",
+      "url": "https://pagesix.com/feed/"
+    },
+    {
+      "name": "Uproxx",
+      "url": "https://uproxx.com/tv/feed/"
+    },
+    {
+      "name": "Screen Rant",
+      "url": "https://screenrant.com/feed/tv/"
+    },
+    {
+      "name": "Den of Geek",
+      "url": "https://www.denofgeek.com/tv/feed/"
+    },
+    {
+      "name": "ComingSoon",
+      "url": "https://www.comingsoon.net/feed"
+    },
+    {
+      "name": "Hollywood Life",
+      "url": "https://hollywoodlife.com/feed/"
+    },
+    {
+      "name": "ET Online",
+      "url": "https://www.etonline.com/news/rss"
     }
   ],
   "google_news": {

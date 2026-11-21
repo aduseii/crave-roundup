@@ -18,13 +18,21 @@ Instagram, X and captions are handled by the Grok bot, not this site.
 
 Posted marks and the header line are saved in your browser, so they're per device.
 
+### The look (Nov 2026 revamp)
+
+- **Pictures on every story:** taken from the feed, else the article's own share picture, else a TMDB still of the show or a TMDB photo of the person (TMDB needs the `TMDB_API_KEY` secret). Birthdays and death anniversaries use the Wikidata photo. A story with no picture gets a name tile. Pictures are remembered in `data/state.json` for 7 days so they aren't looked up twice.
+- **Breaking banner:** red strip at the top of the roundup with the newest breaking stories from the last 24 hours. It refreshes itself every 5 minutes from `docs/breaking.json`, which every breaking check writes. The Breaking tab shows a red count too. Stories you mark as posted drop off it.
+- **Up next:** the next story in the posting schedule is shown big, with a countdown ("Next post 9am, in 42 min") and a bar showing how many of today's ten you've posted.
+- **Section chips:** tap a chip (Schedule, On this day, News...) to show only that section; tap it again or **All** to see everything. The magnifier searches headlines.
+- **Not sitcom:** under each story. Hide just that story, or mute a show or name so every headline with it is hidden on this device. **Settings** lists muted words (tap one to unmute) and can show hidden stories again. To drop something for every device, add a line to `config/not_news.txt`.
+- **Caption buttons** fold away: **Draft caption** / **Caption** opens the ready caption, **Write caption** asks Gemini.
+
 ### On iPhone
 
-- The action bar slides up from the bottom once you tick a story: **Copy**, **Open Grok**, **Share**, **Posted**.
+- The tab bar sits at the bottom: **Today**, **Breaking**, **Captions**, **Archive**.
+- The action bar slides up above it once you tick a story: **Copy**, **Open Grok**, **Share**, **Posted**.
 - **Share** opens the iPhone share sheet, so you can send the packet straight to the Grok app.
-- The pill buttons under the top links jump between sections.
-- **Settings** (bottom of the page) has "Show stories I already posted" and the Grok header line.
-- To get it as an app: open the site in Safari, tap **Share → Add to Home Screen**. (Posted marks saved in the home-screen app are separate from the ones in Safari.)
+- To get it as an app: open the site in Safari, tap **Share → Add to Home Screen**. (Posted marks and hidden stories saved in the home-screen app are separate from the ones in Safari.)
 
 ## Setup (one time)
 

@@ -1,9 +1,13 @@
-// Sitcom Crave Roundup: pick stories, send them to Grok, mark them as posted.
+// Sitcom Crave Roundup: pick stories, send them to Grok, mark them as posted,
+// filter sections, hide stories that aren't sitcom news, and keep an eye on breaking news.
 (function () {
   var LS_POSTED = "scr_posted";
   var LS_HEADER = "scr_header";
+  var LS_HIDDEN = "scr_hidden";   // story ids hidden with "Not sitcom"
+  var LS_MUTED = "scr_muted";     // words or show names: any headline containing one is hidden
   var GROK_URL = "https://grok.com/?q=";
   var GROK_LINK_LIMIT = 7000; // longer packets are copied only
+  var ROOT = window.ROUNDUP_ROOT || "";
 
   function load(key, fallback) {
     try {
@@ -16,16 +20,15 @@
   function store(key, value) {
     try { localStorage.setItem(key, value); } catch (e) { /* storage blocked */ }
   }
-  function postedSet() {
-    try { return new Set(JSON.parse(load(LS_POSTED, "[]"))); } catch (e) { return new Set(); }
+  function loadList(key) {
+    try { var v = JSON.parse(load(key, "[]")); return Array.isArray(v) ? v : []; } catch (e) { return []; }
   }
-  function savePosted(set) {
-    var arr = Array.from(set);
-    store(LS_POSTED, JSON.stringify(arr.slice(-5000)));
-  }
+  function postedSet() { return new Set(loadList(LS_POSTED)); }
+  function savePosted(set) { store(LS_POSTED, JSON.stringify(Array.from(set).slice(-5000))); }
 
   var selected = new Map(); // id -> packet, in the order you picked them
   var $ = function (id) { return document.getElementById(id); };
+  var all = function (sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); };
 
   function status(msg) {
     var el = $("status");
@@ -37,8 +40,7 @@
 
   function header() {
     var el = $("header");
-    var v = el ? el.value.trim() : "";
-    return v;
+    return el ? el.value.trim() : "";
   }
 
   // only the stories themselves: headline and links, separated by a blank line
@@ -53,12 +55,11 @@
 
   function updateTray() {
     $("count").textContent = String(selected.size);
-    // the action bar slides up only while something is picked
     document.body.classList.toggle("has-sel", selected.size > 0);
   }
 
   function setChecked(id, on) {
-    document.querySelectorAll('[data-id="' + CSS.escape(id) + '"]').forEach(function (item) {
+    all('[data-id="' + CSS.escape(id) + '"]').forEach(function (item) {
       item.classList.toggle("sel", on);
       var c = item.querySelector(".pick");
       if (c) c.checked = on;
@@ -68,7 +69,7 @@
   // posted stories stay on the page with a green "Posted" badge; tapping the badge undoes it
   function applyPosted() {
     var posted = postedSet();
-    document.querySelectorAll("[data-id]").forEach(function (el) {
+    all(".item[data-id]").forEach(function (el) {
       var isPosted = posted.has(el.dataset.id);
       el.classList.toggle("posted", isPosted);
       var badge = el.querySelector(".posted-badge");
@@ -77,15 +78,15 @@
         badge.type = "button";
         badge.className = "posted-badge";
         badge.textContent = "Posted";
-        badge.title = "Tap to unmark";
         badge.setAttribute("aria-label", "Posted. Tap to unmark");
-        var meta = el.querySelector(".meta");
-        if (meta) meta.insertBefore(badge, meta.firstChild);
-        else el.appendChild(badge);
+        var kick = el.querySelector(".kick") || el.querySelector(".t");
+        kick.parentNode.insertBefore(badge, kick);
       } else if (!isPosted && badge) {
         badge.remove();
       }
     });
+    updateSchedule();
+    renderBreaking(lastBreaking);
   }
 
   function copyText(text) {
@@ -105,6 +106,246 @@
     try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
     document.body.removeChild(ta);
     return ok;
+  }
+
+  // ---------- pictures that fail to load turn into the name tile ----------
+  document.addEventListener("error", function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== "IMG" || !img.parentNode || !img.parentNode.classList.contains("thumb")) return;
+    var box = img.parentNode;
+    var span = document.createElement("span");
+    span.textContent = box.dataset.ph || "";
+    box.classList.add("ph");
+    box.replaceChild(span, img);
+  }, true);
+
+  // ---------- "Up next" and progress for the posting schedule ----------
+  function fmtTime(d) {
+    var h = d.getUTCHours(), m = d.getUTCMinutes();
+    return (h % 12 || 12) + (m ? ":" + String(m).padStart(2, "0") : "") + (h < 12 ? "am" : "pm");
+  }
+  function updateSchedule() {
+    var rows = all(".today .item[data-slot]");
+    if (!rows.length) return;
+    var posted = postedSet(), now = Date.now(), done = 0, next = null;
+    rows.forEach(function (r) {
+      r.classList.remove("next");
+      if (posted.has(r.dataset.id)) { done++; return; }
+      var t = Date.parse(r.dataset.slot);
+      // the next unposted story whose hour hasn't long passed; stale editions get no "Up next"
+      if (!next && t >= now - 40 * 60 * 1000 && t - now < 20 * 3600 * 1000) next = r;
+    });
+    if (!next && done < rows.length) {
+      var last = Date.parse(rows[rows.length - 1].dataset.slot);
+      if (now - last < 6 * 3600 * 1000) next = rows.filter(function (r) { return !posted.has(r.dataset.id); })[0];
+    }
+    $("sched-done").textContent = String(done);
+    $("sched-bar").style.width = Math.round(done / rows.length * 100) + "%";
+    var label = $("sched-next");
+    if (done === rows.length) { label.textContent = "All posted. Nice work."; return; }
+    if (!next) { label.textContent = ""; return; }
+    next.classList.add("next");
+    var mins = Math.round((Date.parse(next.dataset.slot) - now) / 60000);
+    var when = mins > 90 ? "in " + Math.floor(mins / 60) + "h " + (mins % 60) + "m"
+      : mins > 1 ? "in " + mins + " min" : mins >= -5 ? "now" : "overdue";
+    label.textContent = "Next post " + fmtTime(new Date(next.dataset.slot)) + ", " + when;
+  }
+
+  // ---------- breaking banner and red dots, kept fresh from breaking.json ----------
+  var lastBreaking = window.ROUNDUP_BREAKING || null;
+  function ago(iso) {
+    var m = Math.max(0, Math.round((Date.now() - Date.parse(iso)) / 60000));
+    if (m < 60) return m + " min ago";
+    var h = Math.floor(m / 60);
+    return h + "h ago";
+  }
+  function renderBreaking(list) {
+    if (!list) return;
+    var posted = postedSet();
+    var live = list.filter(function (s) {
+      return Date.now() - Date.parse(s.seen || s.time) < 24 * 3600 * 1000 && !posted.has(s.id);
+    });
+    all(".bdot").forEach(function (d) {
+      d.hidden = !live.length;
+      d.textContent = live.length > 9 ? "9+" : String(live.length);
+    });
+    var box = $("bbanner");
+    if (!box) return;
+    box.innerHTML = "";
+    if (!live.length) { box.hidden = true; return; }
+    live.slice(0, 2).forEach(function (s) {
+      var a = document.createElement("a");
+      a.className = "bb";
+      a.href = ROOT + "breaking.html#s-" + s.id;
+      var tag = document.createElement("span"); tag.className = "bb-tag"; tag.textContent = s.tag || "Breaking";
+      var t = document.createElement("span"); t.className = "bb-t"; t.textContent = s.title;
+      var w = document.createElement("span"); w.className = "bb-when";
+      w.textContent = (s.outlet ? s.outlet + ", " : "") + ago(s.seen || s.time);
+      t.appendChild(w);
+      a.appendChild(tag); a.appendChild(t);
+      box.appendChild(a);
+    });
+    if (live.length > 2) {
+      var more = document.createElement("a");
+      more.className = "bb-more";
+      more.href = ROOT + "breaking.html";
+      more.textContent = "See all " + live.length + " breaking stories";
+      box.appendChild(more);
+    }
+    box.hidden = false;
+  }
+  function refreshBreaking() {
+    if (!window.fetch || location.protocol === "file:") return;
+    fetch(ROOT + "breaking.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { if (d && d.stories) { lastBreaking = d.stories; renderBreaking(lastBreaking); } })
+      .catch(function () { /* offline: keep what the page came with */ });
+  }
+
+  // ---------- "Not sitcom": hide a story, or mute a word or show for good on this device ----------
+  function mutedList() { return loadList(LS_MUTED); }
+  function hiddenSet() { return new Set(loadList(LS_HIDDEN)); }
+  function titleOf(item) { return ((item.querySelector(".t") || {}).textContent || ""); }
+
+  function applyHidden() {
+    var hidden = hiddenSet(), muted = mutedList().map(function (m) { return m.toLowerCase(); });
+    var count = 0;
+    all(".item[data-id]").forEach(function (item) {
+      var t = titleOf(item).toLowerCase();
+      var gone = hidden.has(item.dataset.id) || muted.some(function (m) { return m && t.indexOf(m) >= 0; });
+      // a story you picked or posted never vanishes
+      if (item.classList.contains("sel")) gone = false;
+      item.classList.toggle("gone", gone);
+      if (gone) count++;
+    });
+    var st = $("hidden-state");
+    if (st) st.textContent = count ? count + " stor" + (count === 1 ? "y is" : "ies are") + " hidden on this page."
+      : "Stories you mark \"Not sitcom\" are hidden on this device.";
+    var list = $("mutelist");
+    if (list) {
+      list.innerHTML = "";
+      var words = mutedList();
+      if (!words.length) {
+        var none = document.createElement("span"); none.className = "muted"; none.textContent = "None yet.";
+        list.appendChild(none);
+      }
+      words.forEach(function (w) {
+        var b = document.createElement("button");
+        b.type = "button"; b.className = "act"; b.dataset.unmute = w;
+        b.textContent = w + "  ×";
+        b.setAttribute("aria-label", "Unmute " + w);
+        list.appendChild(b);
+      });
+    }
+    updateCounts();
+  }
+
+  function suggestions(item) {
+    var t = titleOf(item), out = [];
+    var re = /['‘“"]([^'’”"]{3,60})['’”"]/g, m;
+    while ((m = re.exec(t))) out.push(m[1].trim());
+    (item.dataset.terms || "").split("|").forEach(function (x) { if (x) out.push(x); });
+    var seen = {};
+    return out.filter(function (x) {
+      var k = x.toLowerCase();
+      if (seen[k] || t.toLowerCase().indexOf(k) < 0) return false;
+      seen[k] = 1; return true;
+    }).slice(0, 4);
+  }
+
+  function openMute(item) {
+    var old = item.querySelector(".mute");
+    if (old) { old.remove(); return; }
+    var box = document.createElement("div");
+    box.className = "mute panel";
+    var p = document.createElement("p");
+    p.textContent = "Hide this story? You can also mute a show or name so stories about it stay hidden on this device.";
+    var row = document.createElement("div"); row.className = "acts";
+    function btn(label, fn) {
+      var b = document.createElement("button"); b.type = "button"; b.className = "act"; b.textContent = label;
+      b.addEventListener("click", function (e) { e.stopPropagation(); fn(); });
+      row.appendChild(b);
+    }
+    btn("Hide this story", function () {
+      var h = hiddenSet(); h.add(item.dataset.id); store(LS_HIDDEN, JSON.stringify(Array.from(h).slice(-3000)));
+      box.remove(); applyHidden(); status("Hidden. Settings can bring it back.");
+    });
+    suggestions(item).forEach(function (s) {
+      btn("Mute “" + s + "”", function () {
+        var list = mutedList();
+        if (list.indexOf(s) < 0) list.push(s);
+        store(LS_MUTED, JSON.stringify(list));
+        box.remove(); applyHidden(); status("Muted “" + s + "” on this device.");
+      });
+    });
+    btn("Cancel", function () { box.remove(); });
+    box.appendChild(p); box.appendChild(row);
+    var after = item.querySelector(".acts");
+    after.parentNode.insertBefore(box, after.nextSibling);
+  }
+
+  // ---------- section chips and search ----------
+  var filter = "all", query = "";
+  function updateCounts() {
+    all(".chip[data-filter]").forEach(function (chip) {
+      var key = chip.dataset.filter;
+      if (key === "all") return;
+      var sec = $("sec-" + key);
+      var span = chip.querySelector("span");
+      if (!sec || !span) return;
+      var n = all(".item:not(.gone)", sec).length;
+      span.textContent = n ? String(n) : "";
+    });
+  }
+  function applyFilter() {
+    var q = query.trim().toLowerCase();
+    document.body.classList.toggle("filtering", filter !== "all" || !!q);
+    all("section.sec").forEach(function (sec) {
+      var off = filter !== "all" && sec.dataset.sec !== filter;
+      if (!off && q) {
+        var any = false;
+        all(".item", sec).forEach(function (it) {
+          var hit = it.textContent.toLowerCase().indexOf(q) >= 0;
+          it.classList.toggle("nomatch", !hit);
+          if (hit) any = true;
+        });
+        off = !any;
+      } else {
+        all(".item.nomatch", sec).forEach(function (it) { it.classList.remove("nomatch"); });
+      }
+      sec.classList.toggle("off", off);
+      if (filter !== "all" && !off) all("details.more", sec).forEach(function (d) { d.open = true; });
+    });
+    all(".chip[data-filter]").forEach(function (c) { c.classList.toggle("on", c.dataset.filter === filter); });
+  }
+  function initChips() {
+    all(".chip[data-filter]").forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        filter = chip.dataset.filter === filter ? "all" : chip.dataset.filter;
+        applyFilter();
+        var bar = document.querySelector("header.top");
+        var y = filter === "all" ? 0 : (document.querySelector("main").getBoundingClientRect().top + window.scrollY - (bar ? bar.offsetHeight : 0));
+        window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+        chip.scrollIntoView({ inline: "nearest", block: "nearest" });
+      });
+    });
+    var sb = $("searchbtn"), row = $("searchrow"), input = $("search");
+    if (sb && row && input) {
+      sb.addEventListener("click", function () {
+        var open = row.hidden;
+        row.hidden = !open;
+        sb.setAttribute("aria-expanded", open ? "true" : "false");
+        sb.classList.toggle("on", open);
+        if (open) input.focus();
+        else { input.value = ""; query = ""; applyFilter(); }
+      });
+      input.addEventListener("input", function () { query = input.value; applyFilter(); });
+    }
+    // links like #sec-news from elsewhere still land on their section
+    if (location.hash && location.hash.indexOf("#s-") === 0) {
+      var target = document.querySelector(location.hash);
+      if (target) { target.classList.add("sel"); setTimeout(function () { target.classList.remove("sel"); }, 2500); }
+    }
   }
 
   document.addEventListener("change", function (e) {
@@ -180,57 +421,69 @@
       updateTray();
     });
 
-    // tap anywhere on a card to pick it (links, "more" and the checkbox itself work as usual)
     document.addEventListener("click", function (e) {
-      if (e.target.closest("a, summary, details, input, label, button, textarea, .cap")) return;
-      var item = e.target.closest(".item[data-id]");
-      if (!item) return;
-      var box = item.querySelector(".pick");
+      var t = e.target;
+      if (!t.closest) return;
+
+      // caption and "Not sitcom" buttons on each story
+      var tog = t.closest(".act[data-toggle]");
+      if (tog) {
+        var item = tog.closest(".item");
+        if (tog.dataset.toggle === "mute") { openMute(item); return; }
+        var panel = item.querySelector('[data-panel="' + tog.dataset.toggle + '"]');
+        if (panel) { panel.hidden = !panel.hidden; tog.classList.toggle("on", !panel.hidden); }
+        return;
+      }
+      var un = t.closest("[data-unmute]");
+      if (un) {
+        store(LS_MUTED, JSON.stringify(mutedList().filter(function (w) { return w !== un.dataset.unmute; })));
+        applyHidden();
+        return;
+      }
+      // copy a ready caption (template or Gemini draft)
+      var cb = t.closest(".capcopy");
+      if (cb) {
+        copyText(cb.closest(".cap").dataset.cap).then(function (ok) {
+          cb.textContent = ok ? "Copied" : "Copy blocked";
+          cb.classList.toggle("done", ok);
+          setTimeout(function () { cb.textContent = "Copy caption"; cb.classList.remove("done"); }, 2000);
+        });
+        return;
+      }
+      // tap a Posted badge to unmark that story
+      var badge = t.closest(".posted-badge");
+      if (badge) {
+        var posted = postedSet();
+        posted.delete(badge.closest("[data-id]").dataset.id);
+        savePosted(posted);
+        applyPosted();
+        status("Unmarked.");
+        return;
+      }
+      // tap anywhere else on a card to pick it
+      if (t.closest("a, summary, details, input, label, button, textarea, .cap, .panel")) return;
+      var card = t.closest(".item[data-id]");
+      if (!card) return;
+      var box = card.querySelector(".pick");
       if (box) box.click();
     });
 
-    // copy a ready caption (template or Gemini draft)
-    document.addEventListener("click", function (e) {
-      var btn = e.target.closest && e.target.closest(".capcopy");
-      if (!btn) return;
-      var box = btn.closest(".cap");
-      copyText(box.dataset.cap).then(function (ok) {
-        btn.textContent = ok ? "Copied" : "Copy blocked";
-        btn.classList.toggle("done", ok);
-        setTimeout(function () { btn.textContent = "Copy caption"; btn.classList.remove("done"); }, 2000);
-      });
-    });
+    var sh = $("showhidden");
+    if (sh) sh.addEventListener("change", function () { document.body.classList.toggle("show-hidden", sh.checked); });
 
-    // tap a Posted badge to unmark that story
-    document.addEventListener("click", function (e) {
-      var b = e.target.closest && e.target.closest(".posted-badge");
-      if (!b) return;
-      var item = b.closest("[data-id]");
-      var posted = postedSet();
-      posted.delete(item.dataset.id);
-      savePosted(posted);
-      applyPosted();
-      status("Unmarked.");
-    });
-
-    // older shortcut: Shift+click a posted story's checkbox
-    document.addEventListener("click", function (e) {
-      if (!e.shiftKey || !e.target.classList || !e.target.classList.contains("pick")) return;
-      var item = e.target.closest("[data-id]");
-      if (!item || !item.classList.contains("posted")) return;
-      var posted = postedSet();
-      posted.delete(item.dataset.id);
-      savePosted(posted);
-      applyPosted();
-      status("Unmarked as posted.");
-    });
-
-    initSections();
+    initChips();
     initWriter();
+    applyHidden();
     applyPosted();
     updateTray();
+    renderBreaking(lastBreaking);
+    refreshBreaking();
+    setInterval(updateSchedule, 30000);
+    setInterval(refreshBreaking, 5 * 60000);
+    document.addEventListener("visibilitychange", function () {
+      if (!document.hidden) { updateSchedule(); refreshBreaking(); }
+    });
   }
-
 
   // ---------- caption writer: Gemini, called straight from this device ----------
   var LS_GEMKEY = "scr_gemini_key";
@@ -368,15 +621,15 @@
   }
 
   function setBusy(btn, busy) {
-    if (busy) { btn.dataset.label = btn.textContent; btn.textContent = "Writing"; }
-    else { btn.textContent = btn.dataset.label || "Write caption"; }
+    if (busy) { btn.dataset.label = btn.innerHTML; btn.textContent = "Writing"; }
+    else if (btn.dataset.label) { btn.innerHTML = btn.dataset.label; }
     btn.disabled = busy;
     btn.classList.toggle("busy", busy);
   }
 
   function writeForItem(btn) {
     var item = btn.closest("[data-id]");
-    var out = btn.parentNode.querySelector(".writer-out");
+    var out = item.querySelector(".writer-out");
     var lines = (item.dataset.packet || "").split("\n");
     var headline = (item.querySelector(".t") || {}).textContent || lines[0];
     var link = lines.filter(function (l) { return /^https?:\/\//.test(l); })[0] || "";
@@ -418,7 +671,7 @@
 
   function initWriter() {
     document.addEventListener("click", function (e) {
-      var btn = e.target.closest && e.target.closest(".writer .writecap");
+      var btn = e.target.closest && e.target.closest(".writecap-btn");
       if (btn) writeForItem(btn);
     });
     var go = $("maker-go");
@@ -449,60 +702,6 @@
       showState();
     });
     showState();
-  }
-
-  // section indicator: the left rail (wide screens) or the button in the top bar (phones)
-  // shows which section is on screen; tap or click to jump
-  function initSections() {
-    var heads = Array.prototype.slice.call(document.querySelectorAll("main h2[id]"));
-    var links = document.querySelectorAll("[data-sec]");
-    var btn = $("secbtn"), menu = $("secmenu"), cur = $("cursec");
-    if (!heads.length || !links.length) return;
-    var labels = {};
-    links.forEach(function (a) { labels[a.dataset.sec] = a.dataset.label; });
-    heads = heads.filter(function (h) { return labels[h.id]; });
-    var lastId = null;
-
-    function update() {
-      // a heading counts as current once it reaches the spot where a jump lands it, just under the pinned header
-      var head = document.querySelector("header.top");
-      var landing = parseFloat(getComputedStyle(heads[0]).scrollMarginTop) || 0;
-      var offset = Math.max(landing, head ? head.offsetHeight : 0) + 16;
-      var active = heads[0];
-      for (var i = 0; i < heads.length; i++) {
-        if (heads[i].getBoundingClientRect().top - offset <= 0) active = heads[i];
-        else break;
-      }
-      var doc = document.documentElement;
-      if (window.innerHeight + window.scrollY >= doc.scrollHeight - 4) active = heads[heads.length - 1];
-      if (!active || active.id === lastId) return;
-      lastId = active.id;
-      links.forEach(function (a) { a.classList.toggle("on", a.dataset.sec === active.id); });
-      if (cur) cur.textContent = labels[active.id];
-    }
-
-    var ticking = false;
-    window.addEventListener("scroll", function () {
-      if (ticking) return;
-      ticking = true;
-      requestAnimationFrame(function () { ticking = false; update(); });
-    }, { passive: true });
-    window.addEventListener("resize", update);
-
-    function setMenu(open) {
-      if (!btn || !menu) return;
-      menu.hidden = !open;
-      btn.setAttribute("aria-expanded", open ? "true" : "false");
-    }
-    if (btn && menu) {
-      btn.addEventListener("click", function () { setMenu(menu.hidden); });
-      menu.addEventListener("click", function (e) { if (e.target.closest("a")) setMenu(false); });
-      document.addEventListener("click", function (e) {
-        if (!menu.hidden && !e.target.closest(".jb")) setMenu(false);
-      });
-      document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
-    }
-    update();
   }
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);

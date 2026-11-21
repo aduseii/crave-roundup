@@ -396,6 +396,47 @@ def parse_feed(content: bytes):
     return feed
 
 
+IMG_EXT_RE = re.compile(r"\.(?:jpe?g|png|webp|gif|avif)(?:$|[?#])", re.I)
+IMG_SRC_RE = re.compile(r"""<img[^>]+?src=["']([^"']+)["']""", re.I)
+
+
+def clean_image(url: str | None) -> str:
+    """A usable https picture URL, or ''. Tracking pixels and icons are dropped."""
+    url = html.unescape((url or "").strip())
+    if url.startswith("//"):
+        url = "https:" + url
+    if url.startswith("http://"):
+        url = "https://" + url[7:]
+    if not url.startswith("https://") or len(url) > 1000:
+        return ""
+    low = url.lower()
+    if any(b in low for b in ("pixel", "feedburner", "spacer", "1x1", "gravatar", "/emoji/", "favicon", "logo")):
+        return ""
+    return url
+
+
+def entry_image(e) -> str:
+    """The story's picture from a feed entry: media tags, an image enclosure, or the first <img>."""
+    for m in (e.get("media_content") or []):
+        if m.get("medium") in (None, "", "image") and not str(m.get("type", "")).startswith(("video", "audio")):
+            u = clean_image(m.get("url"))
+            if u:
+                return u
+    for m in (e.get("media_thumbnail") or []):
+        u = clean_image(m.get("url"))
+        if u:
+            return u
+    for link in e.get("links", []):
+        if link.get("rel") == "enclosure" and (str(link.get("type", "")).startswith("image")
+                                               or IMG_EXT_RE.search(link.get("href", ""))):
+            u = clean_image(link.get("href"))
+            if u:
+                return u
+    raw = (e.get("summary", "") or "") + "".join(c.get("value", "") for c in e.get("content", []) or [])
+    m = IMG_SRC_RE.search(raw)
+    return clean_image(m.group(1)) if m else ""
+
+
 def fetch_rss(name: str, url: str, params: dict | None = None) -> tuple[list[dict], str]:
     feed = parse_feed(http_get(url, params=params).content)
     items = []
@@ -413,6 +454,7 @@ def fetch_rss(name: str, url: str, params: dict | None = None) -> tuple[list[dic
             "kind": "article",
             "published": iso(entry_time(e)),
             "summary": trim(clean_html(e.get("summary", "") or e.get("description", ""))),
+            "image": entry_image(e),
         })
     return items, feed.feed.get("title", "")
 
@@ -482,6 +524,7 @@ def fetch_youtube(ch: dict) -> tuple[list[dict], str]:
             "channel_kind": ch.get("kind", "outlet"),
             "published": iso(entry_time(e)),
             "summary": trim(clean_html(desc), 240),
+            "image": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg" if vid else entry_image(e),
         })
     return items, channel_title
 
@@ -560,6 +603,8 @@ def merge(state: dict, raw: list[dict], wl: Watchlist, now: dt.datetime) -> int:
         old = store.get(it["id"])
         if old:
             it["first_seen"] = old["first_seen"]
+            if not it.get("image") and old.get("image"):
+                it["image"] = old["image"]
         else:
             it["first_seen"] = iso(now)
             added += 1
@@ -590,6 +635,8 @@ def prune(state: dict, now: dt.datetime) -> None:
                         if (parse_iso(v) or now) >= cutoff}
     state["editions"] = state.get("editions", [])[-120:]
     state["drafts"] = {k: v for k, v in state.get("drafts", {}).items()
+                       if (parse_iso(v.get("at")) or now) >= cutoff}
+    state["images"] = {k: v for k, v in state.get("images", {}).items()
                        if (parse_iso(v.get("at")) or now) >= cutoff}
 
 
@@ -675,6 +722,11 @@ def finish_cluster(c: dict) -> None:
             sources.append((m["outlet"], m["link"]))
     c["sources"] = sources
     c["summary"] = next((m["summary"] for m in c["members"] if m.get("summary")), "")
+    c["image"] = next((m["image"] for m in [p] + c["members"] if m.get("image")), "")
+    if not c["image"] and c["kind"] == "video":  # stories saved before pictures were collected
+        vid = re.search(r"[?&]v=([\w-]{6,})", p.get("link", ""))
+        if vid:
+            c["image"] = f"https://i.ytimg.com/vi/{vid.group(1)}/hqdefault.jpg"
     c["time"] = min(item_time(m) for m in c["members"])
     c["first_seen"] = min(parse_iso(m["first_seen"]) for m in c["members"])
     # videos (talk-show clips, trailers) are never treated as breaking news
@@ -780,7 +832,7 @@ def person_query(month: int, day: int, dead: bool, limit: int) -> str:
     alive = "" if dead else "FILTER NOT EXISTS { ?person wdt:P570 ?dod . }"
     other = "OPTIONAL { ?person wdt:P569 ?born . }" if dead else ""
     return f"""
-SELECT ?person ?name ?date ?born ?links ?gender ?article
+SELECT ?person ?name ?date ?born ?links ?gender ?article (SAMPLE(?img) AS ?image)
        (GROUP_CONCAT(DISTINCT ?showStr; separator="|") AS ?shows) WHERE {{
   VALUES ?country {{ {COUNTRIES} }}
   ?show wdt:P136 {SITCOM_Q} ; wdt:P495 ?country ; wdt:P161 ?person .
@@ -796,6 +848,7 @@ SELECT ?person ?name ?date ?born ?links ?gender ?article
   BIND(IF(BOUND(?start), CONCAT(?showName, "@@", STR(YEAR(?start))), ?showName) AS ?showStr)
   OPTIONAL {{ ?person wdt:P21 ?g . ?g rdfs:label ?gender . FILTER(LANG(?gender) = "en") }}
   OPTIONAL {{ ?article schema:about ?person ; schema:isPartOf <https://en.wikipedia.org/> . }}
+  OPTIONAL {{ ?person wdt:P18 ?img . }}
 }}
 GROUP BY ?person ?name ?date ?born ?links ?gender ?article
 ORDER BY DESC(?links)
@@ -854,6 +907,7 @@ def person_rows(rows: list[dict], today: dt.date, dead: bool) -> list[dict]:
             "gender": _v(r, "gender"),
             "shows": parse_shows(_v(r, "shows")),
             "wiki": _v(r, "article"),
+            "image": commons_image(_v(r, "image")),
         })
     return out
 
@@ -975,7 +1029,9 @@ def upcoming(today: dt.date, health: list[dict]) -> list[dict]:
                 continue
             out[sid] = {"id": sid, "name": d.get("name") or r.get("name"), "date": when,
                         "label": label, "networks": nets,
-                        "overview": trim(d.get("overview") or "", 260)}
+                        "overview": trim(d.get("overview") or "", 260),
+                        "image": (TMDB_IMG + "w780" + d["backdrop_path"]) if d.get("backdrop_path")
+                        else (TMDB_IMG + "w500" + d["poster_path"]) if d.get("poster_path") else ""}
         res = sorted(out.values(), key=lambda x: x["date"])
         health.append({"type": "tmdb", "name": "upcoming premieres", "ok": True, "count": len(res)})
         log(f"  ok   tmdb upcoming: {len(res)}")
@@ -985,6 +1041,116 @@ def upcoming(today: dt.date, health: list[dict]) -> list[dict]:
         health.append({"type": "tmdb", "name": "upcoming premieres", "ok": False, "count": 0, "error": msg})
         log(f"  FAIL tmdb upcoming: {msg}")
         return sorted(out.values(), key=lambda x: x["date"])
+
+
+# --------------------------------------------------------------------------
+# Pictures for stories that came without one
+# --------------------------------------------------------------------------
+
+IMAGES: dict = {}          # cache kept in state["images"]: key -> {"u": url or "", "at": iso}
+OG_RE = re.compile(
+    r"""<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image(?::src)?)["'][^>]*>""", re.I)
+CONTENT_RE = re.compile(r"""content=["']([^"']+)["']""", re.I)
+TMDB_IMG = "https://image.tmdb.org/t/p/"
+
+
+def _cached(key: str, fn) -> str:
+    hit = IMAGES.get(key)
+    if hit is not None:
+        return hit.get("u", "")
+    try:
+        url = fn() or ""
+    except Exception as e:  # a picture is never worth failing a run over
+        log(f"  picture {key[:60]}: {redact(type(e).__name__)}")
+        url = ""
+    IMAGES[key] = {"u": url, "at": iso(now_utc())}
+    return url
+
+
+def og_image(link: str) -> str:
+    """The page's share picture (og:image), read from the first part of the page only."""
+    def get():
+        r = SESSION.get(link, headers={"User-Agent": "Mozilla/5.0 (compatible; SitcomCraveRoundup/1.0)"},
+                        timeout=10, stream=True)
+        r.raise_for_status()
+        head = b""
+        for chunk in r.iter_content(32768):
+            head += chunk
+            if len(head) > 400_000 or b"</head>" in head:
+                break
+        r.close()
+        text = head.decode("utf-8", "ignore")
+        for tag in OG_RE.findall(text):
+            m = CONTENT_RE.search(tag)
+            if m:
+                u = clean_image(m.group(1))
+                if u:
+                    return u
+        return ""
+    return _cached("og:" + link, get)
+
+
+def tmdb_show_image(name: str) -> str:
+    if not os.environ.get("TMDB_API_KEY"):
+        return ""
+    def get():
+        res = tmdb("/search/tv", {"query": name}).get("results", [])
+        res = [r for r in res if r.get("backdrop_path") or r.get("poster_path")]
+        if not res:
+            return ""
+        exact = [r for r in res if fold(r.get("name", "")).lower() == fold(name).lower()]
+        r = max(exact or res[:3], key=lambda r: r.get("popularity") or 0)
+        return (TMDB_IMG + "w780" + r["backdrop_path"]) if r.get("backdrop_path") else (TMDB_IMG + "w500" + r["poster_path"])
+    return _cached("tmdbtv:" + name.lower(), get)
+
+
+def tmdb_person_image(name: str) -> str:
+    if not os.environ.get("TMDB_API_KEY"):
+        return ""
+    def get():
+        res = [r for r in tmdb("/search/person", {"query": name}).get("results", []) if r.get("profile_path")]
+        return TMDB_IMG + "w300" + res[0]["profile_path"] if res else ""
+    return _cached("tmdbperson:" + name.lower(), get)
+
+
+def fill_images(clusters: list[dict], limit: int = 60) -> None:
+    """Give pictures to stories whose feeds had none: the article's own share picture first,
+    then a TMDB still of the show, then a TMDB photo of the person. Results are cached."""
+    from concurrent.futures import ThreadPoolExecutor
+    todo = [c for c in clusters if not c.get("image")][:limit]
+    if not todo:
+        return
+
+    def first_page(c):
+        for _, link in c["sources"]:
+            if "news.google." not in link:
+                u = og_image(link)
+                if u:
+                    return u
+        return ""
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        found = list(pool.map(first_page, todo))
+    for c, u in zip(todo, found):
+        if not u:
+            for show in sorted(c["shows"]):
+                u = tmdb_show_image(show)
+                if u:
+                    break
+        if not u:
+            for person in sorted(c["people"]):
+                u = tmdb_person_image(person)
+                if u:
+                    break
+        c["image"] = u
+    got = sum(1 for c in todo if c["image"])
+    log(f"  pictures: found {got} of {len(todo)} missing")
+
+
+def commons_image(url: str, width: int = 300) -> str:
+    """Wikidata gives Commons 'Special:FilePath' links; ask for a small version."""
+    u = clean_image(url)
+    return f"{u}?width={width}" if u and "Special:FilePath" in u else u
 
 
 def upcoming_packet(u: dict) -> str:
@@ -1289,172 +1455,235 @@ E = html.escape
 CSS = """
 @font-face{font-family:"Archivo";src:url("FONTPATH") format("woff2-variations"),url("FONTPATH") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-style:normal;font-display:swap}
 :root{
---paper:#fff;--ink:#081823;--slate:#566573;--rule:#dfe4e8;--crave:#ff751f;--crave-ink:#c2410c;--pink:#d6336c;--pick:#fff2e8;--bar:#081823;
+--paper:#fff;--card:#fff;--soft:#f3f5f7;--ink:#081823;--slate:#5a6876;--rule:#e3e7eb;--crave:#ff751f;--crave-ink:#c2410c;--pink:#d6336c;
+--pick:#fff2e8;--bar:#081823;--red:#d92d20;--red-soft:#fdecea;--red-ink:#9b1c14;--green:#14804a;--tile:#0d2433;
 --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:40px;--s8:48px;
 --t1:13px;--t2:15px;--t3:17px;--t4:21px;--t5:28px;--t6:40px;
---r:6px;--narrow:68%;--col:680px}
-@media (prefers-color-scheme:dark){:root{--paper:#081823;--ink:#eef2f5;--slate:#93a3b1;--rule:#1d3040;--crave-ink:#ff8f4d;--pink:#ff7aa8;--pick:#1b2630;--bar:#13222d}}
+--r:8px;--r2:14px;--narrow:68%;--col:760px;--nav:0px}
+@media (prefers-color-scheme:dark){:root{--paper:#061219;--card:#0b1c27;--soft:#102330;--ink:#eef2f5;--slate:#93a3b1;--rule:#1b2f3d;--crave-ink:#ff8f4d;--pink:#ff7aa8;--pick:#1d2a33;--bar:#0e1f2a;--red:#ff5a4e;--red-soft:#3a1512;--red-ink:#ffb4ad;--tile:#12303f}}
+@media (max-width:720px){:root{--nav:60px}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:"Archivo",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:var(--t3);line-height:1.5}
 a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:2px}
-main,.mast{max-width:var(--col);margin:0 auto;padding-left:max(var(--s4),env(safe-area-inset-left));padding-right:max(var(--s4),env(safe-area-inset-right))}
-main{padding-bottom:calc(var(--s8) + env(safe-area-inset-bottom))}
-body.has-sel main{padding-bottom:calc(152px + env(safe-area-inset-bottom))}
+.wrap{max-width:var(--col);margin:0 auto;padding-left:max(var(--s4),env(safe-area-inset-left));padding-right:max(var(--s4),env(safe-area-inset-right))}
+main{padding-bottom:calc(var(--s8) + var(--nav) + env(safe-area-inset-bottom))}
+body.has-sel main{padding-bottom:calc(150px + var(--nav) + env(safe-area-inset-bottom))}
+input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible,input:focus-visible{outline:2px solid var(--crave);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
+/* header */
 header.top{position:sticky;top:0;z-index:8;background:var(--paper);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
-.mast{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);flex-wrap:wrap;padding-top:var(--s3);padding-bottom:var(--s2)}
-.brand{display:inline-flex;align-items:center;gap:var(--s3);font-stretch:var(--narrow);font-weight:900;font-size:var(--t5);line-height:1;letter-spacing:-.01em;text-decoration:none}
-.brand img{width:44px;height:44px;border-radius:var(--r);display:block}
-.tabs{display:flex;gap:var(--s4);font-size:var(--t2)}
-.tabs a{text-decoration:none;color:var(--slate);padding:var(--s2) 0}
-.tabs a.on{color:var(--ink);font-weight:700;box-shadow:inset 0 -2px 0 var(--crave)}
+.mast{display:flex;align-items:center;justify-content:space-between;gap:var(--s3);padding-top:var(--s3);padding-bottom:var(--s3)}
+.brand{display:inline-flex;align-items:center;gap:var(--s3);font-stretch:var(--narrow);font-weight:900;font-size:var(--t4);line-height:1;letter-spacing:-.01em;text-decoration:none}
+.brand img{width:36px;height:36px;border-radius:var(--r);display:block}
+.tabs{display:flex;gap:var(--s5);font-size:var(--t2)}
+.tabs a{position:relative;text-decoration:none;color:var(--slate);padding:var(--s2) 0;font-weight:600}
+.tabs a.on{color:var(--ink);box-shadow:inset 0 -2px 0 var(--crave)}
+.dot{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;padding:0 5px;margin-left:6px;border-radius:9px;background:var(--red);color:#fff;font-size:11px;font-weight:800;line-height:1;vertical-align:2px}
+.dot[hidden]{display:none}
 
-.jumpbar{border-top:1px solid var(--rule)}
-.jb{position:relative;max-width:var(--col);margin:0 auto;padding:0 max(var(--s4),env(safe-area-inset-right)) 0 max(var(--s4),env(safe-area-inset-left))}
-#secbtn{display:flex;align-items:center;gap:var(--s2);width:100%;background:none;border:0;padding:var(--s3) 0;font:inherit;color:var(--ink);cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent}
-#secbtn::before{content:"";width:4px;height:24px;background:var(--crave)}
-#cursec{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);line-height:1}
-#secbtn svg{color:var(--slate);transition:transform .15s ease-out}
-#secbtn[aria-expanded="true"] svg{transform:rotate(180deg)}
-.secmenu{position:absolute;top:100%;left:max(var(--s2),env(safe-area-inset-left));right:max(var(--s2),env(safe-area-inset-right));background:var(--paper);border:1px solid var(--rule);border-radius:var(--r);box-shadow:0 12px 32px rgba(8,24,35,.2);padding:var(--s2) 0;max-height:70vh;overflow:auto}
-.secmenu[hidden]{display:none}
-.secmenu a,.sidenav a{display:flex;justify-content:space-between;gap:var(--s3);text-decoration:none;font-weight:600}
-.secmenu a{padding:var(--s3) var(--s4);font-size:var(--t3)}
-.secmenu a span,.sidenav a span{color:var(--slate);font-weight:400}
-.secmenu a.on{background:var(--pick);box-shadow:inset 4px 0 0 var(--crave)}
-.side{display:none}
-@media (min-width:1000px){
-.jumpbar{display:none}
-body.has-side .layout{display:grid;grid-template-columns:168px minmax(0,var(--col));column-gap:var(--s8);justify-content:center}
-.side{display:block}
-.sidenav{position:sticky;top:96px;display:flex;flex-direction:column;padding-top:var(--s6)}
-.sidenav a{padding:var(--s2) 0 var(--s2) var(--s4);border-left:4px solid var(--rule);color:var(--slate);font-size:var(--t2)}
-.sidenav a:hover{color:var(--ink)}
-.sidenav a.on{border-left-color:var(--crave);color:var(--ink)}
-body.has-side .layout main{margin:0;padding-left:0;padding-right:0}
-body.has-side .mast{max-width:896px}
-h2,.item{scroll-margin-top:96px}
-}
-@media (max-width:640px){
-.brand{font-size:var(--t4);gap:var(--s2)}
-.brand img{width:36px;height:36px}
-.mast{padding-top:var(--s2);padding-bottom:var(--s1);gap:var(--s2)}
-.tabs{gap:var(--s3)}
-}
-@media (max-width:480px){
-.brand span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}  /* logo only: keeps the four tabs on one row */
-.mast{flex-wrap:nowrap}
-.tabs{gap:var(--s3);font-size:var(--t2)}
-}
+/* filter chips */
+.chipbar{border-top:1px solid var(--rule)}
+.chips{display:flex;gap:var(--s2);overflow-x:auto;scrollbar-width:none;padding-top:var(--s2);padding-bottom:var(--s2);-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 var(--s3);border:1px solid var(--rule);border-radius:17px;background:var(--card);color:var(--ink);font:inherit;font-size:var(--t1);font-weight:700;cursor:pointer;white-space:nowrap;-webkit-tap-highlight-color:transparent}
+.chip span{color:var(--slate);font-weight:500}
+.chip.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chip.on span{color:var(--paper);opacity:.75}
+.chip.hot{border-color:var(--red);color:var(--red)}
+.chip.hot.on{background:var(--red);border-color:var(--red);color:#fff}
+.chip svg{width:16px;height:16px}
+.searchrow{padding-bottom:var(--s2)}
+.searchrow[hidden]{display:none}
+.searchrow input{width:100%;font:inherit;font-size:16px;min-height:40px;padding:0 var(--s3);border:1px solid var(--rule);border-radius:var(--r);background:var(--card);color:var(--ink)}
 
+/* intro */
 .intro{padding:var(--s5) 0 var(--s2)}
 .intro h1{font-stretch:var(--narrow);font-weight:900;font-size:var(--t6);line-height:1;margin:0;letter-spacing:-.015em}
-.intro p{margin:var(--s2) 0 0;color:var(--slate);font-size:var(--t2);max-width:34em}
+.intro p{margin:var(--s2) 0 0;color:var(--slate);font-size:var(--t2);max-width:36em}
 
-h2{font-stretch:var(--narrow);font-weight:800;font-size:var(--t5);line-height:1.1;margin:var(--s7) 0 var(--s1);padding-bottom:var(--s2);border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:var(--s3);scroll-margin-top:136px}
-h2 .count{font-stretch:100%;font-weight:400;font-size:var(--t2);color:var(--slate)}
-h3{font-size:var(--t2);font-weight:700;margin:var(--s5) 0 0;color:var(--slate)}
+/* breaking banner */
+#bbanner{margin:var(--s4) 0 0;border-radius:var(--r2);background:var(--red-soft);color:var(--red-ink);overflow:hidden}
+#bbanner[hidden]{display:none}
+#bbanner a.bb{display:flex;gap:var(--s3);align-items:flex-start;padding:var(--s3) var(--s4);text-decoration:none}
+#bbanner a.bb + a.bb{border-top:1px solid rgba(217,45,32,.18)}
+.bb-tag{flex:none;margin-top:2px;padding:2px 8px;border-radius:6px;background:var(--red);color:#fff;font-size:11px;font-weight:800;letter-spacing:.02em;text-transform:uppercase}
+.bb-t{font-weight:700;font-size:var(--t2);line-height:1.35}
+.bb-when{display:block;font-weight:500;font-size:var(--t1);opacity:.8}
+.bb-more{display:block;padding:var(--s2) var(--s4) var(--s3);font-size:var(--t1);font-weight:700;text-decoration:underline}
+
+/* sections */
+section.sec{scroll-margin-top:120px}
+body.filtering section.sec.off{display:none}
+h2{font-stretch:var(--narrow);font-weight:800;font-size:var(--t5);line-height:1.1;margin:var(--s7) 0 var(--s2);padding-bottom:var(--s2);border-bottom:2px solid var(--ink);display:flex;align-items:baseline;gap:var(--s3)}
+h2 .count{font-stretch:100%;font-weight:500;font-size:var(--t2);color:var(--slate)}
+h3{font-size:var(--t1);font-weight:800;letter-spacing:.04em;text-transform:uppercase;margin:var(--s5) 0 var(--s1);color:var(--slate)}
 .muted{color:var(--slate);font-size:var(--t2)}
 .empty{color:var(--slate);font-size:var(--t2);margin:var(--s3) 0}
 
-.item{position:relative;padding:var(--s4) 0;border-bottom:1px solid var(--rule);scroll-margin-top:136px;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.item.sel{background:var(--pick);box-shadow:calc(-1 * var(--s4)) 0 0 var(--pick),var(--s4) 0 0 var(--pick)}
-.item.sel::before{content:"";position:absolute;left:calc(-1 * var(--s4));top:0;bottom:0;width:4px;background:var(--crave)}
-.item .kick{font-size:var(--t1);margin-bottom:var(--s1)}
-.item .when{color:var(--slate);white-space:nowrap;margin-right:var(--s3)}
-.item label{display:flex;gap:var(--s4);align-items:flex-start;cursor:pointer}
-.item .t{font-weight:700;font-size:var(--t3);line-height:1.3;flex:1}
-.item .sum{color:var(--slate);font-size:var(--t2);line-height:1.5;margin:var(--s1) var(--s7) 0 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.item .meta{font-size:var(--t1);color:var(--slate);margin:var(--s2) var(--s7) 0 0}
-.item .meta a{color:var(--ink)}
-.item .meta details{display:inline}
-.item .meta summary{display:inline;cursor:pointer;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
-.item .meta summary::-webkit-details-marker{display:none}
-input.pick{-webkit-appearance:none;appearance:none;flex:0 0 24px;width:24px;height:24px;margin:0;border:2px solid var(--ink);border-radius:var(--r);background:transparent;cursor:pointer;opacity:.55}
+/* story rows */
+.item{position:relative;display:grid;grid-template-columns:96px minmax(0,1fr) 24px;column-gap:var(--s3);padding:var(--s3) 0;border-bottom:1px solid var(--rule);cursor:pointer;-webkit-tap-highlight-color:transparent;scroll-margin-top:120px}
+.item.noimg{grid-template-columns:minmax(0,1fr) 24px}
+.item.sel{background:var(--pick);box-shadow:calc(-1 * var(--s3)) 0 0 var(--pick),var(--s3) 0 0 var(--pick)}
+.item.sel::before{content:"";position:absolute;left:calc(-1 * var(--s3));top:0;bottom:0;width:4px;background:var(--crave)}
+.item.gone,body.filtering .item.nomatch{display:none}
+body.show-hidden .item.gone{display:grid;opacity:.45}
+.thumb{position:relative;width:96px;height:72px;border-radius:var(--r);overflow:hidden;background:var(--tile)}
+.thumb img{display:block;width:100%;height:100%;object-fit:cover}
+.thumb.face img{object-position:50% 18%}
+.thumb.ph{display:flex;align-items:flex-end;padding:6px 8px}
+.thumb.ph span{color:var(--crave);font-stretch:var(--narrow);font-weight:900;font-size:15px;line-height:1.05;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.thumb .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.thumb .play i{width:30px;height:30px;border-radius:50%;background:rgba(8,24,35,.72);display:flex;align-items:center;justify-content:center}
+.thumb .play i::after{content:"";margin-left:3px;border-left:10px solid #fff;border-top:6px solid transparent;border-bottom:6px solid transparent}
+.body{min-width:0}
+.kick{font-size:var(--t1);line-height:1.3;margin-bottom:2px;color:var(--slate)}
+.kick .tag{margin-right:6px}
+.t{display:block;font-weight:700;font-size:var(--t3);line-height:1.3;cursor:pointer}
+.sum{color:var(--slate);font-size:var(--t2);line-height:1.45;margin-top:var(--s1);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.meta{font-size:var(--t1);color:var(--slate);margin-top:var(--s1)}
+.meta a{color:var(--ink)}
+.meta details{display:inline}
+.meta summary{display:inline;cursor:pointer;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:2px}
+.meta summary::-webkit-details-marker{display:none}
+input.pick{-webkit-appearance:none;appearance:none;width:24px;height:24px;margin:2px 0 0;border:2px solid var(--ink);border-radius:7px;background:transparent;cursor:pointer;opacity:.45}
 input.pick:checked{opacity:1;border-color:var(--crave);background:var(--crave) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='square'/%3E%3C/svg%3E") center/16px no-repeat}
-input.pick:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--crave);outline-offset:2px}
+.item > .pick{grid-column:-2}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:var(--s2)}
+.act{display:inline-flex;align-items:center;gap:5px;min-height:30px;padding:0 10px;border:1px solid var(--rule);border-radius:15px;background:transparent;color:var(--ink);font:inherit;font-size:12px;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.act svg{width:14px;height:14px;flex:none}
+.act.on{background:var(--soft)}
+.act.quiet{color:var(--slate)}
+.act[disabled]{opacity:.7;cursor:progress}
+.act.busy::after{content:"";width:11px;height:11px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.act.busy::after{animation:none}}
+.panel{cursor:auto}
+.item > .acts,.item > .panel{grid-column:1 / -1;min-width:0}
+.item > .pick{grid-row:1}
+.today .item > .acts,.today .item > .panel{grid-column:2 / -1}
+.today .item.next > .acts,.today .item.next > .panel{grid-column:1 / -1}
+.panel[hidden]{display:none}
+.writer-out:empty{display:none}
+.posted-badge{display:inline-flex;align-items:center;gap:6px;margin:0 6px 0 0;padding:0 8px;min-height:22px;border:0;border-radius:11px;background:var(--green);color:#fff;font:inherit;font-size:12px;font-weight:700;cursor:pointer;vertical-align:baseline}
+.posted-badge::before{content:"";width:8px;height:4px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-2px)}
+.item.posted .t{color:var(--slate)}
+.item.posted .thumb{opacity:.55}
 
-.tag{font-weight:700;color:var(--slate)}
-.k-renewed{color:#14804a}.k-cancelled{color:#c8231a}.k-memoriam{color:var(--ink)}
-.k-exit{color:var(--crave-ink)}.k-arrest{color:#b4234f}.k-revival,.k-trailer{color:#6c3fc4}
-.k-casting{color:#1d5fd1}.k-streaming{color:#3b4a9c}.k-interview,.k-clip{color:#0b7285}
-.k-upcoming,.k-premiere{color:#1d5fd1}.k-birthday{color:var(--pink)}.k-anniv{color:var(--crave-ink)}
-@media (prefers-color-scheme:dark){.k-renewed{color:#4cc38a}.k-cancelled{color:#ff6b61}.k-arrest{color:#ff7aa0}.k-revival,.k-trailer{color:#b197fc}.k-casting,.k-upcoming,.k-premiere{color:#74a7ff}.k-streaming{color:#a5b4fc}.k-interview,.k-clip{color:#5fd4e8}}
-
-.today .item{display:grid;grid-template-columns:56px 1fr;column-gap:var(--s3);padding:var(--s3) 0}
-.today .time{font-stretch:62%;font-weight:900;font-size:var(--t5);line-height:1;color:var(--crave-ink);letter-spacing:-.01em}
-.today .time small{font-size:var(--t2);font-weight:700}
-.today .item .meta{margin-top:var(--s1)}
-
-details.more,details.other{margin:var(--s2) 0}
-details.more > summary,details.other > summary{cursor:pointer;font-weight:600;font-size:var(--t2);padding:var(--s3) 0;list-style:none;text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
-details.more > summary::-webkit-details-marker,details.other > summary::-webkit-details-marker{display:none}
-.cap{margin:var(--s3) var(--s7) 0 0;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);cursor:auto}
+/* caption boxes */
+.cap{margin:var(--s2) 0 0;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);background:var(--card);cursor:auto}
 .cap-h{font-size:var(--t1);color:var(--slate);margin-bottom:var(--s1)}
 .cap-t{margin:0 0 var(--s3);font-size:var(--t2);white-space:pre-line;-webkit-user-select:text;user-select:text}
-.capcopy{min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
+.capcopy,.writecap{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
 .capcopy.done{background:var(--crave);border-color:var(--crave);color:#081823}
-.today .cap{margin-right:0}
-.writer{margin-top:var(--s2)}
-.writecap{display:inline-flex;align-items:center;gap:var(--s2);min-height:40px;padding:0 var(--s4);font:inherit;font-size:var(--t2);font-weight:700;border:1px solid var(--ink);border-radius:var(--r);background:transparent;color:var(--ink);cursor:pointer}
-.writer .writecap{min-height:32px;padding:0 var(--s3);font-size:var(--t1);border-color:var(--rule);color:var(--crave-ink)}
+.writecap.primary{background:var(--crave);border-color:var(--crave);color:#081823;min-height:48px;padding:0 var(--s5)}
 .writecap[disabled]{opacity:.7;cursor:progress}
 .writecap.busy::after{content:"";width:12px;height:12px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-@media (prefers-reduced-motion:reduce){.writecap.busy::after{animation:none}}
-.writer-out:empty{display:none}
-.writer-out .cap{margin-right:0}
-.writer-out .note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
-.writer-out .note a{color:var(--ink)}
-.maker{margin:var(--s5) 0 0}
-.maker-label{display:block;font-weight:700;font-size:var(--t2);margin-bottom:var(--s1)}
-.maker textarea{margin:0 0 var(--s3);min-height:144px}
-.maker-actions{display:flex;align-items:center;gap:var(--s4)}
-.writecap.primary{background:var(--crave);border-color:var(--crave);color:#081823;min-height:48px;padding:0 var(--s5)}
-.maker .writer-out .cap{margin-top:var(--s5)}
-.maker .writer-out .cap-t{font-size:var(--t3)}
-.keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
-.keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink)}
-.linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
-details.capd{margin-top:var(--s2)}
-details.capd > summary{display:inline-flex;align-items:center;gap:var(--s1);min-height:32px;cursor:pointer;list-style:none;font-size:var(--t1);font-weight:700;color:var(--crave-ink)}
-details.capd > summary::-webkit-details-marker{display:none}
-details.capd > summary::after{content:"";width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 0 3px var(--s1)}
-details.capd[open] > summary::after{transform:rotate(-135deg);margin:3px 0 0 var(--s1)}
-details.capd .cap{margin-top:var(--s1)}
-.item.posted .t{color:var(--slate)}
-.posted-badge{display:inline-flex;align-items:center;gap:var(--s2);margin:0 var(--s2) 0 0;padding:0 var(--s2);min-height:24px;border:0;border-radius:var(--r);background:#14804a;color:#fff;font:inherit;font-size:var(--t1);font-weight:700;cursor:pointer;vertical-align:baseline}
-.posted-badge::before{content:"";width:9px;height:5px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg) translateY(-2px)}
+.note{font-size:var(--t1);color:var(--slate);margin-top:var(--s2)}
+.note a{color:var(--ink)}
 
+/* not sitcom panel */
+.mute{margin-top:var(--s2);padding:var(--s3);border-radius:var(--r);background:var(--soft);font-size:var(--t1)}
+.mute p{margin:0 0 var(--s2);color:var(--slate)}
+.mute .acts{margin-top:0}
+.mute .act{background:var(--card)}
+
+/* schedule */
+.sched-top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:var(--s2);font-size:var(--t1);color:var(--slate)}
+.sched-top b{color:var(--ink)}
+.progress{height:6px;border-radius:3px;background:var(--soft);margin:var(--s2) 0 var(--s1);overflow:hidden}
+.progress i{display:block;height:100%;width:0;background:var(--crave);border-radius:3px;transition:width .3s ease-out}
+.today .item{grid-template-columns:44px 96px minmax(0,1fr) 24px}
+.today .item.noimg{grid-template-columns:44px minmax(0,1fr) 24px}
+.time{font-stretch:62%;font-weight:900;font-size:var(--t4);line-height:1;color:var(--crave-ink);letter-spacing:-.01em;padding-top:2px}
+.time small{font-size:12px;font-weight:700}
+.today .item.next{grid-template-columns:minmax(0,1fr) 24px;margin:var(--s3) 0;padding:var(--s3);border:2px solid var(--crave);border-radius:var(--r2);background:var(--card)}
+.today .item.next.sel{background:var(--pick);box-shadow:none}
+.today .item.next.sel::before{display:none}
+.today .item.next .time{grid-column:1;grid-row:1;font-size:var(--t1);font-stretch:100%;font-weight:800;color:var(--crave-ink);padding:0 0 var(--s2)}
+.today .item.next .time small{font-size:var(--t1)}
+.today .item.next .time::before{content:"Up next, "}
+.today .item.next .thumb{grid-column:1 / -1;grid-row:2;width:100%;height:auto;aspect-ratio:16/9;margin-bottom:var(--s3);border-radius:var(--r)}
+.today .item.next .thumb.ph{aspect-ratio:auto;height:88px;align-items:center;padding:0 var(--s4)}
+.today .item.next .thumb.ph span{font-size:var(--t5);-webkit-line-clamp:1}
+.today .item.next .body{grid-column:1 / -1;grid-row:3}
+.today .item.next > .pick{grid-column:2;grid-row:1}
+.today .item.next .t{font-size:var(--t4);line-height:1.25}
+.next-when{color:var(--crave-ink);font-weight:800}
+
+/* settings */
 #settings{margin:var(--s8) 0 0;border-top:2px solid var(--ink);padding-top:var(--s1)}
 #settings > summary{cursor:pointer;font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);padding:var(--s2) 0;list-style:none}
 #settings > summary::-webkit-details-marker{display:none}
 #settings label{display:flex;gap:var(--s3);align-items:center;padding:var(--s2) 0;font-size:var(--t2)}
-#settings input[type=checkbox]{width:24px;height:24px;margin:0;accent-color:var(--crave)}
-textarea{width:100%;font:inherit;font-size:16px;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink);margin-top:var(--s2)}
+#settings input[type=checkbox]{width:22px;height:22px;margin:0;accent-color:var(--crave)}
+.setblock{margin-top:var(--s4)}
+.setblock b{display:block;font-size:var(--t2);margin-bottom:var(--s1)}
+textarea{width:100%;font:inherit;font-size:16px;padding:var(--s3);border:1px solid var(--rule);border-radius:var(--r);background:var(--card);color:var(--ink);margin-top:var(--s2)}
+.keyrow{display:flex;gap:var(--s2);align-items:center;margin:var(--s2) 0}
+.keyrow input{flex:1;min-width:0;font:inherit;font-size:16px;padding:var(--s2) var(--s3);min-height:40px;border:1px solid var(--rule);border-radius:var(--r);background:var(--card);color:var(--ink)}
+.linkish{background:none;border:0;font:inherit;font-size:var(--t2);color:var(--slate);text-decoration:underline;cursor:pointer;padding:var(--s1)}
+#mutelist{display:flex;flex-wrap:wrap;gap:6px;margin-top:var(--s2)}
+.maker{margin:var(--s5) 0 0}
+.maker-label{display:block;font-weight:700;font-size:var(--t2);margin-bottom:var(--s1)}
+.maker textarea{margin:0 0 var(--s3);min-height:144px}
+.maker-actions{display:flex;align-items:center;gap:var(--s4)}
+.maker .writer-out .cap{margin-top:var(--s5)}
+.maker .writer-out .cap-t{font-size:var(--t3)}
 
-#tray{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--bar);color:#fff;border-top:4px solid var(--crave);padding:var(--s3) max(var(--s4),env(safe-area-inset-right)) calc(var(--s3) + env(safe-area-inset-bottom)) max(var(--s4),env(safe-area-inset-left));transform:translateY(120%);transition:transform .18s ease-out}
+/* action tray (shows when stories are picked) */
+#tray{position:fixed;left:0;right:0;bottom:calc(var(--nav) + env(safe-area-inset-bottom));z-index:10;background:var(--bar);color:#fff;border-top:4px solid var(--crave);padding:var(--s3) max(var(--s4),env(safe-area-inset-right)) var(--s3) max(var(--s4),env(safe-area-inset-left));transform:translateY(calc(100% + var(--nav) + 40px));transition:transform .18s ease-out}
+@media (min-width:721px){#tray{padding-bottom:calc(var(--s3) + env(safe-area-inset-bottom));bottom:0}}
 body.has-sel #tray{transform:none}
-@media (prefers-reduced-motion:reduce){#tray,#secbtn svg{transition:none}}
 #tray .in{max-width:var(--col);margin:0 auto}
 #tray .info{display:flex;align-items:baseline;gap:var(--s3);margin-bottom:var(--s2);min-height:24px}
 #tray .info b{font-stretch:var(--narrow);font-weight:900;font-size:var(--t4);white-space:nowrap}
 #status{color:#ffd2b5;font-size:var(--t1);flex:1;line-height:1.3}
 #tray .linkbtn{background:none;border:0;color:#c9d3dc;font:inherit;font-size:var(--t2);text-decoration:underline;text-underline-offset:3px;padding:var(--s1) 0}
 #tray .btns{display:grid;grid-template-columns:repeat(auto-fit,minmax(72px,1fr));gap:var(--s2)}
-#tray .btns button{min-height:48px;font:inherit;font-size:var(--t2);font-weight:700;border-radius:var(--r);border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;padding:var(--s1) var(--s2);-webkit-tap-highlight-color:transparent}
+#tray .btns button{min-height:46px;font:inherit;font-size:var(--t2);font-weight:700;border-radius:var(--r);border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;padding:var(--s1) var(--s2);-webkit-tap-highlight-color:transparent}
 #tray .btns button.primary{background:var(--crave);border-color:var(--crave);color:#081823}
 #tray .btns button[hidden]{display:none}
 
+/* bottom tab bar on phones */
+nav.bottom{display:none}
+@media (max-width:720px){
+.tabs{display:none}
+nav.bottom{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:11;height:calc(var(--nav) + env(safe-area-inset-bottom));padding-bottom:env(safe-area-inset-bottom);background:var(--paper);border-top:1px solid var(--rule)}
+nav.bottom a{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-decoration:none;color:var(--slate);font-size:11px;font-weight:700;-webkit-tap-highlight-color:transparent}
+nav.bottom a svg{width:24px;height:24px}
+nav.bottom a.on{color:var(--crave-ink)}
+nav.bottom .dot{position:absolute;top:6px;left:calc(50% + 6px);margin:0}
+.intro h1{font-size:34px}
+}
+@media (prefers-reduced-motion:reduce){#tray,.progress i{transition:none}}
+@media (min-width:900px){
+.item{grid-template-columns:132px minmax(0,1fr) 24px;column-gap:var(--s4);padding:var(--s4) 0}
+.thumb{width:132px;height:88px}
+.today .item{grid-template-columns:52px 132px minmax(0,1fr) 24px}
+.today .item.next{grid-template-columns:minmax(0,1fr) 24px;padding:var(--s4)}
+.today .item.next .thumb:not(.ph){width:100%;height:auto}
+}
+
+/* sources + archive */
 .health{margin-top:var(--s3)}
 .health > summary{cursor:pointer;padding:var(--s2) 0;color:var(--slate);font-size:var(--t2)}
 .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:var(--s3)}
 table{border-collapse:collapse;font-size:var(--t1)}
 td,th{border-bottom:1px solid var(--rule);padding:var(--s1) var(--s3) var(--s1) 0;text-align:left;vertical-align:top}
-.arch{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s1) var(--s4);align-items:baseline;padding:var(--s3) 0;border-bottom:1px solid var(--rule);text-decoration:none}
-.arch b{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4)}
+.arch{display:flex;align-items:center;gap:var(--s4);padding:var(--s3) var(--s4);margin-top:var(--s2);border:1px solid var(--rule);border-radius:var(--r2);background:var(--card);text-decoration:none}
+.arch b{font-stretch:var(--narrow);font-weight:800;font-size:var(--t4);min-width:4.5em}
 .arch span{color:var(--slate);font-size:var(--t2)}
+.arch span:last-child{margin-left:auto}
+.archday{margin-top:var(--s6)}
+
+.tag{font-weight:800;color:var(--slate)}
+.k-renewed{color:#14804a}.k-cancelled{color:#c8231a}.k-memoriam{color:var(--ink)}
+.k-exit{color:var(--crave-ink)}.k-arrest{color:#b4234f}.k-revival,.k-trailer{color:#6c3fc4}
+.k-casting{color:#1d5fd1}.k-streaming{color:#3b4a9c}.k-interview,.k-clip{color:#0b7285}
+.k-upcoming,.k-premiere{color:#1d5fd1}.k-birthday{color:var(--pink)}.k-anniv{color:var(--crave-ink)}
+@media (prefers-color-scheme:dark){.k-renewed{color:#4cc38a}.k-cancelled{color:#ff6b61}.k-arrest{color:#ff7aa0}.k-revival,.k-trailer{color:#b197fc}.k-casting,.k-upcoming,.k-premiere{color:#74a7ff}.k-streaming{color:#a5b4fc}.k-interview,.k-clip{color:#5fd4e8}}
 """
 
 TRAY = """
@@ -1471,12 +1700,19 @@ TRAY = """
 
 SETTINGS = """
 <details id="settings"><summary>Settings</summary>
-<div class="muted" style="margin-top:8px">Gemini key for writing captions on this device. It's saved only on this phone or computer, never on the site:</div>
+<div class="setblock"><b>Hidden stories</b>
+<div class="muted" id="hidden-state">Stories you mark "Not sitcom" are hidden on this device.</div>
+<label><input type="checkbox" id="showhidden"> Show hidden stories</label>
+<div class="muted">Muted words and shows (any story with these in the headline is hidden):</div>
+<div id="mutelist"></div></div>
+<div class="setblock"><b>Gemini key</b>
+<div class="muted">For writing captions on this device. It's saved only on this phone or computer, never on the site:</div>
 <div class="keyrow"><input id="gemkey" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Paste your Gemini API key">
 <button type="button" id="gemkey-save" class="writecap">Save</button><button type="button" id="gemkey-clear" class="linkish">Remove</button></div>
-<div class="muted" id="gemkey-state"></div>
-<div class="muted" style="margin-top:8px">Optional line to put above the stories you send to Grok. Leave empty to send only the stories (saved on this device):</div>
-<textarea id="header" rows="3"></textarea>
+<div class="muted" id="gemkey-state"></div></div>
+<div class="setblock"><b>Line above stories sent to Grok</b>
+<div class="muted">Optional. Leave empty to send only the stories (saved on this device):</div>
+<textarea id="header" rows="3"></textarea></div>
 <p class="muted">Tap a story to pick it. Stories you mark as posted get a green Posted badge; tap the badge to undo. Share opens the iPhone share sheet, so you can send the packet straight to the Grok app. Open Grok opens grok.com with it typed in. Both also copy it.</p>
 </details>
 """
@@ -1491,7 +1727,17 @@ MAKER = """
 </div>
 """
 
-WRITER = '<div class="writer"><button type="button" class="writecap">Write caption</button><div class="writer-out"></div></div>'
+_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{}</svg>'
+ICONS = {
+    "home": _SVG.format('<path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/>'),
+    "bolt": _SVG.format('<path d="M13 3L5 14h6l-1 7 8-11h-6z"/>'),
+    "pen": _SVG.format('<path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/>'),
+    "archive": _SVG.format('<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8M10 12h4"/>'),
+    "search": _SVG.format('<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/>'),
+    "spark": _SVG.format('<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/>'),
+    "doc": _SVG.format('<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>'),
+    "eyeoff": _SVG.format('<path d="M3 3l18 18M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a16 16 0 0 1-2.6 3.2M6.6 6.6C4.3 8.1 3 12 3 12s4 6 9 6a9 9 0 0 0 4.4-1.1"/><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2"/>'),
+}
 
 _RULES: dict = {}
 
@@ -1534,10 +1780,22 @@ def chip_for(c: dict) -> str:
 
 
 DEFAULT_DESC = "Comedy TV news for Sitcom Crave, gathered every morning and evening."
+TABS = (("latest", "Latest", "Today", "index.html", "home"), ("breaking", "Breaking", "Breaking", "breaking.html", "bolt"),
+        ("captions", "Captions", "Captions", "captions.html", "pen"), ("archive", "Archive", "Archive", "archive.html", "archive"))
 
 
-def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int | None]] | None = None,
-         active: str = "latest", desc: str = "") -> str:
+def breaking_feed(clusters: list[dict]) -> list[dict]:
+    """The small list the breaking banner and the red dots are drawn from."""
+    out = []
+    for c in clusters[:12]:
+        out.append({"id": c["key"], "title": c["primary"]["title"], "url": c["sources"][0][1] if c["sources"] else "",
+                    "outlet": c["sources"][0][0] if c["sources"] else "", "tag": KICKERS.get(c["breaking"][0], ("",))[0],
+                    "time": iso(c["time"]), "seen": iso(c["first_seen"])})
+    return out
+
+
+def page(title: str, body: str, depth: int = 0, chips: list[tuple[str, str, int | None]] | None = None,
+         active: str = "latest", desc: str = "", breaking: list[dict] | None = None, banner: bool = False) -> str:
     pre = "../" * depth
     desc = desc or DEFAULT_DESC
     site = site_url()
@@ -1546,28 +1804,30 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
                 f'<meta property="og:image:alt" content="Sitcom Crave">\n'
                 f'<meta name="twitter:image" content="{E(site)}/og-image.jpg">\n'
                 if site else "")
-    on = ' class="on"'
-    tabs = "".join(
-        f'<a href="{pre}{href}"{on if key == active else ""}>{label}</a>'
-        for key, label, href in (("latest", "Latest", "index.html"), ("breaking", "Breaking", "breaking.html"),
-                                 ("captions", "Captions", "captions.html"), ("archive", "Archive", "archive.html")))
-    mast = (f'<div class="mast"><a class="brand" href="{pre}index.html">'
-            f'<img src="{pre}logo-96.png" width="44" height="44" alt="Sitcom Crave"><span>Roundup</span></a>'
-            f'<nav class="tabs">{tabs}</nav></div>')
-    bar = aside = ""
-    if jump:
-        items = "".join(f'<a href="#{E(i)}" data-sec="{E(i)}" data-label="{E(l)}">{E(l)}'
-                        + (f"<span>{n}</span>" if n else "") + "</a>" for i, l, n in jump)
-        chevron = ('<svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" '
-                   'fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
-        bar = (f'<div class="jumpbar"><div class="jb">'
-               f'<button id="secbtn" type="button" aria-expanded="false" aria-controls="secmenu">'
-               f'<span id="cursec">{E(jump[0][1])}</span>{chevron}</button>'
-               f'<nav id="secmenu" class="secmenu" aria-label="Jump to a section" hidden>{items}</nav></div></div>')
-        aside = f'<aside class="side"><nav class="sidenav" aria-label="Sections">{items}</nav></aside>'
+    def dot(key):
+        return '<span class="dot bdot" hidden></span>' if key == "breaking" else ""
+    tabs = "".join(f'<a href="{pre}{href}"{" class=\"on\"" if key == active else ""}>{label}{dot(key)}</a>'
+                   for key, label, _, href, _ in TABS)
+    bottom = "".join(f'<a href="{pre}{href}"{" class=\"on\" aria-current=\"page\"" if key == active else ""}>'
+                     f'{ICONS[icon]}<span>{short}</span>{dot(key)}</a>' for key, _, short, href, icon in TABS)
+    mast = (f'<div class="mast wrap"><a class="brand" href="{pre}index.html">'
+            f'<img src="{pre}logo-96.png" width="36" height="36" alt="Sitcom Crave"><span>Roundup</span></a>'
+            f'<nav class="tabs" aria-label="Pages">{tabs}</nav></div>')
+    bar = ""
+    if chips:
+        items = ['<button type="button" class="chip on" data-filter="all">All</button>']
+        for key, label, n in chips:
+            hot = " hot" if key == "breaking" else ""
+            items.append(f'<button type="button" class="chip{hot}" data-filter="{E(key)}">{E(label)}'
+                         + (f"<span>{n}</span>" if n else "") + "</button>")
+        items.append(f'<button type="button" class="chip" id="searchbtn" aria-label="Search stories" aria-expanded="false">{ICONS["search"]}</button>')
+        bar = (f'<div class="chipbar"><div class="wrap"><div class="chips" role="toolbar" aria-label="Show sections">{"".join(items)}</div>'
+               f'<div class="searchrow" id="searchrow" hidden><input id="search" type="search" placeholder="Search headlines" '
+               f'autocomplete="off" aria-label="Search headlines"></div></div></div>')
     css = CSS.replace("FONTPATH", f"{pre}fonts/archivo.woff2")
-    body_class = ' class="has-side"' if aside else ""  # the two-column layout only when there is a section list
     rules_js = json.dumps(caption_rules_text()).replace("</", "<\\/")  # safe inside <script>
+    bjs = json.dumps(breaking if breaking is not None else None).replace("</", "<\\/")
+    bdiv = '<div id="bbanner" hidden></div>' if banner else ""
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -1577,7 +1837,8 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Roundup">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#081823" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#061219" media="(prefers-color-scheme: dark)">
+<meta name="referrer" content="no-referrer">
 <link rel="preload" href="{pre}fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="{pre}favicon.ico?v=3" sizes="any">
 <link rel="icon" type="image/png" sizes="16x16" href="{pre}favicon-16.png?v=3">
@@ -1595,25 +1856,27 @@ def page(title: str, body: str, depth: int = 0, jump: list[tuple[str, str, int |
 {og_image}<meta name="twitter:card" content="summary_large_image">
 <style>{css}</style>
 <script>window.ROUNDUP_DEFAULT_HEADER = {json.dumps(DEFAULT_HEADER)};
-window.ROUNDUP_CAPTION_RULES = {rules_js};</script>
-</head><body{body_class}>
+window.ROUNDUP_CAPTION_RULES = {rules_js};
+window.ROUNDUP_BREAKING = {bjs};
+window.ROUNDUP_ROOT = {json.dumps(pre)};</script>
+</head><body>
 <header class="top">{mast}{bar}</header>
-<div class="layout">
-{aside}
-<main>
+<main class="wrap">
+{bdiv}
 {body}
 {SETTINGS}
 </main>
-</div>
+<nav class="bottom" aria-label="Pages">{bottom}</nav>
 {TRAY}
-<script src="{pre}app.js"></script>
+<script src="{pre}app.js?v=4"></script>
 </body></html>
 """
 
 
-def h2(label: str, anchor: str, count: int | None = None) -> str:
+def section(key: str, label: str, count: int | None, inner: str) -> str:
     n = f'<span class="count">{count}</span>' if count else ""
-    return f'<h2 id="{E(anchor)}">{E(label)}{n}</h2>'
+    return (f'<section class="sec" id="sec-{E(key)}" data-sec="{E(key)}">'
+            f'<h2>{E(label)}{n}</h2>\n{inner}\n</section>')
 
 
 def links_html(sources: list[tuple[str, str]], show: int = 3) -> str:
@@ -1635,46 +1898,88 @@ def caption_html(text: str, note: str) -> str:
             f'<button type="button" class="capcopy">Copy caption</button></div>')
 
 
-def draft_block(key: str) -> str:
+def draft_caption_html(key: str) -> str:
     d = DRAFTS.get(key)
     if not d:
         return ""
     note = ("Draft caption by Gemini. Check it against the source before posting."
             if d.get("from_article", True) else
             "Draft caption by Gemini from the headline only (the article couldn't be read). Check it carefully.")
-    return f'<details class="capd"><summary>Draft caption</summary>{caption_html(d["text"], note)}</details>'
+    return caption_html(d["text"], note)
+
+
+def thumb_html(image: str, ph: str, *, face: bool = False, video: bool = False) -> str:
+    play = '<span class="play"><i></i></span>' if video else ""
+    if image:
+        return (f'<div class="thumb{" face" if face else ""}" data-ph="{E(ph)}"><img src="{E(image)}" alt="" '
+                f'loading="lazy" decoding="async" referrerpolicy="no-referrer">{play}</div>')
+    return f'<div class="thumb ph"><span>{E(ph)}</span>{play}</div>'
 
 
 def item_html(key: str, packet: str, title: str, *, label: str = "", when: str = "",
-              meta: str = "", summary: str = "", anchor: bool = True, caption: str = "",
-              writable: bool = False) -> str:
+              meta: str = "", summary: str = "", anchor: bool = True, caption: str = "", caption_label: str = "Caption",
+              writable: bool = False, image: str = "", ph: str = "", face: bool = False, video: bool = False,
+              terms: list[str] | None = None, slot: str = "", slot_iso: str = "", thumb: bool = True,
+              mutable: bool = True) -> str:
+    """One story. `caption` is ready caption HTML shown behind a button; `slot` is the schedule time."""
     idattr = f' id="s-{E(key)}"' if anchor else ""
+    classes = "item" + ("" if thumb else " noimg")
+    extra = f' data-slot="{E(slot_iso)}"' if slot_iso else ""
+    if terms:
+        extra += f' data-terms="{E("|".join(terms))}"'
+    out = [f'<article class="{classes}"{idattr} data-id="{E(key)}" data-packet="{E(packet)}"{extra}>']
+    if slot:
+        out.append(slot)
+    if thumb:
+        out.append(thumb_html(image, ph or title[:40], face=face, video=video))
     k = kicker(label)
-    out = [f'<div class="item"{idattr} data-id="{E(key)}" data-packet="{E(packet)}">']
-    if k:
-        out.append(f'<div class="kick">{k}</div>')
-    if when:
-        meta = f'<span class="when">{E(when)}</span>{meta}'
-
-    out.append(f'<label><span class="t">{E(title)}</span>'
-               f'<input type="checkbox" class="pick" aria-label="Pick this story"></label>')
+    kick = " ".join(x for x in (k, f'<span class="when">{E(when)}</span>' if when else "") if x)
+    out.append('<div class="body">')
+    if kick:
+        out.append(f'<div class="kick">{kick}</div>')
+    out.append(f'<span class="t">{E(title)}</span>')
     if summary:
         out.append(f'<div class="sum">{E(summary)}</div>')
     if meta:
         out.append(f'<div class="meta">{meta}</div>')
+    out.append('</div>')  # caption tools sit under the picture and text, full width
+    acts = []
     if caption:
-        out.append(caption)
+        acts.append(f'<button type="button" class="act" data-toggle="cap">{ICONS["doc"]}{E(caption_label)}</button>')
     if writable:
-        out.append(WRITER)
-    out.append("</div>")
+        acts.append(f'<button type="button" class="act writecap-btn">{ICONS["spark"]}Write caption</button>')
+    if mutable:
+        acts.append(f'<button type="button" class="act quiet" data-toggle="mute">{ICONS["eyeoff"]}Not sitcom</button>')
+    if acts:
+        out.append(f'<div class="acts">{"".join(acts)}</div>')
+    if caption:
+        out.append(f'<div class="panel" data-panel="cap" hidden>{caption}</div>')
+    if writable:
+        out.append('<div class="writer-out panel"></div>')
+    out.append('<input type="checkbox" class="pick" aria-label="Pick this story"></article>')
     return "\n".join(out)
 
 
-def cluster_html(c: dict, now: dt.datetime, when: str | None = None) -> str:
+def cluster_ph(c: dict) -> str:
+    """Text for the picture tile when a story has no picture: the show, else the person."""
+    if c["shows"]:
+        return sorted(c["shows"], key=len)[0]
+    if c["people"]:
+        return sorted(c["people"])[0]
+    return KICKERS.get(chip_for(c), ("",))[0] or c["primary"]["outlet"]
+
+
+def cluster_html(c: dict, now: dt.datetime, when: str | None = None, *, slot: str = "", slot_iso: str = "",
+                 anchor: bool = True) -> str:
+    n = len(c["sources"])
+    src = links_html(c["sources"])
+    meta = src if c["kind"] == "video" else f'{n} outlet{"s" if n != 1 else ""}: {src}' if n > 1 else src
     return item_html(c["key"], story_packet(c), c["primary"]["title"], label=chip_for(c),
                      when=when if when is not None else ago(c["time"], now),
-                     meta=links_html(c["sources"]), summary=c["summary"], caption=draft_block(c["key"]),
-                     writable=c["kind"] == "article")
+                     meta=meta, summary=c["summary"], caption=draft_caption_html(c["key"]),
+                     caption_label="Draft caption", writable=c["kind"] == "article",
+                     image=c.get("image", ""), ph=cluster_ph(c), video=c["kind"] == "video",
+                     terms=sorted(c["shows"]) + sorted(c["people"]), slot=slot, slot_iso=slot_iso, anchor=anchor)
 
 
 def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
@@ -1683,7 +1988,7 @@ def cluster_list(clusters: list[dict], now: dt.datetime) -> str:
     shown = "\n".join(cluster_html(c, now) for c in clusters[:SECTION_CAP])
     rest = clusters[SECTION_CAP:]
     if rest:
-        shown += (f'\n<details class="more"><summary>Show {len(rest)} more</summary>\n'
+        shown += (f'\n<details class="more"><summary class="act">Show {len(rest)} more</summary>\n'
                   + "\n".join(cluster_html(c, now) for c in rest) + "\n</details>")
     return shown
 
@@ -1692,9 +1997,13 @@ def anniv_total(ann: dict) -> int:
     return sum(len(ann.get(k, [])) for k in ("birthdays", "deaths", "premieres", "finales"))
 
 
+def first_show(shows: list[str]) -> str:
+    m = re.match(r"'(.+?)'", shows[0]) if shows else None
+    return m.group(1) if m else ""
+
+
 def anniv_html(ann: dict, today: dt.date) -> str:
-    total = anniv_total(ann)
-    parts = [h2(f"On this day, {today.strftime('%B')} {today.day}", "sec-anniversaries", total)]
+    parts = []
 
     def links(e):
         return links_html(links_for(e))
@@ -1703,28 +2012,29 @@ def anniv_html(ann: dict, today: dt.date) -> str:
         parts.append(f"<h3>{E(title)}</h3>")
         parts.append("\n".join(render(r) for r in rows) if rows else '<p class="empty">None today.</p>')
 
+    # birthdays first, always
     block("Birthdays", ann.get("birthdays", []), lambda b: item_html(
         f"bday-{b['qid']}-{today.year}", birthday_packet(b),
         f"{b['name']}, turns {b['years']} today", label="Birthday", when=f"born {b['date'].year}",
-        meta=links(b), summary=", ".join(b["shows"]),
-        caption=caption_html(birthday_caption(b), "Caption in your birthday format")))
+        meta=links(b), summary=", ".join(b["shows"]), image=b.get("image", ""), ph=b["name"], face=True,
+        mutable=False, caption=caption_html(birthday_caption(b), "Caption in your birthday format")))
     block("Death anniversaries", ann.get("deaths", []), lambda d: item_html(
         f"death-{d['qid']}-{today.year}", death_packet(d),
         f"{d['name']}, passed away {d['years']} years ago today", label="Remembering",
-        when=str(d["date"].year), meta=links(d),
+        when=str(d["date"].year), meta=links(d), image=d.get("image", ""), ph=d["name"], face=True, mutable=False,
         summary=(f"{short_date(d['born'])} - " if d.get("born") else "") + short_date(d["date"])
         + ". " + ", ".join(d["shows"]),
         caption=caption_html(death_caption(d), "Caption in your remembrance format")))
     block("Premieres", ann.get("premieres", []), lambda s: item_html(
         f"prem-{s['qid']}-{today.year}", show_anniv_packet(s, "premiered"),
         f"'{s['name']}' premiered {s['years']} years ago today", label="Anniversary",
-        when=str(s["date"].year), meta=links(s), summary=s["networks"],
-        caption=caption_html(show_anniv_caption(s, "premiered"), "Caption in your anniversary format")))
+        when=str(s["date"].year), meta=links(s), summary=s["networks"], image=s.get("image", ""), ph=s["name"],
+        mutable=False, caption=caption_html(show_anniv_caption(s, "premiered"), "Caption in your anniversary format")))
     block("Finales", ann.get("finales", []), lambda s: item_html(
         f"fin-{s['qid']}-{today.year}", show_anniv_packet(s, "ended"),
         f"'{s['name']}' ended {s['years']} years ago today", label="Finale",
-        when=str(s["date"].year), meta=links(s), summary=s["networks"],
-        caption=caption_html(show_anniv_caption(s, "ended"), "Caption in your anniversary format")))
+        when=str(s["date"].year), meta=links(s), summary=s["networks"], image=s.get("image", ""), ph=s["name"],
+        mutable=False, caption=caption_html(show_anniv_caption(s, "ended"), "Caption in your anniversary format")))
     return "\n".join(parts)
 
 
@@ -1739,7 +2049,8 @@ def upcoming_html(ups: list[dict]) -> str:
         rows.append(item_html(f"tmdb-{u['id']}-{u['date'].isoformat()}", upcoming_packet(u),
                               f"'{u['name']}'{net}", label="Premiere",
                               when=f"{u['date'].strftime('%a')}, {u['date'].strftime('%b')} {u['date'].day}",
-                              meta=meta, summary=u["overview"]))
+                              meta=meta, summary=u["overview"], image=u.get("image", ""), ph=u["name"],
+                              mutable=False))
     return "<h3>Premiere dates from TMDB</h3>\n" + "\n".join(rows)
 
 
@@ -1766,20 +2077,13 @@ def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
         slot = start + dt.timedelta(hours=i)
         h = slot.hour % 12 or 12
         ampm = "am" if slot.hour < 12 else "pm"
-        n = len(c["sources"])
-        k = kicker(chip_for(c))
-        meta = (f'{k}{" " if k else ""}{n} outlet{"s" if n != 1 else ""}, {ago(c["time"], now)}. '
-                f'<a href="#s-{E(c["key"])}">Details</a>')
-        rows.append(
-            f'<div class="item" data-id="{E(c["key"])}" data-packet="{E(story_packet(c))}">'
-            f'<div class="time" aria-label="Post around {clock(slot)} GMT">{h}<small>{":%02d" % slot.minute if slot.minute else ""}{ampm}</small></div>'
-            f'<div><label><span class="t">{E(c["primary"]["title"])}</span>'
-            f'<input type="checkbox" class="pick" aria-label="Pick this story"></label>'
-            f'<div class="meta">{meta}</div>{draft_block(c["key"])}{WRITER}</div></div>')
-    return (h2("Today's posting schedule", "sec-today", None)
-            + '\n<p class="muted" style="margin:8px 0 0">The ten biggest stories, one an hour. Times are GMT.</p>'
-            + '\n<div class="today">\n' + "\n".join(rows)
-            + '\n</div>')
+        mins = ":%02d" % slot.minute if slot.minute else ""
+        tm = (f'<div class="time" aria-label="Post around {clock(slot)} GMT">{h}<small>{mins}{ampm}</small></div>')
+        rows.append(cluster_html(c, now, slot=tm, slot_iso=iso(slot), anchor=False))
+    top = ('<div class="sched-top"><span><b id="sched-done">0</b> of '
+           f'{len(ranked)} posted. Times are GMT.</span><span id="sched-next" class="next-when"></span></div>'
+           '<div class="progress" aria-hidden="true"><i id="sched-bar"></i></div>')
+    return section("today", "Today's posting schedule", None, top + '\n<div class="today">\n' + "\n".join(rows) + "\n</div>")
 
 
 # --------------------------------------------------------------------------
@@ -1810,19 +2114,23 @@ def breaking_clusters(state: dict, now: dt.datetime) -> list[dict]:
 
 
 def write_breaking_page(clusters: list[dict], now: dt.datetime) -> None:
+    feed = breaking_feed(clusters)
+    write_text(DOCS_DIR / "breaking.json", json.dumps({"checked": iso(now), "stories": feed}, ensure_ascii=False))
     body = ['<div class="intro"><h1>Breaking</h1>',
             f"<p>Deaths, renewals, cancellations, exits and revivals, newest first. "
-            f"Last checked {clock(now)} GMT. Checks run every 30 minutes.</p></div>",
-            h2(f"Last {BREAKING_PAGE_HOURS} hours", "sec-breaking", len(clusters))]
+            f"Last checked {clock(now)} GMT. Checks run every 30 minutes.</p></div>"]
     if clusters:
+        rows = []
         for c in clusters:
             seen = c["first_seen"]
             when = f"seen {clock(seen)}" + ("" if seen.date() == now.date() else f", {seen.strftime('%b')} {seen.day}")
-            body.append(cluster_html(c, now, when=when))
+            rows.append(cluster_html(c, now, when=when))
+        inner = "\n".join(rows)
     else:
-        body.append('<p class="empty">Nothing breaking right now.</p>')
+        inner = '<p class="empty">Nothing breaking right now. Alerts go to Telegram the moment something lands.</p>'
+    body.append(section("breaking", f"Last {BREAKING_PAGE_HOURS} hours", len(clusters), inner))
     write_text(DOCS_DIR / "breaking.html",
-               page("Breaking: Sitcom Crave Roundup", "\n".join(body), active="breaking",
+               page("Breaking: Sitcom Crave Roundup", "\n".join(body), active="breaking", breaking=feed,
                     desc="Breaking comedy TV news: deaths, renewals, cancellations, exits and revivals "
                          f"from the last {BREAKING_PAGE_HOURS} hours."))
 
@@ -1837,14 +2145,16 @@ def write_captions_page() -> None:
 
 
 def write_archive(state: dict) -> None:
-    rows = []
+    rows, day = [], None
     for ed in reversed(state.get("editions", [])):
         t = parse_iso(ed["time"])
         if not t:
             continue
+        if t.date() != day:
+            day = t.date()
+            rows.append(f'<h3 class="archday">{E(long_date(day))}</h3>')
         rows.append(f'<a class="arch" href="editions/{E(ed["name"])}.html">'
-                    f'<b>{E(ed["edition"].title())}</b><span>{E(long_date(t.date()))}</span>'
-                    f'<span>{clock(t)}</span></a>')
+                    f'<b>{E(ed["edition"].title())}</b><span>{clock(t)} GMT</span></a>')
     body = ('<div class="intro"><h1>Archive</h1><p>Every morning and evening roundup, newest first.</p></div>\n'
             + ("\n".join(rows) if rows else '<p class="empty">No roundups yet.</p>'))
     write_text(DOCS_DIR / "archive.html", page("Archive: Sitcom Crave Roundup", body, active="archive",
@@ -1885,9 +2195,19 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
     if cfg is not None and os.environ.get("GEMINI_API_KEY"):
         log("Caption drafts")
         draft_many(ranked + by_section["breaking"], cfg)
+    log("Pictures")
+    order = ranked + by_section["breaking"] + [c for k, _ in SECTIONS for c in by_section[k]]
+    seen_keys: set = set()
+    fill_images([c for c in order if not (c["key"] in seen_keys or seen_keys.add(c["key"]))])
     log("Extras")
     ann = anniversaries(today, health)  # every edition, so today's birthdays stay on the front page all day
+    for s in ann.get("premieres", []) + ann.get("finales", []):
+        s["image"] = tmdb_show_image(s["name"])
+    for b in ann.get("birthdays", []) + ann.get("deaths", []):
+        if not b.get("image"):
+            b["image"] = tmdb_person_image(b["name"])
     ups = upcoming(today, health)
+    live_breaking = breaking_feed(breaking_clusters(state, now))
 
     title = f"{mode.title()} roundup, {long_date(today)}"
     if prev:
@@ -1899,53 +2219,56 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
             f"{nxt}</p></div>",
             post_today_html(ranked, now)]
-    jump = [("sec-today", "Schedule", None)] if ranked else []
+    chips = [("today", "Schedule", None)] if ranked else []
 
     for key, label in SECTIONS:
         group = by_section[key]
         if key == "news":  # On this day sits near the top: it only counts today
-            body.append(anniv_html(ann, today))
-            jump.append(("sec-anniversaries", "On this day", anniv_total(ann)))
+            body.append(section("anniversaries", f"On this day, {today.strftime('%B')} {today.day}",
+                                anniv_total(ann), anniv_html(ann, today)))
+            chips.append(("anniversaries", "On this day", anniv_total(ann)))
         if key == "breaking" and not group:
             continue
         n = len(group) + (len(ups) if key == "upcoming" else 0)
-        body.append(h2(label, f"sec-{key}", n))
-        jump.append((f"sec-{key}", JUMP_LABELS[key], n))
+        inner = []
         if key in ("interviews", "trailers"):
             arts = [c for c in group if c["kind"] == "article"]
             vids = [c for c in group if c["kind"] == "video"]
-            body.append(cluster_list(arts, now) if arts else "")
+            inner.append(cluster_list(arts, now) if arts else "")
             if vids:
-                body.append("<h3>" + ("Talk-show and podcast clips" if key == "interviews" else "Trailer and promo videos") + "</h3>")
-                body.append(cluster_list(vids, now))
+                inner.append("<h3>" + ("Talk-show and podcast clips" if key == "interviews" else "Trailer and promo videos") + "</h3>")
+                inner.append(cluster_list(vids, now))
             if not arts and not vids:
-                body.append('<p class="empty">Quiet.</p>')
+                inner.append('<p class="empty">Quiet.</p>')
             kinds = ("talk", "outlet") if key == "interviews" else ("streamer",)
             others = [v for v in other_videos if v.get("channel_kind") in kinds]
             if others:
                 others.sort(key=lambda v: item_time(v), reverse=True)
                 oc = build_clusters(others)
-                body.append(f'<details class="other"><summary>Other uploads, not on the watchlist ({len(oc)})</summary>'
-                            + "\n".join(cluster_html(c, now) for c in oc) + "</details>")
+                inner.append(f'<details class="other"><summary class="act">Other uploads, not on the watchlist ({len(oc)})</summary>'
+                             + "\n".join(cluster_html(c, now) for c in oc) + "</details>")
         elif key == "upcoming":  # premiere dates first, then news about shows on the way
-            body.append(upcoming_html(ups))
+            inner.append(upcoming_html(ups))
             if group and ups:
-                body.append("<h3>Coming-up news</h3>")
-            body.append(cluster_list(group, now) if group or not ups else "")
+                inner.append("<h3>Coming-up news</h3>")
+            inner.append(cluster_list(group, now) if group or not ups else "")
         else:
-            body.append(cluster_list(group, now))
+            inner.append(cluster_list(group, now))
+        body.append(section(key, label, n, "\n".join(x for x in inner if x)))
+        if n or key == "breaking":
+            chips.append((key, JUMP_LABELS[key], n))
 
-    body.append(h2("Sources", "sec-sources"))
-    body.append(health_html(health))
-    jump.append(("sec-sources", "Sources", None))
+    body.append(section("sources", "Sources", None, health_html(health)))
 
     content = "\n".join(b for b in body if b)
     lead = f" Top story: {ranked[0]['primary']['title']}" if ranked else ""
     desc = f"{mode.title()} roundup for {long_date(today)}: {len(clusters)} comedy TV {"story" if len(clusters) == 1 else "stories"}.{lead}"
     write_text(DOCS_DIR / "editions" / f"{name}.html",
-               page(f"{title}: Sitcom Crave Roundup", content, depth=1, jump=jump, desc=desc))
+               page(f"{title}: Sitcom Crave Roundup", content, depth=1, chips=chips, desc=desc,
+                    breaking=live_breaking, banner=True))
     write_text(DOCS_DIR / "index.html",
-               page("Sitcom Crave Roundup", content, depth=0, jump=jump, desc=desc))
+               page("Sitcom Crave Roundup", content, depth=0, chips=chips, desc=desc,
+                    breaking=live_breaking, banner=True))
     rerun = any(e["name"] == name for e in state.get("editions", []))
     url = site_url()
     top = "\n".join(f"{i + 1}. {c['primary']['title']}" for i, c in enumerate(ranked[:3]))
@@ -2018,7 +2341,7 @@ def run(mode: str) -> int:
         (Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "roundup_mode").write_text(mode)
     except OSError:
         pass
-    global DRAFTS
+    global DRAFTS, IMAGES
     DRAFTS = state.setdefault("drafts", {})
     refilter(state, wl, cfg)
     log(f"{mode} run at {iso(now)}")
@@ -2027,6 +2350,7 @@ def run(mode: str) -> int:
     added = merge(state, raw, wl, now)
     prune(state, now)
     DRAFTS = state["drafts"]  # prune made a fresh dict; keep writing into the one that gets saved
+    IMAGES = state["images"]
     log(f"{len(raw)} stories fetched, {added} new comedy stories, {len(state['items'])} remembered")
 
     # breaking: alert once per story, keep the breaking page current
@@ -2055,6 +2379,7 @@ def run(mode: str) -> int:
     write_assets()
     write_captions_page()
     if fresh or mode != "breaking" or not (DOCS_DIR / "breaking.html").exists():
+        fill_images(clusters, limit=15)
         write_breaking_page(clusters, now)
 
     if mode == "breaking":

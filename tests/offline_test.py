@@ -192,6 +192,7 @@ def fake_post_json(url, body, headers, timeout=60):
 roundup.http_post_json = fake_post_json
 os.environ["GEMINI_API_KEY"] = " gem-key-456\nsecond-key-789\n"  # padded, and two keys pasted in one secret
 roundup.http_get = fake_get
+roundup.og_image = lambda link: ""  # no real page reads in the test
 roundup.send_telegram = lambda text, cfg=None: ALERTS.append(text) or True
 roundup.time.sleep = lambda s: None
 
@@ -216,7 +217,7 @@ idx = (OUT / "docs" / "index.html").read_text()
 sections = {}
 cur = None
 for line in idx.splitlines():
-    if line.startswith("<h2"):
+    if line.startswith('<section class="sec"'):
         cur = line
     elif cur:
         sections.setdefault(cur, []).append(line)
@@ -281,7 +282,7 @@ check("flash-latest" in GEMINI_CALLS[0][0] and "lite" not in GEMINI_CALLS[0][0],
 check("gem-key-456" not in idx and "gem-key-456" not in (OUT / "data" / "state.json").read_text(),
       "Gemini key never written to pages or data")
 n_calls = len(GEMINI_CALLS)
-check('src="../app.js"' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
+check('src="../app.js' in (OUT / "docs" / "editions" / "2026-11-07-morning.html").read_text(),
       "edition page points at app.js correctly")
 
 PHASE["trade"] = MORNING_TRADE + REHASH + BREAKING_EXTRA + STALE_BREAKING
@@ -307,6 +308,7 @@ run("evening", "2026-11-07T17:50:00Z")
 heads = [re.search(r"Headline: (.*)", c[1]).group(1) for c in GEMINI_CALLS]
 check(len(heads) == len(set(heads)), "drafts are reused: no story is drafted twice")
 eve = (OUT / "docs" / "index.html").read_text()
+eve = re.sub(r"<script>.*?</script>", "", eve, flags=re.S)  # the breaking banner's data is not the roundup
 check("Evening roundup" in eve and "Pat Example" in eve, "evening edition has the afternoon story")
 check("Renewed For Season 4" not in eve, "evening edition leaves out what the morning had")
 check("Fourth Season Pickup" not in eve, "another outlet's version of a story already shown is left out")
