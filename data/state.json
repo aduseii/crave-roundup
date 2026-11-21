@@ -4,6 +4,7 @@
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "1f3901dd70db": "2026-11-15T00:00:12+00:00",
 "233a08be11a7": "2026-11-17T17:30:11+00:00",
+"4e8c512cc89b": "2026-11-21T22:27:20+00:00",
 "6e53b9f4231d": "2026-11-16T21:00:30+00:00",
 "86b748c21fb4": "2026-11-18T21:00:15+00:00",
 "8b76ecbfbdb5": "2026-11-16T17:30:15+00:00",
@@ -71,12 +72,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "Result:*\n 'Home Alone' director Chris Columbus says a reboot of the film would not work without the late 'Schitt's Creek' star Catherine O'Hara. (via Us Weekly) 🕊️\n\n * *Wait, let me double check the \"late\" rule.*\n \"Say 'passed away', never 'died'.\"\n The headline uses \"the"
-},
-"0a5e7f6a63d0": {
-"at": "2026-11-14T17:38:31+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "Comedian and 'Saturday Night Live' star John Mulaney hosts tonight's episode with musical guest Phoebe Bridgers. Tyler Hynes also stars in the new Hallmark movie 'The Nights Before Christmas', and Alex Warren hosts the Kids' Choice Awards on Nickelodeon. (via TVLine)"
 },
 "0b2d9c009cec": {
 "at": "2026-11-20T06:36:03+00:00",
@@ -179,12 +174,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Law & Order: SVU' star Mariska Hargitay, 'The Office' star Steve Carell, and 'The Tonight Show' host Jimmy Fallon are set to appear in 'NBC100: The Live Celebration'. The special will air live from the Dolby Theatre on Dec. 10 at 8 p.m. ET on NBC and Peacock. (via"
-},
-"226ab056b381": {
-"at": "2026-11-14T17:47:38+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Saturday Night Live' alum Shane Gillis clarifies that he does not have a problem with women's gym attire in a new interview (via Cinemablend)"
 },
 "233a08be11a7": {
 "at": "2026-11-17T17:32:12+00:00",
@@ -294,6 +283,12 @@
 "model": "gemini-3-flash-preview",
 "text": "\"They just were broken in some aspect and hurting, depressed,\" 'Malcolm in the Middle' star Bryan Cranston says. He reflected on his childhood and his relationship with his parents in his memoir 'A Life in Parts'. (via TVLine)"
 },
+"4e8c512cc89b": {
+"at": "2026-11-21T22:28:36+00:00",
+"from_article": true,
+"model": "gemini-flash-latest",
+"text": "\"They shouldn't have canceled '$#*!My Dad Says;' it was too popular. And we were getting it right. I don't know what happened in CBS's mind,\" 'Star Trek' star William Shatner says about CBS canceling his 2010 sitcom after one season. (via TVLine)"
+},
 "513903b732de": {
 "at": "2026-11-16T17:38:27+00:00",
 "from_article": true,
@@ -378,12 +373,6 @@
 "model": "gemini-3-flash-preview",
 "text": "Singer and 'Grease' star Olivia Newton-John only appeared as a series regular once in her career on the short-lived sitcom 'Sordid Lives: The Series'. The 2008 show starring Rue McClanahan followed a chaotic Texas family and featured Newton-John as a bar singer. It was canceled after one season. (via TVLine)"
 },
-"6c56fe62f663": {
-"at": "2026-11-14T17:43:32+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Saturday Night Live' star returns to television in a dark new role, marking her first major TV part since 'Parks and Recreation'. (via Yahoo)"
-},
 "6e53b9f4231d": {
 "at": "2026-11-16T21:01:36+00:00",
 "from_article": true,
@@ -444,12 +433,6 @@
 "model": "gemini-3-flash-preview",
 "text": "The children of the 'Scrubs' revival cast have been revealed. One child reportedly had a 'full page' of notes for the stars after visiting the set. (via People)"
 },
-"7fcfe57df6e6": {
-"at": "2026-11-14T17:47:44+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Saturday Night Live' trivia and pop culture history is highlighted in a new feature marking Saturday, November 14th. (via Yahoo)"
-},
 "83e06375acb8": {
 "at": "2026-11-19T06:40:27+00:00",
 "from_article": false,
@@ -491,12 +474,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Everybody Loves Raymond' star Patricia Heaton shares what the family would be up to today. (via People)"
-},
-"8e57c644d534": {
-"at": "2026-11-14T17:46:02+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Saved by the Bell' star Tiffani Thiessen has revealed she is facing a painful surgery at age 52 during a candid discussion about aging (via Parade Magazine)."
 },
 "8ec1f3f7c89c": {
 "at": "2026-11-17T17:33:28+00:00",
@@ -575,12 +552,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "s check the \"Describe a person\" rule again.* \"Describe a person by the show they are known for\".\n * Bowen Yang is known for SNL.\n * John Mulaney is known for SNL (writer) or his standup. Usually \"Comedian John Mulaney\".\n\n * *Final check on the text:*"
-},
-"9ca5bd20403a": {
-"at": "2026-11-14T17:44:47+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "\"'Saturday Night Live' star Inde Navarrette says she would do it again following her debut on the show\" (via AP News)"
 },
 "9ee847c5a716": {
 "at": "2026-11-21T06:36:25+00:00",
@@ -738,12 +709,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Seinfeld' co-creator and 'Curb Your Enthusiasm' creator and star Larry David has announced a six-city live conversation tour for February 2027. Titled 'A Conversation with Larry David', the tour will feature his daughter, writer and filmmaker Cazzie David, as a special guest moderator. (via Deadline)"
 },
-"c24fc294e20b": {
-"at": "2026-11-14T17:47:19+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "'Gavin & Stacey' star Ruth Jones shared her disbelief following a historic Wales win (via Yahoo)"
-},
 "c529796de2fe": {
 "at": "2026-11-16T22:02:37+00:00",
 "from_article": false,
@@ -785,12 +750,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' star Amy Poehler explains why one 'Saturday Night Live' employee has seen every famous person naked. (via Cinemablend)"
-},
-"d36123462f8b": {
-"at": "2026-11-14T17:41:54+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "'SNL UK' producers initially dismissed 'Saturday Night Live' and its reliance on cue cards as outdated, before realizing the handwritten system is essential for handling last-minute script changes during live broadcasts. (via Collider)"
 },
 "d68048de1b2e": {
 "at": "2026-11-17T01:03:26+00:00",
@@ -846,23 +805,11 @@
 "model": "gemini-3-flash-preview",
 "text": "\"You dumba**,\" 'Saturday Night Live' alum John Mulaney said while roasting RFK Jr. on the show. (via The Independent)"
 },
-"e59277056efd": {
-"at": "2026-11-14T17:34:44+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "“Not to defend 'SNL,' they don’t approve it. I mean, they could shut it down. They could, but you don’t write your set and give it to them. Unless you’re not a comedian,” Shane Gillis says about the backlash to his monologue. (via The Hollywood Reporter)"
-},
 "e89dfacd09e8": {
 "at": "2026-11-21T17:34:46+00:00",
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Full House' star Candace Cameron Bure recalls being fired after one table read. She says the script was completely rewritten after she was let go. (via Parade Magazine)"
-},
-"e97eb72f3a9f": {
-"at": "2026-11-14T17:47:32+00:00",
-"from_article": false,
-"model": "gemini-flash-lite-latest",
-"text": "Olivia Wilde opens up about co-parenting with Jason Sudeikis following their bitter split. (via Page Six)"
 },
 "e9d4acccc422": {
 "at": "2026-11-20T17:37:34+00:00",
@@ -2156,6 +2103,29 @@
 "summary": "",
 "tags": [],
 "title": "Roseanne Barr’s Ex Tom Arnold, 67, Hasn’t Had Sex in 10 Years, Calls People His Age “Disgusting”"
+},
+"0372c96ee496": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "0372c96ee496",
+"image": "https://www.tvline.com/img/gallery/tom-sellecks-friends-role-was-accidentally-extended-thanks-to-lisa-kudrow/l-intro-1794927319.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2319057/tom-selleck-friends-role-extended-lisa-kudrow/",
+"outlet": "TVLine",
+"people": [
+"Lisa Kudrow"
+],
+"published": "2026-11-21T18:52:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Friends"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Thanks to a comment from one of the show's six core cast members, Tom Selleck saw his initial planned run of three episodes extended on \"Friends.\"",
+"tags": [],
+"title": "Tom Selleck's Friends Role Was Accidentally Extended Thanks To Lisa Kudrow"
 },
 "03875ba375a4": {
 "first_seen": "2026-11-18T06:30:20+00:00",
@@ -10663,6 +10633,28 @@
 "tags": [],
 "title": "Which Beloved '60s Sitcom Had More Episodes: The Munsters Or The Addams Family?"
 },
+"2f63eac477e6": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "2f63eac477e6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNHBZclFrNVZORURqVE1jaUJZY2RDQ1g3YlBnZ3dQMU8tSEpmUERJN2VCZkMxd19tM3RyNTFRSDZDa20zS2R3VXRrS1hCU09WSEdQZHRfRDRvQWVLSnhpU3lJMl9KUmFOTGNvMlNhT0JPY1FuZ0ZrTktmV2RZTWNoZUFNRGpnQ0lPc3FaUmZ3WlRoSFM4WnZjNnp3SktDOFBUVFhDX3lJSHJhY1lFYmpxYXh0TFJ0ei02eWZWOWswdkZHX25V?oc=5",
+"outlet": "The Guardian",
+"people": [],
+"published": "2026-11-21T21:48:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Peter Fluck, caricaturist and puppeteer who co-created Spitting Image, dies aged 85"
+},
 "2f7847a967d5": {
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "2f7847a967d5",
@@ -10980,6 +10972,25 @@
 "Interview"
 ],
 "title": "Selena Gomez Recalls How Martin Short Accidentally Cut Her Wedding Cake Early: ‘He Looked Like a Little Dog’"
+},
+"30ed5bad158e": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "30ed5bad158e",
+"image": "https://www.tvline.com/img/gallery/kirk-douglas-first-tv-appearance-was-on-a-television-legends-classic-sitcom/l-intro-1793994636.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2319048/kirk-douglas-first-tv-appearance-episode-television-legend-classic-sitcom-the-lucy-show/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-21T18:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Kirk Douglas is best known for his iconic movie roles, but the legendary actor had some notable TV roles as well, including a cameo in an iconic sitcom.",
+"tags": [],
+"title": "Kirk Douglas' First TV Appearance Was On A Television Legend's Classic Sitcom"
 },
 "30f576755947": {
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -14562,6 +14573,25 @@
 "tags": [],
 "title": "Late Night This Week: Who’s on and Who’s Gone"
 },
+"42f17ad09de5": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "42f17ad09de5",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/neal-mcdonough-s-cal-in-tulsa-king.jpg",
+"kind": "article",
+"link": "https://screenrant.com/taylor-sheridan-frisco-king-switch-genres-comedy/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-21T21:01:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Sun soaked Texas suburbs sends a mob hitman's life into disarray, trading Taylor Sheridan's usual grim tone for broad comedy and zany set pieces.",
+"tags": [],
+"title": "Taylor Sheridan Is Switching Genres For His Next Paramount+ Series"
+},
 "432a55e92785": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -16923,6 +16953,27 @@
 "tags": [],
 "title": "Quote Of The Day By Bryan Cranston: 'They Just Were Broken In Some Aspect And Hurting, Depressed. There Was...'"
 },
+"4e8c512cc89b": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "4e8c512cc89b",
+"image": "https://www.tvline.com/img/gallery/william-shatner-believes-cbs-made-a-big-mistake-canceling-his-short-lived-sitcom/l-intro-1794926445.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2319051/william-shatner-cbs-mistake-cancel-sitcom/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-21T21:52:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "William Shatner has always been passionate about his roles, so when CBS canceled his 2010 sitcom, he made it very clear that he thought it was the wrong move.",
+"tags": [
+"Cancel/End"
+],
+"title": "William Shatner Believes CBS Made A Big Mistake Canceling His Short-Lived Sitcom"
+},
 "4e8fd9e638aa": {
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -18711,6 +18762,27 @@
 ],
 "title": "‘Only Murders in the Building’ Debuts Season 6 Trailer, Rebrands Itself with Major Guest Stars for London-Based Season"
 },
+"55c4b6a5fbef": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "55c4b6a5fbef",
+"image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261121/948022dc-9418-41bc-89d3-8e9ecde1b9bb_1795293252.jpg",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438314/miley-cyrus-maxx-morando-host-rehearsal-dinner-ahead-of-rumored-wedding?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [],
+"published": "2026-11-21T20:48:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Hannah Montana"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The climb to Miley Cyrus and Maxx Morando’s wedding has officially begun. After all, the Hannah Montana alum’s stepsister Lily-Rose Purcell shared special details from what appeared to be the...",
+"tags": [],
+"title": "Miley Cyrus, Maxx Morando Host Rehearsal Dinner Ahead of Wedding"
+},
 "55dd6533973d": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "55dd6533973d",
@@ -19788,6 +19860,25 @@
 "summary": "Vanna White talks about filming Wheel of Fortune in the same studio as Johnny Carson and being chosen to turn the letters on the Wheel of Fortune puzzle board before teaching Jimmy her signature move.",
 "tags": [],
 "title": "Vanna White Teaches Jimmy How to Do \"The Vanna\" for Wheel of Fortune | The Tonight Show"
+},
+"5b2c2b7b9683": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "5b2c2b7b9683",
+"image": "https://deadline.com/wp-content/uploads/2026/11/Minimum_Wage_n_S1_00_04_13_18.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/netflix-minimum-short-episode-sitcoms-1237229899/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-21T19:06:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "In a world of increasingly short attention spans, social media slop and doomscrolling brainrot, it’s a wonder why many television shows got longer in the streaming era.",
+"tags": [],
+"title": "Netflix’s ‘Minimum Wage’ Ushers In Streaming’s Short Ep Sitcom Era: “The Future Is 15-Minute ‘SpongeBob’-Length Episodes”"
 },
 "5b37b65654a1": {
 "first_seen": "2026-11-17T17:30:11+00:00",
@@ -21409,6 +21500,29 @@
 "summary": "",
 "tags": [],
 "title": "Charlie Sheen Apologizes to Rob Lowe Over 'Mean' Tweets"
+},
+"64480b7c4280": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "64480b7c4280",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fcelebrities-attend-womens-guild-cedars-149414797.jpg?w%3D681",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/21/celebrity-news/tim-allen-wife-jane-hajduk-reveal-simple-date-night-secret-after-20-years-of-marriage/",
+"outlet": "Page Six",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-21T21:16:06+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Allen and Hajduk tied the knot in October 2006.",
+"tags": [
+"Interview"
+],
+"title": "Tim Allen, wife Jane Hajduk reveal their simple secret to date nights after 20 years of marriage"
 },
 "644b8fb77969": {
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -28358,6 +28472,28 @@
 "tags": [],
 "title": "The Tonight Show Starring Jimmy Fallon: Michael Che, Malin Akerman"
 },
+"89a44d1c0fc7": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "89a44d1c0fc7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBBTFFMazlEMFRseklWSFNUUFRiTzVjSE44Z3ZLRThqZ0R0WEh2Y0NUUVR6UVotdmp2YXRXUDZ6OHFEWVVRMkJCdzR3X3VQWUdzbk5XazZWWGcwaTNNNko5WmxibGI?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-21T18:57:29+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "The '80s Reboot Of Sally Field's Beloved '60s Sitcom Lasted Longer Than The Original"
+},
 "89a9d077bc8b": {
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
@@ -28567,6 +28703,28 @@
 "summary": "Talk about a full-circle fashion moment! Mckenna Grace takes us through her 'The Hunger Games: Sunrise on the Reaping' press looks, from recreating Katniss’ wedding dress to her Mockingjay-inspired grand finale.",
 "tags": [],
 "title": "Mckenna Grace Walks Us Through Her ‘Sunrise on the Reaping’ Press Looks"
+},
+"8b3af896ad3a": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "8b3af896ad3a",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/GettyImages-2304769675-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305078/is-snl-new-tonight-november-21-next-episode-season-52/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-21T19:25:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Here's when you can expect a new episodes of 'Saturday Night Live,' as well as who is hosting and serving as the musical guest. Is Saturday Night Live new tonight, on Saturday, November 21? With the holidays just around the corner, fans of the NBC sketch comedy series are wondering exactly this.",
+"tags": [],
+"title": "Is ‘SNL’ New Tonight, November 21? When to Expect Next Episode of Season 52"
 },
 "8b4b7e60e93b": {
 "first_seen": "2026-11-16T06:30:10+00:00",
@@ -36497,6 +36655,25 @@
 "Upcoming"
 ],
 "title": "‘The Simpsons’ Season 38 Episode 8 Release Date, Time and Where to Watch"
+},
+"b07eca5491d3": {
+"first_seen": "2026-11-21T22:27:20+00:00",
+"id": "b07eca5491d3",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/21/minimum-wage-show-feature.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/netflix-minimum-wage-15-minute-sitcom-episodes",
+"outlet": "AV Club",
+"people": [],
+"published": "2026-11-21T20:22:52+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Netflix now demanding that sitcom episodes be even shorter.",
+"tags": [],
+"title": "Netflix now demanding sitcom episodes be even shorter"
 },
 "b07fec17c396": {
 "first_seen": "2026-11-21T17:30:12+00:00",
@@ -45994,7 +46171,7 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
 "outlet": "The Independent",
 "people": [],
-"published": "2026-11-21T16:53:45+00:00",
+"published": "2026-11-21T21:23:45+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
