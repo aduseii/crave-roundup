@@ -1,6 +1,7 @@
 {
 "alerted": {
 "09d724b4ca5c": "2026-11-21T08:58:50+00:00",
+"1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "1f3901dd70db": "2026-11-15T00:00:12+00:00",
 "233a08be11a7": "2026-11-17T17:30:11+00:00",
 "6e53b9f4231d": "2026-11-16T21:00:30+00:00",
@@ -9,6 +10,7 @@
 "937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
 "a1a10e12883f": "2026-11-17T06:30:10+00:00",
+"a3e6bc3cb70f": "2026-11-21T15:30:15+00:00",
 "a470c0275fa1": "2026-11-20T18:00:12+00:00",
 "af6a1d2c4656": "2026-11-17T16:29:54+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
@@ -140,6 +142,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Two and a Half Men' star Jon Cryer will guest star on the CBS legal drama 'Cupertino'. He will play Judge Van Linkerspleen, a role described as blending comedy and drama. 'Cupertino' is a show starring Mike Colter about a lawyer who takes on Silicon Valley tech companies. (via TV Insider)"
+},
+"1e3d73bcb4fb": {
+"at": "2026-11-21T15:34:07+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "The 1980s reboot of 'Gidget' star Sally Field's 1960s sitcom lasted longer than the original series. 'The New Gidget' ran for two seasons and 44 episodes, while the original version was canceled after one season. (via TVLine)"
 },
 "1f3901dd70db": {
 "at": "2026-11-15T00:03:50+00:00",
@@ -1219,6 +1227,10 @@
 "tmdbtv:jimmy kimmel live": {
 "at": "2026-11-21T09:03:53+00:00",
 "u": "https://image.tmdb.org/t/p/w780/taqVKvEmMlI2hs2g364fXWzv0ia.jpg"
+},
+"tmdbtv:laverne & shirley": {
+"at": "2026-11-21T15:34:13+00:00",
+"u": "https://image.tmdb.org/t/p/w780/6BlEWrhG1MVfsxo42Isrl9QJupQ.jpg"
 },
 "tmdbtv:moesha": {
 "at": "2026-11-21T09:02:28+00:00",
@@ -7113,6 +7125,27 @@
 "tags": [],
 "title": "You’re gonna be fine. Brand-new episodes come out Wednesdays at 10:30/9:30c. #BeavisandButtHead"
 },
+"1e3d73bcb4fb": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "1e3d73bcb4fb",
+"image": "https://www.tvline.com/img/gallery/the-80s-reboot-of-sally-fields-beloved-60s-sitcom-lasted-longer-than-the-original/l-intro-1794858850.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2318966/sally-field-80s-reboot-beloved-60s-sitcom-longer-original-gidget/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-21T15:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Sally Field started out in TV, playing a beach-loving teen on a '60s sitcom. But the series ran for one season and the '80s reboot actually outlasted it.",
+"tags": [
+"Revival"
+],
+"title": "The '80s Reboot Of Sally Field's Beloved '60s Sitcom Lasted Longer Than The Original"
+},
 "1e4941e5a438": {
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "1e4941e5a438",
@@ -8231,8 +8264,8 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-20T20:52:00+00:00",
-"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -11253,6 +11286,27 @@
 "tags": [],
 "title": "Candace Cameron Bure name-drops ‘The View’ co-host who was shocked over her ‘Special Forces’ win"
 },
+"32c3a901f074": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "32c3a901f074",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Flos-angeles-ca-kylie-cantrall-149183123.jpg",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/21/photos/star-snaps-of-the-week-martin-short-winnie-harlow-pamela-anderson-and-more/",
+"outlet": "Page Six",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-21T14:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Kylie Cantrall surprises fans, David Foster and Katharine McPhee perform a duet and more snaps..",
+"tags": [],
+"title": "Star snaps of the week: Martin Short, Winnie Harlow, Pamela Anderson and more"
+},
 "32c606546a6d": {
 "first_seen": "2026-11-21T08:58:50+00:00",
 "id": "32c606546a6d",
@@ -11632,6 +11686,29 @@
 "tags": [],
 "title": "NBC Celebrates 100th Anniversary With Amy Poehler, Jimmy Fallon and More Stars at Rainbow Room Soirée"
 },
+"342a09f73783": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "342a09f73783",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Home-Alone-Director-Chris-Columbus-Thinks-a-Reboot-Wont-Work-Without-the-Late-Catherine-OHara_MSDHOAL_FE008.jpg",
+"kind": "article",
+"link": "https://www.usmagazine.com/entertainment/news/why-home-alone-director-thinks-a-reboot-wont-work/",
+"outlet": "Us Weekly",
+"people": [
+"Catherine O'Hara"
+],
+"published": "2026-11-21T06:36:05+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Original Home Alone director Chris Columbus doesn’t think a reboot of the hit Christmas movie can work without its late star, Catherine O’Hara. The director shared his opinion about continuing the Home Alone universe with Variety on Friday, November 20,  shortly before reports of a potential Home...",
+"tags": [
+"Revival"
+],
+"title": "Why ‘Home Alone’ Director Chris Columbus Thinks a Reboot Won’t Work"
+},
 "343729a637e4": {
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "343729a637e4",
@@ -11977,6 +12054,27 @@
 "summary": "",
 "tags": [],
 "title": "DIG Review: Amy Poehler's Peacock Comedy Can't Unearth Many Laughs"
+},
+"35ba8c3b254b": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "35ba8c3b254b",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fcharlie-sheen-stunned-learn-fellow-149597877.png",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/21/celebrity-news/charlie-sheen-stunned-to-learn-rob-lowe-had-been-praying-for-his-addiction-battle/",
+"outlet": "Page Six",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-21T09:24:20+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Actors Charlie Sheen and Rob Lowe, both of whom struggled with addiction in the past, shared a moment on Sheen’s podcast when Lowe revealed he had been praying for Sheen for years.",
+"tags": [],
+"title": "Charlie Sheen stunned to learn fellow actor Rob Lowe had been praying for him for years"
 },
 "35d21c749fb3": {
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -34335,6 +34433,28 @@
 "tags": [],
 "title": "Weekend Update ft. Tommy Brennan - SNL"
 },
+"a3e6bc3cb70f": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "a3e6bc3cb70f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWWhDR29vQ1FqbU1ERUp5U2dKVjhBanFhMmw1MS1FUjljYzVSSWR4cGZYRy1NVnAyRF85VVRGYjY2RDBDQTZCemFUT09jZE82ZnlBQ0FUd0VVYjdVX2tlaEhQQzVOQ2RKRGpad1V6SEhkQ0VrWmE5TXVlb3hTQjkyWFZwWVZsWEpxanRibUdPY0dwcHRVTmRmcjdZQjc?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-21T15:12:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "The '80s Reboot Of Sally Field's Beloved '60s Sitcom Lasted Longer Than The Original"
+},
 "a427ad42f326": {
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "a427ad42f326",
@@ -34385,8 +34505,8 @@
 "outlet": "Billboard",
 "people": [],
 "published": "2026-11-20T17:39:49+00:00",
-"query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -37876,6 +37996,27 @@
 "summary": "",
 "tags": [],
 "title": "Maleah Joi Moon on Netflix's 'A Different World' Sequel and Cosby"
+},
+"b4e498e8a3f2": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "b4e498e8a3f2",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/jessie-prez-as-ruben-alvarez-and-montana-jordan-as-georgie-cooper-in-georgie-mandy-s-first-marriage-season-2-s-premiere.jpg",
+"kind": "article",
+"link": "https://screenrant.com/georgie-tie-the-big-bang-theory-tire-empire-first-marriage-build/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-21T13:15:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Georgie & Mandy's First Marriage"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Georgie & Mandy's First Marriage season 3, episode 7's focus on the shop's arrangements hints that Georgie's future may arrive sooner than expected.",
+"tags": [],
+"title": "CBS Is Building Georgie’s Surprise The Big Bang Theory Fate In First Marriage"
 },
 "b4ef7c554ff2": {
 "channel_kind": "streamer",
@@ -43616,6 +43757,29 @@
 "tags": [],
 "title": "Will the real thief please get back to the heist? #121212,  Now Streaming"
 },
+"d2b442ab2afd": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "d2b442ab2afd",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/21/home-alone-feature.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/chris-columbus-home-alone-reboot-macaulay-culkin-comments",
+"outlet": "AV Club",
+"people": [
+"Catherine O'Hara"
+],
+"published": "2026-11-21T00:25:27+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Without knowing news of a new Home Alone was going to break, Chris Columbus doubted another movie would be possible without Catherine O'Hara.",
+"tags": [
+"Revival"
+],
+"title": "Chris Columbus dropped an iron on Home Alone reboot minutes before learning of its existence"
+},
 "d30f42fcb7b2": {
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -46676,6 +46840,28 @@
 "summary": "ET opens the Vault to celebrate 'National Treasure' as it celebrates its 22nd anniversary! Nicolas Cage chats with ET on the set while shooting with Diane Kruger, Sean Bean and Jon Voight.",
 "tags": [],
 "title": "National Treasure: Adventuring On Set With Nicolas Cage | ET Vault Unlocked"
+},
+"e1db0882d459": {
+"first_seen": "2026-11-21T15:30:15+00:00",
+"id": "e1db0882d459",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
+"outlet": "The Independent",
+"people": [],
+"published": "2026-11-21T15:22:01+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Home Improvement star gives verdict on reboot"
 },
 "e2090bfff430": {
 "first_seen": "2026-11-15T06:30:11+00:00",
