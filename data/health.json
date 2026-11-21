@@ -77,6 +77,69 @@
   "resolved": "Just Jared \u2013 Celebrity News, Entertainment News & Photos"
  },
  {
+  "type": "feed",
+  "name": "AV Club",
+  "ok": true,
+  "count": 64,
+  "resolved": "AV Club"
+ },
+ {
+  "type": "feed",
+  "name": "Us Weekly",
+  "ok": true,
+  "count": 20,
+  "resolved": "Us"
+ },
+ {
+  "type": "feed",
+  "name": "Page Six",
+  "ok": true,
+  "count": 10,
+  "resolved": "Page Six"
+ },
+ {
+  "type": "feed",
+  "name": "Uproxx",
+  "ok": true,
+  "count": 50,
+  "resolved": "TV \u2013 UPROXX"
+ },
+ {
+  "type": "feed",
+  "name": "Screen Rant",
+  "ok": true,
+  "count": 10,
+  "resolved": "ScreenRant - TV"
+ },
+ {
+  "type": "feed",
+  "name": "Den of Geek",
+  "ok": true,
+  "count": 10,
+  "resolved": "The Latest TV Reviews & News | Den of Geek"
+ },
+ {
+  "type": "feed",
+  "name": "ComingSoon",
+  "ok": true,
+  "count": 20,
+  "resolved": "ComingSoon.net \u2013 Movie Trailers, TV & Streaming News, and More"
+ },
+ {
+  "type": "feed",
+  "name": "Hollywood Life",
+  "ok": true,
+  "count": 10,
+  "resolved": "Hollywood Life"
+ },
+ {
+  "type": "feed",
+  "name": "ET Online",
+  "ok": true,
+  "count": 4,
+  "resolved": "News"
+ },
+ {
   "type": "search",
   "name": "sitcom",
   "ok": true,
@@ -87,14 +150,14 @@
   "type": "search",
   "name": "\"comedy series\"",
   "ok": true,
-  "count": 7,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom trailer OR \"comedy series\" trailer",
   "ok": true,
-  "count": 10,
+  "count": 9,
   "resolved": ""
  },
  {
@@ -108,14 +171,14 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 10,
+  "count": 9,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
   "ok": true,
-  "count": 6,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -129,28 +192,28 @@
   "type": "search",
   "name": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
   "ok": true,
-  "count": 8,
+  "count": 7,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
   "ok": true,
-  "count": 7,
+  "count": 5,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
-  "count": 7,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
   "ok": true,
-  "count": 8,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -199,7 +262,7 @@
   "type": "search",
   "name": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
   "ok": true,
-  "count": 12,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -213,7 +276,7 @@
   "type": "search",
   "name": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
   "ok": true,
-  "count": 9,
+  "count": 7,
   "resolved": ""
  },
  {
@@ -227,21 +290,21 @@
   "type": "search",
   "name": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
   "ok": true,
-  "count": 5,
+  "count": 3,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
   "ok": true,
-  "count": 0,
+  "count": 2,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
   "ok": true,
-  "count": 1,
+  "count": 0,
   "resolved": ""
  },
  {
@@ -262,7 +325,7 @@
   "type": "search",
   "name": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
   "ok": true,
-  "count": 6,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -290,7 +353,7 @@
   "type": "search",
   "name": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
   "ok": true,
-  "count": 6,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -311,7 +374,7 @@
   "type": "search",
   "name": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
   "ok": true,
-  "count": 9,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -339,7 +402,7 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
@@ -360,7 +423,7 @@
   "type": "search",
   "name": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
   "ok": true,
-  "count": 7,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -402,7 +465,7 @@
   "type": "search",
   "name": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symon\u00e9\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
   "ok": true,
-  "count": 6,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -416,7 +479,7 @@
   "type": "search",
   "name": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
   "ok": true,
-  "count": 13,
+  "count": 10,
   "resolved": ""
  },
  {
@@ -566,6 +629,6 @@
   "type": "tmdb",
   "name": "upcoming premieres",
   "ok": true,
-  "count": 17
+  "count": 19
  }
 ]

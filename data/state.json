@@ -1,5 +1,6 @@
 {
 "alerted": {
+"09d724b4ca5c": "2026-11-21T08:58:50+00:00",
 "1f3901dd70db": "2026-11-15T00:00:12+00:00",
 "233a08be11a7": "2026-11-17T17:30:11+00:00",
 "6e53b9f4231d": "2026-11-16T21:00:30+00:00",
@@ -62,6 +63,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' star Amy Poehler, Conan O’Brien, and 'Law & Order' star Mariska Hargitay are set to appear in 'NBC100: The Live Celebration'. The special will feature stars from '30 Rock', 'The Office', 'Saturday Night Live', and more to mark the network’s 100th anniversary. It airs live"
 },
+"09d724b4ca5c": {
+"at": "2026-11-21T09:02:22+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Result:*\n 'Home Alone' director Chris Columbus says a reboot of the film would not work without the late 'Schitt's Creek' star Catherine O'Hara. (via Us Weekly) 🕊️\n\n * *Wait, let me double check the \"late\" rule.*\n \"Say 'passed away', never 'died'.\"\n The headline uses \"the"
+},
 "0a5e7f6a63d0": {
 "at": "2026-11-14T17:38:31+00:00",
 "from_article": true,
@@ -121,12 +128,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Seinfeld' star Julia Louis-Dreyfus is reportedly shading the sitcom. (via Yahoo)"
-},
-"19cb45bf0bdb": {
-"at": "2026-11-14T06:41:13+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Full House' star Candace Cameron Bure and husband Valeri Bure are teasing the secrets to their 30-year marriage. Valeri joked that their children would not want to hear some of their secrets, while Candace credited his humor and their shared faith for their long-lasting relationship. (via E! News)"
 },
 "1cfd507927b5": {
 "at": "2026-11-17T17:32:28+00:00",
@@ -230,12 +231,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'SNL' star Bowen Yang has shared behind-the-scenes photos from his return to the show. (via Parade Magazine)"
 },
-"3fe0319cb39c": {
-"at": "2026-11-14T06:37:05+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Parks and Recreation' creator Michael Schur says he is worried about the state of the sitcom and the industry’s focus on completion rates. He is currently preparing to launch his new series 'Dig' on Peacock. (via Variety)"
-},
 "4132ee4e8db3": {
 "at": "2026-11-17T06:33:54+00:00",
 "from_article": false,
@@ -259,12 +254,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Abbott Elementary' will celebrate its 100th episode with a trip to Disneyland. The episode features a guest appearance by The Rizzler and follows the faculty chaperoning the school step team. It airs Wednesday, December 2 on ABC. (via TV Insider)"
-},
-"49297ab3b855": {
-"at": "2026-11-14T06:41:37+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "\"So much love there,\" 'A Mighty Wind' star Parker Posey says while reflecting on working with Catherine O’Hara and Eugene Levy. (via IMDb)"
 },
 "4e85b4d3a53f": {
 "at": "2026-11-18T17:34:02+00:00",
@@ -386,12 +375,6 @@
 "model": "gemini-3-flash-preview",
 "text": "“I’m not simply “voice acting”,” comedian and 'Abbott Elementary' star Janelle James says. She reveals how she got Rockstar Games to feature her in 'GTA 6'. (via Primetimer)"
 },
-"746f902f841b": {
-"at": "2026-11-14T06:41:27+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"Not to defend SNL, they don’t approve it. I mean, they could shut it down,\" Shane Gillis says regarding the backlash to his 'Saturday Night Live' monologue. The comedian says this controversy was harder than when he was fired from the show in 2019 because he deleted his social media immediately. (via Just Jared)"
-},
 "756e9e5af698": {
 "at": "2026-11-19T06:41:08+00:00",
 "from_article": false,
@@ -434,17 +417,17 @@
 "model": "gemini-3-flash-preview",
 "text": "'Desperate Housewives' star Eva Longoria, 'Stuck in the Middle' star Ariana Greenblatt, and 'The Good Place' star Kristen Bell attend the L'Oréal Paris Women of Worth Celebration in Los Angeles today. (via Page Six)"
 },
+"85fa59cabb64": {
+"at": "2026-11-21T09:03:46+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "A new 'Home Alone' movie is in development with Macaulay Culkin set to return as Kevin McCallister. Director Chris Columbus says he was unaware of the project and that the late 'Schitt's Creek' star Catherine O'Hara was \"50%\" of the original film. 🕊️ (via Just Jared)"
+},
 "86b748c21fb4": {
 "at": "2026-11-18T21:02:49+00:00",
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Scrubs' will not air a new episode tonight. The revival series is set to return for its 200th episode. (via Parade Magazine)"
-},
-"87e24d337efc": {
-"at": "2026-11-14T06:42:14+00:00",
-"from_article": true,
-"model": "gemini-flash-lite-latest",
-"text": "'Two and a Half Men' is coming to free streaming for the first time through a new deal with Pluto TV. The series will be joined by 'Veronica Mars', 'The Jamie Foxx Show', 'Martin' and 'The Wayans Bros.' later this month. (via Variety)"
 },
 "8b4b7e60e93b": {
 "at": "2026-11-16T06:36:48+00:00",
@@ -511,12 +494,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Laverne & Shirley' actress has passed away at the age of 88. (via Page Six) 🕊️"
-},
-"939a38953879": {
-"at": "2026-11-14T06:42:01+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Sunset P.I.' starring 'New Girl' star Jake Johnson is set to premiere this February on NBC. The new comedy series comes from the 'Brooklyn Nine-Nine' team. (via IMDb)"
 },
 "948073a57cb6": {
 "at": "2026-11-21T06:36:56+00:00",
@@ -589,12 +566,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "Camille Grammer claims 'Frasier' star Kelsey Grammer fired their daughter via text message. \"What a coward,\" she says. (via Entertainment Weekly)"
-},
-"a24ffe51cc06": {
-"at": "2026-11-14T06:39:30+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Full House' star Candace Cameron Bure jokes she would \"quit everything\" to be a grandmother. She recently welcomed two grandchildren. (via People)"
 },
 "a380f40a26a2": {
 "at": "2026-11-15T06:36:29+00:00",
@@ -746,12 +717,6 @@
 "model": "gemini-3-flash-preview",
 "text": "“I’d give them maybe 5/10 for me. They need to try harder,” former ‘Saturday Night Live’ host Elon Musk says regarding Jeremy Culhane’s impression of him. Musk shared the critique on Twitter following the latest episode. (via Variety)"
 },
-"cc25857a4bde": {
-"at": "2026-11-14T06:41:51+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'New Girl' star Jake Johnson’s new comedy series 'Sunset P.I.' will premiere Monday, Feb. 8 at 8:30 pm ET/PT on NBC. Episodes will be available to stream the next day on Peacock. NBC has also released first-look images from the series. (via Variety)"
-},
 "cd8d6da71e69": {
 "at": "2026-11-16T06:36:56+00:00",
 "from_article": false,
@@ -860,12 +825,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Saturday Night Live' star Bowen Yang returned to the show for a cold open parodying former Nvidia CEO Jensen Huang. Yang, who exited the series in December 2025, appeared to roast tech billionaires following recent outages and scandals. (via TV Insider)"
 },
-"ed3cc14b584f": {
-"at": "2026-11-14T06:34:22+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"The whole time, I was like, ‘Fellas, I’m giving you a solid C minus of a monologue but I promise there’s no controversy,’\" comedian and 'Saturday Night Live' host Shane Gillis says. He tells Joe Rogan that he deleted his social media following the controversy and considered removing stand-ups who spoke out against him from his tour. (via TheWrap)"
-},
 "ed7d8ab40591": {
 "at": "2026-11-16T06:37:21+00:00",
 "from_article": false,
@@ -895,12 +854,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'SNL' star Bowen Yang made a surprise cameo in the show’s cold open in a hilarious role. (via USA Today)"
-},
-"f44583b6e269": {
-"at": "2026-11-14T06:40:52+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "First look at NBC’s upcoming workplace comedy 'Sunset P.I.' starring 'New Girl' star Jake Johnson. Hailing from 'Brooklyn Nine-Nine' creators Dan Goor and Luke Del Tredici, the series follows a group of private investigators at a Hollywood detective agency. It premieres February 8, 2027. (via TV Insider)"
 },
 "f4a9ca3b6b31": {
 "at": "2026-11-16T06:36:27+00:00",
@@ -1113,9 +1066,199 @@
 {
 "edition": "morning",
 "name": "2026-11-21-morning",
-"time": "2026-11-21T06:30:15+00:00"
+"time": "2026-11-21T08:58:50+00:00"
 }
 ],
+"images": {
+"og:https://www.etonline.com/new-music-friday-holiday-edition-alanis-morissette-hilary-duff-olivia-rodrigo-phoebe-bridgers-ejae": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": ""
+},
+"og:https://www.hollywoodreporter.com/tv/tv-reviews/oobah-scams-for-a-better-tomorrow-review-hbo-1236759621/": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/oobah-butler_0-H-2026.jpg?w=1296&h=730&crop=1"
+},
+"og:https://www.tvinsider.com/1304824/ronny-hallin-dies-tributes-laverne-shirley-sister-penny-garry/": {
+"at": "2026-11-21T09:02:28+00:00",
+"u": "https://www.tvinsider.com/wp-content/uploads/2026/11/GettyImages-143711442-1420x798.jpg"
+},
+"tmdbperson:aimee-ffion edwards": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w300/mpsq3UnNiFgmd3MY2Q6a3ZBMGQ8.jpg"
+},
+"tmdbperson:amy poehler": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/rwmvRonpluV6dCPiQissYrchvSD.jpg"
+},
+"tmdbperson:ashley aufderheide": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/riywGeTlke8RvXNuF7CVqX19q0b.jpg"
+},
+"tmdbperson:ashton kutcher": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/qJlM29jTncF9GpmE0PPVwbp5iPB.jpg"
+},
+"tmdbperson:bill burr": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w300/4U95TX23X97OK9csaKVwzqAjFUV.jpg"
+},
+"tmdbperson:bowen yang": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/qzjyaEe7jjLaKSmzQ2dmtcjyCpe.jpg"
+},
+"tmdbperson:catherine o'hara": {
+"at": "2026-11-21T09:02:28+00:00",
+"u": "https://image.tmdb.org/t/p/w300/gI2RyymLJ9ZrhEyJSD5EqSvFpCX.jpg"
+},
+"tmdbperson:charlie sheen": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/48GB5aISoibd9IYXBO40jrSgFRl.jpg"
+},
+"tmdbperson:debra messing": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w300/7YmWcP0VmO1AIoviqXoREMbjQ2V.jpg"
+},
+"tmdbperson:derek deadman": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/f08j7CcKGKwFsCV6yEhjhb83Vuy.jpg"
+},
+"tmdbperson:hilary duff": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/2CCWB8ow2S1jxTrajq1YKOubFGN.jpg"
+},
+"tmdbperson:jason sudeikis": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg"
+},
+"tmdbperson:jennifer aniston": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/PBSCmHDFdCMBhjx0EbXpTw4Z94.jpg"
+},
+"tmdbperson:kaley cuoco": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w300/c01Ma8Jrr2OJ6uoikPwDK34Y8eK.jpg"
+},
+"tmdbperson:larry david": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/ojPx93eaDcanOVi4AH14uAFwXhn.jpg"
+},
+"tmdbperson:lisa ann walter": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/3xeMzT5zOC0UM9DgHne3oGZmf1R.jpg"
+},
+"tmdbperson:liza tarbuck": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/krOSBZnFf5EBpPUaf6APpSWMJ1Q.jpg"
+},
+"tmdbperson:lou cutell": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/ulwBRPKeaiNAccffIJqCAJcLR32.jpg"
+},
+"tmdbperson:martin short": {
+"at": "2026-11-21T09:02:28+00:00",
+"u": "https://image.tmdb.org/t/p/w300/vWoZIOk7K8TSKu1IN90akswsWjZ.jpg"
+},
+"tmdbperson:queen latifah": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w300/zKJ0fZ7ne57fTWWd3WP1OVvoLS6.jpg"
+},
+"tmdbperson:rib hillis": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/8IsiYZyiYFosVoRcDAKqZjzQhla.jpg"
+},
+"tmdbperson:sean foley": {
+"at": "2026-11-21T09:04:03+00:00",
+"u": "https://image.tmdb.org/t/p/w300/oMjUlYyiEUiCthg7P0QFb7Iytvq.jpg"
+},
+"tmdbperson:tim allen": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/k8XPNHBO459FaqkqqM4tfX5GMKk.jpg"
+},
+"tmdbperson:timothy stack": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w300/wMOpamq0meq9NSE5MMMV4x1MjFJ.jpg"
+},
+"tmdbperson:tracee ellis ross": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w300/dIaX2VojiARhVpxDkOG9ozvsBB.jpg"
+},
+"tmdbtv:a different world": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w780/ebTL1Lyvr0LVBrMlhgQp6lqijC6.jpg"
+},
+"tmdbtv:curry and chips": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w780/9nTImgbjpWO7d4hMDxQh7apWGpH.jpg"
+},
+"tmdbtv:friends": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w780/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg"
+},
+"tmdbtv:full house": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/btUwsz9ttVBVyqtEyZvFBQFyJgv.jpg"
+},
+"tmdbtv:gavin & stacey": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w780/u0TtCgIEHdZAX0Ta5V3YbyvDK5D.jpg"
+},
+"tmdbtv:getting on": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w780/dkWZpnqlcMRQ4mwbvnrMm4fNGdO.jpg"
+},
+"tmdbtv:happy's place": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/lQ9Yun6lMNNcQWFM0r2iKReKQeO.jpg"
+},
+"tmdbtv:jimmy kimmel live": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w780/taqVKvEmMlI2hs2g364fXWzv0ia.jpg"
+},
+"tmdbtv:moesha": {
+"at": "2026-11-21T09:02:28+00:00",
+"u": "https://image.tmdb.org/t/p/w780/eQuNP6LUFKJmP4f4iNLJWoi3g3h.jpg"
+},
+"tmdbtv:only murders in the building": {
+"at": "2026-11-21T09:02:28+00:00",
+"u": "https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg"
+},
+"tmdbtv:parks and rec": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w780/v7FPlZuuwJZ6YwJggf3Jx5pZNAz.jpg"
+},
+"tmdbtv:saturday night live": {
+"at": "2026-11-21T09:03:53+00:00",
+"u": "https://image.tmdb.org/t/p/w780/sSAX59Kf01lBRkBW4UcIL4kIoIm.jpg"
+},
+"tmdbtv:seinfeld": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg"
+},
+"tmdbtv:sit down, shut up": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w780/dMkrSJlapDfBZlqskVK0pgOzouD.jpg"
+},
+"tmdbtv:snl": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/k82HByudvbDHPmu2gMRJ2E3oAJ5.jpg"
+},
+"tmdbtv:south park": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w780/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg"
+},
+"tmdbtv:the bear": {
+"at": "2026-11-21T09:03:52+00:00",
+"u": "https://image.tmdb.org/t/p/w780/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg"
+},
+"tmdbtv:the office": {
+"at": "2026-11-21T09:03:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/9vMzIrMIncPmtalcxh1MOrgcE6C.jpg"
+},
+"tmdbtv:wyatt's watchdogs": {
+"at": "2026-11-21T09:04:02+00:00",
+"u": "https://image.tmdb.org/t/p/w780/yEVzQLeNfzIgp4JMkz8tyV22Ysb.jpg"
+}
+},
 "items": {
 "00244cc4b572": {
 "channel_kind": "streamer",
@@ -1288,6 +1431,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "00ec80aacd89",
+"image": "https://i.ytimg.com/vi/2_qhkyyShjE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/2_qhkyyShjE",
 "outlet": "First We Feast",
@@ -1518,6 +1662,29 @@
 "tags": [],
 "title": "#CarterFaith was “dead asleep” when she got nominated for a Grammy 🤣 #FallonTonight #Grammys"
 },
+"01a613c9fbed": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "01a613c9fbed",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Deepesh-personal-1200-_-675-2026-11-21T020620.731.png?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2228759-ben-stiller-jeremy-allen-white-airman-adds-harvey-dent-actor",
+"outlet": "ComingSoon",
+"people": [
+"Jeremy Allen White"
+],
+"published": "2026-11-20T20:38:13+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Ben Stiller’s upcoming World War II movie has added a former Industry star and Batman movie actor to its cast. The ensemble also includes The Social Reckoning star Jeremy Allen White, among other notable names. Harry Lawtey has joined the cast of Ben Stiller’s Airman, according to Deadline.",
+"tags": [
+"Casting"
+],
+"title": "Ben Stiller & Jeremy Allen White’s World War II Movie Casts Batman Movie Actor & More"
+},
 "01c3e62831a0": {
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "01c3e62831a0",
@@ -1544,6 +1711,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "01ce246b33e8",
+"image": "https://i.ytimg.com/vi/kcYOv3f_O2E/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=kcYOv3f_O2E",
 "outlet": "The Daily Show",
@@ -1633,6 +1801,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "0248a31202fb",
+"image": "https://i.ytimg.com/vi/eEEh1EPD1ro/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=eEEh1EPD1ro",
 "outlet": "Netflix",
@@ -1786,6 +1955,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "0309d515a321",
+"image": "https://i.ytimg.com/vi/6OY6FrVVJcA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/6OY6FrVVJcA",
 "outlet": "Saturday Night Live",
@@ -2180,6 +2350,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "0488fab122e6",
+"image": "https://i.ytimg.com/vi/sFFFFIWyu68/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=sFFFFIWyu68",
 "outlet": "Jimmy Kimmel Live",
@@ -2226,6 +2397,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "050fadd97fd7",
+"image": "https://i.ytimg.com/vi/BZVjdAkLW_Y/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=BZVjdAkLW_Y",
 "outlet": "Late Night with Seth Meyers",
@@ -2782,6 +2954,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "06da5e63772c",
+"image": "https://i.ytimg.com/vi/ofrYpFkYjjo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ofrYpFkYjjo",
 "outlet": "The Daily Show",
@@ -2929,6 +3102,27 @@
 "tags": [],
 "title": "Kristen Bell’s Polished Alternative to Stiff Jeans Will Look Right at Home Around Your Thanksgiving Table,  from $27"
 },
+"07bd506e3fa0": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "07bd506e3fa0",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Is-Pete-Davidson-Dating-Sarah-Jane-Nader.jpg?crop=0px%2C0px%2C2000px%2C1131px&resize=1000%2C563&quality=70&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/is-pete-davidson-dating-sarah-jane-nader-truth-revealed/",
+"outlet": "Us Weekly",
+"people": [],
+"published": "2026-11-20T23:01:54+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Pete Davidson and Sarah Jane Nader are not dating despite recent romance rumors. A source tells Us that the Saturday Night Live alum, 33, and the Love Thy Nader star, 24, are just friends. Fans began to speculate about the pair after they were spotted on a night out in New York City in August....",
+"tags": [],
+"title": "Is Pete Davidson Dating Sarah Jane Nader? Their Relationship Status Revealed"
+},
 "07d1b9d4523e": {
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "07d1b9d4523e",
@@ -2959,6 +3153,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "07e110ea69fc",
+"image": "https://i.ytimg.com/vi/kufMgxRyA9k/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=kufMgxRyA9k",
 "outlet": "Netflix",
@@ -3149,6 +3344,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "08bdbfbc0b85",
+"image": "https://i.ytimg.com/vi/rK0jGSzAkns/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/rK0jGSzAkns",
 "outlet": "Late Night with Seth Meyers",
@@ -3254,6 +3450,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "091f314696a6",
+"image": "https://i.ytimg.com/vi/onPaApQACIQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/onPaApQACIQ",
 "outlet": "First We Feast",
@@ -3354,6 +3551,30 @@
 "summary": "",
 "tags": [],
 "title": "Jimmy Kimmel shocked by silent crowd after awkward emergency alert joke: ‘We really are in trouble’"
+},
+"09d724b4ca5c": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "09d724b4ca5c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcFN3N3ZIb2x5YnY2QWtKQXJxamhDMVVPZFB0cnd1dy12WVQtYnpORm9rbnN6SVhVTXowaHhSQW9aT0tmZFBidDFUSXlwLVNlN1E2LWJ5NjZxOV9yMjduWk5fNjkxYWxNaFZLQ0gxYXZoSHFYTjA5d01HWEZsTXUzdW9CSWlmNWswVGEzejZMWWZQeW9mSUdFYXp1Vmw?oc=5",
+"outlet": "Us Weekly",
+"people": [
+"Catherine O'Hara"
+],
+"published": "2026-11-21T06:36:34+00:00",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "‘Home Alone’ Director Chris Columbus Thinks a Reboot Won’t Work Without the Late Catherine O’Hara"
 },
 "09f0914f718f": {
 "first_seen": "2026-11-18T06:30:20+00:00",
@@ -3677,6 +3898,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "0b7a95a110d2",
+"image": "https://i.ytimg.com/vi/FG5ZZLXQUfw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/FG5ZZLXQUfw",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -3782,6 +4004,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "0c351c4c7232",
+"image": "https://i.ytimg.com/vi/TgCo6w8BVfM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=TgCo6w8BVfM",
 "outlet": "Entertainment Tonight",
@@ -3866,6 +4089,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "0cc96ccbfdf3",
+"image": "https://i.ytimg.com/vi/ZyyiHJ6U7cY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ZyyiHJ6U7cY",
 "outlet": "Prime Video",
@@ -3992,6 +4216,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "0d8c29560ff1",
+"image": "https://i.ytimg.com/vi/SqgKt1dd-FM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/SqgKt1dd-FM",
 "outlet": "HBO Max",
@@ -4620,6 +4845,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "100cc812e036",
+"image": "https://i.ytimg.com/vi/zL4aSt7OkP4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/zL4aSt7OkP4",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -4639,6 +4865,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1021dd9d96c8",
+"image": "https://i.ytimg.com/vi/ieBbMpGavr4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ieBbMpGavr4",
 "outlet": "The Late Show with Stephen Colbert",
@@ -4679,6 +4906,7 @@
 "1060a6d69d90": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "1060a6d69d90",
+"image": "https://www.tvline.com/img/gallery/this-dark-comedy-series-from-the-writers-of-deadpool-is-perfect-for-a-weekend-binge/l-intro-1794867273.jpg",
 "kind": "article",
 "link": "https://www.tvline.com/2318599/wayne-dark-comedy-series-deadpool-writers-perfect-weekend-binge/",
 "outlet": "TVLine",
@@ -4698,6 +4926,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1089c76131e5",
+"image": "https://i.ytimg.com/vi/hXHyM4vfN7c/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/hXHyM4vfN7c",
 "outlet": "HBO Max",
@@ -4758,6 +4987,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "10dc3b2543e8",
+"image": "https://i.ytimg.com/vi/sp3iPAOs0UQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=sp3iPAOs0UQ",
 "outlet": "Netflix",
@@ -4927,6 +5157,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "12993a3ffa1e",
+"image": "https://i.ytimg.com/vi/1LGXLhga7sw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/1LGXLhga7sw",
 "outlet": "The Daily Show",
@@ -4946,6 +5177,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "12ad2aceccc2",
+"image": "https://i.ytimg.com/vi/N7EINM5msSM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/N7EINM5msSM",
 "outlet": "Variety",
@@ -4965,6 +5197,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "12bf72108773",
+"image": "https://i.ytimg.com/vi/VPjNCTpPnGk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/VPjNCTpPnGk",
 "outlet": "Saturday Night Live",
@@ -5070,6 +5303,28 @@
 ],
 "title": "Ray Tintori, filmmaker and boyfriend of ‘SNL’ alum Heidi Gardner, has died at 43"
 },
+"133cc9ac409a": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "133cc9ac409a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tM25vQ1V6WnBFY2ZXdkFBMU1uTEVac2R1WVdYRXFFYmdaMGFKX3IwNHNQWGZUd3NsWVZpVFhTQzJFcUtCc2d1REVMTTdlWW5xOXRfSk53Yl9xNktGcDRrMTBrNjRIM2M?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-21T02:18:56+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Upcoming"
+],
+"title": "‘Newlyweds’ Episode 6 Release Date, Time and Where to Watch"
+},
 "136183e66fd3": {
 "first_seen": "2026-11-16T06:30:10+00:00",
 "id": "136183e66fd3",
@@ -5165,8 +5420,8 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-20T13:12:00+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
-"query_relevant": true,
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -5224,6 +5479,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "13d284e3cbd8",
+"image": "https://i.ytimg.com/vi/3khpmzsvFVg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/3khpmzsvFVg",
 "outlet": "Late Night with Seth Meyers",
@@ -5265,6 +5521,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1400804c6d89",
+"image": "https://i.ytimg.com/vi/y6r2ToWuJVQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=y6r2ToWuJVQ",
 "outlet": "Variety",
@@ -5391,6 +5648,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1547c437da82",
+"image": "https://i.ytimg.com/vi/zG0HFw0edXY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=zG0HFw0edXY",
 "outlet": "The Late Show with Stephen Colbert",
@@ -5549,6 +5807,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "16f7e5cae860",
+"image": "https://i.ytimg.com/vi/Nxy4MVFjsSI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/Nxy4MVFjsSI",
 "outlet": "Late Night with Seth Meyers",
@@ -5700,6 +5959,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "17e2a6470056",
+"image": "https://i.ytimg.com/vi/RMHs4zxktis/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/RMHs4zxktis",
 "outlet": "Prime Video",
@@ -6028,6 +6288,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "1913f6f6cd8d",
+"image": "https://i.ytimg.com/vi/bQChfhV1y2E/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=bQChfhV1y2E",
 "outlet": "Entertainment Tonight",
@@ -6049,6 +6310,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "191b5042b768",
+"image": "https://i.ytimg.com/vi/ugUwH0Ja3rY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ugUwH0Ja3rY",
 "outlet": "Entertainment Tonight",
@@ -6238,6 +6500,29 @@
 "tags": [],
 "title": "Charlie Harper's Two And A Half Men Return Made Things So Much Worse"
 },
+"1a19b87ba2b5": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "1a19b87ba2b5",
+"image": "",
+"kind": "article",
+"link": "https://uproxx.com/music/sabrina-carpenter-sex-and-the-city-snl-teaser/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-10-15T18:41:49+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Carpenter is set to pull double-duty as host and musical guest on 'SNL' this weekend.",
+"tags": [
+"Trailer"
+],
+"title": "Sabrina Carpenter Goes Full ‘Sex And The City’ For A New ‘SNL’ Teaser"
+},
 "1a37f4c5ad29": {
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "1a37f4c5ad29",
@@ -6301,6 +6586,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "1ab124d796f6",
+"image": "https://i.ytimg.com/vi/YNYurhVQ13Y/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=YNYurhVQ13Y",
 "outlet": "Hulu",
@@ -6701,6 +6987,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "1d9caae4cf13",
+"image": "https://i.ytimg.com/vi/TRwObjldAp4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/TRwObjldAp4",
 "outlet": "Saturday Night Live",
@@ -6759,6 +7046,25 @@
 "summary": "",
 "tags": [],
 "title": "Tatyana Ali Reacts to ‘Young & the Restless’ Recasting Her Roxie Role"
+},
+"1dd3d281aee1": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "1dd3d281aee1",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/JBWB.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2228750-rachel-bilson-scott-foley-jingle-bells-wedding-bells-free-streaming",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-20T21:14:57+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "A new holiday romantic comedy will bring together Rachel Bilson and Scott Foley",
+"tags": [],
+"title": "Rachel Bilson & Scott Foley’s New Christmas Movie Is Streaming for Free"
 },
 "1e2adea0bd57": {
 "channel_kind": "talk",
@@ -6847,6 +7153,28 @@
 ],
 "title": "Filmmaker Ray Tintori, boyfriend of 'SNL' alum Heidi Gardner, dies in NY at 43"
 },
+"1ef5aa999ce1": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "1ef5aa999ce1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRXFkZ1o0YlQ2Sk9SOHpHdXhjdHZ1X0FScEQ1MzFqMTFHOHNZNHNremxHeXNUa2JzbUJpMUFBTWZxWUc5bmZwcEgwTkhmT0lrOEtLZ0NXSmxOTXJkNUpKeFNTN3UzdTN2V0k4UnpJSmcwdmdQRkQ0YkwwS1FJM3F6eVFSeGIydEpKMVFBSU5Za0tjaktlZG8xeXBIdw?oc=5",
+"outlet": "Rolling Stone Canada",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-20T14:41:26+00:00",
+"query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Selena Gomez Shares Her Reaction to Martin Short Ruining Her Wedding Cake"
+},
 "1efd72380abd": {
 "first_seen": "2026-11-16T22:00:13+00:00",
 "id": "1efd72380abd",
@@ -6921,6 +7249,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "1f5f6b2cb843",
+"image": "https://i.ytimg.com/vi/Q-Ig0ZCTN3w/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/Q-Ig0ZCTN3w",
 "outlet": "HBO Max",
@@ -6964,6 +7293,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "1fa8c3b0dbc9",
+"image": "https://i.ytimg.com/vi/sAbzvwTfJ9E/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/sAbzvwTfJ9E",
 "outlet": "First We Feast",
@@ -7334,6 +7664,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "214eb68780dc",
+"image": "https://i.ytimg.com/vi/5RA1LZy_rj4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/5RA1LZy_rj4",
 "outlet": "Comedy Central",
@@ -7416,6 +7747,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "21a81376b621",
+"image": "https://i.ytimg.com/vi/EkV3LMKE2FI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/EkV3LMKE2FI",
 "outlet": "HBO Max",
@@ -8677,6 +9009,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "27529aea03b3",
+"image": "https://i.ytimg.com/vi/_1zIOETebZ8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=_1zIOETebZ8",
 "outlet": "Saturday Night Live",
@@ -8697,6 +9030,7 @@
 "275fb6572815": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "275fb6572815",
+"image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261120/ba3858a6-d184-4e78-84e2-cd3d79992b36_1795204923.jpg",
 "kind": "article",
 "link": "https://www.eonline.com/news/1438288/pete-davidson-not-dating-sarah-jane-nader-duo-just-friends?cmpid=rss-syndicate-genericrss-us-top_stories",
 "outlet": "E! News",
@@ -9071,6 +9405,25 @@
 "tags": [],
 "title": "you know the one"
 },
+"28c95f73e6ba": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "28c95f73e6ba",
+"image": "https://uproxx.com/wp-content/uploads/2025/10/Deli-Boys-top.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/filmtv/deli-boys-season-2-release-info-trailer/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-10-17T18:13:42+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Hulu Fred Armisen is joining the Hulu show for its second season.",
+"tags": [],
+"title": "‘Deli Boys’ Season 2: Everything To Know About The Beloved Hulu Comedy’s Return"
+},
 "28de73fc2827": {
 "first_seen": "2026-11-17T01:00:11+00:00",
 "id": "28de73fc2827",
@@ -9314,6 +9667,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "29ceec2f0e8a",
+"image": "https://i.ytimg.com/vi/_S7sL9hAs5k/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/_S7sL9hAs5k",
 "outlet": "Comedy Central",
@@ -9357,6 +9711,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "2a4fa001c50f",
+"image": "https://i.ytimg.com/vi/H18aztcCFao/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=H18aztcCFao",
 "outlet": "Jimmy Kimmel Live",
@@ -9466,6 +9821,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "2ad5dd3dcdd9",
+"image": "https://i.ytimg.com/vi/EswsbxhjzWk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/EswsbxhjzWk",
 "outlet": "The Daily Show",
@@ -10585,6 +10941,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "31409f32d70b",
+"image": "https://i.ytimg.com/vi/qcijgy2dV2A/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/qcijgy2dV2A",
 "outlet": "Entertainment Tonight",
@@ -10604,6 +10961,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "314d18e36dda",
+"image": "https://i.ytimg.com/vi/ltuYl3gL_j0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ltuYl3gL_j0",
 "outlet": "Variety",
@@ -10711,6 +11069,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "31c8424aed87",
+"image": "https://i.ytimg.com/vi/Yn4XTyvAbFA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=Yn4XTyvAbFA",
 "outlet": "Netflix",
@@ -10865,6 +11224,28 @@
 "summary": "",
 "tags": [],
 "title": "Candace Cameron Bure name-drops ‘The View’ co-host who was shocked over her ‘Special Forces’ win"
+},
+"32c606546a6d": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "32c606546a6d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcXpnMV93SG5lTXZxQnllenA2RWhSZFRtNzVMbTBraTNNR1Q5LWhCMl81OF8xcXIyQUlkSlFFUEhTc1lzQzM3QWJfdkltXzlFcGFKUV92Vnh0Y25vWDRXanNNc3V1Q1lEWE1CYmdieS1RWmJfUkd1eXJoVkplRkl6WVlhQTJ4R3ZZZzlJYU9RRF9xWXhqcm8xZVNNdzdCakMzblktSzB1bFExN2s5VkZZY250Y1U5U3c?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-21T01:08:00+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "‘Yes, Dear’ Actor Anthony Clark’s Cause of Death Revealed"
 },
 "32d0e5955a40": {
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -11269,6 +11650,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "346c3ad6319c",
+"image": "https://i.ytimg.com/vi/zfCDTFIYmWs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/zfCDTFIYmWs",
 "outlet": "First We Feast",
@@ -11653,6 +12035,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "36038aa769ab",
+"image": "https://i.ytimg.com/vi/8ohV7veGi34/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/8ohV7veGi34",
 "outlet": "Comedy Central",
@@ -11803,6 +12186,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "372128421c38",
+"image": "https://i.ytimg.com/vi/lHeBKzC1Iw8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/lHeBKzC1Iw8",
 "outlet": "Hulu",
@@ -12286,6 +12670,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "399c9462f849",
+"image": "https://i.ytimg.com/vi/WvU7JzNh-n0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/WvU7JzNh-n0",
 "outlet": "Entertainment Tonight",
@@ -13374,6 +13759,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "3f8660245379",
+"image": "https://i.ytimg.com/vi/iT_D8-XqSso/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=iT_D8-XqSso",
 "outlet": "Jimmy Kimmel Live",
@@ -13742,6 +14128,29 @@
 "tags": [],
 "title": "Jason Sudeikis And Hannah Waddingham Earn ‘Kenny And Dolly’ Comparisons After Viral Duet: ‘Chemistry Is Unreal’"
 },
+"41346b920102": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "41346b920102",
+"image": "https://uproxx.com/wp-content/uploads/2025/08/sabrina-carpenter.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/music/sabrina-carpenter-bad-bunny-host-snl/",
+"outlet": "Uproxx",
+"people": [
+"Amy Poehler"
+],
+"published": "2025-09-18T18:22:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Getty Image Doja Cat, Role Model, and Amy Poehler will also appear in October episodes.",
+"tags": [],
+"title": "Sabrina Carpenter And Bad Bunny Are Hosting Two Of The New ‘SNL’ Season’s First Episodes"
+},
 "416fff9fb0cb": {
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "416fff9fb0cb",
@@ -13941,6 +14350,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "41bedf516a2e",
+"image": "https://i.ytimg.com/vi/TZov-wIoX_Q/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/TZov-wIoX_Q",
 "outlet": "Comedy Central",
@@ -14242,6 +14652,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "43bf3f338563",
+"image": "https://i.ytimg.com/vi/_PZcS8b58U4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/_PZcS8b58U4",
 "outlet": "Netflix",
@@ -14511,6 +14922,27 @@
 "tags": [],
 "title": "Roseanne Barr's Grandson Comes Out of the Closet on Her Show"
 },
+"451fc4dd385c": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "451fc4dd385c",
+"image": "",
+"kind": "article",
+"link": "https://www.etonline.com/new-music-friday-holiday-edition-alanis-morissette-hilary-duff-olivia-rodrigo-phoebe-bridgers-ejae",
+"outlet": "ET Online",
+"people": [
+"Hilary Duff"
+],
+"published": "2026-11-20T18:28:01+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Check out some of ET's favorite new music of the week!",
+"tags": [],
+"title": "New Music Friday Holiday Edition: Alanis Morissette, Hilary Duff, Olivia Rodrigo, Phoebe Bridgers, EJAE & More"
+},
 "4528430600d7": {
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "4528430600d7",
@@ -14622,6 +15054,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "4596af362c54",
+"image": "https://i.ytimg.com/vi/AoZ_PvVSIck/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/AoZ_PvVSIck",
 "outlet": "Entertainment Tonight",
@@ -14886,6 +15319,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "47a667464176",
+"image": "https://i.ytimg.com/vi/2I3e49KpD2w/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2I3e49KpD2w",
 "outlet": "Jimmy Kimmel Live",
@@ -14905,6 +15339,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "47cb11e556f2",
+"image": "https://i.ytimg.com/vi/Qo7G-yZfPwI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=Qo7G-yZfPwI",
 "outlet": "Jimmy Kimmel Live",
@@ -15079,6 +15514,7 @@
 "486a5a976b6c": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "486a5a976b6c",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/10/abbott-elementary-season-6-tyler-james-williams-rizzler-quinta-brunson-1014x570.jpg",
 "kind": "article",
 "link": "https://www.tvinsider.com/gallery/abbott-elementary-episode-100-disneyland-date-photos-details-midseason-finale/",
 "outlet": "TV Insider",
@@ -15193,6 +15629,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "48e84dcdfede",
+"image": "https://i.ytimg.com/vi/2dpoZVi2z74/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2dpoZVi2z74",
 "outlet": "Entertainment Tonight",
@@ -15345,6 +15782,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "49a0b897b709",
+"image": "https://i.ytimg.com/vi/UlQ8fZ_ODrY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/UlQ8fZ_ODrY",
 "outlet": "Comedy Central",
@@ -15386,6 +15824,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "4a10e275b519",
+"image": "https://i.ytimg.com/vi/6ZdAWv71InM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/6ZdAWv71InM",
 "outlet": "Entertainment Tonight",
@@ -15431,6 +15870,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "4a30e1571fc3",
+"image": "https://i.ytimg.com/vi/j7TX2c-gYyQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=j7TX2c-gYyQ",
 "outlet": "The Late Show with Stephen Colbert",
@@ -15552,6 +15992,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "4ad760843f62",
+"image": "https://i.ytimg.com/vi/Y-KpC_PiJTM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=Y-KpC_PiJTM",
 "outlet": "Hulu",
@@ -15657,6 +16098,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "4b0d31d05f15",
+"image": "https://i.ytimg.com/vi/w7JiiYx96KY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=w7JiiYx96KY",
 "outlet": "Variety",
@@ -15870,6 +16312,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "4be719d08aa9",
+"image": "https://i.ytimg.com/vi/eIzwkcnfXec/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=eIzwkcnfXec",
 "outlet": "The Late Show with Stephen Colbert",
@@ -15909,6 +16352,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "4bf11b0e67f6",
+"image": "https://i.ytimg.com/vi/gNVJKff1odg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=gNVJKff1odg",
 "outlet": "The Late Show with Stephen Colbert",
@@ -15996,6 +16440,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "4c5771887d71",
+"image": "https://i.ytimg.com/vi/SYgAb7OEE3c/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=SYgAb7OEE3c",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -16039,6 +16484,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "4c60c33172f4",
+"image": "https://i.ytimg.com/vi/-CTxhTorjvc/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/-CTxhTorjvc",
 "outlet": "Netflix",
@@ -16124,6 +16570,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "4cec1c656765",
+"image": "https://i.ytimg.com/vi/oaowPZFUICI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/oaowPZFUICI",
 "outlet": "Saturday Night Live",
@@ -16403,6 +16850,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "4e8fd9e638aa",
+"image": "https://i.ytimg.com/vi/qNQRioHhI8c/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=qNQRioHhI8c",
 "outlet": "The Daily Show",
@@ -16489,6 +16937,30 @@
 "Interview"
 ],
 "title": "Casting News: NBC100 Reveals Star-Studded Guest List, Candace Cameron Bure's New Series, And More"
+},
+"4efe9a30ed88": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "4efe9a30ed88",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3OHc3anJlZ25CYVFTT1VRaVVYS2VzbTZnaUxTODJaMUU5MjdKXzNKX1RXbUVGTF81aFRXVFNvVWtYTkt3TzNKX0txY0ZIZm5NelNSMGxmaEZYdVVWakpzYTlCdk1XX2liMmc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Catherine O'Hara"
+],
+"published": "2026-11-21T07:30:46+00:00",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "‘Home Alone’ Director Chris Columbus Says Catherine O’Hara Was ‘50%’ of Film, Didn’t Know About New Sequel"
 },
 "4f0cbe2bf0d5": {
 "channel_kind": "outlet",
@@ -16583,6 +17055,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "4f70ec2086a9",
+"image": "https://i.ytimg.com/vi/VNG8jYuKsvE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=VNG8jYuKsvE",
 "outlet": "Netflix",
@@ -16874,7 +17347,7 @@
 "outlet": "primetimer.com",
 "people": [],
 "published": "2026-11-20T15:06:00+00:00",
-"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -17179,6 +17652,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "51a2dabc163a",
+"image": "https://i.ytimg.com/vi/0s2r0MoyUrU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/0s2r0MoyUrU",
 "outlet": "Variety",
@@ -17216,6 +17690,30 @@
 "Trailer"
 ],
 "title": "Mama June: From Not to Hot | Season 9 Official Trailer (We TV, 2027)"
+},
+"5220205a7893": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "5220205a7893",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjVYWVVWZ29kVjZIMGFUN2xDLTc1V2ZmVVRsSG9HTW5FQkVPNzEwbXlNOE9mT3JiV1Fhb215WDE0NHJjQ0ppVWpFbWE0ZGs3dXBHdmd4bHN3Ump0Y1cwZmNFTkt4V2lLYnFGbHdjV3BqM2RvbnRudU9WY0hjdTBpTkpvdmhTX3pwMTlRNW41amtLN0szbGhNS1piTDI1Wnlxa2cwNHdQWDBwU0wxbktob215T3dtZlhaQW5LUUpLQQ?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Catherine O'Hara"
+],
+"published": "2026-11-21T06:14:00+00:00",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "‘Home Alone’ Director Chris Columbus Says Catherine O’Hara Was ‘50%’ of Film, Didn’t Know About New Sequel"
 },
 "5224a38f3eae": {
 "first_seen": "2026-11-18T06:30:20+00:00",
@@ -17943,6 +18441,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "55014b0467eb",
+"image": "https://i.ytimg.com/vi/pjGEaNTL6yY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/pjGEaNTL6yY",
 "outlet": "Hulu",
@@ -18119,6 +18618,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "559f657c5a0b",
+"image": "https://i.ytimg.com/vi/EdLiXVW6grM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=EdLiXVW6grM",
 "outlet": "Apple TV",
@@ -18540,6 +19040,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "5837e8164915",
+"image": "https://i.ytimg.com/vi/vzI89vnqdD4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=vzI89vnqdD4",
 "outlet": "Late Night with Seth Meyers",
@@ -18743,6 +19244,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "5985ad4a18b3",
+"image": "https://i.ytimg.com/vi/5qYJspB55oI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/5qYJspB55oI",
 "outlet": "Hulu",
@@ -18806,6 +19308,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "599bf868c2bc",
+"image": "https://i.ytimg.com/vi/oe8kPuRt4ss/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/oe8kPuRt4ss",
 "outlet": "Netflix",
@@ -18825,6 +19328,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "59b1a99bc6dc",
+"image": "https://i.ytimg.com/vi/JYc3fj09rJg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/JYc3fj09rJg",
 "outlet": "First We Feast",
@@ -18908,6 +19412,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "5a06222ea45e",
+"image": "https://i.ytimg.com/vi/gXxPRDHXNt8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/gXxPRDHXNt8",
 "outlet": "HBO Max",
@@ -19212,6 +19717,28 @@
 "tags": [],
 "title": "All About ‘DWTS’ Host Alfonso Ribeiro’s Wife & Family"
 },
+"5b16e19d53a3": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "5b16e19d53a3",
+"image": "https://uproxx.com/wp-content/uploads/2025/07/Platonic-Season-2-top.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/tv/platonic-season-2-release-info-trailer/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-07-04T13:00:33+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Platonic",
+"Saturday Night Live"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "YouTube A few 'Saturday Night Live' alums will pop up in the new season.",
+"tags": [],
+"title": "‘Platonic’ Season 2: Everything To Know About The Seth Rogen And Rose Byrne Comedy’s Return"
+},
 "5b233061b8f1": {
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -19259,6 +19786,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "5b38678d4975",
+"image": "https://i.ytimg.com/vi/cjQSlu0t-ds/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/cjQSlu0t-ds",
 "outlet": "Saturday Night Live",
@@ -19278,6 +19806,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "5b4d0542bc8f",
+"image": "https://i.ytimg.com/vi/6wejTPRi7KA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=6wejTPRi7KA",
 "outlet": "HBO Max",
@@ -19409,6 +19938,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "5c10c0457c5c",
+"image": "https://i.ytimg.com/vi/76Gopgo-4PY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=76Gopgo-4PY",
 "outlet": "The Late Show with Stephen Colbert",
@@ -19601,6 +20131,29 @@
 "Interview"
 ],
 "title": "'Saved by the Bell' Star Tiffani Thiessen, 52, Says She Needs Hip Replacement After Second Opinion Reveals Hip Dysplasia"
+},
+"5da1b4a1102b": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "5da1b4a1102b",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/19/Dig-S1.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/dig-review-amy-poehler-mike-schur-peacock",
+"outlet": "AV Club",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-19T17:00:37+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Parks and Rec"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Like any archaeological excavation, the Amy Poehler-Mike Schur reunion Dig takes some time to sift through the dirt to get to the pivotal stuff.",
+"tags": [],
+"title": "Dig reunites Amy Poehler and Mike Schur for a show with Parks And Rec’s charm and heart, if not its laughs"
 },
 "5dfd993447a5": {
 "first_seen": "2026-11-16T21:00:30+00:00",
@@ -19860,7 +20413,7 @@
 "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVDRIUEE1OVJUVWM2aExDUnZmdE5GazRCQjVoOER0b3ZzNHFhN0NoUzBHRklJQllLOHVfdmRQVlM5RnVYTWdpVHJiYUFReWdqd083T2EwTlNkNUhzM2w0MW5nZXY4MmxWX2d1bjUxU3hsdVlZX3RMX3RtYTRmNnZTbFd4ZmIxUQ?oc=5",
 "outlet": "TV Insider",
 "people": [],
-"published": "2026-11-21T04:14:48+00:00",
+"published": "2026-11-21T07:55:31+00:00",
 "query": "sitcom trailer OR \"comedy series\" trailer",
 "query_relevant": true,
 "rehash": false,
@@ -20772,6 +21325,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "63750561fc05",
+"image": "https://i.ytimg.com/vi/hznDP7o3qJ8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/hznDP7o3qJ8",
 "outlet": "Comedy Central",
@@ -20809,6 +21363,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "63a0774a9661",
+"image": "https://i.ytimg.com/vi/V4qnL1u9Gqg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/V4qnL1u9Gqg",
 "outlet": "Late Night with Seth Meyers",
@@ -20979,6 +21534,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "64fc3b74421e",
+"image": "https://i.ytimg.com/vi/iRvWlAGx7EM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=iRvWlAGx7EM",
 "outlet": "The Late Show with Stephen Colbert",
@@ -21190,6 +21746,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "6638bb80c111",
+"image": "https://i.ytimg.com/vi/uNHdi6D7CZ4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/uNHdi6D7CZ4",
 "outlet": "First We Feast",
@@ -21587,6 +22144,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "687caff848a8",
+"image": "https://i.ytimg.com/vi/phLXSizEvH8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=phLXSizEvH8",
 "outlet": "Netflix",
@@ -22070,6 +22628,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "6bb631faafe1",
+"image": "https://i.ytimg.com/vi/0aecVqwHOLs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=0aecVqwHOLs",
 "outlet": "Netflix",
@@ -22147,6 +22706,7 @@
 "6c174f6dd5e3": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "6c174f6dd5e3",
+"image": "https://www.tvline.com/img/gallery/this-90s-sci-fi-series-featured-actors-from-firefly-star-trek-star-wars-and-futurama/l-intro-1794867891.jpg",
 "kind": "article",
 "link": "https://www.tvline.com/2318606/space-cases-90s-sci-fi-series-actors-star-trek-star-wars-firefly-futurama/",
 "outlet": "TVLine",
@@ -22168,6 +22728,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "6c2cad712389",
+"image": "https://i.ytimg.com/vi/TTI9LwUqq40/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/TTI9LwUqq40",
 "outlet": "Saturday Night Live",
@@ -22321,6 +22882,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "6ce0df7c9968",
+"image": "https://i.ytimg.com/vi/ut6HmN-4ql0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ut6HmN-4ql0",
 "outlet": "Hulu",
@@ -22360,6 +22922,26 @@
 "tags": [],
 "title": "Only Murders in the Building moves to London for upcoming season 6"
 },
+"6d087b86eccb": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "6d087b86eccb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ25iamJhM2hDQ0llTnBuaTVYdjA4Mnhmd3dMNGNJUDllTzcySl9ocTRpZkRuQ1pqWTUwU0xBR3d2eGZ3ckhacDVyMFR1YXhoMVhqTDVvVVBiNERfTGc0bG1zTE55dzZvcnUyTlY1SFBIN053dEFlR09rcnNsQkhCX29zSVQ1WUc3MU9ZWlRWaklxNVlxVlZOdWx3SW9pZFR2V1hDeTdFeS1IemV3dlNB?oc=5",
+"outlet": "The Independent",
+"people": [],
+"published": "2026-11-20T22:00:00+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Bill’s Included review – Not a good sign for the future of British comedy"
+},
 "6d0abad456e7": {
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "6d0abad456e7",
@@ -22386,6 +22968,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "6d60505e8f6b",
+"image": "https://i.ytimg.com/vi/ysghHIl4yzM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ysghHIl4yzM",
 "outlet": "Entertainment Tonight",
@@ -22473,6 +23056,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "6da06227051b",
+"image": "https://i.ytimg.com/vi/a-UKGt9M3dM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/a-UKGt9M3dM",
 "outlet": "Apple TV",
@@ -22609,6 +23193,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "6e14775c964b",
+"image": "https://i.ytimg.com/vi/SwDm0LfI5cI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/SwDm0LfI5cI",
 "outlet": "The Daily Show",
@@ -22698,6 +23283,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "6e80fd5c2c2b",
+"image": "https://i.ytimg.com/vi/jDYJeBe9mLw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=jDYJeBe9mLw",
 "outlet": "The Late Show with Stephen Colbert",
@@ -22741,6 +23327,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "6eb5e04f4ddc",
+"image": "https://i.ytimg.com/vi/2UMvClaKERE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/2UMvClaKERE",
 "outlet": "Prime Video",
@@ -22802,6 +23389,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "6ec131d00da2",
+"image": "https://i.ytimg.com/vi/HDUFjk0JNew/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=HDUFjk0JNew",
 "outlet": "HBO Max",
@@ -22838,6 +23426,31 @@
 "summary": "",
 "tags": [],
 "title": "▶️ Office/Space - Happy's Place: Back To The Drawing Board (Vertical)"
+},
+"6f25f4b6f2f7": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "6f25f4b6f2f7",
+"image": "",
+"kind": "article",
+"link": "https://uproxx.com/music/sabrina-carpenter-snl-promo-video-arrest/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-10-17T16:58:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Carpenter is making her debut as host on 'Saturday Night Live' this weekend.",
+"tags": [
+"Trailer",
+"Interview"
+],
+"title": "Sabrina Carpenter Makes A Fake Arrest And Reveals Her Strange Biggest Fear In A New ‘SNL’ Promo"
 },
 "6f3235be9ed0": {
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -22928,6 +23541,27 @@
 "Revival"
 ],
 "title": "Tim Allen Officially Hangs Up His Tool Belt on a Home Improvement Revival"
+},
+"6fa7c6f84a5e": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "6fa7c6f84a5e",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Zach-Galifianakis.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2228826-the-gallerist-character-posters-new-look-jenna-ortega-charli-xcx",
+"outlet": "ComingSoon",
+"people": [
+"Jenna Ortega"
+],
+"published": "2026-11-20T21:28:07+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Zach Galifianakis is almost impossible to recognize in his latest character poster",
+"tags": [],
+"title": "Zach Galifianakis Looks Unrecognizable in Poster for Jenna Ortega & Natalie Portman Movie"
 },
 "6fb69f58e963": {
 "channel_kind": "talk",
@@ -23074,6 +23708,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "70855e026504",
+"image": "https://i.ytimg.com/vi/cJ1ISJInnQw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=cJ1ISJInnQw",
 "outlet": "Apple TV",
@@ -23286,6 +23921,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "718189b38223",
+"image": "https://i.ytimg.com/vi/woWFs2kjVB0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=woWFs2kjVB0",
 "outlet": "HBO Max",
@@ -23305,6 +23941,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "719ca16c5b55",
+"image": "https://i.ytimg.com/vi/em2AiE5_cvs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=em2AiE5_cvs",
 "outlet": "Netflix",
@@ -23387,6 +24024,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "71f4eb506ad2",
+"image": "https://i.ytimg.com/vi/wpdzLnLYpQw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/wpdzLnLYpQw",
 "outlet": "Variety",
@@ -23724,6 +24362,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "74273d6a7d48",
+"image": "https://i.ytimg.com/vi/jpgjLGGPitQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/jpgjLGGPitQ",
 "outlet": "Saturday Night Live",
@@ -23959,6 +24598,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "75353edb32b9",
+"image": "https://i.ytimg.com/vi/a5Z5hw1EjxM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/a5Z5hw1EjxM",
 "outlet": "Prime Video",
@@ -24002,6 +24642,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "7573882f9abb",
+"image": "https://i.ytimg.com/vi/czf3fTb3IbY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/czf3fTb3IbY",
 "outlet": "Saturday Night Live",
@@ -24087,6 +24728,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "75b4bf1b3588",
+"image": "https://i.ytimg.com/vi/bdImaHPjPBg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=bdImaHPjPBg",
 "outlet": "Jimmy Kimmel Live",
@@ -24207,6 +24849,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "76067c5dcf2f",
+"image": "https://i.ytimg.com/vi/uAN-pHGgfCw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=uAN-pHGgfCw",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -24799,6 +25442,7 @@
 "78366978c728": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "78366978c728",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/tatyana-jan-dwts-elmo-1014x570.jpeg",
 "kind": "article",
 "link": "https://www.tvinsider.com/1304504/dancing-with-the-stars-tatyana-ali-jan-ravnik-season-35/",
 "outlet": "TV Insider",
@@ -24884,6 +25528,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "78c2b0bfa2da",
+"image": "https://i.ytimg.com/vi/FHNPFiDJdFo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=FHNPFiDJdFo",
 "outlet": "Jimmy Kimmel Live",
@@ -24947,6 +25592,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "79567e73e296",
+"image": "https://i.ytimg.com/vi/c_SVdzTXdnE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=c_SVdzTXdnE",
 "outlet": "The Late Show with Stephen Colbert",
@@ -25271,6 +25917,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "7bae69a5ca28",
+"image": "https://i.ytimg.com/vi/AzKVdh032qU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=AzKVdh032qU",
 "outlet": "Jimmy Kimmel Live",
@@ -25362,7 +26009,7 @@
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
 "published": "2026-11-20T19:25:33+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -25508,6 +26155,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "7d6d6ac8b744",
+"image": "https://i.ytimg.com/vi/ahRyxQn1l58/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ahRyxQn1l58",
 "outlet": "HBO Max",
@@ -25570,6 +26218,48 @@
 "summary": "",
 "tags": [],
 "title": "Roseanne Barr's ex Tom Arnold, 67, makes surprising confession about his love life"
+},
+"7dace0608cce": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "7dace0608cce",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Bowen-Yang-Issues-Public-Apology-Leighton-Meester-Gushes-Over-Adam-Brody-More.jpg?crop=0px%2C0px%2C2000px%2C1131px&resize=1000%2C563&quality=86&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/bowen-yang-issues-public-apology-and-more-top-us-stories/",
+"outlet": "Us Weekly",
+"people": [
+"Bowen Yang"
+],
+"published": "2026-11-21T00:15:08+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Get a rundown of Us‘ top stories making headlines in celebrity news, sports and entertainment on November 20, 2026. Here are the key takeaways: • Bowen Yang apologized for using an antisemitic slur about singer Regina Spektor on his “Las Culturistas” podcast, posting a statement to Instagram on...",
+"tags": [],
+"title": "Bowen Yang's Apology, Leighton Meester Gushes Over Adam Brody, More Top Stories"
+},
+"7de75d01a7af": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "7de75d01a7af",
+"image": "https://uproxx.com/wp-content/uploads/2025/08/The-Beauty-top.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/filmtv/the-beauty-release-info-trailer/",
+"outlet": "Uproxx",
+"people": [
+"Ashton Kutcher"
+],
+"published": "2026-01-20T14:58:34+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "YouTube Murphy says the show dives into 'Ozempic culture.'",
+"tags": [],
+"title": "‘The Beauty’: Everything To Know About Ryan Murphy’s New FX Series With Evan Peters And Ashton Kutcher"
 },
 "7df67de63961": {
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -25912,6 +26602,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "7f58342eff12",
+"image": "https://i.ytimg.com/vi/tzFmQ5c7KrM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=tzFmQ5c7KrM",
 "outlet": "Prime Video",
@@ -26094,6 +26785,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "804558a8b271",
+"image": "https://i.ytimg.com/vi/14IBRM8ln3U/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=14IBRM8ln3U",
 "outlet": "Variety",
@@ -26241,6 +26933,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "81309aac50f6",
+"image": "https://i.ytimg.com/vi/BQO9X8kf9FQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/BQO9X8kf9FQ",
 "outlet": "Hulu",
@@ -26284,6 +26977,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "813e413a5135",
+"image": "https://i.ytimg.com/vi/wf98yIbLwSg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=wf98yIbLwSg",
 "outlet": "The Daily Show",
@@ -26396,6 +27090,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "820eae51e6ef",
+"image": "https://i.ytimg.com/vi/U6d-wwXeH0Y/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/U6d-wwXeH0Y",
 "outlet": "HBO Max",
@@ -26458,6 +27153,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "8286a052b453",
+"image": "https://i.ytimg.com/vi/jMkq-h5QF0g/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=jMkq-h5QF0g",
 "outlet": "HBO Max",
@@ -26667,6 +27363,28 @@
 "tags": [],
 "title": "Only Murders In The Building Season 6's London Case & New Star-Studded Suspects Unveiled"
 },
+"83c5a88c5119": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "83c5a88c5119",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV1NCM0tLNGNPRmhLV0RSYy1QQlVZV3AtM3lfdG1wbzFvUmlLMHpJQnVGaFlZMW9TRUpESF93eUdKc0YwNGZlbVc1YVFBSVFUREc0NkZXM2ltYkdKVm1CbDhKZHFfYUwxN0wxRmxIRTQ3NHNNZzJxclRmLVpHcVJaUFlB?oc=5",
+"outlet": "People.com",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-21T08:00:00+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jennifer Aniston’s Casual Sneakers Have a $30 Lookalike That Won’t ‘Pinch, Rub, or Demand’ a Break-In Period"
+},
 "83cd7d021612": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-14T17:30:12+00:00",
@@ -26760,6 +27478,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "83eba89f334b",
+"image": "https://i.ytimg.com/vi/1-tSqcHQ08g/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/1-tSqcHQ08g",
 "outlet": "Late Night with Seth Meyers",
@@ -26956,6 +27675,27 @@
 "tags": [],
 "title": "Ashton Kutcher Could Become a Billionaire Thanks to His Investment in AI Company Anthropic"
 },
+"84a78bee8a15": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "84a78bee8a15",
+"image": "https://uproxx.com/wp-content/uploads/2025/09/The-Lowdown-top.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/filmtv/the-lowdown-release-info-trailer/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-09-15T17:01:48+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Reservation Dogs"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "YouTube The 'Reservation Dogs' creator is returning to FX with a new series.",
+"tags": [],
+"title": "‘The Lowdown’: Everything To Know About ‘Reservation Dogs’ Creator Sterlin Harjo’s New Series With Ethan Hawke"
+},
 "84bbdfbb6f14": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "84bbdfbb6f14",
@@ -27005,6 +27745,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "84f088483739",
+"image": "https://i.ytimg.com/vi/VP7lmuvBeN4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/VP7lmuvBeN4",
 "outlet": "First We Feast",
@@ -27177,6 +27918,7 @@
 "85fa59cabb64": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "85fa59cabb64",
+"image": "https://www.justjared.com/wp-content/uploads/2026/11/chris-columbus-home-alone-sequel-catherine-ohara.jpg",
 "kind": "article",
 "link": "https://www.justjared.com/2026/11/21/home-alone-director-chris-columbus-says-catherine-ohara-was-50-of-film-didnt-know-about-new-sequel/",
 "outlet": "Just Jared",
@@ -27309,6 +28051,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "86aa38dea85b",
+"image": "https://i.ytimg.com/vi/4e4YL-3AyUM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/4e4YL-3AyUM",
 "outlet": "Apple TV",
@@ -27625,6 +28368,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "8896f18b7f5f",
+"image": "https://i.ytimg.com/vi/uHJhbJVctiE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=uHJhbJVctiE",
 "outlet": "Entertainment Tonight",
@@ -27646,6 +28390,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "88af15cdc12e",
+"image": "https://i.ytimg.com/vi/Z8prkIFGPr0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/Z8prkIFGPr0",
 "outlet": "Saturday Night Live",
@@ -27665,6 +28410,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "88b9539eb39a",
+"image": "https://i.ytimg.com/vi/vL5NOjqJato/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/vL5NOjqJato",
 "outlet": "Apple TV",
@@ -27980,6 +28726,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "8a8e6e43c819",
+"image": "https://i.ytimg.com/vi/GfsQQ6af7o0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=GfsQQ6af7o0",
 "outlet": "Prime Video",
@@ -28441,6 +29188,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "8d01269045b1",
+"image": "https://i.ytimg.com/vi/CqucZ9gXwqI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/CqucZ9gXwqI",
 "outlet": "Hulu",
@@ -28462,6 +29210,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "8d11e4e44b84",
+"image": "https://i.ytimg.com/vi/-lRWEaBEpu0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=-lRWEaBEpu0",
 "outlet": "HBO Max",
@@ -28481,6 +29230,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "8d1ec930ba09",
+"image": "https://i.ytimg.com/vi/SAnuSD_0KhI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/SAnuSD_0KhI",
 "outlet": "Comedy Central",
@@ -28690,6 +29440,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "8dfb3e0dc59d",
+"image": "https://i.ytimg.com/vi/VPjCw3GIJ2U/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=VPjCw3GIJ2U",
 "outlet": "Late Night with Seth Meyers",
@@ -28964,6 +29715,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "8f2f0500dd67",
+"image": "https://i.ytimg.com/vi/UG84NoEtt9o/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=UG84NoEtt9o",
 "outlet": "Jimmy Kimmel Live",
@@ -29000,6 +29752,27 @@
 "summary": "",
 "tags": [],
 "title": "Tickets for Julia Louis-Dreyfus in Broadway's \"Other Desert Cities\" Much Easier to Get For Rest of Run Thanks to High Prices - Some Over $1,000"
+},
+"8f3c78b3d95e": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "8f3c78b3d95e",
+"image": "https://uproxx.com/wp-content/uploads/2025/06/Jonas-Brothers-South-Park-top.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/pop/joe-jonas-south-park-mickey-mouse/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-06-02T17:01:25+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "YouTube 'Our skin was not as thick back then.'",
+"tags": [],
+"title": "Joe Jonas Thinks He’s The ‘Only Brother’ Who ‘Loved’ When ‘South Park’ Had Mickey Mouse Assault Them"
 },
 "8f5b03735829": {
 "first_seen": "2026-11-16T06:30:10+00:00",
@@ -29051,6 +29824,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "8f9e39db3400",
+"image": "https://i.ytimg.com/vi/xwpqb2fw1h0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=xwpqb2fw1h0",
 "outlet": "Variety",
@@ -29263,6 +30037,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "90a4382cbfea",
+"image": "https://i.ytimg.com/vi/daaGQuk2zWA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/daaGQuk2zWA",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -29343,6 +30118,25 @@
 "summary": "Season 2 of All's Fair is now streaming on Hulu and Hulu on Disney+. New episodes Wednesdays. SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows & updates.",
 "tags": [],
 "title": "Need more of Carr & Liberty on my screen. 👀 #AllsFairPodcast"
+},
+"913507b9bdcc": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "913507b9bdcc",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/18/KB-feature.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/totally-biased-w-kamau-bell-latenighter-documentary-series",
+"outlet": "AV Club",
+"people": [],
+"published": "2026-11-18T16:26:29+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Short-lived but influential late-night show <i>Totally Biased With W. Kamau Bell</i> gets a retrospective documentary series from <i>LateNighter</i>.",
+"tags": [],
+"title": "Totally Biased With W. Kamau Bell gets a retrospective doc series from LateNighter"
 },
 "9135f15824f9": {
 "channel_kind": "talk",
@@ -30107,6 +30901,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "93a2e835eb19",
+"image": "https://i.ytimg.com/vi/CU-XjlTrUgM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/CU-XjlTrUgM",
 "outlet": "Comedy Central",
@@ -30440,6 +31235,7 @@
 "958ffffc8d98": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "958ffffc8d98",
+"image": "https://deadline.com/wp-content/uploads/2026/11/Semafor-Silicon-Valley-The-World-Day-Two-1000_ca95e1-e1795234772833.jpg",
 "kind": "article",
 "link": "https://deadline.com/2026/11/real-time-bill-maher-gta-vi-james-bond-cast-1237230827/",
 "outlet": "Deadline",
@@ -30772,6 +31568,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "9719b807cf2b",
+"image": "https://i.ytimg.com/vi/ys7q7sI8cHk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ys7q7sI8cHk",
 "outlet": "Saturday Night Live",
@@ -30815,6 +31612,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "973e43274c04",
+"image": "https://i.ytimg.com/vi/pMhO0nTF-0o/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/pMhO0nTF-0o",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -30896,6 +31694,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "9836f294edb8",
+"image": "https://i.ytimg.com/vi/ww8VmiwQ3Vk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ww8VmiwQ3Vk",
 "outlet": "Prime Video",
@@ -31068,6 +31867,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "98e0f4c9e2c1",
+"image": "https://i.ytimg.com/vi/sFf4M0RBtGU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/sFf4M0RBtGU",
 "outlet": "Hulu",
@@ -31151,6 +31951,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "993831ecd8c7",
+"image": "https://i.ytimg.com/vi/GmwEOD_cljw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/GmwEOD_cljw",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -31194,6 +31995,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "996345ed912a",
+"image": "https://i.ytimg.com/vi/tKvmcpAB1U4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=tKvmcpAB1U4",
 "outlet": "Late Night with Seth Meyers",
@@ -31504,6 +32306,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "9b0ac322d067",
+"image": "https://i.ytimg.com/vi/WKM0eeiX1_M/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/WKM0eeiX1_M",
 "outlet": "Comedy Central",
@@ -31736,6 +32539,25 @@
 "tags": [],
 "title": "Selena Gomez Doubles Down on Black Velvet With a Micro Mini and Sharp Shoulders for ‘Jimmy Kimmel Live’"
 },
+"9c6877fe3b1e": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "9c6877fe3b1e",
+"image": "https://www.justjared.com/wp-content/uploads/2026/11/conan-obrien-hallmark-christmas-movie.jpg",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/21/conan-obrien-is-waiting-for-hallmark-to-cast-him-in-its-2027-christmas-movie/",
+"outlet": "Just Jared",
+"people": [],
+"published": "2026-11-21T08:00:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Conan O’Brien really wants to be in a Hallmark Christmas movie and there’s a special reason why! The 63-year-old comedian...",
+"tags": [],
+"title": "Conan O’Brien Is Waiting for Hallmark to Cast Him in Its 2027 Christmas Movie"
+},
 "9c69b7f39baf": {
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "9c69b7f39baf",
@@ -31832,6 +32654,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "9cf398d7287a",
+"image": "https://i.ytimg.com/vi/6X11_DHSbrg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=6X11_DHSbrg",
 "outlet": "Late Night with Seth Meyers",
@@ -32031,6 +32854,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "9dca85b14df5",
+"image": "https://i.ytimg.com/vi/EIrBEcHagUw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=EIrBEcHagUw",
 "outlet": "The Late Show with Stephen Colbert",
@@ -32249,6 +33073,7 @@
 "9ee847c5a716": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "9ee847c5a716",
+"image": "https://www.tvline.com/img/gallery/the-sitcom-that-made-simu-liu-famous-on-netflix-is-now-streaming-for-free/l-intro-1794859975.jpg",
 "kind": "article",
 "link": "https://www.tvline.com/2318365/sitcom-made-simu-liu-famous-netflix-streaming-free-kims-convenience/",
 "outlet": "TVLine",
@@ -32452,6 +33277,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "9ff58ce61bdb",
+"image": "https://i.ytimg.com/vi/8OGY0dEV3T4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=8OGY0dEV3T4",
 "outlet": "Apple TV",
@@ -32471,6 +33297,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "9fff4a0b86c5",
+"image": "https://i.ytimg.com/vi/O1nKwSPyJig/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=O1nKwSPyJig",
 "outlet": "The Late Show with Stephen Colbert",
@@ -32490,6 +33317,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "a077648defe0",
+"image": "https://i.ytimg.com/vi/ln-cux9TY4s/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ln-cux9TY4s",
 "outlet": "Comedy Central",
@@ -32622,6 +33450,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "a0c1929b9a51",
+"image": "https://i.ytimg.com/vi/vAvozkEs8aY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=vAvozkEs8aY",
 "outlet": "Entertainment Tonight",
@@ -32910,6 +33739,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "a263ea1cf823",
+"image": "https://i.ytimg.com/vi/vYHnIGnDD3c/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/vYHnIGnDD3c",
 "outlet": "Late Night with Seth Meyers",
@@ -33260,6 +34090,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "a357dd292964",
+"image": "https://i.ytimg.com/vi/nunpNQYoW1s/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/nunpNQYoW1s",
 "outlet": "Comedy Central",
@@ -33385,6 +34216,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "a3e20a60afa8",
+"image": "https://i.ytimg.com/vi/5_yHs_TzSr4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=5_yHs_TzSr4",
 "outlet": "Saturday Night Live",
@@ -33429,6 +34261,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "a4615358326a",
+"image": "https://i.ytimg.com/vi/S9vCVUEW_r0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/S9vCVUEW_r0",
 "outlet": "First We Feast",
@@ -33537,6 +34370,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "a4c3a0e4b658",
+"image": "https://i.ytimg.com/vi/mbW52ZGpAww/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=mbW52ZGpAww",
 "outlet": "Entertainment Tonight",
@@ -33578,6 +34412,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "a4db05b963bd",
+"image": "https://i.ytimg.com/vi/hupzaksP3AU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/hupzaksP3AU",
 "outlet": "The Daily Show",
@@ -33949,6 +34784,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "a735618c3ae1",
+"image": "https://i.ytimg.com/vi/B1cLo1po_8M/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=B1cLo1po_8M",
 "outlet": "Apple TV",
@@ -34038,6 +34874,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "a75dc7ce04f9",
+"image": "https://i.ytimg.com/vi/vY4NmZTIgRg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/vY4NmZTIgRg",
 "outlet": "Comedy Central",
@@ -34169,6 +35006,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "a83409993fd2",
+"image": "https://i.ytimg.com/vi/5DyrEQA73sc/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/5DyrEQA73sc",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -34435,6 +35273,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "a959d286f461",
+"image": "https://i.ytimg.com/vi/JCh25GiIm50/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=JCh25GiIm50",
 "outlet": "First We Feast",
@@ -34795,6 +35634,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "aa36f831ce0a",
+"image": "https://i.ytimg.com/vi/2FKbBFDQouo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2FKbBFDQouo",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -34838,6 +35678,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "aa875818e5d3",
+"image": "https://i.ytimg.com/vi/ZJ2VsNxCChk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ZJ2VsNxCChk",
 "outlet": "Variety",
@@ -35102,6 +35943,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "ac5130cfe648",
+"image": "https://i.ytimg.com/vi/rnyAKCfN3bs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/rnyAKCfN3bs",
 "outlet": "Variety",
@@ -35368,7 +36210,7 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA4V3RXbjlCNGQyNkdqcmV4dWJZUWxmNjU1OXQ5QTZpcE5BZEtIQ2F2SUJGZHBHUFNmNzg0VWU5S3lJTHhRYlBkWklpMWFVM09RaUlhWHRVdElUbkxjSnRMb1FtUGQ4ZW9hSEZWNkFXNFNTQQ?oc=5",
 "outlet": "LateNighter",
 "people": [],
-"published": "2026-11-20T20:37:59+00:00",
+"published": "2026-11-20T20:28:45+00:00",
 "query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
 "query_relevant": false,
 "rehash": false,
@@ -35492,6 +36334,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "ad8fcf3962b3",
+"image": "https://i.ytimg.com/vi/evLn3dyxmQI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=evLn3dyxmQI",
 "outlet": "The Late Show with Stephen Colbert",
@@ -35621,6 +36464,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "ae358a3a10b2",
+"image": "https://i.ytimg.com/vi/VZzLqOx73Go/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=VZzLqOx73Go",
 "outlet": "Jimmy Kimmel Live",
@@ -36217,6 +37061,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "b14d256ee54b",
+"image": "https://i.ytimg.com/vi/-J6ckJ_3B7s/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/-J6ckJ_3B7s",
 "outlet": "Variety",
@@ -36386,6 +37231,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "b2664e5e1e14",
+"image": "https://i.ytimg.com/vi/tOeGBJ2qgfs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/tOeGBJ2qgfs",
 "outlet": "Apple TV",
@@ -36448,6 +37294,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "b28c8d2abca6",
+"image": "https://i.ytimg.com/vi/sXUnxr7pGzE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=sXUnxr7pGzE",
 "outlet": "Hulu",
@@ -37138,6 +37985,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "b6467a3ed32d",
+"image": "https://i.ytimg.com/vi/t7hI5L94CXs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/t7hI5L94CXs",
 "outlet": "Apple TV",
@@ -37312,6 +38160,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "b73fb8efdce7",
+"image": "https://i.ytimg.com/vi/P2w5V0ne_tE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=P2w5V0ne_tE",
 "outlet": "Variety",
@@ -37510,6 +38359,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "b7d0e9493992",
+"image": "https://i.ytimg.com/vi/5U4397ea-uQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=5U4397ea-uQ",
 "outlet": "The Daily Show",
@@ -37743,6 +38593,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "b9bb796ec321",
+"image": "https://i.ytimg.com/vi/rq_W8yFa9kg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=rq_W8yFa9kg",
 "outlet": "Variety",
@@ -37762,6 +38613,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ba0b621eb095",
+"image": "https://i.ytimg.com/vi/h5MyZksoNB8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/h5MyZksoNB8",
 "outlet": "Late Night with Seth Meyers",
@@ -38079,6 +38931,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "bb3382f294f6",
+"image": "https://i.ytimg.com/vi/_9kMK6lMMiw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=_9kMK6lMMiw",
 "outlet": "Jimmy Kimmel Live",
@@ -38274,6 +39127,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "bbc86e868955",
+"image": "https://i.ytimg.com/vi/r3zVmQLPB1A/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/r3zVmQLPB1A",
 "outlet": "Prime Video",
@@ -38357,6 +39211,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "bc281f737ca8",
+"image": "https://i.ytimg.com/vi/XOBVvqHm7j0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=XOBVvqHm7j0",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -38445,6 +39300,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "bcfb608d5904",
+"image": "https://i.ytimg.com/vi/ZvJh7mYDvAw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/ZvJh7mYDvAw",
 "outlet": "Prime Video",
@@ -39131,6 +39987,7 @@
 "c02745e9eaa3": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "c02745e9eaa3",
+"image": "https://variety.com/wp-content/uploads/2026/11/Night-in-the-Writers-Room.jpg",
 "kind": "article",
 "link": "https://variety.com/gallery/night-in-the-writers-room-awards-season-edition-2026-photos/",
 "outlet": "Variety",
@@ -39175,6 +40032,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "c03edbc66462",
+"image": "https://i.ytimg.com/vi/XaTmOMEVDr4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/XaTmOMEVDr4",
 "outlet": "Late Night with Seth Meyers",
@@ -39551,6 +40409,27 @@
 ],
 "title": "The Nightingale | Official Teaser Trailer (Elle Fanning & Dakota Fanning, 2027)"
 },
+"c1aecf01c78e": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "c1aecf01c78e",
+"image": "https://uproxx.com/wp-content/uploads/2025/05/the-bear-carmy-lg.jpg?w=1024&h=450&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/tv/the-bear-season-4-updates-june-2025-hulu-fx/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-06-01T13:00:27+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Bear"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "FX With Sydney on the brink and Carmy unable to see the big picture, could this be the final 'The Bear' season?",
+"tags": [],
+"title": "‘The Bear’ Season 4: Everything To Know About What Could Be Carmy And The Chefs’ Goodbye Tour (June 2025 Update)"
+},
 "c1b275dc00d2": {
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "c1b275dc00d2",
@@ -39642,6 +40521,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "c239b3bec402",
+"image": "https://i.ytimg.com/vi/i3fXiJ40WOw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=i3fXiJ40WOw",
 "outlet": "HBO Max",
@@ -39751,6 +40631,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "c27e95b7b287",
+"image": "https://i.ytimg.com/vi/6znNlL7lJEM/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/6znNlL7lJEM",
 "outlet": "Prime Video",
@@ -39957,6 +40838,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "c3ae8787e2fd",
+"image": "https://i.ytimg.com/vi/KLoKOHNrlv4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=KLoKOHNrlv4",
 "outlet": "The Daily Show",
@@ -40182,6 +41064,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "c5686e6dca16",
+"image": "https://i.ytimg.com/vi/0Kzc6s2LpDs/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/0Kzc6s2LpDs",
 "outlet": "Apple TV",
@@ -40201,6 +41084,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "c56d0592ca05",
+"image": "https://i.ytimg.com/vi/35E001d9tOo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/35E001d9tOo",
 "outlet": "Apple TV",
@@ -40405,6 +41289,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "c60b35b44fa8",
+"image": "https://i.ytimg.com/vi/cyCiA0P96OI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/cyCiA0P96OI",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -40550,6 +41435,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "c6a269bbbf6f",
+"image": "https://i.ytimg.com/vi/XzxwOJPxP_w/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/XzxwOJPxP_w",
 "outlet": "Hulu",
@@ -40906,9 +41792,31 @@
 "tags": [],
 "title": "Kristen Bell SAG Awards – H Getty 2018"
 },
+"c7e6f07b542f": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "c7e6f07b542f",
+"image": "",
+"kind": "article",
+"link": "https://uproxx.com/music/domingo-sabrina-carpenter-snl-video/",
+"outlet": "Uproxx",
+"people": [],
+"published": "2025-10-20T13:43:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Domingo has been inescapable since the character debuted last year.",
+"tags": [],
+"title": "Domingo Crashed The Party Once Again For Sabrina Carpenter’s Return To ‘SNL’"
+},
 "c7f553eb7166": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "c7f553eb7166",
+"image": "",
 "kind": "article",
 "link": "https://www.hollywoodreporter.com/tv/tv-reviews/oobah-scams-for-a-better-tomorrow-review-hbo-1236759621/",
 "outlet": "The Hollywood Reporter",
@@ -40950,6 +41858,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "c84fddc0d071",
+"image": "https://i.ytimg.com/vi/dRjc2htlPgo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/dRjc2htlPgo",
 "outlet": "Saturday Night Live",
@@ -41014,6 +41923,28 @@
 "Death"
 ],
 "title": "‘SNL’ Star Heidi Gardner’s Boyfriend, Ray Tintori, Dies at 43"
+},
+"c8dd3ecc18c3": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "c8dd3ecc18c3",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBETUZsUzVFSkRFOFQ0QWxLZnQ5eVFLWWVLQW8xYWU5MTlIdVVSTkVPS0RXXzh2c3BlMWdCSTVpNDZfejllTlM4MXpyRkU3RlBNTlVLZlVpcUE1YnJoVHFkUFJna0RZV2xQbi1obGRyLUVkMzRacDlEVk1vNA?oc=5",
+"outlet": "Mashable",
+"people": [],
+"published": "2026-11-21T04:32:41+00:00",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'The Office' stars discuss the finger guns meme from the 'Murder' episode"
 },
 "c90e25b73272": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -41081,6 +42012,30 @@
 "Upcoming"
 ],
 "title": "Garfield Returns After Chris Pratt Movie as New TV Show Trailer Sets Release Date"
+},
+"c923d2e16e0b": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "c923d2e16e0b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdVVMc1hBTVR3Uy1UaTBva05uV25LeFJGYjRVZDNLSWxYTjRvOWJvenA2WTMwVGtNNl9VTmtzcWJ4MHBvSHg3ZjhBc29qeEh2QTZUeFZCWUNZNHFuVHlndTFjeFAxdlpiTjJPNkR3Q0ZKb1YxMG43TWc3dDMtelZrdkdnZVQ4MzFTSmZfQlphOFBJQ0RJTm53WmlJeE5SM2FoMDRLRGtMVHpDSC1wdlo5dmY3MXNheHdfX1g1d3dRSE82TS1IdHJzalY3RzZNY1U?oc=5",
+"outlet": "USA Today",
+"people": [],
+"published": "2026-11-20T18:39:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Laverne & Shirley"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Ronny Hallin, Maxine on 'Laverne & Shirley,' dies at 88"
 },
 "c96b3752a11a": {
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -41156,6 +42111,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "c9ddd02c9288",
+"image": "https://i.ytimg.com/vi/kNfy6S10Tfw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=kNfy6S10Tfw",
 "outlet": "First We Feast",
@@ -41347,6 +42303,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "cb34ce7f75a7",
+"image": "https://i.ytimg.com/vi/8OomIu5JJwQ/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=8OomIu5JJwQ",
 "outlet": "Prime Video",
@@ -41504,6 +42461,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "cc381c18632b",
+"image": "https://i.ytimg.com/vi/C0m-MzoGJvI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/C0m-MzoGJvI",
 "outlet": "Apple TV",
@@ -41630,7 +42588,7 @@
 "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTnFpbkdWdWhtQXlRaFR6djA4RlVYRVJqdFpUbm5YSG1Zb2kySjlIcm84VEh0MkNaNE5iMnlxWkVMbzlkUVRQWXl0dzFpeGFFaU9kTklkVmt2WVdLdFl4QVZKQ1V1NTRpNE9TQlFtRi1YaUtFMTBaeVdUWDdubUFnLThB?oc=5",
 "outlet": "LateNighter",
 "people": [],
-"published": "2026-11-20T11:48:10+00:00",
+"published": "2026-11-20T11:50:06+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
 "rehash": false,
@@ -41773,10 +42731,34 @@
 "tags": [],
 "title": "Jimmy Interviews Miss Piggy and Kermit the Frog | Fallon Flashback (Late Night with Jimmy Fallon)"
 },
+"cdb5cc6a13b0": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "cdb5cc6a13b0",
+"image": "https://uproxx.com/wp-content/uploads/2024/05/billie-eilish-2-TOP.jpg?w=1024&h=436&crop=1",
+"kind": "article",
+"link": "https://uproxx.com/music/billie-eilish-cry-jake-johnson-starstruck/",
+"outlet": "Uproxx",
+"people": [
+"Jake Johnson"
+],
+"published": "2025-07-10T17:08:52+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"New Girl"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Getty Image 'It's Jake Johnson, the best actor in the world.'",
+"tags": [],
+"title": "Billie Eilish Was So Starstruck By Jake Johnson From ‘New Girl’ That She ‘Started To Tear Up And Cry’"
+},
 "cde9fa196ebc": {
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "cde9fa196ebc",
+"image": "https://i.ytimg.com/vi/2BDnuDDa9e4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2BDnuDDa9e4",
 "outlet": "The Late Show with Stephen Colbert",
@@ -41839,6 +42821,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "ce2f7bb02b30",
+"image": "https://i.ytimg.com/vi/aRxHBCCZP9M/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/aRxHBCCZP9M",
 "outlet": "The Daily Show",
@@ -41927,6 +42910,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "cef1c2284a68",
+"image": "https://i.ytimg.com/vi/xNmObcsG0iE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/xNmObcsG0iE",
 "outlet": "First We Feast",
@@ -42035,6 +43019,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "cf3e1f4bf759",
+"image": "https://i.ytimg.com/vi/2-cTAQmF-uI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2-cTAQmF-uI",
 "outlet": "First We Feast",
@@ -42491,6 +43476,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "d29acc2f4ba5",
+"image": "https://i.ytimg.com/vi/MtoRb7_UQnc/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/MtoRb7_UQnc",
 "outlet": "Apple TV",
@@ -42510,6 +43496,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "d30f42fcb7b2",
+"image": "https://i.ytimg.com/vi/lKWsJYesCqg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/lKWsJYesCqg",
 "outlet": "The Daily Show",
@@ -42750,6 +43737,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "d3bd06e57df0",
+"image": "https://i.ytimg.com/vi/PwJAGwfqvPA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/PwJAGwfqvPA",
 "outlet": "Netflix",
@@ -43033,6 +44021,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "d50bd3636adc",
+"image": "https://i.ytimg.com/vi/bCU7g_octJo/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/bCU7g_octJo",
 "outlet": "Variety",
@@ -43076,6 +44065,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "d5a2986d1694",
+"image": "https://i.ytimg.com/vi/vHw4Tq1PvTE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/vHw4Tq1PvTE",
 "outlet": "Hulu",
@@ -43489,6 +44479,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "d8268ccf75c4",
+"image": "https://i.ytimg.com/vi/m4EfOTJI9LU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/m4EfOTJI9LU",
 "outlet": "The Daily Show",
@@ -43688,6 +44679,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "d8e0b2a10ce3",
+"image": "https://i.ytimg.com/vi/mhOaFKtehhA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=mhOaFKtehhA",
 "outlet": "Jimmy Kimmel Live",
@@ -43879,6 +44871,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "d9e14ba0fcb8",
+"image": "https://i.ytimg.com/vi/kJ60rntsXbI/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/kJ60rntsXbI",
 "outlet": "Apple TV",
@@ -44333,6 +45326,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "dbbb978cce91",
+"image": "https://i.ytimg.com/vi/J7F_L3h5Osw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=J7F_L3h5Osw",
 "outlet": "Jimmy Kimmel Live",
@@ -44526,6 +45520,7 @@
 "dd14fcca31df": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "dd14fcca31df",
+"image": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2272467834.jpg",
 "kind": "article",
 "link": "https://variety.com/2026/tv/news/bowen-yang-apologizes-regina-spektor-antisemitic-slur-1236954304/",
 "outlet": "Variety",
@@ -44614,6 +45609,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "dd64ca8ce41f",
+"image": "https://i.ytimg.com/vi/39Ucf-kpiX4/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=39Ucf-kpiX4",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -44797,6 +45793,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "de40ea518346",
+"image": "https://i.ytimg.com/vi/VNpzGmxrRR0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/VNpzGmxrRR0",
 "outlet": "Hulu",
@@ -44860,6 +45857,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "de9bd7793e57",
+"image": "https://i.ytimg.com/vi/gF7mQug1rFw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/gF7mQug1rFw",
 "outlet": "Entertainment Tonight",
@@ -44961,6 +45959,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "df15ab9d523e",
+"image": "https://i.ytimg.com/vi/2jrLoIKydyk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2jrLoIKydyk",
 "outlet": "Netflix",
@@ -45064,6 +46063,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "dfa917ce1cf1",
+"image": "https://i.ytimg.com/vi/CLoh5Nq5Bvk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/CLoh5Nq5Bvk",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -45083,6 +46083,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "dfd8d057fdb5",
+"image": "https://i.ytimg.com/vi/cmHlvHyHZAk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/cmHlvHyHZAk",
 "outlet": "Saturday Night Live",
@@ -45145,6 +46146,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "e093ef25e58a",
+"image": "https://i.ytimg.com/vi/NWsEUu5iQaE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/NWsEUu5iQaE",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -45408,6 +46410,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "e12f79414109",
+"image": "https://i.ytimg.com/vi/WeDS4QIia7g/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=WeDS4QIia7g",
 "outlet": "Hulu",
@@ -45708,6 +46711,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "e28d55531b55",
+"image": "https://i.ytimg.com/vi/Up8Yblwsqgk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=Up8Yblwsqgk",
 "outlet": "Jimmy Kimmel Live",
@@ -46027,6 +47031,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "e42938cfd6ac",
+"image": "https://i.ytimg.com/vi/jPHbm_rg1cE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/jPHbm_rg1cE",
 "outlet": "Prime Video",
@@ -46353,6 +47358,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "e61b03ac630e",
+"image": "https://i.ytimg.com/vi/sxo7303bFLY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/sxo7303bFLY",
 "outlet": "First We Feast",
@@ -46455,6 +47461,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "e6b4419b4e09",
+"image": "https://i.ytimg.com/vi/kdYjJ4jQYBU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=kdYjJ4jQYBU",
 "outlet": "Late Night with Seth Meyers",
@@ -46758,6 +47765,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "e84cf3f7b057",
+"image": "https://i.ytimg.com/vi/K8s2RdcuH7A/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=K8s2RdcuH7A",
 "outlet": "Prime Video",
@@ -47229,6 +48237,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "ead6f028509d",
+"image": "https://i.ytimg.com/vi/JzaE9TgaNbU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/JzaE9TgaNbU",
 "outlet": "Comedy Central",
@@ -47293,6 +48302,7 @@
 "eafd90cbe4a1": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "eafd90cbe4a1",
+"image": "https://www.tvline.com/img/gallery/why-young-sheldon-was-shot-differently-than-the-big-bang-theory/l-intro-1794862972.jpg",
 "kind": "article",
 "link": "https://www.tvline.com/2318492/why-young-sheldon-shot-different-the-big-bang-theory/",
 "outlet": "TVLine",
@@ -47471,6 +48481,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ec4daab0946b",
+"image": "https://i.ytimg.com/vi/tSk7F0ruWAE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/tSk7F0ruWAE",
 "outlet": "Comedy Central",
@@ -47580,6 +48591,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ecb7b16c8c63",
+"image": "https://i.ytimg.com/vi/JUFZg2ZYPgc/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=JUFZg2ZYPgc",
 "outlet": "Prime Video",
@@ -47643,6 +48655,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ed6a87175d02",
+"image": "https://i.ytimg.com/vi/lOcXJ-TzB-U/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/lOcXJ-TzB-U",
 "outlet": "The Daily Show",
@@ -47705,6 +48718,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "edab28fc5cde",
+"image": "https://i.ytimg.com/vi/ORuXRjti77Y/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=ORuXRjti77Y",
 "outlet": "The Daily Show",
@@ -47772,6 +48786,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "edcda5b24a36",
+"image": "https://i.ytimg.com/vi/XpXdKC-4juY/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/XpXdKC-4juY",
 "outlet": "Apple TV",
@@ -47855,6 +48870,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ee47777ebc67",
+"image": "https://i.ytimg.com/vi/Rh0vOrowrPE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/Rh0vOrowrPE",
 "outlet": "First We Feast",
@@ -48009,6 +49025,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ef09da3aa366",
+"image": "https://i.ytimg.com/vi/2y6enN7EeZU/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=2y6enN7EeZU",
 "outlet": "HBO Max",
@@ -48121,6 +49138,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "ef487fd9d1b6",
+"image": "https://i.ytimg.com/vi/I28YfiOgrfE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=I28YfiOgrfE",
 "outlet": "Entertainment Tonight",
@@ -48675,6 +49693,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "f260116d6202",
+"image": "https://i.ytimg.com/vi/aUKLfYruB04/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=aUKLfYruB04",
 "outlet": "Netflix",
@@ -48696,6 +49715,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "f27ee6836acb",
+"image": "https://i.ytimg.com/vi/BUieWIf4wBw/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=BUieWIf4wBw",
 "outlet": "The Tonight Show Starring Jimmy Fallon",
@@ -48787,6 +49807,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "f2eec8b6d6e9",
+"image": "https://i.ytimg.com/vi/dpvYMAY1RN0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=dpvYMAY1RN0",
 "outlet": "The Late Show with Stephen Colbert",
@@ -49000,6 +50021,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "f3e7b7753b60",
+"image": "https://i.ytimg.com/vi/88oyRuNlLjE/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=88oyRuNlLjE",
 "outlet": "Netflix",
@@ -49065,6 +50087,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "f44777e80cd5",
+"image": "https://i.ytimg.com/vi/0e7I4bfc96I/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/0e7I4bfc96I",
 "outlet": "First We Feast",
@@ -49213,6 +50236,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "f4cb31e85cb1",
+"image": "https://i.ytimg.com/vi/Bu3mOY5dhts/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/Bu3mOY5dhts",
 "outlet": "Entertainment Tonight",
@@ -49547,6 +50571,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "f60e80d653ce",
+"image": "https://i.ytimg.com/vi/SOlfON1opQk/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=SOlfON1opQk",
 "outlet": "Jimmy Kimmel Live",
@@ -49712,6 +50737,7 @@
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "f6c10b024c0f",
+"image": "https://i.ytimg.com/vi/f7P6KMyyt0U/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/f7P6KMyyt0U",
 "outlet": "Variety",
@@ -49902,6 +50928,28 @@
 "tags": [],
 "title": "Jessi Draper Promises SLOWM Season 6 Is a Return to FUN,  Even With ALL the Divorces! (Exclusive)"
 },
+"f7d0de54dce5": {
+"first_seen": "2026-11-21T08:58:50+00:00",
+"id": "f7d0de54dce5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HdXFoSXR2LUtpeDBDaU12T2x5cndQVC1Od3hQdk9DRlFMVmVFd0RHdzJSbk9sT0dVRVFqT1p0SXhBZmpLTlRpaFc0QUZuSF9CWWQ3YXBySGJVZ0tSeHJteE5tb2w4Qmc3UXdCbmxoUUk3M0hHa2c?oc=5",
+"outlet": "AOL.com",
+"people": [],
+"published": "2026-11-20T22:13:11+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "50 Years Ago Today, Paul Simon Hosted 'SNL' Dressed as a Giant Turkey, Then Dueted With George Harrison"
+},
 "f7d98d6ee681": {
 "first_seen": "2026-11-14T17:30:12+00:00",
 "id": "f7d98d6ee681",
@@ -49928,6 +50976,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "f7e14a58e40f",
+"image": "https://i.ytimg.com/vi/q5L47J-JNik/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=q5L47J-JNik",
 "outlet": "Saturday Night Live",
@@ -50214,6 +51263,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "f90018896ad3",
+"image": "https://i.ytimg.com/vi/Uz5qh6ih_Go/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=Uz5qh6ih_Go",
 "outlet": "HBO Max",
@@ -50498,6 +51548,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "fabbbdd920d9",
+"image": "https://i.ytimg.com/vi/hZTO6CF2JM8/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/hZTO6CF2JM8",
 "outlet": "Comedy Central",
@@ -50584,6 +51635,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "fb1bee6b1a77",
+"image": "https://i.ytimg.com/vi/N9AhsCFvW9Q/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=N9AhsCFvW9Q",
 "outlet": "Prime Video",
@@ -50673,6 +51725,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "fb6e5a52a6ae",
+"image": "https://i.ytimg.com/vi/q5uY-_tHFgg/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/shorts/q5uY-_tHFgg",
 "outlet": "Late Night with Seth Meyers",
@@ -51263,6 +52316,7 @@
 "channel_kind": "talk",
 "first_seen": "2026-11-15T17:30:11+00:00",
 "id": "fdfc1b59f045",
+"image": "https://i.ytimg.com/vi/rMrNO6VjqiA/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=rMrNO6VjqiA",
 "outlet": "The Late Show with Stephen Colbert",
@@ -51470,6 +52524,7 @@
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "fee89759f265",
+"image": "https://i.ytimg.com/vi/_GTf0QE1lj0/hqdefault.jpg",
 "kind": "video",
 "link": "https://www.youtube.com/watch?v=_GTf0QE1lj0",
 "outlet": "Hulu",
@@ -97636,11 +98691,34 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"9c6877fe3b1e"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"2027",
+"brien",
+"cast",
+"christma",
+"conan",
+"hallmark",
+"him",
+"movie",
+"wait"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "85fa59cabb64",
-"4f7b4f102c4c"
+"4efe9a30ed88",
+"4f7b4f102c4c",
+"5220205a7893"
 ],
 "people": [
 "Catherine O'Hara"
@@ -97664,7 +98742,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "958ffffc8d98"
@@ -97694,7 +98772,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "486a5a976b6c",
@@ -97722,7 +98800,58 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"7dace0608cce",
+"d248157969e8"
+],
+"people": [
+"Bowen Yang"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"adam",
+"apology",
+"bowen",
+"brody",
+"gush",
+"leighton",
+"meester",
+"stori",
+"top",
+"yang"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"07bd506e3fa0",
+"275fb6572815"
+],
+"people": [],
+"shows": [
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"dating",
+"davidson",
+"jane",
+"nader",
+"pete",
+"relationship",
+"reveal",
+"sarah",
+"statu"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "eafd90cbe4a1",
@@ -97745,7 +98874,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "78366978c728",
@@ -97768,7 +98897,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "1060a6d69d90",
@@ -97789,7 +98918,52 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"6fa7c6f84a5e",
+"656a9a74dbd1"
+],
+"people": [
+"Jenna Ortega"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"galifianaki",
+"jenna",
+"look",
+"movie",
+"natalie",
+"ortega",
+"portman",
+"poster",
+"unrecognizable",
+"zach"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"1dd3d281aee1"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"bilson",
+"christma",
+"foley",
+"free",
+"movie",
+"rachel",
+"scott",
+"stream"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6c174f6dd5e3",
@@ -97812,7 +98986,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9ee847c5a716",
@@ -97837,29 +99011,34 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
-"275fb6572815"
+"01a613c9fbed"
 ],
-"people": [],
-"shows": [
-"Saturday Night Live"
+"people": [
+"Jeremy Allen White"
 ],
-"tags": [],
+"shows": [],
+"tags": [
+"Casting"
+],
 "tokens": [
-"dating",
-"davidson",
-"jane",
-"nader",
-"officially",
-"pete",
-"sarah",
-"truth"
+"actor",
+"allen",
+"batman",
+"ben",
+"cast",
+"jeremy",
+"movie",
+"stiller",
+"war",
+"white",
+"world"
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c7f553eb7166"
@@ -97888,7 +99067,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c02745e9eaa3",
@@ -97918,7 +99097,35 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"451fc4dd385c",
+"0196ad63933c"
+],
+"people": [
+"Hilary Duff"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"alani",
+"bridger",
+"duff",
+"edition",
+"ejae",
+"friday",
+"hilary",
+"holiday",
+"morissette",
+"music",
+"olivia",
+"phoebe",
+"rodrigo"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "dd14fcca31df",
@@ -97948,7 +99155,101 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"913507b9bdcc"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"bell",
+"bias",
+"doc",
+"gets",
+"kamau",
+"latenighter",
+"retrospective",
+"totally"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"83c5a88c5119"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"aniston",
+"break",
+"casu",
+"demand",
+"jennifer",
+"lookalike",
+"period",
+"pinch",
+"rub",
+"sneaker",
+"won"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"5f2ecd0c42eb"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"tokens": [
+"case",
+"hbo",
+"look",
+"unveil",
+"war"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"09d724b4ca5c"
+],
+"people": [
+"Catherine O'Hara"
+],
+"shows": [],
+"tags": [
+"Revival"
+],
+"tokens": [
+"alone",
+"catherine",
+"chri",
+"columbu",
+"director",
+"hara",
+"home",
+"late",
+"reboot",
+"think",
+"without",
+"won",
+"work"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "002c39d12ded"
@@ -97968,7 +99269,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3dcad27af6a6"
@@ -97993,7 +99294,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "bd4dbce33a6f"
@@ -98014,27 +99315,28 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
-"5f2ecd0c42eb"
+"c8dd3ecc18c3"
 ],
 "people": [],
-"shows": [],
-"tags": [
-"Trailer",
-"Upcoming"
+"shows": [
+"The Office"
 ],
+"tags": [],
 "tokens": [
-"case",
-"hbo",
-"look",
-"unveil",
-"war"
+"discus",
+"episode",
+"finger",
+"guns",
+"meme",
+"murder",
+"office"
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "947e9044e1ce"
@@ -98058,7 +99360,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "948073a57cb6",
@@ -98090,7 +99392,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "abfa0fa12c00",
@@ -98126,7 +99428,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3f60f95eaddb"
@@ -98146,7 +99448,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "040cde2278a3",
@@ -98172,7 +99474,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b909becb0120"
@@ -98197,7 +99499,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b6bab250cafe"
@@ -98223,35 +99525,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
-"edition": "2026-11-21-morning",
-"ids": [
-"d248157969e8"
-],
-"people": [
-"Bowen Yang"
-],
-"shows": [],
-"tags": [
-"Interview"
-],
-"tokens": [
-"adam",
-"address",
-"bowen",
-"brody",
-"gush",
-"leighton",
-"meester",
-"slur",
-"stori",
-"top",
-"use",
-"yang"
-]
-},
-{
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c9d8cd5c9a34"
@@ -98278,7 +99552,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "033d1f50c253"
@@ -98302,7 +99576,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "2c876de079fa"
@@ -98325,7 +99599,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7211c028e548"
@@ -98348,7 +99622,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "43cfe5e0ad36"
@@ -98367,7 +99641,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ef21195b61f7"
@@ -98392,7 +99666,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "34fda3db9d9d"
@@ -98415,7 +99689,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "714f5213e66d"
@@ -98439,7 +99713,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "4028fe791371"
@@ -98459,10 +99733,11 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
-"9f0a9bff87fb"
+"9f0a9bff87fb",
+"f7d0de54dce5"
 ],
 "people": [],
 "shows": [
@@ -98487,7 +99762,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "2146a64fc13b"
@@ -98511,7 +99786,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9b14ed8aa2ee"
@@ -98538,7 +99813,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "788cbf705fbd"
@@ -98563,7 +99838,28 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"6d087b86eccb"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"bill",
+"british",
+"comedy",
+"future",
+"good",
+"includ",
+"not",
+"review",
+"sign"
+]
+},
+{
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "f35bea431286"
@@ -98582,7 +99878,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "d876e9912541",
@@ -98608,7 +99904,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a7d48b916090"
@@ -98631,31 +99927,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
-"edition": "2026-11-21-morning",
-"ids": [
-"656a9a74dbd1"
-],
-"people": [
-"Jenna Ortega"
-],
-"shows": [],
-"tags": [],
-"tokens": [
-"galifianaki",
-"jenna",
-"look",
-"movie",
-"natalie",
-"ortega",
-"portman",
-"poster",
-"unrecognizable",
-"zach"
-]
-},
-{
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "5a3099af5b5e"
@@ -98680,7 +99952,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "46848fe1417e"
@@ -98702,7 +99974,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b0d4ce56b3e4"
@@ -98723,7 +99995,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a87c765221b4"
@@ -98750,7 +100022,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "078b46d16566"
@@ -98773,7 +100045,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "aca3630db070",
@@ -98799,7 +100071,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "51762f442ae3"
@@ -98826,7 +100098,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ad0866bc418d"
@@ -98847,7 +100119,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3b32cdffca2d"
@@ -98877,7 +100149,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ac68bde4e4f7",
@@ -98903,7 +100175,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "fed8fa7e1728"
@@ -98926,7 +100198,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7c080dea8ffb"
@@ -98947,7 +100219,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "921a2a161c2d"
@@ -98970,7 +100242,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7750a5983e84"
@@ -98996,7 +100268,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "20571786b393"
@@ -99016,7 +100288,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9c634d877622"
@@ -99043,7 +100315,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "25402af1511b"
@@ -99066,34 +100338,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
-"edition": "2026-11-21-morning",
-"ids": [
-"0196ad63933c"
-],
-"people": [
-"Hilary Duff"
-],
-"shows": [],
-"tags": [],
-"tokens": [
-"alani",
-"bridger",
-"duff",
-"edition",
-"ejae",
-"friday",
-"hilary",
-"holiday",
-"morissette",
-"music",
-"olivia",
-"phoebe",
-"rodrigo"
-]
-},
-{
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9ae6088ca13d"
@@ -99122,7 +100367,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "03981a4e040c"
@@ -99151,7 +100396,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7c8392efd6e2"
@@ -99172,7 +100417,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b4da618c6841"
@@ -99194,7 +100439,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a470c0275fa1"
@@ -99219,7 +100464,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "cc765df1e419"
@@ -99242,7 +100487,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "af043ab4fbf1"
@@ -99263,7 +100508,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6da6b9489f91"
@@ -99287,7 +100532,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c38e23f53592"
@@ -99313,7 +100558,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "474b56caf67a"
@@ -99341,7 +100586,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "87bdec07ed1f"
@@ -99363,7 +100608,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "939519727089"
@@ -99394,7 +100639,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "50ed4a1c644d"
@@ -99417,7 +100662,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "f696bbf80a33"
@@ -99438,7 +100683,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "27816a8330ef"
@@ -99462,7 +100707,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "05660d4c205f"
@@ -99479,7 +100724,7 @@
 ]
 },
 {
-"at": "2026-11-21T06:30:15+00:00",
+"at": "2026-11-21T08:58:50+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "0a861939f652"
