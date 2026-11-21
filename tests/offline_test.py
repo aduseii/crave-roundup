@@ -248,7 +248,8 @@ check("&#x27;Classic Sitcom&#x27; premiered 30 years ago today" in idx, "premier
 check("Returning Comedy" in idx and "Season 3 premiere" in idx, "TMDB season premiere listed")
 check("Mid Season" not in idx, "mid-season episode is not called a premiere")
 check("New Comedy" in idx, "TMDB new series listed")
-check("Today&#x27;s posting schedule" in idx and ">8<small>am</small>" in idx, "posting schedule with GMT times")
+check("Top stories today" in idx and "Post around" not in idx and "posting schedule" not in idx,
+      "top stories are ranked, with no posting times")
 check("test-key-123" not in idx and "test-key-123" not in (OUT / "data" / "state.json").read_text(),
       "TMDB key never written to pages or data")
 check("FAILED" in idx and "sources worked" in idx, "failed sources shown in the sources list")
@@ -272,7 +273,7 @@ upc = idx[idx.index('id="sec-upcoming"'):]
 check(upc.index("Premiere dates") < upc.index("Returning Comedy") and "Premiere dates" in upc[:300],
       "premiere dates lead the Upcoming section")
 drafts = [c for c in caps if c.startswith("DRAFT for")]
-check(len(drafts) >= 5, f"Gemini drafts shown for the posting schedule ({len(drafts)})")
+check(len(drafts) >= 5, f"Gemini drafts shown for the top stories ({len(drafts)})")
 check(all("\u2014" not in d and "http" not in d for d in drafts), "drafts have no em dash and no links")
 maple = [cl for cl in GEMINI_CALLS if "Maple Street\u2019 Renewed" in cl[1]]
 check(maple and "averaged 6 million viewers" in maple[0][1] and "Menu menu" not in maple[0][1],

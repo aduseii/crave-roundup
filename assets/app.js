@@ -119,36 +119,19 @@
     box.replaceChild(span, img);
   }, true);
 
-  // ---------- "Up next" and progress for the posting schedule ----------
-  function fmtTime(d) {
-    var h = d.getUTCHours(), m = d.getUTCMinutes();
-    return (h % 12 || 12) + (m ? ":" + String(m).padStart(2, "0") : "") + (h < 12 ? "am" : "pm");
-  }
+  // ---------- top stories: progress, and the first one you haven't posted shown big ----------
   function updateSchedule() {
-    var rows = all(".today .item[data-slot]");
+    var rows = all(".today .item[data-id]");
     if (!rows.length) return;
-    var posted = postedSet(), now = Date.now(), done = 0, next = null;
+    var posted = postedSet(), done = 0, next = null;
     rows.forEach(function (r) {
       r.classList.remove("next");
-      if (posted.has(r.dataset.id)) { done++; return; }
-      var t = Date.parse(r.dataset.slot);
-      // the next unposted story whose hour hasn't long passed; stale editions get no "Up next"
-      if (!next && t >= now - 40 * 60 * 1000 && t - now < 20 * 3600 * 1000) next = r;
+      if (posted.has(r.dataset.id)) done++;
+      else if (!next) next = r;
     });
-    if (!next && done < rows.length) {
-      var last = Date.parse(rows[rows.length - 1].dataset.slot);
-      if (now - last < 6 * 3600 * 1000) next = rows.filter(function (r) { return !posted.has(r.dataset.id); })[0];
-    }
     $("sched-done").textContent = String(done);
     $("sched-bar").style.width = Math.round(done / rows.length * 100) + "%";
-    var label = $("sched-next");
-    if (done === rows.length) { label.textContent = "All posted. Nice work."; return; }
-    if (!next) { label.textContent = ""; return; }
-    next.classList.add("next");
-    var mins = Math.round((Date.parse(next.dataset.slot) - now) / 60000);
-    var when = mins > 90 ? "in " + Math.floor(mins / 60) + "h " + (mins % 60) + "m"
-      : mins > 1 ? "in " + mins + " min" : mins >= -5 ? "now" : "overdue";
-    label.textContent = "Next post " + fmtTime(new Date(next.dataset.slot)) + ", " + when;
+    if (next) next.classList.add("next");
   }
 
   // ---------- breaking banner and red dots, kept fresh from breaking.json ----------
@@ -478,10 +461,9 @@
     updateTray();
     renderBreaking(lastBreaking);
     refreshBreaking();
-    setInterval(updateSchedule, 30000);
     setInterval(refreshBreaking, 5 * 60000);
     document.addEventListener("visibilitychange", function () {
-      if (!document.hidden) { updateSchedule(); refreshBreaking(); }
+      if (!document.hidden) refreshBreaking();
     });
   }
 

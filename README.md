@@ -22,8 +22,8 @@ Posted marks and the header line are saved in your browser, so they're per devic
 
 - **Pictures on every story:** taken from the feed, else the article's own share picture, else a TMDB still of the show or a TMDB photo of the person (TMDB needs the `TMDB_API_KEY` secret). Birthdays and death anniversaries use the Wikidata photo. A story with no picture gets a name tile. Pictures are remembered in `data/state.json` for 7 days so they aren't looked up twice.
 - **Breaking banner:** red strip at the top of the roundup with the newest breaking stories from the last 24 hours. It refreshes itself every 5 minutes from `docs/breaking.json`, which every breaking check writes. The Breaking tab shows a red count too. Stories you mark as posted drop off it.
-- **Up next:** the next story in the posting schedule is shown big, with a countdown ("Next post 9am, in 42 min") and a bar showing how many of today's ten you've posted.
-- **Section chips:** tap a chip (Schedule, On this day, News...) to show only that section; tap it again or **All** to see everything. The magnifier searches headlines.
+- **Top stories:** the day's ten biggest stories, ranked 1 to 10, with no posting times (you choose when to post). The first one you haven't posted is shown big, and a bar shows how many of the ten you've posted.
+- **Section chips:** tap a chip (Top stories, On this day, News...) to show only that section; tap it again or **All** to see everything. The magnifier searches headlines.
 - **Not sitcom:** under each story. Hide just that story, or mute a show or name so every headline with it is hidden on this device. **Settings** lists muted words (tap one to unmute) and can show hidden stories again. To drop something for every device, add a line to `config/not_news.txt`.
 - **Caption buttons** fold away: **Draft caption** / **Caption** opens the ready caption, **Write caption** asks Gemini.
 
@@ -44,7 +44,7 @@ Posted marks and the header line are saved in your browser, so they're per devic
    - Open your new bot and tap **Start**. Bots can't message you until you do.
    - Add one secret with the token. It's named `TELEGRAMBOT` in this repo (`TELEGRAM_BOT_TOKEN` also works).
    - The next run finds your chat from that Start message (it looks for the Telegram username in `config/sources.json` → `telegram`), remembers it in `data/telegram.json`, and sends a "connected" message. You then get every breaking alert plus a short note when each morning and evening roundup is ready.
-4. **Caption drafts (optional, free):** get a Gemini API key at aistudio.google.com (Get API key, no card needed) and add it as the secret `GEMINI_API_KEY`. Each roundup then drafts captions for the posting schedule and breaking stories, written only from the article itself and following `config/caption_rules.md`. Drafts show under each story (tap "Draft caption") and in Telegram breaking alerts. Always check them against the source. On the free tier, Google may use what's sent to improve its products.
+4. **Caption drafts (optional, free):** get a Gemini API key at aistudio.google.com (Get API key, no card needed) and add it as the secret `GEMINI_API_KEY`. Each roundup then drafts captions for the top stories and breaking stories, written only from the article itself and following `config/caption_rules.md`. Drafts show under each story (tap "Draft caption") and in Telegram breaking alerts. Always check them against the source. On the free tier, Google may use what's sent to improve its products.
 5. **First run:** **Actions → Roundup → Run workflow**, pick `morning`.
 
 ## Captions

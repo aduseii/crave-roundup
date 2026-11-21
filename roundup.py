@@ -1603,7 +1603,7 @@ input.pick:checked{opacity:1;border-color:var(--crave);background:var(--crave) u
 .today .item.next.sel::before{display:none}
 .today .item.next .time{grid-column:1;grid-row:1;font-size:var(--t1);font-stretch:100%;font-weight:800;color:var(--crave-ink);padding:0 0 var(--s2)}
 .today .item.next .time small{font-size:var(--t1)}
-.today .item.next .time::before{content:"Up next, "}
+.today .item.next .time::before{content:"Top pick, #"}
 .today .item.next .thumb{grid-column:1 / -1;grid-row:2;width:100%;height:auto;aspect-ratio:16/9;margin-bottom:var(--s3);border-radius:var(--r)}
 .today .item.next .thumb.ph{aspect-ratio:auto;height:88px;align-items:center;padding:0 var(--s4)}
 .today .item.next .thumb.ph span{font-size:var(--t5);-webkit-line-clamp:1}
@@ -2069,21 +2069,17 @@ def health_html(health: list[dict]) -> str:
 
 
 def post_today_html(ranked: list[dict], now: dt.datetime) -> str:
+    """The day's ten biggest stories, ranked. No posting times: you choose when to post."""
     if not ranked:
         return ""
-    start = (now + dt.timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
     rows = []
     for i, c in enumerate(ranked):
-        slot = start + dt.timedelta(hours=i)
-        h = slot.hour % 12 or 12
-        ampm = "am" if slot.hour < 12 else "pm"
-        mins = ":%02d" % slot.minute if slot.minute else ""
-        tm = (f'<div class="time" aria-label="Post around {clock(slot)} GMT">{h}<small>{mins}{ampm}</small></div>')
-        rows.append(cluster_html(c, now, slot=tm, slot_iso=iso(slot), anchor=False))
+        rank = f'<div class="time" aria-label="Number {i + 1}">{i + 1}</div>'
+        rows.append(cluster_html(c, now, slot=rank, anchor=False))
     top = ('<div class="sched-top"><span><b id="sched-done">0</b> of '
-           f'{len(ranked)} posted. Times are GMT.</span><span id="sched-next" class="next-when"></span></div>'
+           f'{len(ranked)} posted</span></div>'
            '<div class="progress" aria-hidden="true"><i id="sched-bar"></i></div>')
-    return section("today", "Today's posting schedule", None, top + '\n<div class="today">\n' + "\n".join(rows) + "\n</div>")
+    return section("today", "Top stories today", None, top + '\n<div class="today">\n' + "\n".join(rows) + "\n</div>")
 
 
 # --------------------------------------------------------------------------
@@ -2219,7 +2215,7 @@ def build_edition(mode: str, state: dict, health: list[dict], now: dt.datetime, 
             f"<p>{E(long_date(today))}. Updated {clock(now)} GMT with {len(clusters)} stories {E(since)}. "
             f"{nxt}</p></div>",
             post_today_html(ranked, now)]
-    chips = [("today", "Schedule", None)] if ranked else []
+    chips = [("today", "Top stories", None)] if ranked else []
 
     for key, label in SECTIONS:
         group = by_section[key]
