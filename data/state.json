@@ -465,6 +465,12 @@
 "model": "gemini-3-flash-preview",
 "text": "The first trailer for 'Only Murders in the Building' Season 6 has been released. The new season follows the trio to London and features guest stars including Olivia Colman, Martin Freeman, Nicola Coughlan, and 'Doctor Who' alums Peter Capaldi, David Tennant, and Jodie Whittaker. It premieres December 8 on Hulu. (via Decider)"
 },
+"8f6c62f82d6d": {
+"at": "2026-11-21T09:12:09+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'The Office' cast is officially reuniting for NBC's 100th anniversary special. 'The Office' stars Steve Carell, John Krasinski, Jenna Fischer, and more are confirmed to appear in 'NBC100: The Live Celebration'. The special airs Thursday, December 10 at 8/7c on NBC and Peacock. (via Collider)"
+},
 "8f7588e70238": {
 "at": "2026-11-16T17:39:41+00:00",
 "from_article": false,
@@ -1066,7 +1072,7 @@
 {
 "edition": "morning",
 "name": "2026-11-21-morning",
-"time": "2026-11-21T08:58:50+00:00"
+"time": "2026-11-21T09:08:10+00:00"
 }
 ],
 "images": {
@@ -5109,6 +5115,28 @@
 "tags": [],
 "title": "2026 Primetime Emmy nominations: See who is nominated"
 },
+"1215a3d50738": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "1215a3d50738",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQ0p6ZnhBTkVta1FtWmFobHJnZ2tXNFJ0RnZZUDhqVTVIWWY1MmVmWTJDYkpzdF9KOUdkZXRXdm9SVGZYbkIwMm1qdlQwRDg0c1g5bHhpNXhfRW1yNXhCWGs0WG1kZWJhODdfUXFHR0tSMHN4dVdBM3BvczJKYXBRanJkbFRGa1E?oc=5",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-21T09:00:12+00:00",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'The Office' Is Officially Getting Its Biggest Reunion Yet"
+},
 "123559332192": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "123559332192",
@@ -5420,8 +5448,8 @@
 "outlet": "TVLine",
 "people": [],
 "published": "2026-11-20T13:12:00+00:00",
-"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -17347,7 +17375,7 @@
 "outlet": "primetimer.com",
 "people": [],
 "published": "2026-11-20T15:06:00+00:00",
-"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -24195,6 +24223,28 @@
 "tags": [],
 "title": "John Mulaney's Latest SNL Musical Brings Back Bowen Yang As Mary Todd Lincoln, Plus Ashley Padilla's Kathy"
 },
+"737497f554fa": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "737497f554fa",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWldDLXQzY2RrNmpNT29jWTJFSnFKbDNXLUpGSHFtRGlFeDducXVpSW8za1FpczBGeVNJclFCZF9IdTFyZDFEQVFnc3NmdVRWTTBLZ04wUVlOb2ZwaHRWM2p5a1UwUEg3bXZBUmticHYyaFMxLW5Qd3k3OXN0amdZZ25fak93a1JxeDMzR3dNNWVMSmVxSGhDTWFDbHRNTEhiTEJrYTdPS3ZiNXkzd1BEQ0hrNG9XWEgxNWdHbWp6RDRjV19LcXRmYjZUSXMzY3FDMGpXMjlCTEJMeHNZN3ljSVlDTUoxVU0yN1J0WVg3OHlMMlV5Zm1GODdrU0NnVWdRU0FZRjBYbUJxRXBPd3d5cUtiMjd1OUE?oc=5",
+"outlet": "Page Six",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-20T17:03:00+00:00",
+"query": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Selena Gomez calls out Martin Short's major wedding faux pas that nearly ruined Benny Blanco nuptials"
+},
 "73774dfea04b": {
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "73774dfea04b",
@@ -28847,6 +28897,32 @@
 "tags": [],
 "title": "Johnny Galecki (tie) - 2015-08-15 - The Highest-Paid TV Actors Of 2014"
 },
+"8b712fddb299": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "8b712fddb299",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOWW1Oak5Zc1EtRnFYYmZMWDctQTNoaE9OejE4dVBuQTlwN2N2NzFPNTU3aTlPVnI4MWlRd1ZtT25Tcm9JNjh4ZFlIQmpRaXJhZXRoV0dEREZiLU5VVDNOS1MtU04?oc=5",
+"outlet": "IMDb",
+"people": [
+"Reba McEntire"
+],
+"published": "2026-11-21T04:37:45+00:00",
+"query": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Happy's Place"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Video Exclusive: James Denton Interview On Working With ‘So Normal’ Reba McEntire On ‘Happy’s Place’"
+},
 "8b735896235b": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "8b735896235b",
@@ -29795,6 +29871,30 @@
 "summary": "",
 "tags": [],
 "title": "Cristiano Ronaldo's Ted Lasso-Like TV Series Has Already Made Its First Mistake"
+},
+"8f6c62f82d6d": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "8f6c62f82d6d",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/the-office-nbc-rainn-wilson-steve-carell.jpg",
+"kind": "article",
+"link": "https://collider.com/the-office-cast-reunion-nbc-100th-anniversary-steve-carell/",
+"outlet": "Collider",
+"people": [
+"Steve Carell",
+"John Krasinski"
+],
+"published": "2026-11-21T09:00:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The Office cast reunites next month for NBC's 100th anniversary special, with Steve Carell, John Krasinski and more confirmed.",
+"tags": [],
+"title": "'The Office' Is Officially Getting Its Biggest Reunion Yet"
 },
 "8f7588e70238": {
 "first_seen": "2026-11-16T17:30:15+00:00",
@@ -34285,8 +34385,8 @@
 "outlet": "Billboard",
 "people": [],
 "published": "2026-11-20T17:39:49+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
+"query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -38461,6 +38561,30 @@
 "summary": "Julia Garner on what made OZARK one of the GOATs",
 "tags": [],
 "title": "what made OZARK so good?"
+},
+"b89fe70fe9a3": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "b89fe70fe9a3",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORzNpR0kwV3NjYnFsM2F0SVd1MUFEbWZVUGJCUVNuR19NbzgwWk9mTTRQMlVfbXVkX2Fyd2R1Y2ZBSm1iQkd2LXFmaVNrR1dnSlJPVjhoaU9GR3VDYUxNanpIb2VrOWJmUHZjREhxRjhWME85dHlDMS02NEFITklHd2xFQkVTd2ZCQ0ZLZnhack9NQXFFVy0xNHhrRzBRaXRtdUE?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-20T15:53:12+00:00",
+"query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Selena Gomez Says Martin Short’s Mistake Nearly Ruined Her Wedding"
 },
 "b8e597d22a21": {
 "first_seen": "2026-11-17T17:30:11+00:00",
@@ -44738,6 +44862,30 @@
 "tags": [],
 "title": "Happy's Place: Couples Counseling"
 },
+"d93c126b4b2c": {
+"first_seen": "2026-11-21T09:08:10+00:00",
+"id": "d93c126b4b2c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mSDhyZ0RtV2NnQ2YzbW1DMnR1OEl4NjVoM0c4QV83b0JpTTZWb3NlYXF5d0d0REp4SHh2b2ZBVU5JT3lEdjZyblFpdUxIN2RvTnMxVDBaa1Y1SmlxenhOWnRPVGw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-20T09:24:54+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Bob's Burgers"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Streaming"
+],
+"title": "New on Hulu in December 2026: Only Murders, Bob’s Burgers Christmas"
+},
 "d9421d8d5138": {
 "first_seen": "2026-11-20T06:30:12+00:00",
 "id": "d9421d8d5138",
@@ -48139,7 +48287,7 @@
 "strong": true,
 "summary": "",
 "tags": [],
-"title": "Selena Gomez shares her reaction to Martin Short ruining her wedding cake"
+"title": "How Selena Gomez reacted to Martin Short ruining her wedding cake"
 },
 "e9ec15becf40": {
 "first_seen": "2026-11-17T17:30:11+00:00",
@@ -98691,7 +98839,31 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
+"edition": "2026-11-21-morning",
+"ids": [
+"8f6c62f82d6d",
+"1215a3d50738"
+],
+"people": [
+"John Krasinski",
+"Steve Carell"
+],
+"shows": [
+"The Office"
+],
+"tags": [],
+"tokens": [
+"biggest",
+"gett",
+"office",
+"officially",
+"reunion",
+"yet"
+]
+},
+{
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9c6877fe3b1e"
@@ -98712,7 +98884,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "85fa59cabb64",
@@ -98742,7 +98914,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "958ffffc8d98"
@@ -98772,7 +98944,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "486a5a976b6c",
@@ -98800,7 +98972,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7dace0608cce",
@@ -98827,7 +98999,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "07bd506e3fa0",
@@ -98851,7 +99023,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "eafd90cbe4a1",
@@ -98874,7 +99046,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "78366978c728",
@@ -98897,7 +99069,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "1060a6d69d90",
@@ -98918,7 +99090,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6fa7c6f84a5e",
@@ -98943,7 +99115,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "1dd3d281aee1"
@@ -98963,7 +99135,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6c174f6dd5e3",
@@ -98986,7 +99158,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9ee847c5a716",
@@ -99011,7 +99183,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "01a613c9fbed"
@@ -99038,7 +99210,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c7f553eb7166"
@@ -99067,7 +99239,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c02745e9eaa3",
@@ -99097,7 +99269,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "451fc4dd385c",
@@ -99125,7 +99297,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "dd14fcca31df",
@@ -99155,7 +99327,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "913507b9bdcc"
@@ -99175,7 +99347,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "83c5a88c5119"
@@ -99200,7 +99372,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "5f2ecd0c42eb"
@@ -99220,7 +99392,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "09d724b4ca5c"
@@ -99249,7 +99421,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "002c39d12ded"
@@ -99269,7 +99441,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3dcad27af6a6"
@@ -99294,7 +99466,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "bd4dbce33a6f"
@@ -99315,7 +99487,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c8dd3ecc18c3"
@@ -99336,7 +99508,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "947e9044e1ce"
@@ -99360,7 +99532,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "948073a57cb6",
@@ -99392,7 +99564,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "abfa0fa12c00",
@@ -99428,7 +99600,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3f60f95eaddb"
@@ -99448,7 +99620,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "040cde2278a3",
@@ -99474,7 +99646,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b909becb0120"
@@ -99499,7 +99671,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b6bab250cafe"
@@ -99525,7 +99697,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c9d8cd5c9a34"
@@ -99552,7 +99724,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "033d1f50c253"
@@ -99576,7 +99748,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "2c876de079fa"
@@ -99599,7 +99771,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7211c028e548"
@@ -99622,7 +99794,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "43cfe5e0ad36"
@@ -99641,7 +99813,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ef21195b61f7"
@@ -99666,7 +99838,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "34fda3db9d9d"
@@ -99689,7 +99861,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "714f5213e66d"
@@ -99713,7 +99885,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "4028fe791371"
@@ -99733,7 +99905,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9f0a9bff87fb",
@@ -99762,7 +99934,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "2146a64fc13b"
@@ -99786,7 +99958,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9b14ed8aa2ee"
@@ -99813,7 +99985,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "788cbf705fbd"
@@ -99838,7 +100010,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6d087b86eccb"
@@ -99859,7 +100031,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "f35bea431286"
@@ -99878,7 +100050,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "d876e9912541",
@@ -99904,7 +100076,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a7d48b916090"
@@ -99927,7 +100099,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "5a3099af5b5e"
@@ -99952,7 +100124,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "46848fe1417e"
@@ -99974,7 +100146,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b0d4ce56b3e4"
@@ -99995,7 +100167,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a87c765221b4"
@@ -100022,7 +100194,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "078b46d16566"
@@ -100045,7 +100217,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "aca3630db070",
@@ -100071,7 +100243,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "51762f442ae3"
@@ -100098,7 +100270,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ad0866bc418d"
@@ -100119,7 +100291,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "3b32cdffca2d"
@@ -100149,7 +100321,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "ac68bde4e4f7",
@@ -100175,7 +100347,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "fed8fa7e1728"
@@ -100198,7 +100370,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7c080dea8ffb"
@@ -100219,7 +100391,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "921a2a161c2d"
@@ -100242,7 +100414,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7750a5983e84"
@@ -100268,7 +100440,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "20571786b393"
@@ -100288,7 +100460,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9c634d877622"
@@ -100315,7 +100487,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "25402af1511b"
@@ -100338,7 +100510,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "9ae6088ca13d"
@@ -100367,7 +100539,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "03981a4e040c"
@@ -100396,7 +100568,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "7c8392efd6e2"
@@ -100417,7 +100589,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "b4da618c6841"
@@ -100439,7 +100611,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "a470c0275fa1"
@@ -100464,7 +100636,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "cc765df1e419"
@@ -100487,7 +100659,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "af043ab4fbf1"
@@ -100508,7 +100680,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "6da6b9489f91"
@@ -100532,7 +100704,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "c38e23f53592"
@@ -100558,7 +100730,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "474b56caf67a"
@@ -100586,7 +100758,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "87bdec07ed1f"
@@ -100608,7 +100780,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "939519727089"
@@ -100639,7 +100811,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "50ed4a1c644d"
@@ -100662,7 +100834,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "f696bbf80a33"
@@ -100683,7 +100855,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "27816a8330ef"
@@ -100707,7 +100879,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "05660d4c205f"
@@ -100724,7 +100896,7 @@
 ]
 },
 {
-"at": "2026-11-21T08:58:50+00:00",
+"at": "2026-11-21T09:08:10+00:00",
 "edition": "2026-11-21-morning",
 "ids": [
 "0a861939f652"

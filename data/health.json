@@ -143,7 +143,7 @@
   "type": "search",
   "name": "sitcom",
   "ok": true,
-  "count": 17,
+  "count": 18,
   "resolved": ""
  },
  {
@@ -171,7 +171,7 @@
   "type": "search",
   "name": "late-night show guests",
   "ok": true,
-  "count": 9,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -199,14 +199,14 @@
   "type": "search",
   "name": "\"The Kominsky Method\" OR \"Bob Hearts Abishola\" OR \"The Neighborhood\" OR \"Poppa's House\" OR \"Happy's Place\" OR \"Shifting Gears\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
   "ok": true,
-  "count": 6,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -234,7 +234,7 @@
   "type": "search",
   "name": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
   "ok": true,
-  "count": 2,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -276,7 +276,7 @@
   "type": "search",
   "name": "\"The Mindy Project\" OR \"Never Have I Ever\" OR \"Kim's Convenience\" OR \"Letterkenny\" OR \"Shoresy\" OR \"Only Murders in the Building\"",
   "ok": true,
-  "count": 7,
+  "count": 8,
   "resolved": ""
  },
  {
@@ -290,21 +290,21 @@
   "type": "search",
   "name": "\"The Four Seasons\" OR \"Running Point\" OR \"The Studio\" OR \"Girls5eva\" OR \"Unbreakable Kimmy Schmidt\" OR \"The Ranch\"",
   "ok": true,
-  "count": 3,
+  "count": 4,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
   "ok": true,
-  "count": 2,
+  "count": 0,
   "resolved": ""
  },
  {
   "type": "search",
   "name": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
   "ok": true,
-  "count": 0,
+  "count": 1,
   "resolved": ""
  },
  {
@@ -360,7 +360,7 @@
   "type": "search",
   "name": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
   "ok": true,
-  "count": 5,
+  "count": 6,
   "resolved": ""
  },
  {
@@ -388,7 +388,7 @@
   "type": "search",
   "name": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
   "ok": true,
-  "count": 4,
+  "count": 5,
   "resolved": ""
  },
  {
@@ -402,7 +402,7 @@
   "type": "search",
   "name": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
   "ok": true,
-  "count": 4,
+  "count": 3,
   "resolved": ""
  },
  {
@@ -444,7 +444,7 @@
   "type": "search",
   "name": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
   "ok": true,
-  "count": 12,
+  "count": 14,
   "resolved": ""
  },
  {
@@ -458,7 +458,7 @@
   "type": "search",
   "name": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
   "ok": true,
-  "count": 4,
+  "count": 7,
   "resolved": ""
  },
  {
