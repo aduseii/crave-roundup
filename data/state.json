@@ -2,7 +2,6 @@
 "alerted": {
 "09d724b4ca5c": "2026-11-21T08:58:50+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
-"1f3901dd70db": "2026-11-15T00:00:12+00:00",
 "233a08be11a7": "2026-11-17T17:30:11+00:00",
 "4e8c512cc89b": "2026-11-21T22:27:20+00:00",
 "6e53b9f4231d": "2026-11-16T21:00:30+00:00",
@@ -14,13 +13,16 @@
 "a3e6bc3cb70f": "2026-11-21T15:30:15+00:00",
 "a470c0275fa1": "2026-11-20T18:00:12+00:00",
 "af6a1d2c4656": "2026-11-17T16:29:54+00:00",
+"b29a59e61f50": "2026-11-22T01:00:11+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
 "d68048de1b2e": "2026-11-17T01:00:11+00:00",
 "e103e800f00e": "2026-11-18T02:30:11+00:00",
 "e89dfacd09e8": "2026-11-21T17:30:12+00:00",
 "f03a60f0a646": "2026-11-20T06:30:12+00:00",
+"f4292f84dcb6": "2026-11-22T01:00:11+00:00",
 "f6c63b3b6bbb": "2026-11-18T17:30:12+00:00",
+"f958602373c1": "2026-11-22T01:00:11+00:00",
 "fc00af04801c": "2026-11-16T14:00:14+00:00",
 "fef042971298": "2026-11-20T17:30:17+00:00"
 },
@@ -156,12 +158,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "The 1980s reboot of 'Gidget' star Sally Field's 1960s sitcom lasted longer than the original series. 'The New Gidget' ran for two seasons and 44 episodes, while the original version was canceled after one season. (via TVLine)"
-},
-"1f3901dd70db": {
-"at": "2026-11-15T00:03:50+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Nobody Wants This' has been renewed for Season 4 at Netflix. (via IMDb)"
 },
 "20042855703f": {
 "at": "2026-11-20T06:38:21+00:00",
@@ -661,6 +657,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'That '70s Show' star Ashton Kutcher’s assets, including vintage cars and million-dollar mansions, are reportedly worth significantly more than his earnings from the sitcom. (via IMDb)"
 },
+"b29a59e61f50": {
+"at": "2026-11-22T01:03:38+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "\"A ‘Succession’ spinoff would be a terrible idea. What are you hoping for? ‘Cousin Greg: The Sitcom?’\" 'Succession' star Kieran Culkin says. (via Variety)"
+},
 "b4e498e8a3f2": {
 "at": "2026-11-21T17:38:24+00:00",
 "from_article": true,
@@ -876,6 +878,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'SNL' star Bowen Yang made a surprise cameo in the show’s cold open in a hilarious role. (via USA Today)"
+},
+"f4292f84dcb6": {
+"at": "2026-11-22T01:04:16+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Sweet Valley High' stars Cynthia and Brittany Daniel made their acting debut at 13 years old on 'The New Leave It to Beaver'. The twins appeared as conjoined aliens in the final season of the '80s revival of the classic '60s sitcom. (via TVLine)"
 },
 "f4a9ca3b6b31": {
 "at": "2026-11-16T06:36:27+00:00",
@@ -1512,26 +1520,6 @@
 "summary": "",
 "tags": [],
 "title": "Selena Gomez Shares Her Reaction to Martin Short Ruining Her Wedding Cake"
-},
-"011107500b7f": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "011107500b7f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVjl2X1ZVcnlSc0UtSXg5dkdiUGxqakY0ZHBtUmxxZE1CaEFkQmxHVmdRX0dUbnN5YWFUVkVQR1VEVE9rR2tNLTVqOHJuQ19xaGN3UEg1VEktQ0VoNnprZFdLTUpBNDlmUlFPaE91RVBXVVJxdDN5N1hoODBtdFhVamdTaUZKaE96ZXJyMW5hWHI4elctTGFJ?oc=5",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-14T09:25:00+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "Quote Of The Day By Jamie Lee Curtis: 'I Didn't Know When I Got Sober That I Was Going To Meet Others Who...'"
 },
 "01201051aea5": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -5805,30 +5793,6 @@
 ],
 "title": "‘Only Murders in the Building’ Unveils Season 6 Trailer, Putting Nicola Coughlan Under Suspicion"
 },
-"16173dc4f580": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "16173dc4f580",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nSjVTelU5aWd2R0p3TFU2YnRNLWtoZzQzWnRaWm9fLXFYdTduUnJlQVROQ2FYYW5MdENlcFptcG5DZXNrWV9abHlFREJCOW9XSnpKcjc2aTF2eFU1eDJ2a05Cc0lOWTN2S3VOZ24xM25UaWdmM1BndG1ZMS0?oc=5",
-"outlet": "AOL.com",
-"people": [],
-"published": "2026-11-14T21:55:51+00:00",
-"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Roseanne"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Interview"
-],
-"title": "Roseanne Barr's Ex Tom Arnold Says He Hasn't Been Intimate in a Decade, Thinks Women His Age Are 'Disgusting'"
-},
 "16ef68a8fddc": {
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "16ef68a8fddc",
@@ -7362,30 +7326,6 @@
 "Interview"
 ],
 "title": "Kaley Cuoco Reveals New Jewelry to Mark Becoming a Mom of 2"
-},
-"1f3901dd70db": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "1f3901dd70db",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hY3hzR3pqbHNDdUJ4d2hnZTdjMmxNMENZRUtITmNaTlZJLTlHV2dnLU5Oa1EwWmNQVW5ySGx1MHhrZ1ZNLXNDaFZ4azFiV3JzX0E?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-14T20:16:38+00:00",
-"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
-"query_relevant": false,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Renewal"
-],
-"title": "Nobody Wants This Is Coming Back! Netflix Renews Hit Comedy for Season 4"
 },
 "1f5f6b2cb843": {
 "channel_kind": "streamer",
@@ -9853,28 +9793,6 @@
 "tags": [],
 "title": "David Tennant On 'Only Murders In The Building\", 'Doctor Who' Future"
 },
-"2ac36b225c08": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "2ac36b225c08",
-"kind": "article",
-"link": "https://www.tvline.com/2315388/jennifer-aniston-favorite-friends-scene-guest-star-ben-stiller/",
-"outlet": "TVLine",
-"people": [
-"Jennifer Aniston"
-],
-"published": "2026-11-14T17:52:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Friends"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Of all the famous \"Friends\" guest stars, Ben Stiller was one of Jennifer Aniston's favorites because of his character's hilariously unhinged moments.",
-"tags": [],
-"title": "One Of Jennifer Aniston's Favorite Friends Moments Involved Guest Star Ben Stiller"
-},
 "2ad3b482a4c2": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "2ad3b482a4c2",
@@ -10025,28 +9943,6 @@
 "summary": "",
 "tags": [],
 "title": "Happy's Place: Don't Sweat It"
-},
-"2c05771b9481": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "2c05771b9481",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMy1HZFpRZXMtMDRxUmlDazVjWk9Kd3YwZkxQQ19XUWo4d0t0R3RPVkdCYWdMY0lHcjd1Nk0wZkx0ZEYzdWt6dE9WMUlHZ2xDXzlhMzdWX0lRWFV5dFpDNVQwTHkwY3A3OFpXVkVzLTNMUWZwb3FOMTdUYk1hUkVicmF4TWt3RThXMl9SMTgzTW5SMGg1eXAzbjJHYWRJMmQzR0E?oc=5",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-14T18:13:00+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Death"
-],
-"title": "Skip Hinnant, ‘The Electric Company’ Actor and Voice of Ralph Bakshi’s ‘Fritz the Cat’ Movies, Dies at 86"
 },
 "2c06a9305273": {
 "channel_kind": "outlet",
@@ -10756,28 +10652,6 @@
 "summary": "Adam talks about being neighbors with Matt Damon, working with Miles Teller on his new movie Paper Tiger, playing Mister Sinister in the upcoming X-Men movie, getting asked to be in Marvel movies before this, and his uncle being a dog food...",
 "tags": [],
 "title": "Adam Driver on Being in the Upcoming X-Men Movie & New Movie Paper Tiger with Miles Teller"
-},
-"2fee8521940f": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "2fee8521940f",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9veFNJWUMxX240bzB5OEhMSEJlU0VOUnM5OWg2Q2FDT1NtS09vYVhtaTlmNVc2UkZfODdzRzlXU2ZJLVVVVnRvUVkybzFxTXh2RTNTTk50STkzc3JlTWtBWS1HclIwZkE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-14T22:10:13+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Death"
-],
-"title": "Skip Hinnant, ‘The Electric Company’ Actor and Voice of Ralph Bakshi’s ‘Fritz the Cat’ Movies, Dies at 86"
 },
 "300615f1dd51": {
 "channel_kind": "talk",
@@ -18349,26 +18223,6 @@
 ],
 "title": "Shane Gillis Addresses ‘SNL’ Monologue Backlash: ‘A Lot to Do With the Climate’"
 },
-"545da7ea340f": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "545da7ea340f",
-"kind": "article",
-"link": "https://www.justjared.com/2026/11/14/olivia-wilde-shares-update-on-co-parenting-relationship-with-ex-jason-sudeikis/",
-"outlet": "Just Jared",
-"people": [
-"Jason Sudeikis"
-],
-"published": "2026-11-14T18:20:46+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Olivia Wilde is opening up about where she currently stands with ex Jason Sudeikis. The 42-year-old The Invite actress/director and...",
-"tags": [],
-"title": "Olivia Wilde Shares Update on Co-Parenting Relationship with Ex Jason Sudeikis"
-},
 "54623bfc0c65": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-15T17:30:11+00:00",
@@ -21740,6 +21594,30 @@
 "tags": [],
 "title": "Is ‘SNL’ New Tonight, November 14? John Mulaney Hosts, Musical Guest & How to Watch"
 },
+"6537d430ddc1": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "6537d430ddc1",
+"image": "https://www.tvline.com/img/gallery/is-snl-new-tonight-november-21-2026-host-musical-guest-episode-details/l-intro-1795102134.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2321798/is-snl-new-tonight-november-21-2026-host-musical-guest-watch-details/",
+"outlet": "TVLine",
+"people": [
+"Bowen Yang"
+],
+"published": "2026-11-21T22:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Last week saw John Mulaney return to host Saturday Night Live, with Bowen Yang playing former NVIDIA CEO Jensen Huang. What about this week?",
+"tags": [],
+"title": "Is SNL New Tonight (November 21, 2026)? Host, Musical Guest, Episode Details"
+},
 "653d965bfc70": {
 "first_seen": "2026-11-15T06:30:11+00:00",
 "id": "653d965bfc70",
@@ -22584,6 +22462,25 @@
 "summary": "Musical guest Phoebe Bridgers performs \"Still Standing\" on Saturday Night Live. Saturday Night Live. Stream now on Peacock: https://pck.tv/3n1IyzK Subscribe to SNL: https://goo.gl/tUsXwM Stream Current Full Episodes:...",
 "tags": [],
 "title": "Phoebe Bridgers: Still Standing (Live) - SNL"
+},
+"6af858fbb0f2": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "6af858fbb0f2",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/itgets-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/swooon/1313767/it-gets-worse-season-1-relationships-explained-ethan-aaron-interview/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-21T22:00:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "Leo Reich explains Season 1's romantic twists and turns. It Gets Worse‘s Ethan (Leo Reich), Abi (Emily Fairn), and Sam (Olive Gray) have love lives that are just as chaotic as you'd expect from the A24 sitcom's title.",
+"tags": [],
+"title": "‘It Gets Worse’: Leo Reich Breaks Down All of Season 1’s Messy Relationships"
 },
 "6b0d37b8260c": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -23445,28 +23342,6 @@
 ],
 "title": "Comedians Leah Rudick & Jessica Michelle Singleton Launch ‘People Pleasers’ Podcast With PodcastOne"
 },
-"6ec02e5e2d3b": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "6ec02e5e2d3b",
-"kind": "article",
-"link": "https://collider.com/nobody-wants-this-netflix-season-4-renewed/",
-"outlet": "Collider",
-"people": [
-"Kristen Bell"
-],
-"published": "2026-11-15T00:00:12+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Nobody Wants This"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "Netflix renews Nobody Wants This for Season 4 just two weeks after Season 3 premiered. Kristen Bell and Adam Brody’s romantic comedy continues.",
-"tags": [],
-"title": "Netflix Officially Brings Back a Hit 3-Part Rom-Com Series"
-},
 "6ec131d00da2": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -24145,6 +24020,29 @@
 "summary": "",
 "tags": [],
 "title": "CCA's Celebration Of Black Cinema & TV 2026 Red Carpet Photos: Quinta Brunson, Anthony Mackie, Emayatzy Corinealdi & More"
+},
+"725327ea3fd3": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "725327ea3fd3",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/community-donald-glover-danny-pudi-troy-abed-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305005/community-troy-abed-friendship-dan-harmon-donald-glover/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-21T22:00:11+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Community"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Dan Harmon gets candid about the fan-favorite duo. Community fans are still awaiting the movie, but looking back on six seasons, the show wouldn't be the same without one particular friendship.",
+"tags": [
+"Interview"
+],
+"title": "‘Community’ Boss Reveals How Donald Glover Is Responsible for Troy & Abed’s Friendship"
 },
 "725b4b9d23be": {
 "channel_kind": "outlet",
@@ -26113,29 +26011,6 @@
 "tags": [],
 "title": "John Mulaney / Phoebe Bridgers SNL By The Numbers – S52 E6"
 },
-"7c65595127ff": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "7c65595127ff",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGlwc0JpbVQxQnVtNzhFb1Z3Y1V5VUhUajE4dkJFTlVVanVWLVhIR0kzbHZfbjNDdWVZTzJxR2M0Uk0wTmJmX1g4X1VUXzFxV1ZGWHVxcGFNWXZ0NkxsSXh5N2ZiREFQaTh3YjJrTGp6OXhtQmwyaDFxcEdBZ3htVm1RcjI2a3VKa212MlJvMW56R2VqNXExSVc4M1J0VzBjSU4wUWRyREN1Z25fVFhvb3duRzZCLTY0TzlUUg?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-14T12:00:55+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Renewal",
-"Interview"
-],
-"title": "Ben Hollingsworth Addresses ‘Virgin River’ Cast Changes, Teases Show’s Future Amid Season 9 Renewal"
-},
 "7c8392efd6e2": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "7c8392efd6e2",
@@ -26826,26 +26701,6 @@
 "summary": "",
 "tags": [],
 "title": "Olivia Munn Discusses How John Mulaney’s SNL Sketch Sparks Important Conversations for Women"
-},
-"80db2affa139": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "80db2affa139",
-"kind": "article",
-"link": "https://www.tvline.com/2316880/is-snl-new-tonight-november-14-2026-host-musical-guest-watch-details/",
-"outlet": "TVLine",
-"people": [],
-"published": "2026-11-14T22:30:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Find out everything you need to know about tonight's episode of NBC's long-running, late night sketch show.",
-"tags": [],
-"title": "Is SNL New Tonight (November 14, 2026)? Host, Musical Guest, Episode Details"
 },
 "80dda1f6880d": {
 "channel_kind": "outlet",
@@ -29325,26 +29180,6 @@
 "summary": "Ashe has been getting her flowers for her smash hit ‘Stop The Wedding!’ and opens up about what it feels like to receive this kind of love and recognition after years in the industry.",
 "tags": [],
 "title": "Ashe Is Taking in All the Love for Her Song ‘Stop The Wedding!’"
-},
-"8de56e5a22c6": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "8de56e5a22c6",
-"kind": "article",
-"link": "https://www.justjared.com/2026/11/14/sofia-vergara-leave-gq-men-of-the-year-party-with-douglas-chabbott/",
-"outlet": "Just Jared",
-"people": [
-"Sofia Vergara"
-],
-"published": "2026-11-14T22:14:47+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Sofia Vergara was spotted leaving a party with her friend Douglas Chabbott. The 54-year-old Modern Family star could be seen...",
-"tags": [],
-"title": "Sofia Vergara Leave GQ Men of the Year Party With Douglas Chabbott"
 },
 "8de748cb7e1b": {
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -32532,28 +32367,6 @@
 "tags": [],
 "title": "Is SNL New Tonight (November 14, 2026)? Host, Musical Guest, Episode Details"
 },
-"9d4cf291acdf": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "9d4cf291acdf",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbWhKcGhla2lIWGYwd3RmcWtrY3VTUU5UZnpKbnV4eHJ6X2ZEZmY3V3d6eDV5by1nTS1LNWlJb1hmaTA5UWY4bE5EUC16UlMtcS1ReFotTzluT05SMW55ei1Eby0xUGhOVzd0WWRIRFpCMlZjS0dIYTdsSTFiaWF4WExqYUI5N3JiUUNaQVR1Nk4wVS0xV2NpUmtaTXkydnM5cDFrN2dWb1lnbFFDYlZaU0pVNVVkREFkZ1cwS20wNA?oc=5",
-"outlet": "Yahoo",
-"people": [],
-"published": "2026-11-14T18:52:40+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Death"
-],
-"title": "Rochelle Fleming, First Choice Lead Singer, Dies At 72"
-},
 "9d7dc56e4975": {
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "9d7dc56e4975",
@@ -33259,6 +33072,27 @@
 "Revival"
 ],
 "title": "Home Improvement star gives verdict on reboot"
+},
+"a144cf6f3c95": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "a144cf6f3c95",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Candace-Cameron-Bure-and-Granddaughter-Winnie.jpg?crop=0px%2C455px%2C1500px%2C848px&resize=1000%2C563&quality=70&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/candace-cameron-bure-teases-holidays-after-grandkids-births/",
+"outlet": "Us Weekly",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-21T17:34:43+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Candace Cameron Bure is counting down the days until she can enjoy her newly expanded family’s merry holiday season with her two infant grandchildren in her arms.",
+"tags": [],
+"title": "Candace Cameron Bure Teases 'Big Family' Holiday After Welcoming 2 Grandkids"
 },
 "a145d2354cfe": {
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -34197,6 +34031,27 @@
 "summary": "",
 "tags": [],
 "title": "“No One Has Talked About Depression Like This”: People Are Floored By Kristen Bell’s Seriously Raw Description Of What Anxiety And Depression Can Feel Like"
+},
+"a501e0372006": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "a501e0372006",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/snl.jpg",
+"kind": "article",
+"link": "https://collider.com/snl-saturday-night-live-uk-cut-sketches/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-22T00:36:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The work that goes into SNL week after week is only possible because of multiple rehearsals and drafts, but this is the bitter reality of that work.",
+"tags": [],
+"title": "'SNL' Cast Members Confirm the Brutal Reality That You Don’t See Behind the Camera"
 },
 "a521df5fc40a": {
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -37129,6 +36984,28 @@
 "summary": "A collection of some of the most touching and tender Futurama moments. Stream Futurama on Hulu and Hulu on Disney+ SUBSCRIBE TO HULU'S YOUTUBE CHANNEL Subscribe to our YouTube for the latest shows & updates.",
 "tags": [],
 "title": "Futurama's Most Emotional Moments | Hulu"
+},
+"b29a59e61f50": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "b29a59e61f50",
+"image": "https://variety.com/wp-content/uploads/2020/08/roman-roy.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/kieran-culkin-succession-spinoff-terrible-idea-1236955146/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-22T00:52:28+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Sorry, “Succession” fans,  Kieran Culkin is shutting down any possibility of a spinoff once and for all. The actor, currently starring in “The Hunger Games: Sunrise on the Reaping” as a young Caesar Flickerman, joined the “Heart Breakfast” radio show on Friday to discuss the new film, though hosts...",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”‘"
 },
 "b29aea15e254": {
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -41534,28 +41411,6 @@
 ],
 "title": "Tarayummy Responds to ‘Male-Centered’ Critiques (Exclusive)"
 },
-"c7c1645cf59a": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "c7c1645cf59a",
-"kind": "article",
-"link": "https://www.tvinsider.com/1303749/tyriq-withers-daniel-kaluuva-viral-interview-faa-ground-stop-bella-noche-meme/",
-"outlet": "TV Insider",
-"people": [],
-"published": "2026-11-14T18:04:02+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"SNL"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "'This feels like an SNL skit,' one fan commented, after the Withers quoted a Bella Noche meme. Tyriq Withers and Daniel Kaluuya went viral in an unhinged local news interview amid the nationwide FAA ground stop.",
-"tags": [
-"Interview"
-],
-"title": "Tyriq Withers & Daniel Kaluuya Go Viral in Unhinged Interview Amid FAA Ground Stop"
-},
 "c7ce2bed2b7e": {
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "c7ce2bed2b7e",
@@ -41998,29 +41853,6 @@
 "Interview"
 ],
 "title": "Roseanne Barr's Ex Tom Arnold, 67, Says He Hasn’t Had Sex in 10 Years, Calls People His Age \"Disgusting\""
-},
-"caa478b115c3": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "caa478b115c3",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpQjNWQ2hXMzdOSFRFQ0xkYllJSFpycnd2Q2N3YXVUcVAwMzlRZmk2R3QzZ3d4dDdGZ3hzUklicDUwQk5TNzIzV1BQNjlTOTBmRkE?oc=5",
-"outlet": "IMDb",
-"people": [],
-"published": "2026-11-14T18:44:07+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [
-"Revival",
-"Upcoming"
-],
-"title": "The Rockford Files Reboot Starring David Boreanaz Gets Special Post-nfl Premiere On NBC"
 },
 "caa83d61fde6": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -44349,26 +44181,6 @@
 "tags": [],
 "title": "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
 },
-"d837a689e572": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "d837a689e572",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS3RGMDFBeUg5MFZ1VkZQS3ZZeElfY2tXdW5MTENXdUdjTzdtNHJOcjA1ZHFuc21sWmtaVU9aUkM5Z2Z0RzM0X2RMb2VZOUs3SlN6RjU4LWIwZ3VST25jRUtJY2ZPaHJmU3dLNzhCTHFYRUtsc0tXTkNwQVVjRXk3NGp1SUhWTTZPOXdEV2NrTFk?oc=5",
-"outlet": "Entertainment Weekly",
-"people": [],
-"published": "2026-11-14T17:49:42+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "gnews",
-"strong": false,
-"summary": "",
-"tags": [],
-"title": "‘Glee’ costars Lea Michele, Kevin McHale, and more reunite at ‘Rocky Horror Show’"
-},
 "d876e9912541": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "d876e9912541",
@@ -44433,6 +44245,29 @@
 "summary": "Jon Stewart breaks down the headlines after an eventful Friday the 13th weekend threw everything off the rails. The FAA grounded flights nationwide for hours, Microsoft suffered an outage affecting millions of accounts, and, worst of all,...",
 "tags": [],
 "title": "The FAA Crashes Out Over a Router & Why Is Trump Protecting AI and Jensen Huang? | The Daily Show"
+},
+"d8867754bea4": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "d8867754bea4",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/the-newsroom_bonnwu.jpg",
+"kind": "article",
+"link": "https://screenrant.com/the-newsroom-hbo-best-cast/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-21T23:00:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"30 Rock"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Every actor in Hollywood wants to speak the words of Aaron Sorkin, so HBO was able to attract a stacked ensemble cast for The Newsroom.",
+"tags": [
+"Casting"
+],
+"title": "HBO's 3-Season '30 Rock Meets Network' Drama Series Has One Of Its Best Casts"
 },
 "d89b88d883c5": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -44936,27 +44771,6 @@
 "Upcoming"
 ],
 "title": "Zooey Deschanel & Caleb Hearon TIFF World Premiere ‘Trash Mountain’ Acquired By Magnolia Pictures"
-},
-"dab59a65bd61": {
-"first_seen": "2026-11-15T00:00:12+00:00",
-"id": "dab59a65bd61",
-"kind": "article",
-"link": "https://www.justjared.com/2026/11/14/is-snl-new-tonight-november-14-2026-john-mulaney-phoebe-bridgers-how-to-watch/",
-"outlet": "Just Jared",
-"people": [],
-"published": "2026-11-14T23:22:56+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Saturday Night Live",
-"SNL"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Saturday Night Live is back with another new episode tonight, Saturday (November 14)! The NBC sketch comedy series is continuing...",
-"tags": [],
-"title": "Is ‘SNL’ New Tonight, November 14? John Mulaney Hosts, Musical Guest & How to Watch"
 },
 "dabbb00db50f": {
 "first_seen": "2026-11-18T06:30:20+00:00",
@@ -46171,7 +45985,7 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
 "outlet": "The Independent",
 "people": [],
-"published": "2026-11-21T21:23:45+00:00",
+"published": "2026-11-22T00:23:45+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -49914,6 +49728,28 @@
 "tags": [],
 "title": "‘NBC 100: The Live Celebration’ Adds Amy Poehler, Tina Fey, David Letterman, Queen Latifah and More"
 },
+"f4292f84dcb6": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "f4292f84dcb6",
+"image": "https://www.tvline.com/img/gallery/sweet-valley-highs-twin-stars-made-their-acting-debut-on-a-beloved-60s-sitcoms-revival/l-intro-1794935518.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2319366/sweet-valley-high-twin-stars-acting-debut-beloved-60s-sitcom-revival/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-22T00:52:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "The '90s show Sweet Valley High starred Cynthia and Brittany Daniel, but they made their TV debut as kids in the '80s on a revival of a classic show.",
+"tags": [
+"Revival",
+"Upcoming"
+],
+"title": "Sweet Valley High's Twin Stars Made Their Acting Debut On A Beloved '60s Sitcom's Revival"
+},
 "f43a1c0b27d8": {
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "f43a1c0b27d8",
@@ -51171,6 +51007,29 @@
 "summary": "Taco Bell has always known how to serve, offering up items such as nacho fries, the Cheesy Gordita Crunch and the Crunchwrap Supreme. Now the Yum Brands restaurant chain is working on its swing.",
 "tags": [],
 "title": "Taco Bell, Known for Commercials, Taps Kevin Hart For Its Own Sports Event"
+},
+"f958602373c1": {
+"first_seen": "2026-11-22T01:00:11+00:00",
+"id": "f958602373c1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYVR0ekoxaXJwdHdrT1RNVEJyV3FqSlVBWm4zb01oY093OHRqTmpITlh1aTU2TlNFTEJvZlR5QWJqZkFENlNxT2JKNnlYWHk3T05CZ2ZXd2dTaDctVURxM19iaGRhajM2NzFGTGsxRERfNlJoYU55S05NMTZwODY5dVdPUGR3VWZtVXpLbDlpZDhqZG5GMXVHdll5UXc5YlluY2c?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-22T00:52:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival",
+"Upcoming"
+],
+"title": "Sweet Valley High's Twin Stars Made Their Acting Debut On A Beloved '60s Sitcom's Revival"
 },
 "f9779b0cd91c": {
 "first_seen": "2026-11-18T06:30:20+00:00",
