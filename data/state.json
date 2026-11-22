@@ -17,6 +17,7 @@
 "b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
+"cc16907ecc1e": "2026-11-22T10:30:13+00:00",
 "d68048de1b2e": "2026-11-17T01:00:11+00:00",
 "e103e800f00e": "2026-11-18T02:30:11+00:00",
 "e89dfacd09e8": "2026-11-21T17:30:12+00:00",
@@ -729,6 +730,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' star Amy Poehler and creator Mike Schur are receiving critical acclaim for their new project 'Dig'. A new review suggests the duo has \"done it again\" with the series. (via Mashable)"
+},
+"cc16907ecc1e": {
+"at": "2026-11-22T10:33:08+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Filmmaker Ray Tintori, the boyfriend of 'SNL' alum Heidi Gardner, has passed away at the age of 43. (via IMDb) 🕊️"
 },
 "cc23e0865a5a": {
 "at": "2026-11-16T17:38:39+00:00",
@@ -40166,6 +40173,30 @@
 "tags": [],
 "title": "‘The Daily Show’ Mocks Trump’s ‘Fortune Cookie’-Like Response to Widespread Tech Outages"
 },
+"cc16907ecc1e": {
+"first_seen": "2026-11-22T10:30:13+00:00",
+"id": "cc16907ecc1e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yMlg3eVdNLWRBd3V1WE1Zb0lqcmpPZ3JjTjV6QXR6YThONkgtaEZOM2R1R1NhRzBmX3Etbm15eGdlZnB2Wnp2NzJwQnBWZnktWFE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-22T08:56:51+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "‘SNL’ Alum Heidi Gardner’s Boyfriend, Filmmaker Ray Tintori, Dies at 43"
+},
 "cc23e0865a5a": {
 "first_seen": "2026-11-16T17:30:15+00:00",
 "id": "cc23e0865a5a",
@@ -43714,7 +43745,7 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
 "outlet": "The Independent",
 "people": [],
-"published": "2026-11-22T07:53:45+00:00",
+"published": "2026-11-22T09:23:45+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
