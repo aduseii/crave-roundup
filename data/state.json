@@ -14,6 +14,7 @@
 "a470c0275fa1": "2026-11-20T18:00:12+00:00",
 "af6a1d2c4656": "2026-11-17T16:29:54+00:00",
 "b29a59e61f50": "2026-11-22T01:00:11+00:00",
+"b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
 "c529796de2fe": "2026-11-16T22:00:13+00:00",
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
 "d68048de1b2e": "2026-11-17T01:00:11+00:00",
@@ -98,12 +99,6 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "The trailer for the upcoming 'Family Guy' Christmas special features Peter Griffin and Cleveland Brown fighting over Santa Claus. (via ComingSoon.net)"
-},
-"0fe439706c81": {
-"at": "2026-11-15T06:36:16+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "“Remember, women don’t like guys like us. That’s how we became guys like us,” ‘Saturday Night Live’ star Bowen Yang says. Yang returned as NVIDIA founder Jensen Huang in a cold open alongside host John Mulaney to advise tech CEOs on how to avoid foreign spies. (via TheWrap)"
 },
 "1293ddb13ba9": {
 "at": "2026-11-21T17:37:48+00:00",
@@ -243,12 +238,6 @@
 "model": "gemini-3-flash-preview",
 "text": "\"The unspoken message I got as a child was that we had nothing,\" 'Cheers' star Ted Danson says. He reflects on growing up with very little money and how his family focused on necessities rather than wealth. (via TVLine)"
 },
-"3942b1258dbb": {
-"at": "2026-11-15T06:35:40+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Saturday Night Live' star Bowen Yang made a surprise appearance as Mary Todd Lincoln in a musical sketch titled 'The Little Park of Horrors'. He performed a parody of the 'Dreamgirls' song 'And I’m Telling You I’m Not Going' about the MTA. (via Deadline)"
-},
 "3ef1a5ec4cd9": {
 "at": "2026-11-15T17:44:08+00:00",
 "from_article": false,
@@ -308,12 +297,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "\"I’m the definition of a cameo. I think you may also call it a very small part, but it’s either a very small part or it’s a cameo, depending on how confident I’m feeling,\" former 'Doctor Who' star David Tennant says of his role in 'Only Murders in the Building' Season 6. Tennant joins the cast as the series"
-},
-"53eebe4eb5c4": {
-"at": "2026-11-15T06:35:18+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Comedian and former 'Saturday Night Live' writer John Mulaney returned to host the show for the seventh time. Mulaney roasted RFK Jr. and made out with Jeremy Culhane during his opening monologue. (via Deadline)"
 },
 "5436f9dc40ba": {
 "at": "2026-11-19T06:41:36+00:00",
@@ -567,23 +550,11 @@
 "model": "gemini-3-flash-preview",
 "text": "'That '70s Show' star Ashton Kutcher is poised to rake in billions of dollars following the record-breaking IPO of AI company Anthropic. His former venture capital firm Sound Ventures owns a stake in the company worth approximately $7 billion. (via TheWrap)"
 },
-"9c0fb613ab0d": {
-"at": "2026-11-15T06:35:31+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "s check the \"Describe a person\" rule again.* \"Describe a person by the show they are known for\".\n * Bowen Yang is known for SNL.\n * John Mulaney is known for SNL (writer) or his standup. Usually \"Comedian John Mulaney\".\n\n * *Final check on the text:*"
-},
 "9ee847c5a716": {
 "at": "2026-11-21T06:36:25+00:00",
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Kim's Convenience' is now streaming for free on Xumo Play. The sitcom stars Simu Liu in a show about a Korean Canadian family and their convenience store in Toronto. (via TVLine)"
-},
-"9ef3a29cb2be": {
-"at": "2026-11-15T06:35:05+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Saturday Night Live' alum Bowen Yang made a surprise return to the show during this weekend’s cold open. Yang portrayed NVIDIA CEO Jensen Huang in a sketch about tech billionaires alongside host John Mulaney. (via Just Jared)"
 },
 "9f01d7e5b1ec": {
 "at": "2026-11-22T06:47:43+00:00",
@@ -608,12 +579,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "Camille Grammer claims 'Frasier' star Kelsey Grammer fired their daughter via text message. \"What a coward,\" she says. (via Entertainment Weekly)"
-},
-"a380f40a26a2": {
-"at": "2026-11-15T06:36:29+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Boy Meets World' star Danielle Fishel reveals she struggled with purging and overexercising after creator Michael Jacobs commented on her weight. Fishel says she became obsessive about her appearance after Jacobs told her and co-star Will Friedle they had gained weight before writing the season 7 episode 'She’s Having My Baby Back Ribs'. (via Just Jared)"
 },
 "a470c0275fa1": {
 "at": "2026-11-20T18:03:58+00:00",
@@ -656,12 +621,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' creator Mike Schur and star Amy Poehler are reuniting for the new Peacock comedy 'Dig'. The series follows a team of archaeologists at a Greece-based dig site and premieres on Monday, November 23. (via TV Insider)"
-},
-"ab28b72cdfe3": {
-"at": "2026-11-15T06:36:37+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'SNL' star Bowen Yang appeared as Jensen Huang in the show's cold open to warn tech billionaires about Chinese spy catfishing. (via Parade Magazine)"
 },
 "abfa0fa12c00": {
 "at": "2026-11-21T06:33:44+00:00",
@@ -717,17 +676,17 @@
 "model": "gemini-3-flash-preview",
 "text": "Netflix is launching Netflix Is a Joke Studios to develop scripted projects and original formats with stand-up comedians. Comedian and 'The Roast of Tom Brady' star Nikki Glaser will be the first partner, developing and starring in her own scripted series and two new stand-up specials. (via TheWrap)"
 },
+"b6ea1e201aa9": {
+"at": "2026-11-22T08:02:48+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Ronny Hallin, who played Maxine on 'Laverne & Shirley,' has passed away at 88. She worked in television for several decades. (via Fox News) 🕊️"
+},
 "bb4e100b6e47": {
 "at": "2026-11-20T17:39:00+00:00",
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "HBO has landed the provocative drama 'Open' from 'Harlem' creator Tracy Oliver and 'Insecure' star Issa Rae for development. The series about open marriage reportedly received seven offers from various outlets before landing at the network. (via Deadline)"
-},
-"bce837c95792": {
-"at": "2026-11-15T06:34:27+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Amanda Seyfried will make her 'Saturday Night Live' hosting debut on December 5. The 'Ted: The Animated Series' star will be joined by musical guest Don Toliver. (via Just Jared)"
 },
 "c02745e9eaa3": {
 "at": "2026-11-21T06:35:32+00:00",
@@ -813,23 +772,11 @@
 "model": "gemini-3-flash-preview",
 "text": "Comedian and 'The Daily Show' host Michael Kosta mocked Donald Trump for his \"chummy\" greeting of Vladimir Putin at a summit in China. Kosta also suggested that Trump fell asleep during a speech by Chinese President Xi Jinping. (via TheWrap)"
 },
-"da4f4e86b97c": {
-"at": "2026-11-15T06:35:50+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'You Can See Everything' star Amanda Seyfried is set to make her 'Saturday Night Live' hosting debut on December 5. Don Toliver will serve as the musical guest for the episode. (via TheWrap)"
-},
 "da7619c3b76e": {
 "at": "2026-11-20T17:38:08+00:00",
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' star Amy Poehler shares her tips for a good hang at Thanksgiving. (via AP News)"
-},
-"deab8c221afd": {
-"at": "2026-11-15T06:36:03+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"No one likes him. You dumbass … your thing can’t be the measles!\" comedian and 'Saturday Night Live' host John Mulaney says during his monologue. (via Variety)"
 },
 "e103e800f00e": {
 "at": "2026-11-18T02:34:06+00:00",
@@ -3503,6 +3450,28 @@
 "summary": "",
 "tags": [],
 "title": "John Mulaney Torches RFK Jr. in ‘SNL’ Monologue: ‘Your Thing Can’t Be the Measles, You Dumb*ss’"
+},
+"09a7f96f22ea": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "09a7f96f22ea",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUUdiRnJHRFBYM3MwSFkyT0tHeHpaZUR3WnFMR2xXSFhpNkVjdDRVR1FvdWhOSWhDd0dLa2o3WU5PZUxyVFJraUE3X0cyaUZGX2JUQ1Rhel9hZzFrMGNZUmp4dWo1c3otSzNOS0R5OTgzTWg0cUZQcHFRaGtTNlBxWXhTaWdodTVPOXlTS1pYbzRrdWUtTGY1N0RGTDJtbzJlcEpQTExKYkxmOWd3TUJQckh5bw?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-21T21:52:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "William Shatner Believes CBS Made A Big Mistake Canceling His Short-Lived Sitcom"
 },
 "09b2a06248bb": {
 "first_seen": "2026-11-16T06:30:10+00:00",
@@ -13870,6 +13839,29 @@
 "tags": [],
 "title": "The name's DeMamp. Adam DeMamp. #workaholics #bond"
 },
+"422e504df050": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "422e504df050",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Qa2k4aWx2bWI2cU91dWZkNmVFUC1nX0NNTWIwVE5Bai1GaDg2TUdlRGR3bFB3UlhlSkNtMWViNWVpcno1dlBHZjNlVUJaelBMdGp2Rko3N1l2N05uczBncWJlVDcyQQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-22T01:10:42+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival",
+"Upcoming"
+],
+"title": "Sweet Valley High's Twin Stars Made Their Acting Debut On A Beloved '60s Sitcom's Revival"
+},
 "4249c3b0be67": {
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "4249c3b0be67",
@@ -14523,6 +14515,28 @@
 "summary": "There’s no Penny Proud without Kyla Pratt. 😤 In her ET Then & Now, Kyla reveals she once worried her “raspy” voice wasn't right for the iconic role.",
 "tags": [],
 "title": "Kyla Pratt Worried Her Voice Wasn't Right for Penny Proud"
+},
+"45a07a22e423": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "45a07a22e423",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBZTjh3UGI1UE9qcVh3Zk0xWTNpTDFKYnpnUElYU2ZnX3ZJYWhVenAzRVh6bGVNQTlNYThZeklQV3FqOFVYQUh4QnpfYV9BOTRkNUFjRGxvYndjcEZ6T3RSMklDTXBkUQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-21T22:00:22+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "William Shatner Believes CBS Made A Big Mistake Canceling His Short-Lived Sitcom"
 },
 "45affe01d660": {
 "first_seen": "2026-11-17T16:29:54+00:00",
@@ -34950,6 +34964,26 @@
 ],
 "title": "Jennifer Lawrence attends ‘Hunger Games: Sunrise on the Reaping’ premiere"
 },
+"b15648d96dca": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "b15648d96dca",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ1UydDJ2MjJ1VlgyTnpVaFJfanNMSTdhb1RCQjlxVG8xVzR4UVZyeWxXSHZCTDByeWhoa3R4eVdfbWVGNW1DMmNBaWZVdXBTd0Q2RnNSSDJBWkMxSEZsUUVSQU5NR2tEUHc5TnV2SEVVR1pCLWxFeXUtUXVSX2xEV2Y4bHpSdzBPZ3ZBLVlwczNsQXkyOHNHYy1IZXk5bFlaZUE?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-21T19:30:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Will there be a Season 5 of ‘From’? Seasons 4 and 5 of ‘From’ Netflix/MGM+ info"
+},
 "b159321270ee": {
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "b159321270ee",
@@ -36095,6 +36129,30 @@
 "summary": "Netflix Is a Joke Studios will develop scripted projects and original formats with stand-up comedians",
 "tags": [],
 "title": "Netflix Partners With Nikki Glaser on Scripted Series to Launch Its New Comedy Studio"
+},
+"b6ea1e201aa9": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "b6ea1e201aa9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbXU5TWdhR1VDUUl2bVUzM1dZZF8xaVJZWXVPR3dZZm9iN2JxSjhUMEU4T2IyM0YzQjROUWs2azVPbUoyUE5mQ0dsZEdOUVQ1UzBRRTdrTUUyMXpGSzljV2x2OUZEd2M2ekxJQ3d2TVp1M0o3SWdLcnRXem5BWFEwTXdGbF8tVnRWWmlXTTJ1enpPZ2VPOG42QnJZOGRqZ2lsWXdUUWFtQ2lLT1AtLVVYdzg4SnbSAboBQVVfeXFMUDhhNG40bEdYTW1NLTVkUHhPZHl2amVCeHFZNHpYQkVwaWMyMWVHWFlicXg0bnZuQnVaQzNUSjdwdjFTcEJ4Q0R2cFJLeW1HVDBiQU5zQWpDbGt5Zkw2aWN6UnBPOEdsVW9xbDk1RWs4bmhvMDE2dWhFLTFpVE9tYU5vLWQ4cVZFMHRneWk1c1pZNHJkX2cxV1JGNEFFdEFyS0FsZlRDVUFWWXBndFU4LUpud1o3empTR1pn?oc=5",
+"outlet": "Fox News",
+"people": [],
+"published": "2026-11-22T02:05:15+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Laverne & Shirley"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Ronny Hallin, who played Maxine on 'Laverne & Shirley,' dies at 88 after decades in television: report"
 },
 "b73fb8efdce7": {
 "channel_kind": "outlet",
@@ -43656,7 +43714,7 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
 "outlet": "The Independent",
 "people": [],
-"published": "2026-11-22T00:23:45+00:00",
+"published": "2026-11-22T07:53:45+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -45417,6 +45475,28 @@
 "tags": [],
 "title": "Why Candace Cameron Bure Thinks ‘DWTS’ Was Harder Than ‘Special Forces’: ‘I Was Just Mentally Sinking’"
 },
+"eab3604e2a9a": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "eab3604e2a9a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZVVoY0k0YS0xSzd1QjU4bllHQnJsY3FNX195Q0VnWE9NQlVOMUxvTzVKcWpHV2ZCSkpHMVJmLWpNdEVlUmkyWTViYkVydkRjZlN1QVhGYTVKekhDSzgxdi03X3l6Y1JDX2VjeVUwQkRMSFRZZG9nd29BM1FobDdYeEpOSkl6Y3NJczZIQ0dXNUlLRzZuV1E?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-21T14:00:05+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Ryan Coogler's X-Files reboot is still in the writing stages"
+},
 "eabb8719108c": {
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "eabb8719108c",
@@ -46312,6 +46392,26 @@
 "summary": "",
 "tags": [],
 "title": "‘Everybody Loves Raymond’: Patricia Heaton on What Barone Family Would Be Doing Now"
+},
+"ef0069d729c6": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "ef0069d729c6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWWZHSjhHbDRPVGZYQ0dTQzN0eGplOE5sSmZiNzlZaUpCNTJ3N2w4WUVnNHBkT210cHNvRGNnZ1daQ1hxZExGWHJvTWtCcEgwaGRSRmRaTXlibGlHQU8tOWpVRmFQcE1zLWNTSDBUTXMyU2xaU2ZpajREdW5rN2xkWi1USVI1eFc1ZWQ5SndRQlhnMkYxTkMxcTI1N1ptNXNXX0RKT2wwTWlmNHZK?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-22T02:12:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Before The Big Bang Theory, Simon Helberg Had A Guest Role On A Beloved Fox Sitcom"
 },
 "ef09da3aa366": {
 "channel_kind": "streamer",
@@ -49523,6 +49623,26 @@
 "summary": "20-time GRAMMY winner Bruce Springsteen returns to The Late Show to perform \"Streets of Minneapolis,\" a song he wrote in the midst of terrifying government-led violence against the people of Minnesota.",
 "tags": [],
 "title": "\"Streets of Minneapolis\" - Bruce Springsteen (LIVE on The Late Show)"
+},
+"fe01b2af52bb": {
+"first_seen": "2026-11-22T08:00:11+00:00",
+"id": "fe01b2af52bb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82d04zTW1odEMwWlJjaDBRMk0wZnpWbVVzZTlLb1hzTFFHM3FWOER3a2I4WWV6TXBCd2dZbDA4Q2N2M3VGQnBlWHRBUVc5aTB3VVJZVWNBVUdDOEU1Q09aZUptY0ZXdw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-22T02:31:30+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Before The Big Bang Theory, Simon Helberg Had A Guest Role On A Beloved Fox Sitcom"
 },
 "fe01d3dedf3b": {
 "channel_kind": "outlet",
