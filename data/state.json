@@ -19,6 +19,7 @@
 "c880e336cd4b": "2026-11-16T18:00:11+00:00",
 "cc16907ecc1e": "2026-11-22T10:30:13+00:00",
 "d68048de1b2e": "2026-11-17T01:00:11+00:00",
+"d74a18d9cbe8": "2026-11-22T15:30:14+00:00",
 "e103e800f00e": "2026-11-18T02:30:11+00:00",
 "e89dfacd09e8": "2026-11-21T17:30:12+00:00",
 "f03a60f0a646": "2026-11-20T06:30:12+00:00",
@@ -760,6 +761,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Filmmaker Ray Tintori, boyfriend of 'Saturday Night Live' alum Heidi Gardner, has passed away at the age of 43. Tintori was known for directing music videos for bands like MGMT and Arcade Fire, and was part of the filmmaking group behind 'Beasts of the Southern Wild'. 🕊️ (via Just Jared)"
+},
+"d74a18d9cbe8": {
+"at": "2026-11-22T15:32:12+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'SNL' star Bowen Yang made a cameo playing Jensen Huang during an opening sketch on the series. Yang left the show in 2025 during the middle of the season. (via Hollywood Life)"
 },
 "d8867754bea4": {
 "at": "2026-11-22T06:47:30+00:00",
@@ -2511,6 +2518,31 @@
 "tags": [],
 "title": "Charlie Sheen stunned to learn fellow actor Rob Lowe had been praying for him for years"
 },
+"0500da51878e": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "0500da51878e",
+"image": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/11/GettyImages-2249650691-1-e1795355915793.jpeg?fit=2210%2C1250&quality=89&ssl=1",
+"kind": "article",
+"link": "https://hollywoodlife.com/2026/11/22/what-did-bowen-yang-say-on-podcast-michael-rapaport/",
+"outlet": "Hollywood Life",
+"people": [
+"Bowen Yang"
+],
+"published": "2026-11-22T14:23:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Michael Rapaport called the 'SNL' alum 'problematic' after he apologized for slipping a controversial slur on his podcast, 'Las Culturistas.'",
+"tags": [
+"Interview"
+],
+"title": "What Did Bowen Yang Say on His Podcast? Inside the Backlash From Michael Rapaport"
+},
 "050fadd97fd7": {
 "channel_kind": "talk",
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -3609,6 +3641,29 @@
 "summary": "",
 "tags": [],
 "title": "“Newlyweds” Stars Téa Leoni and Tim Daly Detail Their Quiet Life Together After “Madam Secretary” Ended (Exclusive)"
+},
+"0a370fce67a9": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "0a370fce67a9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxbUdUemtaMVMzOF9WVlhYQm1SUGVVQkFpM19fU2h3TVdoSTk2YXhEQUxHMGJLaVRmQUczUE96amlGaFBPU012WVExXzc3bjF6VG01cU9PWjl0dW1ZbW5OY09jNC0?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-22T08:29:58+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival",
+"Upcoming"
+],
+"title": "Sweet Valley High's Twin Stars Made Their Acting Debut On A Beloved '60s Sitcom's Revival"
 },
 "0a41061a2956": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -10182,7 +10237,7 @@
 "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNHBZclFrNVZORURqVE1jaUJZY2RDQ1g3YlBnZ3dQMU8tSEpmUERJN2VCZkMxd19tM3RyNTFRSDZDa20zS2R3VXRrS1hCU09WSEdQZHRfRDRvQWVLSnhpU3lJMl9KUmFOTGNvMlNhT0JPY1FuZ0ZrTktmV2RZTWNoZUFNRGpnQ0lPc3FaUmZ3WlRoSFM4WnZjNnp3SktDOFBUVFhDX3lJSHJhY1lFYmpxYXh0TFJ0ei02eWZWOWswdkZHX25V?oc=5",
 "outlet": "The Guardian",
 "people": [],
-"published": "2026-11-21T21:48:00+00:00",
+"published": "2026-11-21T20:31:00+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -15380,6 +15435,26 @@
 "summary": "Anne Hathaway is closing out her blockbuster year with the ultimate blessing,  welcoming baby No. 3 with her husband, Adam Shulman. 🍼⁠ ⁠ TMZ published photos of Anne out in NYC on Tuesday with her newborn baby in a carrier.",
 "tags": [],
 "title": "Anne Hathaway Gives Birth to Baby No. 3 With Husband Adam Shulman"
+},
+"4aa6ab86b763": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "4aa6ab86b763",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaFpFX0x3VGRlbnNNcTI1UDhXV2FlVWhmM3QxMlZwMU5UYzlIbksza0E0U0pvZkJkV012SVJQWk4xWlpqN214TDI0WkZ2dGZnUjR0ZGVjYjFDRGpLdWxLaVVQS1A5QVlVRk1NYTkwS2ZqMGsxV1ZhUWZXWEdhOEJnbTUzbE13S1Y5ZGRsN2NHSQ?oc=5",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-22T11:44:12+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "‘Widow’s Bay’ Season 2 Is Changing the Show’s Formula in Exactly the Right Way"
 },
 "4abc796c75b6": {
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -30193,6 +30268,29 @@
 "tags": [],
 "title": "What are the allegations against Will Smith? Details explored as star gets sued by his friend"
 },
+"98c6cdf99661": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "98c6cdf99661",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Ftova-feldshuh-attends-searchlight-pictures-147133233.jpg",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/22/entertainment/nobody-wants-this-star-addresses-rumored-feud-with-adam-brody/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-22T14:08:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Feldshuh plays Brody’s mother, Bina, in the Netflix series.",
+"tags": [
+"Interview"
+],
+"title": "‘Nobody Wants This’ star addresses rumored feud with Adam Brody: ‘I really am extremely fond of him’"
+},
 "98dc6a7bceff": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-16T17:30:15+00:00",
@@ -30541,6 +30639,25 @@
 "summary": "",
 "tags": [],
 "title": "Ashton Kutcher could become billionaire after early investment in AI company"
+},
+"9abf9ad6b52a": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "9abf9ad6b52a",
+"image": "https://www.tvline.com/img/gallery/firefly-star-jewel-staite-got-her-breakout-role-in-a-classic-disney-sitcom/l-intro-1794847633.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2317810/firefly-star-jewel-staite-breakout-role-disney-sitcom-flash-forward/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-22T13:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "She may be famous as Kaylee Frye from Firefly, but Jewel Staite's breakout role was in the first show under the Disney Channel Original Series umbrella.",
+"tags": [],
+"title": "Firefly Star Jewel Staite Got Her Breakout Role In A Classic Disney Sitcom"
 },
 "9adc4e7c5a24": {
 "channel_kind": "outlet",
@@ -35246,7 +35363,7 @@
 "Revival",
 "Interview"
 ],
-"title": "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”‘"
+"title": "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”’"
 },
 "b29aea15e254": {
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -41992,6 +42109,31 @@
 "tags": [],
 "title": "This Dark Comedy Series From The Writers Of Deadpool Is Perfect For A Weekend Binge"
 },
+"d74a18d9cbe8": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "d74a18d9cbe8",
+"image": "https://i0.wp.com/media.hollywoodlife.com/uploads/2025/12/NUP_209235_00024_4a4432-e1766169989803.jpeg?fit=845%2C478&quality=89&ssl=1",
+"kind": "article",
+"link": "https://hollywoodlife.com/feature/why-did-bowen-yang-leave-snl-5494824/",
+"outlet": "Hollywood Life",
+"people": [
+"Bowen Yang"
+],
+"published": "2026-11-22T15:10:51+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Bowen left the NBC sketch comedy series in 2025 during the middle of the season. One year later, he made a fun cameo playing Jensen Huang during an opening sketch.",
+"tags": [
+"Exit"
+],
+"title": "Why Did Bowen Yang Leave ‘SNL’? What He Said About His Midseason Exit"
+},
 "d755c0c32309": {
 "first_seen": "2026-11-21T17:30:12+00:00",
 "id": "d755c0c32309",
@@ -42596,6 +42738,26 @@
 "summary": "In a society torn apart by politics, how can Americans hope to bridge the partisan divide? Meet Nick and Nate Roberts, identical twins whose political views couldn't be more different.",
 "tags": [],
 "title": "Can Polarized Identical Twins Solve America's Political Divide? Grace Finds Out | The Daily Show"
+},
+"daa32ee9d82d": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "daa32ee9d82d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WZG93OWQtZkstaU5zaEVDYWxBNDVSRHhVcUIwOVpJcGw5QUFaaFRqWmJaaHRRRlZjY1JFZmt6ODg1Nzd3ODlxaTNOQlhvOGZ3NWcwSUJFaU9qaG84R0JUQXBhU3pteDA0Y1E?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-22T02:32:56+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Before The Big Bang Theory, Simon Helberg Had A Guest Role On A Beloved Fox Sitcom"
 },
 "daa65ca48d8f": {
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -43745,7 +43907,7 @@
 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjl0TFpJNmMzdGZ6dUtiNHZQMEZnSWIxeWRCOVlRU1BiOHdlQ3dUZW12ODctNnNFTlZvSE1OZG9nNlh3M05JOUpPX1c1VFVTa3RmbkNHNHp2R2RYeWNYc2JCdzlzb0RXdEpoN3FDLXBDSVhiTjEzc2d3YllWQkk5RDNNVjZpWnQxS1NSamV2amNsdWh5VThUZl93S3hrV2Q1VXRFMWdVbw?oc=5",
 "outlet": "The Independent",
 "people": [],
-"published": "2026-11-22T09:23:45+00:00",
+"published": "2026-11-22T15:23:45+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -45378,7 +45540,7 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVVpMQXZQUkxSUTBtY29ZZ0t1dWsxTHoxSjJGeEVLc3NDbFZTNmYzQnNhMkpGWUtYT0VwUExiV1cybkRwUm5lekFXNjdFeUxubVV2WGtVWm9IbnVaZnlwZ005ZDdjRno4OEtoWmp6djhYV3E1Qm56blF5cEpaRk9KNzJScFhRS1R4bUxVR2hRODhRWXVBam9CYlBvRDVJUdIBowFBVV95cUxPZVkxX1I4SXRXSWFZOGl3bWxaNGE0Vjl6bG5OMnU4ZnBRVVNJbVltcHdDc1hzX2tvTmxCMklzcmtDRXNBX01UUnJ6bHhtWkVjcDdnd1RQb01DbFhCSlZsb0wwcWtlby1INEw0eTdXMm11ZUxQQXZSOU1USXdhSnBJZjhtYnlfT2NNbXk3cy1vVmtGYjlBVmlWYXRfV00wX3lMZExB?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-19T08:35:25+00:00",
+"published": "2026-11-22T10:42:25+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -48553,6 +48715,29 @@
 "summary": "",
 "tags": [],
 "title": "The Rock Hall of Fame's best surprises, from Phil Collins to Aerosmith"
+},
+"f872cd289b32": {
+"first_seen": "2026-11-22T15:30:14+00:00",
+"id": "f872cd289b32",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Disney-1.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/tv/news/2225972-new-disney-releases-this-week-november-23-29",
+"outlet": "ComingSoon",
+"people": [
+"Jenna Ortega"
+],
+"published": "2026-11-22T15:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Disney+ is adding new episodes of Big City Greens Season 5 during the week of November 23–29, 2026. The episodes, titled “Forever Christmas” and “Skate Expectations,” will debut on the streaming platform in the U.S. three days before their Disney Channel premiere.",
+"tags": [
+"Streaming"
+],
+"title": "Season 5 of Hit Jenna Ortega Series & More Disney+ Releases This Week"
 },
 "f8a04733e48a": {
 "first_seen": "2026-11-20T17:30:17+00:00",
