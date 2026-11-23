@@ -1,6 +1,7 @@
 {
 "alerted": {
 "09d724b4ca5c": "2026-11-21T08:58:50+00:00",
+"1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "233a08be11a7": "2026-11-17T17:30:11+00:00",
 "3b6bf474c022": "2026-11-23T20:30:16+00:00",
@@ -144,6 +145,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Two and a Half Men' star Jon Cryer will guest star on the CBS legal drama 'Cupertino'. He will play Judge Van Linkerspleen, a role described as blending comedy and drama. 'Cupertino' is a show starring Mike Colter about a lawyer who takes on Silicon Valley tech companies. (via TV Insider)"
+},
+"1e001df23acf": {
+"at": "2026-11-23T21:01:01+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Apple TV has revealed the fate of 'Ted Lasso' three months after the series was revived. (via CBR)"
 },
 "1e3d73bcb4fb": {
 "at": "2026-11-21T15:34:07+00:00",
@@ -4174,6 +4181,28 @@
 "tags": [],
 "title": "Heidi Gardner's Boyfriend Ray Tintori Called ‘SNL' Star His ‘Angel' in Heartbreaking Tribute Before Death at 43"
 },
+"0e6b2ec5d9c6": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "0e6b2ec5d9c6",
+"image": "https://variety.com/wp-content/uploads/2026/11/split-image-1000-5-1.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/snl-next-hosts-timothee-chalamet-robert-de-niro-1236956234/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-23T21:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "“Saturday Night Live” is closing out the year with hosts Robert De Niro and Timothée Chalamet. De Niro will headline “SNL” for the fourth time on Dec. 12 with musical guest Slayyyter, who makes her debut at Studio 8H.",
+"tags": [],
+"title": "‘SNL’ Sets Timothée Chalamet and Robert De Niro as Final Hosts of 2026"
+},
 "0e6ceb8589ea": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -6684,6 +6713,31 @@
 "summary": "A new holiday romantic comedy will bring together Rachel Bilson and Scott Foley",
 "tags": [],
 "title": "Rachel Bilson & Scott Foley’s New Christmas Movie Is Streaming for Free"
+},
+"1e001df23acf": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "1e001df23acf",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hdVlOQVQyU0tSSm4tNUZKbVNkNGdJQms4dEQ0TGxCT21GV0Q4bEJic3VKZE1XY2ZuZHF5MU4tZUxVRVJ4MTdRVVlid3Z2bHB4aGdTWGtaMENRQmtpYm1jaVFJUU5zQQ?oc=5",
+"outlet": "Comic Book Resources",
+"people": [],
+"published": "2026-11-23T20:55:13+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival",
+"Interview"
+],
+"title": "Apple TV Reveals Ted Lasso's Fate 3 Months After Revival"
 },
 "1e200db29961": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -25781,6 +25835,31 @@
 "tags": [],
 "title": "'The Office' meets 'Breaking Bad': David Costabile chats about his cameo in 'The Banker' episode"
 },
+"844719794a0c": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "844719794a0c",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/creative-content/tv-shows/ted-lasso-season-5-renewal/",
+"outlet": "TheWrap",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T20:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The Jason Sudeikis-led series broke records at Apple TV as the Season 4 premiere episode tallied nearly 300 million minutes viewed",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Renewed for Season 5 at Apple TV"
+},
 "84521b64b6cb": {
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "84521b64b6cb",
@@ -27299,6 +27378,27 @@
 "tags": [],
 "title": "'The Office' cast reminisces about Bob Odenkirk almost playing the role of Michael Scott"
 },
+"8cc2546cc8a6": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "8cc2546cc8a6",
+"image": "https://www.justjared.com/wp-content/uploads/2026/11/dig-cast-guide.jpg",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/23/dig-cast-guide-amy-poehler-hugh-laurie-peacock-characters-guest-stars/",
+"outlet": "Just Jared",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-23T20:25:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "DIG is officially streaming on Peacock, and the new comedy series features plenty of familiar faces! The 10-episode show, starring...",
+"tags": [],
+"title": "‘DIG’ Cast Guide: Meet the Stars of Amy Poehler & Hugh Laurie’s New Peacock Comedy Series"
+},
 "8d01269045b1": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -28765,6 +28865,29 @@
 "summary": "",
 "tags": [],
 "title": "Late-Night Hosts Take Aim at Trump’s Reaction to the FAA Shutdown"
+},
+"93d83b1a1a04": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "93d83b1a1a04",
+"image": "https://www.tvline.com/img/gallery/ted-lasso-renewed-for-season-5-at-apple-tv/l-intro-1790950428.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2325621/ted-lasso-renewed-season-5-apple-tv-jason-sudeikis-return/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-23T20:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "It's official: Ted Lasso has been renewed for Season 5 at Apple TV. Get scoop, plus a reminder of what the Season 4 finale set up for the Lady Greyhounds.",
+"tags": [
+"Renewal"
+],
+"title": "Ted Lasso Renewed For Season 5 At Apple TV"
 },
 "94082a99070b": {
 "channel_kind": "streamer",
@@ -31679,6 +31802,29 @@
 "tags": [],
 "title": "\"Unkind and unfair\": Charlie Sheen owns up to old \"mean\" tweets about Rob Lowe"
 },
+"a2f7c97b8bdc": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "a2f7c97b8bdc",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/coaches-alice-chilton-ted-lasso-and-beard-observing-practice-in-ted-lasso-season-4-episode-3.jpg",
+"kind": "article",
+"link": "https://screenrant.com/ted-lasso-season-5-renewal-confirmed/",
+"outlet": "Screen Rant",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T20:36:17+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Following the season 4 finale of the Jason Sudeikis-starring drama this fall, Apple TV has officially decided the fate of Ted Lasso season 5.",
+"tags": [],
+"title": "Ted Lasso Season 5 Fate Sealed By Apple TV"
+},
 "a301d10bfcf2": {
 "first_seen": "2026-11-17T06:30:10+00:00",
 "id": "a301d10bfcf2",
@@ -32381,6 +32527,31 @@
 ],
 "title": "Hayley Atwell Says New ‘Avengers: Doomsday’ Trailer Lands Monday"
 },
+"a6b426a9e8d3": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "a6b426a9e8d3",
+"image": "https://www.justjared.com/wp-content/uploads/2026/10/ted-lasso-end.jpg",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/23/ted-lasso-renewed-for-season-5-at-apple-tv-who-is-coming-back/",
+"outlet": "Just Jared",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T20:42:53+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Ted Lasso is officially returning for a fifth season to Apple TV! The Jason Sudeikis-starrer, which he also executive produces,...",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Renewed for Season 5 at Apple TV: Who Is Coming Back?"
+},
 "a6b4a4ad0519": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "a6b4a4ad0519",
@@ -32577,6 +32748,27 @@
 "summary": "Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf",
 "tags": [],
 "title": "The world’s MOST eligible bachelor. Brand-new episodes come out Wednesdays at 10:30/9:30c."
+},
+"a7665748208a": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "a7665748208a",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/bridgerton-season-4-ruth-gemmell-hannah-dodd-nicola-coughlan-claudia-jessie-3-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/swooon/1314427/bridgerton-reunion-nicola-coughlan-simone-ashley-photo-only-murders-in-the-building/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-23T20:23:34+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Only Murders in the Building"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "It was a family reunion for Nicola Coughlan and Simone Ashley! It was a Bridgerton reunion on the Only Murders in the Building Season 6 red carpet in London as Nicola Coughlan and Simone Ashley celebrated their roles in the latest chapter of Hulu's hit comedy.",
+"tags": [],
+"title": "‘Bridgerton’s Nicola Coughlan & Simone Ashley Reunite After Wrapping Season 5"
 },
 "a7936923c0cd": {
 "first_seen": "2026-11-17T06:30:10+00:00",
@@ -34498,6 +34690,32 @@
 "summary": "",
 "tags": [],
 "title": "\"I’ve never felt seen like that\": SNL’s viral ‘Sister’ skit lays bare the invisible weight of caregiving for women"
+},
+"b0356daf24b7": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "b0356daf24b7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa09jSjlHMUhNalJmYXRnWlJSbVJzaktxQlNabHVBRmlhTUVkbFJzbTZIaTJqa2t4aUJOMHdHWG1YVWFidEpYbFNuOVZLeWFkLVhfeXg2NkdtcFdSWnhQTFpJNG5NUDVINGNfaE1QcGxQc2Vwcl9xbkxCZzI5VDJvN2JVcDI1UVJ3ZEFSSmdQWkJveXc0TUNEZDdWNA?oc=5",
+"outlet": "Variety",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T20:30:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Renewed for Season 5 at Apple TV, With Jason Sudeikis Returning"
 },
 "b0395dbf9606": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -37715,6 +37933,29 @@
 ],
 "title": "Candace Cameron Bure Reveals Holiday Plans as a First-Time Grandmother"
 },
+"c0a9d5d90232": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "c0a9d5d90232",
+"image": "",
+"kind": "article",
+"link": "https://collider.com/ted-lasso-season-5-renewed-apple-tv/",
+"outlet": "Collider",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T20:50:51+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Ted Lasso is officially returning for Season 5 on Apple TV, with Jason Sudeikis back as the Emmy-winning comedy continues beyond Season 4.",
+"tags": [],
+"title": "The Fate of Apple TV’s Original Hit Series Confirmed"
+},
 "c0b6a890e67f": {
 "first_seen": "2026-11-23T06:30:11+00:00",
 "id": "c0b6a890e67f",
@@ -40424,6 +40665,29 @@
 "tags": [],
 "title": "Still Game reunion confirmed as tickets for Glasgow show go on sale"
 },
+"d1226f13aa51": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "d1226f13aa51",
+"image": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/07/TedLasso_Photo_040104_23c703-e1784813235366.jpeg?fit=1380%2C780&quality=89&ssl=1",
+"kind": "article",
+"link": "https://hollywoodlife.com/feature/ted-lasso-season-5-updates-5551807/",
+"outlet": "Hollywood Life",
+"people": [],
+"published": "2026-11-23T20:36:51+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Could we see the beloved football coach come back for another season? Here's what we know so far about Ted Lasso's future.",
+"tags": [
+"Upcoming"
+],
+"title": "‘Ted Lasso’ Season 5: Projected Release Date, Plot Details & All Updates"
+},
 "d194555f36fd": {
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "d194555f36fd",
@@ -42410,6 +42674,27 @@
 ],
 "title": "Dawson’s Creek's Kerr Smith Reflects on History-Making Same-Sex Kiss, 26 Years Later | ET Then & Now"
 },
+"dc60776aec62": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "dc60776aec62",
+"image": "https://deadline.com/wp-content/uploads/2026/11/Clashing-Through-The-Snow-Chris-Michelle.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/clashing-through-the-snow-christopher-briney-interview-1237231859/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-23T21:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "In Prime Video’s latest original Christmas romantic comedy, Clashing Through the Snow, Christopher Briney (The Summer I Turned Pretty) and Michell Randolph (Landman) portray rival editors whose relationship takes an enemies to lovers arc during a road trip to New York .",
+"tags": [
+"Interview"
+],
+"title": "‘Clashing Through The Snow’ Stars Christopher Briney & Michelle Randolph Talk Comedy’s “Important” Presence In Script And How They Built Their Characters"
+},
 "dcddf94c9793": {
 "first_seen": "2026-11-17T17:30:11+00:00",
 "id": "dcddf94c9793",
@@ -42455,6 +42740,29 @@
 "Casting"
 ],
 "title": "HBO's 3-Season '30 Rock Meets Network' Drama Series Has One Of Its Best Casts"
+},
+"dcf0047da710": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "dcf0047da710",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/ted-lasso-renewed-season-5-apple-tv-1236761387/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-23T20:31:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The Emmy-winning comedy shifted its focus to a women's soccer team in its fourth season.",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Lands Season 5 Renewal at Apple TV"
 },
 "dd077b876f9c": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -47861,6 +48169,30 @@
 "Death"
 ],
 "title": "‘Laverne & Shirley’ actress dead at 88"
+},
+"f76755628e11": {
+"first_seen": "2026-11-23T21:00:15+00:00",
+"id": "f76755628e11",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNN3ItZ05WOWR1bkphNy1QSmlrVnFrdjRMRzZvbjBaZG52cDdrU2habGk1ZjBYazNCdTNwRmk4YkxUV1RhZXN4RW11ODlIWXdEMkEzQ0ZJUzlXeVZKZ0RXVmtab3I3WGg1Ykd3VmttMGo5dnRKYm9aMmlTc3U0MEx2OTNB?oc=5",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-23T20:30:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Renewed For Season 5 By Apple TV"
 },
 "f76ebfe554d3": {
 "first_seen": "2026-11-18T06:30:20+00:00",
