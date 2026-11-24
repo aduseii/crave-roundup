@@ -8,6 +8,7 @@
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
 "86b748c21fb4": "2026-11-18T21:00:15+00:00",
 "937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
+"955a842f6699": "2026-11-24T20:00:12+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
 "a159f9baddcd": "2026-11-23T20:30:16+00:00",
 "a3e6bc3cb70f": "2026-11-21T15:30:15+00:00",
@@ -17,6 +18,7 @@
 "cc16907ecc1e": "2026-11-22T10:30:13+00:00",
 "d74a18d9cbe8": "2026-11-22T15:30:14+00:00",
 "e103e800f00e": "2026-11-18T02:30:11+00:00",
+"e6178d0aa819": "2026-11-24T20:00:12+00:00",
 "e89dfacd09e8": "2026-11-21T17:30:12+00:00",
 "f03a60f0a646": "2026-11-20T06:30:12+00:00",
 "f4292f84dcb6": "2026-11-22T01:00:11+00:00",
@@ -140,12 +142,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Home Improvement' star Tim Allen and Jane Hajduk reveal what their ideal date night looks like after 20 years of marriage. (via People)"
 },
-"1cfd507927b5": {
-"at": "2026-11-17T17:32:28+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Hulu has released the first trailer for 'Only Murders in the Building' Season 6. The main trio heads to London to investigate the murder of fellow podcaster Cinda Canning. (via Variety)"
-},
 "1d3b47d2910a": {
 "at": "2026-11-18T06:34:28+00:00",
 "from_article": true,
@@ -181,12 +177,6 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Saturday Night Live' is officially expanding with a new series this December. (via Comic Book Resources)"
-},
-"233a08be11a7": {
-"at": "2026-11-17T17:32:12+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Young Sheldon' was nearly scrapped before the first episode was shot, co-creator Chuck Lorre says. (via IMDb)"
 },
 "253ea600f6c3": {
 "at": "2026-11-24T17:32:51+00:00",
@@ -248,12 +238,6 @@
 "model": "gemini-3-flash-preview",
 "text": "\"The years I had on Y&R were like a little family,\" 'The Fresh Prince of Bel-Air' star Tatyana Ali says. Ali is reacting to 'The Young and the Restless' recasting her role of Roxie with Tetona Jackson and says she was not reached out to about returning. (via Just Jared)"
 },
-"370c0b92f806": {
-"at": "2026-11-17T17:33:42+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"The unspoken message I got as a child was that we had nothing,\" 'Cheers' star Ted Danson says. He reflects on growing up with very little money and how his family focused on necessities rather than wealth. (via TVLine)"
-},
 "3b6bf474c022": {
 "at": "2026-11-23T20:31:28+00:00",
 "from_article": true,
@@ -271,12 +255,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Black Mirror' creator Charlie Brooker has released a new 6-part comedy series on Netflix titled 'Cunk on Cinema'. The mockumentary stars comedian and 'Mandy' star Diane Morgan as she explores the history of film across an 84-minute runtime. (via Screen Rant)"
-},
-"45affe01d660": {
-"at": "2026-11-17T17:32:20+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "The first trailer for 'Only Murders in the Building' Season 6 has been released. The new season premieres Tuesday, December 8 on Hulu. (via Deadline)"
 },
 "47115ad4dd9a": {
 "at": "2026-11-21T17:37:25+00:00",
@@ -326,12 +304,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'Will & Grace' star Debra Messing shared a post mocking the NYC Mayor over the Rikers Island closure plan. The post referred to the mayor as \"NYC Mayor Ugandan Mamdani.\" (via Primetimer)"
 },
-"57765ae18ecc": {
-"at": "2026-11-17T17:32:41+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "Hulu has released the trailer for 'Only Murders in the Building' Season 6, which is officially rebranding as 'Only Murders in London'. The new season follows the trio to England to solve the murder of Cinda Canning and features guest stars including Olivia Colman and David Tennant. It premieres December 8. (via Just Jared)"
-},
 "5bfac7f86abe": {
 "at": "2026-11-20T17:38:48+00:00",
 "from_article": true,
@@ -355,12 +327,6 @@
 "from_article": true,
 "model": "gemini-flash-lite-latest",
 "text": "\"'The Office' star Brian Baumgartner explains how a mandatory NBC HR presentation inspired his new book, 'The Dunder Mifflin Employee Manual: How to Succeed in Work, and Life, According to The Office'.\" (via Decider)"
-},
-"61d24bc15a7c": {
-"at": "2026-11-17T17:32:55+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"The first step is to not get the poisonous ones,\" Amy Poehler says. The 'Parks and Recreation' star joked with Jimmy Fallon about his fear of cooking mushrooms while promoting her new comedy series 'Dig' on 'The Tonight Show'. (via TheWrap)"
 },
 "62ca75bccd2d": {
 "at": "2026-11-18T06:37:16+00:00",
@@ -488,12 +454,6 @@
 "model": "gemini-3-flash-preview",
 "text": "“I pursued, conceptualized, pitched, scripted AND voice acted my radio show,” comedian and ‘Abbott Elementary’ star Janelle James says about her role in ‘GTA VI’. (via Deadline)"
 },
-"8ec1f3f7c89c": {
-"at": "2026-11-17T17:33:28+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "The first trailer for 'Only Murders in the Building' Season 6 has been released. The new season follows the trio to London and features guest stars including Olivia Colman, Martin Freeman, Nicola Coughlan, and 'Doctor Who' alums Peter Capaldi, David Tennant, and Jodie Whittaker. It premieres December 8 on Hulu. (via Decider)"
-},
 "8f269156ff41": {
 "at": "2026-11-23T06:34:40+00:00",
 "from_article": true,
@@ -535,6 +495,12 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Home Alone' director Chris Columbus said another movie cannot happen after Catherine O'Hara passed away, just minutes before a new sequel was announced. (via IMDb) 🕊️"
+},
+"955a842f6699": {
+"at": "2026-11-24T20:03:22+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'Seinfeld' actor Steven Hack’s cause of death has been revealed as atherosclerotic cardiovascular disease. He passed away at 68 following an unexpected cardiac event in his home. 🕊️ (via Page Six)"
 },
 "970235250c5a": {
 "at": "2026-11-19T06:41:21+00:00",
@@ -733,12 +699,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Lisa Kudrow, Michael Schur, and other top television writers shared insights into their storytelling processes at Variety’s annual Night in the Writers’ Room. Scribes behind shows including 'The Comeback', 'The Greatest', and 'Dig' detailed their experiences creating hit series. (via Variety)"
-},
-"c0de6e882de5": {
-"at": "2026-11-17T17:33:06+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "'Seinfeld' co-creator and 'Curb Your Enthusiasm' creator and star Larry David has announced a six-city live conversation tour for February 2027. Titled 'A Conversation with Larry David', the tour will feature his daughter, writer and filmmaker Cazzie David, as a special guest moderator. (via Deadline)"
 },
 "c3c94d992e48": {
 "at": "2026-11-23T17:33:26+00:00",
@@ -955,12 +915,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "New episodes of 'Big City Greens' Season 5 starring Jenna Ortega will debut on Disney+ this week. The episodes 'Forever Christmas' and 'Skate Expectations' will arrive on the streaming platform three days before their Disney Channel premiere. (via ComingSoon)"
-},
-"f9ab13e230ca": {
-"at": "2026-11-17T17:33:14+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Only Murders in the Building' will reportedly see major changes to its cast for Season 6. (via Us Weekly)"
 },
 "fa98e35ca585": {
 "at": "2026-11-19T17:42:30+00:00",
@@ -2271,6 +2225,27 @@
 "summary": "CLIFF BOOTH IS BACK IN 8 DAYS. THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH. GET TICKETS NOW. ONLY IN IMAX 26 NOVEMBER. Watch on Netflix: https://www.netflix.com/title/82054606 About Netflix: Netflix is one of the world’s leading...",
 "tags": [],
 "title": "THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH | Get Tickets Now | Netflix"
+},
+"0258d18bf899": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "0258d18bf899",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-2263634851.jpg?crop=0px%2C66px%2C4000px%2C2262px&resize=1000%2C563&quality=86&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/shopping/news/courteney-cox-denim-shirt-look-for-less/",
+"outlet": "Us Weekly",
+"people": [
+"Courteney Cox"
+],
+"published": "2026-11-24T12:45:14+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Courteney Cox just made the case for adding a classic denim button-down to your wardrobe. After spotting the actress wearing one in a recent Instagram video, we ran to Amazon to find the look for less and landed on a $37 lookalike that delivers the same effortless, rich-mom style.",
+"tags": [],
+"title": "Courteney Cox's Denim Button-Down Screams Effortless Rich-Mom,  The $37 Look"
 },
 "0264a140f45e": {
 "first_seen": "2026-11-18T06:30:20+00:00",
@@ -7923,6 +7898,27 @@
 "tags": [],
 "title": "Saturday Night Live Officially Expands With New Series This December"
 },
+"20f4cf3a590d": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "20f4cf3a590d",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Robin-Thicke-and-April-Love-Geary-Los-Angeles-Lakers-and-the-Utah-Jazz-Instagram-Hot-Pics.jpg?crop=182px%2C244px%2C1049px%2C593px&resize=800%2C450&quality=40&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/hot-pics/",
+"outlet": "Us Weekly",
+"people": [
+"Martin Short"
+],
+"published": "2026-11-24T17:42:32+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Hot Pics",
+"tags": [],
+"title": "Robin Thicke, Katy Perry, Martin Short and More!"
+},
 "213635b12218": {
 "first_seen": "2026-11-23T06:30:11+00:00",
 "id": "213635b12218",
@@ -11449,6 +11445,28 @@
 ],
 "title": "‘Afterlife With Archie’ Disney+ Show Casts Archie, Betty, Veronica, Jughead and Sabrina the Teenage Witch"
 },
+"3273d71fda04": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "3273d71fda04",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN2lwNGcycmxFQzh1ZUdyQVFJeVUzWWdLY2paTEpGSEQza1NOckJVTDBiN1JvMWxHR2Y4MlJDRmdIRFl6WElFeDcxNDVZRF9JQlM4UFZ5ekJ3MlREQXNtMnNMMFNBVjB5M01PUWw2eUV0b0V1dWhIdWp4OHRNalE0WUxGMm9VVGMxU1VLV2Ria21mR2FvU0lTWFd3ZkJ2MzYwVkRWUDBydjdnM2hTYzl6c1VKeXNPOHlnemEw?oc=5",
+"outlet": "Fox News",
+"people": [],
+"published": "2026-11-24T18:21:07+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Arrest"
+],
+"title": "Florida woman rocking 'Retired Drug Dealer' T-shirt got arrested on, you guessed it, several drug charges"
+},
 "3296b4ff0f15": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-22T06:30:21+00:00",
@@ -13621,6 +13639,29 @@
 "summary": "\"I want to genuinely apologize for using a word on the podcast without knowing its antisemitic history,\" the \"Las Culturistas\" host says",
 "tags": [],
 "title": "Bowen Yang Apologizes for Antisemitic Remark About Regina Spektor"
+},
+"3fdf0228807f": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "3fdf0228807f",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/dig-mike-schur-j-j-philbin-interview.jpg",
+"kind": "article",
+"link": "https://collider.com/dig-peacock-mike-schur-jj-philbin/",
+"outlet": "Collider",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-24T20:00:13+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Parks and Rec"
+],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "DIG showrunners Mike Schur and J.J. Philbin preview their new Peacock sitcom and discuss Amy Poehler's first acting role since Parks and Recreation.",
+"tags": [],
+"title": "‘Parks and Rec’ Showrunner Teases a Very Different Turn for Amy Poehler’s New Peacock Series"
 },
 "3fea1a6fe3f6": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -20188,6 +20229,29 @@
 ],
 "title": "The cast transform into their characters. THE MOSQUITO BOWL premieres November 25 on Netflix"
 },
+"61c5347def7b": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "61c5347def7b",
+"image": "https://variety.com/wp-content/uploads/2026/11/Rafael-Castillo-Branden-Cook.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/issa-rae-hbo-comedy-pilot-rafael-castillo-branden-cook-1236956972/",
+"outlet": "Variety",
+"people": [
+"Issa Rae"
+],
+"published": "2026-11-24T17:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Issa Rae’s new HBO comedy pilot has added two new cast members. Variety has learned exclusively that Rafael Castillo and Branden Cook are both joining the untitled half-hour pilot. They will appear alongside previously announced leads Dasan Frazier and Shane Paul McGhie.",
+"tags": [
+"Casting"
+],
+"title": "Issa Rae’s Male Friendship HBO Comedy Pilot Casts Rafael Castillo, Branden Cook (EXCLUSIVE)"
+},
 "62032d543499": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -26429,6 +26493,32 @@
 ],
 "title": "Amy Poehler reflects on what she's learned from her time hosting \"Good Hang\" 🎧"
 },
+"85b5f2c556cb": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "85b5f2c556cb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RZmQwUGNLZmJfSFNGampPeGpUT2Y4YVlOc3lFMmdoaTVkZ1lmVldUR3ZTOXZZcjJKRDVMNHd2SlJ0XzM5OElIRVE5N252ck0zS2hldUtobXhqNXhzVzBFRkJXMDk3MTZrMVE?oc=5",
+"outlet": "IMDb",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-23T21:15:31+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Renewed for Season 5 at Apple TV, With Jason Sudeikis Returning"
+},
 "85bdf6516897": {
 "first_seen": "2026-11-19T17:30:29+00:00",
 "id": "85bdf6516897",
@@ -26600,8 +26690,8 @@
 "outlet": "Rolling Stone",
 "people": [],
 "published": "2026-11-23T21:42:29+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -27329,6 +27419,27 @@
 "summary": "Here's when you can expect a new episodes of 'Saturday Night Live,' as well as who is hosting and serving as the musical guest. Is Saturday Night Live new tonight, on Saturday, November 21? With the holidays just around the corner, fans of the NBC sketch comedy series are wondering exactly this.",
 "tags": [],
 "title": "Is ‘SNL’ New Tonight, November 21? When to Expect Next Episode of Season 52"
+},
+"8b51d8ed132e": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "8b51d8ed132e",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/TSDFUHO_EC009-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305566/full-house-jodie-sweetin-lookalike-daughter-zoie-stole-whole-face/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-24T18:18:49+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Full House"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "‘Stole your whole face!’ one fan of the 'Full House' child star declared. Full House star Jodie Sweetin's new photo with her lookalike daughter, Zoie, let fans seeing double.",
+"tags": [],
+"title": "‘Full House’ Star Jodie Sweetin’s Photo With Lookalike Daughter Has Fans Seeing Double"
 },
 "8b6f2337f4a2": {
 "channel_kind": "outlet",
@@ -29169,6 +29280,29 @@
 "summary": "",
 "tags": [],
 "title": "Ted Lasso future confirmed by Apple TV after star Jason Sudeikis revealed hope for show's length"
+},
+"955a842f6699": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "955a842f6699",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fwww-instagram-com-p-dxfnxv4kgzf-149945643.jpg",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/24/celebrity-news/steven-hacks-official-cause-of-death-revealed-after-seinfeld-actors-sudden-passing-at-68/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-24T19:53:57+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The actor is best known for his extensive work in television.",
+"tags": [
+"Death"
+],
+"title": "Steven Hack’s official cause of death revealed after ‘Seinfeld’ actor’s sudden passing at 68"
 },
 "956e055a875a": {
 "first_seen": "2026-11-18T02:30:11+00:00",
@@ -31849,6 +31983,29 @@
 ],
 "title": "Dropout’s Brennan Lee Mulligan to Host Peacock’s ‘Dig’ TV Series Companion Podcast (EXCLUSIVE)"
 },
+"a1f0b540e070": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "a1f0b540e070",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBraG9GaXQtWXRsV0duRGg5Tzk3WnNWT1lFNU1IYWVBUkxNVGs4NmJNRnVTNi05TDBmRl9ZUncxZlE3Z09YSW54SGMzY1FuXzV6eHlLQmo0ZV93MDVXYlBFUVZ6RURXeVFIdXRLdHpmYjRIaUVzcGdfTg?oc=5",
+"outlet": "TVGuide.com",
+"people": [],
+"published": "2026-11-24T14:43:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End",
+"Renewal"
+],
+"title": "All the Canceled and Renewed TV Shows This Month (November 2026)"
+},
 "a1f535623c0d": {
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "a1f535623c0d",
@@ -33965,6 +34122,27 @@
 "tags": [],
 "title": "I’m In My Feelings Over The Chat Alfonso Ribeiro Had With Harry Shum Jr. And Jenna Johnson After Their DWTS Elimination"
 },
+"aa9fe96754cd": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "aa9fe96754cd",
+"image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261124/1c620708-cec3-4194-920b-b22554243552_1795541499.jpg",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438374/rob-lowe-makes-rare-comment-about-his-sex-tape-scandal?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [],
+"published": "2026-11-24T17:40:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Parks and Rec"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Rob Lowe is looking back at a difficult chapter. Nearly 40 years after the Parks and Rec actor was at the center of a sex tape scandal involving a then 22-year-old woman and a 16-year-old girl,...",
+"tags": [],
+"title": "Rob Lowe Makes Rare Comment About His Sex Tape Scandal"
+},
 "aab9955d7498": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "aab9955d7498",
@@ -35102,8 +35280,8 @@
 "Jason Sudeikis"
 ],
 "published": "2026-11-23T20:30:00+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -36315,6 +36493,27 @@
 "summary": "",
 "tags": [],
 "title": "Charlie Sheen Apologizes to Rob Lowe for Being ‘Unkind and Unfair’ to Him on Twitter"
+},
+"b5aab168324c": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "b5aab168324c",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/tovah-feldshuh-adam-brody-israel-palestine-nobody-wants-this/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-24T17:52:30+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"We are colleagues, so we can disagree without being disagreeable,\" the \"Nobody Wants This\" star tells Us Magazine",
+"tags": [],
+"title": "‘Nobody Wants This’ Star Tovah Feldshuh Insists There’s ‘No Animosity’ With Adam Brody Over ‘Free Palestine’ Comments"
 },
 "b5cc741118be": {
 "first_seen": "2026-11-19T06:30:10+00:00",
@@ -38010,6 +38209,29 @@
 "summary": "Taylor Swift 🫶 Ella Langley! The singer cheers as “Choosin’ Texas” beats out “I Knew It, I Knew You” to win Single of the Year at the CMA Awards.",
 "tags": [],
 "title": "Taylor Swift Celebrates Ella Langley’s CMA ‘Single of the Year’ Win"
+},
+"bffa55c4840f": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "bffa55c4840f",
+"image": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/11/JBR_102_CL_1120_1866_RT3-e1795540895876.jpeg?fit=3006%2C1698&quality=89&ssl=1",
+"kind": "article",
+"link": "https://hollywoodlife.com/feature/the-murder-of-jonbenet-ramsey-netflix-release-date-cast-episodes-5585927/",
+"outlet": "Hollywood Life",
+"people": [
+"Melissa McCarthy"
+],
+"published": "2026-11-24T17:50:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Melissa McCarthy stars as Patsy Ramsey and Clive Owen as John Ramsey in Netflix's new limited series.",
+"tags": [
+"Upcoming"
+],
+"title": "‘The Murder of JonBenét Ramsey’ on Netflix: Release Date, Cast, Episode Guide & More"
 },
 "bffd718f9089": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -40488,6 +40710,29 @@
 "Death"
 ],
 "title": "‘SNL’ Alum Heidi Gardner’s Boyfriend, Filmmaker Ray Tintori, Dies at 43"
+},
+"cc2bc938192d": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "cc2bc938192d",
+"image": "https://www.justjared.com/wp-content/uploads/2026/11/netflix-jonbenet-ramsey-series.jpg",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/24/why-melissa-mccarthys-jonbenet-ramsey-tv-series-took-two-years-and-a-streamer-change-to-be-released-watch-the-trailer/",
+"outlet": "Just Jared",
+"people": [
+"Melissa McCarthy"
+],
+"published": "2026-11-24T19:12:43+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Netflix will be dropping the limited series The Murder of JonBenét Ramsey on December 10 and it’s been a long...",
+"tags": [
+"Trailer"
+],
+"title": "Why Melissa McCarthy’s ‘JonBenét Ramsey’ TV Series Took Two Years and a Streamer Change to Be Released: Watch the Trailer"
 },
 "cc381c18632b": {
 "channel_kind": "streamer",
@@ -43446,6 +43691,29 @@
 "tags": [],
 "title": "Bowen Yang Apologizes for Calling Regina Spektor an Antisemitic Slur, Didn’t Know It Was ‘Popularized by Far-Right Movements’"
 },
+"dd250a616343": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "dd250a616343",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-2306581997.jpg",
+"kind": "article",
+"link": "https://www.usmagazine.com/entertainment/news/tovah-feldshuh-details-adam-brody-conversation-amid-drama/",
+"outlet": "Us Weekly",
+"people": [],
+"published": "2026-11-24T13:24:35+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Nobody Wants This star Tovah Feldshuh revealed what Adam Brody told her off camera after drama surrounding his public support for Palestine. “After he said his comments, he asked to see me.",
+"tags": [
+"Interview"
+],
+"title": "'Nobody Wants This' Star Reveals If She's Spoken to Adam Brody Since Drama"
+},
 "dd4a5f74bcbf": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "dd4a5f74bcbf",
@@ -45448,6 +45716,29 @@
 "summary": "",
 "tags": [],
 "title": "Charlie Sheen Apologizes to Rob Lowe for Being ‘Unkind and Unfair’ to Him on Twitter"
+},
+"e6178d0aa819": {
+"first_seen": "2026-11-24T20:00:12+00:00",
+"id": "e6178d0aa819",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fsteven-hack-episode-ratched-149943651.jpg",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/24/celebrity-news/seinfeld-star-steven-hack-dead-at-68-after-unexpected-medical-emergency/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-24T19:33:58+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The actor also starred on \"Desperate Housewives.\"",
+"tags": [
+"Death"
+],
+"title": "‘Seinfeld’ star Steven Hack dead at 68 after ‘unexpected’ medical emergency"
 },
 "e61b03ac630e": {
 "channel_kind": "talk",
@@ -48819,8 +49110,8 @@
 "outlet": "Deadline",
 "people": [],
 "published": "2026-11-23T20:30:00+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
