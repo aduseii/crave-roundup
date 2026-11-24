@@ -4,6 +4,7 @@
 "1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "3b6bf474c022": "2026-11-23T20:30:16+00:00",
+"42704e5abeb8": "2026-11-24T23:30:11+00:00",
 "4e8c512cc89b": "2026-11-21T22:27:20+00:00",
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
 "86b748c21fb4": "2026-11-18T21:00:15+00:00",
@@ -243,6 +244,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Ted Lasso' has been officially renewed for Season 5 at Apple TV. Production for the new season is reportedly set to begin on April 14. (via Deadline)"
+},
+"42704e5abeb8": {
+"at": "2026-11-24T23:31:53+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "'Scrubs' actor Steven Hack has passed away at the age of 68. He previously shared his hopes of returning for a potential revival of the series. (via Entertainment Weekly) 🕊️"
 },
 "4355168365d7": {
 "at": "2026-11-19T17:40:31+00:00",
@@ -1608,6 +1615,10 @@
 "at": "2026-11-21T09:03:53+00:00",
 "u": "https://image.tmdb.org/t/p/w780/sSAX59Kf01lBRkBW4UcIL4kIoIm.jpg"
 },
+"tmdbtv:scrubs": {
+"at": "2026-11-24T23:31:59+00:00",
+"u": "https://image.tmdb.org/t/p/w780/rRKTV46DKVP8AfdCQDyQMAtJeCl.jpg"
+},
 "tmdbtv:seinfeld": {
 "at": "2026-11-21T09:03:51+00:00",
 "u": "https://image.tmdb.org/t/p/w780/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg"
@@ -1897,7 +1908,7 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": true,
-"summary": "",
+"summary": "December is a notoriously slow month in the world of TV. Blame the holiday time crunch, the general mad rush to the end of the year, and the various family...",
 "tags": [],
 "title": "December TV preview: Only Murders In The Building goes abroad, and Bob’s Burgers gets festive"
 },
@@ -11225,6 +11236,27 @@
 "tags": [],
 "title": "Tatyana Ali Reacts To 'Young & Restless' Roxie Recast"
 },
+"318835f03a26": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "318835f03a26",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/24/omitb-season-6-charles-mabel-oliver-featured.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/only-murders-in-the-building-season-7-showrunner",
+"outlet": "AV Club",
+"people": [],
+"published": "2026-11-24T17:14:48+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Only Murders in the Building"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "<i>Only Murders In The Building</i> showrunner John Hoffman said that \"going back to New York is going to be a thrill for season seven.\"",
+"tags": [],
+"title": "Only Murders In The Building showrunner basically confirms season 7 is a go"
+},
 "319670d4e196": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "319670d4e196",
@@ -13183,6 +13215,28 @@
 "tags": [],
 "title": "iCarly (2021)"
 },
+"3c39982fa8af": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "3c39982fa8af",
+"image": "https://img.pastemagazine.com/wp-content/avuploads/2026/01/07162343/MixCollage-07-Jan-2026-04-21-PM-4508.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/snl-france-announced-manu-payet",
+"outlet": "AV Club",
+"people": [],
+"published": "2026-11-24T16:04:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "A new, French version of <I>Saturday Night Live</i> will kick off with host Manu Payet.",
+"tags": [],
+"title": "SNL France is kicking off next month"
+},
 "3c751269d9bb": {
 "first_seen": "2026-11-18T17:30:12+00:00",
 "id": "3c751269d9bb",
@@ -13801,6 +13855,28 @@
 "tags": [],
 "title": "Behind the USA TODAY PLAY crossword clue: 'The Office' edition"
 },
+"40c867e18a09": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "40c867e18a09",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GNHVDQXdEUndQOEt4d2FwcXpWSjZibUNfMGtvdk5ZZzltSFpFaXo2ck5FZzJnaVJiWFBqZ3dwSXktUUh6cE9ReUd3M29rajg2Snc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-24T15:06:39+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Anthony Clark, Comedian and ‘Yes, Dear’ Actor, Dies at 62"
+},
 "40e84c744be3": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "40e84c744be3",
@@ -14152,6 +14228,30 @@
 "tags": [],
 "title": "#MileyCyrus shaves Jimmy’s beard! #FallonFlashbackOriginal Air Date: December 10th, 2022"
 },
+"42704e5abeb8": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "42704e5abeb8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHhZSFlyWUFLVjc2MUwtMld5ekpOX0tWYnh0cHFueTVjalRKZ1JOSzAyaHkzV0NMemVPYmNRTjBVUjR1cHpCWHRTTm1SUzduTGxKTC1jWTF1NjJIMUtQbkFzV3Bsa29ZX1pmdEFkU3hlTHdOLXRsOXVVaDBkLXR1MHdJbHdVWDJFMG9jUzU3cEhub3lYc3FUUjRnX3lJLUFX?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [],
+"published": "2026-11-24T23:21:47+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Scrubs"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "‘Scrubs’ actor Steven Hack shared hopes of returning for revival before his death at 68"
+},
 "427573ee16ae": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "427573ee16ae",
@@ -14235,6 +14335,29 @@
 "Revival"
 ],
 "title": "SLOMW: Why Miranda Hope Isn't Offended By Fans Saying OC Spinoff Is Better Than OG! (Exclusive)"
+},
+"4340b0571949": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "4340b0571949",
+"image": "https://deadline.com/wp-content/uploads/2026/11/adam-driver-x-men.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/adam-driver-x-men-reboot-mister-sinister-marvel-studios-1237232938/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-24T23:17:03+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Late Night with Seth Meyers"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Adam Driver is joining the Marvel Cinematic Universe in the upcoming X-Men reboot directed by Jake Schreier. The Paper Tiger actor is set to play the villain Mister Sinister, and while appearing on Late Night with Seth Meyers, he teased his new role.",
+"tags": [
+"Revival"
+],
+"title": "Adam Driver Teases Mister Sinister Role In Marvel Reboot: “I Was A Big X-Men Fan”"
 },
 "43419e54282f": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -17053,6 +17176,29 @@
 "summary": "",
 "tags": [],
 "title": "David Alan Grier on ‘St. Denis Medical’ & Cast Chemistry"
+},
+"50df1f4dfdf8": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "50df1f4dfdf8",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/24/JBR-feature.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/the-murder-of-jonbenet-ramsey-trailer-melissa-mccarthy",
+"outlet": "AV Club",
+"people": [
+"Melissa McCarthy"
+],
+"published": "2026-11-24T17:58:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Melissa McCarthy and Clive Owen are real-life grieving parents in the trailer for Netflix's <i>The Murder of JonBenét Ramsey</i>.",
+"tags": [
+"Trailer"
+],
+"title": "Melissa McCarthy, Clive Owen channel parental grief in The Murder of JonBenét Ramsey trailer"
 },
 "50ebe8223f90": {
 "first_seen": "2026-11-18T17:30:12+00:00",
@@ -19883,6 +20029,28 @@
 "tags": [],
 "title": "Michael Rapaport Makes Bold Demand of NBC After Bowen Yang Controversy"
 },
+"5f8e1ea06c8a": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "5f8e1ea06c8a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNYWJDVVlsZzZ3UmFQcXkzalM2cURSTjhuRHFTRGdyUXUySC04cU4xc1lmeEVLcnBkTGRnMzc4QWVTRi1NVVJJNVMtdHltRkJ6NUpjazZKejlSOE9FSTRwbzdlc2NzRmVaVlpJWDhGSDFraW5xNVZ1QnNWNVRLRVoxc09Pa2czYWstVFhOeTNnZHFHT3ZVRkR5MExxU3g4b3luYlZ6VUczLUdqR19Hb000M3dxUGtyV2t4WTM2SFFvUHo4NHZqSExGZDROSkROY1FFWV94OVRMVEswYWtlLVpiMjlhWlJVbU5vTzB2ZUlsVFN6dzJyWmln?oc=5",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-24T20:53:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Late 'Seinfeld' actor Steven Hack shared dreams of on-screen comeback in final social media post before his death at 68"
+},
 "5f93eff122ff": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "5f93eff122ff",
@@ -20893,6 +21061,26 @@
 "summary": "Last week saw John Mulaney return to host Saturday Night Live, with Bowen Yang playing former NVIDIA CEO Jensen Huang. What about this week?",
 "tags": [],
 "title": "Is SNL New Tonight (November 21, 2026)? Host, Musical Guest, Episode Details"
+},
+"6554a96571c5": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "6554a96571c5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FMXhqRTZUajFnXzNiYnNIVGxLM29oamplcnJmZXAxZm9JcXZsaFNwQVNkUTVwRTVOUkRZRTZ6Q3A0T3hEMF9BM09oVnV2NV9yaHc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-24T18:51:29+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Patrick Stewart's Personal Favorite Guest Role Was On A Beloved '90s Sitcom"
 },
 "655d1936f292": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -21987,6 +22175,25 @@
 "Interview"
 ],
 "title": "Amy Poehler Explains Why One SNL Employee Has Seen Every Famous Person Naked"
+},
+"6c6592d255bd": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "6c6592d255bd",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/the-main-gang-group-hug-in-the-big-bang-theory-1.jpg",
+"kind": "article",
+"link": "https://screenrant.com/the-big-bang-theory-era-end-sitcoms-struggling/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-24T20:28:19+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Once a syndication goldmine, network comedy now fights for attention as The Big Bang Theory closed a chapter on broadcast sitcom's network dominance.",
+"tags": [],
+"title": "7 Years Later, The Big Bang Theory Truly Ended An Era For Sitcoms"
 },
 "6c6d0d942e42": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -24367,6 +24574,28 @@
 "summary": "Tatyana and Jan's joy has captivated the 'DWTS' fandom. For over 15 years, my life has orbited around the ballroom. As a longtime fan of Dancing With the Stars, I've witnessed some of the most astounding performances, been riveted by the intensity (and the drama that often follows), and celebrated...",
 "tags": [],
 "title": "Tatyana Ali and Jan Ravnik Are the Heart & Soul of ‘Dancing With the Stars’ Season 35"
+},
+"7860bc15ea83": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "7860bc15ea83",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9YX1JDVF9PR1ozYURtLWpmazFCSFRGY1pldFlSX1R1bXBrS3JpVzI1VFpZRERUeGtmckxiT2tuck5JLUY2bjg0LWlhUkJoa3V1eU9YdTN3UXJNUXM0bHJF?oc=5",
+"outlet": "BuzzFeed",
+"people": [],
+"published": "2026-11-24T21:12:47+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "What show deserves to be canceled?"
 },
 "788cbf705fbd": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -30544,6 +30773,27 @@
 "tags": [],
 "title": "‘The Social Network’ Sequel Comes Home After Being Officially Removed From 2,600 Theaters"
 },
+"9b0a3466ddd9": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "9b0a3466ddd9",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fsteven-hack-episode-american-horror-149944087.jpg?w%3D1024",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/24/celebrity-news/late-seinfeld-actor-steven-hack-shared-dreams-of-on-screen-comeback-in-final-social-media-post-before-his-death-at-68/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-24T20:53:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The actor tragically died on Nov. 19 at his Los Angeles home.",
+"tags": [],
+"title": "Late ‘Seinfeld’ actor Steven Hack shared dreams of on-screen comeback in final social media post before his death at 68"
+},
 "9b0ac322d067": {
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -30629,6 +30879,28 @@
 "summary": "",
 "tags": [],
 "title": "John Krasinski’s 144-Minute Action Thriller Instantly Conquers New Streaming Home"
+},
+"9b9e111ab9e1": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "9b9e111ab9e1",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-features/alfonso-ribeiro-dwts-season-35-tatyana-fan-discourse-all-stars-1236762413/",
+"outlet": "The Hollywood Reporter",
+"people": [
+"Tatyana Ali",
+"Alfonso Ribeiro"
+],
+"published": "2026-11-24T21:46:52+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "To commemorate the finale of ‘DWTS,’ Ribeiro chats with THR about the ups-and-downs of season 35, his favorite part about hosting the show and why he can’t predict who will join him in the winners circle on Tuesday night.",
+"tags": [],
+"title": "Alfonso Ribeiro on the “Wild” Ride of ‘DWTS’ Season 35, Reuniting With Tatyana Ali and Why He Won’t Compete in an All-Winners Season"
 },
 "9bd10c4a0dd8": {
 "first_seen": "2026-11-19T20:30:13+00:00",
@@ -31463,6 +31735,27 @@
 "summary": "",
 "tags": [],
 "title": "Rating Sitcom Families By How Well They Got Along"
+},
+"9f9eaf143031": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "9f9eaf143031",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/south-park-nvidia-cyberattacks-1236762386/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-24T20:00:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The town hunts for a Chinese spy amid a series of mysterious power outages in Wednesday's episode.",
+"tags": [],
+"title": "‘South Park’ Takes Aim at Jensen Huang, Nvidia Spy Scandal in Next Episode"
 },
 "9fa995c5ba13": {
 "channel_kind": "outlet",
@@ -32738,6 +33031,27 @@
 "tags": [],
 "title": "Meghan Markle’s Dad Thomas Deemed Fit for Trial in Child Sex Abuse Material Case"
 },
+"a4d498847818": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "a4d498847818",
+"image": "https://www.avclub.com/wp-content/uploads/2026/11/24/JS-feature.jpg",
+"kind": "article",
+"link": "https://www.avclub.com/jason-segel-produces-puppet-short-meeting-your-maker",
+"outlet": "AV Club",
+"people": [
+"Jason Segel"
+],
+"published": "2026-11-24T16:00:46+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Json Segel signs on to executive produce another puppet project, \"Meeting Your Maker.\"",
+"tags": [],
+"title": "Jason Segel is playing with his puppets again"
+},
 "a4db05b963bd": {
 "channel_kind": "talk",
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -33818,13 +34132,14 @@
 "a9a55ee02703": {
 "first_seen": "2026-11-19T06:30:10+00:00",
 "id": "a9a55ee02703",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/dig-season-1-parks-and-rec-easter-eggs-1014x570.jpg",
 "kind": "article",
 "link": "https://www.tvinsider.com/gallery/dig-parks-and-recreation-parallels-easter-eggs-explained/",
 "outlet": "TV Insider",
 "people": [
 "Amy Poehler"
 ],
-"published": "2026-11-18T23:24:13+00:00",
+"published": "2026-11-24T23:05:13+00:00",
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -33833,9 +34148,9 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": true,
-"summary": "Did you spot these nods to Amy Poehler and Mike Schur's past collaboration? Dig is on its way to Peacock, and it sets the stage for an exciting reunion as Parks and Recreation duo Mike Schur and Amy Poehler bring their genius to the adaptation of Kate Myers' Excavations.",
+"summary": "Did you spot these nods to Amy Poehler and Mike Schur's past collaboration? Dig has landed on Peacock, and it sets the stage for exciting reunions as Parks and Recreation duo Mike Schur and Amy Poehler bring their genius to the adaptation of Kate Myers' Excavations.",
 "tags": [],
-"title": "‘Dig’: 6 ‘Parks and Recreation’ Easter Eggs & Parallels Revealed So Far"
+"title": "‘Dig’ Boss Mike Schur Breaks Down That ‘Parks and Recreation’ Cameo & More Easter Eggs"
 },
 "a9aeff158519": {
 "channel_kind": "outlet",
@@ -34130,7 +34445,7 @@
 "link": "https://www.eonline.com/news/1438374/rob-lowe-makes-rare-comment-about-his-sex-tape-scandal?cmpid=rss-syndicate-genericrss-us-top_stories",
 "outlet": "E! News",
 "people": [],
-"published": "2026-11-24T17:40:26+00:00",
+"published": "2026-11-24T17:40:00+00:00",
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -36148,6 +36463,29 @@
 "summary": "",
 "tags": [],
 "title": "Dude, Where Are My Billions? Ashton Kutcher Edging Closer to Super Rich Status After Anthropic IPO"
+},
+"b41a763070b4": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "b41a763070b4",
+"image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261124/c058dc35-7554-4392-8b86-abee26975897_1795553459.jpg",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438384/steven-hack-dead-at-68-from-atherosclerotic-cardiovascular-disease?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [],
+"published": "2026-11-24T21:08:41+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "A bright light in Hollywood has gone dim. Broadway star Steven Hack, who also had minor roles in American Horror Story and Seinfeld, has died after suffering a medical emergency, Los Angeles’...",
+"tags": [
+"Death"
+],
+"title": "Steven Hack, Broadway Star and American Horror Story Actor, Dead at 68"
 },
 "b42807abab70": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -39095,6 +39433,29 @@
 "tags": [],
 "title": "Chuck Lorre, ‘Grey’s Anatomy’ EP Zoanne Clack, ‘A Different World’ Boss Felicia Pride Join Lineup for Sie Society’s Impact+Profit26 (Exclusive)"
 },
+"c420b6ecc7a2": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "c420b6ecc7a2",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/steven-hack-dead-cats-interact-theatre-company-1236762464/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-24T20:35:15+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "His credits ranged from ‘Jake and the Fatman’ and ‘Seinfeld’ to ‘Pam & Tommy’ and ‘Amsterdam.’",
+"tags": [
+"Death"
+],
+"title": "Steven Hack, Original ‘Cats’ Castmember and Busy Onscreen Character Actor, Dies at 68"
+},
 "c43f8b7f419e": {
 "first_seen": "2026-11-18T06:30:20+00:00",
 "id": "c43f8b7f419e",
@@ -39805,6 +40166,28 @@
 "summary": "",
 "tags": [],
 "title": "Friends icon Matt LeBlanc sports bushy beard for rare appearance in Los Angeles"
+},
+"c6f96c47e7cc": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "c6f96c47e7cc",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/dig-season-1-finale-season-2-tease-amy-poehler-elise-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305314/dig-finale-explained-season-2-details-amy-poehler-hugh-laurie/",
+"outlet": "TV Insider",
+"people": [
+"Michael Schur",
+"Amy Poehler"
+],
+"published": "2026-11-24T21:09:10+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "What's next for the archaeologists? Mike Schur and J.J. Philbin tease the possibility of a return. Just like Leslie Knope (Amy Poehler) did when she visited the pit behind Anne's (Rashida Jones) house in Parks and Recreation, we've fallen into Dig, Poehler and Michael Schur's latest collaboration...",
+"tags": [],
+"title": "‘Dig’ Bosses Mike Schur & J.J. Philbin Break Down Elise’s Ending & Season 2 Plans"
 },
 "c7558954176b": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -44627,7 +45010,7 @@
 "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRG0xVzZsRHFOUVBIRlNWX0ZyVWs2SERNMHlfcko3NTZHSlRzZXFPR1d3ZnN3UW51Y3VieGtxZFdXZ1ZBc0lKMW51SWRQdnZEZ3hpcHI0SlZsVi1yb0drQkR1Y3J5QnpFZldrSlgyZER6bkJsanAxRm9HNFBNNUNWWDFXbw?oc=5",
 "outlet": "E! News",
 "people": [],
-"published": "2026-11-23T23:36:00+00:00",
+"published": "2026-11-24T07:36:00+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -47140,6 +47523,27 @@
 "tags": [],
 "title": "5. Jennifer Aniston - 2015-09-07 - The World's Highest-Paid Actresses 2015"
 },
+"ed1dc38600b4": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "ed1dc38600b4",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/06/the-cast-of-friends.jpg",
+"kind": "article",
+"link": "https://collider.com/friends-season-7-thanksgiving-chandler-doesnt-like-dogs-episode/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-24T21:53:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Friends"
+],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Friends’ Season 7 Thanksgiving episode reveals a softer side of the sitcom through Rachel’s romance, Chandler’s fear, and Ross’s states game.",
+"tags": [],
+"title": "‘Friends’ Gave Its Winning Formula an Unexpected Change in Just 22 Minutes"
+},
 "ed6a87175d02": {
 "channel_kind": "talk",
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -48517,6 +48921,27 @@
 "tags": [],
 "title": "34-Episode BBC Sitcom Is So Good, It Inspired 6 Remakes"
 },
+"f4747ed297e0": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "f4747ed297e0",
+"image": "https://variety.com/wp-content/uploads/2026/01/Radford-Studio-Center.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/film/news/netflix-closes-380-million-radford-studio-center-1236957311/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-24T20:15:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Netflix is the proud new owner of Radford Studio Center, the 98-year-old soundstage complex that was home to “Gunsmoke,” “The Mary Tyler Moore Show,” and “Seinfeld.” The streamer is set to close the $380 million acquisition this afternoon, the company said in a statement.",
+"tags": [],
+"title": "Netflix Closes $380 Million Acquisition of Radford Studio Center"
+},
 "f4a154938262": {
 "first_seen": "2026-11-18T02:30:11+00:00",
 "id": "f4a154938262",
@@ -48880,6 +49305,28 @@
 "summary": "",
 "tags": [],
 "title": "Happy's Place: Tapped Out"
+},
+"f5cdb6be01c3": {
+"first_seen": "2026-11-24T23:30:11+00:00",
+"id": "f5cdb6be01c3",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/industry-news/business/netflix-radford-studio-lot-380-million-acquistion/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-24T20:17:33+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld",
+"That '70s Show"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Since opening in 1928, the 55-acre property has been home to shows like \"Gunsmoke,\" \"Gilligan's Island,\" \"The Mary Tyler Moore Show,\" \"Seinfeld\" and \"That ‘70s Show\"",
+"tags": [],
+"title": "Netflix Acquires Radford Studio Lot for $380 Million"
 },
 "f5d4ffdef695": {
 "first_seen": "2026-11-23T17:30:12+00:00",
