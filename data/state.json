@@ -3,14 +3,15 @@
 "09d724b4ca5c": "2026-11-21T08:58:50+00:00",
 "1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
+"302c6a55ed3f": "2026-11-25T21:30:26+00:00",
 "39c72122eeb2": "2026-11-25T06:30:11+00:00",
 "3b6bf474c022": "2026-11-23T20:30:16+00:00",
 "42704e5abeb8": "2026-11-24T23:30:11+00:00",
 "4b6c62510961": "2026-11-25T16:00:19+00:00",
 "4e8c512cc89b": "2026-11-21T22:27:20+00:00",
+"66463d39378e": "2026-11-25T21:30:26+00:00",
 "679a8f8eab71": "2026-11-25T17:30:16+00:00",
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
-"86b748c21fb4": "2026-11-18T21:00:15+00:00",
 "937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
 "955a842f6699": "2026-11-24T20:00:12+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
@@ -21,6 +22,7 @@
 "b29a59e61f50": "2026-11-22T01:00:11+00:00",
 "b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
 "cc16907ecc1e": "2026-11-22T10:30:13+00:00",
+"cfe85cecb4e0": "2026-11-25T21:30:26+00:00",
 "d74a18d9cbe8": "2026-11-22T15:30:14+00:00",
 "e6178d0aa819": "2026-11-24T20:00:12+00:00",
 "e89dfacd09e8": "2026-11-21T17:30:12+00:00",
@@ -49,12 +51,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'SNL' star Bowen Yang has apologized for using a term coined by the KKK. (via AOL.com)"
-},
-"044b965b522d": {
-"at": "2026-11-18T17:33:49+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'The Simpsons' predicted a blackout for November 17 in a 2023 episode of the series. (via USA Today)"
 },
 "04dd01304393": {
 "at": "2026-11-25T17:33:32+00:00",
@@ -200,6 +196,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'Hacks' star Hannah Einbinder discusses the final season of the series, future movie projects, and her dream of appearing on 'SNL'. (via Comic Book Resources)"
 },
+"302c6a55ed3f": {
+"at": "2026-11-25T21:32:06+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "Netflix has canceled the golf comedy 'The Hawk' after one season. The series was co-created, executive produced, and headlined by Will Ferrell. (via Deadline)"
+},
 "307eb63086b1": {
 "at": "2026-11-24T06:33:01+00:00",
 "from_article": false,
@@ -229,18 +231,6 @@
 "from_article": true,
 "model": "gemini-flash-lite-latest",
 "text": "'Only Murders in the Building' stars Steve Martin and Martin Short attended the season 6 London premiere without Selena Gomez, joined by a massive cast of British guest stars including Olivia Colman, David Tennant and Nicola Coughlan (via The Hollywood Reporter)"
-},
-"33ca91cc14d5": {
-"at": "2026-11-18T17:34:10+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "A new episode of 'Abbott Elementary' Season 6 will not air tonight. (via AOL)"
-},
-"3587ad834c6e": {
-"at": "2026-11-18T17:33:28+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "A new trailer for 'Only Murders' has been released. 'Only Murders' stars Steve Martin and Martin Short are also set to perform live. (via New York Post)"
 },
 "359b89dea518": {
 "at": "2026-11-24T06:32:52+00:00",
@@ -325,12 +315,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'The Office' star Steve Carell describes the 'emotional torture' of leaving the series. (via Mashable)"
-},
-"4e85b4d3a53f": {
-"at": "2026-11-18T17:34:02+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"They just were broken in some aspect and hurting, depressed,\" 'Malcolm in the Middle' star Bryan Cranston says. He reflected on his childhood and his relationship with his parents in his memoir 'A Life in Parts'. (via TVLine)"
 },
 "4e8c512cc89b": {
 "at": "2026-11-21T22:28:36+00:00",
@@ -458,12 +442,6 @@
 "model": "gemini-3-flash-preview",
 "text": "'The Fresh Prince of Bel-Air' star Tatyana Ali and Jan Ravnik have reportedly become the heart and soul of 'Dancing With the Stars' Season 35. The pair has united the fandom with their joy and sincerity ahead of the season finale on Tuesday, November 24. (via TV Insider)"
 },
-"7a638459edae": {
-"at": "2026-11-18T17:33:14+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Two and a Half Men' star Jon Cryer is set to return to CBS for a \"top-secret\" role in a new series. The move marks his return to the network 11 years after the sitcom ended. (via Comic Book Resources)"
-},
 "80cae9fff719": {
 "at": "2026-11-24T06:32:18+00:00",
 "from_article": false,
@@ -481,12 +459,6 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "A new 'Home Alone' movie is in development with Macaulay Culkin set to return as Kevin McCallister. Director Chris Columbus says he was unaware of the project and that the late 'Schitt's Creek' star Catherine O'Hara was \"50%\" of the original film. 🕊️ (via Just Jared)"
-},
-"86b748c21fb4": {
-"at": "2026-11-18T21:02:49+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Scrubs' will not air a new episode tonight. The revival series is set to return for its 200th episode. (via Parade Magazine)"
 },
 "87148ba1d14d": {
 "at": "2026-11-24T17:33:31+00:00",
@@ -631,12 +603,6 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Friends' star Lisa Kudrow has responded to critics who call the series problematic. (via AOL.com)"
-},
-"a5963d886294": {
-"at": "2026-11-18T17:33:42+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Full House' star Candace Cameron Bure says John Stamos would never do 'Special Forces' because he is \"too pretty.\" (via People)"
 },
 "a5a9d43d4589": {
 "at": "2026-11-24T06:32:09+00:00",
@@ -799,12 +765,6 @@
 "from_article": true,
 "model": "gemini-flash-lite-latest",
 "text": "'Dig' has not yet been renewed for Season 2 by Peacock, though the comedy from 'Parks and Recreation' creators Amy Poehler and Mike Schur is currently streaming its first season. (via TV Insider)"
-},
-"c911eefda335": {
-"at": "2026-11-18T17:34:17+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Saturday Night Live' is receiving praise for its 'Sister' sketch, which many viewers say accurately depicts the reality of caregiving. (via CNN)"
 },
 "c96285a64e73": {
 "at": "2026-11-25T06:35:15+00:00",
@@ -986,12 +946,6 @@
 "model": "gemini-3-flash-preview",
 "text": "Netflix has acquired the historic Radford Studio Lot for $380 million. The 55-acre property has been home to shows like 'Seinfeld', 'The Mary Tyler Moore Show', and 'That '70s Show' since opening in 1928. (via TheWrap)"
 },
-"f6c63b3b6bbb": {
-"at": "2026-11-18T17:32:39+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Happy Days' and 'Laverne & Shirley' legend has passed away at the age of 88. 🕊️ (via Yahoo)"
-},
 "f872cd289b32": {
 "at": "2026-11-22T17:33:14+00:00",
 "from_article": false,
@@ -1010,23 +964,11 @@
 "model": "gemini-flash-lite-latest",
 "text": "'Saturday Night Live' star Bill Hader recently revealed how Lorne Michaels reacted when he told him he wanted to quit the show. (via AOL.com)"
 },
-"faf09dd3cdc0": {
-"at": "2026-11-18T17:33:05+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Full House' star Candace Cameron Bure took a brutal dig at her co-star John Stamos. (via Yahoo)"
-},
 "faf3bcee12dd": {
 "at": "2026-11-19T17:34:34+00:00",
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Peacock's new comedy 'DIG' is a \"disappointingly flat\" series with a \"muddled tone\" despite the talents of comedian and 'Parks and Recreation' star Amy Poehler and Hugh Laurie. The show follows an archeologist at a dig site in Greece and was co-created by Poehler and 'Parks and Recreation' creator Michael Schur. It premieres on Monday, November"
-},
-"fb58fb5439dd": {
-"at": "2026-11-18T17:32:55+00:00",
-"from_article": true,
-"model": "gemini-3-flash-preview",
-"text": "\"I always like Chuck Lorre’s shows. That’s all quality work, so I jumped at the chance, and there I was on set,\" 'Cheers' star John Ratzenberger says. He will guest star as a World War II veteran in the December 10 episode of 'Georgie & Mandy’s First Marriage'. (via TV Insider)"
 },
 "fbfdb88128b6": {
 "at": "2026-11-20T06:38:13+00:00",
@@ -2094,6 +2036,28 @@
 "summary": "wrestling has a dictionary all it's own",
 "tags": [],
 "title": "I thought Gorilla Position was something different"
+},
+"00d6b3b031cb": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "00d6b3b031cb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWWw5bE5CbEV1TVo4WDRLemtmOUljOF9Cc0VLTFJzaU9vVU5GNjU0aVVFTlpCbmlnMVpJQnByX2hIWFdJbjUyMHFBVVBIRkdfZDMyMENPTW1SOUlCV2xoWG1GcmVqYmkxSUx4aElha0FVUzFwd0R2QWo0VlhWQ05NMG1FNzBsdWd6MWo5VFJHbkwzVGlCbWk0b0JfRE1XbXl0alFXaEY5YzhzQdIBrwFBVV95cUxOMEFCbHpfdFlyMnFFY2EwVnVybktBLW1kTjRpNEtEUU5NQjk4OUluaEVhUHpxdjNHREdxdG84VEoySndOXzUwWVNEQnI5XzFrLTBGaHdjR3JZQ0xwTXdjR3oybUtsUlJzQXhGNDlTeTROS2NFWkc0U0ZTSHFvNXFFSF96bmJZcVoxOXg3bmhPTXpqYTdvbmFQT2stOGRieVlueGl5Z2w3dHBaNTBGODlN?oc=5",
+"outlet": "ComingSoon.net",
+"people": [],
+"published": "2026-11-25T19:08:10+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "Gordon Ramsay Cast in Popular TV Show’s Revival Following Previous Star’s Tragic Accident"
 },
 "00ec80aacd89": {
 "channel_kind": "talk",
@@ -10839,6 +10803,27 @@
 ],
 "title": "‘The Jlo Show’ Trailer’: Jennifer Lopez Brings Her Vegas Residency to the Screen In Concert Film – Watch Now!"
 },
+"302c6a55ed3f": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "302c6a55ed3f",
+"image": "https://deadline.com/wp-content/uploads/2026/05/THEHAWK_101_250912_CH_00182_R2.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/will-ferrell-the-hawk-canceled-netflix-one-season-1237233347/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-25T21:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "EXCLUSIVE: The Hawk did not make the cut for a second season. Netflix has opted not to renew the freshman golf comedy, co-created, executive produced and headlined by Will Ferrell.",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
+},
 "303152652937": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "303152652937",
@@ -13371,6 +13356,29 @@
 "summary": "",
 "tags": [],
 "title": "Amy Poehler and Michael Schur's 'Dig' Is No 'Parks and Rec', But It's Still a Fun Trip"
+},
+"3e5abcbb57b1": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "3e5abcbb57b1",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/3259915_cupo_s1_1264b-1.jpg",
+"kind": "article",
+"link": "https://collider.com/cupertino-cast-jon-cryer-images-cbs-return/",
+"outlet": "Collider",
+"people": [
+"Jon Cryer"
+],
+"published": "2026-11-25T20:00:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Two and a Half Men"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Two and a Half Men star Jon Cryer is making his return to CBS after ten years with a new role in the hot new legal thriller Cupertino.",
+"tags": [],
+"title": "10 Years Later, ‘Two and a Half Men’ Star Officially Returns to CBS"
 },
 "3e81a31ff327": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -16544,6 +16552,27 @@
 "summary": "",
 "tags": [],
 "title": "photoshoot bts 📸 phoebe bridgers!!!"
+},
+"4d146863ba75": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "4d146863ba75",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/media-platforms/tv/will-ferrell-the-hawk-netflix-canceled-one-season/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-25T21:25:56+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "While the golf comedy won't return for Season 2, Ferrell will executive produce \"All the Rage,\" \"Prep\" and Nikki Glaser’s first scripted series for the streamer through Gloria Sanchez Productions",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s ‘The Hawk’ Canceled by Netflix After One Season"
 },
 "4d269e7920ad": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -20991,6 +21020,28 @@
 "summary": "",
 "tags": [],
 "title": "CBS Is Giving Ghosts a Huge 2027 Upgrade With New Format Change"
+},
+"66463d39378e": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "66463d39378e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWEhWaHRWT0JmSzlaSGJBbVJVajNHY3liZ18yODV6MTB5MlVvSUNGTVAyWFVsQURNU3JSLWIwbzdKazZ1MTUtM1V5V0VKSHk2WHk2MUVubjJqX2dadF9nSEl3cy1ZOTBvTGMyb2poSVlQZmxfWnoxNmtCOW90am9BYjhkeEhoZTVtZm5ySE9KaEJNb1FX?oc=5",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-25T21:00:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
 },
 "66aca6c48280": {
 "channel_kind": "outlet",
@@ -26264,30 +26315,6 @@
 "tags": [],
 "title": "Digging Amy Poehler, Pillsbury Bake-Off Classic, Thanksgiving With ‘Reggie’ & ‘Line of Fire’"
 },
-"86b748c21fb4": {
-"first_seen": "2026-11-18T21:00:15+00:00",
-"id": "86b748c21fb4",
-"kind": "article",
-"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpOUhJTHFQNl8wUzVCN3VueHk5VnZHZzJzYzFIZkZwZEFpOElwUVgxbzllUWFKdlZrcWE2Q3Z3YW52NUllWVdYWDU1WlJOeHVfckRrRkRMdnAzWVNVSWZjSVR0RlQtaVpmODZWZlg0OTg3QnM?oc=5",
-"outlet": "Parade Magazine",
-"people": [],
-"published": "2026-11-18T19:05:06+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
-"rehash": false,
-"relevant": true,
-"shows": [
-"Scrubs"
-],
-"sitcom": false,
-"source_type": "gnews",
-"strong": true,
-"summary": "",
-"tags": [
-"Revival"
-],
-"title": "Why ‘Scrubs’ Isn’t on Tonight,  And When the Revival Returns for Its 200th Episode"
-},
 "86bba78776a0": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -28560,6 +28587,29 @@
 "summary": "",
 "tags": [],
 "title": "‘SNL’ alum Bowen Yang apologizes for ‘upsetting’ antisemitic slur"
+},
+"927437ae7f6c": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "927437ae7f6c",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fcandace-cameron-bure-talks-jodie-150030449.jpg?w%3D1024",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/25/entertainment/candace-cameron-bure-reveals-substantial-full-house-residuals/",
+"outlet": "Page Six",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-25T19:56:34+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Full House"
+],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Sweetin previously revealed she had received a residual check for just one cent from the sitcom.",
+"tags": [],
+"title": "Candace Cameron Bure disputes Jodie Sweetin’s eyebrow-raising claims about ‘Full House’ paychecks"
 },
 "9288913a5125": {
 "channel_kind": "talk",
@@ -32463,6 +32513,28 @@
 "tags": [],
 "title": "Adam Driver on who inspired his “cool uncle” role in “Paper Tiger”"
 },
+"a45a45b2b7eb": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "a45a45b2b7eb",
+"image": "https://www.justjared.com/wp-content/uploads/2026/11/mila-kunis-ashton-kutcher-kissed-same-women.jpg",
+"kind": "article",
+"link": "https://www.justjared.com/2026/11/25/mila-kunis-ashton-kutcher-same-actresses-kissed/",
+"outlet": "Just Jared",
+"people": [
+"Ashton Kutcher",
+"Mila Kunis"
+],
+"published": "2026-11-25T19:24:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Mila Kunis is recalling an amusing detail about her and Ashton Kutcher‘s respective acting careers. The 43-year-old actress opened up...",
+"tags": [],
+"title": "Mila Kunis Revisits the Two Famous Actresses Both She & Husband Ashton Kutcher Have Kissed on Screen"
+},
 "a4615358326a": {
 "channel_kind": "talk",
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -34543,6 +34615,29 @@
 ],
 "title": "The '80s Reboot Of Sally Field's Beloved '60s Sitcom Lasted Longer Than The Original"
 },
+"add52fb68c6c": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "add52fb68c6c",
+"image": "https://i0.wp.com/media.hollywoodlife.com/uploads/2026/11/GettyImages-2255642875-e1794322112726.jpg?fit=3333%2C1883&quality=89&ssl=1",
+"kind": "article",
+"link": "https://hollywoodlife.com/feature/are-dax-shepard-kristen-bell-still-together-5582393/",
+"outlet": "Hollywood Life",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-25T18:46:44+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The ‘Nobody Wants This’ star and her podcast-host husband keep their marriage an open book! Here’s everything we know so far.",
+"tags": [],
+"title": "Are Dax Shepard & Kristen Bell Still Together & Married?"
+},
 "addb7e2286af": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "addb7e2286af",
@@ -34564,6 +34659,28 @@
 "summary": "",
 "tags": [],
 "title": "Fire erupts at Will Smith, Jada Pinkett Smith's $42M Los Angeles mansion"
+},
+"aded7ef63c92": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "aded7ef63c92",
+"image": "https://variety.com/wp-content/uploads/2026/11/VIP-Dropout.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/dropout-very-important-people-season-4-release-ben-schwartz-1236958190/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-25T18:30:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Dropout’s improv interview series “Very Important People” is set to debut its fourth season Dec. 10 with a new batch of weirdo guests. Hosted by comedian Vic Michaelis, “Very Important People” features improv comedians after they undergo an extensive makeover by a talented team of make-up artists...",
+"tags": [
+"Upcoming",
+"Interview"
+],
+"title": "Dropout’s ‘Very Important People’ Reveals Season 4 Release Date; Adds Ben Schwartz, Kirby Howell-Baptiste and More Guests"
 },
 "ae09cd71dc60": {
 "channel_kind": "talk",
@@ -36192,6 +36309,25 @@
 "tags": [],
 "title": "Jimmy Announces His New Book \"The Path of a Pencil\" | The Tonight Show Starring Jimmy Fallon"
 },
+"b527ffa4c34b": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "b527ffa4c34b",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/11_4db984.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2230868-sofia-carson-netflix-nfl-christmas-movie",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-25T20:25:20+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Sofia Carson is returning to Netflix for another romantic comedy, this time with an NFL twist. Carson will star in The Christmas Game, a holiday movie that blends football, romance, and a career-saving pursuit, alongside Taylor John Smith and Charlie Hall.",
+"tags": [],
+"title": "Sofia Carson Scores Netflix Comedy Movie That’s Jerry Maguire Meets The Holiday"
+},
 "b538130f4523": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "b538130f4523",
@@ -36394,6 +36530,27 @@
 "summary": "Will Walker Lyons be in the audience during the Season 35 finale? Rylee Arnold has made it to the Dancing With the Stars finale once again! Over the course of Season 35, the 21-year-old and her celebrity partner, podcaster/comedian Connor Wood, have become fan favorites.",
 "tags": [],
 "title": "‘Dancing With the Stars’: All About Rylee Arnold’s Boyfriend & Their Relationship"
+},
+"b5e704874ac2": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "b5e704874ac2",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fgrace-bassel-shane-gillis-2024-150010552_66422c.jpg?w%3D819",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/25/celebrity-news/shane-gilliss-ex-grace-brassel-rips-comedians-snl-monologue-predicts-how-scandal-will-impact-his-career/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-25T21:02:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Grace Brassel told Page Six that strangers have high-fived her in public since Gillis bombed on SNL.",
+"tags": [],
+"title": "Shane Gillis’s ex Grace Brassel rips comedian’s ‘SNL’ monologue, predicts how scandal will impact his career"
 },
 "b62ef289336a": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -39713,26 +39870,6 @@
 "tags": [],
 "title": "It’s almost Thanksgiving. Get ahead on the family drama with #PHONY"
 },
-"c6a8a7c8a021": {
-"first_seen": "2026-11-18T21:00:15+00:00",
-"id": "c6a8a7c8a021",
-"kind": "article",
-"link": "https://variety.com/2026/tv/news/nbc-page-program-history-stepping-stone-kenneth-1236952075/",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-18T19:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Saturday Night Live"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "Katie Hockmeyer now oversees “Saturday Night Live” as NBC’s executive vice president of late night. But she still can’t forget her first brush with the sketch comedy staple: As an NBC page assigned to the floor.",
-"tags": [],
-"title": "How NBC’s Longtime Page Program Has Served as a Key Stepping Stone to Media Leadership"
-},
 "c6ca92113a74": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "c6ca92113a74",
@@ -41505,6 +41642,28 @@
 "tags": [],
 "title": "‘Gilmore Girls’ Star Kelly Bishop Hints at Cast ‘Problems’: 5 Biggest Revelations From New Doc"
 },
+"cfe85cecb4e0": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "cfe85cecb4e0",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12WG1aR3hKLXBpRXdISTk1VklvZmk0U3JEWGlpR2J0NlRlZGF3LXBxR2hCTjRoNDB4dktmYmxYMFhQZFI1T180NnFLb093NWdOM0ZhNW5mMWl5b01JYUdSN3JGYVNRRjg?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-25T21:17:27+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
+},
 "d07cab5a1e22": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "d07cab5a1e22",
@@ -42873,8 +43032,8 @@
 "outlet": "People.com",
 "people": [],
 "published": "2026-11-24T22:26:00+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -43545,26 +43704,6 @@
 "Interview"
 ],
 "title": "#channingtatum Reflects on Parenthood at the ‘Josephine’ Premiere"
-},
-"db914d5ef29d": {
-"first_seen": "2026-11-18T21:00:15+00:00",
-"id": "db914d5ef29d",
-"kind": "article",
-"link": "https://variety.com/2026/tv/news/morgan-jay-music-therapy-show-youtube-1236951468/",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-18T19:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"Saturday Night Live"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Morgan Jay, the stand-up comedian best known for his viral auto-tuned crowd-work songs, has launched a new show on YouTube called “Music Therapy.” The interview series, which debuted on Wednesday with first guest Kam Patterson (“Saturday Night Live”), is part talk show, part improvised jam session.",
-"tags": [],
-"title": "Comedian Morgan Jay Launches ‘Music Therapy’ Show With Guests Kam Patterson, Josh Johnson and More (EXCLUSIVE)"
 },
 "dba7bf89f70f": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -45007,6 +45146,29 @@
 "Trailer"
 ],
 "title": "Travis Fimmel Returns in First Trailer for ‘Black Snow’ Season 3"
+},
+"e338617be227": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "e338617be227",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-2306581997.jpg",
+"kind": "article",
+"link": "https://www.usmagazine.com/entertainment/news/tovah-feldshuh-addresses-nobody-wants-this-season-4-return/",
+"outlet": "Us Weekly",
+"people": [],
+"published": "2026-11-25T12:46:21+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Tovah Feldshuh revealed whether she will appear on Nobody Wants This season 4 after offscreen tension over Adam Brody‘s public support for Palestine. “Do I hope for [my character] Bina to be written in?",
+"tags": [
+"Interview"
+],
+"title": "Tovah Feldshuh Reveals If She'll Return to 'Nobody Wants This' After Drama"
 },
 "e33af7450d5f": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -46477,6 +46639,28 @@
 "summary": "",
 "tags": [],
 "title": "Malcolm in the Middle Star Frankie Muniz Rushed to Hospital After Race Car Crash"
+},
+"e9b067c4f09c": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "e9b067c4f09c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVVpMQXZQUkxSUTBtY29ZZ0t1dWsxTHoxSjJGeEVLc3NDbFZTNmYzQnNhMkpGWUtYT0VwUExiV1cybkRwUm5lekFXNjdFeUxubVV2WGtVWm9IbnVaZnlwZ005ZDdjRno4OEtoWmp6djhYV3E1Qm56blF5cEpaRk9KNzJScFhRS1R4bUxVR2hRODhRWXVBam9CYlBvRDVJUdIBowFBVV95cUxPZVkxX1I4SXRXSWFZOGl3bWxaNGE0Vjl6bG5OMnU4ZnBRVVNJbVltcHdDc1hzX2tvTmxCMklzcmtDRXNBX01UUnJ6bHhtWkVjcDdnd1RQb01DbFhCSlZsb0wwcWtlby1INEw0eTdXMm11ZUxQQXZSOU1USXdhSnBJZjhtYnlfT2NNbXk3cy1vVmtGYjlBVmlWYXRfV00wX3lMZExB?oc=5",
+"outlet": "ABC News - Breaking News, Latest News and Videos",
+"people": [],
+"published": "2026-11-25T13:40:39+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Tim Curry, star of 'The Rocky Horror Picture Show' and 'Home Alone 2,' dies at 80"
 },
 "e9cc78b51789": {
 "first_seen": "2026-11-19T17:30:29+00:00",
@@ -48093,6 +48277,29 @@
 "tags": [],
 "title": "Anderson .Paak & Cordae: Airbender/I'm On | The Tonight Show Starring Jimmy Fallon"
 },
+"f2ba07bb69f1": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "f2ba07bb69f1",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Dax-Shepard-1.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2230755-dax-shepard-depression-battle-kristen-bell-abusive-husband",
+"outlet": "ComingSoon",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-25T19:59:16+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Dax Shepard has opened up about how online accusations about his marriage affected his mental health. The Armchair Expert host revealed that he is experiencing depression after fans labelled him an “abusive husband” to Kristen Bell.",
+"tags": [
+"Interview"
+],
+"title": "Dax Shepard Reveals Depression Battle After Kristen Bell Fans Call Him an ‘Abusive Husband’"
+},
 "f2eec8b6d6e9": {
 "channel_kind": "talk",
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -48160,6 +48367,27 @@
 "summary": "",
 "tags": [],
 "title": "The Simpsons: Curb Your Expectations"
+},
+"f331e9afb9d8": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "f331e9afb9d8",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/tcdhawk_zx028.jpg",
+"kind": "article",
+"link": "https://screenrant.com/will-ferrell-the-hawk-netflix-season-2-fate-cancelled/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-25T21:22:43+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Will Ferrell's golf comedy series The Hawk premiered on Netflix earlier this year, and now the streamer has decided on the show's future.",
+"tags": [
+"Renewal"
+],
+"title": "Netflix Officially Decides Will Ferrell Series Renewal Fate"
 },
 "f334cda8ce35": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -48823,6 +49051,29 @@
 "summary": "The CMA Awards aired on ABC tonight, Trump arrived in China today where he saw Chinese President Xi and Russian President Putin, Trump was in the Philippines yesterday where he made his saddest most embarrassing plea for accolades yet,...",
 "tags": [],
 "title": "Trump Makes Saddest Most Embarrassing Plea Yet, Meets Up with Putin and Xi & Press Secretary Kimmel!"
+},
+"f63dfee0ad4b": {
+"first_seen": "2026-11-25T21:30:26+00:00",
+"id": "f63dfee0ad4b",
+"image": "https://www.thewrap.com/wp-content/uploads/2026/08/NUP_209614_00175_RF-e1786147876282.jpg?width=1024&height=576&fit=bounds",
+"kind": "article",
+"link": "https://www.thewrap.com/media-platforms/tv/amy-poehler-why-return-to-tv-dig-peacock-interview/",
+"outlet": "TheWrap",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-25T20:55:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Parks and Rec"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"Creating something from the ground up is what I love to do,\" the \"Parks and Rec\" star tells TheWrap of her new workplace comedy set on an archeological site",
+"tags": [],
+"title": "Why Amy Poehler Returned to TV With Peacock Comedy ‘Dig’"
 },
 "f65fd4226012": {
 "first_seen": "2026-11-25T17:30:16+00:00",
