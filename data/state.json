@@ -36,6 +36,7 @@
 "f03a60f0a646": "2026-11-20T06:30:12+00:00",
 "f4292f84dcb6": "2026-11-22T01:00:11+00:00",
 "f4c1045014b8": "2026-11-23T17:30:12+00:00",
+"f618d637237f": "2026-11-26T19:00:11+00:00",
 "f958602373c1": "2026-11-22T01:00:11+00:00",
 "fac6eaf9b04b": "2026-11-25T17:30:16+00:00",
 "fef042971298": "2026-11-20T17:30:17+00:00"
@@ -970,6 +971,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Netflix has acquired the historic Radford Studio Lot for $380 million. The 55-acre property has been home to shows like 'Seinfeld', 'The Mary Tyler Moore Show', and 'That '70s Show' since opening in 1928. (via TheWrap)"
+},
+"f618d637237f": {
+"at": "2026-11-26T19:01:55+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Alexander Bolding has revisited his viral side-eye moment with 'Friends' star Jennifer Aniston. Bolding originally appeared alongside Aniston in a St. Jude commercial. (via ComingSoon)"
 },
 "f731679d7cc2": {
 "at": "2026-11-26T17:33:39+00:00",
@@ -11305,6 +11312,27 @@
 "Trailer"
 ],
 "title": "Timberlake | Official Documentary Trailer (Apple TV, 2026)"
+},
+"2f40201f44cc": {
+"first_seen": "2026-11-26T19:00:11+00:00",
+"id": "2f40201f44cc",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/Jennifer-Anistons-Boyfriend-Jim-Curtis-Shares-Rare-Post-Declaring-His-Love-for-the-Actress.jpg",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/jennifer-anistons-boyfriend-jim-curtis-shares-sweet-post/",
+"outlet": "Us Weekly",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-26T12:40:38+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Jennifer Aniston’s boyfriend, Jim Curtis, is expressing his affection for the Friends star in a rare public message. Taking to his Instagram Stories on Wednesday, November 25, Curtis, 50, shared a picture of a cafe with the punny message written on its windows.",
+"tags": [],
+"title": "Jim Curtis Shares Rare Post About ‘Love’ for His Girlfriend Jennifer Aniston"
 },
 "2f63eac477e6": {
 "first_seen": "2026-11-21T22:27:20+00:00",
@@ -51394,6 +51422,29 @@
 "summary": "The CMA Awards aired on ABC tonight, Trump arrived in China today where he saw Chinese President Xi and Russian President Putin, Trump was in the Philippines yesterday where he made his saddest most embarrassing plea for accolades yet,...",
 "tags": [],
 "title": "Trump Makes Saddest Most Embarrassing Plea Yet, Meets Up with Putin and Xi & Press Secretary Kimmel!"
+},
+"f618d637237f": {
+"first_seen": "2026-11-26T19:00:11+00:00",
+"id": "f618d637237f",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Jennifer-Aniston.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2231562-jennifer-aniston-st-jude-costar-viral-commercial-callback",
+"outlet": "ComingSoon",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-26T18:42:28+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Alexander Bolding is bringing back his viral side-eye moment with Jennifer Aniston. The young boy, who appeared alongside the Friends star in a St. Jude commercial, recently revisited their hilarious interaction.",
+"tags": [
+"Revival"
+],
+"title": "Jennifer Aniston’s St. Jude Costar Revives Their Viral Moment With a Hilarious Callback"
 },
 "f63dfee0ad4b": {
 "first_seen": "2026-11-25T21:30:26+00:00",
