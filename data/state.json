@@ -16,7 +16,6 @@
 "66463d39378e": "2026-11-25T21:30:26+00:00",
 "679a8f8eab71": "2026-11-25T17:30:16+00:00",
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
-"937d0cf5b5b2": "2026-11-19T20:30:13+00:00",
 "955a842f6699": "2026-11-24T20:00:12+00:00",
 "985774a75a24": "2026-11-26T18:30:15+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
@@ -25,6 +24,7 @@
 "a470c0275fa1": "2026-11-20T18:00:12+00:00",
 "a578561cbb33": "2026-11-26T06:30:13+00:00",
 "a8f34fc3e5f2": "2026-11-25T06:30:11+00:00",
+"add6622c0e50": "2026-11-26T21:55:21+00:00",
 "b29a59e61f50": "2026-11-22T01:00:11+00:00",
 "b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
 "cc16907ecc1e": "2026-11-22T10:30:13+00:00",
@@ -552,12 +552,6 @@
 "model": "gemini-3-flash-preview",
 "text": "\"I’m curious as to whether any of my Catholic/christian followers would stay away from it on religious grounds,\" 'Everybody Loves Raymond' star Patricia Heaton says. She sparked a debate on Twitter after questioning if the upcoming Disney movie 'Hexed' is appropriate for children due to its depiction of witchcraft. (via TV Insider)"
 },
-"937d0cf5b5b2": {
-"at": "2026-11-19T20:33:28+00:00",
-"from_article": false,
-"model": "gemini-3-flash-preview",
-"text": "'Laverne & Shirley' actress has passed away at the age of 88. (via Page Six) 🕊️"
-},
 "948073a57cb6": {
 "at": "2026-11-21T06:36:56+00:00",
 "from_article": false,
@@ -707,6 +701,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Saturday Night Live' star Bowen Yang has issued an apology after being accused of using an antisemitic slur. (via USA Today)"
+},
+"add6622c0e50": {
+"at": "2026-11-26T21:58:38+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "Netflix has cancelled the comedy series 'The Hawk' after one season. The show starred and was co-created by 'Saturday Night Live' alum Will Ferrell, who reportedly earned a seven-figure salary per episode. (via Page Six)"
 },
 "b29a59e61f50": {
 "at": "2026-11-22T01:03:38+00:00",
@@ -7718,24 +7718,6 @@
 "tags": [],
 "title": "How Jamie Farr Transformed Klinger from One-Episode Role to M*A*S*H Icon"
 },
-"1cdb9761c745": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "1cdb9761c745",
-"kind": "article",
-"link": "https://www.thewrap.com/creative-content/tv-shows/adults-16-episode-season-3-renewal-ratings-analysis-fx/",
-"outlet": "TheWrap",
-"people": [],
-"published": "2026-11-19T19:30:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Plus, prepare for the GTA storm and \"Dancing With the Stars\" hits another season high",
-"tags": [],
-"title": "How ‘Adults’ Defied the Streaming Comedy Curse"
-},
 "1d9b85ac6425": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-22T06:30:21+00:00",
@@ -10201,6 +10183,25 @@
 "tags": [],
 "title": "'The Hunting Wives' Wigs Are Getting an Upgrade"
 },
+"291801142312": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "291801142312",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/12_686593.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2231733-natalie-portman-mark-ruffalo-netflix-comedy-release-update",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-26T20:41:36+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Netflix has dropped an update on the release date for its highly anticipated rom-com starring Natalie Portman and Mark Ruffalo. The upcoming movie also features a star-studded supporting cast. Good Sex is set to arrive on Netflix in Spring 2027, as per What’s On Netflix.",
+"tags": [],
+"title": "Natalie Portman & Mark Ruffalo’s Netflix Comedy Movie Scores Major Release Update"
+},
 "292c58b3c0f2": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "292c58b3c0f2",
@@ -10828,24 +10829,6 @@
 "summary": "",
 "tags": [],
 "title": "'The Big Bang Theory': A Theory"
-},
-"2cebfcd57c9e": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "2cebfcd57c9e",
-"kind": "article",
-"link": "https://variety.com/2026/tv/news/nikki-glaser-netflix-scripted-series-specials-1236952642/",
-"outlet": "Variety",
-"people": [],
-"published": "2026-11-19T19:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "Nikki Glaser has formed a major partnership with Netflix. The Emmy-nominated comedian will develop a scripted series to star in, as well as deliver two new stand-up specials, for the streamer as part of its newly announced Netflix Is a Joke Studios.",
-"tags": [],
-"title": "Nikki Glaser to Develop Scripted Series at Netflix, Inks Partnership With New Netflix Is a Joke Studios"
 },
 "2d0bd4723864": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -11550,6 +11533,28 @@
 "summary": "",
 "tags": [],
 "title": "Charlie Sheen Apologizes to Rob Lowe for Being ‘Unkind and Unfair’ to Him on Twitter"
+},
+"307e1e080ab6": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "307e1e080ab6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUFFpN3NKRVltT0YyZ3FHczJYQjN2bWh6ZGc0eWFXb2J1d3BaUnB4MjhqMmhvLUZoQnRNUnAtb0VOWjJpQ2IzTUNwQURfdXhvYklyMExBTzQtb1JYZndoQ3ZZOFN0OEx1N1ludjdRUEkyYWVEa1U0QnpWMEItQTdnZDM3S0RvbUFxOGxSVlp0NlBmQjZkUXFKZE9SbGVTMzVQeWw2bVNrcHc?oc=5",
+"outlet": "Fox News",
+"people": [],
+"published": "2026-11-26T16:43:40+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell golf show 'The Hawk' canceled by Netflix after flopping in first season"
 },
 "307eb63086b1": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -18703,6 +18708,28 @@
 ],
 "title": "Steven Hack’s official cause of death revealed after ‘Seinfeld’ actor’s sudden passing at 68"
 },
+"5309150387c5": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "5309150387c5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tb3AyQUMtd0ZjbmhPUGlGcG9UZ3dYSjl6TXpod1R0VENxR2hNOXU0QjMxR09uZ2M0V05wajV4OW1aWExYTmVPWUl2d0ptaGRvbi1pck9ycFdiemg3LU5fMU5xbG9DRGNfRDI0?oc=5",
+"outlet": "Vulture",
+"people": [],
+"published": "2026-11-26T02:40:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Every TV Show Canceled in 2026 So Far"
+},
 "5311cad2246a": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "5311cad2246a",
@@ -18854,6 +18881,27 @@
 "summary": "David talks about being named one of Vogue’s Best Dressed People of 2026, Dax Shepard cutting his hair, writing in his diary about every haircut he’s ever gotten, going to the Oscars and Vanity Fair afterparty, doing long book signings and...",
 "tags": [],
 "title": "David Sedaris on Lying to Strangers, Mishap at the Oscars & Being One of Vogue’s Best Dressed"
+},
+"53eeec4e2779": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "53eeec4e2779",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/nate-bargatze-thanksgiving-hot-takes-tonight-show-rant-video/",
+"outlet": "TheWrap",
+"people": [
+"Nate Bargatze"
+],
+"published": "2026-11-26T19:42:01+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"I told you we're not fun,\" the comedian tells Jimmy Fallon",
+"tags": [],
+"title": "Nate Bargatze Unleashes Thanksgiving Hot Takes in ‘Tonight Show’ Rant"
 },
 "541116b8811e": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -22417,6 +22465,25 @@
 "tags": [],
 "title": "‘Full House’s Candace Cameron Bure Makes Rare Mary-Kate & Ashely Olsen Remarks"
 },
+"668501ec5c66": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "668501ec5c66",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/3142699_eternallyyours_s1_0561b.jpg",
+"kind": "article",
+"link": "https://screenrant.com/eternally-yours-no-new-episode-november-26-2026-episode-8-release/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-26T20:45:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "Eternally Yours is taking its first break of the 2026-2027 TV season, but CBS has already confirmed when its newest sitcom will return to primetime.",
+"tags": [],
+"title": "Why There's No New Eternally Yours Tonight (Nov 26) & When Episode 8 Releases"
+},
 "66aca6c48280": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -22945,24 +23012,6 @@
 "tags": [],
 "title": "‘M*A*S*H’ Star Was Only Supposed to Appear in One Episode. Then He Became a TV Legend"
 },
-"6a24d9d9ffe7": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "6a24d9d9ffe7",
-"kind": "article",
-"link": "https://www.hollywoodreporter.com/tv/tv-news/nikki-glaser-overall-deal-netflix-1236759294/",
-"outlet": "The Hollywood Reporter",
-"people": [],
-"published": "2026-11-19T19:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": false,
-"summary": "The in-house unit at the streamer will be an incubator for projects that go beyond stand-up comedy.",
-"tags": [],
-"title": "Nikki Glaser Signs Deal With Newly Created Netflix Is a Joke Studios"
-},
 "6a4c473b5a79": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "6a4c473b5a79",
@@ -23422,6 +23471,26 @@
 "summary": "",
 "tags": [],
 "title": "Dude, Where Are My Billions? Ashton Kutcher Edging Closer to Super Rich Status After Anthropic IPO"
+},
+"6c733d3de8db": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "6c733d3de8db",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjQ1aE9KYzdFZU01dkhKLVVBbTRNRDNMVFlWeTBzVG4tS1hIS3hvWlJ6OHRUZ0RHZENBMUpRaW5mQkEydnlTNnd4dWdod09Wb2d1RGtZNmhVaEE1c19XVUNkRDNKR2VnOGtyYmRrWjNlWHFnNUNUaHU0WlA3TVJRallOeldlaXVsVU5qejcwa0RZbE5WUVJYOEctU3UxU0VGdEE?oc=5",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-26T18:55:30+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Celebrity deaths 2026: Actors, singers and stars we lost this year"
 },
 "6c83a2a68666": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -25231,28 +25300,6 @@
 "tags": [],
 "title": "Selena Gomez’s Reaction To Martin Short Accidentally Cutting Her Wedding Cake Is As Funny As I’d Hoped"
 },
-"7591814092a9": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "7591814092a9",
-"kind": "article",
-"link": "https://deadline.com/2026/11/zooey-deschanel-caleb-hearon-trash-mountain-1237229457/",
-"outlet": "Deadline",
-"people": [
-"Zooey Deschanel"
-],
-"published": "2026-11-19T20:24:19+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "EXCLUSIVE: The TIFF world premiere, Trash Mountain, starring Zooey Deschanel and Caleb Hearon, is seeing its North American rights go to Magnolia Pictures for a theatrical release next year.",
-"tags": [
-"Upcoming"
-],
-"title": "Zooey Deschanel & Caleb Hearon TIFF World Premiere ‘Trash Mountain’ Acquired By Magnolia Pictures"
-},
 "759c4c0ead9b": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "759c4c0ead9b",
@@ -25489,6 +25536,27 @@
 "Interview"
 ],
 "title": "‘Blade Runner 2099’ Reveals Final Trailer Before Prime Video Premiere"
+},
+"77863c819969": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "77863c819969",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Deepesh-personal-1200-_-675-2026-11-27T013526.540.png?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/tv/news/2231692-kevin-hart-catches-stray-lebron-james-dwayne-johnson-wwe-appearance",
+"outlet": "ComingSoon",
+"people": [
+"Kevin Hart"
+],
+"published": "2026-11-26T20:08:44+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "LeBron James has followed Dwayne Johnson’s wrestling career for years and has never hesitated to praise the actor. Ahead of The Rock’s upcoming WWE appearance, the NBA superstar revealed what he admires most about the wrestling legend, bringing Kevin Hart into the conversation with his answer.",
+"tags": [],
+"title": "Kevin Hart Catches a Hilarious Stray From LeBron James Ahead of Dwayne Johnson’s WWE Appearance"
 },
 "779d28716c4a": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -27940,6 +28008,27 @@
 ],
 "title": "‘Home Alone’ Director Chris Columbus Says Catherine O’Hara Was ‘50%’ of Film, Didn’t Know About New Sequel"
 },
+"865998be93ae": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "865998be93ae",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/only-murders-building-selena-gomez.jpg",
+"kind": "article",
+"link": "https://collider.com/netflix-mistletoe-murders-christmas-mystery-series-hallmark/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-26T20:14:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Only Murders in the Building"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Hallmark's popular holiday mystery, Mistletoe Murders, has found a new streaming home at Netflix.",
+"tags": [],
+"title": "‘Only Murders in the Building’ Gets a Christmas Spin in Netflix‘s Near-Perfect Mystery"
+},
 "865c11d89b54": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "865c11d89b54",
@@ -28483,7 +28572,7 @@
 "sitcom": false,
 "source_type": "direct",
 "strong": false,
-"summary": "Amy Poehler, Mike Schur and J.J. Philibin also tell TheWrap about Elise's decision to spare the villain and if Hugh Laurie could return",
+"summary": "Amy Poehler, Mike Schur and J.J. Philbin also tell TheWrap about Elise's decision to spare the villain and if Hugh Laurie could return",
 "tags": [
 "Interview"
 ],
@@ -30905,28 +30994,6 @@
 "tags": [],
 "title": "Only Murders In The Building Season 7’s Major Change Confirmed By Creators & Stars"
 },
-"9477b0a68866": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "9477b0a68866",
-"kind": "article",
-"link": "https://www.tvinsider.com/1304626/dancing-with-the-stars-alfonso-ribeiro-harry-shum-jr-jenna-johnson-elimination-interview/",
-"outlet": "TV Insider",
-"people": [
-"Alfonso Ribeiro"
-],
-"published": "2026-11-19T17:29:17+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "The show's host also explained why it would've been a 'shock' no matter who went home in the Semifinals. Alfonso Ribeiro has a front row view of everything that happens on Dancing With the Stars.",
-"tags": [
-"Interview"
-],
-"title": "‘Dancing With the Stars’: Alfonso Ribeiro Reveals What He Said to Harry & Jenna After Elimination"
-},
 "947e9044e1ce": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "947e9044e1ce",
@@ -32550,26 +32617,6 @@
 "tags": [],
 "title": "Will Smith Surprises Former ‘Fresh Prince’ Co-Star With ‘DWTS’ Season 35 Finale Cameo: I Am In Awe. I Am Inspired’"
 },
-"9bd10c4a0dd8": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "9bd10c4a0dd8",
-"kind": "article",
-"link": "https://www.thewrap.com/industry-news/business/ashton-kutcher-celebrates-anthropic-ipo/",
-"outlet": "TheWrap",
-"people": [
-"Ashton Kutcher"
-],
-"published": "2026-11-19T19:16:49+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "The AI company, which the actor invested in through his firm Sound Ventures, opened on the Nasdaq at $111.50 per share on Thursday",
-"tags": [],
-"title": "Ashton Kutcher Celebrates Anthropic IPO as His Firm Rakes in Billions: ‘Kind of Cool’"
-},
 "9bdc553edcfa": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -33421,6 +33468,27 @@
 "Upcoming"
 ],
 "title": "Prime Video’s ‘Invincible’ Season 5 Officially Sets Release Date"
+},
+"9f9059e82b57": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "9f9059e82b57",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fnobody-wants-succession-star-announces-150128106.jpg",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/26/parents/nobody-wants-this-and-succession-star-justine-lupe-announces-pregnancy-on-thanksgiving/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-26T20:39:34+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "\"Grateful for all things cookin and fully baked today,\" the actress captioned her Instagram post.",
+"tags": [],
+"title": "‘Nobody Wants This’ and ‘Succession’ star announces pregnancy on Thanksgiving"
 },
 "9f9eaf143031": {
 "first_seen": "2026-11-24T23:30:11+00:00",
@@ -36776,6 +36844,27 @@
 "tags": [],
 "title": "Are Dax Shepard & Kristen Bell Still Together & Married?"
 },
+"add6622c0e50": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "add6622c0e50",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2Fcrop-9435813_cb5938.jpg?w%3D1024",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/26/entertainment/netflix-cancels-emmy-winning-actors-comedy-after-single-season/",
+"outlet": "Page Six",
+"people": [],
+"published": "2026-11-26T21:35:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Ferrell reportedly made seven figures per episode as star and co-creator of \"The Hawk.\"",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix cancels Emmy-winning actor’s comedy after single season"
+},
 "addb7e2286af": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "addb7e2286af",
@@ -38895,24 +38984,6 @@
 "Upcoming"
 ],
 "title": "DIG Release Date, Trailer Out: Amy Poehler, Hugh Laurie Set Out For Archaeological Excavation"
-},
-"b6e84f30ae9f": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "b6e84f30ae9f",
-"kind": "article",
-"link": "https://www.thewrap.com/media-platforms/tv/netflix-launches-netflix-is-a-joke-studios-creative-partnership-nikki-glaser/",
-"outlet": "TheWrap",
-"people": [],
-"published": "2026-11-19T19:00:00+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Netflix Is a Joke Studios will develop scripted projects and original formats with stand-up comedians",
-"tags": [],
-"title": "Netflix Partners With Nikki Glaser on Scripted Series to Launch Its New Comedy Studio"
 },
 "b6ea1e201aa9": {
 "first_seen": "2026-11-22T08:00:11+00:00",
@@ -41986,26 +42057,6 @@
 "tags": [],
 "title": "Ashton Kutcher Celebrates Anthropic’s Massive IPO as Firm He Cofounded Rakes in Billions: ‘Kind of Cool When That Works Out’"
 },
-"c6744a631f85": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "c6744a631f85",
-"kind": "article",
-"link": "https://deadline.com/2026/11/susan-sarandon-film-accompanist-us-deal-watermelon-pictures-1237229354/",
-"outlet": "Deadline",
-"people": [
-"Aubrey Plaza"
-],
-"published": "2026-11-19T18:57:26+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "Watermelon Pictures has picked up North American distribution rights to The Accompanist, co-written and directed by actor, writer and comedian Zach Woods, starring Oscar winner Susan Sarandon alongside Aubrey Plaza and Everly Carganilla.",
-"tags": [],
-"title": "Susan Sarandon & Aubrey Plaza Drama ‘The Accompanist’ Gets North American Deal With Watermelon Pictures"
-},
 "c6a269bbbf6f": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T06:30:12+00:00",
@@ -42954,6 +43005,29 @@
 "Interview"
 ],
 "title": "Leah Sava’ Jeffries Dishes on Reuniting With Raven-Symoné for New Cheetah Girls Movie"
+},
+"cbe057517990": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "cbe057517990",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdm81VXA1V3l2Sk9nY0ZWSWRUU1pZalNRbkxpeEx2eDNIajFHY2stUzJqQXN4S2RzYjJNdk53Y0lVRXhzV3hYRjM5S0FMWlhwNEJCOEctMUJCVjZXcjI4aE4zZU9UVnJqVzBhTWtCMkFwOTQ5eXVjN3daRXdfa3Z1S3VkWEFvMHFqQXRkbEVDNkRXdG9RR3RBWdIBngFBVV95cUxOQlhmRnNWNXhJYWlDbm4xTmtqdTV4UGJrSktLRFAtaHQxQktYUzlzMkZTUnYtUUExZXBqbjRZaHVMcXRrREZYY2pkUDBsaVZ3MFJncDRSLXpsdjhuREFMVWdzSEhfQ1k4LTk4LTB4Tjc3bkpIMVJPNHpLUm9MRnVDa0YyQU5NX1gxSzRXTEkzSTZmYkxjOThvS0x3Qkk0UQ?oc=5",
+"outlet": "ComingSoon.net",
+"people": [],
+"published": "2026-11-26T19:41:43+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End",
+"Interview"
+],
+"title": "Mark-Paul Gosselaar Reveals the Canceled TV Show He’d Love to Bring Back"
 },
 "cbfc6c93e8aa": {
 "channel_kind": "talk",
@@ -47330,26 +47404,6 @@
 "tags": [],
 "title": "Is SNL New Tonight? Musical Guest, Host, Start Time"
 },
-"e22ccbe47e6e": {
-"first_seen": "2026-11-19T20:30:13+00:00",
-"id": "e22ccbe47e6e",
-"kind": "article",
-"link": "https://www.thewrap.com/creative-content/tv-shows/the-daily-show-outages-government-answers-trump-administration/",
-"outlet": "TheWrap",
-"people": [],
-"published": "2026-11-19T20:16:35+00:00",
-"rehash": false,
-"relevant": true,
-"shows": [
-"The Daily Show"
-],
-"sitcom": false,
-"source_type": "direct",
-"strong": true,
-"summary": "\"I might buy the fact that this is all kind of a coincidence, but the problem is I don't buy it from you guys,\" host Michael Kosta tells the administration",
-"tags": [],
-"title": "‘The Daily Show’ Begs for Trump Answers After Outages: ‘We Don’t Trust You, and That’s Dangerous’"
-},
 "e26464e4cc74": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "e26464e4cc74",
@@ -50618,6 +50672,25 @@
 "tags": [],
 "title": "Stephen Colbert Takes The Colbert Questionert - PART FOUR"
 },
+"f2f508014191": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "f2f508014191",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/media-platforms/politics/seth-meyers-roasts-trump-administration-iowa-explosion-thanksgiving/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-26T20:49:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "\"I knew he was mad about the midterms, but I didn't know he was this mad,\" the NBC late night host says",
+"tags": [],
+"title": "Seth Meyers Roasts Trump Administration for ‘Bombing Iowa’ Ahead of Thanksgiving: ‘What the F–k?’"
+},
 "f30102ba53a5": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "f30102ba53a5",
@@ -53203,6 +53276,28 @@
 "summary": "",
 "tags": [],
 "title": "Ashton Kutcher could become billionaire after early investment in AI company Anthropic"
+},
+"fda987b9a591": {
+"first_seen": "2026-11-26T21:55:21+00:00",
+"id": "fda987b9a591",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/emily-osment-as-mandy-and-montana-jordan-as-georgie-in-georgie-mandy-s-first-marriage-season-3-episode-7.jpg",
+"kind": "article",
+"link": "https://screenrant.com/georgie-and-mandys-first-marriage-no-new-episode-november-26-2026-season-3-episode-8-release/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-26T20:15:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Young Sheldon",
+"Georgie & Mandy's First Marriage"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "No new episode of Georgie & Mandy's First Marriage season 3 airs tonight on CBS: here's what airs instead, and when the Young Sheldon spinoff returns.",
+"tags": [],
+"title": "Why There's No New Georgie & Mandy's First Marriage Tonight (Nov 26) & When Season 3, Episode 8 Releases"
 },
 "fdb2bf212792": {
 "first_seen": "2026-11-20T06:30:12+00:00",
