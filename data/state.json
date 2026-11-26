@@ -4,6 +4,7 @@
 "1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "302c6a55ed3f": "2026-11-25T21:30:26+00:00",
+"302da0ae6950": "2026-11-26T04:00:12+00:00",
 "39c72122eeb2": "2026-11-25T06:30:11+00:00",
 "3b6bf474c022": "2026-11-23T20:30:16+00:00",
 "42704e5abeb8": "2026-11-24T23:30:11+00:00",
@@ -201,6 +202,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "Netflix has canceled the golf comedy 'The Hawk' after one season. The series was co-created, executive produced, and headlined by Will Ferrell. (via Deadline)"
+},
+"302da0ae6950": {
+"at": "2026-11-26T04:01:51+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Netflix has quietly cancelled an expensive new comedy series after just one season. (via Yahoo)"
 },
 "307eb63086b1": {
 "at": "2026-11-24T06:33:01+00:00",
@@ -3230,6 +3237,28 @@
 "summary": "",
 "tags": [],
 "title": "Kimmel, Fallon, Gutfeld & More Late Night Ratings: Who’s on Top and Who’s Falling Behind?"
+},
+"0626a378a2d4": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "0626a378a2d4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ReWMzdkNSU3EzUHF6NDBkVklvU3FVUS1uZkhsWVg0UlJOc2pHX24wWlRURm8zSlk4MGJxbVI3andtUkpWbGxycWNHeXJZR2FQeS1TbnlDZHk4WmhvMHUzNDl1djR1LUM1Q3c?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-25T22:51:55+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Golf Comedy ‘The Hawk’ Canceled at Netflix After Just One Season"
 },
 "0647ac6b685b": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -8469,6 +8498,30 @@
 "tags": [],
 "title": "Comedian Leanne Morgan Gets Candid About Her Weight And Health"
 },
+"22adfc5e8c57": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "22adfc5e8c57",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVlVtNFZNbFJadXNSdmNhempEdFhRcUV6LWRpaUoxQjk3QTJYUE9qdFBaQXlJcC1HZ0dtLTBVMk84cEZPVEJWWWhZZXhYaUtTNFF4WkhHVGV1ME4ydFQwdFlXNGlESjdtZlYtWHh4aGlPZU9RNWgtMXRrV0lzY09vRldZNGxSTG10RXc3TjRhYlZuSHJKUkwzQmx3Mi11bk5fSzlzRm9jZlBEZTBhLVByadIBtgFBVV95cUxQUW1Mdk1rN0E2b2hHVUl2clowZFNwcWFicW1Kcm50UkNsTHNYbWJYUG5SOGNyWTZwTUNWampWQnVubldGeFlLaWJ0cmtZX1NCbGhKUGwwb0VVZ3VFaDRlNHRPb3ZyY2hfTU5qeEhoUkZoem5PZDFvSzFwVk5fLVFWRFFiQWsyMGRUNkFUQkIySnMwXy1yQkIzc1hyVU5oVTRpeGhkVGoweUJpYWNhbXFnX09jUjFRUQ?oc=5",
+"outlet": "ABC News - Breaking News, Latest News and Videos",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-25T13:49:12+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Two and a Half Men"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "10 Potential Replacements for Charlie Sheen on 'Two and a Half Men'"
+},
 "230203a858da": {
 "first_seen": "2026-11-23T06:30:11+00:00",
 "id": "230203a858da",
@@ -10092,6 +10145,28 @@
 "tags": [],
 "title": "Lisa Sthalekar Biopic, ‘Fear and Loathing in Kathmandu’ Doc and Melbourne Diaspora Comedy Series on ‘Wedding Season’ Star Pallavi Sharda’s Bodhini Studios Slate (EXCLUSIVE)"
 },
+"2c77c6d14ce8": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "2c77c6d14ce8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE43Z2JsZmF4TFl4M0V6b2k3VE9rM2xsLWZ6OW9qQm16Ym50SDFiTzRGQWZqdkRjRkVUWWFuQVI3SnJHd2Y5X0pJMnpCWW9sd0N2U3VNQXNRNzBVVjNNMUR3cXNSOWdGNzg?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-25T21:18:41+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
+},
 "2c876de079fa": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "2c876de079fa",
@@ -10823,6 +10898,28 @@
 "Cancel/End"
 ],
 "title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
+},
+"302da0ae6950": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "302da0ae6950",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOemlHZVJ0SXpydGVSM0x0VU13QjZBcWRyU08yZFZVdE5Uc0Y1TEwzcmp0QXlUSmpEb09tc1pKdl9HeF9oak14SEZiRWU5TTVuR3JHMzNia0pmNndhWlZGUThYWXE0Yl9wVElERTNvLVVfbDZrWDAtUUNockxPaWt1SDh2Yjk2ZHpTU05qRjNqTzhDeHRWR2xDR2JxcndIaTAtTHVTQUtCN1FFbFRNOU9Hd2RyZEVaLTZXVUdvRg?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T00:06:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix Quietly Cancels Expensive New Comedy Series After Just 1 Season"
 },
 "303152652937": {
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -16995,6 +17092,28 @@
 "tags": [],
 "title": "Bowen Yang Apologizes for Calling Regina Spektor an Antisemitic Slur, Didn’t Know It Was ‘Popularized by Far-Right Movements’"
 },
+"4f3083bf5f22": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "4f3083bf5f22",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Nck9DZ044ZXZXc19Gdnc4dWJHcjE3WFZGSDk0RTZBYUhvQVVPSmVYcFNQS0xJRGZTVzlOY0J5VHEzLWFzTlM1ejRGYUpNQkdyMVJ1enlsUE0zYWlCc19oWXplT01HRVRVaWc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-25T22:51:54+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s Netflix Golf Comedy ‘The Hawk’ Canceled After One Season"
+},
 "4f70ec2086a9": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -18632,6 +18751,28 @@
 "tags": [],
 "title": "Christopher Briney Teases TSITP Movie"
 },
+"586992c17f05": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "586992c17f05",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ2ttNWRIc3FtbXIyVjM3Njd1VFRWdGNFb2RCaXYzSGtERkQ1aXlnOFhtTF85NTdCNXVRVlEwcVRLZk1lQVYxLTZvVEtzWGVZTjI3MXdPLWk4OUttaWtSTWtJTmYxNmNjVG1TYVh2d1ZWTFpndE9FeHF3bG55VTZqU0tEelJfZFZJZTQtdVJDQkpOU2RsaGRzYzZPZTh1SHdObllVeFZjUTNIdVE?oc=5",
+"outlet": "IndieWire",
+"people": [],
+"published": "2026-11-25T22:22:32+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Golf Comedy ‘The Hawk’ Canceled at Netflix After Just One Season"
+},
 "58964e053f2d": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "58964e053f2d",
@@ -20244,6 +20385,28 @@
 "summary": "Ella Langley SWEPT at the CMAs! 🙌 The singer takes home the night’s biggest honor, ‘Entertainer of the Year,’ making it her sixth win of the evening. It’s also her first time claiming the coveted title.",
 "tags": [],
 "title": "Ella Langley Wins Her First ‘Entertainer of the Year’ Award at CMAs"
+},
+"62190d797c74": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "62190d797c74",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQ2pQejZySmkyWk93WTRYVlpacXJFTEdhemE5ZGFocGtpRDZxdVhiRkEtckU2cUJidjdsWkgwRHdOQVItM3p1UldydWxvam5qeHpfWEtWMFZTRTJDeXVOdjBrTnlkbEtEd3N0OV9vOE5FNUg0amxBU3RqZk1VeU1QWTFaTGFEdWtTNm0wVDFQUDhEZmRxTEo1c0daQ2l4RnczNXhlcEUwMWE1SU5zUmlnb3pEcWFNWmVFaHNEMDJB?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-25T22:39:34+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Andy Taylor, Duran Duran guitarist, dies at 65"
 },
 "62456a637a2e": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -21930,6 +22093,29 @@
 "summary": "",
 "tags": [],
 "title": "Only Murders in the Building moves to London for upcoming season 6"
+},
+"6cfc39a24356": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "6cfc39a24356",
+"image": "https://variety.com/wp-content/uploads/2026/11/THEHAWK_110_251124_AE_00279_R2.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/news/the-hawk-will-ferrell-canceled-netflix-1236958470/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-25T21:45:55+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "“The Hawk” has hit the rough. Netflix has canceled the golf comedy series after just one season. The series, which starred Will Ferrell in his first regular TV role since “SNL,” originally debuted on the streamer back in July.",
+"tags": [
+"Cancel/End"
+],
+"title": "‘The Hawk’ Starring Will Ferrell Canceled After One Season at Netflix"
 },
 "6d087b86eccb": {
 "first_seen": "2026-11-21T08:58:50+00:00",
@@ -26724,6 +26910,26 @@
 "tags": [],
 "title": "john mulaney’s photoshoot bts!!!"
 },
+"88e70435c3c8": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "88e70435c3c8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mS2xxc3VTeDBZMEhsZjloUzYxRzYzN1Y5ODJSTjRraWxBNVBHVUJIc2d4d1FGaGtxd2lIZ0pmN2JMZTdLY3NpU3g5YXEwZ0RweDlmQlFIWG1WUQ?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-26T00:52:29+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Ryan Schwartz"
+},
 "88ee5eb41c77": {
 "first_seen": "2026-11-23T06:30:11+00:00",
 "id": "88ee5eb41c77",
@@ -27096,6 +27302,27 @@
 "summary": "Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf",
 "tags": [],
 "title": "Ah yes, the ultimate bottle opener. TWO brand-new episodes come out tonight at 10:30/9:30c."
+},
+"8b04ab8489aa": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "8b04ab8489aa",
+"image": "https://deadline.com/wp-content/uploads/2026/11/South-Park.png",
+"kind": "article",
+"link": "https://deadline.com/2026/11/south-park-gta-vi-outages-zombie-kenny-season-29-finale-1237233874/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-26T03:52:37+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "As the long wait for Grand Theft Auto VI finally ends, South Park‘s celebration was cut short on this week’s episode. In the finale “City Endings,” outages hit the town (currently rebranded as South America for Season 29) thanks to the AI data centers of Billionaire Weenietown that moved into...",
+"tags": [],
+"title": "‘South Park’ Celebrates ‘GTA VI’ But Outages, AI Data Centers & Zombie Kenny Stand In The Way In Season 29 Finale"
 },
 "8b3af896ad3a": {
 "first_seen": "2026-11-21T22:27:20+00:00",
@@ -29725,6 +29952,27 @@
 "tags": [],
 "title": "John Mulaney's Latest SNL Musical Brings Back Bowen Yang As Mary Todd Lincoln, Plus Ashley Padilla's Kathy"
 },
+"97c246ede801": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "97c246ede801",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/will-ferrell-netflix-comedy-the-hawk-canceled-one-season-1236763480/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-25T22:18:36+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "So you can forget about the back nine.",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s Netflix Golf Comedy ‘The Hawk’ Canceled After One Season"
+},
 "97df67b14615": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "97df67b14615",
@@ -30951,6 +31199,28 @@
 "tags": [],
 "title": "Legends Of Late Night Introduce The Series Finale of \"The Late Show\""
 },
+"9dcaca2da82e": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "9dcaca2da82e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oa295Z0tUZzBWbVVneFlyNHpPT28xWTJfZ2pjbXh1YnRaUm5BZl9wbVVVOVlOTG9iRXQxZ2dXRTZpM0pUSjFTRjBldlVKdDhjdWZIMXVFVFAtR1RldmJmMnRXY2xSU3c?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-25T22:39:47+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Golf Comedy ‘The Hawk’ Canceled at Netflix After Just One Season"
+},
 "9dcca003acc9": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "9dcca003acc9",
@@ -31644,6 +31914,27 @@
 "Trailer"
 ],
 "title": "‘Only Murders in the Building’ Officially Leaves New York Behind in Season 6 Trailer"
+},
+"a0978e49f59d": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "a0978e49f59d",
+"image": "https://www.tvline.com/img/gallery/will-ferrell-comedy-the-hawk-canceled-after-1-season-at-netflix/l-intro-1795641340.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2328734/the-hawk-canceled-season-2-netflix-will-ferrell/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-25T21:18:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "It's one and done for the Will Ferrell golf comedy The Hawk, which has been canceled four months after its Netflix premiere.",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Comedy The Hawk Canceled After 1 Season At Netflix"
 },
 "a0b07d2080d1": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -37217,6 +37508,27 @@
 ],
 "title": "#Invincible Season 5 - Official Teaser | Prime Video"
 },
+"b8f3db2f806d": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "b8f3db2f806d",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/07/Jimmy-Tatro-and-Will-Ferrell-in-The-Hawk-scaled-e1784138003127-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1275699/the-hawk-season-2-cast-premiere-date-details/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-25T22:10:56+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "It looks like The Hawk has played his final round. Netflix has canceled the golf comedy series after just one season. According to Variety, the series' reportedly hefty production costs, including star Will Ferrell's salary as star and co-creator, made securing a second season an uphill battle...",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s Golf Comedy ‘The Hawk’ Canceled by Netflix After 1 Season"
+},
 "b9093428363f": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "b9093428363f",
@@ -37635,6 +37947,27 @@
 "Interview"
 ],
 "title": "Frasier star Jane Leeves reflects on Sussex roots"
+},
+"bac6e38c51c1": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "bac6e38c51c1",
+"image": "",
+"kind": "article",
+"link": "https://www.indiewire.com/news/breaking-news/will-ferrell-golf-comedy-the-hawk-canceled-netflix-1235231256/",
+"outlet": "IndieWire",
+"people": [],
+"published": "2026-11-25T22:22:32+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The series that was co-created by Ferrell was considered to be one of the most expensive comedy shows on the streamer.",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell Golf Comedy ‘The Hawk’ Canceled at Netflix After Just One Season"
 },
 "baf1d8ad04ff": {
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -38071,6 +38404,27 @@
 "summary": "We're sat. Verity is now available to rent or buy on Prime Video. About Verity: While ghostwriting for renowned author Verity Crawford, struggling writer Lowen Ashleigh uncovers Verity's chilling autobiographical notes, and finds it hard...",
 "tags": [],
 "title": "You don't have to tell us twice. #Verity #AnneHathaway #DakotaJohnson #PrimeVideo"
+},
+"bd163a87179a": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "bd163a87179a",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/sami-sheen.jpg?crop=0px%2C169px%2C1200px%2C677px&resize=1000%2C563&quality=40&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/sami-sheen-jokes-about-holiday-screaming-fights-with-family/",
+"outlet": "Us Weekly",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-25T20:54:26+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Denise Richards and Charlie Sheen’s daughter Sami Sheen is keeping it real this holiday season. “Wait, you’re telling me people actually are excited for Thanksgiving,” Sami, 22, asked via TikTok on Tuesday, November 24.",
+"tags": [],
+"title": "Sami Sheen Jokes About 'Screaming Fights' With Family During the Holidays"
 },
 "bd4981013f5f": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -38748,6 +39102,27 @@
 "tags": [],
 "title": "No. 5: Alyson Hannigan - 2015-05-05 - The Highest-Paid TV Actresses Of 2014"
 },
+"c0da94428fba": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "c0da94428fba",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Deepesh-personal-1200-_-675-2026-11-26T040329.394.png?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/tv/news/2231029-will-ferrell-netflix-comedy-show-canceled-one-season-reason-revealed",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-25T22:58:53+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Will Ferrell’s latest Netflix comedy series has been canceled after just one season, ending its run on the streaming platform. The decision comes more than four months after the show’s premiere, with its performance and reported production costs said to have contributed to the cancellation.",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s Netflix Comedy Show Canceled After One Season, Reason Revealed"
+},
 "c123b668b7cd": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "c123b668b7cd",
@@ -38935,6 +39310,28 @@
 "summary": "",
 "tags": [],
 "title": "John Mulaney’s ‘Jimmy Kimmel Live’ Appearance Will Feature Something ‘Unexpected’ That Has His Wife Olivia Munn Shocked (Video)"
+},
+"c220efedff14": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "c220efedff14",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZVVmYTlHc2Q1bDAxaFdwMzFrYzVVMjZTLXd0elVPT2FCaGNtUHZaV2gxbDlJZWJqMjlfV1ZOczNHMFVmX1RRUVUxZWVSR1RWVUc5dkpBZUhJQkc1X0g0Q2drWGt5Y2drSmw4UGFKMmtsbTc5NTFuYmE5YUNrS0RERVVxZUFCZw?oc=5",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-25T23:59:28+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Upcoming"
+],
+"title": "'The Hawk' Season 2: Premiere Date, Cast, and More Updates"
 },
 "c2342fe543f7": {
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -41372,8 +41769,8 @@
 "Candace Cameron Bure"
 ],
 "published": "2026-11-25T15:38:14+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -44296,6 +44693,28 @@
 "summary": "",
 "tags": [],
 "title": "CNN Stream"
+},
+"dec8d4af704a": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "dec8d4af704a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVExEMGY5WXV1elhDcEU4YlNNRjdDMFg1RUlyZ2dVOVRKdlVDV0dMY0FidUdoalJrdzQ2V2h0TzAxUmd5VUxrMm5MaTRVckpuSDZQSHVlMy1PTmlteU9lNUZhYU9pYWRaRVc4ZGhyWmZnZy1wVFZIa2FGV3diQ0Q0dFcxSVh0dkk4a0Fud09RYmhNVU9McHlScnc5YUREUUlrU3hReG9VNWpkRC13MjlwONIBtgFBVV95cUxOZ3dqYlhwTTEteHd1N3F6d2pwYl9ucjlCbGxfSzVyNWdndWRzTkw5dVRNbTB6S19UOTBvVWVYalV2Rm9yZWJPaks3SWNpODlHUUhGeW02Z3BVN1p0VFhfVGJiaVg4a3NkWmRqNXZjanBDZERiQWtyMFB0dWJoOWVtb0VELTJSaC0zMDFHTTNpcDdwNnI1WjhaTUlwQ1VlQzBRYnZNVTBraklCci1KcnBIQ0hJT0I2dw?oc=5",
+"outlet": "ComingSoon.net",
+"people": [],
+"published": "2026-11-25T22:58:53+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell’s Netflix Comedy Show Canceled After One Season, Reason Revealed"
 },
 "ded9b1d413b4": {
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -49453,6 +49872,29 @@
 "tags": [],
 "title": "Bob Dylan & The Pope - SNL"
 },
+"f7e57bc1daa1": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "f7e57bc1daa1",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/‘Ill-Kill-You-Charlie-Sheen-Emilio-Estevez-Reveal-Explosive-Fight-That-Brought-Cops-to-Their-Door.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2230909-charlie-sheen-emilio-estevez-explosive-feud-police",
+"outlet": "ComingSoon",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-25T22:09:21+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Charlie Sheen and Emilio Estevez are recalling a teenage fight that brought four sheriff’s deputies to their door. The brothers recently opened up about an argument that escalated into a baseball bat confrontation and a death threat.",
+"tags": [
+"Interview"
+],
+"title": "‘I’ll Kill You’: Charlie Sheen & Emilio Estevez Reveal Explosive Fight That Brought Cops to Their Door"
+},
 "f803c7a2e44d": {
 "first_seen": "2026-11-20T17:30:17+00:00",
 "id": "f803c7a2e44d",
@@ -49694,6 +50136,28 @@
 "Interview"
 ],
 "title": "DC Studios Showcase Official Podcast | Megan Cruz on Clayface & Body Horror | HBO Max"
+},
+"f903cbc2db3b": {
+"first_seen": "2026-11-26T04:00:12+00:00",
+"id": "f903cbc2db3b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcFF5SlN6WURDS2QweW5CbFI1Mks5VVhURzZvR2pQUUE1SXVNS0UyQjdaQ1BjSEpRSkswMmdqSTdjWGpZM05Kc2NIanFReHZHSUlnLWktZ1dDMmJBTDJBVGhEclhGN2s4UE9nbGFoY3E1TkR4ZlhnbjUzVUJfcTZxM1htWEVzSnpaSmRZ?oc=5",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-25T21:45:00+00:00",
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "‘The Hawk’ Starring Will Ferrell Canceled After One Season at Netflix"
 },
 "f92463b79171": {
 "first_seen": "2026-11-24T06:30:13+00:00",
