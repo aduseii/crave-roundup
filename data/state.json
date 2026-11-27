@@ -3,6 +3,7 @@
 "08f5503bff89": "2026-11-27T19:00:12+00:00",
 "09d724b4ca5c": "2026-11-21T08:58:50+00:00",
 "14a17a8b495f": "2026-11-27T17:30:11+00:00",
+"1c3154de748b": "2026-11-27T22:00:12+00:00",
 "1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
 "2ec7f029d807": "2026-11-27T19:30:13+00:00",
@@ -144,6 +145,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Home Improvement' star Tim Allen and Jane Hajduk reveal what their ideal date night looks like after 20 years of marriage. (via People)"
+},
+"1c3154de748b": {
+"at": "2026-11-27T22:00:25+00:00",
+"from_article": false,
+"model": "gemini-flash-latest",
+"text": "A canceled 138-episode CBS sitcom has confirmed a new streaming home nine years later. (via Comic Book Resources)"
 },
 "1e001df23acf": {
 "at": "2026-11-23T21:01:01+00:00",
@@ -2810,6 +2817,27 @@
 "tags": [],
 "title": "‘St. Denis Medical’ EP Breaks Silence on Ariana Madix’s Future on Show After Shocking Onscreen Split"
 },
+"03df62c810a4": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "03df62c810a4",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/airplane3-1420x798-1-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305691/airplane-hollywood-show-cast-reunion-robert-hays-lorna-patterson/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-27T19:30:16+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The stars share stories from behind the scenes. More than four decades after Airplane! took the disaster movie genre to new heights of absurdity, the stars of the 1980 comedy classic reunited at the Hollywood Show in Burbank, California, to celebrate one of the most quotable comedies in cinematic...",
+"tags": [
+"Interview"
+],
+"title": "‘Airplane!’ Cast Reveals Ethel Merman’s Unusual Demand & Why Harriet Nelson Turned Down the Film"
+},
 "0408df41b127": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "0408df41b127",
@@ -3012,7 +3040,7 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN3lwRHpXYzU4Mmh2YjRRZGQ5d3lQRXdxb2pzRFJSZUZ0c012cFE1RlJVTXlZczBtNGx3QzhxZ2dpWWJSdXhDeFRNMFk0ZHJLRkVwVlhJVkNZZXE3NERtMHF0dUYzbnZra285QXFUM21wakVaS1JfWmtvQ2RmRnk5ZVZadXFtcWJPd0NVOG5GWUMyYmZiRkNYekozVzI3Z9IBowFBVV95cUxPWUpFMEdhNTNGQ2ZGYkg5RlNUWjZBcjl5MmtGM2VRRHFPWG1tUGtIdFFqQ1Y4YWhqa2M3cGltT3FQU2oxdVF0Zkw5TU9nLWZwN3VSUTRrSk1Oa25KNEdnb1lGQV8xeDU3c0tlX3lsTmNpaV9qVGtoS2JYNkc3UHZ0OXhWZUxEendRamlvWXpQV3R4al9PVTdlMjBfZ3gwRWFYTnJF?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-27T05:46:17+00:00",
+"published": "2026-11-27T11:35:47+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -4196,6 +4224,28 @@
 "summary": "",
 "tags": [],
 "title": "Jennifer Aniston Reportedly Tried to Help Matthew Perry Ahead of 'Friends' Reunion, Sources Say"
+},
+"0aa93c8143a7": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "0aa93c8143a7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pbl96TDQzaUtQcW1lM3dDTXVKTG5Ba3ZaelQ1U1hGRUp3MDZDRjdEUWdJQ1hIVFlHZnFWVWV5NlNsWnR5OUhabWVoUlZHLWsxRkFrS1JLOUJEQmtZUjFBeFJOS3Q?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T18:41:40+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "The Body Star Marcel Ruiz Is Nearly Unrecognizable On Netflix's Hit '70s Sitcom's Reboot"
 },
 "0aaf094a9c0c": {
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -5650,6 +5700,25 @@
 "summary": "",
 "tags": [],
 "title": "Meet Tim Allen's two daughters - including one who co-starred with her famous dad"
+},
+"10d9d2f77c68": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "10d9d2f77c68",
+"image": "https://decider.com/wp-content%2Fuploads%2F2026%2F11%2Frunner-siosi-1.jpg?quality%3D90%26strip%3Dall",
+"kind": "article",
+"link": "https://decider.com/2026/11/27/runner-hulu-review/",
+"outlet": "Decider",
+"people": [],
+"published": "2026-11-27T21:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Ritchson drops another generic action flick in-between ‘Reacher’ seasons.",
+"tags": [],
+"title": "Stream It Or Skip It: ‘Runner’ on Hulu, an action-packed Alan Ritchson-Owen Wilson buddy comedy"
 },
 "1101014a6c39": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -7141,6 +7210,27 @@
 "tags": [],
 "title": "Charlie Sheen swung bat, threatened to ‘break’ Emilio Estevez’s head open before cops swarmed teen brawl"
 },
+"196982b37839": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "196982b37839",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/10_bfde68.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2232773-will-smith-hancock-2-sequel-major-update",
+"outlet": "ComingSoon",
+"people": [
+"Will Smith"
+],
+"published": "2026-11-27T20:44:40+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The latest update on Hancock 2 is a good sign for Will Smith’s long-awaited superhero sequel. Smith has sent Peter Berg a screenplay for the sequel, and the director likes what he’s read. Berg revealed the news in a Variety interview while discussing his World War II film The Mosquito Bowl.",
+"tags": [],
+"title": "Will Smith’s Superhero Movie Sequel Gets a Major Update Fans Will Love"
+},
 "197a8dac6320": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T17:30:12+00:00",
@@ -7672,6 +7762,27 @@
 "tags": [],
 "title": "Tom Hanks Made A Change To SNL’s David S Pumpkins Anniversary Sketch After Dress Rehearsal"
 },
+"1ba03f427627": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "1ba03f427627",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-2241538205.jpg?crop=0px%2C90px%2C2857px%2C1614px&resize=1000%2C563&quality=40&strip=all",
+"kind": "article",
+"link": "https://www.usmagazine.com/celebrity-news/news/nobody-wants-this-justine-lupe-tyson-mason-expecting-baby-no-2/",
+"outlet": "Us Weekly",
+"people": [],
+"published": "2026-11-27T13:50:58+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Nobody Wants This"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Nobody Wants This star Justine Lupe revealed she’s pregnant with baby No. 2. “Grateful for all things cookin and fully baked today ♥️,” Lupe, 37, wrote via Instagram on Thursday, November 26, alongside a Thanksgiving photo of her, husband Tyson Mason and their 2-year-old daughter, Ellis, in which...",
+"tags": [],
+"title": "Nobody Wants This' Justine Lupe, Husband Tyson Mason Are Expecting Baby No. 2"
+},
 "1bc564a52e95": {
 "first_seen": "2026-11-21T17:30:12+00:00",
 "id": "1bc564a52e95",
@@ -7779,6 +7890,28 @@
 "summary": "The group is in the middle of a heated discussion. Ruth Madeley as Judy Heumann explains that the message they are trying to spreads is access, which extends beyond curb cuts to include interpreters.",
 "tags": [],
 "title": "Nothing wrong with bringing in a little food and revolution. #BeingHeumann,  Now Streaming"
+},
+"1c3154de748b": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "1c3154de748b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCS0R6TTNyXzJEVkgyV01TNHhNSzFRTUpiQ0ZrY0VrNmhTcVhoNlN1UFJURnA4WExielVNMTNuLWU2LTBxRFc0dk1YcGJkRjRpcmNKMWxDX3pEX0h5UXlZUW5va3JkSmVqWkZLWl9vRDM?oc=5",
+"outlet": "Comic Book Resources",
+"people": [],
+"published": "2026-11-27T21:34:09+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "CBS' Canceled 138-Episode Sitcom Confirms New Streaming Home 9 Years Later"
 },
 "1c4f5123a7c6": {
 "first_seen": "2026-11-27T13:55:13+00:00",
@@ -9968,6 +10101,25 @@
 "Interview"
 ],
 "title": "Hannah Einbinder Talks Hacks' Final Season, Future Movie Projects And Her SNL Dream"
+},
+"260f61ba61e6": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "260f61ba61e6",
+"image": "https://decider.com/wp-content%2Fuploads%2F2026%2F06%2Fjohn-early-maddies-secret-3.jpg?quality%3D90%26strip%3Dall",
+"kind": "article",
+"link": "https://decider.com/2026/11/27/maddies-secret-netflix-review/",
+"outlet": "Decider",
+"people": [],
+"published": "2026-11-27T21:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "John Early writes, directs, and stars in this kooky film about a sweet food influencer who finds herself undone.",
+"tags": [],
+"title": "Stream It Or Skip It: ‘Maddie’s Secret’ on Netflix, John Early’s weirdly sincere kitschy comedy"
 },
 "2628bff0b896": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -17016,6 +17168,27 @@
 "summary": "",
 "tags": [],
 "title": "Sofia Vergara’s Lace Corset Dress Is Sheer Where It Counts"
+},
+"4895de8c36fd": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "4895de8c36fd",
+"image": "https://media.hollywoodlife.com/uploads/2020/11/elf-then-and-now-everett-ap-ftr.jpg?fit=620%2C350",
+"kind": "article",
+"link": "https://hollywoodlife.com/feature/elf-cast-then-and-now-photos-4251906/",
+"outlet": "Hollywood Life",
+"people": [
+"Zooey Deschanel"
+],
+"published": "2026-11-27T21:22:55+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Everyone's favorite Christmas movie, 'Elf', remains a holiday classic.",
+"tags": [],
+"title": "‘Elf’ Cast Then & Now: See How Will Ferrell, Zooey Deschanel & More Stars Changed 20 Years Later"
 },
 "48a38de60945": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -27497,8 +27670,8 @@
 "Jason Alexander"
 ],
 "published": "2026-11-27T15:41:01+00:00",
-"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -32429,6 +32602,28 @@
 ],
 "title": "Steven Hack’s official cause of death revealed after ‘Seinfeld’ actor’s sudden passing at 68"
 },
+"9581ab0a194a": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "9581ab0a194a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRjNxUjhnbGZYZE5ObUFMVnhoX24wbE9SNWJhaUF2NHZUaHMwdUZLM0dCUXpvaWRzRVVjWFQ0RE9DVVAyOVQ1X3J6X0lJTTBUdUZ3RjlnQ19kdm5XenlIcGdkSWpKYVl6Y0FSODRvallwWVVpLWp4MTdoMEpvYkh2WDJ2T3BlWEo0eWNUYWZTV1EzX213OGdOSGpad1JubE5pVUwyVzU0ZDJ1dGtyT3c?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T22:00:18+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "Will ‘Slow Horses’ Be Renewed for Season 11?"
+},
 "958ffffc8d98": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "958ffffc8d98",
@@ -33899,6 +34094,28 @@
 "summary": "To commemorate the finale of ‘DWTS,’ Ribeiro chats with THR about the ups-and-downs of season 35, his favorite part about hosting the show and why he can’t predict who will join him in the winners circle on Tuesday night.",
 "tags": [],
 "title": "Alfonso Ribeiro on the “Wild” Ride of ‘DWTS’ Season 35, Reuniting With Tatyana Ali and Why He Won’t Compete in an All-Winners Season"
+},
+"9ba3093b9f80": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "9ba3093b9f80",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Seth-Rogen-Bryan-Cranston-Bowen-Yangs-New-Movie-With-Oscar-Buzz-Releases-in-Theaters-Today.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2232639-seth-rogen-bryan-cranston-julia-louis-dreyfus-new-adult-drama-movie",
+"outlet": "ComingSoon",
+"people": [
+"Bryan Cranston",
+"Bowen Yang"
+],
+"published": "2026-11-27T20:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Seth Rogen, Bryan Cranston, and Bowen Yang‘s Oscar-contending movie has officially arrived in theaters. Directed by Leah Nelson, Tangles is positioning itself for consideration in the Best Animated Feature category at the Academy Awards.",
+"tags": [],
+"title": "Seth Rogen, Bryan Cranston, & Bowen Yang’s New Movie With Oscar Buzz Releases in Theaters Today"
 },
 "9bcf7bc6c135": {
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -44454,6 +44671,27 @@
 ],
 "title": "'St. Denis Medical' EP Addresses Ariana Madix Exit After Shocking Show Split"
 },
+"cbabaad90652": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "cbabaad90652",
+"image": "",
+"kind": "article",
+"link": "https://www.thewrap.com/culture-lifestyle/culture/nbc-snl-israel-ad-review-backlash/",
+"outlet": "TheWrap",
+"people": [],
+"published": "2026-11-27T20:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The network says it is reviewing its approval process after airing the IMEU Policy Project spot during “Saturday Night Live” this week",
+"tags": [],
+"title": "NBC Won’t Air Ad Opposing US Military Aid to Israel Again After Backlash"
+},
 "cbe057517990": {
 "first_seen": "2026-11-26T21:55:21+00:00",
 "id": "cbe057517990",
@@ -47526,7 +47764,7 @@
 "strong": true,
 "summary": "",
 "tags": [],
-"title": "Danny McBride's Cult HBO Comedy 'Eastbound & Down' Heading to Netflix for the First Time"
+"title": "Danny McBride’s Cult HBO Comedy Series Heading to Netflix for the First Time"
 },
 "db7409782140": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -49369,6 +49607,27 @@
 "Trailer"
 ],
 "title": "‘Murder of JonBenet Ramsey’ Trailer Puts Child’s Parents Under the Microscope"
+},
+"e39b7c0ed9c8": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "e39b7c0ed9c8",
+"image": "https://www.tvline.com/img/gallery/why-morgan-and-avas-motherdaughter-relationship-on-high-potential-is-so-realistic/l-intro-1795537580.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2326671/why-morgan-ava-mother-daughter-relationship-high-potential-realistic/",
+"outlet": "TVLine",
+"people": [
+"Kaitlin Olson"
+],
+"published": "2026-11-27T21:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "High Potential fans can thank Kaitlin Olson's real-life relationship with co-star Amirah J for their characters' realistic onscreen dynamic.",
+"tags": [],
+"title": "Why Morgan And Ava's Mother/Daughter Relationship On High Potential Is So Realistic"
 },
 "e3a7f4ebf640": {
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -53821,6 +54080,27 @@
 "Interview"
 ],
 "title": "Michael J. Fox Reflects on 35-Year Battle With Parkinson’s: How It’s Affected His Memory (Exclusive)"
+},
+"f8708591c101": {
+"first_seen": "2026-11-27T22:00:12+00:00",
+"id": "f8708591c101",
+"image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F11%2F150198504.jpg?quality%3D90%26strip%3Dall",
+"kind": "article",
+"link": "https://pagesix.com/2026/11/27/style/jennifer-aniston-therabody-theraface-red-light-mask-is-up-to-120-off-for-black-friday/",
+"outlet": "Page Six",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-27T21:41:10+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "It promises firmer, smoother skin along with a visible reduction in fine lines and dark spots.",
+"tags": [],
+"title": "Jennifer Aniston’s red light mask is up to $120 off for Black Friday"
 },
 "f872cd289b32": {
 "first_seen": "2026-11-22T15:30:14+00:00",
