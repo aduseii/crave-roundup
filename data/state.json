@@ -5,6 +5,7 @@
 "14a17a8b495f": "2026-11-27T17:30:11+00:00",
 "1e001df23acf": "2026-11-23T21:00:15+00:00",
 "1e3d73bcb4fb": "2026-11-21T15:30:15+00:00",
+"2ec7f029d807": "2026-11-27T19:30:13+00:00",
 "302c6a55ed3f": "2026-11-25T21:30:26+00:00",
 "302da0ae6950": "2026-11-26T04:00:12+00:00",
 "3355312613de": "2026-11-26T17:30:13+00:00",
@@ -18,7 +19,10 @@
 "5388f9f30aaa": "2026-11-27T17:30:11+00:00",
 "66463d39378e": "2026-11-25T21:30:26+00:00",
 "679a8f8eab71": "2026-11-25T17:30:16+00:00",
+"6f7a2eaafe42": "2026-11-27T19:30:13+00:00",
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
+"7dbee275af63": "2026-11-27T19:30:13+00:00",
+"85fb93cc0266": "2026-11-27T19:30:13+00:00",
 "878d13265100": "2026-11-27T14:30:21+00:00",
 "955a842f6699": "2026-11-24T20:00:12+00:00",
 "985774a75a24": "2026-11-26T18:30:15+00:00",
@@ -41,7 +45,8 @@
 "f4c1045014b8": "2026-11-23T17:30:12+00:00",
 "f618d637237f": "2026-11-26T19:00:11+00:00",
 "f958602373c1": "2026-11-22T01:00:11+00:00",
-"fac6eaf9b04b": "2026-11-25T17:30:16+00:00"
+"fac6eaf9b04b": "2026-11-25T17:30:16+00:00",
+"fedb8a66e75d": "2026-11-27T19:30:13+00:00"
 },
 "drafts": {
 "016f6e7da001": {
@@ -523,6 +528,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "A new 'Home Alone' movie is in development with Macaulay Culkin set to return as Kevin McCallister. Director Chris Columbus says he was unaware of the project and that the late 'Schitt's Creek' star Catherine O'Hara was \"50%\" of the original film. 🕊️ (via Just Jared)"
+},
+"85fb93cc0266": {
+"at": "2026-11-27T19:33:04+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "\"The spinoff, you idiots, are the four parents at Del Boca Vista,\" 'Seinfeld' star Jason Alexander says. Alexander reveals he pitched a series following the parents of Jerry and George after the show ended in 1998. He also praised 'Young Sheldon' star Annie Potts, noting that her character could have carried her own show. (via TV Insider)"
 },
 "87148ba1d14d": {
 "at": "2026-11-24T17:33:31+00:00",
@@ -8632,6 +8643,25 @@
 "summary": "",
 "tags": [],
 "title": "1978 Country-Rock Duet, From a ‘Happy Days’ Star, Climbed the Charts Again Nearly 5 Decades Later"
+},
+"208583c29d79": {
+"first_seen": "2026-11-27T19:30:13+00:00",
+"id": "208583c29d79",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/cover-art-for-dungeon-crawler-carl-unstoppable-game.jpg",
+"kind": "article",
+"link": "https://screenrant.com/dungeon-crawler-carl-matt-dinniman-rule-good/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-27T19:00:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Luckily, author Matt Dinniman knows how to ensure Dungeon Crawler Carl's adaptation can work, pairing the book's savage stakes with absurd comedy.",
+"tags": [],
+"title": "Matt Dinniman's Rule For The Dungeon Crawler Carl TV Series Has Won Me Over"
 },
 "2089eaee5143": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -24355,6 +24385,29 @@
 ],
 "title": "'Avengers: Doomsday' Final Trailer Has Fantastic Four Calling On Steve Rogers"
 },
+"6d46854ea1aa": {
+"first_seen": "2026-11-27T19:30:13+00:00",
+"id": "6d46854ea1aa",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/GettyImages-490465750-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1306042/candace-cameron-bure-bold-claim-the-view-hosting-duped/",
+"outlet": "TV Insider",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T18:32:28+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Full House"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "The 'Full House' star says she was misled when she joined as a co-host in 2015. Candace Cameron Bure made a bold claim about being \"duped\" into hosting The View.",
+"tags": [],
+"title": "Candace Cameron Bure Makes Bold Claim About ‘The View’ Hosting Gig"
+},
 "6d4ce62aa240": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "6d4ce62aa240",
@@ -26818,6 +26871,28 @@
 "summary": "Bet you never saw this coming. 👀 Monica Niki Garcia is about to shake things up in The Circle. New episodes Tues, Weds & Thurs 9pm ET/6pm PT.",
 "tags": [],
 "title": "The Circle | Monica Niki Garcia | Hulu"
+},
+"7a56722730e7": {
+"first_seen": "2026-11-27T19:30:13+00:00",
+"id": "7a56722730e7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXZCZzU4elU1SHNtLVN6VlRPV3BuOVFmWU1rdjBrVHA5MnQyWW0zV0lXN2Nrdmhad3FDdFBoaU1vdWY0ZVVuX2hZUWZpTW1aOC11ZlRrcjZWeU5aeUhyY044VVpVcVZCZVJUQ0paXzk0UnN0R0lPdTVySFpTMlp3cHJBYU5YdmY3R09kQ21SbDE3VHNERTFwel9JZ21KTXlCMXNrYlpZRFhjcU54SEdqaHNB?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-27T18:59:21+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Gayle King's son-in-law dies after 'brief, but courageous' cancer bout"
 },
 "7a75757fd324": {
 "first_seen": "2026-11-27T07:00:14+00:00",
