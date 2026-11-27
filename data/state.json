@@ -16,6 +16,7 @@
 "66463d39378e": "2026-11-25T21:30:26+00:00",
 "679a8f8eab71": "2026-11-25T17:30:16+00:00",
 "779d28716c4a": "2026-11-23T17:30:12+00:00",
+"878d13265100": "2026-11-27T14:30:21+00:00",
 "955a842f6699": "2026-11-24T20:00:12+00:00",
 "985774a75a24": "2026-11-26T18:30:15+00:00",
 "a095f6c19bf7": "2026-11-20T17:30:17+00:00",
@@ -25,6 +26,7 @@
 "a578561cbb33": "2026-11-26T06:30:13+00:00",
 "a8f34fc3e5f2": "2026-11-25T06:30:11+00:00",
 "add6622c0e50": "2026-11-26T21:55:21+00:00",
+"b0f6b5918ff3": "2026-11-27T14:30:21+00:00",
 "b29a59e61f50": "2026-11-22T01:00:11+00:00",
 "b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
 "c7891a4ea545": "2026-11-27T13:55:13+00:00",
@@ -527,6 +529,12 @@
 "from_article": false,
 "model": "gemini-3-flash-preview",
 "text": "'Parks and Recreation' star Amy Poehler and 'House' star Hugh Laurie star in the new sitcom 'Dig'. The series follows the pair as they clash over ancient relics. (via IMDb)"
+},
+"878d13265100": {
+"at": "2026-11-27T14:33:08+00:00",
+"from_article": true,
+"model": "gemini-3-flash-preview",
+"text": "'One Day at a Time' star Marcel Ruiz is nearly unrecognizable in the Netflix series 'The Body'. Ruiz was 13 years old when the sitcom reboot premiered and is now 23. (via TVLine)"
 },
 "8f269156ff41": {
 "at": "2026-11-23T06:34:40+00:00",
@@ -2990,7 +2998,7 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN3lwRHpXYzU4Mmh2YjRRZGQ5d3lQRXdxb2pzRFJSZUZ0c012cFE1RlJVTXlZczBtNGx3QzhxZ2dpWWJSdXhDeFRNMFk0ZHJLRkVwVlhJVkNZZXE3NERtMHF0dUYzbnZra285QXFUM21wakVaS1JfWmtvQ2RmRnk5ZVZadXFtcWJPd0NVOG5GWUMyYmZiRkNYekozVzI3Z9IBowFBVV95cUxPWUpFMEdhNTNGQ2ZGYkg5RlNUWjZBcjl5MmtGM2VRRHFPWG1tUGtIdFFqQ1Y4YWhqa2M3cGltT3FQU2oxdVF0Zkw5TU9nLWZwN3VSUTRrSk1Oa25KNEdnb1lGQV8xeDU3c0tlX3lsTmNpaV9qVGtoS2JYNkc3UHZ0OXhWZUxEendRamlvWXpQV3R4al9PVTdlMjBfZ3gwRWFYTnJF?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-27T04:48:02+00:00",
+"published": "2026-11-27T05:46:17+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -28413,6 +28421,27 @@
 "tags": [],
 "title": "'Ted Lasso's latest cameo is proof of Season 4's identity crisis"
 },
+"878d13265100": {
+"first_seen": "2026-11-27T14:30:21+00:00",
+"id": "878d13265100",
+"image": "https://www.tvline.com/img/gallery/the-body-star-marcel-ruiz-is-nearly-unrecognizable-on-netflixs-hit-70s-sitcoms-reboot/l-intro-1795107666.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2325064/the-body-star-marcel-ruiz-netflix-reboot-hit-70s-sitcom-one-day-at-a-time/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-27T14:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": true,
+"summary": "Marcel Ruiz plays Tyler Flores in Netflix's The Body, but you may know him from his first big role. Here's where you may have seen him before.",
+"tags": [
+"Revival"
+],
+"title": "The Body Star Marcel Ruiz Is Nearly Unrecognizable On Netflix's Hit '70s Sitcom's Reboot"
+},
 "87af13b20fb7": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -37451,6 +37480,28 @@
 "Death"
 ],
 "title": "Tom Jackson Dies: Broncos Alum & ESPN Hall Of Fame Broadcaster Was 75"
+},
+"b0f6b5918ff3": {
+"first_seen": "2026-11-27T14:30:21+00:00",
+"id": "b0f6b5918ff3",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkwzZXJHTU1uZTRmemxnekhTUlIzbjNOdnliMlJKT21laHE1RFliRF9kMzZ5OUJKMjBpd3NSYmFhTFpvOWYzVW5Oa1NtSFFhVll2M3luMTNSdlVSU0FRN18wRkstUlQxUDFqdDBmNGxGbFNmbVE2eHUxdVJNclZJblhiLUxCb092bF9IS2FFOWtjQkg5SGR6UDNoWmFyM2syVjlweVE0Y3Q?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-27T14:12:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "The Body Star Marcel Ruiz Is Nearly Unrecognizable On Netflix's Hit '70s Sitcom's Reboot"
 },
 "b1108417055e": {
 "first_seen": "2026-11-20T17:30:17+00:00",
@@ -50838,6 +50889,27 @@
 "Exit"
 ],
 "title": "The 1970s sitcom star who was fired over a contract dispute,  and secretly built a $100 million fitness empire instead"
+},
+"f4c6c84561e8": {
+"first_seen": "2026-11-27T14:30:21+00:00",
+"id": "f4c6c84561e8",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/roseanne-barr-jd-vance-1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1306023/roseanne-barr-blasts-vice-president-jd-vance-fiery-rant/",
+"outlet": "TV Insider",
+"people": [],
+"published": "2026-11-27T14:04:50+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Roseanne"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "'Nobody likes him!' the 'Roseanne' star, a Trump supporter, declared. Roseanne Barr has never been one to pull her punches, and this time, Vice President JD Vance found himself squarely in the crosshairs of one of her verbal beatdowns.",
+"tags": [],
+"title": "Roseanne Barr Blasts Vice President JD Vance in Fiery Rant: ‘Just Resign Now!’"
 },
 "f4cb31e85cb1": {
 "channel_kind": "outlet",
