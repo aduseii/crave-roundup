@@ -27,6 +27,7 @@
 "add6622c0e50": "2026-11-26T21:55:21+00:00",
 "b29a59e61f50": "2026-11-22T01:00:11+00:00",
 "b6ea1e201aa9": "2026-11-22T08:00:11+00:00",
+"c7891a4ea545": "2026-11-27T13:55:13+00:00",
 "cc16907ecc1e": "2026-11-22T10:30:13+00:00",
 "cf92f3e40f14": "2026-11-26T17:30:13+00:00",
 "cfe85cecb4e0": "2026-11-25T21:30:26+00:00",
@@ -778,6 +779,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'The Fresh Prince of Bel-Air' star Alfonso Ribeiro and his wife Angela host an annual Thanksgiving celebration for 'Dancing With the Stars' cast members who cannot make it home for the holiday. \"The goal, constantly, is this is a family show and we are a family and we care about making sure that everyone feels the Thanksgiving love that they would normally feel if they were at home"
+},
+"c7891a4ea545": {
+"at": "2026-11-27T13:57:59+00:00",
+"from_article": false,
+"model": "gemini-3-flash-preview",
+"text": "Netflix has canceled the Will Ferrell golf comedy 'The Hawk' after one season. (via Yahoo)"
 },
 "c82ef3d0d4a8": {
 "at": "2026-11-23T17:32:54+00:00",
@@ -2651,6 +2658,27 @@
 ],
 "title": "Apple TV renews ‘Ted Lasso’ for Season 5; when could it premiere?"
 },
+"036694922074": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "036694922074",
+"image": "https://www.tvline.com/img/gallery/w2w-friday-november-27-2026/l-intro-1795445745.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2328272/what-to-watch-november-27-2026-tv-shows-movies-streaming/",
+"outlet": "TVLine",
+"people": [
+"Anthony Anderson"
+],
+"published": "2026-11-27T08:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "On TV this Friday: S.W.A.T.: Exiles wraps Season 1, Outlander: ﻿Blood of My Blood's sophomore run ends, and ﻿Anthony Anderson emcees the Soul ﻿Train Awards.",
+"tags": [],
+"title": "What To Watch Friday: S.W.A.T.: Exiles And Outlander: Blood Of My Blood Finales, Soul Train Awards, And More"
+},
 "0372c96ee496": {
 "first_seen": "2026-11-21T22:27:20+00:00",
 "id": "0372c96ee496",
@@ -2962,8 +2990,8 @@
 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN3lwRHpXYzU4Mmh2YjRRZGQ5d3lQRXdxb2pzRFJSZUZ0c012cFE1RlJVTXlZczBtNGx3QzhxZ2dpWWJSdXhDeFRNMFk0ZHJLRkVwVlhJVkNZZXE3NERtMHF0dUYzbnZra285QXFUM21wakVaS1JfWmtvQ2RmRnk5ZVZadXFtcWJPd0NVOG5GWUMyYmZiRkNYekozVzI3Z9IBowFBVV95cUxPWUpFMEdhNTNGQ2ZGYkg5RlNUWjZBcjl5MmtGM2VRRHFPWG1tUGtIdFFqQ1Y4YWhqa2M3cGltT3FQU2oxdVF0Zkw5TU9nLWZwN3VSUTRrSk1Oa25KNEdnb1lGQV8xeDU3c0tlX3lsTmNpaV9qVGtoS2JYNkc3UHZ0OXhWZUxEendRamlvWXpQV3R4al9PVTdlMjBfZ3gwRWFYTnJF?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-24T19:50:04+00:00",
-"query": "\"comedy series\"",
+"published": "2026-11-27T04:48:02+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
 "relevant": true,
@@ -4036,6 +4064,28 @@
 ],
 "title": "‘Home Alone’ Director Chris Columbus Thinks a Reboot Won’t Work Without the Late Catherine O’Hara"
 },
+"0a05fabccf85": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "0a05fabccf85",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMWNYRGdySVB0NlRZeXo2VDkzdnc0NXB3ZzRhdzhoVVJBWWRubUxyUVl3VmpJN2ZfZUg1VXRjQ0xYNmdkeGEyZ0FiamZacHJPbUxveTM1cXF6a2tBbWhxQU5nNHBSSkNnWW1PMFlsaWMwSV9mSTh6MjY3dTVOS0dCbVE0NDNEXzVqYWFWSkdQZlp1UDBuYmctN19HQVBKckl0WGxweFYtSEsyRkQ4dXgw?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T14:01:38+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell's 'The Hawk' canceled by Netflix"
+},
 "0a0d2227d48c": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "0a0d2227d48c",
@@ -4388,6 +4438,26 @@
 "summary": "Ezra Frech reflects on his 'Dancing With the Stars' journey with partner Daniella Karagach, while chatting with ET's Denny Directo ahead of the season 35 finale.",
 "tags": [],
 "title": "DWTS: Ezra Frech's 'Heart Is Full' Making it to FINALE With 'Friend Forever' Connor Wood (Exclusive)"
+},
+"0b3df6a00023": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "0b3df6a00023",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hZ094V0lzRHRlR2FzamRISDlnMkJvcjJJMFZYRmg1dVU5Rktya2xIdHRmRlhZTzNwTXZaNW9hVm96amlpd3Y1cmlfSHZSR2pXbjZJU1o5RW1EaHhvZEpzcVFtWEY0TDdXM1kyRVFuZTJNZkZjS2Q1c0V0NzZCQQ?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-27T11:52:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Why Leo Anderson From The Body Looks So Familiar"
 },
 "0b449fe31934": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -7647,6 +7717,27 @@
 "tags": [],
 "title": "Nothing wrong with bringing in a little food and revolution. #BeingHeumann,  Now Streaming"
 },
+"1c4f5123a7c6": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "1c4f5123a7c6",
+"image": "https://akns-images.eonline.com/eol_images/Entire_Site/20261125/f6aa55dc-64e1-4889-81e2-768ba9c8c2d1_1795632725.jpg",
+"kind": "article",
+"link": "https://www.eonline.com/news/1438407/frozen-casts-s60-million-salary-elsas-villain-origins-more-secrets?cmpid=rss-syndicate-genericrss-us-top_stories",
+"outlet": "E! News",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-27T11:00:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The paycheck never bothered Kristen Bell anyway. Still, the Frozen star was, well frozen in place after reading a report suggesting she and costars Idina Menzel, Jonathan Groff and Josh Gad were...",
+"tags": [],
+"title": "Frozen Cast's $60 Million Salaries & More Secrets We Can't Let Go"
+},
 "1c90c1acd5ff": {
 "first_seen": "2026-11-25T17:30:16+00:00",
 "id": "1c90c1acd5ff",
@@ -9070,14 +9161,14 @@
 "23decd40e513": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "23decd40e513",
-"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/SnapInsta-Celeb-Pregnancy-Announcements-Brooks-Laich-and-Wife-Katrin.jpg?crop=221px%2C248px%2C1226px%2C693px&resize=1000%2C563&quality=40&strip=all",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-1450269777-Celebrity-Pregnancies-2026-Cassie-Randolph.jpg?crop=905px%2C281px%2C1052px%2C595px&resize=1000%2C563&quality=86&strip=all",
 "kind": "article",
 "link": "https://www.usmagazine.com/celebrity-moms/pictures/celebrity-pregnancy-announcements-of-2026-charles-melton-and-more/",
 "outlet": "Us Weekly",
 "people": [
 "Aubrey Plaza"
 ],
-"published": "2026-11-23T06:03:21+00:00",
+"published": "2026-11-27T01:14:21+00:00",
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -9086,7 +9177,7 @@
 "strong": false,
 "summary": "Many stars are expanding their families in 2026. In the first half of the year, actresses Bonnie Wright, Aubrey Plaza, Natalie Portman and Anne Hathaway all revealed that they are pregnant.",
 "tags": [],
-"title": "Celeb Pregnancy Announcements of 2026: Brooks Laich and Wife Katrin"
+"title": "Celebrity Pregnancy Announcements of 2026: Cassie Randolph and More"
 },
 "2418e444fc29": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -10289,6 +10380,27 @@
 "tags": [],
 "title": "Jackie Tohn on Nobody Wants This, Her Middle School Dreams & Who Wants to Be a Millionaire Injury"
 },
+"2a5fdb240d83": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "2a5fdb240d83",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/edited-image-2026-11-27T111252.711.webp?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/movies/news/2232056-mission-cross-2-netflix-christmas-2026-release-date",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-27T12:30:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Netflix has ended speculation about its stalled Mission: Cross 2, confirming a holiday release date window after an unexplained scheduling shuffle. The streamer will bring back its married undercover duo for another high-stakes caper, and the announcement gives subscribers a firm date to circle.",
+"tags": [
+"Upcoming"
+],
+"title": "Korean Spy Comedy Sequel Mission: Cross 2 Finally Has a Netflix Release Date After Delay"
+},
 "2a73ba6587e4": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "2a73ba6587e4",
@@ -11144,6 +11256,29 @@
 ],
 "title": "Timberlake | Official Documentary Trailer (Apple TV, 2026)"
 },
+"2f0592a824d4": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "2f0592a824d4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16b2FKcmpfc3VJS0gwLVo2d2ZtRV8zYTVsbXJ4UEQwZzVLSUdxU3hKeHc2VFg1SEstam5fMzB2c2c5ZkVQTmVmUmZXUXotQjh6c1E?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T10:23:05+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Revival",
+"Upcoming"
+],
+"title": "The Rockford Files Reboot Starring David Boreanaz Gets Special Post-nfl Premiere On NBC"
+},
 "2f40201f44cc": {
 "first_seen": "2026-11-26T19:00:11+00:00",
 "id": "2f40201f44cc",
@@ -11250,6 +11385,28 @@
 "summary": "",
 "tags": [],
 "title": "‘Nobody Wants This’ Star Justine Lupe Is Pregnant, Expecting Baby No. 2 with Husband Tyson Mason"
+},
+"2fd81a679c3e": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "2fd81a679c3e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX2VVWW1DYTljMUgyZmplZUNPRUtxeGVxeXR5cVZ5Y253LUZTakZjX2dfMUpkZXFfb1BfQXZfWktLTGdZLTJKVTR6bEpqclFpVlRkd1hqdV96MlpIZHpJcElNLVNNbFVIZlJpUU52OGs2dzZWZVdqY1R2dkJyNm9BcWJHdWJDeDRGaFFhXy1qeS1zLWtQQVV2MTlmZUE2RkJrcDM5N1RGU2x6Z3pDN3BQVE9kUGU?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T21:35:12+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix cancels Emmy-winning actor’s comedy after single season"
 },
 "302c6a55ed3f": {
 "first_seen": "2026-11-25T21:30:26+00:00",
@@ -13335,6 +13492,28 @@
 "summary": "",
 "tags": [],
 "title": "Will Smith and Jada Pinkett's $42m LA home 'engulfed in flames' as emergency services step in,  what happened"
+},
+"3a2df36b9a88": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "3a2df36b9a88",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONTNJQ2lRa3hCT05QMVFqTXlhSzFUemJyLVRNZWo5ZjhtRnVvbjlNSDhHYVZFWkwtRUxrWUIydHQ2Q0JscE9Bb2E1RThWdDc3SWVzOXBnRk1vN2dwZWQ3S3VEeG15LXZfaHNEUzR3OFBxbWFyaGFLWnYtZ3JIUkE3RW9pM21Dd0VkZWZwb2N3UUFuMUFuYjMtOWFUeTFUNEh6WDdlVWY2VjNLbnJPYUVZOHFza2FlcFlR?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T14:30:11+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Will Ferrell's Netflix golf series canceled"
 },
 "3a664f99698c": {
 "channel_kind": "streamer",
@@ -17786,8 +17965,8 @@
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
 "published": "2026-11-26T22:29:26+00:00",
-"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
-"query_relevant": false,
+"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -17956,6 +18135,27 @@
 "tags": [],
 "title": "Elaine Hendrix and Lisa Ann Walter Revisit Iconic Parent Trap Filming Location 28 Years Later"
 },
+"4fc933e694eb": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "4fc933e694eb",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Sofia-Vergara-Teresa-Giudice.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/tv/news/2232273-sofia-vergara-rude-snub-teresa-giudice-memoir",
+"outlet": "ComingSoon",
+"people": [
+"Sofia Vergara"
+],
+"published": "2026-11-27T11:26:16+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "A new report has claimed that Sofía Vergara is the actress Teresa Giudice accused of behaving rudely during an encounter several years ago. The Real Housewives of New Jersey star recounted the uncomfortable experience in her memoir without revealing the person’s name.",
+"tags": [],
+"title": "Sofía Vergara Linked to Teresa Giudice’s ‘Rude’ Celebrity Run-in,  Report"
+},
 "4fead77adf6f": {
 "first_seen": "2026-11-25T17:30:16+00:00",
 "id": "4fead77adf6f",
@@ -17977,6 +18177,27 @@
 "summary": "",
 "tags": [],
 "title": "Jennifer Aniston Has Been Wearing These ‘It’-Girl Jeans for Decades,  And They’re Finally on Sale"
+},
+"505a0bc0fccf": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "505a0bc0fccf",
+"image": "https://www.comingsoon.net/wp-content/uploads/sites/3/2026/11/Donald-Trump-The-Daily-Show.jpg?w=1024",
+"kind": "article",
+"link": "https://www.comingsoon.net/tv/news/2232289-the-daily-show-brutal-donald-trump-thanksgiving-tribute",
+"outlet": "ComingSoon",
+"people": [],
+"published": "2026-11-27T12:03:29+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Daily Show"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Donald Trump and several other Republican politicians recently found themselves at the center of a comedic Thanksgiving message from The Daily Show. The show released a video on social media that brings together various clips of GOP candidates praising Trump and acknowledging his support during...",
+"tags": [],
+"title": "Daily Show Takes Aim at Donald Trump & GOP With a Brutal Thanksgiving Tribute"
 },
 "50bd44171d40": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -23225,7 +23446,7 @@
 "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYjQ1aE9KYzdFZU01dkhKLVVBbTRNRDNMVFlWeTBzVG4tS1hIS3hvWlJ6OHRUZ0RHZENBMUpRaW5mQkEydnlTNnd4dWdod09Wb2d1RGtZNmhVaEE1c19XVUNkRDNKR2VnOGtyYmRrWjNlWHFnNUNUaHU0WlA3TVJRallOeldlaXVsVU5qejcwa0RZbE5WUVJYOEctU3UxU0VGdEE?oc=5",
 "outlet": "Page Six",
 "people": [],
-"published": "2026-11-26T18:55:30+00:00",
+"published": "2026-11-27T02:33:04+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -23324,6 +23545,28 @@
 "tags": [],
 "title": "Bill’s Included review – Not a good sign for the future of British comedy"
 },
+"6d15c827d68f": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "6d15c827d68f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNjNxZXhTRU9BeHlqVG5sdUZZcFo5cVpOV2NaZkhuVm1iaWlOYjFISzFuNGxnVm1xYkowVlJvUVA1YW9JRFFwLTRxQktSNW90YXpQbjZLa2JiMmVraVZ6NzN3YmMzMjZLOVBjVTU5cmx6X1ZGMVNHWkY2eWNyYnVjWFBveHdCWlNSTGkza0ZPVllueWpLcG9sTC14aC1KS1lVZDdjYXE4VDRIMGxJ?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T20:50:17+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix Shanks Easy Tee Shot, Cancels Popular Will Ferrell Comedy"
+},
 "6d2fc651cb16": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "6d2fc651cb16",
@@ -23415,6 +23658,28 @@
 "Interview"
 ],
 "title": "Kyla Pratt Reveals Child Star ‘Beef’ With Raven-Symoné & Wants a ONE ON ONE Reboot! | ET Then & Now"
+},
+"6d639ce7f1bd": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "6d639ce7f1bd",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1rN2hlaHNUdW9TY3NyVmp2SXFzeHFSanAxQnpRZlBDQm9sdF9GQVVvMHpldlljVzNnR0o3NFZ5OF8xbGNjTjh4ZmhwVTdGZE9valBMbG8xQXpHWFZzcWFOTGNhcktIVkdiYjlDSmFGWHU0UTY1eTdFZ2pZRQ?oc=5",
+"outlet": "TVLine",
+"people": [
+"John Stamos"
+],
+"published": "2026-11-27T09:25:00+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Quote Of The Day By John Stamos: 'It's Harder Than I Thought. It Just Weighs On You. Even When...'"
 },
 "6d777db453dc": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -26165,6 +26430,25 @@
 ],
 "title": "‘Nobody Wants This’ Star Timothy Simons Reveals Biggest Season 3 Concern and Looks to Season 4: “They Burned One Another,  So They’re Even”"
 },
+"7d6d266c0522": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "7d6d266c0522",
+"image": "https://variety.com/wp-content/uploads/2026/11/Pushpak-Vimaan-team.jpg",
+"kind": "article",
+"link": "https://variety.com/2026/tv/festivals/barun-sobti-abhishek-banerjee-netflix-comedy-pushpak-vimaan-1236959303/",
+"outlet": "Variety",
+"people": [],
+"published": "2026-11-27T10:52:10+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "After the crime dramas “Paatal Lok” on Prime Video and “Kohrra” on Netflix, creator Sudip Sharma is changing lanes with “Pushpak Vimaan,” a black comedy and crime caper starring Jaideep Ahlawat, Abhishek Banerjee and Barun Sobti that is expected on Netflix in early 2027.",
+"tags": [],
+"title": "Barun Sobti, Abhishek Banerjee Star as ‘Paatal Lok’ Creator Sudip Sharma Swaps Violence for Black Comedy in Netflix’s IFFI Selection ‘Pushpak Vimaan’"
+},
 "7d8ca748c4ad": {
 "first_seen": "2026-11-26T06:30:13+00:00",
 "id": "7d8ca748c4ad",
@@ -28371,6 +28655,27 @@
 "summary": "",
 "tags": [],
 "title": "john mulaney’s photoshoot bts!!!"
+},
+"88df0b88f5dc": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "88df0b88f5dc",
+"image": "https://www.tvinsider.com/wp-content/uploads/2026/11/Mickey-Guyton-Soul-Train-Awards-2026-CBS-BET--1014x570.jpg",
+"kind": "article",
+"link": "https://www.tvinsider.com/1305673/soul-train-awards-2026-outlander-blood-of-my-blood-finale-percy-jackson-and-the-olympians-dexter-resurrection/",
+"outlet": "TV Insider",
+"people": [
+"Anthony Anderson"
+],
+"published": "2026-11-27T12:00:57+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "A curated critical checklist of notable Friday TV. Anthony Anderson hosts the Soul Train Awards from Chicago, the city where the iconic show originated in 1971. Outlander: Blood of My Blood ends its second season at a fateful Twelfth Night celebration.",
+"tags": [],
+"title": "Soul Train Awards, ‘Outlander’ Finale, Percy Meets Aphrodite, Blast From Dexter’s Past"
 },
 "88e70435c3c8": {
 "first_seen": "2026-11-26T04:00:12+00:00",
@@ -35202,6 +35507,28 @@
 "tags": [],
 "title": "Bill Maher declares late-night comedy is 'dead' after major political shift"
 },
+"a8efeb11f9de": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "a8efeb11f9de",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNelhYcTUwTnZBUDRRZDlmZUdIUTNyNVExTFlzSFpiSjhiNW43Smp0amItWnhwVXpDVHJkSGJFQ2RfRnFrNHJzQzl0R2JCNkJLdmQzZWJ2WDRHQkhxUnM5NHVYVWZNOVlNX2lVWFdaSHN6cERWWTVpZVhuWlRIRXZDZ2p0UjZxSHhGbFVLQ3hRT0F3SlVYTURhRHpfbFd6UjVhbFg4RmVBYlozMGpS?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-26T19:00:51+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "‘DWTS’ Boss Reveals If Show Could Return to 2 Seasons a Year"
+},
 "a8f34fc3e5f2": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "a8f34fc3e5f2",
@@ -41034,6 +41361,25 @@
 "tags": [],
 "title": "Amanda Seyfried Told ‘a Lot’ of People About You Can See Everything"
 },
+"c547db5bd287": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "c547db5bd287",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/cbs-with-blurred-ghosts-background.jpg",
+"kind": "article",
+"link": "https://screenrant.com/ghosts-cbs-holiday-episode-dying-tv-tradition-save/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-27T13:30:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "direct",
+"strong": false,
+"summary": "As streaming continues to reshape television, CBS's hit sitcom Ghosts is keeping a beloved long-standing tradition from completely dying.",
+"tags": [],
+"title": "CBS Is Single-Handedly Saving A Long-Standing TV Trend From Dying"
+},
 "c55b9a4f3e9d": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "c55b9a4f3e9d",
@@ -41562,6 +41908,28 @@
 "summary": "",
 "tags": [],
 "title": "Jennifer Aniston’s Morning Routine Isn’t Complete Without This Glow-Boosting Collagen Powder (On Sale!)"
+},
+"c7891a4ea545": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "c7891a4ea545",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZzFmZHgydWFEaGQzamVReEdkQkhXakhjM1Jpa0VhSUs1N0NWd04wZnpoR1lnY1Z0QmRwTjd4bDZUVk82ZWJjbEJnVVdSTW5QTW80SGR4NVZ2cFBxV3BVZnFVSUNTcUxKdVpWY3BuZnJEMXVuaE9ZVHlkVEFnYWhOSVhfbGJFRlg3NG03ZjZ6bEE4VnJaMVg3YmFrLVJ3Wm1kX0NtWkpaT0dRanRqVUF1WkdiMFc1OVk?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-27T13:00:33+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix Cancels Will Ferrell's Golf Comedy 'The Hawk' After One Season"
 },
 "c7895dc74590": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -43327,6 +43695,27 @@
 "tags": [],
 "title": "Watch Rihanna’s 3 Kids Serve CHAOS During Holiday Photoshoot"
 },
+"d244cd21fc0f": {
+"first_seen": "2026-11-27T13:55:13+00:00",
+"id": "d244cd21fc0f",
+"image": "https://www.tvline.com/img/gallery/quote-of-the-day-by-john-stamos-its-harder-than-i-thought-it-just-weighs-on-you-even-when/l-intro-1794930042.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2319153/quote-of-the-day-john-stamos-fatherhood/",
+"outlet": "TVLine",
+"people": [
+"John Stamos"
+],
+"published": "2026-11-27T09:25:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Full House star John Stamos talks about the joys and challenges of fatherhood.",
+"tags": [],
+"title": "Quote Of The Day By John Stamos: 'It's Harder Than I Thought. It Just Weighs On You. Even When...'"
+},
 "d248157969e8": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "d248157969e8",
@@ -43876,8 +44265,8 @@
 "outlet": "Newsweek",
 "people": [],
 "published": "2026-11-27T00:08:00+00:00",
-"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
-"query_relevant": false,
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
