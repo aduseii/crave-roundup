@@ -134,6 +134,12 @@
 "model": "gemini-flash-lite-latest",
 "text": "Peacock's new comedy 'Dig' starring Amy Poehler and created by Michael Schur has received a shockingly unfunny review from critics. Based on Kate Myers' novel 'Excavations', the show centers on a group of archaeologists working at an excavation site in Greece (via Variety)"
 },
+"196982b37839": {
+"at": "2026-11-28T06:35:57+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "Will Smith has sent director Peter Berg a screenplay for 'Hancock 2' and Berg likes what he has read, offering a major update on the long-awaited superhero sequel (via ComingSoon)."
+},
 "1b83bdbdb07e": {
 "at": "2026-11-23T06:34:54+00:00",
 "from_article": false,
@@ -181,6 +187,12 @@
 "from_article": false,
 "model": "gemini-flash-lite-latest",
 "text": "'Saturday Night Live' is officially expanding with a new series this December. (via Comic Book Resources)"
+},
+"216cbe35f871": {
+"at": "2026-11-28T06:35:29+00:00",
+"from_article": true,
+"model": "gemini-flash-lite-latest",
+"text": "NBC has pulled a controversial ad criticizing US financial aid to Israel after it aired during the network's 'Saturday Night Live' Thanksgiving special. (via Deadline)"
 },
 "23085c6192d8": {
 "at": "2026-11-26T06:37:58+00:00",
@@ -392,6 +404,12 @@
 "model": "gemini-flash-latest",
 "text": "\"They shouldn't have canceled '$#*!My Dad Says;' it was too popular. And we were getting it right. I don't know what happened in CBS's mind,\" 'Star Trek' star William Shatner says about CBS canceling his 2010 sitcom after one season. (via TVLine)"
 },
+"52bfbba9e250": {
+"at": "2026-11-28T06:36:12+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "'The Simpsons' has a long history of making eerily accurate predictions about California, according to a recent retrospective. (via Yahoo)"
+},
 "5388f9f30aaa": {
 "at": "2026-11-27T17:32:43+00:00",
 "from_article": false,
@@ -458,6 +476,18 @@
 "model": "gemini-3-flash-preview",
 "text": "\"For the first time ever, [I] got to play somebody who wasn't worried about taking care of other people,\" 'Parks and Recreation' star Amy Poehler says. She explains that her character in the new Peacock comedy 'DIG' is the opposite of Leslie Knope. (via TVLine)"
 },
+"6d46854ea1aa": {
+"at": "2026-11-28T06:34:19+00:00",
+"from_article": true,
+"model": "gemini-flash-lite-latest",
+"text": "Candace Cameron Bure claims she was \"duped\" into co-hosting 'The View' in 2015 after being told the show would focus on pop culture and evergreen topics rather than politics. (via TV Insider)"
+},
+"6d9cf32d0269": {
+"at": "2026-11-28T06:36:18+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "Tina Fey terrified Amy Poehler and Seth Meyers by showing them her collection of vintage virgin holiday dolls, calling the items a nightmare (via Entertainment Weekly)"
+},
 "6f9d8522ece9": {
 "at": "2026-11-25T06:35:36+00:00",
 "from_article": true,
@@ -475,6 +505,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "'Community' creator Dan Harmon reveals the friendship between Troy and Abed was unplanned and only happened because Donald Glover and Danny Pudi bonded on set. The show originally intended to pair Glover with Chevy Chase in a \"Beavis to Chevy's Butt-head\" dynamic. Harmon says he changed the writing after seeing how fans on Twitter responded to the duo. (via TV Insider)"
+},
+"7282d22919c8": {
+"at": "2026-11-28T06:36:26+00:00",
+"from_article": true,
+"model": "gemini-flash-lite-latest",
+"text": "\"We’re still being pummeled by new shows on every streaming service and rather than try to figure out what’s worth committing to, it’s easier to just escape into 'Seinfeld' or 'Downton Abbey' because you know exactly what you’re getting,\" veteran TV producer Bob Greenblatt says. (via Deadline)"
 },
 "745639e3c491": {
 "at": "2026-11-21T17:38:44+00:00",
@@ -632,6 +668,12 @@
 "model": "gemini-3-flash-preview",
 "text": "'The Fresh Prince of Bel-Air' star Alfonso Ribeiro says he will not compete in an all-winners season of 'Dancing With the Stars'. He also discussed reuniting with co-star Tatyana Ali and the show’s resurgence. (via The Hollywood Reporter)"
 },
+"9ba3093b9f80": {
+"at": "2026-11-28T06:35:43+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "The Oscar-contending animated movie 'Tangles', starring Seth Rogen, Bryan Cranston, and Bowen Yang and directed by Leah Nelson, has officially arrived in theaters today. (via ComingSoon)"
+},
 "9bcf7bc6c135": {
 "at": "2026-11-25T17:34:21+00:00",
 "from_article": false,
@@ -716,6 +758,12 @@
 "model": "gemini-flash-lite-latest",
 "text": "A maintenance shed on the $42 million Calabasas property belonging to Will Smith and Jada Pinkett Smith caught fire on November 23. Authorities confirmed the accidental blaze was contained by the Los Angeles County Fire Department with no injuries reported. (via E! News)"
 },
+"abf35d47969c": {
+"at": "2026-11-28T06:36:02+00:00",
+"from_article": false,
+"model": "gemini-flash-lite-latest",
+"text": "Elon Musk 'couldn't have been sweeter' while filming his 'Young Sheldon' cameo, Chuck Lorre says. (via Entertainment Weekly)"
+},
 "abfa0fa12c00": {
 "at": "2026-11-21T06:33:44+00:00",
 "from_article": false,
@@ -745,6 +793,12 @@
 "from_article": true,
 "model": "gemini-3-flash-preview",
 "text": "\"A ‘Succession’ spinoff would be a terrible idea. What are you hoping for? ‘Cousin Greg: The Sitcom?’\" 'Succession' star Kieran Culkin says. (via Variety)"
+},
+"b2ff2533a70a": {
+"at": "2026-11-28T06:35:50+00:00",
+"from_article": true,
+"model": "gemini-flash-lite-latest",
+"text": "Before voicing Chef on 'South Park', Isaac Hayes played Gandolph Finch in three episodes of the 1970s drama 'The Rockford Files' starring James Garner. (via TVLine)"
 },
 "b40ee64225f1": {
 "at": "2026-11-25T17:33:12+00:00",
@@ -1221,6 +1275,11 @@
 "edition": "evening",
 "name": "2026-11-27-evening",
 "time": "2026-11-27T17:30:11+00:00"
+},
+{
+"edition": "morning",
+"name": "2026-11-28-morning",
+"time": "2026-11-28T06:30:14+00:00"
 }
 ],
 "images": {
@@ -1244,6 +1303,10 @@
 "at": "2026-11-25T06:35:42+00:00",
 "u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/DWTS-Season-35-Finale-ABC-H-2026.jpg?w=1296&h=730&crop=1"
 },
+"og:https://www.hollywoodreporter.com/tv/tv-news/nbc-pulls-ad-criticizing-us-military-aid-israel-backlash-1236764243/": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Screenshot-2026-11-27-at-5.57.40-PM.png?w=1440&h=810&crop=1"
+},
 "og:https://www.hollywoodreporter.com/tv/tv-news/only-murders-in-the-building-season-6-london-premiere-stars-1236761845/": {
 "at": "2026-11-24T17:33:48+00:00",
 "u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Only-Murders-in-London-stars-at-the-London-world-premiere-in-London-Dave-Benett_Getty-Images-H-2026.jpg?w=1440&h=810&crop=1"
@@ -1259,6 +1322,10 @@
 "og:https://www.hollywoodreporter.com/tv/tv-news/steven-hack-dead-cats-interact-theatre-company-1236762464/": {
 "at": "2026-11-25T06:35:42+00:00",
 "u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Stephen-Hack-Obit-Template-Headshot-Publicity-H-2026.jpg?w=1296&h=730&crop=1"
+},
+"og:https://www.hollywoodreporter.com/tv/tv-news/watch-soul-train-awards-2026-free-bet-cbs-live-stream-1236764242/": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/soul-train-awards.jpg?crop=0px%2C205px%2C5000px%2C2798px&resize=1440%2C810"
 },
 "og:https://www.hollywoodreporter.com/tv/tv-reviews/oobah-scams-for-a-better-tomorrow-review-hbo-1236759621/": {
 "at": "2026-11-21T09:03:51+00:00",
@@ -1279,6 +1346,10 @@
 "og:https://www.thewrap.com/culture-lifestyle/culture/nate-bargatze-thanksgiving-hot-takes-tonight-show-rant-video/": {
 "at": "2026-11-27T07:05:04+00:00",
 "u": "https://www.thewrap.com/wp-content/uploads/2026/11/Nate-Bargatze-The-Tonight-Show.jpg"
+},
+"og:https://www.thewrap.com/culture-lifestyle/culture/nbc-snl-israel-ad-review-backlash/": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://www.thewrap.com/wp-content/uploads/2026/11/Israel-Military-Aid-Ad-NBC.jpg"
 },
 "og:https://www.thewrap.com/culture-lifestyle/culture/tovah-feldshuh-adam-brody-israel-palestine-nobody-wants-this/": {
 "at": "2026-11-25T06:35:42+00:00",
@@ -1311,6 +1382,18 @@
 "tmdbperson:amy poehler": {
 "at": "2026-11-21T09:03:52+00:00",
 "u": "https://image.tmdb.org/t/p/w300/rwmvRonpluV6dCPiQissYrchvSD.jpg"
+},
+"tmdbperson:andrew fairlie": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": ""
+},
+"tmdbperson:anna crilly": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/wT6e4gDsQwrJjhXlIAj5IhcLICy.jpg"
+},
+"tmdbperson:anthony anderson": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://image.tmdb.org/t/p/w300/reO1OjwFdtXmiO4LMDaBj6eatzK.jpg"
 },
 "tmdbperson:anthony jackson": {
 "at": "2026-11-26T06:38:54+00:00",
@@ -1368,6 +1451,10 @@
 "at": "2026-11-21T09:03:51+00:00",
 "u": "https://image.tmdb.org/t/p/w300/48GB5aISoibd9IYXBO40jrSgFRl.jpg"
 },
+"tmdbperson:dan levy": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://image.tmdb.org/t/p/w300/2O9KqgCLHHMw5xmUpNexfWr2QVA.jpg"
+},
 "tmdbperson:danny devito": {
 "at": "2026-11-25T06:35:42+00:00",
 "u": "https://image.tmdb.org/t/p/w300/6kO4IN7ndoIGw2JhyhAQN3SFmdx.jpg"
@@ -1395,6 +1482,10 @@
 "tmdbperson:eric stonestreet": {
 "at": "2026-11-24T06:33:54+00:00",
 "u": "https://image.tmdb.org/t/p/w300/lz0m88IjLZ8OcEHU2jhPvubcr7k.jpg"
+},
+"tmdbperson:esther smith": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/6vLV8nrCnsjhIm99Cm6Vr8lNG0.jpg"
 },
 "tmdbperson:eugene levy": {
 "at": "2026-11-24T17:33:48+00:00",
@@ -1435,6 +1526,10 @@
 "tmdbperson:jaidyn triplett": {
 "at": "2026-11-24T06:34:01+00:00",
 "u": "https://image.tmdb.org/t/p/w300/7SMTOhswLqMpY7JRudnj1BpZOdx.jpg"
+},
+"tmdbperson:jane sibbett": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/bPtcUaWhHN7aQgtYUGeOp7M55nE.jpg"
 },
 "tmdbperson:janelle james": {
 "at": "2026-11-22T17:34:14+00:00",
@@ -1507,6 +1602,10 @@
 "tmdbperson:kelsey grammer": {
 "at": "2026-11-21T17:38:49+00:00",
 "u": "https://image.tmdb.org/t/p/w300/qn38jJHEqRBsj50Gqo2uM38fgJx.jpg"
+},
+"tmdbperson:kenneth connor": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/3mRHgUrQHA2EZ2AlDNBa3sYhz3y.jpg"
 },
 "tmdbperson:kevin hart": {
 "at": "2026-11-23T17:33:38+00:00",
@@ -1640,6 +1739,10 @@
 "at": "2026-11-22T06:48:27+00:00",
 "u": "https://image.tmdb.org/t/p/w300/ztEbInN0B0tqq8mEDRojPKerPrG.jpg"
 },
+"tmdbperson:rose abdoo": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/6gl2EerGV1p4LS2smamymwgU6jH.jpg"
+},
 "tmdbperson:rosie cavaliero": {
 "at": "2026-11-27T07:05:15+00:00",
 "u": "https://image.tmdb.org/t/p/w300/q9EOEphyrCGhUyDgAhFf00xAlWB.jpg"
@@ -1671,6 +1774,10 @@
 "tmdbperson:stephen evans": {
 "at": "2026-11-27T07:05:15+00:00",
 "u": "https://image.tmdb.org/t/p/w300/7r5nEzNanuEhmxtpsKE1uCBU5Jd.jpg"
+},
+"tmdbperson:stephnie weir": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w300/wYYjycbaRiIQkGxU1QwVrDVqYi5.jpg"
 },
 "tmdbperson:steve carell": {
 "at": "2026-11-27T07:05:04+00:00",
@@ -1748,9 +1855,21 @@
 "at": "2026-11-24T06:33:53+00:00",
 "u": "https://image.tmdb.org/t/p/w780/s3owzvmihtDrunVxB2DyGjn9iJt.jpg"
 },
+"tmdbtv:big day": {
+"at": "2026-11-28T06:36:50+00:00",
+"u": "https://image.tmdb.org/t/p/w780/sJmkBP4d8Fsr41Cl00TfVHmSKb5.jpg"
+},
+"tmdbtv:big time rush": {
+"at": "2026-11-28T06:36:50+00:00",
+"u": "https://image.tmdb.org/t/p/w780/v8NIhg212wWoW4wb3Psqvjzbwfr.jpg"
+},
 "tmdbtv:bob's burgers": {
 "at": "2026-11-23T06:36:19+00:00",
 "u": "https://image.tmdb.org/t/p/w780/2AVPwdHJsF044jT39akgLxxv2zx.jpg"
+},
+"tmdbtv:bored to death": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w780/mtv5piXIGnkKDBLPHhU0Zeh5r1U.jpg"
 },
 "tmdbtv:bosom buddies": {
 "at": "2026-11-27T07:05:15+00:00",
@@ -1788,6 +1907,10 @@
 "at": "2026-11-23T17:33:38+00:00",
 "u": "https://image.tmdb.org/t/p/w780/mzCTs9DIcOb95Tl4myzpnI0vP0f.jpg"
 },
+"tmdbtv:family guy": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://image.tmdb.org/t/p/w780/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg"
+},
 "tmdbtv:for better or worse": {
 "at": "2026-11-25T06:36:03+00:00",
 "u": "https://image.tmdb.org/t/p/w780/gSZiF9Bb6OEqB08seQGT5bj2dTB.jpg"
@@ -1823,6 +1946,10 @@
 "tmdbtv:girl meets world": {
 "at": "2026-11-27T07:05:04+00:00",
 "u": "https://image.tmdb.org/t/p/w780/pJvLprQwTVEOSBPs25y4rM214ch.jpg"
+},
+"tmdbtv:golden girls": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://image.tmdb.org/t/p/w500/12j7nDOFf4uuuSo2hIaEdQMazTS.jpg"
 },
 "tmdbtv:hacks": {
 "at": "2026-11-24T06:33:54+00:00",
@@ -1876,9 +2003,17 @@
 "at": "2026-11-23T06:36:31+00:00",
 "u": "https://image.tmdb.org/t/p/w780/9WtsDGO9FMbHcDjuLOlBQBv7Qlb.jpg"
 },
+"tmdbtv:merry happy whatever": {
+"at": "2026-11-28T06:36:50+00:00",
+"u": "https://image.tmdb.org/t/p/w780/fF8RGyPBBgeeLvXi5O7JXhTosAW.jpg"
+},
 "tmdbtv:moesha": {
 "at": "2026-11-21T09:02:28+00:00",
 "u": "https://image.tmdb.org/t/p/w780/eQuNP6LUFKJmP4f4iNLJWoi3g3h.jpg"
+},
+"tmdbtv:my boys": {
+"at": "2026-11-28T06:36:50+00:00",
+"u": "https://image.tmdb.org/t/p/w780/p8EzxkN9vymIHJIjheAvpTGRhBy.jpg"
 },
 "tmdbtv:never have i ever": {
 "at": "2026-11-23T06:36:19+00:00",
@@ -1891,6 +2026,14 @@
 "tmdbtv:only murders in the building": {
 "at": "2026-11-21T09:02:28+00:00",
 "u": "https://image.tmdb.org/t/p/w780/WCnEPf4ZNPjszndmrFlDxZ5Uvd.jpg"
+},
+"tmdbtv:open all night": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w500/7mIoSpdixINWB1bxFjLKfSMtkYr.jpg"
+},
+"tmdbtv:parents of the band": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": ""
 },
 "tmdbtv:parks and rec": {
 "at": "2026-11-21T09:03:52+00:00",
@@ -1932,6 +2075,10 @@
 "at": "2026-11-21T09:03:51+00:00",
 "u": "https://image.tmdb.org/t/p/w780/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg"
 },
+"tmdbtv:sister, sister": {
+"at": "2026-11-28T06:36:31+00:00",
+"u": "https://image.tmdb.org/t/p/w780/iMchJspN4irOysGlYXKeqgTDOO1.jpg"
+},
 "tmdbtv:sit down, shut up": {
 "at": "2026-11-21T09:04:02+00:00",
 "u": "https://image.tmdb.org/t/p/w780/dMkrSJlapDfBZlqskVK0pgOzouD.jpg"
@@ -1967,6 +2114,10 @@
 "tmdbtv:the bear": {
 "at": "2026-11-21T09:03:52+00:00",
 "u": "https://image.tmdb.org/t/p/w780/aJtG4txtmiRHwAAqENQHZvBs6kY.jpg"
+},
+"tmdbtv:the brady bunch hour": {
+"at": "2026-11-28T06:36:50+00:00",
+"u": "https://image.tmdb.org/t/p/w780/q0UigCHAhqQngpRT2aQzJPylhbm.jpg"
 },
 "tmdbtv:the cafe": {
 "at": "2026-11-23T06:36:31+00:00",
@@ -2019,6 +2170,10 @@
 "tmdbtv:young sheldon": {
 "at": "2026-11-22T17:34:13+00:00",
 "u": "https://image.tmdb.org/t/p/w780/nlDBlCtorM7nx130wYnfR5ZmyLX.jpg"
+},
+"tmdbtv:yus, my dear": {
+"at": "2026-11-28T06:36:51+00:00",
+"u": "https://image.tmdb.org/t/p/w500/fipbzSZRyP7NKgT24k1PS0nHFWU.jpg"
 }
 },
 "items": {
@@ -2170,6 +2325,28 @@
 "tags": [],
 "title": "#AmeliaDimoldenberg creates a new Tonight Show theme song on the spot 🤣 #FallonTonight"
 },
+"00a7b2b76005": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "00a7b2b76005",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HeVFZdHZKXzNacUVrcVNjQUNPc1dMckkyRTVHa1NBV2E0TUJjRmNUd09EdjhweGtiNk9aTUw3LVRrSkZFSDlOdExpUExsaW9xZHc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Tatyana Ali"
+],
+"published": "2026-11-27T12:50:21+00:00",
+"query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Tatyana Ali’s Husband: Meet Dr. Vaughn Rasberry & Their Kids"
+},
 "00acf4fb123d": {
 "channel_kind": "talk",
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -2197,8 +2374,8 @@
 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZkhlaEtHaWttMTFXSkF2U01lMnhWLXJhMkNLd3dPaEtjSkJKTlR3TkdMNWVjc05KZmxPUFR2YnZ1Mi1XbDNXcUNfcmFST2J5LTZPd1lGOUp0emE5NXlUOXMxR2ZDX3BmcGptWTZyeHo2X3VXY2NFbklBT3V3MG50YTRrenNMVW9oUGxHSHJkNm5EZnNKclB6WDZaXzJvUnhwOE1CeDJHVngtd9IBrwFBVV95cUxPOUxYU3RTS2dJQUdVbmNWdVJKeWRReE90LW5DMV9WV1VmZlBUazNMaVRsOEVpOVk4enRtUnJGVUNkV2JfQkdkZlpDUnppX3ZiaGhmQ3RZcDAzM2xEZkhpdkRZTkNGMHRrcHF4bWVwZE4wcE1QV1pDNkZJQ1NNZko2SGtOblRqT1JES0NXYUZzbUhUTER5emRlQXJoVHIwMWNLS3hhT1pJQlQ2V2tFQ3ZJ?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-25T13:22:31+00:00",
-"query": "\"30 Rock\" OR \"Will & Grace\" OR \"Mad About You\" OR \"Home Improvement\" OR \"Last Man Standing\" OR \"The Middle\"",
+"published": "2026-11-27T07:52:39+00:00",
+"query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -2276,6 +2453,28 @@
 ],
 "title": "Gordon Ramsay Cast in Popular TV Show’s Revival Following Previous Star’s Tragic Accident"
 },
+"00e071cf0879": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "00e071cf0879",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbVdWWElPakN1WTRkeHptZEdlWFFMaXJFci1BWUE1a2RhU2UxT3pQSFBBU2doWE11WHRHaVhZSzFRTGJfUGVwWlJwQXpKVWh3TmlLX0VIODJRR1ZpRHV0WklHY2w5a243TWZFUWFoSU9SeDNIY21lbUo1bTlTcURZaFU3Qk94bm55VlNFSjNrSXFQLU5nWU5CeFJuZWQzSEkyVTNUY25oNFpKMXlu?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Will Smith"
+],
+"published": "2026-11-27T21:30:07+00:00",
+"query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jada Pinkett Smith Shares Thanksgiving Message of Gratitude Three Days After Fire at Will Smith’s Family Estate"
+},
 "00e2f53b3a72": {
 "first_seen": "2026-11-27T07:00:14+00:00",
 "id": "00e2f53b3a72",
@@ -2344,6 +2543,52 @@
 "summary": "",
 "tags": [],
 "title": "‘South Park’ Season Finale Drops Kenny Into ‘Grand Theft Auto VI’ as South America Comes Clean"
+},
+"013da0359a2b": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "013da0359a2b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcHlZbUpGd2plVllsRF9Id2dYNTVRNDI5b0gweURSemRsSm9Bc0ZoaUdodWdNVDRXSnlaamVnREhIWFJ0RHdLOTdYRTg5UTV1Q3NNMmVfWG15SHNVTWVCcF9Jd2RjME1PTENfZ0wyWkJRQlhjbGNRSlpmNEp5OFp3R1hmdFoxLW1Rdng3dHVZZm1kNndPcC1WMnNZcWgyZ3VyTGRwTWZmaTJ3ZUVPUTZ4eFM1ZU0zdVZMelFMWVRtRlUzT2dTZy1ydUduX3Y?oc=5",
+"outlet": "USA Today",
+"people": [
+"John Stamos"
+],
+"published": "2026-11-28T03:33:23+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "John Stamos reveals his wife’s reaction to ‘The Hunting Wives’ role"
+},
+"01496fe8763e": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "01496fe8763e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcHNJc25adXZhWXdJQ0JVZjZsZkVOLVFGemc3bDVzNml6TjM0OHhtME9xUXplMmNvTmtPT1VuYldTamRZLS1MZVpsUFBXby1xNEs2VXV6Y1dpRmVJNFdGM0RvbW11MVcxODFuN1pjT2lPeTA4YWJXQ2NNOTRDck40OWxsYUx1QXEzeEJWSTNlOU9TOTBWQnVLU2FqTmhzS1RXSEdMbkl3?oc=5",
+"outlet": "Cinemablend",
+"people": [
+"Kevin Hart"
+],
+"published": "2026-11-27T20:52:22+00:00",
+"query": "\"Sebastian Maniscalco\" OR \"Kevin Hart\" OR \"Bill Burr\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jumanji’s Cast Celebrated Thanksgiving With A Video Of Kevin Hart (Hilariously) Throwing A Temper Tantrum"
 },
 "014f132b12b4": {
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -2569,6 +2814,28 @@
 "summary": "Courteney Cox just made the case for adding a classic denim button-down to your wardrobe. After spotting the actress wearing one in a recent Instagram video, we ran to Amazon to find the look for less and landed on a $37 lookalike that delivers the same effortless, rich-mom style.",
 "tags": [],
 "title": "Courteney Cox's Denim Button-Down Screams Effortless Rich-Mom,  The $37 Look"
+},
+"027fadbf6287": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "027fadbf6287",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnMUJJXzJtWVR1ak9aSzBGS1VQMDlsRlQtU21Jb01JMUhDWTRmdTBZREJ6djRqMHI4TE9LZmJwa2pwSFN2S08yOUNjek0wN09QQlV2Ujh0RlZmZ0JsVjJWYmVUeVBueUU?oc=5",
+"outlet": "IMDb",
+"people": [
+"Will Smith"
+],
+"published": "2026-11-27T21:29:11+00:00",
+"query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Peter Berg Officially Confirms Hancock 2 With Will Smith Returning"
 },
 "02ce3ca0b7a7": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -3166,6 +3433,28 @@
 "Interview"
 ],
 "title": "What Did Bowen Yang Say on His Podcast? Inside the Backlash From Michael Rapaport"
+},
+"050a54e139b1": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "050a54e139b1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSmQ4R1RTR0UxUVg4TERSUGF0anpLakhsMFRlUzJYMzY3d3cxYWJnRkZvdDc5SXoxOE9XV1hXYjFzbUphN3lGRFI3TVZmN0h0cGVOY21ibS0xa3Yza0VXTXJmM3JWV0VJbno5QWJwLUx6Mmxsa0dHZ0ZXNGoycnFzNHZNRS1jV2NackRQbGExTlXSAZYBQVVfeXFMUGFKUW5WNER4azJNR280S1JaYzZTWFBaTU5mM3FNWERWeVZxMnh4Z1RWLXJRWVhKczdJcFloZFFkdzJocnljM0U5dVdsajZPZG5DU1VPUk1ueEVGMUpKY2xYTmxuUEhTUlM1dXdpSDVMX3hqVFBBOTlzTk5yTF9JYmV0WUVPb3RBcGNjQnVMS3ctdldtUjRR?oc=5",
+"outlet": "ComingSoon.net",
+"people": [
+"Will Smith"
+],
+"published": "2026-11-27T20:44:40+00:00",
+"query": "\"Jeremy Allen White\" OR \"Sean Hayes\" OR \"Debra Messing\" OR \"Eric McCormack\" OR \"Megan Mullally\" OR \"Will Smith\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Will Smith’s Superhero Movie Sequel Gets a Major Update Fans Will Love"
 },
 "050f826086e3": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -3917,8 +4206,8 @@
 "outlet": "People.com",
 "people": [],
 "published": "2026-11-27T17:43:52+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
+"query": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -4066,6 +4355,28 @@
 "Revival"
 ],
 "title": "‘Home Alone’ Director Chris Columbus Thinks a Reboot Won’t Work Without the Late Catherine O’Hara"
+},
+"09fbf9f3cf96": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "09fbf9f3cf96",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORktHQmZzUEtueENyclMyTER3d0t0M2tCSU9tTk5WU0RhZFpQekk0OFNUQTFvOS11aDM0UWJyRTY2V1NNUGVkMHRRSVNxalFfRFl2Y2xIZlVqZDFPQ2VJSlFpUzQxMnVleXdhdDg4bXdfUW5PdUZKWjNWWk1nUnNBMTk1R0lvcjZxR3daNEVUWmJMTG9oaGcwbQ?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [
+"Kaley Cuoco"
+],
+"published": "2026-11-27T21:17:32+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Kaley Cuoco celebrates 6-week-old daughter’s first Thanksgiving with adorable crying photo"
 },
 "0a05fabccf85": {
 "first_seen": "2026-11-27T13:55:13+00:00",
@@ -4852,6 +5163,26 @@
 "tags": [],
 "title": "Tracee Ellis Ross' Best Shoes Through the Years [Photos]"
 },
+"0cb6f6dcbfa8": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "0cb6f6dcbfa8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4U2ZNeXBJQmVJY2xDSEZrNTFMN1FYdGpiMVh5bGQ3dVhkTzVUM1RrQTNOUW9NNkFIVE4tb3RidklkUFBWODJQMWpIQm5hRVlXTlVjejdVT2tvcHNERTNwQzVvMTcyWGdoUFE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T22:22:27+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Louis Gossett Jr. Starred In A '80s Sci-Fi Series That Flew Under The Radar"
+},
 "0ce85d142b51": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "0ce85d142b51",
@@ -5423,6 +5754,28 @@
 ],
 "title": "Sheryl Lee Ralph-Produced ‘Until Everyone Is Seen’ Sets World AIDS Day Premiere on Hulu (EXCLUSIVE)"
 },
+"0fb6a55d29c2": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "0fb6a55d29c2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQME9MRHYteWZtTU5MRHJRVVlRUGktalpMS1BXWU1PeWhTUkhkLW1oMzlXZHYtTEVjX0FPc2VEUk9ZM1g3cWNELUwxSjFLU195YmUwa2RTT0hSX2lWREFjZE9YT1dOSmEtdFYzcmhuOGduUnFVYklzX1YwUGVEa0RuRTUyRzhvOE5P?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Zooey Deschanel"
+],
+"published": "2026-11-27T21:45:43+00:00",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Property Brothers’ Star Jonathan Scott Shares Thanksgiving Family Photo With Zooey Deschanel and Her Two Kids"
+},
 "0fe4bc1a281d": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "0fe4bc1a281d",
@@ -5720,6 +6073,28 @@
 "tags": [],
 "title": "Stream It Or Skip It: ‘Runner’ on Hulu, an action-packed Alan Ritchson-Owen Wilson buddy comedy"
 },
+"10fb7a2cd39f": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "10fb7a2cd39f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YcDQ5ZmVyaXVzN0NIVjBvZUxESDFGbXdjekgyLU5iNkJIb2RCRHdYVEFkd0IxQVJMVzNVaXJYYzB5NmdySTR6QW1RYTFmeVJucEk1Nm0yb3J3T0lhSGFQYTd0VmNjdw?oc=5",
+"outlet": "IMDb",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-28T01:26:15+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Leguizamo, Chloe Fineman and More Vice City Residents"
+},
 "1101014a6c39": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "1101014a6c39",
@@ -5798,7 +6173,7 @@
 "Jennifer Aniston"
 ],
 "published": "2026-11-27T16:49:20+00:00",
-"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -6380,6 +6755,30 @@
 ],
 "title": "'Only Murders In The Building' Season 6 London Premiere Red Carpet Photos: Steve Martin, Martin Short & More"
 },
+"148c50c14cbc": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "148c50c14cbc",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdkdHbS1xZ21yaEZCUWZnYlNhSkNjblFkZldhVlgxajdvLVVmZ3BfQlQ4UkFNNVpyMHlBdFNYYlVVdXdfcmx5aU85YjhDamVlWUlDd0R1LTVFcDBpZG16Ukc2eTc3Szg1d1VSMUlRUVZxaThsbmRZd2J6c0lua3ZIMkJJdw?oc=5",
+"outlet": "Collider",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-28T01:00:00+00:00",
+"query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Parks and Recreation"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Amy Poehler’s ‘Parks and Recreation’ Replacement Is Officially a Streaming Hit"
+},
 "149280868e53": {
 "first_seen": "2026-11-26T17:30:13+00:00",
 "id": "149280868e53",
@@ -6474,6 +6873,30 @@
 ],
 "title": "Steve Martin, Martin Short and more attend 'Only Murders In London' premiere"
 },
+"152da34fa956": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "152da34fa956",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RdkhwZjNIYk45cHd3cGZPQ3BzMjhBMjFGd3FiZlZCc19vUkFiX3VwYWRHTmJuSnBsOVdHN19UMnV5bWNxLTY3b3VkY2YyOWxWeGc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Hannah Waddingham"
+],
+"published": "2026-11-27T13:56:11+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Ted Lasso’: Hannah Waddingham Switching To Lead Actress For Season 4 Awards Consideration"
+},
 "1547c437da82": {
 "channel_kind": "talk",
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -6495,6 +6918,28 @@
 "summary": "\"The Late Show\" signs off with two powerful musical performances back-to-back, beginning with the quartet of Stephen Colbert, Louis Cato, Jon Batiste and Elvis Costello performing Costello's 1977 tune, \"Jump Up.\" As that song ends, the...",
 "tags": [],
 "title": "\"Jump Up / Hello Goodbye\" Paul McCartney, Elvis Costello, Jon Batiste, Louis Cato & Stephen Colbert"
+},
+"15493824bf03": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "15493824bf03",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbVprMmhMMEViUnp4ekJRMER1SkVXdHVtTFd6Zy1PMGFCcE5PZmVFS1RsakJJS0xISm8zV3ZyR1NGZDdPQ0YxdWFQQlEwaXZnaHhUNmptZTg0WHp5bUp0eDZyYy1OcnRzZFp2R1hwMDcyd3k1OGRjMzhCR01tNDRRQjdMaTNlcXIzQmp3Snp1U2daazZ1a2FMdjJJV2NDN3ZDS2NCdEtn?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T21:13:00+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Candace Cameron Bure Called Out Jodie Sweetin For One Full House Pay Day Claim"
 },
 "156dc3e47f68": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -6717,6 +7162,27 @@
 "summary": "",
 "tags": [],
 "title": "‘Saturday Night Live’ Taps Amanda Seyfried, Robert De Niro, Timothée Chalamet as Holiday Hosts"
+},
+"167331fd4b1f": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "167331fd4b1f",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/watch-soul-train-awards-2026-free-bet-cbs-live-stream-1236764242/",
+"outlet": "The Hollywood Reporter",
+"people": [
+"Anthony Anderson"
+],
+"published": "2026-11-27T22:33:24+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "After last airing in 2023, the awards show makes its TV return, hosted this year by Anthony Anderson.",
+"tags": [],
+"title": "How to Stream 2026 Soul Train Awards, Featuring Tributes to Dolly Parton and Freddie Jackson"
 },
 "1680e6417370": {
 "channel_kind": "talk",
@@ -7898,7 +8364,7 @@
 "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCS0R6TTNyXzJEVkgyV01TNHhNSzFRTUpiQ0ZrY0VrNmhTcVhoNlN1UFJURnA4WExielVNMTNuLWU2LTBxRFc0dk1YcGJkRjRpcmNKMWxDX3pEX0h5UXlZUW5va3JkSmVqWkZLWl9vRDM?oc=5",
 "outlet": "Comic Book Resources",
 "people": [],
-"published": "2026-11-27T21:34:09+00:00",
+"published": "2026-11-28T02:30:12+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -8051,7 +8517,7 @@
 "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ydXN2bGlyNG1yOFNHSHR0Rm1WcmJNZjg5OXZya1VxSEZYUFExWFduUll0UHZlU0RoazM3Q0t0UHF1cWw5djN1Wkpxdm5RY2QwVFV0MTBaXzhXN1VXOEJhX0dtNkdVUUZrajVDU0hNUWJ2dUdIWlZHaThR?oc=5",
 "outlet": "AOL.com",
 "people": [],
-"published": "2026-11-27T14:34:13+00:00",
+"published": "2026-11-27T15:34:02+00:00",
 "query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
 "query_relevant": true,
 "rehash": false,
@@ -8066,6 +8532,50 @@
 "Exit"
 ],
 "title": "‘Virgin River’ Season 8 Cast Changes Revealed After Multiple Shocking Exits Before Renewal"
+},
+"1d09113379f2": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "1d09113379f2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ITVVVeGJFWW91UXQ2YnBZQ21WNGhra0JGai1MS1prTE40X3NPQ0MtSnY5VkItNWZ1SjFFVFJxWjdFeUN4UnVhdG5JeEdIZFF6MnBUNlNhQ2NvWnIxazV3TGp1WUo?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T17:47:14+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Family Guy"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Family Guy’ Christmas Special Clip Shows Peter Losing the Santa Gig to Cleveland"
+},
+"1d4fbcc2e03e": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "1d4fbcc2e03e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DdUJpM044MkpMRjB1ZkZGZ3AwbjcwWHg1WUs3akoxenFXRHE0dDN0OVhNbHJWNHVfU21GdXRCQTdxenQydUZaQkNoOXMtcnpmT1JoZlRkTFZEOW5wS0ZPSkxzQTcwY00?oc=5",
+"outlet": "IMDb",
+"people": [
+"Danny DeVito"
+],
+"published": "2026-11-28T00:02:48+00:00",
+"query": "\"Cobie Smulders\" OR \"Hilary Duff\" OR \"Danny DeVito\" OR \"Charlie Day\" OR \"Kaitlin Olson\" OR \"Rob McElhenney\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "30 Years Later, Danny DeVito’s Beloved Fantasy Classic Gets a New Streaming Home"
 },
 "1d95c0603510": {
 "first_seen": "2026-11-27T17:30:11+00:00",
@@ -9037,6 +9547,28 @@
 "tags": [],
 "title": "Mayim Bialik Played A Marvel Mutant & You Never Realized It"
 },
+"216cbe35f871": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "216cbe35f871",
+"image": "https://deadline.com/wp-content/uploads/2026/11/NBC-Anti-Israel-ad.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/nbc-pulls-ad-israel-gaza-1237234472/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-28T01:02:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live",
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "NBC has pulled from its air a controversial ad that is critical of the United States’ policy of sending financial aid to Israel. The ad ran Wednesday night during the network’s Saturday Night Live Thanksgiving special.",
+"tags": [],
+"title": "NBC Pulls Ad That Criticizes U.S.’ Israel Policy & Aired During ‘SNL’ Thanksgiving Special"
+},
 "21987386e7bd": {
 "first_seen": "2026-11-26T17:30:13+00:00",
 "id": "21987386e7bd",
@@ -9209,6 +9741,28 @@
 "Upcoming"
 ],
 "title": "‘Abbott Elementary’ Season 6 Episode 7 Release Date, Time, Where to Watch and Preview"
+},
+"2267860c352d": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "2267860c352d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxeUYxa2p0d0l6WFR0eHEzSUZtbTNETjVZMDhYWTVYbmNYLWJKS2Q4ZVFvZzFfZTYyZXYwUnEzVEkyZVFfZ0RURjhwSjJaQ1ZkSmVROTdtVXBERUZBanRHLUJoNUNqVEk?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T21:11:33+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Tonight Show"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "The Tonight Show Starring Jimmy Fallon: Will Arnett, Hunter Schafer, Fran Lebowitz, Busta Rhymes"
 },
 "227681960386": {
 "channel_kind": "outlet",
@@ -9564,14 +10118,14 @@
 "23decd40e513": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "23decd40e513",
-"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/GettyImages-1450269777-Celebrity-Pregnancies-2026-Cassie-Randolph.jpg?crop=905px%2C281px%2C1052px%2C595px&resize=1000%2C563&quality=86&strip=all",
+"image": "https://www.usmagazine.com/wp-content/uploads/2026/11/justine-lupe-pregnancies.jpg?crop=0px%2C305px%2C1200px%2C678px&resize=1000%2C563&quality=86&strip=all",
 "kind": "article",
 "link": "https://www.usmagazine.com/celebrity-moms/pictures/celebrity-pregnancy-announcements-of-2026-charles-melton-and-more/",
 "outlet": "Us Weekly",
 "people": [
 "Aubrey Plaza"
 ],
-"published": "2026-11-27T01:14:21+00:00",
+"published": "2026-11-27T21:30:21+00:00",
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -9580,7 +10134,7 @@
 "strong": false,
 "summary": "Many stars are expanding their families in 2026. In the first half of the year, actresses Bonnie Wright, Aubrey Plaza, Natalie Portman and Anne Hathaway all revealed that they are pregnant.",
 "tags": [],
-"title": "Celebrity Pregnancy Announcements of 2026: Cassie Randolph and More"
+"title": "Celebrity Pregnancy Announcements of 2026: Justine Lupe and More Expecting"
 },
 "2418e444fc29": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -9695,6 +10249,28 @@
 "summary": "",
 "tags": [],
 "title": "SNL ‘Sister’ sketch: the JOKE is on America’s healthcare system"
+},
+"24304536bf01": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "24304536bf01",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XaDFkUGljSUh3UXlyTmtxUTY0MDh6M2hidGVORXdwWDJ5NGNLSzRPYU5XZHd3dVNkcUw2SHJ3VmdWdURvZUNoN1ZYTHp5ZEJxa1ZuV1hTcXZtZVhGSE51bHJobUZva00?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T17:13:39+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘South Park’ Season 29 Officially Ends This Week"
 },
 "2436ec67a2e4": {
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -10905,8 +11481,8 @@
 "Candace Cameron Bure"
 ],
 "published": "2026-11-27T15:41:07+00:00",
-"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
-"query_relevant": false,
+"query": "sitcom",
+"query_relevant": true,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -11376,7 +11952,7 @@
 "people": [
 "Ashton Kutcher"
 ],
-"published": "2026-11-27T17:09:15+00:00",
+"published": "2026-11-27T17:11:13+00:00",
 "query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
 "query_relevant": false,
 "rehash": false,
@@ -11574,6 +12150,30 @@
 ],
 "title": "Tim Allen Gets Competitive About Playing Santa Claus, Talks Return to Buzz Lightyear in Toy Story 5"
 },
+"2d7861a72939": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "2d7861a72939",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8wS01mbERZcU9kMmduWHVqRjlZc3dDZW5XTk9keGUyNk1DNzRGQ3I4MGFQdm9faDdHRlBMeUt1WTktaE93OEJlNVhxM3JwVmNWWk1mRXRFcExnLTJ0Qm5XNldnN3VnMnZYMUg5TjZQNktKeWoxSE54N3QtRF95Zw?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T18:16:52+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Candace Cameron Bure Says She Was \"Duped\" Into Joining The View"
+},
 "2d8a3426446b": {
 "first_seen": "2026-11-23T20:30:16+00:00",
 "id": "2d8a3426446b",
@@ -11660,6 +12260,28 @@
 "summary": "",
 "tags": [],
 "title": "I Love Julie Bowen’s Mom-Coded Way Of Trolling Modern Family Co-Stars Ariel Winter And Nolan Gould"
+},
+"2e051e82d802": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "2e051e82d802",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBucE9qMmdVY3AwMkI0aXdLdHR2aHNxOFFkMTZfeWpjOVBZc2V3WUg5YnFtWHdwOWdQQV9WUnZWci14azFCZ2ZsclAxR0J0aHJTNWZxNXozRU1oY1VveHlvbjVoM09Ec0E?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T23:34:41+00:00",
+"query": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Abbott Elementary"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Abbott Elementary Season 6 Episode 5 Photos: “Courtney” Airs Tonight on ABC"
 },
 "2e0da5c77c42": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -12012,6 +12634,28 @@
 "Cancel/End"
 ],
 "title": "Will Ferrell Comedy ‘The Hawk’ Canceled By Netflix After One Season"
+},
+"302d5f7c904b": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "302d5f7c904b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjNTZaSFJBeHROeXZjSS1icmt1UnFMbGRDeE9UMWs1V2VsVVpPaXBEU0wyU0daYV9MZVNFcTY2cmFJQ0poZWZyZ1F4Y2wxY1hQbVNCMGNaMHhnUmhzbVNGRDQtNU0?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T18:06:00+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Ted Lasso Officially Loses to Kyle Chandler’s Best Sports TV Series of All Time"
 },
 "302da0ae6950": {
 "first_seen": "2026-11-26T04:00:12+00:00",
@@ -13622,6 +14266,25 @@
 "tags": [],
 "title": "Mila Kunis names the actresses she and husband Ashton Kutcher have ‘both made out with’"
 },
+"3705a2307111": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "3705a2307111",
+"image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/anthony-carrigan-as-noho-hank-in-barry.jpg",
+"kind": "article",
+"link": "https://screenrant.com/hbo-barry-32-episode-crime-thriller-masterclass-blending-genres/",
+"outlet": "Screen Rant",
+"people": [],
+"published": "2026-11-28T06:16:18+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Barry delivers a masterclass in blending genres across 32 episodes on HBO, combining dark comedy, crime thriller suspense & Bill Hader's performance.",
+"tags": [],
+"title": "All 32 Episodes Of HBO’s Crime Masterpiece Deliver A Masterclass In Blending Genres"
+},
 "37090b022314": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "37090b022314",
@@ -14023,6 +14686,28 @@
 "tags": [],
 "title": "Kristen Bell"
 },
+"39de83299448": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "39de83299448",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMW5DTUtZR1duTzVJOTVzWTZSZ3JjSFl3MkxfbVFsV3RZOXZsNzZwcmRaVEFMTjZDMUlxYnR2OGs4ZWRVcFFBY1BkYWduc2EzUl9qU202cml6cU9XNTE1Ui1QVnd0VUlXSUt3S2VycVRaNXZMQ2otN2JuQ3Zpc0RLV0N1NVNraXd0cmJTTUVPTmswZks1MlRUSVE1bmM5ZnoxS2ZUdQ?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-27T12:45:34+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Want to Smell Like Jennifer Aniston and Nicole Kidman? Get Their Exact Roll-on Perfume Oil"
+},
 "39ffaf568e1c": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "39ffaf568e1c",
@@ -14361,7 +15046,7 @@
 "people": [
 "Jennifer Aniston"
 ],
-"published": "2026-11-26T12:55:00+00:00",
+"published": "2026-11-27T17:42:00+00:00",
 "query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
 "query_relevant": false,
 "rehash": false,
@@ -14742,6 +15427,28 @@
 ],
 "title": "Fitness trainer reveals the simple daily habit Jennifer Aniston swears by"
 },
+"3dea9a342aad": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "3dea9a342aad",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdk1QclBTX0dMUEtXQ1A4TkZvZWdKMC1wZnYwNjRETXFqUFFRMjJ1Tk5rb3FxampoY2MzM1RSaWNVN21adGI2ekxSVVkyMVVzYUxpLWl5QUlLT3FjWXdXSGxFOXFTV3VFbXk2TWRlV0NwLU8zWFNJRi1MVU04cmtOZWpUZDZHVWVEbHZSMURqZw?oc=5",
+"outlet": "Yahoo News UK",
+"people": [],
+"published": "2026-11-27T20:01:27+00:00",
+"query": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Sabrina the Teenage Witch"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Nate Richert Discusses His Apprehension About Returning to 'Sabrina the Teenage Witch'"
+},
 "3e17fb9ab3e7": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "3e17fb9ab3e7",
@@ -14987,7 +15694,7 @@
 "tags": [
 "Interview"
 ],
-"title": "Child star Larry Mathews recalls heartbreak when The Dick Van Dyke Show ended"
+"title": "Child star recalls heartbreak when ‘The Dick Van Dyke Show’ ended"
 },
 "3f5cefb5b033": {
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -15576,6 +16283,28 @@
 ],
 "title": "Will Ferrell Golf Comedy ‘The Hawk’ Canceled at Netflix After Just One Season"
 },
+"41b52344b1c9": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "41b52344b1c9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5haFppUkVLWW5PRnd5WHRJMG5zbkVuWENOcmRYZThKVGx0bklZcWlncHh4T283bVRsY3lQX0Nwc2JENHNhMm5fRjNuWmpkVTdnUTBydkJjOGduRUFsU1FqRUVuWkVSM1Bnc3pWZEhsTUJMajRZTWRqMGJZb3RIbWM?oc=5",
+"outlet": "IMDb",
+"people": [
+"Dan Levy"
+],
+"published": "2026-11-27T23:29:04+00:00",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Dan Levy"
+},
 "41b6cc1c832f": {
 "first_seen": "2026-11-26T06:30:13+00:00",
 "id": "41b6cc1c832f",
@@ -15766,6 +16495,30 @@
 "summary": "Season 2 of The Hunting Wives is NOW PLAYING! Watch on Netflix: https://www.netflix.com/title/82141457 About Netflix: Netflix is one of the world’s leading entertainment services offering TV series, films, games and live programming across...",
 "tags": [],
 "title": "Season 2 of The Hunting Wives is NOW PLAYING!"
+},
+"423f1c711a2f": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "423f1c711a2f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3S3B4UlMwcUY4dGRDNVFESjJKVVczRXN4eUw0NXh0djgzWXg1UGNNNzVtUEE0UlZtRElfVFpXaXczVWQxblFIZUJpcWNqYzhvSFE?oc=5",
+"outlet": "IMDb",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-27T09:19:33+00:00",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Dax Shepard Addresses Narrative He’s ‘Controlling’ & ‘Abusive’ in Marriage to Kristen Bell"
 },
 "424dfd99c822": {
 "channel_kind": "talk",
@@ -15958,6 +16711,28 @@
 "summary": "",
 "tags": [],
 "title": "Kirk Douglas' First TV Appearance Was On A Television Legend's Classic Sitcom"
+},
+"4364b43bb101": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "4364b43bb101",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85MWp1NHhjY2tmRVJVX3I0eWRCSk5vSTNFc2QxaDU4c3hUSWRsdkRkZHpzeUdIWEtWYjUxTnVLZmJlOTI0THNfRjhaVm1TenBITUEtWERrdWhzY0lHcjdSSHgtc04yUzg?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T23:07:22+00:00",
+"query": "late-night show guests",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Tonight Show"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "The Tonight Show Starring Jimmy Fallon: Will Arnett, Hunter Schafer, Fran Lebowitz, Busta Rhymes"
 },
 "437187b9c463": {
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -16377,6 +17152,28 @@
 "summary": "",
 "tags": [],
 "title": "More Details About ‘Ellen’ Producer Matthew Wright’s Passing at 52, Revealed"
+},
+"44ec174bcb97": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "44ec174bcb97",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaUdObklvY0ZfY2lObGJqWW04X0J2QmVJNXZxOUxsTXJSa3pSNnI0WEh3MUd2U1c1U2xpMGp4d3hkTU5JTERyTXNBS043UHRueEhWUDl3UUZFOWxtVjV4WlZJbTlwcG1aSWZjcTBzZFNuT0FyVXJVT2t2Ql9RcHhWYTc5VQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-28T00:00:00+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jennifer Aniston Uses the $8 Rosewater Mist That Shoppers Say ‘Saved’ Their Dry Nose and Face"
 },
 "44fa1ae6c1c2": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -17016,6 +17813,28 @@
 "summary": "",
 "tags": [],
 "title": "Ashton Kutcher-Founded Sound Ventures Could See Its Anthropic Stake Hit $7 Billion After $435 Million Investment"
+},
+"476e8aee919b": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "476e8aee919b",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBHZDE2cGMzbmZqVXdDWDIwQlVwUHVFSF9ybHZLOEwtQXJpeU9uUlNtcXd5MGRITzFkd0ZGSlZVMzBSY080aWxSWkprZVZpUEZ3WFFzVVlUWFhWcEFlLW1nN3c0NU8?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T17:47:16+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Family Guy"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Family Guy’ Christmas Special Clip Puts Peter Griffin’s Santa Jealousy on Full Display"
 },
 "478b3133fd81": {
 "first_seen": "2026-11-26T17:30:13+00:00",
@@ -17798,6 +18617,28 @@
 "tags": [],
 "title": "‘Widow’s Bay’ Season 2 Is Changing the Show’s Formula in Exactly the Right Way"
 },
+"4addf823e66d": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "4addf823e66d",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAzS1NYX2hFMXJ1d2hkUTBld3BTWHFjRHFkUndyN2M1WjdzdmNGckRlN2l2UHBhMWFxdFBIakpXMDZadWZ5R3dhcEFiVnVpRVRackVGaUVnQWNRMjc1MjF1NEZ5WjBJSVFDX3laY0dkOE9iZUE?oc=5",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-28T01:02:00+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "NBC Pulls Ad That Criticizes U.S.’ Israel Policy & Aired During ‘SNL’ Thanksgiving Special"
+},
 "4aded1b0a8d0": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "4aded1b0a8d0",
@@ -17846,6 +18687,28 @@
 "Interview"
 ],
 "title": "Candace Cameron Bure Says She Still Gets ‘Substantial’ ‘Full House’ Residuals and Wasn’t Surprised the Olsen Twins Skipped ‘Fuller House’: No One ‘Stayed Close’ With Them"
+},
+"4b30eaeecc79": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "4b30eaeecc79",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRTdPb2hnOFdQZDBnNG11SGh3d2VqNDE5U1A2b20ydnFsQTgyOFF1WUdsYU0xRWE1SnZRLWRWbV9CUUJOOW5qdndLRTNEWkhEcU05aXVkRF80Zmg0Z1VzUEZSRExWd3FtUWMyWFBUVUJUR0NXT2QzNS0yOG9FWE5fQXZiUzJIc0NhWkJBbnNvU2U0SmdmX0JTd2ZGY3YteGRncDhPVVM0c0g?oc=5",
+"outlet": "New York Post",
+"people": [],
+"published": "2026-11-27T21:56:00+00:00",
+"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Simpsons"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the times The Simpsons made eerily accurate predictions about California"
 },
 "4b4f9f627720": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -17959,7 +18822,7 @@
 "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM2NnallrQS1XYWxqQU9uQW1CeXhUaWZOd0w0Vk5TczdoSkNYQ1hKV0p4MDJQa3RXYXJXM1dNenFNYlVoLTk2ZGNERF9qOFc5a19pVHdtV3hUZVZUSU4wRnE0dl9namFPMENWMkxnVVZpc0ExV1h4THkzb2V1eFFMVzRIRVRqbDRMR2RDZXZ5OUpDNUUw?oc=5",
 "outlet": "The New York Times",
 "people": [],
-"published": "2026-11-24T17:36:30+00:00",
+"published": "2026-11-27T18:15:00+00:00",
 "query": "\"Parks and Recreation\" OR \"Parks and Rec\" OR \"Modern Family\" OR \"New Girl\" OR \"Seinfeld\" OR \"Curb Your Enthusiasm\"",
 "query_relevant": false,
 "rehash": false,
@@ -18251,6 +19114,28 @@
 "summary": "",
 "tags": [],
 "title": "‘DWTS’: Alfonso Ribeiro Weighs In on the Top 5 & Shuts Down Theory Show Is Rigged"
+},
+"4ce452dc5353": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "4ce452dc5353",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUENER1FJS3RzdmlhMFNQZk92c2RNTWFlLUtGdF9aelpXV1kzOW5IaXZjRGYzS0NTamJPNzJkU2ZnQ3RSdm5vOWZhaVR6QzVTblU3TXhDVVlTYW1Zay15NFhtbFRlSjlDNHJqZ1Q5NVM5bGFVMlhSQzRqNkpIOHF2TQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Jenna Ortega"
+],
+"published": "2026-11-28T01:51:00+00:00",
+"query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "New Jenna Ortega movie, ‘Chicken Lady,’ looking for extras in New Orleans"
 },
 "4cec1c656765": {
 "channel_kind": "talk",
@@ -18730,9 +19615,9 @@
 "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ibmx4NDFKNnZZUjFZaTZxM0Y2WTRLOHZ2QnhNMHZDMlZ3UjMxR0F2eml2eTRXMlJKY1VkcU9OU2pGQVN1dlhJU1R0cC1KMEVCdVFXcFFLMFE2eFpwTlV1YmpHeG4xbngyZFhuOWxrMS1pSXBBUUlRdtIBfkFVX3lxTE9jdy02dWl6TmN3UUxxdkh5bFRTRmZkdURXcE1wOVplLVo0WWxCaUQxN2N5ejJNcVdfUWdYZW9ZMXdzSmJEQVBmWjdwUFg3eTdJNFBkOTYyRDdFYWEwQ3hQOEVGTjc2TFNyNE9mNlBRT0l3cmJ2OXNLaW5iS0pmdw?oc=5",
 "outlet": "ABC News - Breaking News, Latest News and Videos",
 "people": [],
-"published": "2026-11-27T07:57:08+00:00",
-"query": "\"comedy series\" (canceled OR renewed OR revival OR reboot OR \"final season\")",
-"query_relevant": true,
+"published": "2026-11-27T15:51:24+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -19611,6 +20496,28 @@
 "tags": [],
 "title": "Bowen Yang Issues Apology for Calling Regina Spektor an Antisemitic Slur as Backlash Grows"
 },
+"52bfbba9e250": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "52bfbba9e250",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa1BfZWV5SU1zZWxTNEJuY09LMWplVURXa29ieDVBTjFESllMWTBubjdyaE5UQXhtT0daZ0p2Ni1lZlFveXVBek1SLXVUeXo2bjVYLVFXRUs2cVQxNDR2UjJfQ3lhNWd5SUZaR1VHNHVHNXF1djA5MkU3VDB1cm5UeFBfVEEwRTdkV19WYXpBaEswbmZPSmRxb0hkRzJ3SW8?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-27T21:56:37+00:00",
+"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Simpsons"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the times The Simpsons made eerily accurate predictions about California"
+},
 "52d25af0de11": {
 "first_seen": "2026-11-26T06:30:13+00:00",
 "id": "52d25af0de11",
@@ -19877,6 +20784,28 @@
 "tags": [],
 "title": "Nate Bargatze Unleashes Thanksgiving Hot Takes in ‘Tonight Show’ Rant"
 },
+"53f85dc52694": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "53f85dc52694",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaVRkNFc1eGlqbFNQZmRPdmc5ZnNnV3RpVktZUWhudUNaVTNROUlfdjE2c2ZGSy1hRHNyMEFxLWFMaHBjT0NZOHhjVU5TS3dvM2pQYWU2MUNFMl9PTkV1aF8tRjJuaEd5U3VjVmJkWHJ3UW4zcUpBQTBacWdEUVNNOURrU2lJZXNFTDZiZXNzN0ZHcTA4QzV3SFdsUXBlZ1ZERF9wMHJwbnVfYkU?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Kaley Cuoco"
+],
+"published": "2026-11-27T18:25:00+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Kaley Cuoco Celebrates Baby Philomena’s First Thanksgiving With Her Growing Family"
+},
 "5420dacaede6": {
 "first_seen": "2026-11-21T17:30:12+00:00",
 "id": "5420dacaede6",
@@ -20106,7 +21035,7 @@
 "people": [
 "John Stamos"
 ],
-"published": "2026-11-26T19:56:00+00:00",
+"published": "2026-11-28T03:42:00+00:00",
 "query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
 "query_relevant": false,
 "rehash": false,
@@ -20117,7 +21046,7 @@
 "strong": true,
 "summary": "",
 "tags": [],
-"title": "'Hunting Wives' Season 2 cast enters with a bang, including 'creepy' John Stamos"
+"title": "John Stamos brings rock-star sleaze to ' Hunting Wives' S2. Who else is new?"
 },
 "55827e32d3db": {
 "first_seen": "2026-11-26T17:30:13+00:00",
@@ -20455,6 +21384,30 @@
 ],
 "title": "Netflix’s ‘The Murder of JonBenét Ramsey’ Haunting Trailer Shines Spotlight on Melissa McCarthy and Clive Owen"
 },
+"566391c5d504": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "566391c5d504",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzhDRFRsRHg1RzVBNlFCR25qWk9pM2lFVWZtOEx1WFIzT0pqdW5uRW1rSTZmb2xqdlgwRFhsLWxUTWNZSWNNWTVxUUl3dGhGbFotOE1rVFZoakpfN29CX0Y2TFhwOVotYzdGWkVMOHNRRmZTT1lVdklZVXozYlo5OTdsbnhmT0R1ZXhIMUNwek9ZdmRxOG9PRVpnRlBySnlhMG4ySzdUQm5oU0M3cTNhNC1DMDRmSFZGMmFHTA?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-27T12:00:17+00:00",
+"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Emilio Estevez Recalls Punching Charlie Sheen as a Teen. Sheen Fought Back With a Wooden Spoon"
+},
 "5665d83d8f03": {
 "first_seen": "2026-11-23T06:30:11+00:00",
 "id": "5665d83d8f03",
@@ -20745,6 +21698,26 @@
 "tags": [],
 "title": "Abbott Elementary Star ‘Bullied’ Her Way To Play GTA 6 Role: ‘They Didn’t Choose Me’"
 },
+"57d1cf2906ce": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "57d1cf2906ce",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9JSC1UbVBPZkJJN0JjQm44cHQxYVJaSy1wNUpVZkJDOTNnT3V4eC1UMUszRTYxUlM1aFJkTTJVZFpaMlQ1YnZvQ3hyRU82QQ?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T11:49:19+00:00",
+"query": "late-night show guests",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "Jimmy Fallon Takes Aim at Trump Officials Over Airport Ground Stop Chaos"
+},
 "57d7bbdf50e1": {
 "first_seen": "2026-11-24T17:30:13+00:00",
 "id": "57d7bbdf50e1",
@@ -20877,6 +21850,28 @@
 "Trailer"
 ],
 "title": "Avengers: Doomsday’s final trailer hit 563M views, a Disney record"
+},
+"58fcb2ee2364": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "58fcb2ee2364",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nVk5uXzhmQzg4eDdCNWRVZEM2RVl5RUswalFPYzREX2VBOUhpX0lwOFpnZlh0Q1R1a0htQ1JGZHlfbHRBTVBJMDNaaEE5WTRxa2ctVnJucDRCV29WcFBGcWN0RDdTOVJncjhnLTJOck9pRUI1RVZmTHNhNk5aalk?oc=5",
+"outlet": "Yahoo Lifestyle Canada",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-28T00:00:00+00:00",
+"query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Amy Poehler hopes to write a Broadway play"
 },
 "59030def0273": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -21214,7 +22209,7 @@
 "Tina Fey"
 ],
 "published": "2026-11-27T12:13:42+00:00",
-"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -21796,6 +22791,28 @@
 "summary": "",
 "tags": [],
 "title": "Lori Loughlin Pokes Fun at Her ‘Full House’ Character Aunt Becky’s Weight Loss Tips"
+},
+"5d7a22014ec4": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "5d7a22014ec4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjFabktneUNBdHlVODBldTVJVVptR2hHa1FjVnY5WUZlNFhsNFFKSkJ0cUJDeUJiM3BfcHdiTjZGaWpvVWJFZHk2TnVVZ0hIcG9XZ2xOYmRLWk5WLVNCbWZHRzU2dG1vQWs3MDJQWWZaUzNzUDB5TDRsOVlyaXVROXZnZjZUdmJubnc?oc=5",
+"outlet": "ScreenRant",
+"people": [],
+"published": "2026-11-27T19:45:19+00:00",
+"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Young Sheldon"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Mandy's Divisive Story Highlights First Marriage’s Criminally-Absent Young Sheldon Character"
 },
 "5da1b4a1102b": {
 "first_seen": "2026-11-21T08:58:50+00:00",
@@ -23335,6 +24352,28 @@
 "tags": [],
 "title": "Nate Bargatze Unleashes Thanksgiving Hot Takes in ‘Tonight Show’ Rant"
 },
+"665854a5bbff": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "665854a5bbff",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9scmdIeXFZWF9kQkhhU2hOckhvbkNaZm9rSEU1RlhkRlBQNHNjM18zVm1LMmVHMnNhNjJ6WE9NdmRNUTcta3I0aTNncEdRVUlQYkttNEt1Q0cxQQ?oc=5",
+"outlet": "Mashable",
+"people": [],
+"published": "2026-11-27T14:15:22+00:00",
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Golden Girls"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'Golden Girls Forever': Thank you for being a book"
+},
 "6676ef3a1e85": {
 "first_seen": "2026-11-26T17:30:13+00:00",
 "id": "6676ef3a1e85",
@@ -24061,6 +25100,28 @@
 "tags": [],
 "title": "Candace Cameron Bure and Cameron Mathison Return in A Sweet Christmas Anniversary with a Royal Twist"
 },
+"6a6683be4980": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "6a6683be4980",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1mdzcxUko5SmhGSDNNQlhwMzYzSmV0SkJWcTF3MW5Cd1g0X3RmRS1hMThoUEg2U3JKSVBlVmJnVFlFSEUxcjYwTkN1Qk1mZ1VadnNjWFppMGhBZWdJVDlOY2xET0NyZw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T14:20:33+00:00",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Roseanne"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Roseanne Barr Blasts Vice President Jd Vance in Fiery Rant: ‘Just Resign Now!’"
+},
 "6a7765cced4b": {
 "channel_kind": "talk",
 "first_seen": "2026-11-27T17:30:11+00:00",
@@ -24636,8 +25697,8 @@
 "John Stamos"
 ],
 "published": "2026-11-27T09:25:00+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [],
@@ -24669,6 +25730,29 @@
 "Renewal"
 ],
 "title": "‘The Secret Lives of Mormon Wives: Orange County’ Renewed at Hulu"
+},
+"6d9cf32d0269": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "6d9cf32d0269",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd1JsUlZ3aDFranc5a01tT1hyZ0h6WWp1R3JiVmU5Z3ZDUVJXUXRGUjc0VDNnaG5qVk1ZbFd3WDJ5ODBKc28tVzBkbGJLRG8wVzVjU1pKWHcybmhXbDhsaEFWcmlwNzVib2V1TlYzam9ueUdLcFJBY205MXRhX3l4T3ZKWlAyTEJoaGhGVXc3LW5UdHRLMmdPc0FOTjdLa2xK?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [
+"Amy Poehler",
+"Tina Fey"
+],
+"published": "2026-11-27T19:33:07+00:00",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Tina Fey terrifies Amy Poehler and Seth Meyers with ‘nightmare’ virgin holiday dolls: ‘Everything about this is bad’"
 },
 "6da685055848": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -24734,6 +25818,28 @@
 "summary": "The resemblance is uncanny. Invincible Season 5 premieres February 17 on Prime Video. » Watch Invincible on Prime Video: https://bit.ly/InvincibleSeason1 » SUBSCRIBE: http://bit.ly/PrimeVideoSubscribe About Invincible: INVINCIBLE is an...",
 "tags": [],
 "title": "The Similarities Between Mark and Young Nolan | Invincible | Prime Video"
+},
+"6df59d6a59f7": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "6df59d6a59f7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ0dMOVhsYzQ4c1JxaXRoVzJBYXpOMXFwdVFKSGtNTnhWU25CLUZBSzlrcE5ZN1NQcE1GZWJ4VU1qM1NUZmtrSEt0cHB3RnZmS0J3cW4wa0JGU1lqMG5nX1dQakNTOG1leDNjUEcycGJoSHN4RWVXMzVpd1hfaHlGRXpxRGxYVFVBT2FDdmNFZFViX1lkMVEzanp2THo3LUhtZVBJSHY4NFdJRmF5MTQw?oc=5",
+"outlet": "New York Post",
+"people": [],
+"published": "2026-11-27T19:45:00+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "NBC pulls ‘indefensible’ anti-Israel ad that aired during ‘SNL’ special: ‘Carefully orchestrated lie’"
 },
 "6e14775c964b": {
 "channel_kind": "talk",
@@ -25193,8 +26299,8 @@
 "Jason Alexander"
 ],
 "published": "2026-11-27T16:11:52+00:00",
-"query": "sitcom",
-"query_relevant": true,
+"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -25867,6 +26973,27 @@
 ],
 "title": "Marvel’s Mutant Takeover Is Reportedly Bigger Than Just the ‘X-Men’ Reboot"
 },
+"7282d22919c8": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "7282d22919c8",
+"image": "https://deadline.com/wp-content/uploads/2021/02/TSDSEIN_EC077.jpg",
+"kind": "article",
+"link": "https://deadline.com/2026/11/bob-greenblatt-talks-challenge-launching-new-shows-today-1237234508/",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-28T03:18:47+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Veteran TV producer Bob Greenblatt understands why streaming old shows like Cheers or Mad Men is a far more appealing alternative to viewers these days than trying to vibe with a new series.",
+"tags": [],
+"title": "Bob Greenblatt Opines Why Viewers Aren’t Sampling New Shows Today: “It’s Easier To Just Escape To Seinfeld or Downton Abbey”"
+},
 "72bda870f0b7": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "72bda870f0b7",
@@ -26086,6 +27213,26 @@
 "Death"
 ],
 "title": "Seinfeld star Steven Hack dies aged 68 after sudden cardiac event"
+},
+"738d312e53a1": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "738d312e53a1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4UGQxSlExZXpoVlZUVy1ab1FXRC1MWUxRdFM4bTVRcHFkNllIRGVkdmNzM3loRWJIbFRYRHN0dDBNTkRhX0t3UUt5N01Rb3VzWHc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T16:10:21+00:00",
+"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "The First Sitcom Michael J. Fox Starred In Is Impossible To Stream"
 },
 "73aa6e5e586e": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -27025,6 +28172,28 @@
 "tags": [],
 "title": "Disney Is Bringing ‘Only Murders in the Building’ to Life With New Escape Rooms"
 },
+"7a08d0089aa1": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "7a08d0089aa1",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWRfcnI4OGFhb0dzVzVPNDRtN2VRNm1GNFBFVG1ma2dOS3VlSUl5Z1B3NktvVENTVktJVVZKbEhNSXl0ME1tMnp3dWRvNDJtRlNTcW9mNTB5ejZ2d2syUlgxbk1IT3gxWldUbjZTeEZTQ3BLdEgyYzNjZDdHME9BVHpPVUdpcmdwUFZndzU0SGF5SmJNY2xnQQ?oc=5",
+"outlet": "Yahoo",
+"people": [
+"John Stamos"
+],
+"published": "2026-11-27T22:36:01+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "John Stamos, 63, Transforms into a Dark Character in Netflix's 'The Hunting Wives'"
+},
 "7a320be7e2fa": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -27065,7 +28234,7 @@
 "tags": [
 "Death"
 ],
-"title": "Gayle King's son-in-law dies after 'brief, but courageous' cancer bout"
+"title": "Gayle King's son-in-law Virgil Miller dies after 'courageous' cancer battle"
 },
 "7a75757fd324": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -27253,7 +28422,7 @@
 "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOekRxc19vZkloZ3BxbGFSZnJMNzNEdkdzT3pOeTJ1QkFYLW1BR2ZFMlNhU1VjdzdHeFcwbDVBLUc1cHlna2toWFF0cW94Q1B0dENxVGtMRDExS2M3QUVmSFJ6d1NXZU5Qc3AxZy1ycnY1WTFCWld3cjUzQVhUbjh1TnV1RGhoT3k3aXRDSkhLWHJMOWxJbWc?oc=5",
 "outlet": "LateNighter",
 "people": [],
-"published": "2026-11-27T10:09:10+00:00",
+"published": "2026-11-27T10:08:10+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
 "rehash": false,
@@ -27670,8 +28839,8 @@
 "Jason Alexander"
 ],
 "published": "2026-11-27T15:41:01+00:00",
-"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
-"query_relevant": true,
+"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
+"query_relevant": false,
 "rehash": false,
 "relevant": true,
 "shows": [
@@ -28636,6 +29805,28 @@
 "tags": [],
 "title": "A tradition unlike any other 🇺🇸"
 },
+"83892d202270": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "83892d202270",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TZGY2ME01M29Hb01NbERRMWxDc2JGVlZPY3FLdXJWM2ctVkZtWE1DZWxqTTNSYmprbEtZb1o4NXlvRUkyQTlaOGFJMlB5bURiSlBhOHFKcnRFT3NTTGFUek16bS1WY2lLMXc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T20:08:08+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Candace Cameron Bure Makes Bold Claim About ‘The View’ Hosting Gig"
+},
 "839652b65d70": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "839652b65d70",
@@ -28677,6 +29868,28 @@
 "summary": "locked in on benedict and sophie. find the thing you never knew you needed on netflix! Watch on Netflix: https://www.netflix.com About Netflix: Netflix is one of the world’s leading entertainment services offering TV series, films, games...",
 "tags": [],
 "title": "locked in on benedict and sophie."
+},
+"839e92d1c7cf": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "839e92d1c7cf",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSkVQNFN6NWRTckc0Si1yNGZfdGd3YldNWU9EbS1PZjRzM3ljczVJeFdwaF9EQlNrT2RlUjRlczMzQW16eEdTQXA2YmxvLVQxajlUV2g2OEhOQXZRaFRIeGtkaUpWYk05UC00VGh1MlUycG9RV2RqYldjWk1UUEVnWXZiLXA5YU5iVWlwa240d1J0WF9mWVRHU0VNMVNlOG41eDd3ZFNubE5hMjRRS3lBNFRn?oc=5",
+"outlet": "CBS News",
+"people": [
+"Anthony Anderson"
+],
+"published": "2026-11-28T00:59:00+00:00",
+"query": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Soul Train Music Awards host Anthony Anderson chats with CBS News Chicago"
 },
 "83c5a88c5119": {
 "first_seen": "2026-11-21T08:58:50+00:00",
@@ -29326,6 +30539,30 @@
 "summary": "What’s your game day ritual? #MaddenMovie out now on Prime Video. About Prime Video: Want to watch it now? We’ve got it. This week’s newest movies, last night’s TV shows, classic favorites, and more are available to stream instantly, plus...",
 "tags": [],
 "title": "Superstition? | MADDEN | Prime Video"
+},
+"85bd590676e0": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "85bd590676e0",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMUJOLWRyUEdxdWF4RmtpNUpQUVhYLTM4RkVka1ZpRG5CckJkMTJyOXJDMTRZcmxXSGRZQUFGa2s5WHdRLS1BVk5UZTNxUld6Sl9BZm54LUJPMF9kS1JPbzVOaE9SQmJ4azdraEFlT1lTWmRIMzR1cFJyU2k0V2V4clJFbDhrWUg1TVNj?oc=5",
+"outlet": "Paste Magazine",
+"people": [],
+"published": "2026-11-27T14:16:00+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Saturday Night Live"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Upcoming"
+],
+"title": "Slayyyter makes Saturday Night Live debut in December"
 },
 "85c0955404da": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -30368,6 +31605,28 @@
 ],
 "title": "Nate Bargatze Reveals How He Quit Drinking and the Addiction He's Trying to Overcome Next"
 },
+"8a207e128177": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "8a207e128177",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUUIyYzJ5dlRhSHNSVHdzbFk4VE1OU19iNldMbV9jcGVDc3NGS0t3dGd0R29RMkdid1BEaVhpZWp3NGVDNEE0Y3ZIZG1mNTA1b2s4OGNGVFNyQWdvQzA0SWxTM1NsR1k2UHR5bl9WdENoSWIwMXBDaGxMS2Z0VF9ZMVFjLXdJOTltOHJ3SXJ5LWtqcDZ3Z3ZZZzk2VHgwUlNVbF9zd2lzMU8zQU51TldaYWJkZTVxWFl6QURuajZsWDdXRFVOZnAxSm9TQ0pRUQ?oc=5",
+"outlet": "CBS News",
+"people": [],
+"published": "2026-11-27T23:49:00+00:00",
+"query": "\"Mixed-ish\" OR \"The Parkers\" OR \"Living Single\" OR \"Sister, Sister\" OR \"Kenan & Kel\" OR \"That's So Raven\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Sister, Sister"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Sister, sister: Two sets of siblings on Drexel basketball team bring chemistry to the court"
+},
 "8a353f808580": {
 "first_seen": "2026-11-25T17:30:16+00:00",
 "id": "8a353f808580",
@@ -30536,6 +31795,28 @@
 "summary": "Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf",
 "tags": [],
 "title": "Ah yes, the ultimate bottle opener. TWO brand-new episodes come out tonight at 10:30/9:30c."
+},
+"8af439323308": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "8af439323308",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWTRUMGs1VVF5RzNvbXZ1aS15Rnhxd3FpTDU2Q2RGSnlyVE1va2theTdteEZnYWVKMXQ1a2FnU05OODBkOFllX3Y0YzB6MWcyaGR3alYtQTZySVNBMU5Eem5mQ1I5TENCelhFOFNPMllBUWxJWXRjd1BpbHhsQmRveFVkLXdaeXZza2ZxMDdqcFJQbV90UnlOczg2eGRjcXU5dWJGN0NUUnNvOVo0YUdMel9R?oc=5",
+"outlet": "USA Today",
+"people": [],
+"published": "2026-11-27T10:06:00+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'SNL' 'Sister' skit is, and isn't, funny. Here's the problem | Opinion"
 },
 "8b04ab8489aa": {
 "first_seen": "2026-11-26T04:00:12+00:00",
@@ -31650,6 +32931,28 @@
 "tags": [],
 "title": "Amy Poehler’s New Peacock Series Brings Back One Very Specific ‘Parks and Rec’ Tradition"
 },
+"8f9e1874a6b7": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "8f9e1874a6b7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTnRFQ3Z2TVFlNGUyckp3NWxPbWlMamdHb0xueUMxUXJUcXUwUjI1OVpRZ0FYMzh2WDl4ZUN3QU80b3o3VzU1X2p5ZF9CbzZPLTFCR3JzdzZ6SE9lM3NJTExNcTFkM1NUUGJKZHpqdzgzdGlRQVVUUlNCcTRJOEhCRDhOX2s2UQ?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Amy Poehler"
+],
+"published": "2026-11-27T17:00:00+00:00",
+"query": "\"B.J. Novak\" OR \"Ed Helms\" OR \"Michael Schur\" OR \"Amy Poehler\" OR \"Nick Offerman\" OR \"Aubrey Plaza\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Amy Poehler & the ‘Dig’ Cast Test Their Archeology Skills"
+},
 "8fad01f57ff2": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "8fad01f57ff2",
@@ -32014,6 +33317,28 @@
 ],
 "title": "Amy Poehler pitched ‘Dig’ by making a ‘Parks and Rec’ joke, says co-creator Mike Schur"
 },
+"9195c2877015": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "9195c2877015",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORkdxQ0k4bFJCX0RIQmJvVjFURGVLcW5vOW9MVnI0VXlRNjY0ZXBwakNQd2hFUFhwSS03SXV4OTVyWFN5WHBvN3FLX2p4dFJjMHhTbGZXeDVMWU9mQlR2MFdKWnhWZ1pjQ29haDBaZTdOcnNuLWhhT0h0b2gzeGo3WjNPd1ZzRVZBTm5HNTd0QWxQajF6dWRLdHNhdzRqQQ?oc=5",
+"outlet": "Deadline",
+"people": [],
+"published": "2026-11-28T03:18:00+00:00",
+"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Seinfeld"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Bob Greenblatt Opines Why Viewers Aren’t Sampling New Shows Today: “It’s Easier To Just Escape To Seinfeld or Downton Abbey”"
+},
 "91c64808b1f0": {
 "first_seen": "2026-11-27T17:30:11+00:00",
 "id": "91c64808b1f0",
@@ -32035,6 +33360,29 @@
 "summary": "",
 "tags": [],
 "title": "South Park Officially Brings Back One Of Its Most Controversial Characters After 17 Years"
+},
+"91c95556717a": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "91c95556717a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU2pnUnFxM1BHUXpUQTV1SzIzTzdMeHM4MHh2MFZqbkJrdXlxZkhENDFKNk5HLUo1S0ZpOWhxTHc5dllBLWZ1R19vSXNQZF9rZzNjOEhWbGFlRV9HNktMWW9YM0xjc1dYR3B0a0VMaXM2dUV1NzZ1M2ZQWmVzUXRGdlVRWlpNX3JJMmE2c2tOMFBGVmpkX2RaLUxNelJ6OGlJWFpZM0k5WEQ5VGI2dkMtZ0lQMmTSAboBQVVfeXFMTkxTdThLdk45V0Ixb2VSTDF4c3l0UVpOYTBUMm5RUDR0MXNhQUNsRVNqdF9Ba0E3RGZ1dWVITlAxWkp5SDhZd2thMkNrRE8zWDlEM0tBOUZTUHBIdUZyakFCR2FnVnlLZHV2SjV6bE95dGhKMVJhcmd1ajNiYURZWGk2RlRucjFnREJSOTFXMFpfeWc5WVktdmFCSHhtMDhDd1FLTm9jaWg0TTNacUJycUtuQWpUZzZhME9R?oc=5",
+"outlet": "ComingSoon.net",
+"people": [
+"Bryan Cranston",
+"Bowen Yang"
+],
+"published": "2026-11-27T20:12:00+00:00",
+"query": "\"Annie Murphy\" OR \"Kumail Nanjiani\" OR \"Jenna Ortega\" OR \"Bowen Yang\" OR \"Sarah Sherman\" OR \"Nate Bargatze\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Seth Rogen, Bryan Cranston, & Bowen Yang’s New Movie With Oscar Buzz Releases in Theaters Today"
 },
 "91e1d738efaa": {
 "channel_kind": "talk",
@@ -32321,6 +33669,28 @@
 "tags": [],
 "title": "One of the Biggest Sitcoms Ever Made Is Officially Free"
 },
+"9362fdbb40c2": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "9362fdbb40c2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9PZGFDZm83RHJmaHdFa3dUeWxDTjFXaUhrVFYwNTJQa3JYamtQTFdmQjd5c3hPOWZPTGprenJDQnc1ZUI0Nl9VQnFoSGlYNVNlUTZMSklrUklWM3c?oc=5",
+"outlet": "ScreenRant",
+"people": [],
+"published": "2026-11-27T16:45:47+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer"
+],
+"title": "Tracker Summary, Trailer, Season List, Cast, Where to Watch and More"
+},
 "93662f1514ca": {
 "first_seen": "2026-11-23T17:30:12+00:00",
 "id": "93662f1514ca",
@@ -32340,6 +33710,28 @@
 "summary": "",
 "tags": [],
 "title": "We’re Slowly Losing One of TV’s Greatest Art Forms"
+},
+"937b280d77a8": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "937b280d77a8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONlo5eGtNcmpqcHRobjU5ZDRUM2lyXzV4dnU3UnRyZmJlWUdjU2Z6X3hNT2FzRllxcGdYRXVBMjgwWk01WFdfWFh5TTdMZXp3cWxZaDhCa2FqV1hWQ2V5cURCeERqejRMcHNDdEdJZWtrd0xkMXMtZ0MtdUw2eDBna094dlpXVGdYZkphdWxNNDlqb0R2SWVwSXFZdFpidU5RWFJGTU5PWDFTWE1aT3JBR3AxQndPcnFZOVkyR2ZjQzNNQjQ0NjRzcVRIc0kzSjVEUWpUMmZnLXkwVUxOanc?oc=5",
+"outlet": "New York Post",
+"people": [],
+"published": "2026-11-27T21:56:00+00:00",
+"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Simpsons"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the times The Simpsons made eerily accurate predictions about California"
 },
 "939519727089": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -32512,6 +33904,30 @@
 "summary": "Netflix shoots down Will Ferrell's one-season golf comedy <i>The Hawk</i>.",
 "tags": [],
 "title": "Netflix shoots down Will Ferrell's The Hawk"
+},
+"94cc567a4766": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "94cc567a4766",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR1FGZVR4NHRTSnMxVk9jbC1TTDRqVEtjSXJvM0RDdENrdVBjMERqcGNPZ2xiTy1aVTRVQnh4UmhCaEZITmNTeVZZcWZVcW9lSkxiNEY3dVRERS1GMHRQWXUzcV9vRDZmUkRMeDJadHF1RWtpdHU5aGprX2g1SENoVXRKZkwyM3FfTjlFSXdrQkY2d3l1V3hHVmxVQ1B4SHl6NVl3WmszSEdwOWx2TWpyWG4tN2NsMFZwckNXRFFqTjJPNGlwZnRr?oc=5",
+"outlet": "People.com",
+"people": [
+"Kristen Bell"
+],
+"published": "2026-11-28T00:19:38+00:00",
+"query": "\"Ted Danson\" OR \"Kristen Bell\" OR \"Neil Patrick Harris\" OR \"Josh Radnor\" OR \"Jason Segel\" OR \"Alyson Hannigan\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Kristen Bell Reveals the Special Tradition That Helps Her Kids Slow Down and Savor Christmas Morning"
 },
 "94e4b91b9f8d": {
 "first_seen": "2026-11-25T17:30:16+00:00",
@@ -32711,6 +34127,28 @@
 "tags": [],
 "title": "Roseanne Barr has 'no sexual desire' after 14 years of celibacy"
 },
+"95dc6177d0e2": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "95dc6177d0e2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeVgtZU9rZElfVWM1aGFMN2lBLXpoZ2hHZkpqb29CcnhfejQtTjZ5UENNci1VOEM1aUNHdHJDbzZjVU0wX1ZSSGxkSFVlNE5aVkQyZmNKbUttMU5KU0ZIdzRBRHhKdWdxVTU3Sm5ETEV1bi1jd2J1dWNBYUEzZGkwY3JpWkd2eUxOY1hQWjNCTnQ5dklLemVfSHN0aXZzX3dOMmxQUg?oc=5",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-28T00:12:00+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "An Original South Park Star Had A Recurring Role On James Garner's The Rockford Files"
+},
 "95edf65f9aad": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "95edf65f9aad",
@@ -32801,6 +34239,28 @@
 "summary": "",
 "tags": [],
 "title": "Turkey's almost ready. #thanksgiving #turkey #workaholics"
+},
+"964f935b2ef2": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "964f935b2ef2",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40ODgtdWo0OHhrT01xWENxakNQODBJSVZDT3hVVE56bWhudVBGeHBtUW1UbXZ3MlhCZzNiSUhWTTFDSm1JVTAxeGduNm9Lek81b3RSU0FlVVVTSDdpWC0tZUZpOGsxemc3TVE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-28T01:18:23+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "An Original South Park Star Had A Recurring Role On James Garner's The Rockford Files"
 },
 "9668c846fd3d": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -33522,6 +34982,28 @@
 "summary": "Awkward... The Summer I Turned Pretty is now streaming on Prime Video. » Watch The Summer I Turned Pretty on Prime Video: http://bit.ly/WatchMorePrimeVideo » SUBSCRIBE: http://bit.ly/PrimeVideoSubscribe About Prime Video: Want to watch it...",
 "tags": [],
 "title": "Jeremiah has an unexpected Thanksgiving guest. #TheSummerITurnedPretty #GavinCasalegno #PrimeVideo"
+},
+"990fa193f9f9": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "990fa193f9f9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHh3am1PV2NuR0d6c0lmaXBDNGxGR0JJMW54QjhpendIalB3UXFEdkdoMktXLU1qaXNGZVJCaGVOQWxPUjJucWJsR2ZxMUlfdkxzTThmU2Z4TnA4M3I2NFF2MG1ZSUFoVTZZaDhhTktQaENkYmNISmM2Rm5xUGFuMlNsbG5NcFRDc3hvYzlqWmJRd3c?oc=5",
+"outlet": "TV Insider",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T18:32:28+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Candace Cameron Bure Makes Bold Claim About ‘The View’ Hosting Gig"
 },
 "994f8b9462a9": {
 "first_seen": "2026-11-26T17:30:13+00:00",
@@ -35929,6 +37411,28 @@
 "tags": [],
 "title": "‘Young Sheldon’ Star, 23, Makes Candid Admission About Becoming a Dad"
 },
+"a371ed396fe6": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "a371ed396fe6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUHc0aHFtZVY5dlRvZ1p5V2tObV9lenFwbTdrTkVldm5SLWZwUjN4TGtXUlpwb25SZWplZmZFeE5xTlRsLXFwaEZfU2RqN2RfRXpFbUNfMzgyNGYxVFVTTEFXWFNqQ3QyZGROV2RWNjdjWWZNckVfMm1jcVVfalBNeFltMjE3TUJwYTBJQ1RaNmhiSWowRXYySjdZbmF4MHNiaDNqWXRBdTVrSWNKaEdJ?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [],
+"published": "2026-11-27T19:01:00+00:00",
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Boy Meets World"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "‘Boy Meets World’ killed off Jennifer Love Hewitt to prove Will Friedle romance would end"
+},
 "a37f3d4ce96f": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "a37f3d4ce96f",
@@ -36516,6 +38020,28 @@
 ],
 "title": "Hayley Atwell Says New ‘Avengers: Doomsday’ Trailer Lands Monday"
 },
+"a694004b08e8": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "a694004b08e8",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQlVlSGxJdXZEa2pRQkZZeWlHMnd4MU90MFpHWC1sQzU3ZVY1UXhVRXdTcERPNmhqa3cwc3ZmUlBraWJMaDNCcUNCNnZFblM2M3J5OG1uYllUNktPcHJETUI2ZHhZcDE3MzE2a3FWT29yUVI3cUhhOUM1bFpVMWtRQnlZUnMzY1pvRXVnRTNha04tZVFJVlFJ?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-27T17:41:42+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Arrest"
+],
+"title": "‘1000-Lb Sisters’ Star Arrested for Child Abuse"
+},
 "a6a7c2d4b5c9": {
 "first_seen": "2026-11-26T06:30:13+00:00",
 "id": "a6a7c2d4b5c9",
@@ -36688,6 +38214,27 @@
 "summary": "",
 "tags": [],
 "title": "Bill Maher’s Real Time to Kick Off 25th Season January 15"
+},
+"a757a7322e10": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "a757a7322e10",
+"image": "",
+"kind": "article",
+"link": "https://www.hollywoodreporter.com/tv/tv-news/nbc-pulls-ad-criticizing-us-military-aid-israel-backlash-1236764243/",
+"outlet": "The Hollywood Reporter",
+"people": [],
+"published": "2026-11-27T23:41:31+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "The ad aired during Wednesday's 'SNL' Thanksgiving special without senior NBC management's knowledge, a source familiar with the situation tells The Hollywood Reporter.",
+"tags": [],
+"title": "NBC Pulls Ad Criticizing U.S. Military Aid to Israel After Backlash, Reviews Approval Process"
 },
 "a75dc7ce04f9": {
 "channel_kind": "talk",
@@ -37235,6 +38782,26 @@
 ],
 "title": "Bowen Yang Apologizes For Antisemitic Remark, Michael Rapaport Calls For Him To Be Fired"
 },
+"a930b07ffbdb": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "a930b07ffbdb",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SaVZndUxRckhvSmFtdUpBelF3T1N4c1FrWHJTRTNaYmx0VFpQN1R2aUctZTRka1VscUJpN0hpVWNmT2pyUG9xZXh6eFkxcC11eVN5Yzg4SlVJQl83S1ZnQXNJOUllZy1qNWFpbnNmZy1PQnRrTXc?oc=5",
+"outlet": "AOL.com",
+"people": [],
+"published": "2026-11-27T21:58:03+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [],
+"title": "'70s Child Star, 57, Looks Unrecognizable During Rare L.A. Outing,  Decades After Walking Away From Hollywood Acting Career"
+},
 "a9416c7faa1c": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "a9416c7faa1c",
@@ -37764,6 +39331,28 @@
 ],
 "title": "Jason Alexander Wanted a ‘Seinfeld’ Spinoff Starring Jerry and George’s Parents in Florida"
 },
+"ab9ab4db898a": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "ab9ab4db898a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9tX2VRQmVKWkJscFVMbVZud1N2Mm9FNWpUQnlwVVBXc0xkanNvOXIzVzVXU3hfbmRhdTdISHNmZVRUVkluaWxTQUJOa0wzcmlVQ0E?oc=5",
+"outlet": "IMDb",
+"people": [
+"Tatyana Ali"
+],
+"published": "2026-11-27T10:05:47+00:00",
+"query": "\"Tatyana Ali\" OR \"Alfonso Ribeiro\" OR \"Jaleel White\" OR \"Raven-Symoné\" OR \"Kel Mitchell\" OR \"Tisha Campbell\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Tatyana Ali Reacts to ‘Young & the Restless’ Recasting Her Roxie Role"
+},
 "aba14a1159f4": {
 "first_seen": "2026-11-27T17:30:11+00:00",
 "id": "aba14a1159f4",
@@ -37827,6 +39416,32 @@
 "summary": "",
 "tags": [],
 "title": "Jeremy Allen White as Wolverine Rumour Officially Solves Major Casting Issue If True"
+},
+"abf35d47969c": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "abf35d47969c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHYmF6bTFUckkzdHp3dk1fek5CdlFNTzRJYTI2azc2emhqMmJKVmhIU3dyb1ZNQ1M4dl9NM2YtYjJPV0dyTFJ0WktBNWVTS1pFSGYwUUZnVms5ZjNKRHpWWTYtR2diSUVSdjduSzJtY1ZSbzg?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [
+"Chuck Lorre"
+],
+"published": "2026-11-27T22:40:00+00:00",
+"query": "\"Chuck Lorre\" OR \"Leanne Morgan\" OR \"Melissa McCarthy\" OR \"Billy Gardell\" OR \"Jim Parsons\" OR \"Kaley Cuoco\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Young Sheldon"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Chuck Lorre says Elon Musk ‘couldn’t have been sweeter’ while filming ‘Young Sheldon’ cameo"
 },
 "abfa0fa12c00": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -38095,6 +39710,25 @@
 "Interview"
 ],
 "title": "Dax Shepard Reveals Depression Battle After Kristen Bell Fans Call Him an ‘Abusive Husband’"
+},
+"acfa51b83c69": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "acfa51b83c69",
+"image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/11/bad-santa.jpg",
+"kind": "article",
+"link": "https://collider.com/billy-bob-thornton-bad-santa-streaming-paramount-plus-november-2026/",
+"outlet": "Collider",
+"people": [],
+"published": "2026-11-28T04:09:12+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "direct",
+"strong": false,
+"summary": "Billy Bob Thornton's 2003 heist movie Bad Santa, now one of the most-streamed films on Paramount+, is one of the best black comedies of the 2000s.",
+"tags": [],
+"title": "23 Years Later, Billy Bob Thornton’s Holiday Crime Masterpiece Is Officially a Streaming Hit"
 },
 "acff83cb4dea": {
 "channel_kind": "streamer",
@@ -39454,6 +41088,52 @@
 "tags": [],
 "title": "One of the Biggest Sitcoms Ever Made Is Officially Free"
 },
+"b1e5e931e007": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b1e5e931e007",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObndRXzl0LV92TDN1VzM2YUx1OFRRZl8teTdKaUdKS3BhMVljMThmZGw1akh5cHp1YXp1d2gtZ1hIY1pKdWRRZVgxWUZ2ZThxSVQ2Qnc1YnZ5MnVOUG51dWFUS3RteEs2aGpxNFdhRDRXYi1aWkYyVHYtTG11UWVicFlJbGRaOGExTWtySnA1c0xNcFpVazgtNzN1LTBCaC1wUUszakk4UVpiLXYwX082Q0dB?oc=5",
+"outlet": "Parade Magazine",
+"people": [],
+"published": "2026-11-27T18:08:45+00:00",
+"query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"M*A*S*H"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Alan Alda Revealed the Unusual Way the ‘M*A*S*H’ Cast Bonded on Their Very First Day"
+},
+"b1f96289187f": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b1f96289187f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0ZzNyTjRSMDNTTkVFSFN2czVnVGRfMUxaUnVraXR6ejc4Z1BuOExqMjdhMGxKX3VvRkRfSDhpdmtrODZadm01T3RuZ2JZbU56YjhIWlRWdWVGOWtEY2F3VU9wT09wUC1CTnVYVHVETy1jX2ptMjRoZUpIM21jQQ?oc=5",
+"outlet": "BuzzFeed",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T18:16:52+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Candace Cameron Bure Says She Was \"Duped\" Into Joining The View"
+},
 "b1fcfdb4330a": {
 "channel_kind": "talk",
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -39591,7 +41271,7 @@
 "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hMUFHT0xuSnZfYTNFT0VmRXc3ME1tQUZVYXJud2RJUTBwVEd1WlVyOGZfYlM3ZE4ydnlJOHdrZUxDNktWVU9heGFKcmQ1UjNDbFdHMG9PVFh6RlNTZ2VZX3ZCZW5GMG1EZy1PV2VRSV83bWVK?oc=5",
 "outlet": "Digital Spy",
 "people": [],
-"published": "2026-11-27T11:00:43+00:00",
+"published": "2026-11-27T18:19:04+00:00",
 "query": "\"3rd Rock from the Sun\" OR \"NewsRadio\" OR \"M*A*S*H\" OR \"Happy Days\" OR \"Laverne & Shirley\" OR \"The Simpsons\"",
 "query_relevant": false,
 "rehash": false,
@@ -39605,6 +41285,27 @@
 "summary": "",
 "tags": [],
 "title": "LEGO's Black Friday deals have finally landed – save up to 30% on Star Wars, The Simpsons and more"
+},
+"b2ff2533a70a": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b2ff2533a70a",
+"image": "https://www.tvline.com/img/gallery/an-original-south-park-star-had-a-recurring-role-on-james-garners-the-rockford-files/l-intro-1795546954.jpg",
+"kind": "article",
+"link": "https://www.tvline.com/2326971/south-park-star-recurring-role-james-garner-rockford-files-isaac-hayes/",
+"outlet": "TVLine",
+"people": [],
+"published": "2026-11-28T00:12:00+00:00",
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "direct",
+"strong": true,
+"summary": "Before starring as a fondly remembered character on \"South Park,\" this actor played a memorable role in three episodes of \"The Rockford Files\" in the 1970s.",
+"tags": [],
+"title": "An Original South Park Star Had A Recurring Role On James Garner's The Rockford Files"
 },
 "b3485de976df": {
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -39669,6 +41370,28 @@
 "summary": "As Robert De Niro,  who actually prefers to go by ‘Bob’,  makes his big-screen return as ‘Meet the Parents’ patriarch Jack Byrnes in ‘Focker-in-Law’ this Thanksgiving, ET opens up 40+ years of footage from our time with the acting legend...",
 "tags": [],
 "title": "Robert De Niro’s Untold Stories: RARE Interviews and Behind-the-Scenes Moments | ET Vault Unlocked"
+},
+"b3722bdb9def": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b3722bdb9def",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRHNIRkItbzBnaUxLcFhzZnNVM0tQbG80RTVYN1kxR2Z6SmdJRV9iakxhbktET3NjNHJLZThKZUhWSmJqaURDcXRSYjdPc2xGZHNkOFNJNWJXVHlvbmRMeTE4dHAyVTVsdzU2VUI0Wl91Y1dfZ2ZXc3Q1d0oxNW41MQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T18:32:28+00:00",
+"query": "\"A Different World\" OR \"The Cosby Show\" OR \"Fresh Prince\" OR \"Family Matters\" OR \"Full House\" OR \"Fuller House\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Candace Cameron Bure Makes Bold Claim About ‘The View’ Hosting Gig"
 },
 "b372a4b444fe": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -39823,6 +41546,28 @@
 "summary": "The new Christmas comedy movie Clashing Through the Snow has claimed the top spot on Prime Video‘s charts. The film became available to stream on the platform on November 23, 2026. Its cast includes Michelle Randolph, Julia Fox, Christopher Briney, Lukas Gage, P.J.",
 "tags": [],
 "title": "Julia Fox & Paris Hilton’s New Christmas Comedy Surges To Prime Video’s Top Spot"
+},
+"b40027737f79": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b40027737f79",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA3ZERyM0paNVlEX3ZEeVJsbDdoM3J6ZmNqaGdMUkp3aVFjX3E3aG5OaUVPQ1FkYUtNX29JQlNHZXo5ZDFqMFAyZkFqTGhXVGRrRUhEQUVTbHZlMXVaLXdGblJiUzQ?oc=5",
+"outlet": "IMDb",
+"people": [
+"Steve Martin"
+],
+"published": "2026-11-27T07:58:46+00:00",
+"query": "\"Kenan Thompson\" OR \"Issa Rae\" OR \"Jean Smart\" OR \"Hannah Einbinder\" OR \"Martin Short\" OR \"Steve Martin\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Steve Martin And John Candy's Classic Thanksgiving Movie Is A Paramount+ Streaming Hit"
 },
 "b402b4c1002d": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -40068,6 +41813,28 @@
 "summary": "Jimmy announces his new book \"The Path of a Pencil,\" discusses writing the book and shares some of his pencil drawings. Pre-order \"The Path of a Pencil\" at https://pathofapencil.com/ The Tonight Show Starring Jimmy Fallon.",
 "tags": [],
 "title": "Jimmy Announces His New Book \"The Path of a Pencil\" | The Tonight Show Starring Jimmy Fallon"
+},
+"b51e497f9b5f": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b51e497f9b5f",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZWhqOW5QZmdEUndfd0l6LUlyLUZkNDVSRGtQaGx3TlExM19hWlhtM1YzZ0hXMWxhNUdscGt4cXFuN0xGMkdpODRleFA3RDFiTFZlZjdvaTc2RWJCWVNuNGVvTDQ3OFVMRnNpNHFDaEkxTmFyMFdYdnRmM2pFWnhYVDRiaEUxcHdOZmVuX3NhTQ?oc=5",
+"outlet": "InStyle",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-27T16:00:00+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Ariana Grande Winterized the ’90s Denim Trend Kendall Jenner and Jennifer Aniston Repeat-Wear"
 },
 "b527ffa4c34b": {
 "first_seen": "2026-11-25T21:30:26+00:00",
@@ -40513,6 +42280,28 @@
 "tags": [],
 "title": "Why Robert De Niro Likes Ariana Grande Better Than Ben Stiller"
 },
+"b73cb5eb3ef5": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b73cb5eb3ef5",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdVFBTVpqSXBHZTc5TS1rdjRCeTB4WFBwa1ZoUUN3TGExM0lNZlRoblJ2UVlDY1Z0QnUwTVNXanlwcUU1NlVXX3k0bFV0ME5pX2dsdkJlNXBaYVBfWDdhdVlWQkxJY3F0T1JrUGdMY1h0NnQ1UGJzTFBYM0JEV1FmZG84OWE?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Charlie Sheen"
+],
+"published": "2026-11-27T17:06:15+00:00",
+"query": "\"Johnny Galecki\" OR \"Mayim Bialik\" OR \"Iain Armitage\" OR \"Montana Jordan\" OR \"Jon Cryer\" OR \"Charlie Sheen\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Charlie Sheen’s Daughter Gets Candid About Thanksgiving Chaos"
+},
 "b73fb8efdce7": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-23T06:30:11+00:00",
@@ -40665,6 +42454,29 @@
 "Trailer"
 ],
 "title": "‘Avengers: Doomsday’ Final Trailer Shows Major X-Men Moment"
+},
+"b7e4a1549926": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b7e4a1549926",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14NDRpYnRObmlTaGgteW1pY3kwWkVYTDVQS2RzeDVTWmo1d3RKU19ndDh3Ry1lQ0ZWSEY1R2Q4VUpfWVRGOGI5T0hiRlZDQWM1RkM3Q21iTDluZmNuXzgwbTJR?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T15:04:09+00:00",
+"query": "sitcom trailer OR \"comedy series\" trailer",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"title": "‘Avengers: Doomsday’ Gives Us Our First Look at Steve Rogers in Latveria, and He Came Ready"
 },
 "b804a3a10387": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -41037,6 +42849,28 @@
 "summary": "Ralph Fiennes chats with ET's Emily Curl at the New York premiere of 'The Hunger Games: Sunrise on the Reaping,' in theaters on Nov. 20.",
 "tags": [],
 "title": "Hunger Games: Ralph Fiennes on Why President Snow Is SCARIER Than Lord Voldemort (Exclusive)"
+},
+"b990de966c64": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "b990de966c64",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9rV081UXVmVXFxRWVpeHduYU5XRExfbU9SdlNOeHNEaDV4cVdCaGdXSnJlT2VFSTh1RHA3cGNESC1qWmFtYXcweURPSVc0Z3dtaGRnU1RleFZ4dm4wQmhzVjNEUE5jMjNfMkk3bTBaaUFPZVAwTWhGQ1dZNW5kQQ?oc=5",
+"outlet": "AOL.com",
+"people": [],
+"published": "2026-11-27T18:08:45+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [
+"M*A*S*H"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Alan Alda Shares How Cold Weather Helped the M*A*S*H Cast Bond on Day One"
 },
 "b9b36091ca5f": {
 "channel_kind": "outlet",
@@ -41923,6 +43757,28 @@
 "summary": "",
 "tags": [],
 "title": "▶️ Skeletons in the Closet - Happy's Place: Anything For Family (Vertical)"
+},
+"bda9fb02d483": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "bda9fb02d483",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yRC0zeXFHc3pmOXo3ajA3VXBWeFI0TFJjLTJFQmo1LUNJcG9WbDBkdFJROUZhVXIwbW1nNlFzQkRBdkNsRlRzUm5rbENmWGkteU1QWVpQQV9xQVhKQU1xUkJfM19SNHd3WUE?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T23:27:08+00:00",
+"query": "sitcom (dies OR \"passed away\" OR canceled OR renewed OR exits OR arrested OR revival OR reboot)",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Death"
+],
+"title": "Gayle King’s Son-in-Law Virgil Miller Dies at 45"
 },
 "bdbbcac54bc6": {
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -42999,6 +44855,28 @@
 ],
 "title": "'Ted: The Animated Series': Cast, Plot, Premiere Date, Episodes, Trailer, and More Details"
 },
+"c37216d6ef99": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c37216d6ef99",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT3BDZEpPM1Z3c042NjJrNzMtcmJidl92ZEVJcDFPaDlNNHVmVlIzQWRhSEZBOVZrMDNCcUZ1TGtKdHRSdzg3M0ZzelVJOWU1bHQwaGRlQkVTZGN1aGctVS1oam1GVXR6WEJsLWhnc1RPdlFnZVk5LU1vU2NGWGoxSDI5MjlWQXgtOFMxbmZiNllxUDlxeldWX3lvTTlWazBoUGExQWkzb2xreFFzcHRYc19wRTlDbEZhWFlLYVgtQUs?oc=5",
+"outlet": "Page Six",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-27T21:41:00+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jennifer Aniston’s red light mask is up to $120 off for Black Friday"
+},
 "c3782c0503c2": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-24T17:30:13+00:00",
@@ -43455,6 +45333,28 @@
 "tags": [],
 "title": "Black Mirror Creator’s New 6-Part Netflix Series Is A Perfect 84-Minute Weekend Binge"
 },
+"c5f4521a67e3": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c5f4521a67e3",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzN0JjM3ZDUi1hQzg4b2lMUjdacnlDaTRpdUZpU1JWZnFLT0VfeHFrVlo5TFl4WjVRTlVfZmc5aUsxNjJVMWVrM0RyaUExX0tfMF82bDZYY0k5VlkzN2xTT1pEQUswTGtqRXc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-27T18:06:04+00:00",
+"query": "\"Quinta Brunson\" OR \"Janelle James\" OR \"Tyler James Williams\" OR \"Sheryl Lee Ralph\" OR \"Lisa Ann Walter\" OR \"Chris Perfetti\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Leguizamo, Chloe Fineman and More Vice City Residents"
+},
 "c60296081ddf": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "c60296081ddf",
@@ -43476,6 +45376,28 @@
 "summary": "",
 "tags": [],
 "title": "Jada Pinkett Smith and Will Smith Enjoy a Rare Family Outing With Their Kids Jaden and Willow"
+},
+"c61e69c73607": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c61e69c73607",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOXRDT0ZkRzJOTV9mVmt4SF9qbGVVYlBLTTMwRkoxSmVCX1luUktvc29xMjh2Q04yaUQzVzNPaVpMRldGVGZSLTBRcXhRRkkyUld3N0xCYkk5VlNkblo3R0JqQTdCeksyYUxxVFdzRkp6clVzOTlzTE1FQzVmNHBLVFJTNUFMd3FHRHp2LWZVenV4ZnI2b3l5SnFBY0xIWjBKRmdzR0VPbUE4MW5JVUE?oc=5",
+"outlet": "primetimer.com",
+"people": [],
+"published": "2026-11-27T11:25:00+00:00",
+"query": "\"comedy series\"",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": false,
+"summary": "",
+"tags": [
+"Cancel/End"
+],
+"title": "Netflix grounds Will Ferrell’s The Hawk, canceling it after one season"
 },
 "c63147ec1ab3": {
 "first_seen": "2026-11-24T06:30:13+00:00",
@@ -43543,6 +45465,28 @@
 "summary": "",
 "tags": [],
 "title": "Jennifer Aniston's Boyfriend Jim Curtis Sends Her Sweet Love Note"
+},
+"c68c43f4ca9a": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c68c43f4ca9a",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjTjFxR2lJVjU1OGdYUGxucE44dEIxbXBiQUw0SUhJZmI5d2lpZGtSMTNzdC1XSXUzTUpvWlB5OUZnLVJSbm5XWkRIdFJiOHhQdmJobW44QnNaZlpWdW0xbQ?oc=5",
+"outlet": "IMDb",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-27T19:41:15+00:00",
+"query": "\"Abbott Elementary\" OR \"Young Sheldon\" OR \"Georgie & Mandy's First Marriage\" OR \"Big Bang Theory\" OR \"Two and a Half Men\" OR \"Mike & Molly\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Leguizamo, Chloe Fineman and More Vice City Residents"
 },
 "c69da514946d": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -44019,6 +45963,28 @@
 "tags": [],
 "title": "Tatyana Ali's DWTS Finale Freestyle: FLYING, Singing and STORY (Exclusive)"
 },
+"c87f38b3a410": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c87f38b3a410",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0dEc5SE9OU0hCRUlsVTdwWV9IOVdwX01KNUpGNHp0NTljS2VPOWUyZFhlQ052M1JERWF0VXNUX0g0bXhYWmpPN1JpbTY4UW5aYXc1WjRJajYwZWdSZ3E2b002QTc?oc=5",
+"outlet": "IMDb",
+"people": [
+"John Stamos"
+],
+"published": "2026-11-27T17:03:14+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Quote Of The Day By John Stamos: 'It's Harder Than I Thought. It Just Weighs On You. Even When...'"
+},
 "c8a9fef4b5a9": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "c8a9fef4b5a9",
@@ -44309,6 +46275,28 @@
 "tags": [],
 "title": "Steve Martin and Martin Short Reminisce on Selena Gomez and Benny Blanco’s ‘Delightful’ Wedding"
 },
+"c9ae61ad1bde": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "c9ae61ad1bde",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxY0JqWjF4WmR1NWs2QkpwQlNuWVE2TFlyYVBVRkhXYURvQzk5VndfSGtBakNPTE1sY0hJa1NqS3NFdFNwY0M3NTAya041VEQxSVdiQnBBS0d2N0t2MmtlODJvVXVmbFV6dlE?oc=5",
+"outlet": "IMDb",
+"people": [
+"Janelle James"
+],
+"published": "2026-11-27T17:41:37+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "All the ‘GTA 6’ Celebrity Cameos: Jeremy Irons, Janelle James, John Leguizamo, Chloe Fineman and More Vice City Residents"
+},
 "c9d8cd5c9a34": {
 "first_seen": "2026-11-21T06:30:15+00:00",
 "id": "c9d8cd5c9a34",
@@ -44352,6 +46340,28 @@
 "summary": "",
 "tags": [],
 "title": "Casting Two & A Half Men Today: 7 Perfect Actors"
+},
+"ca40c4eb1a83": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "ca40c4eb1a83",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LNkEwZFZ1SU1yNmhKSGl4enJKV2k1UUhzZEs1bHJDNWgxODJUczZENTJZNTJmcFFfdW5uNHpSTGlvMXlpOThkTjdLemxMdDhXWV9zUS0xY1BtZ3BCS2E1cWdxMVF3Zw?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T14:30:49+00:00",
+"query": "sitcom",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": true,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Revival"
+],
+"title": "The Body Star Marcel Ruiz Is Nearly Unrecognizable On Netflix's Hit '70s Sitcom's Reboot"
 },
 "ca62ac805f5d": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -44484,6 +46494,29 @@
 "Trailer"
 ],
 "title": "Our Fault: London - Official Teaser | Prime Video"
+},
+"caa7d12d2b5e": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "caa7d12d2b5e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTFN1OEt2TjlXQjFvZVJMMXhzeXRRWk5hMFQyblFQNHQxc2FBQ2xFU2p0X0FrQTdEZnV1ZUhOUDFaSnlIOFl3a2EyQ2tETzNYOUQzS0E5RlNQcEh1RnJqQUJHYWdWeUtkdXZKNXpsT3l0aEoxUmFyZ3VqM2JhRFlYaTZGVG5yMWdEQlI5MVcwWl95ZzlZWS12YUJIeG0wOEN3UUtOb2NpaDRNM1pxQnJxS25BalRnNmEwT1HSAboBQVVfeXFMTkxTdThLdk45V0Ixb2VSTDF4c3l0UVpOYTBUMm5RUDR0MXNhQUNsRVNqdF9Ba0E3RGZ1dWVITlAxWkp5SDhZd2thMkNrRE8zWDlEM0tBOUZTUHBIdUZyakFCR2FnVnlLZHV2SjV6bE95dGhKMVJhcmd1ajNiYURZWGk2RlRucjFnREJSOTFXMFpfeWc5WVktdmFCSHhtMDhDd1FLTm9jaWg0TTNacUJycUtuQWpUZzZhME9R?oc=5",
+"outlet": "ComingSoon.net",
+"people": [
+"Bryan Cranston",
+"Bowen Yang"
+],
+"published": "2026-11-27T20:12:00+00:00",
+"query": "\"Matt LeBlanc\" OR \"David Schwimmer\" OR \"Jerry Seinfeld\" OR \"Julia Louis-Dreyfus\" OR \"Larry David\" OR \"Jason Alexander\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Seth Rogen, Bryan Cranston, & Bowen Yang’s New Movie With Oscar Buzz Releases in Theaters Today"
 },
 "cac7e6bec666": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -44771,7 +46804,7 @@
 "outlet": "Yahoo",
 "people": [],
 "published": "2026-11-27T12:35:00+00:00",
-"query": "\"Workaholics\" OR \"What We Do in the Shadows\" OR \"Reservation Dogs\" OR \"Schitt's Creek\" OR \"Silicon Valley\" OR \"Fresh Off the Boat\"",
+"query": "\"Ellen DeGeneres\" OR \"Patricia Heaton\" OR \"Tony Danza\" OR \"Dan Levy\" OR \"Eugene Levy\" OR \"Catherine O'Hara\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -45184,6 +47217,28 @@
 "Upcoming"
 ],
 "title": "Sheryl Lee Ralph-Produced ‘Until Everyone Is Seen’ Sets World AIDS Day Premiere on Hulu (Exclusive)"
+},
+"cebd611b6b37": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "cebd611b6b37",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdU5rcWJVZVRlcHRZRGpYYTZ5NHJfOHJReGxyUkwxaThocFpYS2NTVVpDaC0yUXRKd2ptLWRjUVF6M2NqLUtlOUNnRlV1SmJCSlVPNW13M2x6OVc3bUJWbkM2N2ZhdWhOS0pxaDV2SEt1VldnSnk2RGVzNEVXd05DYm5JSFBTWTQ?oc=5",
+"outlet": "AOL.com",
+"people": [
+"Jennifer Aniston"
+],
+"published": "2026-11-27T18:34:11+00:00",
+"query": "\"Tichina Arnold\" OR \"Ray Romano\" OR \"Kevin James\" OR \"Jennifer Aniston\" OR \"Courteney Cox\" OR \"Lisa Kudrow\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jennifer Aniston’s ‘Puddle’ Jeans Are Beyond Flattering for Women Over 40,  Copy the Look for $32"
 },
 "ced5fe24c3ad": {
 "first_seen": "2026-11-26T06:30:13+00:00",
@@ -46080,6 +48135,28 @@
 "tags": [],
 "title": "‘Home Alone’ Director Chris Columbus Said Minutes Before New Sequel Was Announced That Another Movie ‘Can’t Happen’ After Catherine O’Hara’s Death"
 },
+"d3989b0243f6": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "d3989b0243f6",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zZUNsM1pZLWZnRUVFeDZrUFlwRXp0RUtNOGwwVndVUFU2ZFpqcWUxWGQzVnJiVTJUSGJyLUVBRXNfV2pjdG9YcUVNdFVJbGJiWThqckhiRXBrRFJGRnltbTFvT29Zd1hKN0YyaE9uTndTNzdIV2VYSy11VlRKT2s?oc=5",
+"outlet": "Mashable",
+"people": [],
+"published": "2026-11-27T16:16:58+00:00",
+"query": "\"Steve Carell\" OR \"Jenna Fischer\" OR \"Angela Kinsey\" OR \"Rainn Wilson\" OR \"John Krasinski\" OR \"Mindy Kaling\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"The Office"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "'A Quiet Place' is even better when it's mashed up with 'The Office'"
+},
 "d3bd06e57df0": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -46314,6 +48391,30 @@
 "summary": "",
 "tags": [],
 "title": "Bowen Yang Apologizes for Antisemitic Remark About Regina Spektor"
+},
+"d4f3b339aa45": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "d4f3b339aa45",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1McE9BT3VJV0l2dURXYVlNWnNUVnZXbUlSbnhpUzk3bnNtTElLS25sWnc1Ui1MYmZIRE9YZ0Q2WGJNemZWd2JHeTdpTVpmWk13bEE?oc=5",
+"outlet": "IMDb",
+"people": [
+"Bryan Cranston"
+],
+"published": "2026-11-27T17:57:02+00:00",
+"query": "\"Glenn Howerton\" OR \"Frankie Muniz\" OR \"Bryan Cranston\" OR \"Wendi McLendon-Covey\" OR \"Tracee Ellis Ross\" OR \"Anthony Anderson\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Casting"
+],
+"title": "Bryan Cranston, Marianne Jean-Baptiste to Star in ‘All My Sons’ on Broadway"
 },
 "d50884efd3ae": {
 "first_seen": "2026-11-27T07:00:14+00:00",
@@ -47498,7 +49599,7 @@
 "outlet": "Entertainment Weekly",
 "people": [],
 "published": "2026-11-27T13:45:00+00:00",
-"query": "\"Girl Meets World\" OR \"Sabrina the Teenage Witch\" OR \"Step by Step\" OR \"Perfect Strangers\" OR \"Diff'rent Strokes\" OR \"The Jeffersons\"",
+"query": "\"Married... with Children\" OR \"I Love Lucy\" OR \"The Golden Girls\" OR \"Golden Girls\" OR \"Saved by the Bell\" OR \"Boy Meets World\"",
 "query_relevant": false,
 "rehash": false,
 "relevant": true,
@@ -49779,6 +51880,26 @@
 "tags": [],
 "title": "Inside Late Night : Jon Beckerman on Life Inside Letterman’s Writers’ Room"
 },
+"e4300fc200b7": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e4300fc200b7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9kcU1IdU45R3NuYnUzb285V3FWeGpJVlFVM3M1TXBhczJtS1lSZ3RxZlgwYWc3bDhUc3JfRU1XeGxoemRaT2NoSW1SbmpXaGdtcDdLV0FGcEZROEtMUWJhZFE3Unc?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-28T01:24:26+00:00",
+"query": "\"comedy series\"",
+"query_relevant": true,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Danny McBride’s Cult HBO Comedy Series Heading to Netflix for the First Time"
+},
 "e44a19747e91": {
 "first_seen": "2026-11-26T17:30:13+00:00",
 "id": "e44a19747e91",
@@ -50381,6 +52502,55 @@
 "tags": [],
 "title": "‘South Park’ Brings Back Craig and Tweek for ‘Heated Rivalry’-Inspired Episode to Celebrate the Blue Wave"
 },
+"e6e4dba3edf4": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e6e4dba3edf4",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdExPS3BNQkcwM3ZfbU5WbWNtU2ppWEdEUHFzSHZoU2JDNVZfeVJUcjU1LTNoUFlsWEVxZXZhYTY3OVFsNFB4V0Y5cUZoZGJaMm10Wkl0UlFaQmFpRTJMcXlBRkZkeGowWnZoVk95dzBOVTNrTzh5cXZHTG8wSEwzc2FUdEdBUWJXX2Y0a3l4RW53blg5eTRJV2VKLURkZHRscnBMLUtxYm9pa0M3a1B3?oc=5",
+"outlet": "Yahoo",
+"people": [
+"Zooey Deschanel"
+],
+"published": "2026-11-27T20:08:00+00:00",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jonathan Scott Shares Thanksgiving With Zooey Deschanel and Her Children"
+},
+"e6fc7d972a1c": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e6fc7d972a1c",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObExoTEFVQmJrc25rZk5VT19wQ3ZuVHZ2cDNmbFdVVkVNeXprU2RrS0xYNEZQdkRza0lUd0NDel9keWE2TW1MZTJDcXJtU1J4NFNtUzdlQnUybEZWeEFtQTl0QzdwMmptZ0gxN1BUTTBJZzBXRmFoWUoxR3h2UkhUMU5OVGZEMHdnMUF4MjFwcXNjUTFOZzhtOFJjNlhPUWJNdHVYVVpXU0NnbFFVTHpYVTJlTWJFUEV2S2EwTkJqRQ?oc=5",
+"outlet": "Mashable India",
+"people": [
+"Amy Poehler",
+"Tina Fey"
+],
+"published": "2026-11-27T12:13:42+00:00",
+"query": "\"Adam Scott\" OR \"Tina Fey\" OR \"Andy Samberg\" OR \"Terry Crews\" OR \"Stephanie Beatriz\" OR \"Zooey Deschanel\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"SNL"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Interview"
+],
+"title": "Tina Fey, Amy Poehler, And Seth Meyers Talk Their Favorite Thanksgiving 'SNL' Sketches"
+},
 "e7272834adad": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "e7272834adad",
@@ -50813,6 +52983,28 @@
 ],
 "title": "Candace Cameron Bure Recalls Being Fired After One Table Read, and the Script Was Completely Rewritten"
 },
+"e8ba7662c0f7": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e8ba7662c0f7",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUVlRNTZ0Rlh6ZDIyaDZ1SlFtcVRZRGFyN3p5WVNnX3Y4OUpSVVJBZzNyekhTOTlzQm43d1BObExfWFFqdjNBTFAzQ0VtVzBMUmJua2VZdC1wc0RkZmZpS043UVA2NXNNMlhCY3lNbTRWUnlRSHJ4YVRBTlAwY1I4WEhMZHh5akI2ZDlTQS1RYV9YbUhw?oc=5",
+"outlet": "New York Post",
+"people": [],
+"published": "2026-11-27T10:00:00+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Save 50% on 6 months of Apple TV with Black Friday deal, Stream ‘Ted Lasso,’ ‘Nocturne’ for less"
+},
 "e8bd4f7904a1": {
 "first_seen": "2026-11-22T17:30:14+00:00",
 "id": "e8bd4f7904a1",
@@ -50858,6 +53050,28 @@
 "Casting"
 ],
 "title": "'Abbott Elementary' 100th Episode: The Rizzler Joins Disneyland Fun"
+},
+"e8ec0c15864e": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e8ec0c15864e",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN1ozT0RWWWdWX0JoTlpnT2RuTGtGWmVhamxPU3FYaTFMTlM3OUNWWnVTSVdfbV9LNldkMDh1MG1RUFlNQ2FoRDFjU3d4WG5ZTy1DX1IyVWM5ekhteXpzbVhXdHpVZGVwNG9zN0hzc3RzazZBOHh1Tmx3TVhId3pqSUVFb09nYmZEUGFWbzQ5dzgzbE0?oc=5",
+"outlet": "Entertainment Weekly",
+"people": [],
+"published": "2026-11-28T00:17:35+00:00",
+"query": "\"Night Court\" OR \"The Conners\" OR \"Roseanne\" OR \"St. Denis Medical\" OR \"Brooklyn Nine-Nine\" OR \"The Office\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Roseanne"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Roseanne Barr slams JD Vance in scathing rant: ‘He is really stupid’"
 },
 "e9132deaeab1": {
 "first_seen": "2026-11-26T17:30:13+00:00",
@@ -51011,6 +53225,28 @@
 ],
 "title": "Tim Curry, star of 'The Rocky Horror Picture Show' and 'Home Alone 2,' dies at 80"
 },
+"e9d1cb2179fa": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "e9d1cb2179fa",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU1U1NDZvN1I3VWZFeTE3bHpkZlpncmYyT2UxOGpzVUZNNkd5SnFEUHp4Y1NHcVFxUkFCTVFQdUZrUGttZU1lc2MyNW1VRllOa3JIUDItLTJod2VQQ2k4V3RZYW5jQ3E2WUgzM01sVGNDY1hTMWlRQm5yX3R2d1hSdGlFV1BhMnpzU2dn?oc=5",
+"outlet": "Yahoo",
+"people": [],
+"published": "2026-11-27T20:20:05+00:00",
+"query": "\"It's Always Sunny\" OR \"Always Sunny\" OR \"How I Met Your Mother\" OR \"How I Met Your Father\" OR \"Frasier\" OR \"The Goldbergs\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Frasier"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "A Dog Named Frasier Crane Won Best of Breed. His Uncle Is Cliff Clavin and His Grandpa Is Norm"
+},
 "e9f335ae55e0": {
 "first_seen": "2026-11-24T06:30:13+00:00",
 "id": "e9f335ae55e0",
@@ -51121,6 +53357,28 @@
 "tags": [],
 "title": "Bill Maher Accuses Kimmel & Other Hosts of ‘Killing’ Late Night TV"
 },
+"eab9b2f82a45": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "eab9b2f82a45",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8wV0VGY3Rwekd3c3UzOWlfTmJTVU5abUpORVFQVjFWWjRvcWNsUGtDZlIySFZYNERIWnhCY29WSU9SZDVpektMUEg1UTV5Szk0bk5DeG9kWlNQSFlhNXBLSFBB?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T19:46:56+00:00",
+"query": "\"Ted Lasso\" OR \"Nobody Wants This\" OR \"The Bear\" OR \"Jury Duty\" OR \"English Teacher\" OR \"Mid-Century Modern\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Apple TV Confirms Ted Lasso's Future"
+},
 "eaca741b1fb5": {
 "channel_kind": "streamer",
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -51215,7 +53473,7 @@
 "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDcTd5c1ExSk1sbmM1N1hMMkFuYnNkb1l3MlgyWVlvQlA5NWxQTmxIT1hmVmxLeWZwNmt3VXRILW9ac210dV8yRGdQQUFnZzQ0R2d2WHJvYVdhWW1yNHpiUkJSdkhkOW1YVXZ4YlRnLXFvZw?oc=5",
 "outlet": "LateNighter",
 "people": [],
-"published": "2026-11-27T16:19:01+00:00",
+"published": "2026-11-27T16:20:21+00:00",
 "query": "late-night show guests",
 "query_relevant": true,
 "rehash": false,
@@ -51793,10 +54051,8 @@
 "source_type": "gnews",
 "strong": false,
 "summary": "",
-"tags": [
-"Interview"
-],
-"title": "Justin Timberlake Says Making Upcoming Doc Series Was ‘Really Cathartic’"
+"tags": [],
+"title": "Watch Justin Timberlake Reluctantly Sing Backstreet Boys on ‘Fallon’: ‘This is Sacrilegious’"
 },
 "eda8c9a17cf9": {
 "first_seen": "2026-11-22T17:30:14+00:00",
@@ -52297,6 +54553,28 @@
 "summary": "",
 "tags": [],
 "title": "Kirk Douglas' First TV Appearance Was On A Television Legend's Classic Sitcom"
+},
+"f0df005c4a63": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "f0df005c4a63",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iNXFhYTIyd3FSclJsdHN4Q1lBaF9xWGVweWltVVlvYVhCU0xZektzd19mMHdtQVgtRzg1b1JoVTFHWmJpZS02bFRrOF9wdnVmazdfLWNQczNIQkViSnlKMXFyMWhrcjFvMEpYSTYzWWdmOUx6eGc?oc=5",
+"outlet": "Comic Book Resources",
+"people": [
+"Tim Allen"
+],
+"published": "2026-11-28T01:31:53+00:00",
+"query": "\"Ashton Kutcher\" OR \"Mila Kunis\" OR \"Topher Grace\" OR \"Reba McEntire\" OR \"Tim Allen\" OR \"Cedric the Entertainer\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Tim Allen's Home Improvement Follow-Up Is Finally Heading to Netflix"
 },
 "f12a37914e31": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -52982,6 +55260,28 @@
 ],
 "title": "‘The Murder of JonBenét Ramsey’ Trailer: Netflix’s True Crime Series Stars Melissa McCarthy, Clive Owen"
 },
+"f3e0028db064": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "f3e0028db064",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ONl9QTVpUNEg5THlEclNiWjcxS1QxSlNKd04tWjFXZ3Y1bGpjX3ozNTFQeTB4ZzhQUXhCV0lqTkhxazgyWmN0anJ0dmJWRGpveUxMZEpZVEtDdUZuY3hhcTlmTVBiQQ?oc=5",
+"outlet": "IMDb",
+"people": [
+"Candace Cameron Bure"
+],
+"published": "2026-11-27T23:59:39+00:00",
+"query": "\"Martin Lawrence\" OR \"Queen Latifah\" OR \"Bob Saget\" OR \"John Stamos\" OR \"Candace Cameron Bure\" OR \"Fran Drescher\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Candace Cameron Bure Makes Bold Claim About ‘The View’ Hosting Gig"
+},
 "f3f4686d4da0": {
 "first_seen": "2026-11-25T06:30:11+00:00",
 "id": "f3f4686d4da0",
@@ -53217,6 +55517,28 @@
 "tags": [],
 "title": "Roseanne Barr Blasts Vice President JD Vance in Fiery Rant: ‘Just Resign Now!’"
 },
+"f4c840174083": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "f4c840174083",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNUmdseDRvYTA2WEI5XzQ5S0dFMEFPOTl1N0FwRjBZRkJYZHJxbnlDT1RyZUVQODY0Y29RWlRrYTBoYl9pSkxuYjVVTWNYbElZTXNxTm1VVTFzcmxJZC0zd3o0d3pZTUctUDZmc0taQVFpZURMaHVTWHdWNWR0U1Y4ZTBXSkZ0QnhSSVR4d0c1UFRXcmhRQ3lWZmJBdDQwYkx5MFFLYmRrc1pNcENMZm5mRC1DR0FUQ3dVRGwteUFOWTZJd3U4RjNrcWQ3ZGhXTE55Tm96RXJYRmJOX0xfbFhaMXBsdk1LUk5SUzltQVJTcm42djFMc2QwM3NPMkxwa2V0RWw4dnF1dVROZk15TEJmYw?oc=5",
+"outlet": "primetimer.com",
+"people": [
+"Sofia Vergara"
+],
+"published": "2026-11-27T16:56:00+00:00",
+"query": "\"Jake Johnson\" OR \"Max Greenfield\" OR \"Lamorne Morris\" OR \"Sofia Vergara\" OR \"Ty Burrell\" OR \"Julie Bowen\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "\"Are we looking at the next Nicki Minaj?\": Netizens call out Sofia Vergara as her appearance alongside Colombia's far-right President raises eyebrows online"
+},
 "f4cb31e85cb1": {
 "channel_kind": "outlet",
 "first_seen": "2026-11-21T06:30:15+00:00",
@@ -53282,6 +55604,28 @@
 "summary": "",
 "tags": [],
 "title": "‘SNL’ Heads to France With Canal+, NBCUniversal Unveiling Cast and Manu Payet as First Host (Exclusive)"
+},
+"f4e910c77e54": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "f4e910c77e54",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xZmZFRktHTE5BRTlZOElweEtVQkVpZ1RuX2FHejQtZTdxWlZJTV9MakpzamdHeE8wMHVfVmtnc0tmcFFZdWg1VGVnTnJ3Z3J0czZvNTJ3ZFQyOUQzZHNpdDNn?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T21:37:30+00:00",
+"query": "\"Saturday Night Live\" OR \"SNL\" OR \"Jimmy Kimmel Live\" OR \"The Tonight Show\" OR \"Late Night with Seth Meyers\" OR \"The Late Show\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Jimmy Kimmel Live"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "Jimmy Kimmel Live: Timothée Chalamet, Snoop Dogg, Lucy Woodward"
 },
 "f4fcc4c434a4": {
 "first_seen": "2026-11-25T06:30:11+00:00",
@@ -53788,6 +56132,32 @@
 "Renewal"
 ],
 "title": "‘Ted Lasso’ Renewed For Season 5 By Apple TV"
+},
+"f78e465b0bb9": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "f78e465b0bb9",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53aE5Eb0QtcVFURUtVXzhEZ2JxQ0dLS3pIUjVqSmdUYkRwT2RMYWNsY1lmaFFDUkRkeEZ3U3VLbFBwVzhvUmFUd2tVbWhXZEN3TXpPV2psbHBCWGNGX3FYcjRuR19jcGc?oc=5",
+"outlet": "IMDb",
+"people": [
+"Jason Sudeikis"
+],
+"published": "2026-11-28T00:30:53+00:00",
+"query": "\"Jason Sudeikis\" OR \"Hannah Waddingham\" OR \"Brett Goldstein\" OR \"Kristen Wiig\" OR \"Maya Rudolph\" OR \"Ayo Edebiri\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"Ted Lasso"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [
+"Renewal"
+],
+"title": "‘Ted Lasso’ Season 5 Officially Renewed at Apple TV. Jason Sudeikis Is Returning"
 },
 "f7982dd82493": {
 "first_seen": "2026-11-26T17:30:13+00:00",
@@ -54943,6 +57313,28 @@
 "Trailer"
 ],
 "title": "Marisa Tomei & Kelly Macdonald feud in WAR Season 2 | Sneak Peek"
+},
+"fc16f3239f82": {
+"first_seen": "2026-11-28T06:30:14+00:00",
+"id": "fc16f3239f82",
+"kind": "article",
+"link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Od2ZVNmJaRF9Lcy1FSzhsdHpaRWE5ZGt1NTZVQ1IzWWdTVFhzaGVneC14WUxpbXJ5SkttMTI5ampkVUxfV0RYZ1JMTE9RUENfTEh0MXpqVUJMM2dtaVVXYU14cG9xS0Zu?oc=5",
+"outlet": "IMDb",
+"people": [],
+"published": "2026-11-27T06:56:48+00:00",
+"query": "\"Family Guy\" OR \"Bob's Burgers\" OR \"King of the Hill\" OR \"South Park\" OR \"Futurama\" OR \"American Dad\"",
+"query_relevant": false,
+"rehash": false,
+"relevant": true,
+"shows": [
+"South Park"
+],
+"sitcom": false,
+"source_type": "gnews",
+"strong": true,
+"summary": "",
+"tags": [],
+"title": "South Park's Season 29 Finale Features The Scariest TV Scene Of 2026"
 },
 "fc1ddeaaa01b": {
 "first_seen": "2026-11-23T17:30:12+00:00",
@@ -124574,6 +126966,1507 @@
 "scott",
 "stat",
 "video"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"3705a2307111"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"all",
+"blend",
+"crime",
+"deliver",
+"episod",
+"genr",
+"hbo",
+"masterclas",
+"masterpiece"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"acfa51b83c69"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"billy",
+"bob",
+"crime",
+"hit",
+"holiday",
+"later",
+"masterpiece",
+"officially",
+"stream",
+"thornton",
+"year"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"7282d22919c8",
+"9195c2877015"
+],
+"people": [],
+"shows": [
+"Seinfeld"
+],
+"tags": [],
+"tokens": [
+"abbey",
+"aren",
+"bob",
+"downton",
+"easier",
+"escape",
+"greenblatt",
+"opin",
+"sampl",
+"seinfeld",
+"today",
+"viewer"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"216cbe35f871",
+"4addf823e66d",
+"6df59d6a59f7"
+],
+"people": [],
+"shows": [
+"SNL",
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"aired",
+"criticiz",
+"during",
+"israel",
+"nbc",
+"policy",
+"pull",
+"snl",
+"speci",
+"thanksgiv"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"b2ff2533a70a",
+"964f935b2ef2",
+"95dc6177d0e2"
+],
+"people": [],
+"shows": [
+"South Park"
+],
+"tags": [],
+"tokens": [
+"file",
+"garner",
+"jame",
+"origin",
+"park",
+"recurr",
+"rockford",
+"role",
+"south"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"a757a7322e10"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"aid",
+"approv",
+"backlash",
+"criticiz",
+"israel",
+"military",
+"nbc",
+"proces",
+"pull",
+"review"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"167331fd4b1f"
+],
+"people": [
+"Anthony Anderson"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"2026",
+"award",
+"dolly",
+"featur",
+"freddie",
+"jackson",
+"parton",
+"soul",
+"stream",
+"train",
+"tribut"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"260f61ba61e6"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"comedy",
+"early",
+"john",
+"kitschy",
+"maddie",
+"netflix",
+"secret",
+"sincere",
+"skip",
+"stream",
+"weirdly"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"4895de8c36fd"
+],
+"people": [
+"Zooey Deschanel"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"cast",
+"chang",
+"deschanel",
+"elf",
+"ferrell",
+"later",
+"now",
+"see",
+"then",
+"year",
+"zooey"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"e39b7c0ed9c8"
+],
+"people": [
+"Kaitlin Olson"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"ava",
+"daughter",
+"high",
+"morgan",
+"mother",
+"potenti",
+"realistic",
+"relationship"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"10d9d2f77c68"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"action",
+"alan",
+"buddy",
+"comedy",
+"hulu",
+"owen",
+"pack",
+"ritchson",
+"runner",
+"skip",
+"stream",
+"wilson"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"196982b37839",
+"050a54e139b1"
+],
+"people": [
+"Will Smith"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"fans",
+"gets",
+"love",
+"major",
+"movie",
+"sequel",
+"smith",
+"superhero",
+"update"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"9ba3093b9f80",
+"caa7d12d2b5e",
+"91c95556717a"
+],
+"people": [
+"Bowen Yang",
+"Bryan Cranston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"bowen",
+"bryan",
+"buzz",
+"cranston",
+"movie",
+"oscar",
+"releas",
+"rogen",
+"seth",
+"theater",
+"today",
+"yang"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"cbabaad90652"
+],
+"people": [],
+"shows": [
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"again",
+"aid",
+"air",
+"backlash",
+"israel",
+"military",
+"nbc",
+"oppos",
+"won"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"03df62c810a4"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"airplane",
+"cast",
+"demand",
+"down",
+"ethel",
+"film",
+"harriet",
+"merman",
+"nelson",
+"reveal",
+"turn",
+"unusu"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"208583c29d79"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"carl",
+"crawler",
+"dinniman",
+"dungeon",
+"matt",
+"rule",
+"won"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"6d46854ea1aa",
+"f3e0028db064",
+"83892d202270",
+"b3722bdb9def",
+"990fa193f9f9"
+],
+"people": [
+"Candace Cameron Bure"
+],
+"shows": [
+"Full House"
+],
+"tags": [],
+"tokens": [
+"bold",
+"bure",
+"cameron",
+"candace",
+"claim",
+"gig",
+"host",
+"make",
+"view"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"c9181693ac6c"
+],
+"people": [],
+"shows": [
+"Saturday Night Live"
+],
+"tags": [],
+"tokens": [
+"davidson",
+"dynamic",
+"elsie",
+"hewitt",
+"parent",
+"pete",
+"thanksgiv"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"0de2a17235df"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"gems",
+"great",
+"hidden",
+"netflix",
+"watch"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"fb48a7b5e550"
+],
+"people": [],
+"shows": [
+"Happy Days"
+],
+"tags": [],
+"tokens": [
+"before",
+"broke",
+"chang",
+"henry",
+"life",
+"lonely",
+"once",
+"stallone",
+"sylvester",
+"winkler"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"6e52db19a0fa"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"amazon",
+"aniston",
+"exact",
+"fragrance",
+"jennifer",
+"like",
+"smell",
+"want"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"1c3154de748b"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Cancel/End"
+],
+"tokens": [
+"138",
+"cancel",
+"cbs",
+"confirm",
+"episode",
+"home",
+"later",
+"sitcom",
+"stream",
+"year"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"4ce452dc5353"
+],
+"people": [
+"Jenna Ortega"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"chicken",
+"extra",
+"jenna",
+"lady",
+"look",
+"movie",
+"orlean",
+"ortega"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"f0df005c4a63"
+],
+"people": [
+"Tim Allen"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"allen",
+"finally",
+"follow",
+"head",
+"home",
+"improvement",
+"netflix",
+"tim"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"e4300fc200b7",
+"db738749c124"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"comedy",
+"cult",
+"danny",
+"hbo",
+"head",
+"mcbride",
+"netflix",
+"time"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"839e92d1c7cf"
+],
+"people": [
+"Anthony Anderson"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"anderson",
+"anthony",
+"award",
+"cbs",
+"chat",
+"chicago",
+"host",
+"music",
+"news",
+"soul",
+"train"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"94cc567a4766"
+],
+"people": [
+"Kristen Bell"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"bell",
+"christma",
+"down",
+"help",
+"kids",
+"kristen",
+"morn",
+"reveal",
+"savor",
+"slow",
+"speci",
+"tradition"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"e8ec0c15864e"
+],
+"people": [],
+"shows": [
+"Roseanne"
+],
+"tags": [],
+"tokens": [
+"barr",
+"rant",
+"really",
+"roseanne",
+"scath",
+"slam",
+"stupid",
+"vance"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"44ec174bcb97"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"aniston",
+"dry",
+"face",
+"jennifer",
+"mist",
+"nose",
+"rosewater",
+"saved",
+"say",
+"shopper",
+"uses"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"8a207e128177"
+],
+"people": [],
+"shows": [
+"Sister, Sister"
+],
+"tags": [],
+"tokens": [
+"basketball",
+"bring",
+"chemistry",
+"court",
+"drexel",
+"sets",
+"sibling",
+"sister",
+"team"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"2e051e82d802"
+],
+"people": [],
+"shows": [
+"Abbott Elementary"
+],
+"tags": [],
+"tokens": [
+"abbott",
+"abc",
+"airs",
+"courtney",
+"elementary",
+"episode",
+"photo",
+"tonight"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"41b52344b1c9"
+],
+"people": [
+"Dan Levy"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"dan",
+"levy"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"bda9fb02d483",
+"7a56722730e7"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Death"
+],
+"tokens": [
+"dies",
+"gayle",
+"king",
+"law",
+"miller",
+"son",
+"virgil"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"4364b43bb101",
+"2267860c352d"
+],
+"people": [],
+"shows": [
+"The Tonight Show"
+],
+"tags": [],
+"tokens": [
+"arnett",
+"busta",
+"fallon",
+"fran",
+"hunter",
+"jimmy",
+"lebowitz",
+"rhym",
+"schafer",
+"starr",
+"tonight"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"abf35d47969c"
+],
+"people": [
+"Chuck Lorre"
+],
+"shows": [
+"Young Sheldon"
+],
+"tags": [
+"Interview"
+],
+"tokens": [
+"been",
+"cameo",
+"chuck",
+"couldn",
+"elon",
+"film",
+"lorre",
+"musk",
+"sheldon",
+"sweeter",
+"while",
+"young"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"7a08d0089aa1"
+],
+"people": [
+"John Stamos"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"character",
+"dark",
+"hunt",
+"john",
+"netflix",
+"stamo",
+"transform",
+"wive"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"0cb6f6dcbfa8"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"80s",
+"flew",
+"gossett",
+"loui",
+"radar",
+"sci",
+"starr",
+"under"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"a930b07ffbdb"
+],
+"people": [],
+"shows": [],
+"tags": [],
+"tokens": [
+"70s",
+"acting",
+"away",
+"career",
+"child",
+"decad",
+"during",
+"hollywood",
+"look",
+"outing",
+"rare",
+"unrecognizable",
+"walk"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"52bfbba9e250",
+"4b30eaeecc79",
+"937b280d77a8"
+],
+"people": [],
+"shows": [
+"The Simpsons"
+],
+"tags": [],
+"tokens": [
+"accurate",
+"all",
+"california",
+"eerily",
+"made",
+"prediction",
+"simpson",
+"time"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"f4e910c77e54"
+],
+"people": [],
+"shows": [
+"Jimmy Kimmel Live"
+],
+"tags": [],
+"tokens": [
+"chalamet",
+"dogg",
+"jimmy",
+"kimmel",
+"live",
+"lucy",
+"snoop",
+"timothee",
+"woodward"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"00e071cf0879"
+],
+"people": [
+"Will Smith"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"days",
+"estate",
+"family",
+"fire",
+"gratitude",
+"jada",
+"message",
+"pinkett",
+"shar",
+"smith",
+"thanksgiv",
+"three"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"027fadbf6287"
+],
+"people": [
+"Will Smith"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"berg",
+"confirm",
+"hancock",
+"officially",
+"peter",
+"return",
+"smith"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"01496fe8763e"
+],
+"people": [
+"Kevin Hart"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"cast",
+"celebrat",
+"hart",
+"hilariously",
+"jumanji",
+"kevin",
+"tantrum",
+"temper",
+"thanksgiv",
+"throw",
+"video"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"e9d1cb2179fa"
+],
+"people": [],
+"shows": [
+"Frasier"
+],
+"tags": [],
+"tokens": [
+"best",
+"breed",
+"clavin",
+"cliff",
+"crane",
+"dog",
+"frasier",
+"grandpa",
+"named",
+"norm",
+"uncle",
+"won"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"5d7a22014ec4"
+],
+"people": [],
+"shows": [
+"Young Sheldon"
+],
+"tags": [],
+"tokens": [
+"absent",
+"character",
+"criminally",
+"divisive",
+"highlight",
+"mandy",
+"marriage",
+"sheldon",
+"story",
+"young"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"6d9cf32d0269"
+],
+"people": [
+"Amy Poehler",
+"Tina Fey"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"amy",
+"bad",
+"doll",
+"everyth",
+"fey",
+"holiday",
+"meyer",
+"nightmare",
+"poehler",
+"seth",
+"terrifi",
+"tina",
+"virgin"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"a371ed396fe6"
+],
+"people": [],
+"shows": [
+"Boy Meets World"
+],
+"tags": [],
+"tokens": [
+"boy",
+"end",
+"friedle",
+"hewitt",
+"jennifer",
+"kill",
+"love",
+"meet",
+"off",
+"prove",
+"romance",
+"world",
+"would"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"53f85dc52694"
+],
+"people": [
+"Kaley Cuoco"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"baby",
+"celebrat",
+"cuoco",
+"family",
+"grow",
+"kaley",
+"philomena",
+"thanksgiv"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"b990de966c64",
+"b1e5e931e007"
+],
+"people": [],
+"shows": [
+"M*A*S*H"
+],
+"tags": [],
+"tokens": [
+"alan",
+"alda",
+"bond",
+"cast",
+"cold",
+"day",
+"help",
+"shar",
+"weather"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"476e8aee919b",
+"1d09113379f2"
+],
+"people": [],
+"shows": [
+"Family Guy"
+],
+"tags": [],
+"tokens": [
+"christma",
+"clip",
+"display",
+"family",
+"full",
+"griffin",
+"guy",
+"jealousy",
+"peter",
+"puts",
+"santa",
+"speci"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"a694004b08e8"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Arrest"
+],
+"tokens": [
+"1000",
+"abuse",
+"arrest",
+"child",
+"sister"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"b73cb5eb3ef5"
+],
+"people": [
+"Charlie Sheen"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"candid",
+"chao",
+"charlie",
+"daughter",
+"gets",
+"sheen",
+"thanksgiv"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"8f9e1874a6b7"
+],
+"people": [
+"Amy Poehler"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"amy",
+"archeology",
+"cast",
+"dig",
+"poehler",
+"skill",
+"test"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"f4c840174083"
+],
+"people": [
+"Sofia Vergara"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"alongside",
+"appearance",
+"call",
+"colombia",
+"eyebrow",
+"far",
+"look",
+"minaj",
+"netizen",
+"next",
+"nicki",
+"online",
+"president",
+"rais",
+"right",
+"sofia",
+"vergara"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"d3989b0243f6"
+],
+"people": [],
+"shows": [
+"The Office"
+],
+"tags": [],
+"tokens": [
+"better",
+"even",
+"mash",
+"office",
+"place",
+"quiet"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"b51e497f9b5f"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"90s",
+"aniston",
+"ariana",
+"denim",
+"grande",
+"jenner",
+"jennifer",
+"kendall",
+"repeat",
+"trend",
+"wear",
+"winteriz"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"b7e4a1549926"
+],
+"people": [],
+"shows": [],
+"tags": [
+"Trailer",
+"Upcoming"
+],
+"tokens": [
+"avenger",
+"came",
+"doomsday",
+"give",
+"latveria",
+"look",
+"our",
+"ready",
+"roger",
+"steve"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"665854a5bbff"
+],
+"people": [],
+"shows": [
+"Golden Girls"
+],
+"tags": [],
+"tokens": [
+"being",
+"book",
+"forever",
+"girl",
+"golden",
+"thank",
+"you"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"152da34fa956"
+],
+"people": [
+"Hannah Waddingham"
+],
+"shows": [
+"Ted Lasso"
+],
+"tags": [],
+"tokens": [
+"actres",
+"award",
+"consideration",
+"hannah",
+"lasso",
+"lead",
+"switch",
+"ted",
+"waddingham"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"39de83299448"
+],
+"people": [
+"Jennifer Aniston"
+],
+"shows": [],
+"tags": [],
+"tokens": [
+"aniston",
+"exact",
+"get",
+"jennifer",
+"kidman",
+"like",
+"nicole",
+"oil",
+"perfume",
+"roll",
+"smell",
+"want"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"566391c5d504"
+],
+"people": [
+"Charlie Sheen"
+],
+"shows": [],
+"tags": [
+"Interview"
+],
+"tokens": [
+"back",
+"charlie",
+"emilio",
+"estevez",
+"fought",
+"punch",
+"recall",
+"sheen",
+"spoon",
+"teen",
+"wooden"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"8af439323308"
+],
+"people": [],
+"shows": [
+"SNL"
+],
+"tags": [],
+"tokens": [
+"funny",
+"here",
+"isn",
+"opinion",
+"problem",
+"sister",
+"skit",
+"snl"
+]
+},
+{
+"at": "2026-11-28T06:30:14+00:00",
+"edition": "2026-11-28-morning",
+"ids": [
+"e8ba7662c0f7"
+],
+"people": [],
+"shows": [
+"Ted Lasso"
+],
+"tags": [],
+"tokens": [
+"apple",
+"black",
+"deal",
+"friday",
+"lasso",
+"less",
+"month",
+"nocturne",
+"save",
+"stream",
+"ted"
 ]
 }
 ]
